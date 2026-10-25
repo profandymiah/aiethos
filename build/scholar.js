@@ -54,33 +54,29 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
 (async () => {
   const cand = new Map();
   for (const [tid, q] of THEMES) {
+    const terms = q.replace(/[()"*]|\bOR\b|\bAND\b/g, ' ').replace(/\s+/g, ' ').trim();
     for (let y = FROM; y <= TO; y++) {
       if (Date.now() - T0 > BUDGET) break;
-      const expr = `${BASE} AND ${ETH} AND (${q})`.replace(/\*/g, '');
-      const url = `https://api.openalex.org/works?filter=title_and_abstract.search:${encodeURIComponent(expr)},type:article,publication_year:${y},primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=${MAIL}`;
-      let d = await j(url);
-      if (!d) {
-        const plain = `https://api.openalex.org/works?search=${encodeURIComponent('artificial intelligence ethics ' + q.replace(/[()"*]|\bOR\b|\bAND\b/g, ' ').replace(/\s+/g, ' ').trim())}&filter=type:article,publication_year:${y},primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=${MAIL}`;
-        d = await j(plain);
-        if (d) d.results = (d.results || []).filter(w => AIRE.test(w.title || '') && ETHRE.test(w.title || ''));
-      }
-      if (!d) continue;
+      const url = `https://api.crossref.org/works?query.bibliographic=${encodeURIComponent('artificial intelligence ethics ' + terms)}&filter=type:journal-article,from-pub-date:${y}-01-01,until-pub-date:${y}-12-31,has-abstract:true&sort=is-referenced-by-count&order=desc&rows=60&select=DOI,title,publisher,container-title,ISSN,issued,is-referenced-by-count,author,type&mailto=${MAIL}`;
+      const d = await j(url); if (!d) continue;
       let kept = 0;
-      for (const w of d.results || []) {
-        const src = w.primary_location && w.primary_location.source;
-        const p = pub(src && src.host_organization_name);
-        if (!p || EXCLUDE.has(p) || !w.doi) continue;
-        if (!w.title || /^(editorial|erratum|correction|corrigendum)/i.test(w.title)) continue;
-        if ((w.cited_by_count || 0) < (y >= TO - 2 ? 10 : 30)) continue;
-        const doi = w.doi.replace('https://doi.org/', '').toLowerCase();
-        const c = cand.get(doi) || { doi, title: w.title, year: w.publication_year, cited_by: w.cited_by_count, journal: src.display_name,
-          issn: src.issn_l, publisher: p, publisher_raw: src.host_organization_name, authors: (w.authorships || []).slice(0, 4).map(a => a.author.display_name),
-          theme_ids: [], oa: !!(w.open_access && w.open_access.is_oa), openalex: w.id, in_doaj: !!(src && src.is_in_doaj) };
+      for (const m of (d.message && d.message.items) || []) {
+        const title = (m.title && m.title[0]) || '';
+        if (!title || !AIRE.test(title) || !ETHRE.test(title)) continue;
+        if (/^(editorial|erratum|correction|corrigendum|retraction)/i.test(title)) continue;
+        const p = pub(m.publisher);
+        if (!p || EXCLUDE.has(p)) continue;
+        const cites = m['is-referenced-by-count'] || 0;
+        if (cites < (y >= TO - 2 ? 8 : 25)) continue;
+        const doi = m.DOI.toLowerCase();
+        const c = cand.get(doi) || { doi, title, year: y, cited_by: cites, journal: (m['container-title'] && m['container-title'][0]) || '',
+          issn: (m.ISSN || [])[0], publisher: p, publisher_raw: m.publisher, authors: (m.author || []).slice(0, 4).map(a => [a.given, a.family].filter(Boolean).join(' ')),
+          theme_ids: [], oa: false, openalex: null, in_doaj: false };
         if (!c.theme_ids.includes(tid)) c.theme_ids.push(tid);
         cand.set(doi, c);
         if (++kept >= 6) break;
       }
-      await sleep(120);
+      await sleep(150);
     }
     console.log(tid, cand.size);
   }
@@ -114,7 +110,7 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
   }
   out.sort((a, b) => a.year - b.year || b.cited_by - a.cited_by);
   fs.mkdirSync('library', { recursive: true });
-  fs.writeFileSync('library/scholarly.json', JSON.stringify({ generated: new Date().toISOString(), source: 'OpenAlex candidate search (Google Scholar has no API and blocks automated access), verified against Crossref',
+  fs.writeFileSync('library/scholarly.json', JSON.stringify({ generated: new Date().toISOString(), source: 'Crossref search ranked by citations, filtered for AI plus ethics terms in the title (Google Scholar has no API and blocks automated access; OpenAlex rate-limited), journal-article type, publisher whitelist and retraction checks',
     window: [FROM, TO], themes: THEMES.map(([id, q]) => ({ id, query: q })), publishers: [...new Set(PUBLISHERS.map(p => p[1]))].filter(p => !EXCLUDE.has(p)),
     diagnostics: DIAG, counts: { candidates: cand.size, verified: out.length, rejected: rejected.length }, rejected, papers: out }, null, 1));
   console.log('done', out.length, 'verified;', rejected.length, 'rejected');
