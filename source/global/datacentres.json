@@ -42,9 +42,65 @@
       "type": "secondary",
       "date": "2026-03",
       "accessed": "2026-10-25"
+    },
+    {
+      "id": "S6",
+      "title": "Gulf AI data centres 2026: UAE, Saudi Arabia and Qatar compared",
+      "publisher": "safeguard.sh",
+      "url": "https://safeguard.sh/resources/blog/gulf-ai-data-centres-2026-uae-saudi-arabia-qatar-compared",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S7",
+      "title": "Stargate UAE: Inside the Largest AI Campus Outside the US",
+      "publisher": "EvolvX",
+      "url": "https://blog.evolvxai.com/blog/stargate-uae-ai-campus",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S8",
+      "title": "Google Defends $15B India AI Hub Amid Water Fears",
+      "publisher": "Tech Insider",
+      "url": "https://tech-insider.org/google-defends-15-billion-india-ai-hub-water-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S9",
+      "title": "UK AI Growth Zones: Sites and Grid Evidence",
+      "publisher": "Data Centre Axis",
+      "url": "https://datacentreaxis.com/uk/intel/ai-growth-zones/",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S10",
+      "title": "The EU's AI Gigafactory Initiative",
+      "publisher": "STL Partners",
+      "url": "https://stlpartners.com/articles/data-centres/eu-ai-gigafactory-initiative/",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S11",
+      "title": "Global energy demands within the AI regulatory landscape",
+      "publisher": "Brookings",
+      "url": "https://www.brookings.edu/articles/global-energy-demands-within-the-ai-regulatory-landscape/",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S12",
+      "title": "Nscale, Aker, and OpenAI to launch Stargate Norway with 230 MW data center",
+      "publisher": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4475130-nscale-aker-and-openai-to-launch-stargate-norway-with-230-mw-data-center",
+      "type": "secondary",
+      "accessed": "2026-10-25"
     }
   ],
-  "note": "Running-power figures are Epoch AI estimates relayed by a secondary source, not metered readings. Locations are approximate.",
+  "note": "Running-power figures are Epoch AI estimates relayed by a secondary source. Locations are approximate and some are region or country level. Ratings are editorial and provisional.",
   "sites": [
     {
       "id": "rainier",
@@ -59,7 +115,9 @@
       "source_ids": [
         "S1"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "stage": "operating",
+      "criteria": {}
     },
     {
       "id": "colossus",
@@ -74,7 +132,25 @@
       "source_ids": [
         "S1"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "stage": "operating",
+      "criteria": {
+        "carbon": {
+          "score": 20,
+          "note": "Runs largely on gas turbines across the state line; a roughly 1.2 GW permanent plant received an air permit in March 2026.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "air_health": {
+          "score": 15,
+          "note": "On-site gas generation and permitting are the main local flashpoint.",
+          "source_ids": [
+            "S1",
+            "S2"
+          ]
+        }
+      }
     },
     {
       "id": "fairwater-ga",
@@ -89,7 +165,17 @@
       "source_ids": [
         "S1"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "stage": "operating",
+      "criteria": {
+        "water": {
+          "score": 70,
+          "note": "Closed-loop cooling; initial fill reported as roughly what 20 homes use in a year.",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      }
     },
     {
       "id": "prometheus",
@@ -104,7 +190,9 @@
       "source_ids": [
         "S1"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "stage": "operating",
+      "criteria": {}
     },
     {
       "id": "abilene",
@@ -119,7 +207,9 @@
       "source_ids": [
         "S1"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "stage": "operating",
+      "criteria": {}
     },
     {
       "id": "fairwater-wi",
@@ -134,7 +224,9 @@
       "source_ids": [
         "S1"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "stage": "operating",
+      "criteria": {}
     },
     {
       "id": "hyperion",
@@ -149,7 +241,322 @@
       "source_ids": [
         "S1"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "stage": "operating",
+      "criteria": {
+        "carbon": {
+          "score": 25,
+          "note": "Power comes from new gas plants approved by Louisiana regulators in 2025.",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stargate-uae",
+      "name": "Stargate UAE",
+      "operator": "G42 (Khazna), OpenAI, Oracle, NVIDIA, Cisco, SoftBank",
+      "place": "Abu Dhabi, UAE",
+      "lat": 24.45,
+      "lon": 54.38,
+      "stage": "planned",
+      "capacity": "1 GW first cluster within a planned 5 GW campus; first 200 MW targeted Q3 2026 (unconfirmed)",
+      "status": "Under development; no source confirms the first phase is in service",
+      "ethics": "Power source, cooling method, water use and PUE were not published in the sources used.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "transparency": {
+          "score": 25,
+          "note": "Key environmental data (power, cooling, water, PUE) not published; schedule only partly confirmed.",
+          "source_ids": [
+            "S6",
+            "S7"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stargate-norway",
+      "name": "Stargate Norway",
+      "operator": "Nscale, Aker, OpenAI",
+      "place": "Norway (site not confirmed in the sources; northern Norway shown approximately)",
+      "lat": 68.44,
+      "lon": 17.43,
+      "stage": "planned",
+      "capacity": "230 MW planned, with ambitions to expand",
+      "status": "Announced 31 July 2025",
+      "ethics": "Cited as an example of hydropower, direct-to-chip liquid cooling and waste-heat reuse.",
+      "source_ids": [
+        "S10",
+        "S12"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "carbon": {
+          "score": 88,
+          "note": "Hydropower reported.",
+          "source_ids": [
+            "S10"
+          ]
+        },
+        "water": {
+          "score": 70,
+          "note": "Direct-to-chip liquid cooling reported; water figures not given.",
+          "source_ids": [
+            "S10"
+          ]
+        },
+        "grid_fairness": {
+          "score": 60,
+          "note": "Waste-heat reuse reported; effect on local power prices not covered.",
+          "source_ids": [
+            "S10"
+          ]
+        }
+      }
+    },
+    {
+      "id": "google-vizag",
+      "name": "Google AI hub, Visakhapatnam",
+      "operator": "Google with AdaniConneX",
+      "place": "Visakhapatnam, Andhra Pradesh, India",
+      "lat": 17.69,
+      "lon": 83.22,
+      "stage": "under_construction",
+      "capacity": "About 1 GW reported (clearance papers reportedly cite up to 2.51 GW, disputed); more than 600 acres over three sites",
+      "status": "Expected operational 2028; High Court challenge filed August 2026 over environmental clearances",
+      "ethics": "Google says it will use advanced air cooling and replenish 120% of freshwater consumed for non-cooling uses by 2030; campaigners cite water, power, land and jobs.",
+      "source_ids": [
+        "S8",
+        "S2"
+      ],
+      "confidence": "medium",
+      "criteria": {
+        "water": {
+          "score": 65,
+          "note": "Air cooling instead of water cooling and a 120% replenishment target (company claims).",
+          "source_ids": [
+            "S8"
+          ]
+        },
+        "grid_fairness": {
+          "score": 55,
+          "note": "Conditional company pledge not to take power from a community; unverified.",
+          "source_ids": [
+            "S8"
+          ]
+        },
+        "transparency": {
+          "score": 35,
+          "note": "Capacity figures disputed (about 1 GW versus up to 2.51 GW) and renewable plans not described.",
+          "source_ids": [
+            "S8"
+          ]
+        },
+        "community": {
+          "score": 30,
+          "note": "Lighter-touch environmental clearance, limited public hearings alleged, and doubts over local jobs.",
+          "source_ids": [
+            "S8"
+          ]
+        }
+      }
+    },
+    {
+      "id": "humain",
+      "name": "Humain campuses",
+      "operator": "Humain (Public Investment Fund)",
+      "place": "Riyadh and Dammam, Saudi Arabia",
+      "lat": 24.71,
+      "lon": 46.68,
+      "stage": "planned",
+      "capacity": "Up to 100 MW per site initially; 1 GW by 2027 and 6 GW by 2030 reported (sources conflict)",
+      "status": "Construction reported starting early to mid 2026",
+      "ethics": "Water, cooling and PUE not stated; national pledge of 50% renewable electricity by 2030.",
+      "source_ids": [
+        "S6"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "transparency": {
+          "score": 20,
+          "note": "Targets conflict between reports and water, cooling and PUE are not stated.",
+          "source_ids": [
+            "S6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "qai-qatar",
+      "name": "Qai AI infrastructure",
+      "operator": "Qatar Investment Authority with Brookfield",
+      "place": "Qatar (site not published; Doha shown)",
+      "lat": 25.29,
+      "lon": 51.53,
+      "stage": "proposed",
+      "capacity": "US$20bn joint venture; capacity not published",
+      "status": "Announced; no sites, megawatts or timeline published",
+      "ethics": "Gas production framed as the advantage.",
+      "source_ids": [
+        "S6"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "transparency": {
+          "score": 15,
+          "note": "No sites, capacity or timeline published.",
+          "source_ids": [
+            "S6"
+          ]
+        },
+        "carbon": {
+          "score": 25,
+          "note": "Case rests on gas production.",
+          "source_ids": [
+            "S6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "uk-culham",
+      "name": "AI Growth Zone: Culham",
+      "operator": "UK Atomic Energy Authority campus (no operator named)",
+      "place": "Culham, Oxfordshire, UK",
+      "lat": 51.66,
+      "lon": -1.23,
+      "stage": "proposed",
+      "capacity": "About 100 MW initially; expansion to 500 MW explored",
+      "status": "Expression of interest and initial proposal",
+      "ethics": "Grid claims come from the campus proposal; no independent confirmation. No water or sustainability data in the source.",
+      "source_ids": [
+        "S9",
+        "S4"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "transparency": {
+          "score": 35,
+          "note": "No water or sustainability disclosure; no universal UK water-use reporting requirement.",
+          "source_ids": [
+            "S9",
+            "S5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "uk-northeast",
+      "name": "AI Growth Zone: North East England",
+      "operator": "Nscale quoted; sites at Blyth and Cobalt Park",
+      "place": "Blyth and Cobalt Park, North East England, UK",
+      "lat": 55.13,
+      "lon": -1.51,
+      "stage": "planned",
+      "capacity": "Ambition of 1.1 GW over six years (quoted target)",
+      "status": "Announced 16 September 2025",
+      "ethics": "Target power is an ambition, not secured supply.",
+      "source_ids": [
+        "S9"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "transparency": {
+          "score": 35,
+          "note": "Power figure is a quoted ambition; no water or sustainability data.",
+          "source_ids": [
+            "S9"
+          ]
+        },
+        "grid_fairness": {
+          "score": 40,
+          "note": "Government says its ability to accelerate connections is extremely limited.",
+          "source_ids": [
+            "S9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "uk-lanarkshire",
+      "name": "AI Growth Zone: North Lanarkshire",
+      "operator": "DataVita with CoreWeave",
+      "place": "Airdrie, North Lanarkshire, UK",
+      "lat": 55.87,
+      "lon": -3.98,
+      "stage": "planned",
+      "capacity": "More than 500 MW of on-site power planned",
+      "status": "Announced 29 January 2026",
+      "ethics": "Type of on-site generation not stated in the source.",
+      "source_ids": [
+        "S9"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "transparency": {
+          "score": 35,
+          "note": "Generation type, water and sustainability data not stated.",
+          "source_ids": [
+            "S9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "uk-wales",
+      "name": "AI Growth Zones: North and South Wales",
+      "operator": "Not covered",
+      "place": "North Wales and South Wales, UK (approximate)",
+      "lat": 52.4,
+      "lon": -3.6,
+      "stage": "proposed",
+      "capacity": "Not covered",
+      "status": "North Wales announced 13 November 2025; South Wales 20 November 2025",
+      "ethics": "The source gives dates only.",
+      "source_ids": [
+        "S9"
+      ],
+      "confidence": "low",
+      "criteria": {}
+    },
+    {
+      "id": "eu-gigafactories",
+      "name": "EU AI gigafactories (candidates)",
+      "operator": "Consortia including Deutsche Telekom/Brookfield, Scaleway, Altice/NOS, Nokia, Black Sea AI Gigafactory",
+      "place": "Germany, France, Portugal, Finland, Romania (country-level; Kajaani, Finland shown)",
+      "lat": 64.22,
+      "lon": 27.73,
+      "stage": "proposed",
+      "capacity": "Up to five sites of 200 to 500 MW contracted low-carbon power each; EU contribution up to 17% of compute capex",
+      "status": "Formal call delayed; selection expected later in 2026",
+      "ethics": "Rating reflects programme requirements, not any single site.",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "confidence": "low",
+      "criteria": {
+        "carbon": {
+          "score": 70,
+          "note": "Requires 200 to 500 MW of contracted low-carbon power per site (a requirement, not an outcome).",
+          "source_ids": [
+            "S10"
+          ]
+        },
+        "transparency": {
+          "score": 55,
+          "note": "Large EU data centres must report energy, water input and renewable share under the Energy Efficiency Directive.",
+          "source_ids": [
+            "S11"
+          ]
+        }
+      }
     }
   ],
   "policy": [
@@ -244,5 +651,72 @@
       "S2"
     ],
     "confidence": "low"
+  },
+  "methodology": {
+    "name": "Expected ethical impact rating",
+    "scale": "0 to 100. Higher means a better expected ethical profile. This is an editorial judgement from published evidence, not a measurement.",
+    "basis": "Criteria are drawn from what the global instruments treat as important for AI infrastructure: UNESCO's \"environment and ecosystem flourishing\" and sustainability impact assessment; the OECD AI Principles (2024 revision adds environmental sustainability, plus inclusive growth and transparency); and the EU Energy Efficiency Directive reporting KPIs (total energy, water input, renewable share). Sources: Brookings summary [S11] and the library documents oecd-principles, unesco-rec and eu-eed.",
+    "instrument_doc_ids": [
+      "oecd-principles",
+      "unesco-rec",
+      "eu-eed"
+    ],
+    "criteria": [
+      {
+        "id": "carbon",
+        "label": "Power and carbon",
+        "weight": 25,
+        "asks": "Is power low-carbon and additional, or does the site depend on new fossil generation?"
+      },
+      {
+        "id": "water",
+        "label": "Water",
+        "weight": 20,
+        "asks": "Is cooling designed to avoid stress on local water, and is use reported?"
+      },
+      {
+        "id": "air_health",
+        "label": "Air quality and local health",
+        "weight": 10,
+        "asks": "Are there on-site emissions (for example gas turbines) affecting neighbours?"
+      },
+      {
+        "id": "grid_fairness",
+        "label": "Grid and who pays",
+        "weight": 15,
+        "asks": "Does the project avoid pushing grid upgrade costs or shortages onto households?"
+      },
+      {
+        "id": "transparency",
+        "label": "Transparency and reporting",
+        "weight": 15,
+        "asks": "Are energy, water, power sources and capacity disclosed and consistent?"
+      },
+      {
+        "id": "community",
+        "label": "Community consent and benefit",
+        "weight": 15,
+        "asks": "Was the public consulted, and do benefits reach local people?"
+      }
+    ],
+    "rules": "A criterion with no published evidence is left unscored (shown as \"not disclosed\") and is excluded from the average, not counted as zero. The rating status shows how many of the six criteria had evidence: rated (3 or more), indicative (1 or 2), unrated (none). Planned sites are scored on commitments, which are weaker evidence than operating data.",
+    "bands": [
+      {
+        "min": 70,
+        "label": "Strong"
+      },
+      {
+        "min": 50,
+        "label": "Mixed"
+      },
+      {
+        "min": 30,
+        "label": "Concerning"
+      },
+      {
+        "min": 0,
+        "label": "Poor"
+      }
+    ]
   }
 }

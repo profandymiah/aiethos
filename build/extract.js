@@ -367,6 +367,19 @@ try {
   if (fs.existsSync(gdir)) {
     for (const f of fs.readdirSync(gdir).filter(x => x.endsWith('.json'))) {
       const data = JSON.parse(fs.readFileSync(path.join(gdir, f), 'utf8'));
+
+      if (f === 'datacentres.json' && Array.isArray(data.sites) && data.methodology) {
+        const crits = data.methodology.criteria;
+        for (const site of data.sites) {
+          let sum = 0, w = 0, n = 0;
+          for (const c of crits) { const s = site.criteria && site.criteria[c.id] && site.criteria[c.id].score; if (typeof s === 'number') { sum += s * c.weight; w += c.weight; n++; } }
+          site.rating = w ? Math.round(sum / w) : null;
+          site.evidence_count = n;
+          site.rating_status = n >= 3 ? 'rated' : n >= 1 ? 'indicative' : 'unrated';
+          const b = data.methodology.bands.find(x => n >= 3 && site.rating >= x.min);
+          site.rating_label = b ? b.label : null;
+        }
+      }
       write(path.join(ROOT, 'data', 'global', f), data);
     }
   }
