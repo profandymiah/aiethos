@@ -41,7 +41,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function j(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try { const r = await fetch(url, { headers: { 'User-Agent': `AIETHOS/1.0 (mailto:${MAIL})` }, signal: AbortSignal.timeout(25000) });
-      if (r.ok) return await r.json(); if (r.status === 404) return null; if (r.status === 429) await sleep(3000 * (i + 1)); } catch (e) {}
+      if (r.ok) return await r.json(); if (!j.logged) { j.logged = 1; console.log('HTTP', r.status, url.slice(0, 160), (await r.text()).slice(0, 300)); } if (r.status === 404) return null; if (r.status === 429) await sleep(3000 * (i + 1)); } catch (e) {}
     await sleep(1500 * (i + 1));
   }
   return null;
@@ -53,7 +53,7 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
   for (const [tid, q] of THEMES) {
     for (let y = FROM; y <= TO; y++) {
       if (Date.now() - T0 > BUDGET) break;
-      const expr = `${BASE} AND ${ETH} AND (${q})`;
+      const expr = `${BASE} AND ${ETH} AND (${q})`.replace(/\*/g, '');
       const url = `https://api.openalex.org/works?filter=title_and_abstract.search:${encodeURIComponent(expr)},type:article,publication_year:${y},primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=${MAIL}`;
       const d = await j(url); if (!d) continue;
       let kept = 0;
