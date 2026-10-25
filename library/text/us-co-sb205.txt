@@ -1,0 +1,122 @@
+SB24-205
+Consumer Protections for Artificial Intelligence
+TYPE	Bill
+SESSION	2024 Regular Session
+SUBJECTS	
+Business & Economic Development
+Labor & Employment
+Telecommunications & Information Technology
+
+Concerning consumer protections in interactions with artificial intelligence systems.
+
+Recent Bill (PDF)
+Recent Fiscal Note (PDF)
+BILL SUMMARY:
+
+On and after February 1, 2026, the act requires a developer of a high-risk artificial intelligence system (high-risk system) to use reasonable care to protect consumers from any known or reasonably foreseeable risks of algorithmic discrimination in the high-risk system. There is a rebuttable presumption that a developer used reasonable care if the developer complied with specified provisions in the act, including:
+
+Making available to a deployer of the high-risk system a statement disclosing specified information about the high-risk system;
+Making available to a deployer of the high-risk system information and documentation necessary to complete an impact assessment of the high-risk system;
+Making a publicly available statement summarizing the types of high-risk systems that the developer has developed or intentionally and substantially modified and currently makes available to a deployer or other developer and how the developer manages any known or reasonably foreseeable risks of algorithmic discrimination that may arise from the development or intentional and substantial modification of each of these high-risk systems; and
+Disclosing to the attorney general and known deployers or other developers of the high-risk system any known or reasonably foreseeable risks of algorithmic discrimination, within 90 days after the discovery or receipt of a credible report from the deployer, that the high-risk system has caused or is reasonably likely to have caused.
+
+The act also, on and after February 1, 2026, requires a deployer of a high-risk system to use reasonable care to protect consumers from any known or reasonably foreseeable risks of algorithmic discrimination in the high-risk system. There is a rebuttable presumption that a deployer used reasonable care if the deployer complied with specified provisions in the act, including:
+
+Implementing a risk management policy and program for the high-risk system;
+Completing an impact assessment of the high-risk system;
+Annually reviewing the deployment of each high-risk system deployed by the deployer to ensure that the high-risk system is not causing algorithmic discrimination;
+Notifying a consumer of specified items if the high-risk system makes, or will be a substantial factor in making, a consequential decision concerning the consumer;
+Providing a consumer with an opportunity to correct any incorrect personal data that a high-risk system processed in making a consequential decision;
+Providing a consumer with an opportunity to appeal, via human review if technically feasible, an adverse consequential decision concerning the consumer arising from the deployment of a high-risk system;
+Making a publicly available statement summarizing the types of high-risk systems that the deployer currently deploys, how the deployer manages any known or reasonably foreseeable risks of algorithmic discrimination that may arise from deployment of each of these high-risk systems, and the nature, source, and extent of the information collected and used by the deployer; and
+Disclosing to the attorney general the discovery of algorithmic discrimination, within 90 days after the discovery, that the high-risk system has caused.
+
+A person doing business in this state, including a deployer or other developer, that deploys or makes available an artificial intelligence system that is intended to interact with consumers must ensure disclosure to each consumer who interacts with the artificial intelligence system that the consumer is interacting with an artificial intelligence system.
+
+The act does not restrict a developer's, deployer's, or other person's ability to engage in specified activities, including:
+
+Complying with federal, state, or municipal laws, ordinances, or regulations;
+Cooperating with and conducting specified investigations;
+Taking immediate steps to protect an interest that is essential for the life or physical safety of a consumer;
+Conducting and engaging in specified research activities; and
+Effectuating a product recall or repairing technical errors that impair product functionality.
+
+The act provides an affirmative defense for a developer, deployer, or other person if:
+
+The developer, deployer, or other person involved in a potential violation is in compliance with a nationally or internationally recognized risk management framework for artificial intelligence systems that the act or the attorney general designates; and
+The developer, deployer, or other person takes specified measures to discover and correct violations of the act.
+
+An insurer, a fraternal benefit society, or a developer of an artificial intelligence system used by an insurer is in full compliance with the act if the entity is subject to specified laws governing insurers' use of external consumer data and information sources, algorithms, and predictive models and rules adopted by the commissioner of insurance.
+
+A bank, out-of-state bank, credit union chartered by the state of Colorado, federal credit union, out-of-state credit union, or any affiliate or subsidiary thereof, is in full compliance with the act if the entity is subject to examination by a state or federal prudential regulator under any published guidance or regulations that apply to the use of high-risk systems and the guidance or regulations meet criteria specified in the act.
+
+The act grants the attorney general rule-making authority to implement, and exclusive authority to enforce, the requirements of the act. A person who violates the act engages in a deceptive trade practice pursuant to the "Colorado Consumer Protection Act".
+
+APPROVED by Governor May 17, 2024
+
+EFFECTIVE May 17, 2024
+(Note: This summary applies to this bill as enacted.)
+
+Prime Sponsors
+
+Senator
+
+Robert Rodriguez
+
+Representative
+
+Brianna Titone
+
+Representative
+
+Manny Rutinel
+
+Committees
+Senate
+
+Judiciary
+
+House
+
+State, Civic, Military, & Veterans Affairs
+
+Share:
+
+If you require reasonable accessibility accommodation to access this content, please email accessibility@coleg.gov.
+
+Status
+
+Became Law
+
+Introduced
+
+Passed
+
+Became Law
+
+Related Documents & Information
+Bill Text
+Fiscal
+Committees
+Votes
+Amendments
+Bill History
+Sponsors
+Session Laws
+All Versions (7)
+Date	Version	Documents
+05/17/2024	Signed Act	PDF
+05/13/2024	Final Act	PDF
+05/08/2024	Rerevised	PDF
+05/07/2024	Revised	PDF
+05/03/2024	Reengrossed	PDF
+05/02/2024	Engrossed	PDF
+04/10/2024	Introduced	PDF
+Preamended Versions (2)
+Quick Links
+
+Find My Legislator
+
+Find a Bill
+
+How a Bill Becomes a Law

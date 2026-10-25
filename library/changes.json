@@ -1,151 +1,118 @@
 {
-  "run_at": "2026-10-25T12:15:57.959Z",
-  "changed": [],
-  "new": [
-    {
-      "id": "coe-convention",
-      "title": "Council of Europe Framework Convention on AI and Human Rights, Democracy and the Rule of Law (CETS 225)",
-      "url": "https://rm.coe.int/1680afae3c"
-    },
-    {
-      "id": "oecd-principles",
-      "title": "OECD AI Principles",
-      "url": "https://oecd.ai/en/ai-principles"
-    },
-    {
-      "id": "unesco-rec",
-      "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
-      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137"
-    },
-    {
-      "id": "un-79-325",
-      "title": "UN General Assembly Resolution A/RES/79/325 (Scientific Panel and Global Dialogue)",
-      "url": "https://docs.un.org/en/A/RES/79/325"
-    },
-    {
-      "id": "un-gdc",
-      "title": "Global Digital Compact (A/RES/79/1 Annex I)",
-      "url": "https://www.un.org/global-digital-compact/sites/default/files/2024-09/Global%20Digital%20Compact%20-%20English_0.pdf"
-    },
-    {
-      "id": "un-panel-page",
-      "title": "UN Independent International Scientific Panel on AI",
-      "url": "https://www.un.org/independent-international-scientific-panel-ai/en"
-    },
-    {
-      "id": "un-dialogue-page",
-      "title": "UN Global Dialogue on AI Governance",
-      "url": "https://www.un.org/global-dialogue-ai-governance/en"
-    },
-    {
-      "id": "bletchley",
-      "title": "Bletchley Declaration (AI Safety Summit 2023)",
-      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023"
-    },
-    {
-      "id": "eu-ai-act",
-      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689"
-    },
-    {
-      "id": "eu-ai-act-explorer",
-      "title": "Digital Omnibus on AI (explorer, tracks amendments)",
-      "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/"
-    },
-    {
-      "id": "eu-eed",
-      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791"
-    },
-    {
-      "id": "uk-whitepaper",
-      "title": "A pro-innovation approach to AI regulation (White Paper)",
-      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
-    },
-    {
-      "id": "uk-opportunities",
-      "title": "AI Opportunities Action Plan",
-      "url": "https://www.gov.uk/government/publications/ai-opportunities-action-plan"
-    },
-    {
-      "id": "uk-dua-act",
-      "title": "Data (Use and Access) Act 2025",
-      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents"
-    },
-    {
-      "id": "uk-aisi",
-      "title": "AI Security Institute",
-      "url": "https://www.gov.uk/government/organisations/ai-security-institute"
-    },
-    {
-      "id": "us-nist-rmf",
-      "title": "NIST AI Risk Management Framework 1.0 (AI 100-1)",
-      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
-    },
-    {
-      "id": "us-nist-genai",
-      "title": "NIST AI 600-1 Generative AI Profile",
-      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
-    },
-    {
-      "id": "us-action-plan",
-      "title": "America's AI Action Plan",
-      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
-    },
+  "run_at": "2026-10-25T13:15:15.711Z",
+  "changed": [
     {
       "id": "kr-msit",
       "title": "AI Basic Act comes into force (MSIT announcement)",
-      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng"
-    },
-    {
-      "id": "jp-cao-ai",
-      "title": "Cabinet Office AI policy page (AI Promotion Act, Basic Plan)",
-      "url": "https://www8.cao.go.jp/cstp/ai/index.html"
-    },
-    {
-      "id": "jp-meti-guidelines",
-      "title": "AI Guidelines for Business",
-      "url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20240419_report.html"
+      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
+      "jurisdiction": "KR",
+      "priority": "high",
+      "chars_before": 14372,
+      "chars_after": 13417
     },
     {
       "id": "sg-model-framework",
       "title": "Model AI Governance Framework",
-      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework"
-    },
-    {
-      "id": "sg-aiverify",
-      "title": "AI Verify Foundation",
-      "url": "https://aiverifyfoundation.sg/"
-    },
-    {
-      "id": "cn-cac",
-      "title": "Cyberspace Administration of China (English site)",
-      "url": "https://www.cac.gov.cn/"
-    },
-    {
-      "id": "vn-gov",
-      "title": "Vietnam Government portal (legal documents)",
-      "url": "https://xaydungchinhsach.chinhphu.vn/"
-    },
-    {
-      "id": "ca-voluntary-code",
-      "title": "Voluntary Code of Conduct on Advanced Generative AI",
-      "url": "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems"
+      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
+      "jurisdiction": "SG",
+      "priority": "high",
+      "chars_before": 0,
+      "chars_after": 12973
     },
     {
       "id": "br-pl2338",
       "title": "PL 2338/2023 (AI Legal Framework): Senate bill page",
-      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233"
-    },
-    {
-      "id": "br-camara",
-      "title": "PL 2338/2023 Chamber of Deputies proceeding",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262"
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+      "jurisdiction": "BR",
+      "priority": "high",
+      "chars_before": 230249,
+      "chars_after": 230249
     },
     {
       "id": "ae-uae-ai",
       "title": "UAE Government portal: Artificial Intelligence",
-      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence"
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
+      "jurisdiction": "AE",
+      "priority": "high",
+      "chars_before": 757,
+      "chars_after": 759
+    }
+  ],
+  "new": [
+    {
+      "id": "us-co-sb205",
+      "title": "Colorado SB24-205 (Consumer Protections for AI)",
+      "url": "https://leg.colorado.gov/bills/sb24-205"
+    },
+    {
+      "id": "eu-ai-act-text",
+      "title": "AI Act full text (reader-friendly)",
+      "url": "https://artificialintelligenceact.eu/the-act/"
+    },
+    {
+      "id": "eu-ai-act-eli",
+      "title": "Regulation (EU) 2024/1689 via ELI link",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    },
+    {
+      "id": "uk-pro-innovation-response",
+      "title": "A pro-innovation approach to AI regulation: government response",
+      "url": "https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response"
+    },
+    {
+      "id": "uk-ai-playbook",
+      "title": "Artificial Intelligence Playbook for the UK Government",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government"
+    },
+    {
+      "id": "us-eo-14179",
+      "title": "Executive Order 14179: Removing Barriers to American Leadership in AI",
+      "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence"
+    },
+    {
+      "id": "us-omb-m2521",
+      "title": "OMB Memorandum M-25-21: Accelerating Federal Use of AI",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    },
+    {
+      "id": "us-ca-ccpa-adm",
+      "title": "California CPPA automated decision-making technology regulations",
+      "url": "https://cppa.ca.gov/regulations/"
+    },
+    {
+      "id": "us-tx-traiga",
+      "title": "Texas HB 149 (Responsible AI Governance Act)",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149"
+    },
+    {
+      "id": "cn-genai-measures",
+      "title": "Interim Measures for the Management of Generative AI Services (English translation)",
+      "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/"
+    },
+    {
+      "id": "cn-labelling",
+      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
+      "url": "https://www.chinalawtranslate.com/en/ai-labeling/"
+    },
+    {
+      "id": "kr-ai-basic-act",
+      "title": "AI Basic Act (English translation)",
+      "url": "https://elaw.klri.re.kr/eng_service/main.do"
+    },
+    {
+      "id": "paris-statement",
+      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet"
+    },
+    {
+      "id": "un-hlab",
+      "title": "Governing AI for Humanity (UN High-Level Advisory Body final report)",
+      "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf"
+    },
+    {
+      "id": "ieee-7000",
+      "title": "IEEE 7000 series ethics standards overview",
+      "url": "https://standards.ieee.org/initiatives/autonomous-intelligence-systems/"
     }
   ],
   "failed": [
@@ -156,16 +123,40 @@
       "error": "HTTP 403"
     },
     {
+      "id": "unesco-rec",
+      "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+      "error": "empty response"
+    },
+    {
+      "id": "un-79-325",
+      "title": "UN General Assembly Resolution A/RES/79/325 (Scientific Panel and Global Dialogue)",
+      "url": "https://docs.un.org/en/A/RES/79/325",
+      "error": "empty response"
+    },
+    {
       "id": "iea-energy-ai",
       "title": "Energy and AI (IEA report on data centre electricity demand)",
       "url": "https://www.iea.org/reports/energy-and-ai",
       "error": "HTTP 403"
     },
     {
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "error": "empty response"
+    },
+    {
       "id": "eu-ai-act-consolidated",
       "title": "AI Act: Commission regulatory framework page",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "error": "HTTP 403"
+    },
+    {
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "error": "empty response"
     },
     {
       "id": "eu-gpai-code",
@@ -178,12 +169,6 @@
       "title": "California SB 53 (Transparency in Frontier AI Act)",
       "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
       "error": "HTTP 403"
-    },
-    {
-      "id": "us-co-sb205",
-      "title": "Colorado SB24-205 (Consumer Protections for AI)",
-      "url": "https://leg.colorado.gov/bills/sb24-205",
-      "error": "HTTP 406"
     },
     {
       "id": "au-industry-ai",
@@ -220,6 +205,54 @@
       "title": "Federal Council: AI regulatory approach",
       "url": "https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html",
       "error": "HTTP 404"
+    },
+    {
+      "id": "eu-gpai-guidelines",
+      "title": "Guidelines on obligations for general-purpose AI model providers",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
+      "error": "empty response"
+    },
+    {
+      "id": "eu-ai-office",
+      "title": "European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "error": "empty response"
+    },
+    {
+      "id": "us-ny-raise",
+      "title": "New York RAISE Act (frontier AI safety)",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
+      "error": "empty response"
+    },
+    {
+      "id": "jp-ai-promotion-act",
+      "title": "AI Promotion Act (English translation)",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4551",
+      "error": "empty response"
+    },
+    {
+      "id": "in-it-rules-2026",
+      "title": "IT Rules amendment on synthetically generated information (G.S.R. 120(E))",
+      "url": "https://www.meity.gov.in/documents/act-and-policies",
+      "error": "empty response"
+    },
+    {
+      "id": "sg-agentic",
+      "title": "Model AI Governance Framework for Agentic AI",
+      "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
+      "error": "empty response"
+    },
+    {
+      "id": "g7-hiroshima",
+      "title": "Hiroshima Process International Code of Conduct for Advanced AI Systems",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems",
+      "error": "empty response"
+    },
+    {
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
+      "error": "empty response"
     }
   ]
 }

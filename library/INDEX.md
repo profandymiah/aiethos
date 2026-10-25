@@ -27,11 +27,11 @@ Extracted text of tracked documents. Search with `grep -ril "term" library/text`
 | [us-nist-genai](text/us-nist-genai.txt) | US | NIST AI 600-1 Generative AI Profile | 2026-10-25 | 2026-10-25 | 205495 |
 | [us-action-plan](text/us-action-plan.txt) | US | America's AI Action Plan | 2026-10-25 | 2026-10-25 | 73800 |
 | [us-ca-sb53](text/us-ca-sb53.txt) | US | California SB 53 (Transparency in Frontier AI Act) | 2026-10-25 |  | ERROR |
-| [us-co-sb205](text/us-co-sb205.txt) | US | Colorado SB24-205 (Consumer Protections for AI) | 2026-10-25 |  | ERROR |
-| [kr-msit](text/kr-msit.txt) | KR | AI Basic Act comes into force (MSIT announcement) | 2026-10-25 | 2026-10-25 | 14372 |
+| [us-co-sb205](text/us-co-sb205.txt) | US | Colorado SB24-205 (Consumer Protections for AI) | 2026-10-25 | 2026-10-25 | 6845 |
+| [kr-msit](text/kr-msit.txt) | KR | AI Basic Act comes into force (MSIT announcement) | 2026-10-25 | 2026-10-25 | 13417 |
 | [jp-cao-ai](text/jp-cao-ai.txt) | JP | Cabinet Office AI policy page (AI Promotion Act, Basic Plan) | 2026-10-25 | 2026-10-25 | 1363 |
 | [jp-meti-guidelines](text/jp-meti-guidelines.txt) | JP | AI Guidelines for Business | 2026-10-25 | 2026-10-25 | 2328 |
-| [sg-model-framework](text/sg-model-framework.txt) | SG | Model AI Governance Framework | 2026-10-25 | 2026-10-25 | 0 |
+| [sg-model-framework](text/sg-model-framework.txt) | SG | Model AI Governance Framework | 2026-10-25 | 2026-10-25 | 12973 |
 | [sg-aiverify](text/sg-aiverify.txt) | SG | AI Verify Foundation | 2026-10-25 | 2026-10-25 | 5472 |
 | [au-industry-ai](text/au-industry-ai.txt) | AU | Australian Government: Safe and responsible AI | 2026-10-25 |  | ERROR |
 | [in-meity](text/in-meity.txt) | IN | MeitY: Artificial Intelligence portal | 2026-10-25 |  | ERROR |
@@ -42,6 +42,28 @@ Extracted text of tracked documents. Search with `grep -ril "term" library/text`
 | [ca-legisinfo](text/ca-legisinfo.txt) | CA | LEGISinfo: Parliament of Canada bills | 2026-10-25 |  | ERROR |
 | [br-pl2338](text/br-pl2338.txt) | BR | PL 2338/2023 (AI Legal Framework): Senate bill page | 2026-10-25 | 2026-10-25 | 230249 |
 | [br-camara](text/br-camara.txt) | BR | PL 2338/2023 Chamber of Deputies proceeding | 2026-10-25 | 2026-10-25 | 223011 |
-| [ae-uae-ai](text/ae-uae-ai.txt) | AE | UAE Government portal: Artificial Intelligence | 2026-10-25 | 2026-10-25 | 757 |
+| [ae-uae-ai](text/ae-uae-ai.txt) | AE | UAE Government portal: Artificial Intelligence | 2026-10-25 | 2026-10-25 | 759 |
 | [ke-ict](text/ke-ict.txt) | KE | Kenya Ministry of ICT | 2026-10-25 |  | ERROR |
 | [ch-federal-council](text/ch-federal-council.txt) | CH | Federal Council: AI regulatory approach | 2026-10-25 |  | ERROR |
+| [eu-ai-act-text](text/eu-ai-act-text.txt) | EU | AI Act full text (reader-friendly) | 2026-10-25 | 2026-10-25 | 6419 |
+| [eu-ai-act-eli](text/eu-ai-act-eli.txt) | EU | Regulation (EU) 2024/1689 via ELI link | 2026-10-25 | 2026-10-25 | 592992 |
+| [eu-gpai-guidelines](text/eu-gpai-guidelines.txt) | EU | Guidelines on obligations for general-purpose AI model providers | 2026-10-25 |  | ERROR |
+| [eu-ai-office](text/eu-ai-office.txt) | EU | European AI Office | 2026-10-25 |  | ERROR |
+| [uk-pro-innovation-response](text/uk-pro-innovation-response.txt) | UK | A pro-innovation approach to AI regulation: government response | 2026-10-25 | 2026-10-25 | 292257 |
+| [uk-ai-playbook](text/uk-ai-playbook.txt) | UK | Artificial Intelligence Playbook for the UK Government | 2026-10-25 | 2026-10-25 | 3152 |
+| [us-eo-14179](text/us-eo-14179.txt) | US | Executive Order 14179: Removing Barriers to American Leadership in AI | 2026-10-25 | 2026-10-25 | 13782 |
+| [us-omb-m2521](text/us-omb-m2521.txt) | US | OMB Memorandum M-25-21: Accelerating Federal Use of AI | 2026-10-25 | 2026-10-25 | 72381 |
+| [us-ca-ccpa-adm](text/us-ca-ccpa-adm.txt) | US | California CPPA automated decision-making technology regulations | 2026-10-25 | 2026-10-25 | 2952 |
+| [us-tx-traiga](text/us-tx-traiga.txt) | US | Texas HB 149 (Responsible AI Governance Act) | 2026-10-25 | 2026-10-25 | 5900 |
+| [us-ny-raise](text/us-ny-raise.txt) | US | New York RAISE Act (frontier AI safety) | 2026-10-25 |  | ERROR |
+| [cn-genai-measures](text/cn-genai-measures.txt) | CN | Interim Measures for the Management of Generative AI Services (English translation) | 2026-10-25 | 2026-10-25 | 18964 |
+| [cn-labelling](text/cn-labelling.txt) | CN | Measures for Labeling AI-Generated Synthetic Content (translation) | 2026-10-25 | 2026-10-25 | 13591 |
+| [jp-ai-promotion-act](text/jp-ai-promotion-act.txt) | JP | AI Promotion Act (English translation) | 2026-10-25 |  | ERROR |
+| [kr-ai-basic-act](text/kr-ai-basic-act.txt) | KR | AI Basic Act (English translation) | 2026-10-25 | 2026-10-25 | 2141 |
+| [in-it-rules-2026](text/in-it-rules-2026.txt) | IN | IT Rules amendment on synthetically generated information (G.S.R. 120(E)) | 2026-10-25 |  | ERROR |
+| [sg-agentic](text/sg-agentic.txt) | SG | Model AI Governance Framework for Agentic AI | 2026-10-25 |  | ERROR |
+| [g7-hiroshima](text/g7-hiroshima.txt) | INT | Hiroshima Process International Code of Conduct for Advanced AI Systems | 2026-10-25 |  | ERROR |
+| [oecd-dd-guidance](text/oecd-dd-guidance.txt) | INT | OECD Due Diligence Guidance for Responsible AI | 2026-10-25 |  | ERROR |
+| [paris-statement](text/paris-statement.txt) | INT | Statement on Inclusive and Sustainable AI (Paris AI Action Summit) | 2026-10-25 | 2026-10-25 | 7455 |
+| [un-hlab](text/un-hlab.txt) | INT | Governing AI for Humanity (UN High-Level Advisory Body final report) | 2026-10-25 | 2026-10-25 | 610491 |
+| [ieee-7000](text/ieee-7000.txt) | INT | IEEE 7000 series ethics standards overview | 2026-10-25 | 2026-10-25 | 7926 |

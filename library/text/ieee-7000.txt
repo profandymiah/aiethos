@@ -1,0 +1,156 @@
+AUTONOMOUS AND INTELLIGENT SYSTEMS (AIS)
+
+At IEEE SA, our global community has developed resources and standards globally recognized in the area of applied ethics and systems engineering. IEEE SA offers standards, training and education, certification programs, and more, to empower stakeholders designing, developing, and using AIS.
+
+Home
+Focus Areas & Initiatives
+Autonomous and Intelligent Systems (AIS)
+Celebrating 10 Years of Shaping Responsible AI
+
+For a decade, the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems has brought together over 700 experts around the world to help ensure AI serves humanity through practical standards, certification, global collaboration, and real-world implementation.
+
+Explore the Journey
+
+Overview
+
+New technology comes with unknown obstacles and unintended risks requiring accountable design and lifecycle planning to ensure responsible innovation. As artificial intelligence, autonomous intelligent systems (AIS), machine learning, autonomous vehicles, and robotics advance at a rapid pace, careful considerations need to be made during development and implementation regarding humanity. At IEEE SA, our global community has developed resources and standards globally recognized in the area of applied ethics and systems engineering and continues to develop accessible and sustainable approaches and solutions for pragmatic application of AIS principles and frameworks. IEEE SA offers standards, training and education, certification programs, and more, to empower stakeholders designing, developing, and using AIS. Global participation is encouraged to offer the broadest regional and cultural perspectives required to best contextualize how AIS systems can avoid risk and offer greatest benefit in operation.
+
+Featured
+IEEE CertifAIEd™: The Mark of AI Ethics
+
+For assessing ethics of AIS to help protect, differentiate, and grow product adoption.
+
+Learn More About IEEE CertifAIEd™
+
+IEEE Ethics for AI System Design Training
+
+This training helps bridge the gap between principles and practice, enabling real-world implementation of ethically aligned systems design strategy from the planning phase.
+
+Learn More About IEEE Ethics for AI System Design Training
+
+IEEE Responsible Procurement of AI Training
+
+This training provides a framework of the processes and procedures for procuring AI tools to help minimize risk in the purchasing lifecycle of AI and automated decision systems.
+
+Learn More About IEEE Responsible Procurement of AI Training
+
+Programs and Services
+AIS Certification
+
+IEEE CertifAIEd™ is a certification program for assessing ethics of AIS to help protect, differentiate, and grow product adoption. The resulting certificate and mark demonstrates the organization’s effort to deliver a solution with a more trustworthy AIS experience to their users.
+
+Learn More About IEEE CertifAIEd™
+
+Artificial Intelligence and Ethics in Design Course Program
+
+This educational program offers 10 courses focused on ethics in design of artificial intelligence systems.
+
+Learn More About The Artificial Intelligence and Ethics in Design Course Program
+
+New Program for Free Access to AI Ethics and Governance Standards
+
+Program brings sociotechnical standards providing guidance and considerations to aid the development of trustworthy AI to the global community at no cost.
+
+View Free Standards
+
+Get Involved
+
+Learn more about how to engage with AIS related Communities and Industry Connections Programs.
+
+Share Your Idea to Strengthen Trust in AI
+
+IEEE SA joined the Global Trust Challenge to help move ideas about trustworthy AI into real-world testing and implementation. Individuals and teams are invited to submit proposals and explore ideas with expert guidance, prototyping, and live pilots.
+
+Learn More or Submit a Proposal
+
+The Global Initiative on Ethics of Autonomous and Intelligent Systems
+
+This community’s mission is to ensure every stakeholder involved in the development of AIS is educated and trained to prioritize ethical considerations so that these technologies are advanced for the benefit of humanity.
+
+Learn More About The Global Initiative on Ethics of Autonomous and Intelligent Systems
+
+Pre-Standardization Activities On Industrial AI
+
+Industrial AIS differs from consumer AIS applications. Participants from corporations, academia, industry, and government agencies collaborate to identify potential gaps that need to be bridged by new standards.
+
+Learn More About Pre-Standardization Activities On Industrial AI
+
+AI Systems Governance for Cities
+
+The goal of the AI-Driven Innovation for Cities and People Team is to provide cities a mechanism to support responsible AIS innovation through proper governance mechanisms.
+
+Learn More About AI Systems Governance for Cities
+
+The Open Community for Ethics in Autonomous and Intelligent Systems (OCEANIS)
+
+Sociotechnical standards can elevate and further the development of AIS solutions. This forum offers collaboration between relevant organizations to foster locally and globally applicable solutions.
+
+Learn More About OCEANIS
+
+Children's Tech Design Governance
+
+A group of key industry, government, and policy stakeholders focus on developing standards and establishing frameworks and processes for age appropriate digital services and protecting children’s data.
+
+Learn More About Children’s Tech Design Governance
+
+View All Ways to Get Involved
+Events
+IEEE AI Standardization & Responsible AI Assurance
+Equip your leadership and technical teams to build trustworthy, regulation-ready AI systems at IEEE SA’s workshop before AI Summit Australia. This session covers global standards such as the IEEE 7000 series, ethical system design, vendor-risk procurement, and IEEE CertifAIEd pathways. Essential for executives, developers, procurement teams, and compliance officers ready to operationalize accountable AI.
+
+7 September 2026 | Melbourne Convention and Exhibition Centre (MCEC)
+Learn More
+
+IEEE CertifAIEd™ Training
+
+This course has been developed for individuals who are interested in learning how to assess AIS for their conformity to IEEE CertifAIEd AI Ethics criteria. Completion of this course is an integral step towards becoming recognized as an IEEE CertifAIEd Authorized Assessor.
+
+Learn More About IEEE CertifAIEd™ Training
+
+Related Standards
+Adaptive Instructional Systems
+IEEE P2247.1™
+
+Standard for the Classification of Adaptive Instructional Systems
+
+IEEE P2247.2™
+
+Interoperability Standards for Adaptive Instructional Systems (AISs)
+
+IEEE P2247.3™
+
+Recommended Practices for Evaluation of Adaptive Instructional Systems
+
+IEEE P2247.4™
+
+Recommended Practice for Ethically Aligned Design of Artificial Intelligence (AI) in Adaptive Instructional Systems
+
+Age Appropriate Design
+Ethically Aligned Autonomous and Intelligent Systems
+Machine Learning
+View Complete List of All AIS Standards
+Resources
+Papers & Reports
+Ethically Aligned Design (EAD):
+EAD For Artists
+EAD For Business
+EAD, First Edition
+Defining A/IS Ethics – Glossary
+IEEE CertifAIEd™:
+AI Ethics for Solutions Developers
+IEEE CertifAIEd™ – Ontological Specification for Ethical Transparency
+IEEE CertifAIEd™ – Ontological Specification for Ethical Algorithmic Bias
+IEEE CertifAIEd™ – Ontological Specification for Ethical Accountability
+IEEE CertifAIEd™ – Ontological Specification for Ethical Privacy
+AI Ethics Support Badge
+Children's Data Governance:
+IEEE SA Children’s Data Governance Applied Case Study Report
+Applied Case Studies for Designing Trustworthy Digital Experiences for Children
+Other:
+IEEE SA Statement on Generative AI
+The IEEE Trusted Data and Artificial Intelligence Systems (AIS) Playbook for Financial Services
+Report: Decoupling Human Characteristics from Algorithmic Capabilities
+Report: Addressing Ethical Dilemmas in AI: Listening to Engineers
+Measuring What Matters in the Era of Global Warming and the Age of Algorithmic Promises
+News & Blog
+Past Webinars & Courses
