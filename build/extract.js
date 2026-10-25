@@ -152,6 +152,7 @@ function transformFull(entry) {
     research:        j.research_layer,
     citizen:         j.citizen_layer,
     monitor:         j.monitor,
+    evidence:        j.evidence || null,
   };
 }
 

@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-10-25T11:35:21.760Z",
+  "_generated": "2026-10-25T11:36:02.637Z",
   "_schema_version": "1.0.0",
   "meta": {
     "id": "eu",
@@ -262,6 +262,91 @@
       "form",
       "airtable",
       "email"
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal full text",
+        "publisher": "EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "type": "primary",
+        "date": "2024-07-12",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "EU AI Act regulatory framework overview",
+        "publisher": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "type": "primary",
+        "date": "2024-08-01",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S3",
+        "title": "Digital Omnibus on AI (explorer)",
+        "publisher": "artificialintelligenceact.eu (Future of Life Institute)",
+        "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S4",
+        "title": "EU AI Act Update: Digital Omnibus Finalizes 8 Compliance Changes",
+        "publisher": "Orrick",
+        "url": "https://www.orrick.com/en/Insights/2026/07/EU-AI-Act-Update-Digital-Omnibus-Finalizes-8-Compliance-Changes",
+        "type": "secondary",
+        "date": "2026-07-29",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S5",
+        "title": "Yes, August 2 Still Matters: high-risk delay approved, most transparency obligations remain",
+        "publisher": "Jones Walker",
+        "url": "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "Annex III high-risk obligations apply from 2 December 2027 (previously 2 August 2026); Annex I from 2 August 2028; public-authority deployments by 2 August 2030.",
+        "source_ids": [
+          "S4",
+          "S3"
+        ],
+        "confidence": "medium",
+        "note": "Secondary sources; check the Official Journal text of Regulation (EU) 2026/1744."
+      },
+      {
+        "id": "C2",
+        "text": "Providers of generative systems already on the market have until 2 December 2026 to meet Article 50(2) synthetic-content marking.",
+        "source_ids": [
+          "S4",
+          "S5"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C3",
+        "text": "New Article 5 prohibitions on nudifier apps and CSAM apply from 2 December 2026.",
+        "source_ids": [
+          "S4"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C4",
+        "text": "Prohibited practices applied from 2 February 2025; GPAI obligations from 2 August 2025; penalties up to €35m or 7% of turnover.",
+        "source_ids": [
+          "S1",
+          "S2"
+        ],
+        "confidence": "high"
+      }
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-10-25T11:35:21.762Z",
+  "_generated": "2026-10-25T11:36:02.638Z",
   "_schema_version": "1.0.0",
   "meta": {
     "id": "us",
@@ -158,5 +158,73 @@
     "update_frequency": "monthly",
     "last_submission": null,
     "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "NIST AI Risk Management Framework 1.0 (AI 100-1)",
+        "publisher": "NIST",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+        "type": "primary",
+        "date": "2023-01-26",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "State AI laws under federal scrutiny: key takeaways from the executive order",
+        "publisher": "White & Case",
+        "url": "https://www.whitecase.com/insight-alert/state-ai-laws-under-federal-scrutiny-key-takeaways-executive-order-establishing",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S3",
+        "title": "Federal AI Preemption Fight: Where It Stands",
+        "publisher": "CASRAI",
+        "url": "https://casrai.org/news/federal-ai-moratorium-state-preemption-fight-2026",
+        "type": "secondary",
+        "date": "2026-09-20",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "There is no comprehensive federal AI law; governance is sectoral, voluntary (NIST AI RMF) and state-led.",
+        "source_ids": [
+          "S1",
+          "S3"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "C2",
+        "text": "Executive Order 14365 (11 December 2025) created a DOJ task force to challenge state AI laws and calls for a federal preemption bill.",
+        "source_ids": [
+          "S2",
+          "S3"
+        ],
+        "confidence": "medium",
+        "note": "Add the White House text as a primary source."
+      },
+      {
+        "id": "C3",
+        "text": "The Senate removed the proposed 10-year state AI moratorium 99–1 in 2025.",
+        "source_ids": [
+          "S3"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C4",
+        "text": "Colorado reenacted a narrower AI Act (SB 26-189), effective 1 January 2027.",
+        "source_ids": [
+          "S3"
+        ],
+        "confidence": "medium",
+        "note": "Verify against Colorado legislature text."
+      }
+    ]
   }
 }

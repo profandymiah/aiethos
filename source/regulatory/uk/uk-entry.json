@@ -206,6 +206,74 @@
       "update_frequency": "monthly",
       "last_submission": null,
       "submission_format": "github_pr"
+    },
+    "evidence": {
+      "sources": [
+        {
+          "id": "S1",
+          "title": "A pro-innovation approach to AI regulation (White Paper)",
+          "publisher": "UK Government (DSIT)",
+          "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+          "type": "primary",
+          "date": "2023-03-29",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S2",
+          "title": "AI Security Institute (formerly AI Safety Institute)",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/organisations/ai-safety-institute",
+          "type": "primary",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S3",
+          "title": "United Kingdom AI Regulation Overview",
+          "publisher": "regulations.ai",
+          "url": "https://regulations.ai/regulations/RAI-GB-NA-SUMMARY-2026",
+          "type": "secondary",
+          "date": "2026-09-13",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "The UK has no AI-specific statute; regulation is principles-based and delivered by existing sector regulators.",
+          "source_ids": [
+            "S1",
+            "S3"
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "C2",
+          "text": "The AI Safety Institute was renamed the AI Security Institute in February 2025.",
+          "source_ids": [
+            "S2",
+            "S3"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C3",
+          "text": "The Data (Use and Access) Act 2025 is in force from 19 June 2025 and amends UK GDPR automated decision-making rules.",
+          "source_ids": [
+            "S3"
+          ],
+          "confidence": "medium",
+          "note": "Add the legislation.gov.uk text as a primary source."
+        },
+        {
+          "id": "C4",
+          "text": "The government dropped a broad commercial text-and-data-mining copyright exception in favour of evidence gathering.",
+          "source_ids": [
+            "S3"
+          ],
+          "confidence": "low",
+          "note": "Single secondary source; verify."
+        }
+      ]
     }
   }
 }

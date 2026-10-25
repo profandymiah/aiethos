@@ -331,6 +331,11 @@ section{padding:88px 56px;border-bottom:1px solid var(--border);position:relativ
 .sev-high{background:rgba(248,113,113,0.08);color:var(--red);border:1px solid rgba(248,113,113,0.22)}
 .sev-medium{background:rgba(251,191,36,0.08);color:var(--amber);border:1px solid rgba(251,191,36,0.22)}
 .sev-low{background:rgba(139,144,153,0.08);color:var(--muted);border:1px solid rgba(139,144,153,0.2)}
+.ev{margin-top:28px;padding:20px 24px;border:1px solid var(--border,#2a2d35)}
+.ev ol{margin:12px 0 0 20px;padding:0}.ev li{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:6px}
+.ev a{color:var(--gold,#C4A063)}.ev-tag{font-size:11px;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;padding:1px 6px;margin-left:6px}
+.ev-p{color:#5FD3B0}.ev-s{color:#E0B866}.ev-claim{margin-bottom:14px}.ev-claim p{font-size:14px;color:var(--text2,#C9CDD4);line-height:1.7}
+.ev-ref a{font-size:12px;text-decoration:none;border-bottom:1px dotted}.ev-note{font-size:12px;color:var(--muted)}
 .monitor-note{padding:18px 22px;background:rgba(196,160,99,0.04);border:1px solid rgba(196,160,99,0.14);margin-top:24px}
 .monitor-note p{font-size:13px;color:var(--muted);line-height:1.85}
 
@@ -724,6 +729,14 @@ function renderReg(){
 }
 
 /* ─── REGULATORY DETAIL ──────────────────────────── */
+function evidenceHTML(ev,compact){
+  if(!ev||!ev.sources?.length)return '';
+  const src=Object.fromEntries(ev.sources.map(x=>[x.id,x]));
+  const ref=ids=>(ids||[]).map(id=>src[id]?`<span class="ev-ref"><a href="#src-${id}" aria-label="Source ${id}: ${src[id].title}">[${id}]</a></span>`:'').join(' ');
+  const claims=(ev.claims||[]).map(c=>`<div class="ev-claim"><p>${c.text} ${ref(c.source_ids)}</p><div class="ev-note">Confidence: ${c.confidence}${c.note?' · '+c.note:''}</div></div>`).join('');
+  const list=ev.sources.map(x=>`<li id="src-${x.id}"><a href="${x.url}" target="_blank" rel="noopener">${x.title}</a> — ${x.publisher}${x.date?', '+x.date:''}<span class="ev-tag ${x.type==='primary'?'ev-p':'ev-s'}">${x.type}</span> <span class="ev-note">accessed ${x.accessed}</span></li>`).join('');
+  return `<div class="ev" role="region" aria-label="Evidence and sources"><div class="sec-label">${compact?'Where this comes from':'Evidence trail: claims and sources'}</div>${compact?'':claims}<ol>${list}</ol></div>`;
+}
 async function selectReg(i){
   const det=document.getElementById('regDet');
   if(selIdx===i){
@@ -784,6 +797,7 @@ async function selectReg(i){
             ${Object.entries(cit.jargon_buster).map(([t,d])=>`<div class="jargon-item"><div class="jargon-t">${t}</div><div class="jargon-d">${d}</div></div>`).join('')}
           </div>
         </div>`:''}
+      ${evidenceHTML(full?.evidence,true)}
     </div>
 
     <div id="pr" class="pane" role="tabpanel" aria-labelledby="tr">
@@ -803,6 +817,7 @@ async function selectReg(i){
       ${res2.gaps_and_weaknesses?.length?`<div style="margin-bottom:28px"><div class="sec-label">Gaps and weaknesses</div><ul class="gaps-ul">${res2.gaps_and_weaknesses.map(g=>`<li class="gaps-li">${g}</li>`).join('')}</ul></div>`:''}
       ${res2.cross_jurisdiction_tensions?.length?`<div style="margin-bottom:28px"><div class="sec-label">Cross-jurisdiction tensions</div><ul class="tension-ul">${res2.cross_jurisdiction_tensions.map(t=>`<li class="tension-it"><div class="tension-jur">vs. ${t.jurisdiction_b?.toUpperCase()}</div><div class="tension-txt">${t.tension}</div><span class="tension-sev sev-${t.severity}">${t.severity} severity</span></li>`).join('')}</ul></div>`:''}
       ${res2.monitor_notes?`<div class="monitor-note"><div class="sec-label" style="margin-bottom:10px">Monitor notes</div><p>${res2.monitor_notes}</p></div>`:''}
+      ${evidenceHTML(full?.evidence,false)}
     </div>`;
 }
 

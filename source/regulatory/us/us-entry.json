@@ -40,21 +40,59 @@
       "summary": "The US has no comprehensive federal AI law. Governance is fragmented across sector-specific agencies, voluntary frameworks (NIST AI RMF), and a growing patchwork of state legislation. EO 14110 was revoked in 2025. Executive Order 14365 (11 December 2025) set up a DOJ task force to challenge state AI laws and calls for a federal preemption bill; Congress has not passed one. Colorado reenacted a narrower AI Act (SB 26-189) effective 1 January 2027; California SB 53 is in force.",
       "risk_tiers": [],
       "key_provisions": [
-        { "id": "nist_rmf", "title": "NIST AI Risk Management Framework", "description": "Voluntary risk management framework covering AI lifecycle. Increasingly referenced in federal procurement and sector regulation.", "article_reference": "NIST AI 100-1" },
-        { "id": "ftc_action", "title": "FTC algorithmic enforcement", "description": "FTC applies existing consumer protection and antitrust law to algorithmic bias, deceptive AI marketing, and competition concerns.", "article_reference": "FTC Act Section 5" }
+        {
+          "id": "nist_rmf",
+          "title": "NIST AI Risk Management Framework",
+          "description": "Voluntary risk management framework covering AI lifecycle. Increasingly referenced in federal procurement and sector regulation.",
+          "article_reference": "NIST AI 100-1"
+        },
+        {
+          "id": "ftc_action",
+          "title": "FTC algorithmic enforcement",
+          "description": "FTC applies existing consumer protection and antitrust law to algorithmic bias, deceptive AI marketing, and competition concerns.",
+          "article_reference": "FTC Act Section 5"
+        }
       ],
       "cross_jurisdiction_tensions": [
-        { "jurisdiction_b": "eu", "tension": "No upstream liability regime. Multinational operators face incompatible compliance frameworks — EU demands provider accountability, US leaves it to market forces.", "severity": "high" }
+        {
+          "jurisdiction_b": "eu",
+          "tension": "No upstream liability regime. Multinational operators face incompatible compliance frameworks — EU demands provider accountability, US leaves it to market forces.",
+          "severity": "high"
+        }
       ],
       "ethical_dimension_scores": {
-        "safety_risk_management": { "score": 58, "rationale": "NIST RMF provides voluntary guidance. No mandatory pre-deployment assessment at federal level." },
-        "privacy_data_protection": { "score": 52, "rationale": "No federal AI-specific data law. Sector-specific rules (HIPAA, FCRA) apply in limited contexts." },
-        "human_oversight": { "score": 45, "rationale": "No federal human oversight requirement. Some state automated decision-making laws." },
-        "transparency": { "score": 49, "rationale": "FTC transparency guidance. Some state disclosure laws (Illinois AEIA, NYC Local Law 144)." },
-        "accountability": { "score": 55, "rationale": "FTC and DOJ apply existing law. No AI-specific liability framework." },
-        "fairness_non_discrimination": { "score": 61, "rationale": "Existing civil rights law applies. EEOC guidance on AI in hiring." },
-        "environmental_sustainability": { "score": 18, "rationale": "No AI-specific environmental requirements at federal level." },
-        "access_to_remedy": { "score": 38, "rationale": "Remedies through existing legal system. No AI-specific accessible mechanism." }
+        "safety_risk_management": {
+          "score": 58,
+          "rationale": "NIST RMF provides voluntary guidance. No mandatory pre-deployment assessment at federal level."
+        },
+        "privacy_data_protection": {
+          "score": 52,
+          "rationale": "No federal AI-specific data law. Sector-specific rules (HIPAA, FCRA) apply in limited contexts."
+        },
+        "human_oversight": {
+          "score": 45,
+          "rationale": "No federal human oversight requirement. Some state automated decision-making laws."
+        },
+        "transparency": {
+          "score": 49,
+          "rationale": "FTC transparency guidance. Some state disclosure laws (Illinois AEIA, NYC Local Law 144)."
+        },
+        "accountability": {
+          "score": 55,
+          "rationale": "FTC and DOJ apply existing law. No AI-specific liability framework."
+        },
+        "fairness_non_discrimination": {
+          "score": 61,
+          "rationale": "Existing civil rights law applies. EEOC guidance on AI in hiring."
+        },
+        "environmental_sustainability": {
+          "score": 18,
+          "rationale": "No AI-specific environmental requirements at federal level."
+        },
+        "access_to_remedy": {
+          "score": 38,
+          "rationale": "Remedies through existing legal system. No AI-specific accessible mechanism."
+        }
       },
       "gaps_and_weaknesses": [
         "No comprehensive federal AI law — regulatory vacuum at national level",
@@ -69,8 +107,16 @@
       "one_line": "The US has no single national AI law — your protections depend entirely on which state you live in and which industry is using AI on you.",
       "what_changed": "Some states have passed AI laws and the FTC is using existing consumer protection rules more aggressively. But there is no federal law giving you consistent rights across the country.",
       "real_world_examples": [
-        { "scenario": "Job application", "before": "An employer could use AI to screen you with no disclosure or accountability.", "after": "In New York City, employers using AI hiring tools must conduct bias audits and disclose AI use to candidates. Most of the US has no equivalent protection." },
-        { "scenario": "Credit or loan", "before": "An algorithm could deny your application based on factors you don't know about.", "after": "The Fair Credit Reporting Act gives you some rights to dispute credit decisions, but there is no right to a full AI explanation." }
+        {
+          "scenario": "Job application",
+          "before": "An employer could use AI to screen you with no disclosure or accountability.",
+          "after": "In New York City, employers using AI hiring tools must conduct bias audits and disclose AI use to candidates. Most of the US has no equivalent protection."
+        },
+        {
+          "scenario": "Credit or loan",
+          "before": "An algorithm could deny your application based on factors you don't know about.",
+          "after": "The Fair Credit Reporting Act gives you some rights to dispute credit decisions, but there is no right to a full AI explanation."
+        }
       ],
       "who_is_protected": "Protections vary by state. Strongest in California, Colorado, Illinois, and New York City. Federal protection exists only in specific sectors like credit and housing.",
       "who_is_not_protected": [
@@ -79,9 +125,21 @@
         "People affected by AI in most private sector contexts without sector-specific federal rules"
       ],
       "your_rights": [
-        { "right": "Right to dispute a credit decision", "what_it_means": "The Fair Credit Reporting Act lets you dispute inaccurate information affecting your credit.", "how_to_invoke": "Contact the credit bureau and lender directly, or file at consumerfinance.gov." },
-        { "right": "Right to know about AI in hiring (NYC only)", "what_it_means": "NYC employers using AI hiring tools must disclose this and publish annual bias audit results.", "how_to_invoke": "Ask the employer. If they refuse, complain to the NYC Department of Consumer and Worker Protection." },
-        { "right": "Right to complain about deceptive AI", "what_it_means": "The FTC can act against companies using AI in deceptive or unfair ways.", "how_to_invoke": "File a report at reportfraud.ftc.gov. The FTC uses these to identify patterns even if they cannot help you individually." }
+        {
+          "right": "Right to dispute a credit decision",
+          "what_it_means": "The Fair Credit Reporting Act lets you dispute inaccurate information affecting your credit.",
+          "how_to_invoke": "Contact the credit bureau and lender directly, or file at consumerfinance.gov."
+        },
+        {
+          "right": "Right to know about AI in hiring (NYC only)",
+          "what_it_means": "NYC employers using AI hiring tools must disclose this and publish annual bias audit results.",
+          "how_to_invoke": "Ask the employer. If they refuse, complain to the NYC Department of Consumer and Worker Protection."
+        },
+        {
+          "right": "Right to complain about deceptive AI",
+          "what_it_means": "The FTC can act against companies using AI in deceptive or unfair ways.",
+          "how_to_invoke": "File a report at reportfraud.ftc.gov. The FTC uses these to identify patterns even if they cannot help you individually."
+        }
       ],
       "plain_language_summary": "In the US, your AI protections are a patchwork quilt — strong in some states, almost nonexistent in others, and with no national safety net. The federal government has chosen voluntary guidelines over a new law. This means companies have significant freedom, and your rights depend heavily on where you live and what industry is involved.",
       "jargon_buster": {
@@ -92,9 +150,82 @@
       "still_confused": "Use the Insight Engine to ask about AI rights in your specific state or situation."
     },
     "monitor": {
-      "assigned_to": null, "monitor_name": null, "monitor_affiliation": null,
-      "monitor_country": null, "contact": null,
-      "update_frequency": "monthly", "last_submission": null, "submission_format": "github_pr"
+      "assigned_to": null,
+      "monitor_name": null,
+      "monitor_affiliation": null,
+      "monitor_country": null,
+      "contact": null,
+      "update_frequency": "monthly",
+      "last_submission": null,
+      "submission_format": "github_pr"
+    },
+    "evidence": {
+      "sources": [
+        {
+          "id": "S1",
+          "title": "NIST AI Risk Management Framework 1.0 (AI 100-1)",
+          "publisher": "NIST",
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "type": "primary",
+          "date": "2023-01-26",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S2",
+          "title": "State AI laws under federal scrutiny: key takeaways from the executive order",
+          "publisher": "White & Case",
+          "url": "https://www.whitecase.com/insight-alert/state-ai-laws-under-federal-scrutiny-key-takeaways-executive-order-establishing",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S3",
+          "title": "Federal AI Preemption Fight: Where It Stands",
+          "publisher": "CASRAI",
+          "url": "https://casrai.org/news/federal-ai-moratorium-state-preemption-fight-2026",
+          "type": "secondary",
+          "date": "2026-09-20",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "There is no comprehensive federal AI law; governance is sectoral, voluntary (NIST AI RMF) and state-led.",
+          "source_ids": [
+            "S1",
+            "S3"
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "C2",
+          "text": "Executive Order 14365 (11 December 2025) created a DOJ task force to challenge state AI laws and calls for a federal preemption bill.",
+          "source_ids": [
+            "S2",
+            "S3"
+          ],
+          "confidence": "medium",
+          "note": "Add the White House text as a primary source."
+        },
+        {
+          "id": "C3",
+          "text": "The Senate removed the proposed 10-year state AI moratorium 99–1 in 2025.",
+          "source_ids": [
+            "S3"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C4",
+          "text": "Colorado reenacted a narrower AI Act (SB 26-189), effective 1 January 2027.",
+          "source_ids": [
+            "S3"
+          ],
+          "confidence": "medium",
+          "note": "Verify against Colorado legislature text."
+        }
+      ]
     }
   }
 }
