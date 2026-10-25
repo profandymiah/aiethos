@@ -1,0 +1,215 @@
+{
+  "_generated": "2026-10-25T11:46:32.789Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "vn",
+    "name": "Vietnam",
+    "region": "Asia-Pacific",
+    "population": 100000000,
+    "iso_code": "VN",
+    "flag_emoji": "🇻🇳",
+    "entry_author": "AIETHOS AI-drafted (unreviewed)",
+    "entry_reviewed": false,
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
+    "confidence": "medium"
+  },
+  "framework": {
+    "primary_law": "Law on Artificial Intelligence (passed 10 December 2025; in force 1 March 2026)",
+    "status": "enacted",
+    "approach": "comprehensive",
+    "binding": true,
+    "year_enacted": 2025,
+    "year_effective": 2026,
+    "enforcement_begins": "2026-03-01",
+    "review_scheduled": null,
+    "enforcing_body": "Ministry of Science and Technology and designated state management authority",
+    "max_penalty": "Administrative sanctions to criminal liability; amounts set by Government decree",
+    "geographic_scope": "Applies to AI providers and users in Vietnam, with local contact requirements for foreign providers.",
+    "source_documents": [
+      {
+        "title": "Vietnam's new Law on AI: Risk-based framework in force 1 March 2026",
+        "url": "https://www.allenandgledhill.com/vn/publication/articles/32667/s-new-law-on-artificial-intelligence-risk-based-regulatory-framework-in-force-1-march-2026",
+        "type": "secondary_commentary",
+        "date": null
+      },
+      {
+        "title": "Vietnam's Law on Artificial Intelligence No. 134/2025/QH15",
+        "url": "https://casrai.org/guides/vietnam-ai-law-134-2025",
+        "type": "secondary_commentary",
+        "date": null
+      },
+      {
+        "title": "Vietnam AI Regulation Overview",
+        "url": "https://regulations.ai/regulations/RAI-VN-NA-SUMMARY-2026",
+        "type": "secondary_commentary",
+        "date": null
+      }
+    ]
+  },
+  "research": {
+    "summary": "Vietnam's first standalone AI law, passed on 10 December 2025 and in force from 1 March 2026, is risk-based: high-risk systems need conformity assessment before deployment, medium-risk systems carry transparency and labelling duties, and low-risk systems face minimal rules. It adds machine-tagging of generated media, serious-incident reporting through a national AI portal, a national AI database and a sandbox, with transition periods of 12 or 18 months for existing systems.",
+    "risk_tiers": [
+      {
+        "tier": "High risk",
+        "description": "Conformity assessment before deployment, risk management, documentation and logs.",
+        "effective": null
+      },
+      {
+        "tier": "Medium risk",
+        "description": "Transparency and labelling where users may be misled.",
+        "effective": null
+      },
+      {
+        "tier": "Low risk",
+        "description": "Minimal intervention.",
+        "effective": null
+      }
+    ],
+    "key_provisions": [
+      {
+        "id": "conformity",
+        "title": "High-risk conformity assessment",
+        "description": "Required before deployment and after significant changes.",
+        "article_reference": "Law on AI"
+      },
+      {
+        "id": "tag",
+        "title": "Generated content tagging",
+        "description": "Machine-tagging of AI-generated audio, image and video and disclosure of misleading content.",
+        "article_reference": "Law on AI"
+      },
+      {
+        "id": "incident",
+        "title": "Incident reporting",
+        "description": "Serious malfunctions must be fixed, suspended or recalled and reported via the national AI portal.",
+        "article_reference": "Law on AI"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "EU",
+        "tension": "Vietnam's tiered model is similar to the EU's; differences in assessment bodies and state oversight create dual compliance work.",
+        "severity": "low"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 68,
+        "rationale": "Risk tiers with conformity assessment and incident reporting."
+      },
+      "privacy_data_protection": {
+        "score": 50,
+        "rationale": "Unlawful data use is prohibited; details in separate data laws."
+      },
+      "human_oversight": {
+        "score": 65,
+        "rationale": "Blocking human oversight is prohibited."
+      },
+      "transparency": {
+        "score": 70,
+        "rationale": "Disclosure and machine-tagging of synthetic content."
+      },
+      "accountability": {
+        "score": 60,
+        "rationale": "Compensation rules and authority powers to suspend systems."
+      },
+      "fairness_non_discrimination": {
+        "score": 40,
+        "rationale": "No detailed fairness duties reported."
+      },
+      "environmental_sustainability": {
+        "score": 15,
+        "rationale": "No environmental provisions reported."
+      },
+      "access_to_remedy": {
+        "score": 50,
+        "rationale": "Compensation rules for high-risk harm."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "Penalty amounts await Government decrees.",
+      "Transition periods delay full application."
+    ],
+    "academic_references": [],
+    "monitor_notes": "Law number reported as 134/2025/QH15 by one source; verify against the official gazette. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+  },
+  "citizen": {
+    "one_line": "Vietnam now has a binding AI law that sorts AI by risk and requires labelling of AI-made media.",
+    "what_changed": "From 1 March 2026 high-risk AI must be assessed before it is used and AI-generated media must be tagged. Systems already running have 12 to 18 months to comply.",
+    "who_is_protected": "People in Vietnam affected by AI systems.",
+    "who_is_not_protected": [
+      "People affected by systems still in transition periods"
+    ],
+    "your_rights": [
+      {
+        "right": "Compensation for harm from high-risk AI",
+        "what_it_means": "If a high-risk system causes damage, the operating party pays compensation first.",
+        "how_to_invoke": "Claim against the operator; report incidents to the authority."
+      }
+    ],
+    "plain_language_summary": "Vietnam's law treats risky AI more strictly and requires honesty about AI-made content.",
+    "jargon_buster": {
+      "Conformity assessment": "A check that an AI system meets legal requirements before it is used.",
+      "Sandbox": "A controlled space for testing AI under regulator supervision."
+    },
+    "real_world_examples": []
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "Vietnam",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Vietnam's new Law on AI: Risk-based framework in force 1 March 2026",
+        "publisher": "Allen & Gledhill",
+        "url": "https://www.allenandgledhill.com/vn/publication/articles/32667/s-new-law-on-artificial-intelligence-risk-based-regulatory-framework-in-force-1-march-2026",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "Vietnam's Law on Artificial Intelligence No. 134/2025/QH15",
+        "publisher": "CASRAI",
+        "url": "https://casrai.org/guides/vietnam-ai-law-134-2025",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S3",
+        "title": "Vietnam AI Regulation Overview",
+        "publisher": "regulations.ai",
+        "url": "https://regulations.ai/regulations/RAI-VN-NA-SUMMARY-2026",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "Passed 10 December 2025; effective 1 March 2026.",
+        "source_ids": [
+          "S1",
+          "S2"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C2",
+        "text": "Transition periods: 18 months for healthcare, education and finance; 12 months otherwise.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      }
+    ]
+  }
+}

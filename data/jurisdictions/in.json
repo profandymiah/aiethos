@@ -1,0 +1,200 @@
+{
+  "_generated": "2026-10-25T11:46:32.786Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "in",
+    "name": "India",
+    "region": "Asia-Pacific",
+    "population": 1430000000,
+    "iso_code": "IN",
+    "flag_emoji": "🇮🇳",
+    "entry_author": "AIETHOS AI-drafted (unreviewed)",
+    "entry_reviewed": false,
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
+    "confidence": "medium"
+  },
+  "framework": {
+    "primary_law": "India AI Governance Guidelines (voluntary, 5 November 2025) plus IT Rules synthetic media amendment (effective 20 February 2026) and DPDP Act 2023",
+    "status": "voluntary",
+    "approach": "innovation-led",
+    "binding": false,
+    "year_enacted": 2025,
+    "year_effective": 2026,
+    "enforcement_begins": "2026-02-20",
+    "review_scheduled": null,
+    "enforcing_body": "Ministry of Electronics and IT (MeitY); Data Protection Board (once constituted)",
+    "max_penalty": "IT Rules: loss of safe harbour for intermediaries; DPDP penalties (sources disagree on maximum)",
+    "geographic_scope": "Intermediaries and data fiduciaries serving users in India.",
+    "source_documents": [
+      {
+        "title": "India's AI Governance Framework 2026: From Advisories to Regulation",
+        "url": "https://veritect.ai/digital-data-ai-law/india-ai-governance-framework-2026",
+        "type": "secondary_commentary",
+        "date": "2026-04-30"
+      },
+      {
+        "title": "India's 2026 IT Rules Amendment: Regulating AI-Generated Content",
+        "url": "https://www.lexology.com/library/detail.aspx?g=adb2714c-1188-43e3-b62b-eb6649727f6e",
+        "type": "secondary_commentary",
+        "date": null
+      }
+    ]
+  },
+  "research": {
+    "summary": "India has no standalone AI law. MeitY issued voluntary AI Governance Guidelines (reported as 5 November 2025) that reject pre-approval of models, with a conversion pathway to mandatory rules reportedly due around November 2026. Binding duties come from the IT Rules amendment on synthetic content (G.S.R. 120(E), effective 20 February 2026: labelling, provenance metadata, three-hour takedown) and the DPDP Act with its November 2025 Rules.",
+    "risk_tiers": [],
+    "key_provisions": [
+      {
+        "id": "it_rules",
+        "title": "Synthetic media labelling",
+        "description": "Visible labels and machine-readable provenance on synthetic audio and video; three-hour takedown of notified illegal content.",
+        "article_reference": "IT Rules Rule 3(3), 3(1)(d)"
+      },
+      {
+        "id": "dpdp",
+        "title": "DPDP Act 2023",
+        "description": "Consent, accuracy and purpose limitation for personal data used by AI.",
+        "article_reference": "DPDP Act ss. 6, 8, 9"
+      },
+      {
+        "id": "guidelines",
+        "title": "AI Governance Guidelines",
+        "description": "Voluntary principles; no pre-approval of models.",
+        "article_reference": "MeitY Guidelines"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "EU",
+        "tension": "India's light-touch stance contrasts with EU obligations; firms serving both must meet the stricter EU rules.",
+        "severity": "medium"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 30,
+        "rationale": "Voluntary guidelines; no mandatory risk assessment."
+      },
+      "privacy_data_protection": {
+        "score": 50,
+        "rationale": "DPDP Act provides consent-based protections; board not fully operational."
+      },
+      "human_oversight": {
+        "score": 30,
+        "rationale": "Human oversight in guidance only."
+      },
+      "transparency": {
+        "score": 55,
+        "rationale": "Mandatory labelling of synthetic media."
+      },
+      "accountability": {
+        "score": 35,
+        "rationale": "Safe-harbour loss is the main sanction."
+      },
+      "fairness_non_discrimination": {
+        "score": 25,
+        "rationale": "No AI-specific fairness duty."
+      },
+      "environmental_sustainability": {
+        "score": 10,
+        "rationale": "No environmental provisions."
+      },
+      "access_to_remedy": {
+        "score": 35,
+        "rationale": "Grievance mechanisms exist but are limited."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "No omnibus AI law is imminent.",
+      "Data Protection Board is not yet fully operating.",
+      "Sources disagree on some dates and penalties."
+    ],
+    "academic_references": [],
+    "monitor_notes": "Several dates in the source conflict (guidelines release date; DPDP penalty maximum). Verify against gazette notifications and PIB releases. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+  },
+  "citizen": {
+    "one_line": "India relies on voluntary guidelines for AI, with firm rules on deepfake labelling and data protection.",
+    "what_changed": "Since 20 February 2026, AI-generated audio and video on platforms must be labelled and can be ordered down within three hours if illegal.",
+    "who_is_protected": "Users of online platforms and people whose personal data is processed in India.",
+    "who_is_not_protected": [
+      "People affected by AI outside platform and data rules"
+    ],
+    "your_rights": [
+      {
+        "right": "Know when media is AI-generated",
+        "what_it_means": "Platforms must label synthetic content.",
+        "how_to_invoke": "Report unlabelled content through the platform grievance process."
+      },
+      {
+        "right": "Data rights under DPDP",
+        "what_it_means": "Consent and correction rights over personal data.",
+        "how_to_invoke": "Raise with the data fiduciary, then the Data Protection Board when operating."
+      }
+    ],
+    "plain_language_summary": "India is leaning on voluntary AI guidance for now, with strict rules on deepfakes and personal data.",
+    "jargon_buster": {
+      "Safe harbour": "Legal protection for platforms from liability for user content, lost if they break the rules.",
+      "DPDP": "India's Digital Personal Data Protection Act."
+    },
+    "real_world_examples": []
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "India",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "India's AI Governance Framework 2026: From Advisories to Regulation",
+        "publisher": "Veritect",
+        "url": "https://veritect.ai/digital-data-ai-law/india-ai-governance-framework-2026",
+        "type": "secondary",
+        "date": "2026-04-30",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "India's 2026 IT Rules Amendment: Regulating AI-Generated Content",
+        "publisher": "Lexology",
+        "url": "https://www.lexology.com/library/detail.aspx?g=adb2714c-1188-43e3-b62b-eb6649727f6e",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "IT Rules amendment notified 10 February 2026, effective 20 February 2026.",
+        "source_ids": [
+          "S1",
+          "S2"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C2",
+        "text": "Voluntary AI Governance Guidelines reported 5 November 2025.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "low"
+      },
+      {
+        "id": "C3",
+        "text": "No omnibus AI Act exists or is imminent.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      }
+    ]
+  }
+}

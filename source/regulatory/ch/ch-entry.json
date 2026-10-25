@@ -1,0 +1,179 @@
+{
+  "_schema_version": "1.0.0",
+  "jurisdiction": {
+    "meta": {
+      "id": "ch",
+      "name": "Switzerland",
+      "region": "Europe",
+      "population": 8800000,
+      "iso_code": "CH",
+      "flag_emoji": "🇨🇭",
+      "entry_author": "AIETHOS AI-drafted (unreviewed)",
+      "entry_reviewed": false,
+      "last_updated": "2026-10-25",
+      "next_review_due": "2027-01-25",
+      "confidence": "medium"
+    },
+    "framework": {
+      "primary_law": "Federal Council AI regulatory strategy (12 February 2025): sector-specific approach and ratification of the Council of Europe AI Convention",
+      "status": "consultation",
+      "approach": "sectoral",
+      "binding": false,
+      "year_enacted": null,
+      "year_effective": null,
+      "enforcement_begins": null,
+      "review_scheduled": null,
+      "enforcing_body": "Federal Department of Justice and Police and sector regulators; Federal Data Protection and Information Commissioner",
+      "max_penalty": "Via existing law",
+      "geographic_scope": "Existing Swiss law applies; no horizontal AI law planned.",
+      "source_documents": [
+        {
+          "title": "Switzerland Sets Its Course on AI Legislation",
+          "url": "https://pestalozzilaw.com/en/insights/news/legal-insights/switzerland-sets-its-course-on-ai-legislation-federal-council-out-lines-a-lean-regulatory-approach/",
+          "type": "secondary_commentary",
+          "date": null
+        },
+        {
+          "title": "AI Regulation Switzerland, 2026 Status and Outlook",
+          "url": "https://www.sidd.swiss/en/insights/ai-regulation-switzerland/",
+          "type": "secondary_commentary",
+          "date": null
+        }
+      ]
+    },
+    "research_layer": {
+      "summary": "On 12 February 2025 the Federal Council chose a sector-specific, technology-neutral approach and rejected an EU-style horizontal AI law. Its priority is to ratify the Council of Europe AI Convention, with a consultation draft expected by end 2026, plus non-binding measures such as self-declaration frameworks. Ratification needs parliamentary approval and may face a referendum.",
+      "risk_tiers": [],
+      "key_provisions": [
+        {
+          "id": "coe",
+          "title": "Council of Europe Convention ratification",
+          "description": "Incorporate the binding AI Convention into Swiss law.",
+          "article_reference": "Federal Council decision"
+        },
+        {
+          "id": "sector",
+          "title": "Sector-specific adjustments",
+          "description": "Targeted changes where fundamental rights are affected.",
+          "article_reference": "Federal Council strategy"
+        }
+      ],
+      "cross_jurisdiction_tensions": [
+        {
+          "jurisdiction_b": "EU",
+          "tension": "Swiss exporters of high-risk AI must meet EU conformity assessment because mutual recognition remains blocked.",
+          "severity": "medium"
+        }
+      ],
+      "ethical_dimension_scores": {
+        "safety_risk_management": {
+          "score": 30,
+          "rationale": "No mandatory AI risk framework planned."
+        },
+        "privacy_data_protection": {
+          "score": 70,
+          "rationale": "Data protection law is strong and applies to AI."
+        },
+        "human_oversight": {
+          "score": 40,
+          "rationale": "Oversight via sector rules."
+        },
+        "transparency": {
+          "score": 40,
+          "rationale": "Voluntary self-declaration planned."
+        },
+        "accountability": {
+          "score": 35,
+          "rationale": "Existing accountability only."
+        },
+        "fairness_non_discrimination": {
+          "score": 45,
+          "rationale": "Personality rights and anti-discrimination law apply."
+        },
+        "environmental_sustainability": {
+          "score": 20,
+          "rationale": "No environmental provisions."
+        },
+        "access_to_remedy": {
+          "score": 50,
+          "rationale": "Courts and the data commissioner provide recourse."
+        }
+      },
+      "gaps_and_weaknesses": [
+        "No horizontal AI law.",
+        "Consultation draft not yet published as of the sources used."
+      ],
+      "academic_references": [],
+      "monitor_notes": "Check whether the end-2026 consultation draft on the AI Convention has been published. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+    },
+    "citizen_layer": {
+      "one_line": "Switzerland will not copy the EU's AI Act; it plans to adopt the Council of Europe treaty and adjust sector laws.",
+      "what_changed": "Switzerland decided in February 2025 to take a light-touch route. A draft law to adopt the Council of Europe AI treaty is expected by the end of 2026.",
+      "who_is_protected": "People in Switzerland through data protection and personality rights.",
+      "who_is_not_protected": [
+        "People harmed by AI in sectors with no targeted rules yet"
+      ],
+      "your_rights": [
+        {
+          "right": "Data protection rights",
+          "what_it_means": "The revised Data Protection Act gives rights over personal data and automated individual decisions.",
+          "how_to_invoke": "Contact the controller, then the Federal Data Protection and Information Commissioner."
+        }
+      ],
+      "plain_language_summary": "Switzerland is taking a gradual approach, relying on existing laws and an international treaty.",
+      "jargon_buster": {
+        "Convention": "A binding international treaty.",
+        "Technology-neutral": "Rules that apply regardless of the specific technology."
+      },
+      "real_world_examples": []
+    },
+    "monitor": {
+      "assigned_to": null,
+      "monitor_name": null,
+      "monitor_affiliation": null,
+      "monitor_country": "Switzerland",
+      "contact": null,
+      "update_frequency": "monthly",
+      "last_submission": null,
+      "submission_format": "github_pr"
+    },
+    "evidence": {
+      "sources": [
+        {
+          "id": "S1",
+          "title": "Switzerland Sets Its Course on AI Legislation",
+          "publisher": "Pestalozzi",
+          "url": "https://pestalozzilaw.com/en/insights/news/legal-insights/switzerland-sets-its-course-on-ai-legislation-federal-council-out-lines-a-lean-regulatory-approach/",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S2",
+          "title": "AI Regulation Switzerland, 2026 Status and Outlook",
+          "publisher": "SIDD",
+          "url": "https://www.sidd.swiss/en/insights/ai-regulation-switzerland/",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Federal Council decision 12 February 2025 for a sector-specific approach.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C2",
+          "text": "Consultation draft expected by end of 2026.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    }
+  }
+}

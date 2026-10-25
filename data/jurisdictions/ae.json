@@ -1,0 +1,192 @@
+{
+  "_generated": "2026-10-25T11:46:32.783Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "ae",
+    "name": "United Arab Emirates",
+    "region": "Middle East",
+    "population": 10000000,
+    "iso_code": "AE",
+    "flag_emoji": "🇦🇪",
+    "entry_author": "AIETHOS AI-drafted (unreviewed)",
+    "entry_reviewed": false,
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
+    "confidence": "low"
+  },
+  "framework": {
+    "primary_law": "No federal AI law. PDPL (Decree-Law 45/2021), National AI Strategy 2031, DIFC Regulation 10 (AI, January 2026)",
+    "status": "active",
+    "approach": "sectoral",
+    "binding": true,
+    "year_enacted": null,
+    "year_effective": 2026,
+    "enforcement_begins": null,
+    "review_scheduled": null,
+    "enforcing_body": "UAE Data Office; DIFC Commissioner; sector regulators (CBUAE, DFSA, FSRA, DHA)",
+    "max_penalty": "PDPL fines up to AED 5 million; DIFC Regulation 10: US$25,000 to 50,000 per violation",
+    "geographic_scope": "Federal data law nationwide; DIFC rules apply to DIFC-registered entities.",
+    "source_documents": [
+      {
+        "title": "UAE AI Regulation 2026: PDPL, DIFC & ADGM Compliance Guide",
+        "url": "https://wcr.legal/uae-ai-regulation-2026-compliance-guide/",
+        "type": "secondary_commentary",
+        "date": null
+      },
+      {
+        "title": "UAE AI Development and Use Charter",
+        "url": "https://regulations.ai/regulations/RAI-AE-NA-DEVELOP-2024",
+        "type": "secondary_commentary",
+        "date": null
+      }
+    ]
+  },
+  "research": {
+    "summary": "The UAE has no single AI law; a federal framework has been discussed but not enacted. Governance is layered: the federal PDPL (full compliance due 1 January 2027), non-binding strategy and ethics guidance, a 2024 Child Digital Safety Law, and DIFC Regulation 10 (in force January 2026), which requires AI impact assessments and transparency for high-risk uses by DIFC entities.",
+    "risk_tiers": [],
+    "key_provisions": [
+      {
+        "id": "pdpl",
+        "title": "PDPL",
+        "description": "Consent-based processing and human oversight for automated decisions affecting individuals.",
+        "article_reference": "Decree-Law 45/2021"
+      },
+      {
+        "id": "difc10",
+        "title": "DIFC Regulation 10",
+        "description": "AI impact assessments, transparency and documentation for high-risk uses.",
+        "article_reference": "DIFC Regulation 10"
+      },
+      {
+        "id": "strategy",
+        "title": "National AI Strategy 2031",
+        "description": "Non-binding strategy and ethics guide referenced in procurement.",
+        "article_reference": "Strategy"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "US",
+        "tension": "The UAE courts both US and Chinese AI partnerships while building its own rules.",
+        "severity": "medium"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 35,
+        "rationale": "Impact assessments only inside DIFC."
+      },
+      "privacy_data_protection": {
+        "score": 55,
+        "rationale": "PDPL applies with consent as the main basis."
+      },
+      "human_oversight": {
+        "score": 45,
+        "rationale": "Human oversight for automated decisions under PDPL."
+      },
+      "transparency": {
+        "score": 45,
+        "rationale": "Transparency duties within DIFC."
+      },
+      "accountability": {
+        "score": 30,
+        "rationale": "Fragmented enforcement."
+      },
+      "fairness_non_discrimination": {
+        "score": 30,
+        "rationale": "No fairness duty identified."
+      },
+      "environmental_sustainability": {
+        "score": 15,
+        "rationale": "No AI environmental provisions identified."
+      },
+      "access_to_remedy": {
+        "score": 35,
+        "rationale": "Limited redress outside DIFC."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "No federal AI law.",
+      "Fragmented rules across federal, free-zone and sector regimes."
+    ],
+    "academic_references": [],
+    "monitor_notes": "The source is a law-firm guide; check primary texts. Dubai-level AI rules and the 2024 AI charter were not verified. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+  },
+  "citizen": {
+    "one_line": "The UAE has no single AI law; rules differ between the federal government, free zones and sectors.",
+    "what_changed": "Since January 2026, firms in the Dubai International Financial Centre must assess the impact of high-risk AI.",
+    "who_is_protected": "People in the UAE through PDPL; stronger inside DIFC.",
+    "who_is_not_protected": [
+      "People outside DIFC where only general rules apply"
+    ],
+    "your_rights": [
+      {
+        "right": "Human review of automated decisions",
+        "what_it_means": "PDPL requires human oversight for automated decisions affecting individuals.",
+        "how_to_invoke": "Ask the company; complain to the UAE Data Office."
+      }
+    ],
+    "plain_language_summary": "The UAE's AI rules are a patchwork. Check whether the company is in a free zone like DIFC.",
+    "jargon_buster": {
+      "Free zone": "A special area with its own business laws, such as DIFC or ADGM.",
+      "PDPL": "The UAE federal personal data protection law."
+    },
+    "real_world_examples": []
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "United Arab Emirates",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "UAE AI Regulation 2026: PDPL, DIFC & ADGM Compliance Guide",
+        "publisher": "WCR Legal",
+        "url": "https://wcr.legal/uae-ai-regulation-2026-compliance-guide/",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "UAE AI Development and Use Charter",
+        "publisher": "regulations.ai",
+        "url": "https://regulations.ai/regulations/RAI-AE-NA-DEVELOP-2024",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "No federal AI law as of 2026.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C2",
+        "text": "DIFC Regulation 10 in force January 2026.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "low"
+      },
+      {
+        "id": "C3",
+        "text": "PDPL full compliance due 1 January 2027.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "low"
+      }
+    ]
+  }
+}

@@ -1,7 +1,23 @@
 {
-  "_generated": "2026-10-25T11:39:27.136Z",
-  "count": 4,
+  "_generated": "2026-10-25T11:46:32.799Z",
+  "count": 19,
   "items": [
+    {
+      "type": "enforcement",
+      "iso": "VN",
+      "name": "Vietnam",
+      "text": "Vietnam — Law on Artificial Intelligence (passed 10 December 2025; in force 1 March 2026) effective 2026",
+      "date": "2026",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "VN",
+      "name": "Vietnam",
+      "text": "Vietnam entry updated — Law on Artificial Intelligence (passed 10 December 2025; in force 1 March 2026)",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
     {
       "type": "update",
       "iso": "US",
@@ -15,6 +31,70 @@
       "iso": "GB",
       "name": "United Kingdom",
       "text": "United Kingdom entry updated — Pro-Innovation AI Regulation White Paper + AI Security Institute",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "AE",
+      "name": "United Arab Emirates",
+      "text": "United Arab Emirates entry updated — No federal AI law. PDPL (Decree-Law 45/2021), National AI Strategy 2031, DIFC Regulation 10 (AI, January 2026)",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "CH",
+      "name": "Switzerland",
+      "text": "Switzerland entry updated — Federal Council AI regulatory strategy (12 February 2025): sector-specific approach and ratification of the Council of Europe AI Convention",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "enforcement",
+      "iso": "KR",
+      "name": "South Korea",
+      "text": "South Korea — Act on the Development of Artificial Intelligence and Establishment of Trust (AI Basic Act) effective 2026",
+      "date": "2026",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "KR",
+      "name": "South Korea",
+      "text": "South Korea entry updated — Act on the Development of Artificial Intelligence and Establishment of Trust (AI Basic Act)",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "SG",
+      "name": "Singapore",
+      "text": "Singapore entry updated — No standalone AI law. Model AI Governance Frameworks (incl. Agentic AI, January 2026), AI Verify, sector guidance",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "KE",
+      "name": "Kenya",
+      "text": "Kenya entry updated — Artificial Intelligence Bill, 2026 (published; not enacted). Kenya National AI Strategy 2025–2030; Data Protection Act 2019",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "JP",
+      "name": "Japan",
+      "text": "Japan entry updated — Act on Promotion of Research, Development and Utilization of AI-Related Technologies (AI Promotion Act, Act No. 53 of 2025)",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "IN",
+      "name": "India",
+      "text": "India entry updated — India AI Governance Guidelines (voluntary, 5 November 2025) plus IT Rules synthetic media amendment (effective 20 February 2026) and DPDP Act 2023",
       "date": "2026-10-25",
       "priority": "high"
     },
@@ -33,6 +113,46 @@
       "text": "European Union entry updated — EU AI Act (Regulation EU 2024/1689)",
       "date": "2026-10-25",
       "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "CN",
+      "name": "China",
+      "text": "China entry updated — Layered CAC regulations: Recommendation Algorithms (2022), Deep Synthesis (2023), Generative AI Interim Measures (2023), AI-Generated Content Labelling Measures (2025)",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "CA",
+      "name": "Canada",
+      "text": "Canada entry updated — No federal AI statute. AIDA (Bill C-27) died on 6 January 2025; Bills C-34 and C-36 (June 2026) are pending",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "BR",
+      "name": "Brazil",
+      "text": "Brazil entry updated — Bill PL 2338/2023 (AI Legal Framework): passed Senate December 2024, pending in Chamber of Deputies",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "AU",
+      "name": "Australia",
+      "text": "Australia entry updated — No AI Act. Existing laws plus Guidance for AI Adoption; mandatory requirements for Commonwealth agencies from 15 June 2026",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "consultation",
+      "iso": "CH",
+      "name": "Switzerland",
+      "text": "Switzerland — public consultation open on Federal Council AI regulatory strategy (12 February 2025): sector-specific approach and ratification of the Council of Europe AI Convention",
+      "date": "2026-10-25",
+      "priority": "normal"
     }
   ]
 }

@@ -1,0 +1,201 @@
+{
+  "_schema_version": "1.0.0",
+  "jurisdiction": {
+    "meta": {
+      "id": "cn",
+      "name": "China",
+      "region": "Asia-Pacific",
+      "population": 1410000000,
+      "iso_code": "CN",
+      "flag_emoji": "🇨🇳",
+      "entry_author": "AIETHOS AI-drafted (unreviewed)",
+      "entry_reviewed": false,
+      "last_updated": "2026-10-25",
+      "next_review_due": "2027-01-25",
+      "confidence": "medium"
+    },
+    "framework": {
+      "primary_law": "Layered CAC regulations: Recommendation Algorithms (2022), Deep Synthesis (2023), Generative AI Interim Measures (2023), AI-Generated Content Labelling Measures (2025)",
+      "status": "active",
+      "approach": "state-directed",
+      "binding": true,
+      "year_enacted": 2023,
+      "year_effective": 2023,
+      "enforcement_begins": null,
+      "review_scheduled": null,
+      "enforcing_body": "Cyberspace Administration of China (CAC) with MIIT, MPS and others",
+      "max_penalty": "Under PIPL: up to RMB 50 million or 5% of annual revenue; criminal liability for serious offences",
+      "geographic_scope": "Services offered to the public in mainland China, including foreign providers.",
+      "source_documents": [
+        {
+          "title": "AI Watch: Global regulatory tracker - China",
+          "url": "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-china",
+          "type": "secondary_commentary",
+          "date": "2025-09"
+        },
+        {
+          "title": "China's AI Rules: Measures to Labeling Law",
+          "url": "https://casrai.org/guides/china-ai-regulation-explained",
+          "type": "secondary_commentary",
+          "date": null
+        }
+      ]
+    },
+    "research_layer": {
+      "summary": "China regulates AI through targeted administrative rules rather than one comprehensive statute: recommendation algorithms (in force March 2022), deep synthesis (January 2023), generative AI (15 August 2023) and mandatory explicit and implicit labelling of AI-generated content from 1 September 2025. Providers with public opinion influence must complete security assessments and filings before launch. Ethics review measures (December 2023) cover AI research enterprises.",
+      "risk_tiers": [],
+      "key_provisions": [
+        {
+          "id": "genai",
+          "title": "Generative AI Interim Measures",
+          "description": "Providers must respect socialist core values, use lawful training data, and complete security assessment and filing if they can influence public opinion.",
+          "article_reference": "Interim Measures, Art. 17 and 21"
+        },
+        {
+          "id": "label",
+          "title": "AI content labelling",
+          "description": "Explicit and implicit labels are required on AI-generated and synthetic content from 1 September 2025.",
+          "article_reference": "CAC and MIIT Labelling Measures"
+        },
+        {
+          "id": "ethics",
+          "title": "Science and technology ethics review",
+          "description": "Ethics review for enterprises engaged in AI and similar activities (trial measures, 1 December 2023).",
+          "article_reference": "Trial Measures"
+        }
+      ],
+      "cross_jurisdiction_tensions": [
+        {
+          "jurisdiction_b": "US",
+          "tension": "Content-control and filing requirements in China conflict with US free-speech-oriented and export-control approaches; firms face incompatible compliance demands.",
+          "severity": "high"
+        }
+      ],
+      "ethical_dimension_scores": {
+        "safety_risk_management": {
+          "score": 68,
+          "rationale": "Security assessments and filing before launch; national standards on training data security from 1 November 2025."
+        },
+        "privacy_data_protection": {
+          "score": 60,
+          "rationale": "PIPL and data security laws apply; state access is broad."
+        },
+        "human_oversight": {
+          "score": 45,
+          "rationale": "Oversight is exercised by the state, with limited individual oversight rights."
+        },
+        "transparency": {
+          "score": 72,
+          "rationale": "Mandatory explicit and implicit labelling of synthetic content."
+        },
+        "accountability": {
+          "score": 55,
+          "rationale": "Clear regulator accountability and penalties, but accountability to individuals is limited."
+        },
+        "fairness_non_discrimination": {
+          "score": 35,
+          "rationale": "Fairness duties are limited and tied to content rules."
+        },
+        "environmental_sustainability": {
+          "score": 30,
+          "rationale": "Data centre efficiency and renewable steering targets exist, but not AI-specific ethics duties."
+        },
+        "access_to_remedy": {
+          "score": 40,
+          "rationale": "Complaint routes exist but independent redress is limited."
+        }
+      },
+      "gaps_and_weaknesses": [
+        "No comprehensive AI statute; legal definition of AI is unclear.",
+        "State-aligned content rules sit alongside rights protections.",
+        "Independent individual redress is limited."
+      ],
+      "academic_references": [],
+      "monitor_notes": "Check status of any draft comprehensive AI law, the Cybersecurity Law amendment and the AI Safety Governance Framework; none were verified in the sources used. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+    },
+    "citizen_layer": {
+      "one_line": "In China the state sets the rules on AI: AI content must be labelled and companies must file their systems with regulators.",
+      "what_changed": "Since 1 September 2025, AI-generated images, video, audio and text must carry visible and hidden labels. Public-facing generative AI services must pass a security review.",
+      "who_is_protected": "People using AI services in mainland China, within the limits of state content rules.",
+      "who_is_not_protected": [
+        "People whose speech or data is covered by state security and content provisions"
+      ],
+      "your_rights": [
+        {
+          "right": "Know when content is AI-generated",
+          "what_it_means": "Providers must label synthetic content.",
+          "how_to_invoke": "Report unlabelled content to the platform or the CAC reporting channel."
+        },
+        {
+          "right": "Personal information protection",
+          "what_it_means": "PIPL gives rights over personal data used by AI services.",
+          "how_to_invoke": "Request access, correction or deletion from the service provider."
+        }
+      ],
+      "plain_language_summary": "China requires labelling and filing for AI, and the government decides what AI may say. Individual rights exist but are limited.",
+      "jargon_buster": {
+        "Filing (备案)": "A required registration of an AI service with regulators before launch.",
+        "Deep synthesis": "AI that generates or alters faces, voices, text or video."
+      },
+      "real_world_examples": []
+    },
+    "monitor": {
+      "assigned_to": null,
+      "monitor_name": null,
+      "monitor_affiliation": null,
+      "monitor_country": "China",
+      "contact": null,
+      "update_frequency": "monthly",
+      "last_submission": null,
+      "submission_format": "github_pr"
+    },
+    "evidence": {
+      "sources": [
+        {
+          "id": "S1",
+          "title": "AI Watch: Global regulatory tracker - China",
+          "publisher": "White & Case",
+          "url": "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-china",
+          "type": "secondary",
+          "date": "2025-09",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S2",
+          "title": "China's AI Rules: Measures to Labeling Law",
+          "publisher": "CASRAI",
+          "url": "https://casrai.org/guides/china-ai-regulation-explained",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Generative AI Interim Measures effective 15 August 2023; deep synthesis 10 January 2023; recommendation algorithms 1 March 2022.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "C2",
+          "text": "Labelling measures effective 1 September 2025.",
+          "source_ids": [
+            "S1",
+            "S2"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C3",
+          "text": "PIPL penalties up to RMB 50 million or 5% of revenue.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    }
+  }
+}

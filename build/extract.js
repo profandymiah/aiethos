@@ -339,6 +339,28 @@ function write(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 }
 
+
+// ── Library: manifest + fetch state -> data/library.json ──
+try {
+  const lm = path.join(ROOT, 'library', 'manifest.json');
+  if (fs.existsSync(lm)) {
+    const man = JSON.parse(fs.readFileSync(lm, 'utf8'));
+    let st = {}, disc = {};
+    try { st = JSON.parse(fs.readFileSync(path.join(ROOT, 'library', 'state.json'), 'utf8')); } catch (e) {}
+    try { disc = JSON.parse(fs.readFileSync(path.join(ROOT, 'library', 'discovered.json'), 'utf8')); } catch (e) {}
+    write(path.join(ROOT, 'data', 'library.json'), {
+      _generated: new Date().toISOString(),
+      documents: man.documents.map(d => {
+        const s = st[d.id] || {};
+        return { id: d.id, jurisdiction: d.jurisdiction, title: d.title, publisher: d.publisher, url: d.url, type: d.type, date: d.date || null,
+          checked: s.last_checked || null, changed: s.last_changed || null, verified: s.url_verified === true, sha256: s.sha256 ? s.sha256.slice(0, 12) : null,
+          text_chars: s.text_chars || null, error: s.error || null, note: d.note || null };
+      }),
+      latest: (disc.new_items || []).slice(0, 20)
+    });
+  }
+} catch (e) { console.error('Library data error:', e.message); process.exitCode = 1; }
+
 // ── Global (non-jurisdiction) data: instruments, trajectories, datacentres ──
 try {
   const gdir = path.join(ROOT, 'source', 'global');

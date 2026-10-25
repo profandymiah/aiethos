@@ -1,0 +1,186 @@
+{
+  "_schema_version": "1.0.0",
+  "jurisdiction": {
+    "meta": {
+      "id": "jp",
+      "name": "Japan",
+      "region": "Asia-Pacific",
+      "population": 124000000,
+      "iso_code": "JP",
+      "flag_emoji": "🇯🇵",
+      "entry_author": "AIETHOS AI-drafted (unreviewed)",
+      "entry_reviewed": false,
+      "last_updated": "2026-10-25",
+      "next_review_due": "2027-01-25",
+      "confidence": "medium"
+    },
+    "framework": {
+      "primary_law": "Act on Promotion of Research, Development and Utilization of AI-Related Technologies (AI Promotion Act, Act No. 53 of 2025)",
+      "status": "active",
+      "approach": "innovation-led",
+      "binding": true,
+      "year_enacted": 2025,
+      "year_effective": 2025,
+      "enforcement_begins": null,
+      "review_scheduled": null,
+      "enforcing_body": "AI Strategic Headquarters (Cabinet); sector ministries; Personal Information Protection Commission",
+      "max_penalty": "No direct penalties under the AI Promotion Act; APPI fines up to JPY 100 million for specified offences",
+      "geographic_scope": "Applies to businesses developing or using AI in Japan; cooperative duties rather than prohibitions.",
+      "source_documents": [
+        {
+          "title": "Japan AI Regulation Overview",
+          "url": "https://regulations.ai/regulations/RAI-JP-NA-SUMMARY-2026",
+          "type": "secondary_commentary",
+          "date": null
+        },
+        {
+          "title": "Understanding Japan's AI Promotion Act: An \"Innovation-First\" Blueprint",
+          "url": "https://fpf.org/blog/understanding-japans-ai-promotion-act-an-innovation-first-blueprint-for-ai-regulation/",
+          "type": "secondary_commentary",
+          "date": null
+        }
+      ]
+    },
+    "research_layer": {
+      "summary": "Japan's AI Promotion Act (in force 1 September 2025) is a basic, promotion-oriented law with no penalties. It created an AI Strategic Headquarters chaired by the Prime Minister and requires national AI Basic Plans: the first was adopted on 23 December 2025 and a second on 14 July 2026. Business conduct is guided by the METI and MIC AI Guidelines for Business (April 2024); authorities can investigate, advise and publicly name non-compliant firms.",
+      "risk_tiers": [],
+      "key_provisions": [
+        {
+          "id": "basic_plan",
+          "title": "AI Basic Plan",
+          "description": "Cabinet-approved plan reviewed in principle annually.",
+          "article_reference": "AI Promotion Act, Art. 18"
+        },
+        {
+          "id": "hq",
+          "title": "AI Strategic Headquarters",
+          "description": "Prime Minister-chaired body coordinating national AI policy.",
+          "article_reference": "AI Promotion Act"
+        },
+        {
+          "id": "guidelines",
+          "title": "AI Guidelines for Business",
+          "description": "Voluntary guidance from METI and MIC (April 2024).",
+          "article_reference": "Guidelines"
+        }
+      ],
+      "cross_jurisdiction_tensions": [
+        {
+          "jurisdiction_b": "EU",
+          "tension": "Japan's soft-law approach contrasts with the EU's binding obligations; exporters must meet EU rules regardless.",
+          "severity": "medium"
+        }
+      ],
+      "ethical_dimension_scores": {
+        "safety_risk_management": {
+          "score": 45,
+          "rationale": "Risk handled through guidelines and heightened caution for high-impact uses; no mandatory assessment."
+        },
+        "privacy_data_protection": {
+          "score": 55,
+          "rationale": "APPI applies; no AI-specific data duties."
+        },
+        "human_oversight": {
+          "score": 50,
+          "rationale": "Human oversight emphasised in guidance."
+        },
+        "transparency": {
+          "score": 45,
+          "rationale": "Voluntary transparency; government may disclose non-compliant entities."
+        },
+        "accountability": {
+          "score": 35,
+          "rationale": "Naming-and-shaming rather than penalties."
+        },
+        "fairness_non_discrimination": {
+          "score": 40,
+          "rationale": "Fairness appears in principles only."
+        },
+        "environmental_sustainability": {
+          "score": 20,
+          "rationale": "No environmental provisions identified."
+        },
+        "access_to_remedy": {
+          "score": 30,
+          "rationale": "No dedicated AI redress route."
+        }
+      },
+      "gaps_and_weaknesses": [
+        "No enforceable AI-specific duties or penalties.",
+        "Redress relies on general law.",
+        "Environmental impact not addressed."
+      ],
+      "academic_references": [],
+      "monitor_notes": "Verify against Japanese government sources; the second AI Basic Plan (14 July 2026) detail was not reviewed. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+    },
+    "citizen_layer": {
+      "one_line": "Japan encourages responsible AI through guidance and national plans rather than strict rules or fines.",
+      "what_changed": "Since September 2025 Japan has a law that sets up national AI planning. Firms are asked to follow guidelines; the government can publicly name those that do not.",
+      "who_is_protected": "People in Japan, mainly through existing privacy and consumer law.",
+      "who_is_not_protected": [
+        "People harmed by AI where no existing law applies"
+      ],
+      "your_rights": [
+        {
+          "right": "Personal data rights",
+          "what_it_means": "The APPI gives rights over personal data used in AI.",
+          "how_to_invoke": "Contact the company, then the Personal Information Protection Commission."
+        }
+      ],
+      "plain_language_summary": "Japan's law promotes AI and relies on voluntary good practice, with privacy law as the main legal protection.",
+      "jargon_buster": {
+        "Soft law": "Guidance and principles that are not legally binding.",
+        "APPI": "Japan's Act on the Protection of Personal Information."
+      },
+      "real_world_examples": []
+    },
+    "monitor": {
+      "assigned_to": null,
+      "monitor_name": null,
+      "monitor_affiliation": null,
+      "monitor_country": "Japan",
+      "contact": null,
+      "update_frequency": "monthly",
+      "last_submission": null,
+      "submission_format": "github_pr"
+    },
+    "evidence": {
+      "sources": [
+        {
+          "id": "S1",
+          "title": "Japan AI Regulation Overview",
+          "publisher": "regulations.ai",
+          "url": "https://regulations.ai/regulations/RAI-JP-NA-SUMMARY-2026",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S2",
+          "title": "Understanding Japan's AI Promotion Act: An \"Innovation-First\" Blueprint",
+          "publisher": "Future of Privacy Forum",
+          "url": "https://fpf.org/blog/understanding-japans-ai-promotion-act-an-innovation-first-blueprint-for-ai-regulation/",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "AI Promotion Act in force 1 September 2025; no direct penalties.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C2",
+          "text": "First AI Basic Plan 23 December 2025; second 14 July 2026.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    }
+  }
+}

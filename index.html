@@ -350,6 +350,7 @@ section{padding:88px 56px;border-bottom:1px solid var(--border);position:relativ
 .gl-src ol{margin:10px 0 0 20px;padding:0}.gl-src li{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:5px}
 .gl-src a,.gl-ref a{color:var(--gold,#C4A063)}.gl-ref a{font-size:12px;text-decoration:none;border-bottom:1px dotted;margin-right:4px}
 .dc-map{width:100%;max-width:900px;height:auto;display:block;margin:0 auto;border:1px solid var(--border,#2a2d35);background:rgba(255,255,255,.01)}
+.lib-filter{margin:20px 0}.lib-filter select{background:#0E1015;color:var(--text,#EDEAE0);border:1px solid var(--border,#2a2d35);padding:8px 12px;font-size:14px}.lib-ok{color:#5FD3B0}.lib-no{color:var(--muted)}.prov{display:inline-block;margin-top:8px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#E0B866;border:1px solid #E0B866;padding:2px 8px}
 .monitor-note{padding:18px 22px;background:rgba(196,160,99,0.04);border:1px solid rgba(196,160,99,0.14);margin-top:24px}
 .monitor-note p{font-size:13px;color:var(--muted);line-height:1.85}
 
@@ -460,6 +461,7 @@ footer{
     <li><a href="#instruments">Instruments</a></li>
     <li><a href="#trajectories">Trajectories</a></li>
     <li><a href="#datacentres">Data centres</a></li>
+    <li><a href="#library">Library</a></li>
   </ul>
   <div class="nav-live"><div class="dot" aria-hidden="true"></div><span>Beta</span></div>
 </nav>
@@ -638,6 +640,18 @@ footer{
   <div id="dcSrc"></div>
 </section>
 
+<!-- LIBRARY -->
+<section id="library" class="reveal" aria-labelledby="lib-h">
+  <div class="s-hd">
+    <div><p class="s-ey">Evidence base</p><h2 class="s-tt" id="lib-h">Document library</h2></div>
+    <div class="s-sub">Primary documents tracked daily for changes</div>
+  </div>
+  <p style="font-size:15px;color:var(--text2,#C9CDD4);line-height:1.8;max-width:760px">Every document below is fetched, fingerprinted and read into a searchable text library. When a document changes or a new relevant item appears, the watcher flags it so the entries can be updated. A grey tick means the link has not yet been fetched successfully.</p>
+  <div id="libLatest"></div>
+  <div class="lib-filter"><label for="libSel" class="sr">Filter by jurisdiction</label><select id="libSel" aria-label="Filter documents by jurisdiction"></select></div>
+  <div id="libList" class="gl-grid" role="list"></div>
+</section>
+
 </main>
 
 <footer role="contentinfo">
@@ -648,6 +662,7 @@ footer{
     <a href="#instruments">Instruments</a>
     <a href="#trajectories">Trajectories</a>
     <a href="#datacentres">Data centres</a>
+    <a href="#library">Library</a>
   </nav>
   <div class="f-meta">Public regulatory sources · Beta: entries are being reviewed · <a href="https://andymiah.net">Prof Andy Miah</a></div>
 </footer>
@@ -686,7 +701,7 @@ const DK=Object.keys(DM);
 /* ─── APPROXIMATE MERCATOR POSITIONS (760×400 viewport) ── */
 const JP={
   eu:{x:408,y:82}, uk:{x:376,y:78}, us:{x:175,y:112},
-  cn:{x:650,y:88}, ca:{x:152,y:68}, jp:{x:706,y:90},
+  cn:{x:650,y:88}, vn:{x:632,y:158}, ke:{x:500,y:200}, ch:{x:400,y:92}, ca:{x:152,y:68}, jp:{x:706,y:90},
   sg:{x:636,y:204}, au:{x:688,y:298}, br:{x:280,y:196},
   in:{x:572,y:140}, kr:{x:690,y:86}, ae:{x:525,y:148},
 };
@@ -819,7 +834,7 @@ async function selectReg(i){
       <div>
         <div class="det-code">${r.iso_code} · ${fw.year_enacted||'—'}</div>
         <h3 class="det-name">${r.flag||''} ${r.name}</h3>
-        <div class="det-law">${r.primary_law}</div>
+        <div class="det-law">${r.primary_law}</div>${(full?.evidence?.sources||[]).length&&!(full.evidence.sources||[]).some(x=>x.type==='primary')?'<span class="prov" role="note">Provisional: not yet checked against primary documents</span>':''}
       </div>
       <div style="text-align:right;flex-shrink:0">
         <div class="det-score-n" aria-label="Ethics score: ${r.composite_score??'not yet scored'}">${r.composite_score??'—'}</div>
@@ -988,6 +1003,19 @@ async function renderGlobal(){
   document.querySelectorAll('.reveal:not(.vis)').forEach(el=>obs.observe(el));
 }
 renderGlobal();
+
+async function renderLibrary(){
+  let lib=null;try{const r=await fetch('data/library.json');if(r.ok)lib=await r.json();}catch(e){}
+  if(!lib)return;
+  const sel=document.getElementById('libSel');
+  const js=[...new Set(lib.documents.map(d=>d.jurisdiction))].sort();
+  sel.innerHTML='<option value="">All jurisdictions ('+lib.documents.length+' documents)</option>'+js.map(j=>`<option value="${esc(j)}">${esc(j)}</option>`).join('');
+  const draw=()=>{const f=sel.value;document.getElementById('libList').innerHTML=lib.documents.filter(d=>!f||d.jurisdiction===f).map(d=>`<article class="gl-card" role="listitem"><div class="gl-meta"><span class="gl-badge">${esc(d.jurisdiction)}</span>${esc(d.type.replace(/_/g,' '))}${d.date?' · '+esc(d.date):''}</div><h4><a href="${esc(d.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(d.title)}</a></h4><p>${esc(d.publisher)}</p><div class="gl-conf">${d.verified?'<span class="lib-ok">&#10003; fetched</span>':'<span class="lib-no">&#10003; not yet fetched</span>'}${d.checked?' · checked '+esc(d.checked.slice(0,10)):''}${d.sha256?' · fingerprint '+esc(d.sha256):''}${d.text_chars?' · '+d.text_chars.toLocaleString()+' characters read':''}</div>${d.error?`<div class="ev-note">Last error: ${esc(d.error)}</div>`:''}${d.note?`<div class="ev-note">${esc(d.note)}</div>`:''}</article>`).join('');};
+  sel.addEventListener('change',draw);draw();
+  if(lib.latest?.length)document.getElementById('libLatest').innerHTML=`<div class="gl-src"><div class="sec-label">Latest items found by the watcher</div><ol>${lib.latest.map(x=>`<li>${esc(x.jurisdiction)}: <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="ev-note">${esc(x.label)}${x.date?', '+esc(x.date):''}</span></li>`).join('')}</ol></div>`;
+  document.querySelectorAll('.reveal:not(.vis)').forEach(el=>obs.observe(el));
+}
+renderLibrary();
 
 /* ─── HELPERS ────────────────────────────────────── */
 function cap(s){return s?s[0].toUpperCase()+s.slice(1):'—';}

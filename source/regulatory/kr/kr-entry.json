@@ -1,0 +1,232 @@
+{
+  "_schema_version": "1.0.0",
+  "jurisdiction": {
+    "meta": {
+      "id": "kr",
+      "name": "South Korea",
+      "region": "Asia-Pacific",
+      "population": 51700000,
+      "iso_code": "KR",
+      "flag_emoji": "🇰🇷",
+      "entry_author": "AIETHOS AI-drafted (unreviewed)",
+      "entry_reviewed": false,
+      "last_updated": "2026-10-25",
+      "next_review_due": "2027-01-25",
+      "confidence": "medium"
+    },
+    "framework": {
+      "primary_law": "Act on the Development of Artificial Intelligence and Establishment of Trust (AI Basic Act)",
+      "status": "enacted",
+      "approach": "comprehensive",
+      "binding": true,
+      "year_enacted": 2025,
+      "year_effective": 2026,
+      "enforcement_begins": "2026-01-22",
+      "review_scheduled": null,
+      "enforcing_body": "Ministry of Science and ICT (MSIT)",
+      "max_penalty": "Administrative fines up to KRW 30 million (about US$21,000); corrective orders including service suspension",
+      "geographic_scope": "Applies to AI developers and AI-using businesses, including foreign firms affecting Korean users or markets; foreign firms above revenue or user thresholds must appoint a local representative.",
+      "source_documents": [
+        {
+          "title": "South Korea's AI Basic Act: Overview and Key Takeaways",
+          "url": "https://www.cooley.com/news/insight/2026/2026-01-27-south-koreas-ai-basic-act-overview-and-key-takeaways",
+          "type": "secondary_commentary",
+          "date": "2026-01-27"
+        },
+        {
+          "title": "South Korea AI Basic Act (market intelligence)",
+          "url": "https://www.trade.gov/market-intelligence/south-korea-ai-basic-act",
+          "type": "secondary_commentary",
+          "date": null
+        },
+        {
+          "title": "The AI Basic Act Comes into Force",
+          "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
+          "type": "official_guidance",
+          "date": null
+        }
+      ]
+    },
+    "research_layer": {
+      "summary": "South Korea's AI Basic Act took effect on 22 January 2026, making it the second comprehensive national AI law after the EU's. It sets duties for high-impact AI (health, energy, transport, hiring, biometrics), labelling for generative AI, extra safety duties for very large models (10^26 FLOPs per an MSIT notice), and extraterritorial reach. Penalties are modest and a one-year fine grace period has been signalled.",
+      "risk_tiers": [
+        {
+          "tier": "High-impact AI",
+          "description": "Systems that significantly affect life, safety or fundamental rights: impact assessment, explainability, user protection plan, human oversight, documentation.",
+          "effective": null
+        },
+        {
+          "tier": "High-performance AI",
+          "description": "Models trained at or above 10^26 cumulative FLOPs: risk management and reporting to MSIT.",
+          "effective": null
+        },
+        {
+          "tier": "Generative AI",
+          "description": "Labelling of AI output; clear notice for realistic synthetic sound, image or video.",
+          "effective": null
+        }
+      ],
+      "key_provisions": [
+        {
+          "id": "highimpact",
+          "title": "High-impact AI duties",
+          "description": "Operators must assess whether their system is high-impact and meet explainability, oversight and documentation duties.",
+          "article_reference": "AI Basic Act"
+        },
+        {
+          "id": "genai_label",
+          "title": "Generative AI labelling",
+          "description": "Output must be labelled as AI-generated; realistic synthetic media needs clear notice.",
+          "article_reference": "AI Basic Act"
+        },
+        {
+          "id": "local_rep",
+          "title": "Local representative",
+          "description": "Foreign operators above revenue or user thresholds must appoint a domestic agent.",
+          "article_reference": "AI Basic Act"
+        }
+      ],
+      "cross_jurisdiction_tensions": [
+        {
+          "jurisdiction_b": "EU",
+          "tension": "Both regulate high-risk uses and labelling, but Korea's fines are far lower and definitions differ, so firms need separate classification work.",
+          "severity": "medium"
+        }
+      ],
+      "ethical_dimension_scores": {
+        "safety_risk_management": {
+          "score": 72,
+          "rationale": "Defined high-impact category and safety duties for the largest models; details await decrees."
+        },
+        "privacy_data_protection": {
+          "score": 65,
+          "rationale": "Relies largely on existing personal data law; AI-specific data duties limited."
+        },
+        "human_oversight": {
+          "score": 75,
+          "rationale": "Human oversight is an explicit duty for high-impact AI."
+        },
+        "transparency": {
+          "score": 78,
+          "rationale": "Generative AI labelling and user notice are mandated."
+        },
+        "accountability": {
+          "score": 62,
+          "rationale": "MSIT can order corrections; penalties are small."
+        },
+        "fairness_non_discrimination": {
+          "score": 55,
+          "rationale": "Fundamental-rights impact assessment is an effort duty, not a firm obligation."
+        },
+        "environmental_sustainability": {
+          "score": 25,
+          "rationale": "No AI-specific environmental provisions identified in the sources."
+        },
+        "access_to_remedy": {
+          "score": 50,
+          "rationale": "Corrective orders exist, but individual redress routes were not described."
+        }
+      },
+      "gaps_and_weaknesses": [
+        "Enforcement decrees and the fine grace period leave real obligations unclear.",
+        "Fundamental-rights impact assessment is only an effort duty.",
+        "No environmental provisions."
+      ],
+      "academic_references": [],
+      "monitor_notes": "Enforcement decree details and the one-year grace period on fines should be checked against MSIT publications. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+    },
+    "citizen_layer": {
+      "one_line": "South Korea now has a binding AI law that makes companies label AI content and take extra care when AI affects your health, job or rights.",
+      "what_changed": "Since 22 January 2026, businesses using AI in areas like hiring, healthcare or energy must assess the risk, explain how their AI works and keep a human in the loop. Generative AI content must be labelled.",
+      "who_is_protected": "People in Korea affected by AI products and services, including those offered by foreign companies.",
+      "who_is_not_protected": [
+        "People affected by AI used for national security",
+        "People harmed during the early grace period, when fines are not expected to be imposed"
+      ],
+      "your_rights": [
+        {
+          "right": "Know when AI is involved",
+          "what_it_means": "Companies must tell you when a product or service uses AI and label AI-generated content.",
+          "how_to_invoke": "Ask the provider where AI is used; complain to MSIT if no notice is given."
+        },
+        {
+          "right": "Explanation for high-impact AI",
+          "what_it_means": "If AI significantly affects you (for example in hiring), the operator must be able to explain it.",
+          "how_to_invoke": "Ask the operator in writing for an explanation of how the AI reached the outcome."
+        }
+      ],
+      "plain_language_summary": "Korea's law asks companies to be open about AI and to be careful when it affects your life. Penalties are small for now.",
+      "jargon_buster": {
+        "High-impact AI": "AI that can significantly affect life, safety or fundamental rights.",
+        "FLOPs": "A measure of the computing used to train an AI model."
+      },
+      "real_world_examples": []
+    },
+    "monitor": {
+      "assigned_to": null,
+      "monitor_name": null,
+      "monitor_affiliation": null,
+      "monitor_country": "South Korea",
+      "contact": null,
+      "update_frequency": "monthly",
+      "last_submission": null,
+      "submission_format": "github_pr"
+    },
+    "evidence": {
+      "sources": [
+        {
+          "id": "S1",
+          "title": "South Korea's AI Basic Act: Overview and Key Takeaways",
+          "publisher": "Cooley",
+          "url": "https://www.cooley.com/news/insight/2026/2026-01-27-south-koreas-ai-basic-act-overview-and-key-takeaways",
+          "type": "secondary",
+          "date": "2026-01-27",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S2",
+          "title": "South Korea AI Basic Act (market intelligence)",
+          "publisher": "US International Trade Administration",
+          "url": "https://www.trade.gov/market-intelligence/south-korea-ai-basic-act",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S3",
+          "title": "The AI Basic Act Comes into Force",
+          "publisher": "Ministry of Science and ICT",
+          "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
+          "type": "primary",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Effective 22 January 2026; applies to foreign firms affecting Korean users.",
+          "source_ids": [
+            "S1",
+            "S2"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C2",
+          "text": "Fines up to KRW 30 million; one-year grace period signalled.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C3",
+          "text": "Models at or above 10^26 FLOPs face added duties (MSIT notice).",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    }
+  }
+}

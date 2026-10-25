@@ -1,0 +1,198 @@
+{
+  "_generated": "2026-10-25T11:46:32.784Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "ca",
+    "name": "Canada",
+    "region": "Americas",
+    "population": 41000000,
+    "iso_code": "CA",
+    "flag_emoji": "🇨🇦",
+    "entry_author": "AIETHOS AI-drafted (unreviewed)",
+    "entry_reviewed": false,
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
+    "confidence": "medium"
+  },
+  "framework": {
+    "primary_law": "No federal AI statute. AIDA (Bill C-27) died on 6 January 2025; Bills C-34 and C-36 (June 2026) are pending",
+    "status": "voluntary",
+    "approach": "sectoral",
+    "binding": false,
+    "year_enacted": null,
+    "year_effective": null,
+    "enforcement_begins": null,
+    "review_scheduled": null,
+    "enforcing_body": "Privacy commissioners and sector regulators; provinces",
+    "max_penalty": "Varies by statute; none AI-specific at federal level",
+    "geographic_scope": "Federal and provincial laws apply to organisations operating in Canada.",
+    "source_documents": [
+      {
+        "title": "Canada AI Regulation, September 2026: AIDA, C-34, C-36 & Provinces",
+        "url": "https://vorplabs.com/ai-regulatory-updates/canada",
+        "type": "secondary_commentary",
+        "date": null
+      },
+      {
+        "title": "What Replaced Canada's AIDA? AI Rules in Canada in 2026",
+        "url": "https://www.fruggr.io/en/what-replaced-canada-aida-ai-regulation-2026/",
+        "type": "secondary_commentary",
+        "date": null
+      }
+    ]
+  },
+  "research": {
+    "summary": "Canada has no federal AI law. AIDA lapsed with Bill C-27 on 6 January 2025. In June 2026 the government tabled Bill C-34 (a Digital Safety Act covering some AI chatbots and synthetic content) and Bill C-36 (privacy reform with duties on automated decision systems). The voluntary generative AI code (27 September 2023), Quebec Law 25 and Ontario job-posting disclosure (1 January 2026) fill part of the gap.",
+    "risk_tiers": [],
+    "key_provisions": [
+      {
+        "id": "c36",
+        "title": "Bill C-36 automated decisions",
+        "description": "Would require transparency, explanation on request and a chance to respond for significant automated decisions.",
+        "article_reference": "Bill C-36 (pending)"
+      },
+      {
+        "id": "quebec",
+        "title": "Quebec Law 25",
+        "description": "Right to be told of and receive reasons for solely automated decisions.",
+        "article_reference": "Law 25 (in force September 2023)"
+      },
+      {
+        "id": "ontario",
+        "title": "Ontario AI hiring disclosure",
+        "description": "Employers must disclose AI use in screening for advertised jobs, from 1 January 2026.",
+        "article_reference": "ESA s. 8.4"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "US",
+        "tension": "Tight integration with the US economy creates pressure to align with US deregulation even as Canada weighs privacy-based rules.",
+        "severity": "medium"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 20,
+        "rationale": "No mandatory risk framework; voluntary code only."
+      },
+      "privacy_data_protection": {
+        "score": 60,
+        "rationale": "Privacy laws and Quebec Law 25 apply to AI; federal reform pending."
+      },
+      "human_oversight": {
+        "score": 35,
+        "rationale": "Human review only in Quebec and for some hiring."
+      },
+      "transparency": {
+        "score": 35,
+        "rationale": "Hiring disclosure in Ontario; voluntary code elsewhere."
+      },
+      "accountability": {
+        "score": 25,
+        "rationale": "Accountability through privacy commissioners; no AI regulator."
+      },
+      "fairness_non_discrimination": {
+        "score": 35,
+        "rationale": "Human rights law applies; no AI-specific fairness duty."
+      },
+      "environmental_sustainability": {
+        "score": 15,
+        "rationale": "No environmental provisions."
+      },
+      "access_to_remedy": {
+        "score": 50,
+        "rationale": "Privacy commissioner complaints and Quebec rights give some recourse."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "No federal AI law since AIDA lapsed.",
+      "Pending bills are not AI-specific regimes.",
+      "Patchwork of provincial rules."
+    ],
+    "academic_references": [],
+    "monitor_notes": "Check progress of Bills C-34 and C-36 and any federal AI bill; the sources were last checked in July 2026. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+  },
+  "citizen": {
+    "one_line": "Canada has no national AI law yet; protections come from privacy rules, some provincial laws and voluntary codes.",
+    "what_changed": "A planned federal AI law died in 2025. In 2026 Parliament is considering bills on online safety and privacy that would touch AI. Ontario employers must say when AI screens job applicants.",
+    "who_is_protected": "People in Canada through privacy, human rights and consumer law; stronger in Quebec.",
+    "who_is_not_protected": [
+      "People harmed by AI outside the reach of existing laws"
+    ],
+    "your_rights": [
+      {
+        "right": "Explanation of automated decisions (Quebec)",
+        "what_it_means": "You can be told when a decision is made only by automated processing and get reasons.",
+        "how_to_invoke": "Write to the organisation; complain to the Commission d'accès à l'information."
+      },
+      {
+        "right": "Know when AI screens job applications (Ontario)",
+        "what_it_means": "Job postings must disclose AI use in screening.",
+        "how_to_invoke": "Check the posting; contact the Ministry of Labour."
+      }
+    ],
+    "plain_language_summary": "Canada is relying on privacy and provincial rules for now while new national bills move slowly.",
+    "jargon_buster": {
+      "AIDA": "Artificial Intelligence and Data Act, a proposed law that was never passed.",
+      "Bill C-36": "A 2026 proposal to replace the federal privacy law."
+    },
+    "real_world_examples": []
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "Canada",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Canada AI Regulation, September 2026: AIDA, C-34, C-36 & Provinces",
+        "publisher": "Vorp Labs",
+        "url": "https://vorplabs.com/ai-regulatory-updates/canada",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "What Replaced Canada's AIDA? AI Rules in Canada in 2026",
+        "publisher": "Fruggr",
+        "url": "https://www.fruggr.io/en/what-replaced-canada-aida-ai-regulation-2026/",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "AIDA died with Bill C-27 on 6 January 2025.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "C2",
+        "text": "Bills C-34 (10 June 2026) and C-36 (15 June 2026) introduced.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C3",
+        "text": "Ontario AI hiring disclosure since 1 January 2026.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_note": "Discovery sources checked daily for new items. kind: federal_register | uk_bills | atom | page (hash of extracted text).",
+  "sources": [
+    {
+      "id": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "kind": "federal_register",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[term]=%22artificial+intelligence%22&order=newest&per_page=25&fields[]=title&fields[]=html_url&fields[]=publication_date&fields[]=type&fields[]=document_number",
+      "jurisdiction": "US"
+    },
+    {
+      "id": "uk-bills",
+      "label": "UK Parliament bills mentioning AI",
+      "kind": "uk_bills",
+      "url": "https://bills-api.parliament.uk/api/v1/Bills?SearchTerm=artificial%20intelligence&Take=25",
+      "jurisdiction": "UK"
+    },
+    {
+      "id": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "kind": "atom",
+      "url": "https://www.gov.uk/search/all.atom?keywords=artificial+intelligence&order=updated-newest",
+      "jurisdiction": "UK"
+    },
+    {
+      "id": "ec-ai-news",
+      "label": "European Commission digital strategy news",
+      "kind": "atom",
+      "url": "https://digital-strategy.ec.europa.eu/en/rss.xml",
+      "jurisdiction": "EU"
+    },
+    {
+      "id": "oecd-ai-news",
+      "label": "OECD.AI news",
+      "kind": "page",
+      "url": "https://oecd.ai/en/wonk",
+      "jurisdiction": "INT"
+    },
+    {
+      "id": "coe-ai-news",
+      "label": "Council of Europe AI news",
+      "kind": "page",
+      "url": "https://www.coe.int/en/web/artificial-intelligence",
+      "jurisdiction": "INT"
+    },
+    {
+      "id": "un-ai-news",
+      "label": "UN AI governance news",
+      "kind": "page",
+      "url": "https://www.un.org/techenvoy/ai-advisory-body",
+      "jurisdiction": "INT"
+    },
+    {
+      "id": "nist-ai-news",
+      "label": "NIST AI news",
+      "kind": "page",
+      "url": "https://www.nist.gov/artificial-intelligence",
+      "jurisdiction": "US"
+    },
+    {
+      "id": "regulations-ai",
+      "label": "regulations.ai global tracker (secondary signal)",
+      "kind": "page",
+      "url": "https://regulations.ai/",
+      "jurisdiction": "INT",
+      "signal": true
+    }
+  ]
+}

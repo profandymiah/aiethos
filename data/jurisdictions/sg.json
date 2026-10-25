@@ -1,0 +1,207 @@
+{
+  "_generated": "2026-10-25T11:46:32.789Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "sg",
+    "name": "Singapore",
+    "region": "Asia-Pacific",
+    "population": 5900000,
+    "iso_code": "SG",
+    "flag_emoji": "🇸🇬",
+    "entry_author": "AIETHOS AI-drafted (unreviewed)",
+    "entry_reviewed": false,
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
+    "confidence": "medium"
+  },
+  "framework": {
+    "primary_law": "No standalone AI law. Model AI Governance Frameworks (incl. Agentic AI, January 2026), AI Verify, sector guidance",
+    "status": "voluntary",
+    "approach": "voluntary",
+    "binding": false,
+    "year_enacted": null,
+    "year_effective": null,
+    "enforcement_begins": null,
+    "review_scheduled": null,
+    "enforcing_body": "IMDA, PDPC, MAS, CSA",
+    "max_penalty": "Via existing laws (PDPA, sector regulation)",
+    "geographic_scope": "Voluntary for organisations in Singapore; binding only via existing sector rules.",
+    "source_documents": [
+      {
+        "title": "AI Regulation in Singapore and Hong Kong: A Mid-Year Checkpoint",
+        "url": "https://www.mayerbrown.com/en/insights/publications/2026/07/ai-regulation-in-singapore-and-hong-kong-a-mid-year-checkpoint",
+        "type": "secondary_commentary",
+        "date": "2026-07"
+      },
+      {
+        "title": "Singapore AI Regulation Overview",
+        "url": "https://regulations.ai/regulations/RAI-SG-NA-SUMMARY-2026",
+        "type": "secondary_commentary",
+        "date": null
+      },
+      {
+        "title": "AI Data Centre Rules by Region",
+        "url": "https://airiskaware.com/insights/ai-data-centre-regulation-by-region",
+        "type": "secondary_commentary",
+        "date": null
+      }
+    ]
+  },
+  "research": {
+    "summary": "Singapore entered 2026 without a standalone AI law. It governs through voluntary frameworks: the Model AI Governance Framework for Agentic AI (IMDA, January 2026, updated May 2026), the AI Verify testing toolkit, an AI Tester Accreditation Programme planned for Q3 2026, and MAS's AI risk management handbook (March 2026) for finance. Data centre growth is rationed through the IMDA Green Data Centre Roadmap (30 May 2024).",
+    "risk_tiers": [],
+    "key_provisions": [
+      {
+        "id": "agentic",
+        "title": "Agentic AI framework",
+        "description": "Technical and organisational controls including least privilege, logging, rollback and human accountability.",
+        "article_reference": "IMDA Framework"
+      },
+      {
+        "id": "verify",
+        "title": "AI Verify",
+        "description": "Voluntary testing framework tied to 11 governance principles.",
+        "article_reference": "IMDA/PDPC"
+      },
+      {
+        "id": "mas",
+        "title": "MAS AI risk management handbook",
+        "description": "Board accountability, AI inventories and human approval for higher-risk actions in finance.",
+        "article_reference": "Project MindForge"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "EU",
+        "tension": "Singapore's voluntary, testing-led approach contrasts with EU binding rules; firms must reconcile them.",
+        "severity": "low"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 50,
+        "rationale": "Strong technical frameworks and testing, but voluntary."
+      },
+      "privacy_data_protection": {
+        "score": 60,
+        "rationale": "PDPA applies; PDPC guidance on AI."
+      },
+      "human_oversight": {
+        "score": 55,
+        "rationale": "Human accountability stressed for agentic AI."
+      },
+      "transparency": {
+        "score": 60,
+        "rationale": "Testing and disclosure norms promoted via AI Verify."
+      },
+      "accountability": {
+        "score": 45,
+        "rationale": "Accountability through sector regulators."
+      },
+      "fairness_non_discrimination": {
+        "score": 40,
+        "rationale": "Fairness principles in guidance."
+      },
+      "environmental_sustainability": {
+        "score": 35,
+        "rationale": "Data centre efficiency and low-carbon allocation rules."
+      },
+      "access_to_remedy": {
+        "score": 35,
+        "rationale": "No AI-specific redress route."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "Voluntary frameworks are not enforceable by individuals.",
+      "No AI-specific redress."
+    ],
+    "academic_references": [],
+    "monitor_notes": "Verify the elections deepfake and online safety rules, not covered in the sources used. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+  },
+  "citizen": {
+    "one_line": "Singapore guides AI through voluntary frameworks and testing tools rather than a single AI law.",
+    "what_changed": "In 2026 Singapore issued guidance for AI agents and for financial firms using AI, but still has no general AI law.",
+    "who_is_protected": "People in Singapore through PDPA and sector rules.",
+    "who_is_not_protected": [
+      "People harmed by AI outside sector regulation"
+    ],
+    "your_rights": [
+      {
+        "right": "Personal data rights",
+        "what_it_means": "PDPA gives rights over personal data used by AI.",
+        "how_to_invoke": "Contact the organisation; complain to the PDPC."
+      }
+    ],
+    "plain_language_summary": "Singapore trusts guidance and testing, not strict AI laws, so your main legal protection is data and sector rules.",
+    "jargon_buster": {
+      "AI Verify": "A government testing toolkit for AI systems.",
+      "Agentic AI": "AI that can take actions on its own to reach a goal."
+    },
+    "real_world_examples": []
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "Singapore",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "AI Regulation in Singapore and Hong Kong: A Mid-Year Checkpoint",
+        "publisher": "Mayer Brown",
+        "url": "https://www.mayerbrown.com/en/insights/publications/2026/07/ai-regulation-in-singapore-and-hong-kong-a-mid-year-checkpoint",
+        "type": "secondary",
+        "date": "2026-07",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "Singapore AI Regulation Overview",
+        "publisher": "regulations.ai",
+        "url": "https://regulations.ai/regulations/RAI-SG-NA-SUMMARY-2026",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S3",
+        "title": "AI Data Centre Rules by Region",
+        "publisher": "airiskaware.com",
+        "url": "https://airiskaware.com/insights/ai-data-centre-regulation-by-region",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "No standalone AI law as of mid-2026.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C2",
+        "text": "Agentic AI framework launched January 2026, updated May 2026.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C3",
+        "text": "Green Data Centre Roadmap 30 May 2024.",
+        "source_ids": [
+          "S3"
+        ],
+        "confidence": "medium"
+      }
+    ]
+  }
+}

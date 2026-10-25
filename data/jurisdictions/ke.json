@@ -1,0 +1,186 @@
+{
+  "_generated": "2026-10-25T11:46:32.787Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "ke",
+    "name": "Kenya",
+    "region": "Africa",
+    "population": 55000000,
+    "iso_code": "KE",
+    "flag_emoji": "🇰🇪",
+    "entry_author": "AIETHOS AI-drafted (unreviewed)",
+    "entry_reviewed": false,
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
+    "confidence": "low"
+  },
+  "framework": {
+    "primary_law": "Artificial Intelligence Bill, 2026 (published; not enacted). Kenya National AI Strategy 2025–2030; Data Protection Act 2019",
+    "status": "draft",
+    "approach": "rights-based",
+    "binding": false,
+    "year_enacted": null,
+    "year_effective": null,
+    "enforcement_begins": null,
+    "review_scheduled": null,
+    "enforcing_body": "Proposed Office of the AI Commissioner; Office of the Data Protection Commissioner",
+    "max_penalty": "Not stated in the source",
+    "geographic_scope": "Proposed to cover AI systems used in Kenya.",
+    "source_documents": [
+      {
+        "title": "Kenya publishes Artificial Intelligence Bill, 2026",
+        "url": "https://taxnews.ey.com/news/2026-1293-kenya-publishes-artificial-intelligence-bill-2026-proposing-a-formal-framework-for-ai-governance",
+        "type": "secondary_commentary",
+        "date": "2026-06-17"
+      },
+      {
+        "title": "AI Regulation in Africa 2026: Country-by-Country Tracker",
+        "url": "https://aipolicytracker.org/ai-regulation-africa",
+        "type": "secondary_commentary",
+        "date": null
+      }
+    ]
+  },
+  "research": {
+    "summary": "Kenya's Artificial Intelligence Bill, 2026 (reported 17 June 2026) would create a risk-based regime with pre-deployment risk and human rights impact assessments for high-risk systems, human oversight, explainability, labelling of AI-generated likeness, workforce impact assessments, and an independent AI Commissioner. It is not law. Scores reflect protections in force, chiefly the Data Protection Act 2019.",
+    "risk_tiers": [],
+    "key_provisions": [
+      {
+        "id": "bill_hr",
+        "title": "Human rights impact assessments (proposed)",
+        "description": "Required before deploying high-risk AI.",
+        "article_reference": "AI Bill 2026"
+      },
+      {
+        "id": "commissioner",
+        "title": "AI Commissioner (proposed)",
+        "description": "Independent office also overseeing Data Protection Act implementation.",
+        "article_reference": "AI Bill 2026"
+      },
+      {
+        "id": "dpa",
+        "title": "Data Protection Act 2019",
+        "description": "Rights over personal data including contesting automated decisions.",
+        "article_reference": "DPA 2019"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "EU",
+        "tension": "The bill borrows EU risk concepts but Kenya's enforcement capacity is untested.",
+        "severity": "low"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 15,
+        "rationale": "No binding AI risk framework in force."
+      },
+      "privacy_data_protection": {
+        "score": 60,
+        "rationale": "Data Protection Act in force."
+      },
+      "human_oversight": {
+        "score": 30,
+        "rationale": "Right to human intervention under data law."
+      },
+      "transparency": {
+        "score": 30,
+        "rationale": "Limited AI-specific transparency in force."
+      },
+      "accountability": {
+        "score": 25,
+        "rationale": "Data Commissioner enforces data law only."
+      },
+      "fairness_non_discrimination": {
+        "score": 30,
+        "rationale": "General constitutional protections."
+      },
+      "environmental_sustainability": {
+        "score": 10,
+        "rationale": "No environmental provisions."
+      },
+      "access_to_remedy": {
+        "score": 45,
+        "rationale": "Complaint route via data commissioner."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "The AI Bill is not enacted.",
+      "Parliamentary stage not confirmed.",
+      "Penalties not described in the source."
+    ],
+    "academic_references": [],
+    "monitor_notes": "Confirm the bill's parliamentary stage and whether the Senate or National Assembly version is current. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+  },
+  "citizen": {
+    "one_line": "Kenya has published a rights-focused AI bill but it is not yet law; data protection law is the main safeguard.",
+    "what_changed": "In 2026 Kenya proposed a law requiring impact checks on risky AI and an AI Commissioner. It has not passed yet.",
+    "who_is_protected": "People in Kenya through the Data Protection Act.",
+    "who_is_not_protected": [
+      "People harmed by AI outside data protection"
+    ],
+    "your_rights": [
+      {
+        "right": "Contest automated decisions",
+        "what_it_means": "The Data Protection Act gives a right to human intervention and to contest automated decisions.",
+        "how_to_invoke": "Write to the data controller; complain to the Data Protection Commissioner."
+      }
+    ],
+    "plain_language_summary": "Kenya's AI bill would protect rights strongly if passed; for now data protection law applies.",
+    "jargon_buster": {
+      "AI Commissioner": "A proposed independent official overseeing AI.",
+      "High-risk system": "AI in sensitive areas such as health, jobs or public services."
+    },
+    "real_world_examples": []
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "Kenya",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Kenya publishes Artificial Intelligence Bill, 2026",
+        "publisher": "EY Tax News",
+        "url": "https://taxnews.ey.com/news/2026-1293-kenya-publishes-artificial-intelligence-bill-2026-proposing-a-formal-framework-for-ai-governance",
+        "type": "secondary",
+        "date": "2026-06-17",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "AI Regulation in Africa 2026: Country-by-Country Tracker",
+        "publisher": "aipolicytracker.org",
+        "url": "https://aipolicytracker.org/ai-regulation-africa",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "AI Bill 2026 would create an AI Commissioner and require impact assessments for high-risk AI.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C2",
+        "text": "Bill is not yet law.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      }
+    ]
+  }
+}

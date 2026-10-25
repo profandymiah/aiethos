@@ -1,0 +1,434 @@
+{
+  "_note": "Documents tracked by the library. fetch-library.js downloads each, stores the hash and extracted text, and flags changes. Add entries by editing this file. url_verified is set by the fetcher.",
+  "documents": [
+    {
+      "id": "coe-convention",
+      "jurisdiction": "INT",
+      "title": "Council of Europe Framework Convention on AI and Human Rights, Democracy and the Rule of Law (CETS 225)",
+      "publisher": "Council of Europe",
+      "url": "https://rm.coe.int/1680afae3c",
+      "type": "treaty",
+      "format": "pdf",
+      "priority": "high",
+      "date": "2024-09-05"
+    },
+    {
+      "id": "coe-treaty-page",
+      "jurisdiction": "INT",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "publisher": "Council of Europe",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "type": "status_page",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "oecd-principles",
+      "jurisdiction": "INT",
+      "title": "OECD AI Principles",
+      "publisher": "OECD",
+      "url": "https://oecd.ai/en/ai-principles",
+      "type": "principles",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "unesco-rec",
+      "jurisdiction": "INT",
+      "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
+      "publisher": "UNESCO",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+      "type": "recommendation",
+      "format": "pdf",
+      "priority": "high",
+      "date": "2021-11-23"
+    },
+    {
+      "id": "un-79-325",
+      "jurisdiction": "INT",
+      "title": "UN General Assembly Resolution A/RES/79/325 (Scientific Panel and Global Dialogue)",
+      "publisher": "United Nations",
+      "url": "https://docs.un.org/en/A/RES/79/325",
+      "type": "resolution",
+      "format": "html",
+      "priority": "high",
+      "date": "2025-08-26"
+    },
+    {
+      "id": "un-gdc",
+      "jurisdiction": "INT",
+      "title": "Global Digital Compact (A/RES/79/1 Annex I)",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/global-digital-compact/sites/default/files/2024-09/Global%20Digital%20Compact%20-%20English_0.pdf",
+      "type": "compact",
+      "format": "pdf",
+      "priority": "high",
+      "date": "2024-09-22"
+    },
+    {
+      "id": "un-panel-page",
+      "jurisdiction": "INT",
+      "title": "UN Independent International Scientific Panel on AI",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/independent-international-scientific-panel-ai/en",
+      "type": "status_page",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "un-dialogue-page",
+      "jurisdiction": "INT",
+      "title": "UN Global Dialogue on AI Governance",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/global-dialogue-ai-governance/en",
+      "type": "status_page",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "bletchley",
+      "jurisdiction": "INT",
+      "title": "Bletchley Declaration (AI Safety Summit 2023)",
+      "publisher": "UK Government",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
+      "type": "declaration",
+      "format": "html",
+      "priority": "high",
+      "date": "2023-11-01"
+    },
+    {
+      "id": "iea-energy-ai",
+      "jurisdiction": "INT",
+      "title": "Energy and AI (IEA report on data centre electricity demand)",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/reports/energy-and-ai",
+      "type": "report",
+      "format": "html",
+      "priority": "medium"
+    },
+    {
+      "id": "eu-ai-act",
+      "jurisdiction": "EU",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "type": "primary_legislation",
+      "format": "pdf",
+      "priority": "high",
+      "date": "2024-07-12"
+    },
+    {
+      "id": "eu-ai-act-consolidated",
+      "jurisdiction": "EU",
+      "title": "AI Act: Commission regulatory framework page",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "type": "official_guidance",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "eu-ai-act-explorer",
+      "jurisdiction": "EU",
+      "title": "Digital Omnibus on AI (explorer, tracks amendments)",
+      "publisher": "Future of Life Institute",
+      "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/",
+      "type": "secondary_tracker",
+      "format": "html",
+      "priority": "medium"
+    },
+    {
+      "id": "eu-eed",
+      "jurisdiction": "EU",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "type": "primary_legislation",
+      "format": "pdf",
+      "priority": "medium"
+    },
+    {
+      "id": "eu-gpai-code",
+      "jurisdiction": "EU",
+      "title": "General-Purpose AI Code of Practice",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+      "type": "official_guidance",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "uk-whitepaper",
+      "jurisdiction": "UK",
+      "title": "A pro-innovation approach to AI regulation (White Paper)",
+      "publisher": "UK Government",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "type": "strategy",
+      "format": "html",
+      "priority": "high",
+      "date": "2023-03-29"
+    },
+    {
+      "id": "uk-opportunities",
+      "jurisdiction": "UK",
+      "title": "AI Opportunities Action Plan",
+      "publisher": "UK Government",
+      "url": "https://www.gov.uk/government/publications/ai-opportunities-action-plan",
+      "type": "strategy",
+      "format": "html",
+      "priority": "high",
+      "date": "2025-01-13"
+    },
+    {
+      "id": "uk-dua-act",
+      "jurisdiction": "UK",
+      "title": "Data (Use and Access) Act 2025",
+      "publisher": "legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
+      "type": "primary_legislation",
+      "format": "html",
+      "priority": "high",
+      "date": "2025-06-19"
+    },
+    {
+      "id": "uk-aisi",
+      "jurisdiction": "UK",
+      "title": "AI Security Institute",
+      "publisher": "UK Government",
+      "url": "https://www.gov.uk/government/organisations/ai-security-institute",
+      "type": "status_page",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "us-nist-rmf",
+      "jurisdiction": "US",
+      "title": "NIST AI Risk Management Framework 1.0 (AI 100-1)",
+      "publisher": "NIST",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "type": "voluntary_framework",
+      "format": "pdf",
+      "priority": "high",
+      "date": "2023-01-26"
+    },
+    {
+      "id": "us-nist-genai",
+      "jurisdiction": "US",
+      "title": "NIST AI 600-1 Generative AI Profile",
+      "publisher": "NIST",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "type": "voluntary_framework",
+      "format": "pdf",
+      "priority": "high",
+      "date": "2024-07-26"
+    },
+    {
+      "id": "us-action-plan",
+      "jurisdiction": "US",
+      "title": "America's AI Action Plan",
+      "publisher": "The White House",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "type": "strategy",
+      "format": "pdf",
+      "priority": "high",
+      "date": "2025-07-23"
+    },
+    {
+      "id": "us-ca-sb53",
+      "jurisdiction": "US",
+      "title": "California SB 53 (Transparency in Frontier AI Act)",
+      "publisher": "California Legislature",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "type": "state_legislation",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "us-co-sb205",
+      "jurisdiction": "US",
+      "title": "Colorado SB24-205 (Consumer Protections for AI)",
+      "publisher": "Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bills/sb24-205",
+      "type": "state_legislation",
+      "format": "html",
+      "priority": "high",
+      "note": "Reenacted as SB 26-189 in May 2026; add that bill when located."
+    },
+    {
+      "id": "kr-msit",
+      "jurisdiction": "KR",
+      "title": "AI Basic Act comes into force (MSIT announcement)",
+      "publisher": "Ministry of Science and ICT",
+      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
+      "type": "official_guidance",
+      "format": "html",
+      "priority": "high",
+      "date": "2026-01-22"
+    },
+    {
+      "id": "jp-cao-ai",
+      "jurisdiction": "JP",
+      "title": "Cabinet Office AI policy page (AI Promotion Act, Basic Plan)",
+      "publisher": "Cabinet Office, Japan",
+      "url": "https://www8.cao.go.jp/cstp/ai/index.html",
+      "type": "status_page",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "jp-meti-guidelines",
+      "jurisdiction": "JP",
+      "title": "AI Guidelines for Business",
+      "publisher": "METI / MIC",
+      "url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20240419_report.html",
+      "type": "official_guidance",
+      "format": "html",
+      "priority": "high",
+      "date": "2024-04-19"
+    },
+    {
+      "id": "sg-model-framework",
+      "jurisdiction": "SG",
+      "title": "Model AI Governance Framework",
+      "publisher": "PDPC / IMDA",
+      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
+      "type": "voluntary_framework",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "sg-aiverify",
+      "jurisdiction": "SG",
+      "title": "AI Verify Foundation",
+      "publisher": "IMDA",
+      "url": "https://aiverifyfoundation.sg/",
+      "type": "status_page",
+      "format": "html",
+      "priority": "medium"
+    },
+    {
+      "id": "au-industry-ai",
+      "jurisdiction": "AU",
+      "title": "Australian Government: Safe and responsible AI",
+      "publisher": "Department of Industry, Science and Resources",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence",
+      "type": "official_guidance",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "in-meity",
+      "jurisdiction": "IN",
+      "title": "MeitY: Artificial Intelligence portal",
+      "publisher": "Ministry of Electronics and IT",
+      "url": "https://www.meity.gov.in/",
+      "type": "status_page",
+      "format": "html",
+      "priority": "medium"
+    },
+    {
+      "id": "in-pib",
+      "jurisdiction": "IN",
+      "title": "PIB press releases on AI (watch page)",
+      "publisher": "Press Information Bureau",
+      "url": "https://pib.gov.in/allRel.aspx",
+      "type": "status_page",
+      "format": "html",
+      "priority": "low"
+    },
+    {
+      "id": "cn-cac",
+      "jurisdiction": "CN",
+      "title": "Cyberspace Administration of China (English site)",
+      "publisher": "CAC",
+      "url": "https://www.cac.gov.cn/",
+      "type": "status_page",
+      "format": "html",
+      "priority": "medium",
+      "note": "Primary measures are in Chinese; add direct document URLs once confirmed."
+    },
+    {
+      "id": "vn-gov",
+      "jurisdiction": "VN",
+      "title": "Vietnam Government portal (legal documents)",
+      "publisher": "Government of Vietnam",
+      "url": "https://xaydungchinhsach.chinhphu.vn/",
+      "type": "status_page",
+      "format": "html",
+      "priority": "low"
+    },
+    {
+      "id": "ca-voluntary-code",
+      "jurisdiction": "CA",
+      "title": "Voluntary Code of Conduct on Advanced Generative AI",
+      "publisher": "ISED Canada",
+      "url": "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems",
+      "type": "voluntary_framework",
+      "format": "html",
+      "priority": "high",
+      "date": "2023-09-27"
+    },
+    {
+      "id": "ca-legisinfo",
+      "jurisdiction": "CA",
+      "title": "LEGISinfo: Parliament of Canada bills",
+      "publisher": "Parliament of Canada",
+      "url": "https://www.parl.ca/legisinfo/en/bills",
+      "type": "status_page",
+      "format": "html",
+      "priority": "medium"
+    },
+    {
+      "id": "br-pl2338",
+      "jurisdiction": "BR",
+      "title": "PL 2338/2023 (AI Legal Framework): Senate bill page",
+      "publisher": "Senado Federal",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+      "type": "bill",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "br-camara",
+      "jurisdiction": "BR",
+      "title": "PL 2338/2023 Chamber of Deputies proceeding",
+      "publisher": "Câmara dos Deputados",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+      "type": "bill",
+      "format": "html",
+      "priority": "medium"
+    },
+    {
+      "id": "ae-uae-ai",
+      "jurisdiction": "AE",
+      "title": "UAE Government portal: Artificial Intelligence",
+      "publisher": "UAE Government",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
+      "type": "official_guidance",
+      "format": "html",
+      "priority": "high"
+    },
+    {
+      "id": "ke-ict",
+      "jurisdiction": "KE",
+      "title": "Kenya Ministry of ICT",
+      "publisher": "Government of Kenya",
+      "url": "https://www.ict.go.ke/",
+      "type": "status_page",
+      "format": "html",
+      "priority": "low"
+    },
+    {
+      "id": "ch-federal-council",
+      "jurisdiction": "CH",
+      "title": "Federal Council: AI regulatory approach",
+      "publisher": "Swiss Federal Council",
+      "url": "https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html",
+      "type": "official_guidance",
+      "format": "html",
+      "priority": "high",
+      "date": "2025-02-12",
+      "note": "Verify URL."
+    }
+  ]
+}

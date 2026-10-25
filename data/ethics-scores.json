@@ -1,11 +1,11 @@
 {
-  "_generated": "2026-10-25T11:39:27.136Z",
+  "_generated": "2026-10-25T11:46:32.798Z",
   "dimensions": {
     "safety_risk_management": {
-      "global_average": 74,
-      "jurisdiction_count": 3,
+      "global_average": 47,
+      "jurisdiction_count": 15,
       "highest": 94,
-      "lowest": 58,
+      "lowest": 15,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -13,22 +13,82 @@
           "score": 94
         },
         {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 72
+        },
+        {
           "id": "uk",
           "name": "United Kingdom",
           "score": 71
         },
         {
+          "id": "cn",
+          "name": "China",
+          "score": 68
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 68
+        },
+        {
           "id": "us",
           "name": "United States",
           "score": 58
+        },
+        {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 50
+        },
+        {
+          "id": "jp",
+          "name": "Japan",
+          "score": 45
+        },
+        {
+          "id": "au",
+          "name": "Australia",
+          "score": 35
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 35
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 30
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 30
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 20
+        },
+        {
+          "id": "br",
+          "name": "Brazil",
+          "score": 15
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 15
         }
       ]
     },
     "privacy_data_protection": {
-      "global_average": 71,
-      "jurisdiction_count": 3,
+      "global_average": 62,
+      "jurisdiction_count": 15,
       "highest": 88,
-      "lowest": 52,
+      "lowest": 50,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -41,17 +101,77 @@
           "score": 74
         },
         {
+          "id": "br",
+          "name": "Brazil",
+          "score": 70
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 70
+        },
+        {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 65
+        },
+        {
+          "id": "au",
+          "name": "Australia",
+          "score": 60
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 60
+        },
+        {
+          "id": "cn",
+          "name": "China",
+          "score": 60
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 60
+        },
+        {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 60
+        },
+        {
+          "id": "jp",
+          "name": "Japan",
+          "score": 55
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 55
+        },
+        {
           "id": "us",
           "name": "United States",
           "score": 52
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 50
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 50
         }
       ]
     },
     "human_oversight": {
-      "global_average": 66,
-      "jurisdiction_count": 3,
+      "global_average": 50,
+      "jurisdiction_count": 15,
       "highest": 91,
-      "lowest": 45,
+      "lowest": 30,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -59,22 +179,82 @@
           "score": 91
         },
         {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 75
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 65
+        },
+        {
           "id": "uk",
           "name": "United Kingdom",
           "score": 62
         },
         {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 55
+        },
+        {
+          "id": "jp",
+          "name": "Japan",
+          "score": 50
+        },
+        {
+          "id": "cn",
+          "name": "China",
+          "score": 45
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 45
+        },
+        {
           "id": "us",
           "name": "United States",
           "score": 45
+        },
+        {
+          "id": "au",
+          "name": "Australia",
+          "score": 40
+        },
+        {
+          "id": "br",
+          "name": "Brazil",
+          "score": 40
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 40
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 35
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 30
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 30
         }
       ]
     },
     "transparency": {
-      "global_average": 67,
-      "jurisdiction_count": 3,
+      "global_average": 54,
+      "jurisdiction_count": 15,
       "highest": 86,
-      "lowest": 49,
+      "lowest": 30,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -82,22 +262,82 @@
           "score": 86
         },
         {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 78
+        },
+        {
+          "id": "cn",
+          "name": "China",
+          "score": 72
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 70
+        },
+        {
           "id": "uk",
           "name": "United Kingdom",
           "score": 65
         },
         {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 60
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 55
+        },
+        {
           "id": "us",
           "name": "United States",
           "score": 49
+        },
+        {
+          "id": "au",
+          "name": "Australia",
+          "score": 45
+        },
+        {
+          "id": "jp",
+          "name": "Japan",
+          "score": 45
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 45
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 40
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 35
+        },
+        {
+          "id": "br",
+          "name": "Brazil",
+          "score": 30
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 30
         }
       ]
     },
     "accountability": {
-      "global_average": 68,
-      "jurisdiction_count": 3,
+      "global_average": 46,
+      "jurisdiction_count": 15,
       "highest": 82,
-      "lowest": 55,
+      "lowest": 25,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -110,17 +350,77 @@
           "score": 68
         },
         {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 62
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 60
+        },
+        {
+          "id": "cn",
+          "name": "China",
+          "score": 55
+        },
+        {
           "id": "us",
           "name": "United States",
           "score": 55
+        },
+        {
+          "id": "au",
+          "name": "Australia",
+          "score": 50
+        },
+        {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 45
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 35
+        },
+        {
+          "id": "jp",
+          "name": "Japan",
+          "score": 35
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 35
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 30
+        },
+        {
+          "id": "br",
+          "name": "Brazil",
+          "score": 25
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 25
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 25
         }
       ]
     },
     "fairness_non_discrimination": {
-      "global_average": 69,
-      "jurisdiction_count": 3,
+      "global_average": 44,
+      "jurisdiction_count": 15,
       "highest": 79,
-      "lowest": 61,
+      "lowest": 25,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -136,14 +436,74 @@
           "id": "us",
           "name": "United States",
           "score": 61
+        },
+        {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 55
+        },
+        {
+          "id": "au",
+          "name": "Australia",
+          "score": 50
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 45
+        },
+        {
+          "id": "jp",
+          "name": "Japan",
+          "score": 40
+        },
+        {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 40
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 40
+        },
+        {
+          "id": "br",
+          "name": "Brazil",
+          "score": 35
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 35
+        },
+        {
+          "id": "cn",
+          "name": "China",
+          "score": 35
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 30
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 30
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 25
         }
       ]
     },
     "environmental_sustainability": {
-      "global_average": 27,
-      "jurisdiction_count": 3,
+      "global_average": 20,
+      "jurisdiction_count": 15,
       "highest": 41,
-      "lowest": 18,
+      "lowest": 10,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -151,22 +511,82 @@
           "score": 41
         },
         {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 35
+        },
+        {
+          "id": "cn",
+          "name": "China",
+          "score": 30
+        },
+        {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 25
+        },
+        {
           "id": "uk",
           "name": "United Kingdom",
           "score": 22
         },
         {
+          "id": "jp",
+          "name": "Japan",
+          "score": 20
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 20
+        },
+        {
           "id": "us",
           "name": "United States",
           "score": 18
+        },
+        {
+          "id": "au",
+          "name": "Australia",
+          "score": 15
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 15
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 15
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 15
+        },
+        {
+          "id": "br",
+          "name": "Brazil",
+          "score": 10
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 10
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 10
         }
       ]
     },
     "access_to_remedy": {
-      "global_average": 60,
-      "jurisdiction_count": 3,
+      "global_average": 46,
+      "jurisdiction_count": 15,
       "highest": 77,
-      "lowest": 38,
+      "lowest": 30,
       "by_jurisdiction": [
         {
           "id": "eu",
@@ -179,9 +599,69 @@
           "score": 64
         },
         {
+          "id": "au",
+          "name": "Australia",
+          "score": 50
+        },
+        {
+          "id": "ca",
+          "name": "Canada",
+          "score": 50
+        },
+        {
+          "id": "kr",
+          "name": "South Korea",
+          "score": 50
+        },
+        {
+          "id": "ch",
+          "name": "Switzerland",
+          "score": 50
+        },
+        {
+          "id": "vn",
+          "name": "Vietnam",
+          "score": 50
+        },
+        {
+          "id": "br",
+          "name": "Brazil",
+          "score": 45
+        },
+        {
+          "id": "ke",
+          "name": "Kenya",
+          "score": 45
+        },
+        {
+          "id": "cn",
+          "name": "China",
+          "score": 40
+        },
+        {
           "id": "us",
           "name": "United States",
           "score": 38
+        },
+        {
+          "id": "in",
+          "name": "India",
+          "score": 35
+        },
+        {
+          "id": "sg",
+          "name": "Singapore",
+          "score": 35
+        },
+        {
+          "id": "ae",
+          "name": "United Arab Emirates",
+          "score": 35
+        },
+        {
+          "id": "jp",
+          "name": "Japan",
+          "score": 30
         }
       ]
     }

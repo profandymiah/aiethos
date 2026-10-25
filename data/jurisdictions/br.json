@@ -1,0 +1,198 @@
+{
+  "_generated": "2026-10-25T11:46:32.784Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "br",
+    "name": "Brazil",
+    "region": "Americas",
+    "population": 213000000,
+    "iso_code": "BR",
+    "flag_emoji": "🇧🇷",
+    "entry_author": "AIETHOS AI-drafted (unreviewed)",
+    "entry_reviewed": false,
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
+    "confidence": "medium"
+  },
+  "framework": {
+    "primary_law": "Bill PL 2338/2023 (AI Legal Framework): passed Senate December 2024, pending in Chamber of Deputies",
+    "status": "draft",
+    "approach": "comprehensive",
+    "binding": false,
+    "year_enacted": null,
+    "year_effective": null,
+    "enforcement_begins": null,
+    "review_scheduled": null,
+    "enforcing_body": "Proposed National AI Regulation and Governance System (SIA); ANPD enforces LGPD",
+    "max_penalty": "Proposed: up to R$50 million per infraction",
+    "geographic_scope": "Proposed to cover AI developed or used in Brazil.",
+    "source_documents": [
+      {
+        "title": "Brazil's AI Bill Misses Fourth Deadline in a Row",
+        "url": "https://www.entercastconsulting.com.br/en/blog/brazil-ai-bill-pl-2338-delay-2026",
+        "type": "secondary_commentary",
+        "date": null
+      },
+      {
+        "title": "Brazil AI Regulation Explained: PL 2338 Guide",
+        "url": "https://allainews.net/brazil-ai-regulation-explained/",
+        "type": "secondary_commentary",
+        "date": null
+      }
+    ]
+  },
+  "research": {
+    "summary": "Brazil's PL 2338/2023, modelled on the EU AI Act, would set risk tiers (unacceptable, high, lower), rights to explanation and contestation, and a national governance system with fines up to R$50 million. The Senate approved it unanimously in December 2024; in the Chamber a special committee has held hearings but, as of August 2026, awaited the rapporteur's report after at least four missed vote dates. Scores here reflect protections currently in force, mainly the LGPD data protection law.",
+    "risk_tiers": [
+      {
+        "tier": "Excessive risk",
+        "description": "Prohibited uses (proposed).",
+        "effective": null
+      },
+      {
+        "tier": "High risk",
+        "description": "Impact assessment, transparency, human oversight (proposed).",
+        "effective": null
+      }
+    ],
+    "key_provisions": [
+      {
+        "id": "rights",
+        "title": "Rights of affected persons (proposed)",
+        "description": "Transparency, explanation and contestation for people affected by AI decisions.",
+        "article_reference": "PL 2338/2023"
+      },
+      {
+        "id": "lgpd",
+        "title": "LGPD data protection",
+        "description": "Rights over personal data, including review of automated decisions, in force.",
+        "article_reference": "LGPD"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "EU",
+        "tension": "The bill mirrors the EU model but lacks its enforcement timeline; companies may face EU rules first.",
+        "severity": "medium"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 15,
+        "rationale": "No binding AI risk framework in force."
+      },
+      "privacy_data_protection": {
+        "score": 70,
+        "rationale": "LGPD provides strong data protection including automated decision review."
+      },
+      "human_oversight": {
+        "score": 40,
+        "rationale": "Right to review automated decisions under LGPD."
+      },
+      "transparency": {
+        "score": 30,
+        "rationale": "Limited AI-specific transparency in force."
+      },
+      "accountability": {
+        "score": 25,
+        "rationale": "ANPD enforces data law; no AI regulator yet."
+      },
+      "fairness_non_discrimination": {
+        "score": 35,
+        "rationale": "General anti-discrimination law only."
+      },
+      "environmental_sustainability": {
+        "score": 10,
+        "rationale": "No environmental provisions."
+      },
+      "access_to_remedy": {
+        "score": 45,
+        "rationale": "Courts and ANPD complaints available."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "The AI bill has repeatedly missed vote deadlines.",
+      "No AI-specific obligations in force.",
+      "Environmental impact not addressed."
+    ],
+    "academic_references": [],
+    "monitor_notes": "Monitor Chamber special committee progress and any effect of the 2026 election calendar. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+  },
+  "citizen": {
+    "one_line": "Brazil is close to passing an EU-style AI law but it has stalled in Congress; for now privacy law is the main protection.",
+    "what_changed": "The Senate passed an AI law in 2024, but the lower house has not voted. Until it does, data protection law is what protects you.",
+    "who_is_protected": "People in Brazil through LGPD and consumer law.",
+    "who_is_not_protected": [
+      "People affected by AI harms not covered by data or consumer law"
+    ],
+    "your_rights": [
+      {
+        "right": "Review of automated decisions",
+        "what_it_means": "The LGPD lets you request review of decisions made solely by automated processing.",
+        "how_to_invoke": "Write to the company's data protection officer; complain to the ANPD."
+      }
+    ],
+    "plain_language_summary": "Brazil's big AI law is still waiting for a vote. Privacy law helps in the meantime.",
+    "jargon_buster": {
+      "LGPD": "Brazil's general data protection law.",
+      "Rapporteur": "The legislator who writes the committee report on a bill."
+    },
+    "real_world_examples": []
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "Brazil",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  },
+  "evidence": {
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Brazil's AI Bill Misses Fourth Deadline in a Row",
+        "publisher": "Entercast Consulting",
+        "url": "https://www.entercastconsulting.com.br/en/blog/brazil-ai-bill-pl-2338-delay-2026",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      },
+      {
+        "id": "S2",
+        "title": "Brazil AI Regulation Explained: PL 2338 Guide",
+        "publisher": "Allainews",
+        "url": "https://allainews.net/brazil-ai-regulation-explained/",
+        "type": "secondary",
+        "accessed": "2026-10-25"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "text": "Senate approved PL 2338 unanimously in December 2024.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C2",
+        "text": "Chamber vote dates missed; awaiting rapporteur report as of August 2026.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "C3",
+        "text": "Proposed fines up to R$50 million per infraction.",
+        "source_ids": [
+          "S1"
+        ],
+        "confidence": "medium"
+      }
+    ]
+  }
+}

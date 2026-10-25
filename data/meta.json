@@ -1,21 +1,31 @@
 {
-  "generated_at": "2026-10-25T11:39:27.134Z",
+  "generated_at": "2026-10-25T11:46:32.791Z",
   "schema_version": "1.0.0",
-  "jurisdiction_count": 3,
+  "jurisdiction_count": 15,
   "monitored_count": 0,
   "high_confidence": 2,
   "by_region": {
-    "Europe": 2,
-    "Americas": 1
+    "Asia-Pacific": 7,
+    "Americas": 3,
+    "Europe": 3,
+    "Africa": 1,
+    "Middle East": 1
   },
   "by_status": {
-    "enacted": 1,
-    "active": 2
+    "active": 6,
+    "draft": 2,
+    "voluntary": 3,
+    "enacted": 3,
+    "consultation": 1
   },
   "by_approach": {
-    "comprehensive": 1,
-    "sectoral": 2
+    "sectoral": 6,
+    "comprehensive": 4,
+    "state-directed": 1,
+    "innovation-led": 2,
+    "rights-based": 1,
+    "voluntary": 1
   },
   "build_errors": [],
-  "average_composite": 64
+  "average_composite": 47
 }

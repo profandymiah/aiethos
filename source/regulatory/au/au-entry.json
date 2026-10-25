@@ -1,0 +1,186 @@
+{
+  "_schema_version": "1.0.0",
+  "jurisdiction": {
+    "meta": {
+      "id": "au",
+      "name": "Australia",
+      "region": "Asia-Pacific",
+      "population": 27000000,
+      "iso_code": "AU",
+      "flag_emoji": "🇦🇺",
+      "entry_author": "AIETHOS AI-drafted (unreviewed)",
+      "entry_reviewed": false,
+      "last_updated": "2026-10-25",
+      "next_review_due": "2027-01-25",
+      "confidence": "medium"
+    },
+    "framework": {
+      "primary_law": "No AI Act. Existing laws plus Guidance for AI Adoption; mandatory requirements for Commonwealth agencies from 15 June 2026",
+      "status": "active",
+      "approach": "sectoral",
+      "binding": true,
+      "year_enacted": null,
+      "year_effective": 2026,
+      "enforcement_begins": "2026-06-15",
+      "review_scheduled": null,
+      "enforcing_body": "Existing regulators (OAIC, ACCC, eSafety and others); Australian AI Safety Institute",
+      "max_penalty": "Via existing statutes",
+      "geographic_scope": "Existing laws apply to organisations in Australia; agency rules apply to Commonwealth entities.",
+      "source_documents": [
+        {
+          "title": "Australia Just Walked Away From Mandatory AI Guardrails",
+          "url": "https://rivergroup.ai/insights/australia-drops-mandatory-ai-guardrails",
+          "type": "secondary_commentary",
+          "date": "2026-07-02"
+        },
+        {
+          "title": "No AI Act, one AI right: what Australia's AI rules actually give you",
+          "url": "https://www.newtechnology.net.au/ai/australia-ai-rules-2026",
+          "type": "secondary_commentary",
+          "date": null
+        }
+      ]
+    },
+    "research_layer": {
+      "summary": "Australia shelved mandatory guardrails and a standalone AI Act, relying instead on existing privacy, consumer, copyright and discrimination law. An Australian AI Safety Institute launched in early 2026 with AUD 29.9 million. From 15 June 2026 Commonwealth agencies face the first mandatory AI requirements, including impact assessments and Chief AI Officers, with full compliance due by 10 December 2026. Voluntary guidance consolidates ten guardrails into six practices.",
+      "risk_tiers": [],
+      "key_provisions": [
+        {
+          "id": "agency",
+          "title": "Commonwealth agency AI requirements",
+          "description": "AI impact assessments and Chief AI Officers; compliance by 10 December 2026.",
+          "article_reference": "Government AI policy"
+        },
+        {
+          "id": "guidance",
+          "title": "Guidance for AI Adoption",
+          "description": "Six voluntary practices (replacing ten guardrails).",
+          "article_reference": "National AI Centre"
+        },
+        {
+          "id": "asi",
+          "title": "Australian AI Safety Institute",
+          "description": "Tests systems, assesses risk, recommends targeted reform.",
+          "article_reference": "AUD 29.9m"
+        }
+      ],
+      "cross_jurisdiction_tensions": [
+        {
+          "jurisdiction_b": "EU",
+          "tension": "Australia's decision against a standalone law diverges from EU risk-based rules.",
+          "severity": "medium"
+        }
+      ],
+      "ethical_dimension_scores": {
+        "safety_risk_management": {
+          "score": 35,
+          "rationale": "Safety institute and voluntary guidance; no mandatory private-sector risk regime."
+        },
+        "privacy_data_protection": {
+          "score": 60,
+          "rationale": "Privacy Act applies to AI; reforms ongoing."
+        },
+        "human_oversight": {
+          "score": 40,
+          "rationale": "Oversight mandated only for government."
+        },
+        "transparency": {
+          "score": 45,
+          "rationale": "Government impact assessments; voluntary for industry."
+        },
+        "accountability": {
+          "score": 50,
+          "rationale": "Regulators enforce existing law."
+        },
+        "fairness_non_discrimination": {
+          "score": 50,
+          "rationale": "Anti-discrimination law applies."
+        },
+        "environmental_sustainability": {
+          "score": 15,
+          "rationale": "No environmental provisions."
+        },
+        "access_to_remedy": {
+          "score": 50,
+          "rationale": "Courts and regulators provide recourse under existing laws."
+        }
+      },
+      "gaps_and_weaknesses": [
+        "No mandatory guardrails for high-risk private-sector AI.",
+        "Reliance on laws not written for AI."
+      ],
+      "academic_references": [],
+      "monitor_notes": "Verify privacy reforms and under-16 social media rules, not covered by the sources used. Scores are provisional AI-drafted judgements against the AIETHOS rubric and reflect protections currently in force."
+    },
+    "citizen_layer": {
+      "one_line": "Australia decided not to pass an AI law and instead relies on existing laws; government agencies face new AI rules.",
+      "what_changed": "In 2026 Australia dropped plans for mandatory AI guardrails. Government agencies must now assess AI risk, but private companies follow voluntary guidance.",
+      "who_is_protected": "People in Australia through privacy, consumer and discrimination law.",
+      "who_is_not_protected": [
+        "People harmed by private-sector AI that existing laws do not cover"
+      ],
+      "your_rights": [
+        {
+          "right": "Privacy rights",
+          "what_it_means": "The Privacy Act gives rights over personal information used by AI.",
+          "how_to_invoke": "Contact the organisation, then the OAIC."
+        }
+      ],
+      "plain_language_summary": "Australia relies on old laws and voluntary guidance for AI; only government agencies have new AI rules.",
+      "jargon_buster": {
+        "Guardrails": "Safety rules for AI that were proposed but not adopted.",
+        "OAIC": "Office of the Australian Information Commissioner."
+      },
+      "real_world_examples": []
+    },
+    "monitor": {
+      "assigned_to": null,
+      "monitor_name": null,
+      "monitor_affiliation": null,
+      "monitor_country": "Australia",
+      "contact": null,
+      "update_frequency": "monthly",
+      "last_submission": null,
+      "submission_format": "github_pr"
+    },
+    "evidence": {
+      "sources": [
+        {
+          "id": "S1",
+          "title": "Australia Just Walked Away From Mandatory AI Guardrails",
+          "publisher": "RIVER Group",
+          "url": "https://rivergroup.ai/insights/australia-drops-mandatory-ai-guardrails",
+          "type": "secondary",
+          "date": "2026-07-02",
+          "accessed": "2026-10-25"
+        },
+        {
+          "id": "S2",
+          "title": "No AI Act, one AI right: what Australia's AI rules actually give you",
+          "publisher": "newtechnology.net.au",
+          "url": "https://www.newtechnology.net.au/ai/australia-ai-rules-2026",
+          "type": "secondary",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Mandatory guardrails and a standalone AI Act shelved.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "C2",
+          "text": "Commonwealth agency requirements from 15 June 2026; full compliance by 10 December 2026.",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    }
+  }
+}
