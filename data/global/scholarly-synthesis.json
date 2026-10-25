@@ -1,0 +1,193 @@
+{
+  "headline": "Peer-reviewed work moved from asking whether algorithms can be accountable, to writing principles, to doubting that principles are enough, and now to the harder job of making governance work for generative AI.",
+  "caveat": "This synthesis is editorial. It is built from the bibliographic record of the verified papers (titles, journals, years, citation counts) and from my reading of well-known works among them, not from a systematic reading of every full text. Links go to each paper so claims can be checked. The sweep is thin where journal titles carry little ethics vocabulary, and it found very few journal articles centred outside Europe and North America or on environmental costs, which is itself a finding to test, not a settled fact.",
+  "eras": [
+    {
+      "years": "2012 to 2016",
+      "title": "Algorithms and autonomy enter the ethics literature",
+      "text": "Early articles treat automated decision-making and autonomous systems as emerging problems: human rights arguments about lethal autonomous weapons, calls for action on algorithmic decision-making in firms, a first map of the ethics of algorithms, and questions about how decisions made by software can be held to account.",
+      "dois": [
+        "10.1017/s1816383112000768",
+        "10.1016/j.jsis.2015.02.001",
+        "10.1177/2053951716679679",
+        "10.1145/2844110",
+        "10.1016/j.tra.2015.04.003"
+      ]
+    },
+    {
+      "years": "2017 to 2018",
+      "title": "Law catches up: explanation, regulation and the good society",
+      "text": "The European data protection rules prompt a public argument over whether a right to explanation exists. Scholars also begin to compare national approaches, propose frameworks such as AI4People, and ask how algorithmic regulation should work in practice.",
+      "dois": [
+        "10.1609/aimag.v38i3.2741",
+        "10.1093/idpl/ipx005",
+        "10.1111/rego.12158",
+        "10.1007/s13347-017-0279-x",
+        "10.1007/s10676-017-9430-8",
+        "10.1007/s11948-017-9901-7",
+        "10.1007/s11023-018-9482-5",
+        "10.1098/rsta.2018.0080",
+        "10.1126/science.aat5991"
+      ]
+    },
+    {
+      "years": "2019 to 2020",
+      "title": "The principles boom, and its critics",
+      "text": "Reviews count dozens of published AI ethics guidelines and find broad convergence on a handful of principles. The same period brings the sharpest critiques: principles alone cannot guarantee ethical AI, guidelines are weakly enforced, and tools are needed to move from what to how. Evidence of real harm, such as racial bias in a health-care algorithm, gives the debate a concrete case.",
+      "dois": [
+        "10.1038/s42256-019-0088-2",
+        "10.1038/s42256-019-0114-4",
+        "10.1162/99608f92.8cd550d1",
+        "10.1007/s11948-019-00165-5",
+        "10.1007/s11023-020-09517-8",
+        "10.1126/science.aax2342",
+        "10.1016/j.socscimed.2020.113172",
+        "10.1111/puar.13293"
+      ]
+    },
+    {
+      "years": "2021 to 2022",
+      "title": "From principles to sector rules, fairness and rights",
+      "text": "Attention turns to measurement and rules: surveys of bias and fairness methods, relational critiques of fairness, analysis of the philosophy behind the proposed European AI legislation, and public-sector governance reviews. In health and education, fields start writing reporting standards and ethics frameworks for their own settings.",
+      "dois": [
+        "10.1145/3457607",
+        "10.1016/j.patter.2021.100205",
+        "10.1007/s13347-021-00460-9",
+        "10.1016/j.giq.2021.101577",
+        "10.1038/s41591-022-01772-9",
+        "10.1007/s40593-021-00239-1",
+        "10.1145/3491209"
+      ]
+    },
+    {
+      "years": "2023 to 2026",
+      "title": "Generative AI and the push to implementation",
+      "text": "Large language models dominate. Papers examine ethical issues of ChatGPT, bias in language models, the case for regulatory oversight of generative AI in health care, and inequality effects. Consensus guidelines and regulator perspectives appear for health, and institutions publish policies for generative AI in education. Recent reviews describe governance as something to be operationalised and measured.",
+      "dois": [
+        "10.1016/j.ijinfomgt.2023.102642",
+        "10.1016/j.ijinfomgt.2023.102700",
+        "10.1162/coli_a_00524",
+        "10.1038/s41746-023-00873-0",
+        "10.1093/pnasnexus/pgae191",
+        "10.1136/bmj-2024-081554",
+        "10.1001/jama.2024.21451",
+        "10.1016/j.jsis.2024.101885",
+        "10.1038/s41746-026-02418-7"
+      ]
+    }
+  ],
+  "barriers": [
+    {
+      "title": "Principles do not translate into practice",
+      "text": "A recurring finding is that agreed principles are too general to guide design, and that organisations lack tools, incentives and enforcement to apply them. Later work proposes lifecycle frameworks and maturity models to bridge the gap.",
+      "dois": [
+        "10.1038/s42256-019-0114-4",
+        "10.1007/s11948-019-00165-5",
+        "10.1007/s11023-020-09517-8",
+        "10.1016/j.inffus.2023.101896",
+        "10.1016/j.inffus.2025.103812"
+      ]
+    },
+    {
+      "title": "Opacity, and disagreement about what explanation is owed",
+      "text": "Complex models resist explanation, and scholars dispute whether data protection law gives individuals a right to one. Health-care papers question whether current explainability techniques are enough for clinicians and patients to trust a system.",
+      "dois": [
+        "10.1609/aimag.v38i3.2741",
+        "10.1093/idpl/ipx005",
+        "10.1016/j.inffus.2019.12.012",
+        "10.1016/j.jbi.2020.103655"
+      ]
+    },
+    {
+      "title": "Unclear accountability",
+      "text": "When decisions are partly automated, it is hard to say who answers for them. The literature asks how algorithms can be held to account and how organisations should assign responsibility.",
+      "dois": [
+        "10.1145/2844110",
+        "10.1111/puar.13293",
+        "10.1016/j.jsis.2024.101885"
+      ]
+    },
+    {
+      "title": "Bias in data and deployed systems",
+      "text": "Documented unequal outcomes, especially in health care, show that bias is a practical barrier to adoption as well as an ethical problem. Fairness can be defined in competing ways, which complicates compliance.",
+      "dois": [
+        "10.1126/science.aax2342",
+        "10.1145/3457607",
+        "10.1038/s41551-023-01056-8",
+        "10.1162/coli_a_00524"
+      ]
+    },
+    {
+      "title": "Evidence standards that lag the technology",
+      "text": "Health fields respond by writing reporting guidelines and consensus standards for AI studies and deployment, suggesting that routine evidence of safety and fairness was missing.",
+      "dois": [
+        "10.1038/s41591-020-1034-x",
+        "10.1038/s41591-022-01772-9",
+        "10.1136/bmj-2024-081554",
+        "10.1016/j.identj.2025.109322"
+      ]
+    },
+    {
+      "title": "Weak institutional capacity and policy",
+      "text": "Public bodies and universities are shown adopting AI before policy and skills are in place, and several reviews call for governance frameworks inside institutions.",
+      "dois": [
+        "10.1016/j.giq.2020.101493",
+        "10.1016/j.giq.2021.101577",
+        "10.1186/s41239-023-00408-3",
+        "10.1016/j.caeai.2024.100348"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "title": "Can voluntary principles become enforceable practice?",
+      "text": "Whether hard law, standards or professional norms are the better route is argued in the work on guidelines and on the European legislation.",
+      "dois": [
+        "10.1038/s42256-019-0088-2",
+        "10.1007/s13347-021-00460-9",
+        "10.1016/j.jsis.2024.101885"
+      ]
+    },
+    {
+      "title": "What should explanation and transparency deliver?",
+      "text": "It remains open whether explanation protects people, builds trust, or mainly serves regulators, and what level is enough in high-stakes settings such as health.",
+      "dois": [
+        "10.1093/idpl/ipx005",
+        "10.1016/j.jbi.2020.103655",
+        "10.1016/j.inffus.2023.101805"
+      ]
+    },
+    {
+      "title": "Which definition of fairness, and who decides?",
+      "text": "Surveys show many competing technical definitions; critics argue that fairness is relational and political, not only statistical.",
+      "dois": [
+        "10.1145/3457607",
+        "10.1145/3494672",
+        "10.1016/j.patter.2021.100205"
+      ]
+    },
+    {
+      "title": "How to govern generative and general-purpose models",
+      "text": "Responsibility for outputs, bias, hallucination and misuse across a supply chain is unsettled, as is the right level of oversight in health and education.",
+      "dois": [
+        "10.1038/s41746-023-00873-0",
+        "10.1016/j.ijinfomgt.2023.102700",
+        "10.1145/3703155",
+        "10.1093/pnasnexus/pgae191"
+      ]
+    },
+    {
+      "title": "Aligning systems with human values",
+      "text": "Philosophical work asks what it means to align AI with values and whose values count.",
+      "dois": [
+        "10.1007/s11023-020-09539-2",
+        "10.1126/science.aat5991"
+      ]
+    },
+    {
+      "title": "Whose perspectives are missing?",
+      "text": "In this sweep very few verified journal articles centre the Global South or environmental costs. Whether that reflects the literature or the limits of title-based search is an open question for the next sweep, and a gap this observatory aims to address through community notes.",
+      "dois": []
+    }
+  ]
+}
