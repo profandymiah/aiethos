@@ -339,6 +339,17 @@ function write(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 }
 
+// ── Global (non-jurisdiction) data: instruments, trajectories, datacentres ──
+try {
+  const gdir = path.join(ROOT, 'source', 'global');
+  if (fs.existsSync(gdir)) {
+    for (const f of fs.readdirSync(gdir).filter(x => x.endsWith('.json'))) {
+      const data = JSON.parse(fs.readFileSync(path.join(gdir, f), 'utf8'));
+      write(path.join(ROOT, 'data', 'global', f), data);
+    }
+  }
+} catch (e) { console.error('Global data error:', e.message); process.exitCode = 1; }
+
 // ─── MAIN BUILD ───────────────────────────────────────────────────────────────
 
 function build() {

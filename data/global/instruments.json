@@ -1,0 +1,155 @@
+{
+  "_updated": "2026-10-25",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Council of Europe: EU ratifies the Framework Convention on AI",
+      "publisher": "Council of Europe",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/-/european-union-ratifies-the-council-of-europe-framework-convention-on-artificial-intelligence",
+      "type": "primary",
+      "date": "2026-05-15",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S2",
+      "title": "UN Global Dialogue on AI Governance: first session",
+      "publisher": "CASRAI",
+      "url": "https://casrai.org/news/un-global-dialogue-ai-governance-first-session-2026",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S3",
+      "title": "From Delhi to Geneva: what the AI Impact Summit reveals",
+      "publisher": "DFRLab",
+      "url": "https://dfrlab.org/2026/03/04/what-the-ai-impact-summit-reveals/",
+      "type": "secondary",
+      "date": "2026-03-04",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S4",
+      "title": "International Organizations: AI Regulation Overview",
+      "publisher": "regulations.ai",
+      "url": "https://regulations.ai/regulations/RAI-REG-INTL-SUMMARY-2026",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S5",
+      "title": "UN AI Panel and Global Dialogue Resolution A/RES/79/325",
+      "publisher": "regulations.ai",
+      "url": "https://regulations.ai/regulations/RAI-XN-GO-AR79325-2025",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "items": [
+    {
+      "id": "coe",
+      "name": "Council of Europe Framework Convention on AI (CETS No. 225)",
+      "body": "Council of Europe",
+      "kind": "Treaty",
+      "binding": "Binding treaty",
+      "status": "Ratification under way",
+      "summary": "The first legally binding international AI treaty, covering human rights, democracy and the rule of law. The EU ratified on 15 May 2026. Entry-into-force status and the full ratification count were not confirmed.",
+      "citizen": "A treaty that commits signing countries to protect your rights when governments or companies use AI.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "medium",
+      "note": "Check the treaty office page for current ratification count."
+    },
+    {
+      "id": "un-res",
+      "name": "UN General Assembly Resolution A/RES/79/325",
+      "body": "United Nations",
+      "kind": "Resolution",
+      "binding": "Non-binding",
+      "status": "Adopted 26 August 2025",
+      "summary": "Created the Independent International Scientific Panel on AI and the Global Dialogue on AI Governance.",
+      "citizen": "The UN's decision to set up a global expert panel and a yearly forum on AI.",
+      "source_ids": [
+        "S2",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "un-panel",
+      "name": "Independent International Scientific Panel on AI",
+      "body": "United Nations",
+      "kind": "Expert body",
+      "binding": "Advisory",
+      "status": "Operating; preliminary report 1 July 2026",
+      "summary": "First in-person meeting in Madrid in April 2026; preliminary report released 1 July 2026. Membership details were not confirmed.",
+      "citizen": "A UN panel of scientists that reports on what AI can do and what risks it poses.",
+      "source_ids": [
+        "S2"
+      ],
+      "confidence": "medium",
+      "note": "Verify dates and membership on un.org."
+    },
+    {
+      "id": "un-dialogue",
+      "name": "UN Global Dialogue on AI Governance",
+      "body": "United Nations",
+      "kind": "Forum",
+      "binding": "Non-binding",
+      "status": "First session 6–7 July 2026, Geneva; next 3–4 May 2027, New York",
+      "summary": "Produced a Co-Chairs' Summary across four themes: opportunities, bridging divides, safe and trustworthy AI, and human rights and accountability. No adopted decisions.",
+      "citizen": "A global meeting where governments discuss AI rules. It can talk and recommend, not enforce.",
+      "source_ids": [
+        "S2"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "delhi",
+      "name": "New Delhi Declaration on AI Impact",
+      "body": "India AI Impact Summit",
+      "kind": "Summit declaration",
+      "binding": "Non-binding",
+      "status": "Endorsed by 89 countries and organisations (February 2026)",
+      "summary": "Focuses on shared benefits, sovereignty, energy-efficient infrastructure and inclusion. Critics note no enforceable safety standards and little civil-society representation. Whether the US and China signed was not confirmed.",
+      "citizen": "A promise by many countries to make AI work for everyone, with no way to force them to keep it.",
+      "source_ids": [
+        "S3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "oecd-dd",
+      "name": "OECD Due Diligence Guidance for Responsible AI",
+      "body": "OECD",
+      "kind": "Guidance",
+      "binding": "Non-binding",
+      "status": "Effective 19 February 2026",
+      "summary": "Voluntary guidance on due diligence for AI. The OECD AI Principles themselves are not covered by the sources used here.",
+      "citizen": "Advice to companies on checking their AI for harm. Not law.",
+      "source_ids": [
+        "S4"
+      ],
+      "confidence": "low",
+      "note": "Verify on oecd.org; add the OECD AI Principles."
+    },
+    {
+      "id": "apec",
+      "name": "APEC AI Initiative",
+      "body": "APEC",
+      "kind": "Regional initiative",
+      "binding": "Voluntary",
+      "status": "2026–2030",
+      "summary": "Voluntary regional cooperation on AI.",
+      "citizen": "Asia-Pacific governments agreeing to cooperate on AI.",
+      "source_ids": [
+        "S4"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "Not yet covered: OECD AI Principles, G7 Hiroshima Process, UNESCO Recommendation on AI Ethics, ISO/IEC 42001, Bletchley/Seoul/Paris summit statements."
+  ]
+}

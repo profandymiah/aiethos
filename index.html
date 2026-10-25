@@ -336,6 +336,20 @@ section{padding:88px 56px;border-bottom:1px solid var(--border);position:relativ
 .ev a{color:var(--gold,#C4A063)}.ev-tag{font-size:11px;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;padding:1px 6px;margin-left:6px}
 .ev-p{color:#5FD3B0}.ev-s{color:#E0B866}.ev-claim{margin-bottom:14px}.ev-claim p{font-size:14px;color:var(--text2,#C9CDD4);line-height:1.7}
 .ev-ref a{font-size:12px;text-decoration:none;border-bottom:1px dotted}.ev-note{font-size:12px;color:var(--muted)}
+.gl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin:20px 0}
+.gl-card{border:1px solid var(--border,#2a2d35);padding:20px 22px;background:rgba(255,255,255,.015)}
+.gl-card h3,.gl-card h4{font-size:16px;margin:0 0 6px;color:var(--text,#EDEAE0);font-weight:600}
+.gl-meta{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.gl-card p{font-size:14px;color:var(--text2,#C9CDD4);line-height:1.75;margin:0 0 8px}
+.gl-cit{font-size:13px;color:var(--muted);border-left:2px solid var(--gold,#C4A063);padding-left:10px;margin:10px 0}
+.gl-h{font-size:18px;margin:36px 0 4px;color:var(--text,#EDEAE0)}
+.gl-theme{margin-bottom:36px}.gl-dir{font-size:14px;color:var(--gold,#C4A063);margin:6px 0 4px}
+.gl-badge{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;padding:1px 7px;margin-right:6px;color:var(--muted)}
+.gl-conf{font-size:12px;color:var(--muted)}
+.gl-src{margin-top:24px;padding:18px 22px;border:1px solid var(--border,#2a2d35)}
+.gl-src ol{margin:10px 0 0 20px;padding:0}.gl-src li{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:5px}
+.gl-src a,.gl-ref a{color:var(--gold,#C4A063)}.gl-ref a{font-size:12px;text-decoration:none;border-bottom:1px dotted;margin-right:4px}
+.dc-map{width:100%;max-width:900px;height:auto;display:block;margin:0 auto;border:1px solid var(--border,#2a2d35);background:rgba(255,255,255,.01)}
 .monitor-note{padding:18px 22px;background:rgba(196,160,99,0.04);border:1px solid rgba(196,160,99,0.14);margin-top:24px}
 .monitor-note p{font-size:13px;color:var(--muted);line-height:1.85}
 
@@ -443,6 +457,9 @@ footer{
   <ul class="nav-links" role="list">
     <li><a href="#regulatory">Monitor</a></li>
     <li><a href="#ethics">Dimensions</a></li>
+    <li><a href="#instruments">Instruments</a></li>
+    <li><a href="#trajectories">Trajectories</a></li>
+    <li><a href="#datacentres">Data centres</a></li>
   </ul>
   <div class="nav-live"><div class="dot" aria-hidden="true"></div><span>Beta</span></div>
 </nav>
@@ -585,6 +602,42 @@ footer{
   <div class="eth-table" id="ethTable" role="list" aria-label="Ethical dimension scores" aria-live="polite"></div>
 </section>
 
+<!-- INSTRUMENTS -->
+<section id="instruments" class="reveal" aria-labelledby="inst-h">
+  <div class="s-hd">
+    <div><p class="s-ey">International</p><h2 class="s-tt" id="inst-h">Global instruments</h2></div>
+    <div class="s-sub">Treaties, UN bodies and summit declarations</div>
+  </div>
+  <div id="instList" class="gl-grid" role="list"></div>
+  <div id="instSrc"></div>
+</section>
+
+<!-- TRAJECTORIES -->
+<section id="trajectories" class="reveal" aria-labelledby="traj-h">
+  <div class="s-hd">
+    <div><p class="s-ey">Direction of travel</p><h2 class="s-tt" id="traj-h">Trajectories and debates</h2></div>
+    <div class="s-sub">Pause proposals, kill switches, preemption</div>
+  </div>
+  <div id="trajList"></div>
+  <div id="trajSrc"></div>
+</section>
+
+<!-- DATA CENTRES -->
+<section id="datacentres" class="reveal" aria-labelledby="dc-h">
+  <div class="s-hd">
+    <div><p class="s-ey">Infrastructure ethics</p><h2 class="s-tt" id="dc-h">Data centres</h2></div>
+    <div class="s-sub">Where AI is built, and the rules and objections around it</div>
+  </div>
+  <div id="dcMap"></div>
+  <div id="dcSites" class="gl-grid" role="list"></div>
+  <h3 class="gl-h">Policy approaches</h3>
+  <div id="dcPolicy" class="gl-grid" role="list"></div>
+  <h3 class="gl-h">Ethical issues</h3>
+  <div id="dcIssues" class="gl-grid" role="list"></div>
+  <div id="dcOpp"></div>
+  <div id="dcSrc"></div>
+</section>
+
 </main>
 
 <footer role="contentinfo">
@@ -592,6 +645,9 @@ footer{
   <nav class="f-links" aria-label="Footer links">
     <a href="#regulatory">Monitor</a>
     <a href="#ethics">Dimensions</a>
+    <a href="#instruments">Instruments</a>
+    <a href="#trajectories">Trajectories</a>
+    <a href="#datacentres">Data centres</a>
   </nav>
   <div class="f-meta">Public regulatory sources · Beta: entries are being reviewed · <a href="https://andymiah.net">Prof Andy Miah</a></div>
 </footer>
@@ -895,6 +951,43 @@ const obs=new IntersectionObserver(entries=>{
   });
 },{threshold:.08});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+/* ─── GLOBAL SECTIONS ────────────────────────────── */
+const esc=t=>String(t??'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const grefs=(ids,pre)=>(ids||[]).map(id=>`<span class="gl-ref"><a href="#${pre}-${id}" aria-label="Source ${id}">[${id}]</a></span>`).join('');
+const gconf=c=>c?`<span class="gl-conf">Confidence: ${c}</span>`:'';
+function gsrc(d,pre,label){
+  if(!d?.sources?.length)return '';
+  return `<div class="gl-src" role="region" aria-label="${label}"><div class="sec-label">${label}</div><ol>${d.sources.map(x=>`<li id="${pre}-${x.id}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> — ${esc(x.publisher)}${x.date?', '+esc(x.date):''}<span class="ev-tag ${x.type==='primary'?'ev-p':'ev-s'}">${esc(x.type)}</span> <span class="ev-note">accessed ${esc(x.accessed)}</span></li>`).join('')}</ol></div>`;
+}
+async function getJ(f){try{const r=await fetch('data/global/'+f);return r.ok?await r.json():null;}catch(e){return null;}}
+async function renderGlobal(){
+  const [ins,tr,dc]=await Promise.all([getJ('instruments.json'),getJ('trajectories.json'),getJ('datacentres.json')]);
+  if(ins){
+    document.getElementById('instList').innerHTML=ins.items.map(i=>`<article class="gl-card" role="listitem"><div class="gl-meta">${esc(i.body)} · ${esc(i.kind)}</div><h3>${esc(i.name)}</h3><div class="gl-meta"><span class="gl-badge">${esc(i.binding)}</span>${esc(i.status)}</div><p>${esc(i.summary)}</p><p class="gl-cit">In plain language: ${esc(i.citizen)}</p><div>${grefs(i.source_ids,'isrc')} ${gconf(i.confidence)}</div>${i.note?`<div class="ev-note">${esc(i.note)}</div>`:''}</article>`).join('')
+      +(ins.gaps?.length?`<div class="gl-card"><h4>Not yet covered</h4><p>${ins.gaps.map(esc).join(' ')}</p></div>`:'');
+    document.getElementById('instSrc').innerHTML=gsrc(ins,'isrc','Sources for instruments');
+  }
+  if(tr){
+    document.getElementById('trajList').innerHTML=tr.themes.map(t=>`<div class="gl-theme"><h3 class="gl-h">${esc(t.title)}</h3><p style="font-size:15px;color:var(--text2,#C9CDD4);line-height:1.8">${esc(t.summary)}</p><p class="gl-dir">Direction: ${esc(t.direction)}</p><div class="gl-grid" role="list">${t.items.map(i=>`<article class="gl-card" role="listitem"><div class="gl-meta"><span class="gl-badge">${esc(i.iso)}</span>${esc(i.date)}</div><h4>${esc(i.name)}</h4><div class="gl-meta">${esc(i.status)}</div><p>${esc(i.stance)}</p><p class="gl-cit">Chance of becoming law near term: ${esc(i.likelihood)} (editorial judgement)</p><div>${grefs(i.source_ids,'tsrc')} ${gconf(i.confidence)}</div>${i.note?`<div class="ev-note">${esc(i.note)}</div>`:''}</article>`).join('')}</div></div>`).join('')
+      +`<h3 class="gl-h">What experts say about shutdown</h3><div class="gl-grid">${tr.expert_views.map(v=>`<div class="gl-card"><p>${esc(v.view)}</p><div>${grefs(v.source_ids,'tsrc')}</div></div>`).join('')}</div>`;
+    document.getElementById('trajSrc').innerHTML=gsrc(tr,'tsrc','Sources for trajectories');
+  }
+  if(dc){
+    // schematic US plot: equirectangular, lon -125..-66, lat 24..50
+    const X=lon=>40+(lon+125)/59*820, Y=lat=>20+(50-lat)/26*400;
+    const us=[[-124.7,48.4],[-123,46],[-124.2,42],[-122.4,37.8],[-117.1,32.5],[-111,31.3],[-106.5,31.8],[-104.5,29.6],[-99.5,27.5],[-97.2,25.9],[-94,29.5],[-89.5,29],[-85,29.7],[-82.8,27.8],[-80.2,25.5],[-81,31.5],[-76,35],[-75.5,38.5],[-74,40.5],[-70,41.7],[-70,43.7],[-67,44.8],[-69,47.4],[-75,45],[-79,43.3],[-83,42],[-82.5,45.3],[-87,46.5],[-90,47.8],[-95,49],[-123,49]];
+    const poly=us.map(([lo,la])=>X(lo).toFixed(0)+','+Y(la).toFixed(0)).join(' ');
+    document.getElementById('dcMap').innerHTML=`<svg class="dc-map" viewBox="0 0 900 440" role="img" aria-label="Schematic map of major US AI data centre campuses: ${dc.sites.map(x=>esc(x.name)+', '+esc(x.place)).join('; ')}"><polygon points="${poly}" fill="rgba(196,160,99,.05)" stroke="#3a3f4b" stroke-width="1"/>${dc.sites.map(x=>`<g><circle cx="${X(x.lon)}" cy="${Y(x.lat)}" r="7" fill="#5FD3B0" opacity=".85"/><circle cx="${X(x.lon)}" cy="${Y(x.lat)}" r="3" fill="#06070A"/><text x="${x.id==='abilene'?X(x.lon)-11:X(x.lon)+11}" y="${Y(x.lat)+4}" ${x.id==='abilene'?'text-anchor="end" ':''}font-size="12" fill="#C9CDD4" font-family="JetBrains Mono,monospace">${esc(x.name)}</text></g>`).join('')}<text x="44" y="432" font-size="11" fill="#8B9099" font-family="JetBrains Mono,monospace">Schematic outline. Locations approximate. Contiguous US only.</text></svg>`;
+    document.getElementById('dcSites').innerHTML=dc.sites.map(x=>`<article class="gl-card" role="listitem"><div class="gl-meta">${esc(x.operator)}</div><h4>${esc(x.name)}</h4><div class="gl-meta">${esc(x.place)}</div><p><b>Capacity:</b> ${esc(x.capacity)}<br><b>Status:</b> ${esc(x.status)}</p><p class="gl-cit">${esc(x.ethics)}</p><div>${grefs(x.source_ids,'dsrc')} ${gconf(x.confidence)}</div></article>`).join('');
+    document.getElementById('dcPolicy').innerHTML=dc.policy.map(x=>`<article class="gl-card" role="listitem"><div class="gl-meta"><span class="gl-badge">${esc(x.iso)}</span>${esc(x.approach)}</div><h4>${esc(x.region)}</h4><p>${esc(x.detail)}</p><div>${grefs(x.source_ids,'dsrc')} ${gconf(x.confidence)}</div>${x.note?`<div class="ev-note">${esc(x.note)}</div>`:''}</article>`).join('');
+    document.getElementById('dcIssues').innerHTML=dc.ethical_issues.map(x=>`<article class="gl-card" role="listitem"><h4>${esc(x.issue)}</h4><p>${esc(x.detail)}</p><div>${grefs(x.source_ids,'dsrc')}</div></article>`).join('');
+    document.getElementById('dcOpp').innerHTML=`<div class="gl-card" style="margin-top:20px"><h4>Local opposition</h4><p>${esc(dc.opposition.summary)}</p><div>${grefs(dc.opposition.source_ids,'dsrc')} ${gconf(dc.opposition.confidence)}</div></div><p class="ev-note" style="margin-top:12px">${esc(dc.note)}</p>`;
+    document.getElementById('dcSrc').innerHTML=gsrc(dc,'dsrc','Sources for data centres');
+  }
+  document.querySelectorAll('.reveal:not(.vis)').forEach(el=>obs.observe(el));
+}
+renderGlobal();
 
 /* ─── HELPERS ────────────────────────────────────── */
 function cap(s){return s?s[0].toUpperCase()+s.slice(1):'—';}

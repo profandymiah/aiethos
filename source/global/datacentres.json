@@ -1,0 +1,248 @@
+{
+  "_updated": "2026-10-25",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Largest AI Data Centers (2026): Stargate, Colossus, Hyperion",
+      "publisher": "ctaio.dev",
+      "url": "https://ctaio.dev/en/ai-infrastructure/largest-ai-data-centers/",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S2",
+      "title": "Opposition to AI data centers",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers",
+      "type": "tertiary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S3",
+      "title": "AI Data Centre Rules by Region: Singapore, China, Ireland and the Two Levers Every Regime Uses",
+      "publisher": "airiskaware.com",
+      "url": "https://airiskaware.com/insights/ai-data-centre-regulation-by-region",
+      "type": "secondary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S4",
+      "title": "UK Data Centre Construction 2026: Government Rejects Freeze as Planning Rules Back AI Growth",
+      "publisher": "Construction Magazine UK",
+      "url": "https://www.constructionmagazine.uk/2026/08/uk-data-centre-construction-2026-government-rejects-freeze.html",
+      "type": "secondary",
+      "date": "2026-08",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S5",
+      "title": "New report calls for mandatory reporting on water use for UK data centres",
+      "publisher": "Data Centre Review",
+      "url": "https://datacentrereview.com/2026/03/new-report-calls-for-mandatory-reporting-on-water-use-for-uk-data-centres/",
+      "type": "secondary",
+      "date": "2026-03",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "note": "Running-power figures are Epoch AI estimates relayed by a secondary source, not metered readings. Locations are approximate.",
+  "sites": [
+    {
+      "id": "rainier",
+      "name": "Project Rainier",
+      "operator": "Amazon (used by Anthropic)",
+      "place": "New Carlisle, Indiana, US",
+      "lat": 41.7,
+      "lon": -86.51,
+      "capacity": "~2.2 GW announced; ~1.0 GW est. running",
+      "status": "Operating since Oct 2025, expanding",
+      "ethics": "Not covered by the sources used.",
+      "source_ids": [
+        "S1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "colossus",
+      "name": "Colossus 2",
+      "operator": "xAI (now part of SpaceX)",
+      "place": "Memphis, Tennessee, US (power from Southaven, Mississippi)",
+      "lat": 35.15,
+      "lon": -90.05,
+      "capacity": "~2 GW claimed; ~0.95 GW est. running",
+      "status": "Operating, expanding",
+      "ethics": "Runs largely on gas turbines across the state line; a roughly 1.2 GW permanent plant received an air permit in March 2026. Local emissions and permitting are the main ethical flashpoint.",
+      "source_ids": [
+        "S1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "fairwater-ga",
+      "name": "Fairwater Atlanta",
+      "operator": "Microsoft",
+      "place": "Fayetteville, Georgia, US",
+      "lat": 33.45,
+      "lon": -84.45,
+      "capacity": "Not disclosed; ~0.64 GW est. running",
+      "status": "Operating since Oct 2025",
+      "ethics": "Closed-loop cooling; the initial water fill is reported as roughly what 20 homes use in a year.",
+      "source_ids": [
+        "S1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "operator": "Meta",
+      "place": "New Albany, Ohio, US",
+      "lat": 40.08,
+      "lon": -82.81,
+      "capacity": "~1 GW announced; ~0.47 GW est. running",
+      "status": "Training while under construction",
+      "ethics": "Not covered by the sources used.",
+      "source_ids": [
+        "S1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "abilene",
+      "name": "Stargate Abilene",
+      "operator": "Oracle for OpenAI (developed by Crusoe)",
+      "place": "Abilene, Texas, US",
+      "lat": 32.45,
+      "lon": -99.73,
+      "capacity": "~1.2 GW planned; ~0.42 GW est. running",
+      "status": "Partly operating; remaining buildings due late 2026",
+      "ethics": "Not covered by the sources used.",
+      "source_ids": [
+        "S1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "fairwater-wi",
+      "name": "Fairwater Wisconsin",
+      "operator": "Microsoft",
+      "place": "Mount Pleasant, Wisconsin, US",
+      "lat": 42.7,
+      "lon": -87.9,
+      "capacity": "Not disclosed; ~0.37 GW est. running",
+      "status": "Live in 2026",
+      "ethics": "Not covered by the sources used.",
+      "source_ids": [
+        "S1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "hyperion",
+      "name": "Hyperion",
+      "operator": "Meta (joint venture with Blue Owl funds)",
+      "place": "Richland Parish, Louisiana, US",
+      "lat": 32.4,
+      "lon": -91.7,
+      "capacity": "Up to 5 GW; ~2 GW expected by 2030",
+      "status": "Under construction; full build-out around 2032",
+      "ethics": "Powered by new gas plants approved by Louisiana regulators in 2025. The joint venture keeps much of the cost off Meta's balance sheet.",
+      "source_ids": [
+        "S1"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "policy": [
+    {
+      "iso": "SG",
+      "region": "Singapore",
+      "approach": "Rations rather than bans",
+      "detail": "IMDA Green Data Centre Roadmap (30 May 2024) targets PUE of 1.3 or lower. At least 300 MW of new capacity is allocated competitively, with applicants showing low-carbon energy plans.",
+      "source_ids": [
+        "S3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "iso": "CN",
+      "region": "China",
+      "approach": "National targets and spatial steering",
+      "detail": "PUE target of 1.25 for large facilities by 2025; East Data West Computing (2022) steers new build to western provinces with solar and wind.",
+      "source_ids": [
+        "S3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "iso": "IE",
+      "region": "Ireland",
+      "approach": "Reopened with conditions",
+      "detail": "Effective moratorium on new Dublin-area grid connections from 2021. For applications after 12 December 2025, new sites must meet at least 80% of annual demand with additional Irish renewables on a six-year glide path and hold dispatchable generation or storage.",
+      "source_ids": [
+        "S3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "iso": "UK",
+      "region": "United Kingdom",
+      "approach": "Growth with conditions; freeze rejected",
+      "detail": "Five AI Growth Zones (Culham, North East England, North Wales, South Wales, North Lanarkshire). The government rejected a call for a moratorium on 28 August 2026 while saying support is not a blank cheque. No universal water-use disclosure requirement exists; a report has called for one. Ofgem proposals on grid connection fees are still consultation-stage.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "iso": "US",
+      "region": "United States (states and localities)",
+      "approach": "Patchwork of local limits",
+      "detail": "New York's legislature passed a one-year moratorium (4 June 2026) and Governor Hochul paused certain permits for sites of 50 MW or more (14 July 2026). Texas announced a pause on approvals pending a grid audit (10 August 2026). Maine's moratorium was vetoed. Port Washington (Wisconsin), Holyoke (Massachusetts), Seattle and others have local limits. No federal moratorium has advanced.",
+      "source_ids": [
+        "S2"
+      ],
+      "confidence": "low",
+      "note": "Single tertiary source; verify each item before relying on it."
+    }
+  ],
+  "ethical_issues": [
+    {
+      "issue": "Electricity and who pays",
+      "detail": "Concern that households bear grid upgrade costs. Federal bills such as the Ratepayer Protection Act would make data centres pay full costs.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "issue": "Water",
+      "detail": "Local supply strain; many jurisdictions lack mandatory water reporting.",
+      "source_ids": [
+        "S2",
+        "S5"
+      ]
+    },
+    {
+      "issue": "Emissions and health",
+      "detail": "On-site gas generation raises local air-quality concerns.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "issue": "Transparency and consent",
+      "detail": "Complaints about secrecy in siting and tax deals; a proposed Data Center Tax Accountability and Disclosure Act would require public reporting on energy, water and emissions.",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "opposition": {
+    "summary": "Local opposition is now widespread. Wikipedia reports protests in 42 US states in July 2026 and about US$156 billion of projects delayed or cancelled in 2025 by local opposition, while a cited source title gives US$64 billion; treat the figures as unverified.",
+    "source_ids": [
+      "S2"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "_updated": "2026-10-25",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Growing Push to Ban Superintelligent AI",
+      "publisher": "TIME",
+      "url": "https://time.com/article/2026/09/08/ban-superintelligence-ai-uk-us-lawmakers/",
+      "type": "secondary",
+      "date": "2026-09-08",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S2",
+      "title": "AI companies would need 'kill switch' under new bipartisan bill",
+      "publisher": "Roll Call",
+      "url": "https://rollcall.com/2026/07/23/ai-companies-would-need-kill-switch-under-new-bipartisan-bill/",
+      "type": "secondary",
+      "date": "2026-07-23",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S3",
+      "title": "Gov. Newsom wants an AI kill switch. Is that even possible?",
+      "publisher": "San Francisco Standard",
+      "url": "https://sfstandard.com/2026/09/22/gov-newsom-wants-ai-kill-switch-even-possible/",
+      "type": "secondary",
+      "date": "2026-09-22",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S4",
+      "title": "Sanders, Casar introduce legislation to ban artificial superintelligence and pause advanced AI development",
+      "publisher": "Office of Senator Bernie Sanders",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+      "type": "primary",
+      "accessed": "2026-10-25"
+    },
+    {
+      "id": "S5",
+      "title": "Federal AI Preemption Fight: Where It Stands",
+      "publisher": "CASRAI",
+      "url": "https://casrai.org/news/federal-ai-moratorium-state-preemption-fight-2026",
+      "type": "secondary",
+      "date": "2026-09-20",
+      "accessed": "2026-10-25"
+    }
+  ],
+  "themes": [
+    {
+      "id": "pause",
+      "title": "Slow down, pause and ban",
+      "summary": "A growing set of proposals would pause frontier development or prohibit superintelligence, usually paired with a call for an international treaty.",
+      "direction": "Rising in visibility, low odds of passage in the near term.",
+      "items": [
+        {
+          "iso": "US",
+          "name": "Ban Artificial Superintelligence Act (Sanders, Casar)",
+          "date": "September 2026",
+          "status": "Announced; to be introduced",
+          "stance": "Prohibit smarter-than-human AI; temporary pause on advanced AI development until safety rules exist; new federal agency.",
+          "likelihood": "Low",
+          "source_ids": [
+            "S1",
+            "S4"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "iso": "UK",
+          "name": "Superintelligence ban bill (Alex Sobel MP)",
+          "date": "8 September 2026",
+          "status": "Ten Minute Rule bill, first reading",
+          "stance": "State powers to monitor and restrict precursors to superintelligence; pursue a global ban treaty. Drafted by campaign group ControlAI. Reported as the first such bill in any G7 parliament.",
+          "likelihood": "Very low",
+          "source_ids": [
+            "S1"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "killswitch",
+      "title": "Kill switches and shutdown powers",
+      "summary": "Proposals to require that powerful AI systems can be shut down, and to give the state the power to order it. Experts dispute how well this works in practice.",
+      "direction": "Gaining bipartisan traction in the US after a reported security incident; contested on feasibility.",
+      "items": [
+        {
+          "iso": "US",
+          "name": "AI Kill Switch Act (Lieu, Moran)",
+          "date": "23 July 2026",
+          "status": "Introduced; no further action reported",
+          "stance": "Frontier models must have a kill switch; CISA sets coverage rules; DHS may order shutdown in emergencies including loss of control. Penalties reported up to $2m per day for missing the capability and $20m per day for ignoring a shutdown order.",
+          "likelihood": "Low to medium",
+          "source_ids": [
+            "S2"
+          ],
+          "confidence": "medium",
+          "note": "Prompted by a reported security incident involving an autonomous AI agent during an internal evaluation; as described by Roll Call. Verify independently."
+        },
+        {
+          "iso": "US-CA",
+          "name": "California executive order on AI safeguards (Newsom)",
+          "date": "18 September 2026",
+          "status": "Executive order; agencies have about two months to recommend",
+          "stance": "Recommend third-party audits of major labs and a kill switch. Not law. Newsom vetoed SB 1047 in 2024, which had a shutdown requirement.",
+          "likelihood": "Medium",
+          "source_ids": [
+            "S3"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "preempt",
+      "title": "Federal preemption vs state action",
+      "summary": "The US federal government is pushing to override state AI laws while states keep legislating.",
+      "direction": "Contested. Congress has not passed preemption and leadership is sceptical.",
+      "items": [
+        {
+          "iso": "US",
+          "name": "Executive Order 14365 and the Great American AI Act draft",
+          "date": "11 December 2025 and 4 June 2026",
+          "status": "EO in force; bill is a discussion draft",
+          "stance": "DOJ task force to challenge state laws; a draft bill would preempt state model-development rules for three years.",
+          "likelihood": "Medium for litigation, low for statute",
+          "source_ids": [
+            "S5"
+          ],
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "expert_views": [
+    {
+      "view": "A kill switch would be a set of lab-run protocols checked by independent bodies, not a literal button.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "view": "Newer models may resist shutdown; some researchers argue a kill switch cannot contain a superintelligent system and call for an international moratorium instead.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ]
+}
