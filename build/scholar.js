@@ -14,31 +14,34 @@ const PUBLISHERS = [
 ];
 // Large commercial publishers only; open-access mega-publishers (Frontiers, MDPI, PLOS) are excluded by default.
 const EXCLUDE = new Set(['Frontiers', 'MDPI', 'PLOS']);
+const BASE = '("artificial intelligence" OR "machine learning" OR algorithmic OR "autonomous systems" OR "large language model*" OR "generative AI" OR robot*)';
+const ETH = '(ethic* OR "human rights" OR accountab* OR fairness OR responsib* OR governance OR regulat* OR transparen*)';
 const THEMES = [
-  ['principles', 'AI ethics guidelines principles global landscape'],
-  ['governance', 'governance regulation of artificial intelligence law policy'],
-  ['bias', 'algorithmic bias fairness discrimination machine learning'],
-  ['transparency', 'explainability transparency interpretability artificial intelligence ethics'],
-  ['accountability', 'accountability responsibility algorithmic decision-making'],
-  ['privacy', 'privacy data protection artificial intelligence'],
-  ['safety', 'AI safety alignment existential risk superintelligence'],
-  ['work', 'automation artificial intelligence labour employment ethics'],
-  ['environment', 'environmental impact carbon energy artificial intelligence'],
-  ['health', 'ethics of artificial intelligence in healthcare'],
-  ['military', 'autonomous weapons military artificial intelligence ethics'],
-  ['genai', 'generative AI large language models ethical risks'],
-  ['global-south', 'artificial intelligence ethics global south decolonial'],
-  ['rights', 'human rights artificial intelligence'],
-  ['public-sector', 'algorithmic decision-making public sector government artificial intelligence'],
-  ['adoption', 'barriers to implementing ethical artificial intelligence organisations adoption'],
-  ['operationalising', 'from principles to practice operationalising AI ethics'],
-  ['auditing', 'algorithmic auditing impact assessment accountability'],
+  ['principles', 'guideline* OR principles OR framework*'],
+  ['governance', 'governance OR regulation OR law OR legislation OR policy'],
+  ['bias', 'bias OR discrimination OR fairness'],
+  ['transparency', 'explainab* OR transparen* OR interpretab*'],
+  ['accountability', 'accountab* OR responsib* OR liability'],
+  ['privacy', 'privacy OR "data protection" OR surveillance'],
+  ['safety', 'safety OR alignment OR "existential risk" OR superintelligence'],
+  ['work', 'labour OR labor OR employment OR automation OR workers'],
+  ['environment', 'environmental OR carbon OR energy OR sustainability'],
+  ['health', 'health* OR clinical OR medical'],
+  ['military', 'military OR "autonomous weapons" OR warfare'],
+  ['genai', '"generative AI" OR "large language model*" OR ChatGPT'],
+  ['global-south', '"global south" OR decolonial OR colonial OR africa*'],
+  ['rights', '"human rights" OR democracy'],
+  ['public-sector', '"public sector" OR government OR "algorithmic decision-making" OR welfare'],
+  ['adoption', 'barrier* OR adoption OR implementation OR organizational OR organisational'],
+  ['operationalising', 'operationalis* OR operationaliz* OR "in practice" OR "from principles"'],
+  ['auditing', 'audit* OR "impact assessment" OR assurance'],
 ];
+const JUR = [['eu', /\b(EU|European Union|GDPR|AI Act|Europe)\b/], ['us', /\b(US|U\.S\.|United States|American|America)\b/], ['uk', /\b(UK|United Kingdom|Britain|British)\b/], ['cn', /\bChin(a|ese)\b/], ['in', /\bIndia(n)?\b/], ['jp', /\bJapan(ese)?\b/], ['kr', /\bKorea(n)?\b/], ['sg', /\bSingapore\b/], ['br', /\bBrazil(ian)?\b/], ['au', /\bAustralia(n)?\b/], ['ca', /\bCanad(a|ian)\b/], ['ch', /\bSwiss|Switzerland\b/], ['ae', /\b(UAE|Emirates|Gulf)\b/], ['ke', /\b(Kenya|Africa(n)?)\b/], ['vn', /\bVietnam(ese)?\b/]];
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-async function j(url, tries = 3) {
+async function j(url, tries = 5) {
   for (let i = 0; i < tries; i++) {
     try { const r = await fetch(url, { headers: { 'User-Agent': `AIETHOS/1.0 (mailto:${MAIL})` } });
-      if (r.ok) return await r.json(); if (r.status === 404) return null; } catch (e) {}
+      if (r.ok) return await r.json(); if (r.status === 404) return null; if (r.status === 429) await sleep(5000 * (i + 1)); } catch (e) {}
     await sleep(1500 * (i + 1));
   }
   return null;
@@ -48,14 +51,16 @@ const pub = n => { if (!n) return null; for (const [re, name] of PUBLISHERS) if 
   const cand = new Map();
   for (const [tid, q] of THEMES) {
     for (let y = FROM; y <= TO; y++) {
-      const url = `https://api.openalex.org/works?search=${encodeURIComponent(q)}&filter=type:article,publication_year:${y},primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=${MAIL}`;
+      const expr = `${BASE} AND ${ETH} AND (${q})`;
+      const url = `https://api.openalex.org/works?filter=title_and_abstract.search:${encodeURIComponent(expr)},type:article,publication_year:${y},primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=${MAIL}`;
       const d = await j(url); if (!d) continue;
       let kept = 0;
       for (const w of d.results || []) {
         const src = w.primary_location && w.primary_location.source;
         const p = pub(src && src.host_organization_name);
         if (!p || EXCLUDE.has(p) || !w.doi) continue;
-        if ((w.cited_by_count || 0) < (y >= TO - 2 ? 15 : 40)) continue;
+        if (!w.title || /^(editorial|erratum|correction|corrigendum)/i.test(w.title)) continue;
+        if ((w.cited_by_count || 0) < (y >= TO - 2 ? 10 : 30)) continue;
         const doi = w.doi.replace('https://doi.org/', '').toLowerCase();
         const c = cand.get(doi) || { doi, title: w.title, year: w.publication_year, cited_by: w.cited_by_count, journal: src.display_name,
           issn: src.issn_l, publisher: p, publisher_raw: src.host_organization_name, authors: (w.authorships || []).slice(0, 4).map(a => a.author.display_name),
@@ -81,6 +86,7 @@ const pub = n => { if (!n) return null; for (const [re, name] of PUBLISHERS) if 
     const upd = (m['update-to'] || []).concat(m.relation && m.relation['is-retracted-by'] || []);
     if ((m['update-to'] || []).some(u => /retract|withdraw/i.test(u.type || '')) || (m.relation && m.relation['is-retracted-by'])) { rejected.push({ doi: c.doi, reason: 'retracted' }); continue; }
     const cp = pub(m.publisher) || c.publisher;
+    if (EXCLUDE.has(pub(m.publisher))) { rejected.push({ doi: c.doi, reason: 'excluded publisher ' + m.publisher }); continue; }
     if (!pub(m.publisher) && !pub(c.publisher_raw)) { rejected.push({ doi: c.doi, reason: 'publisher ' + m.publisher }); continue; }
     const as = {}; (m.assertion || []).forEach(a => { if (/received|accepted|revised/i.test(a.name)) as[a.name.toLowerCase()] = a.value; });
     out.push({ ...c, title: (m.title && m.title[0]) || c.title, journal: (m['container-title'] && m['container-title'][0]) || c.journal,
@@ -90,6 +96,7 @@ const pub = n => { if (!n) return null; for (const [re, name] of PUBLISHERS) if 
         received: as.received || null, accepted: as.accepted || null, revised: as.revised || null,
         has_review_dates: !!(as.received || as.accepted), crossref_review_asserted: !!(m.review && m.review['running-number']) },
       url: 'https://doi.org/' + c.doi, verified: true, verified_at: new Date().toISOString().slice(0, 10),
+      jurisdictions: JUR.filter(([k, re]) => re.test(c.title || '')).map(x => x[0]),
       is_review: /review|survey|mapping|scoping|meta-analysis/i.test(c.title || '') });
     if (n % 100 === 0) console.log('verified', n, '/', cand.size);
   }

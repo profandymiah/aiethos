@@ -1,5 +1,7 @@
 name: Scholarly sweep
 on:
+  push:
+    paths: ['build/scholar.js']
   workflow_dispatch:
   schedule:
     - cron: '41 5 1 * *'
