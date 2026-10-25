@@ -1,0 +1,23 @@
+name: Scholarly sweep
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5 1 * *'
+permissions:
+  contents: write
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node build/scholar.js
+      - name: Commit
+        run: |
+          git config user.name "aiethos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add library/scholarly.json
+          git diff --cached --quiet || git commit -m "Scholarly sweep $(date -u +%F)"
+          git pull --rebase -X theirs origin main
+          git push

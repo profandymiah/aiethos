@@ -35,6 +35,10 @@ jobs:
           git add library data
           git rm -rq --cached node_modules 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Library update $(date -u +%F)"
+          git pull --rebase -X theirs origin main
+          node build/extract.js
+          git add data
+          git diff --cached --quiet || git commit -m "Rebuild data"
           git push
       - name: Open an issue when something changed
         if: always()
