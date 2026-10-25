@@ -38,8 +38,9 @@ const THEMES = [
 ];
 const JUR = [['eu', /\b(EU|European Union|GDPR|AI Act|Europe)\b/], ['us', /\b(US|U\.S\.|United States|American|America)\b/], ['uk', /\b(UK|United Kingdom|Britain|British)\b/], ['cn', /\bChin(a|ese)\b/], ['in', /\bIndia(n)?\b/], ['jp', /\bJapan(ese)?\b/], ['kr', /\bKorea(n)?\b/], ['sg', /\bSingapore\b/], ['br', /\bBrazil(ian)?\b/], ['au', /\bAustralia(n)?\b/], ['ca', /\bCanad(a|ian)\b/], ['ch', /\bSwiss|Switzerland\b/], ['ae', /\b(UAE|Emirates|Gulf)\b/], ['ke', /\b(Kenya|Africa(n)?)\b/], ['vn', /\bVietnam(ese)?\b/]];
 const DIAG = { requests: 0, failures: [] };
-const AIRE = /artificial intelligence|machine learning|algorithm|\bAI\b|autonomous|robot|language model|generative|deep learning|chatbot|ChatGPT|automated decision/i;
-const ETHRE = /ethic|moral|fair|bias|discriminat|accountab|responsib|transparen|explainab|governance|regulat|rights|trust|privacy|safety|risk|law|polic|principle/i;
+const AIRE = /artificial intelligence|machine learning|deep learning|\bAI\b|algorithmic|large language model|generative|chatgpt|autonomous (weapon|system|vehicle|agent)|robot|automated decision|decision-making system/i;
+const ETHRE = /ethic|moral|fairness|\bfair\b|bias|discriminat|accountab|responsib|transparen|explainab|governance|regulation|legal|\blaw\b|rights|privacy|safety|trustworth|policy|oversight|harm/i;
+const clean = t => (t || '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function j(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
@@ -57,19 +58,19 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
     const terms = q.replace(/[()"*]|\bOR\b|\bAND\b/g, ' ').replace(/\s+/g, ' ').trim();
     for (let y = FROM; y <= TO; y++) {
       if (Date.now() - T0 > BUDGET) break;
-      const url = `https://api.crossref.org/works?query.bibliographic=${encodeURIComponent('artificial intelligence ethics ' + terms)}&filter=type:journal-article,from-pub-date:${y}-01-01,until-pub-date:${y}-12-31,has-abstract:true&sort=is-referenced-by-count&order=desc&rows=60&select=DOI,title,publisher,container-title,ISSN,issued,is-referenced-by-count,author,type&mailto=${MAIL}`;
+      const url = `https://api.crossref.org/works?query.bibliographic=${encodeURIComponent('artificial intelligence ethics ' + terms)}&filter=type:journal-article,from-pub-date:${y}-01-01,until-pub-date:${y}-12-31&sort=is-referenced-by-count&order=desc&rows=120&select=DOI,title,publisher,container-title,ISSN,issued,is-referenced-by-count,author,type&mailto=${MAIL}`;
       const d = await j(url); if (!d) continue;
       let kept = 0;
       for (const m of (d.message && d.message.items) || []) {
-        const title = (m.title && m.title[0]) || '';
+        const title = clean(m.title && m.title[0]);
         if (!title || !AIRE.test(title) || !ETHRE.test(title)) continue;
         if (/^(editorial|erratum|correction|corrigendum|retraction)/i.test(title)) continue;
         const p = pub(m.publisher);
         if (!p || EXCLUDE.has(p)) continue;
         const cites = m['is-referenced-by-count'] || 0;
-        if (cites < (y >= TO - 2 ? 8 : 25)) continue;
+        if (cites < (y >= TO - 2 ? 6 : 12)) continue;
         const doi = m.DOI.toLowerCase();
-        const c = cand.get(doi) || { doi, title, year: y, cited_by: cites, journal: (m['container-title'] && m['container-title'][0]) || '',
+        const c = cand.get(doi) || { doi, title, year: y, cited_by: cites, journal: clean(m['container-title'] && m['container-title'][0]),
           issn: (m.ISSN || [])[0], publisher: p, publisher_raw: m.publisher, authors: (m.author || []).slice(0, 4).map(a => [a.given, a.family].filter(Boolean).join(' ')),
           theme_ids: [], oa: false, openalex: null, in_doaj: false };
         if (!c.theme_ids.includes(tid)) c.theme_ids.push(tid);
@@ -97,7 +98,7 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
     if (EXCLUDE.has(pub(m.publisher))) { rejected.push({ doi: c.doi, reason: 'excluded publisher ' + m.publisher }); continue; }
     if (!pub(m.publisher) && !pub(c.publisher_raw)) { rejected.push({ doi: c.doi, reason: 'publisher ' + m.publisher }); continue; }
     const as = {}; (m.assertion || []).forEach(a => { if (/received|accepted|revised/i.test(a.name)) as[a.name.toLowerCase()] = a.value; });
-    out.push({ ...c, title: (m.title && m.title[0]) || c.title, journal: (m['container-title'] && m['container-title'][0]) || c.journal,
+    out.push({ ...c, title: clean(m.title && m.title[0]) || c.title, journal: clean(m['container-title'] && m['container-title'][0]) || c.journal,
       publisher: cp, publisher_crossref: m.publisher, crossref_type: m.type, crossref_cited_by: m['is-referenced-by-count'],
       issn: m.ISSN || c.issn, volume: m.volume, issue: m.issue, pages: m.page,
       peer_review: { basis: 'Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.',
