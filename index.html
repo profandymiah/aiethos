@@ -791,6 +791,7 @@ function renderReg(){
       aria-expanded="false" aria-controls="regDet"
       aria-label="${r.name}: ${r.status} framework, ethics score ${r.composite_score??'not yet scored'}. Click to expand.">
       <div class="rc-code">${r.iso_code} · ${r.year_enacted||r.year_effective||'—'}</div>
+      <div class="rc-code" style="color:var(--gold)">Captured ${(r.last_updated||'').slice(0,4)||'—'}</div>
       <div class="rc-name">${r.flag||''} ${r.name}</div>
       <div class="rc-law">${r.primary_law}</div>
       <div class="rc-status">
@@ -837,7 +838,7 @@ async function selectReg(i){
       <div>
         <div class="det-code">${r.iso_code} · ${fw.year_enacted||'—'}</div>
         <h3 class="det-name">${r.flag||''} ${r.name}</h3>
-        <div class="det-law">${r.primary_law}</div>${(full?.evidence?.sources||[]).length&&!(full.evidence.sources||[]).some(x=>x.type==='primary')?'<span class="prov" role="note">Provisional: not yet checked against primary documents</span>':''}
+        <div class="det-law">${r.primary_law}</div><div class="det-code" style="color:var(--gold);font-size:14px;margin:6px 0">Captured ${(r.last_updated||'—')} · <a href="country/${r.id}/" style="color:var(--gl)">Open the ${r.name} page, with community notes →</a></div>${(full?.evidence?.sources||[]).length&&!(full.evidence.sources||[]).some(x=>x.type==='primary')?'<span class="prov" role="note">Provisional: not yet checked against primary documents</span>':''}
       </div>
       <div style="text-align:right;flex-shrink:0">
         <div class="det-score-n" aria-label="Ethics score: ${r.composite_score??'not yet scored'}">${r.composite_score??'—'}</div>

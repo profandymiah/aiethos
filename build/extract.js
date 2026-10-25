@@ -558,3 +558,4 @@ if (WATCH) {
 } else {
   build();
 }
+require('./pages.js');
