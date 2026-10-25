@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research map · AI ethics scholarship 2011 to 2026 · AIETHOS</title>
+<meta name="description" content="A map of fifteen years of peer-reviewed research on the ethics of artificial intelligence: how the field moved, what blocks adoption, and which questions are still open.">
+<link rel="canonical" href="https://aiethos.andymiah.net/scholarly.html">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/country.css">
+<style>
+.hm{display:grid;gap:2px;font-family:'JetBrains Mono',monospace;font-size:11px;overflow-x:auto}
+.hm .r{display:grid;grid-template-columns:150px repeat(16,minmax(30px,1fr));gap:2px;align-items:center}
+.hm .c{height:26px;display:flex;align-items:center;justify-content:center;color:#06070A;border-radius:1px}
+.hm .l{color:var(--text2);padding-right:6px}.hm .y{color:var(--muted);text-align:center}
+.era{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin:18px 0}
+.era h3{margin:0;font-weight:600;font-size:22px}.era .yr{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--gold)}
+.dois a{font-family:'JetBrains Mono',monospace;font-size:11px;margin-right:8px}
+.flt{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}.flt select,.flt input{background:var(--bg2);color:var(--text);border:1px solid var(--bm);padding:8px;font:inherit;font-size:15px}
+</style></head><body><main class="cp" id="cp"><p class="cp-note">Loading…</p></main>
+<script>
+(async()=>{
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const get=async u=>{try{const r=await fetch(u);return r.ok?r.json():null}catch(e){return null}};
+const [D,S]=await Promise.all([get('data/scholarly.json'),get('data/global/scholarly-synthesis.json')]);
+const root=document.getElementById('cp');
+if(!D){root.innerHTML='<p class="cp-msg err">The research data has not been generated yet.</p>';return;}
+const P=D.papers,byDoi=Object.fromEntries(P.map(p=>[p.doi,p]));
+const TL={principles:'Principles and guidelines',governance:'Governance and law',bias:'Bias and fairness',transparency:'Transparency and explainability',accountability:'Accountability',privacy:'Privacy and surveillance',safety:'Safety and alignment',work:'Work and automation',environment:'Environment and energy',health:'Health and medicine',military:'Military and weapons',genai:'Generative AI','global-south':'Global South and decolonial',rights:'Human rights and democracy','public-sector':'Public sector decisions',adoption:'Barriers to adoption',operationalising:'Principles into practice',auditing:'Auditing and assessment'};
+const years=[];for(let y=D.window[0];y<=D.window[1];y++)years.push(y);
+const cnt={};P.forEach(p=>p.theme_ids.forEach(t=>{(cnt[t]=cnt[t]||{})[p.year]=(cnt[t][p.year]||0)+1}));
+const mx=Math.max(1,...Object.values(cnt).flatMap(o=>Object.values(o)));
+const heat=Object.keys(TL).filter(t=>cnt[t]).map(t=>`<div class="r" role="row"><div class="l">${esc(TL[t])}</div>${years.map(y=>{const n=(cnt[t]||{})[y]||0;const a=n?0.18+0.82*n/mx:0;return `<div class="c" role="cell" style="background:${n?`rgba(196,160,99,${a})`:'var(--faint)'}" title="${esc(TL[t])}, ${y}: ${n} paper${n===1?'':'s'}">${n||''}</div>`}).join('')}</div>`).join('');
+const doiLinks=(ds)=>(ds||[]).map(d=>byDoi[d]?`<a href="${esc(byDoi[d].url)}" target="_blank" rel="noopener" title="${esc(byDoi[d].title)}">${esc(byDoi[d].authors[0]||'')} ${byDoi[d].year}</a>`:'').join('');
+let h=`<div class="cp-top"><a href="index.html">← AIETHOS</a><span>Research map</span></div><h1>Fifteen years of AI ethics research</h1>
+<p style="font-size:22px;color:var(--text)">${S?esc(S.headline):'A map of how peer-reviewed scholarship on the ethics of AI has moved since '+D.window[0]+'.'}</p>
+<div class="cp-cap"><b>${P.length} verified papers</b><span>${D.window[0]} to ${D.window[1]}</span><span>${D.publishers.length} publishers</span><span>Sweep run ${esc((D.generated||'').slice(0,10))}</span></div>
+<details class="cp-card"><summary><b>How the papers were chosen and verified</b></summary><p>Candidates come from OpenAlex, searching titles and abstracts for an AI term together with an ethics or governance term, taking the most-cited papers per theme per year. Google Scholar offers no API and blocks automated access, so it was not used. Each paper was then checked against Crossref: it must be registered as a journal article, published by one of the major publishers (${esc(D.publishers.join(', '))}), and not retracted. Open-access mega-publishers were excluded.</p><p>Peer review: a journal article from these publishers has passed the journal's editorial review, but no database confirms review of each paper. Where the publisher deposits received and accepted dates (${P.filter(p=>p.peer_review.has_review_dates).length} papers here), they are shown as direct evidence of a review cycle. Citation counts favour older work, so recent years are thinner and use a lower threshold. This is a map of influential work, not a complete literature review.</p></details>
+<h2>The shape of the field</h2><p class="cp-note">Count of highly cited verified papers by theme and year. Darker means more.</p><div class="hm" role="table" aria-label="Papers by theme and year"><div class="r" role="row"><div></div>${years.map(y=>`<div class="y" role="columnheader">${String(y).slice(2)}</div>`).join('')}</div>${heat}</div>`;
+if(S){
+ h+='<h2>How the research moved</h2>'+S.eras.map(e=>`<div class="era"><div class="yr">${esc(e.years)}</div><h3>${esc(e.title)}</h3><p>${esc(e.text)}</p><div class="dois">${doiLinks(e.dois)}</div></div>`).join('');
+ h+='<h2>Barriers to adoption</h2>'+S.barriers.map(b=>`<div class="cp-card"><h3>${esc(b.title)}</h3><p>${esc(b.text)}</p><div class="dois">${doiLinks(b.dois)}</div></div>`).join('');
+ h+='<h2>Questions that are still open</h2>'+S.open_questions.map(b=>`<div class="cp-card"><h3>${esc(b.title)}</h3><p>${esc(b.text)}</p><div class="dois">${doiLinks(b.dois)}</div></div>`).join('');
+ h+=`<p class="cp-note">${esc(S.caveat||'')}</p>`;
+}
+h+=`<h2>Browse the verified papers</h2><div class="flt"><label class="sr" for="q">Search</label><input id="q" type="search" placeholder="Search title, journal, author"><label class="sr" for="t">Theme</label><select id="t"><option value="">All themes</option>${Object.entries(TL).filter(([k])=>cnt[k]).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join('')}</select><label class="sr" for="y">Year</label><select id="y"><option value="">All years</option>${years.slice().reverse().map(y=>`<option>${y}</option>`).join('')}</select><label class="sr" for="j">Jurisdiction</label><select id="j"><option value="">Any jurisdiction</option>${[...new Set(P.flatMap(p=>p.jurisdictions||[]))].sort().map(k=>`<option value="${k}">${k.toUpperCase()}</option>`).join('')}</select></div><p class="cp-note" id="n"></p><div id="pl"></div>`;
+root.innerHTML=h;
+const draw=()=>{const q=document.getElementById('q').value.toLowerCase(),t=document.getElementById('t').value,y=document.getElementById('y').value,j=document.getElementById('j').value;
+ const r=P.filter(p=>(!t||p.theme_ids.includes(t))&&(!y||p.year==y)&&(!j||(p.jurisdictions||[]).includes(j))&&(!q||(p.title+p.journal+p.authors.join(' ')).toLowerCase().includes(q))).sort((a,b)=>b.cited_by-a.cited_by);
+ document.getElementById('n').textContent=`${r.length} papers`;
+ document.getElementById('pl').innerHTML=r.slice(0,60).map(p=>`<article class="cp-card"><h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h3><p class="cp-note">${esc(p.authors.join(', '))}${p.authors.length>=4?' et al.':''} · ${p.year} · <i>${esc(p.journal)}</i> · ${esc(p.publisher)} · cited ${p.cited_by}×</p><p class="cp-note">DOI ${esc(p.doi)} · Crossref verified ${esc(p.verified_at)}${p.peer_review.has_review_dates?` · received ${esc(p.peer_review.received||'n/a')}, accepted ${esc(p.peer_review.accepted||'n/a')}`:' · review dates not deposited'}${(p.jurisdictions||[]).length?' · '+p.jurisdictions.map(k=>k.toUpperCase()).join(', '):''}</p></article>`).join('')+(r.length>60?'<p class="cp-note">Showing the 60 most cited. Narrow the filters to see more.</p>':'');};
+['q','t','y','j'].forEach(i=>document.getElementById(i).addEventListener('input',draw));draw();
+})();
+</script></body></html>

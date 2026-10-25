@@ -558,4 +558,5 @@ if (WATCH) {
 } else {
   build();
 }
+try{const sp='library/scholarly.json';if(fs.existsSync(path.join(__dirname,'..',sp))){const d=JSON.parse(fs.readFileSync(path.join(__dirname,'..',sp),'utf8'));delete d.rejected;fs.writeFileSync(path.join(__dirname,'..','data/scholarly.json'),JSON.stringify(d));}}catch(e){console.error('scholarly copy failed',e.message)}
 require('./pages.js');
