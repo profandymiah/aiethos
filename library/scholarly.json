@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T17:08:54.038Z",
+ "generated": "2026-10-25T17:30:52.470Z",
  "source": "OpenAlex candidate search (Google Scholar has no API and blocks automated access), verified against Crossref",
  "window": [
   2011,
@@ -96,6 +96,36 @@
   "AMA",
   "BMJ"
  ],
+ "diagnostics": {
+  "requests": 138,
+  "failures": [
+   {
+    "status": 429,
+    "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(%22artificial%20intelligence%22%20OR%20%22machine%20learning%22%20OR%20algorithmic%20OR%20%22autonomous%20systems%22%20OR%20%22large%20language%20model%22%20OR%20%22generative%20AI%22%20OR%20robot)%20AND%20(ethic%20OR%20%22human%20rights%22%20OR%20accountab%20OR%20fairness%20OR%20responsib%20OR%20governance%20OR%20regulat%20OR%20tran",
+    "body": "{\"error\":\"Rate limit exceeded\",\"message\":\"Insufficient budget. This request has no API key, and keyless requests naming this mailto address, from every network that sends it, have used its free daily budget ($1.00, the same as a free key; resets at midnight UTC). Get a free key with its own budget: https://help.openalex.org/api/authentication/ then add api_key=YOUR_KEY to your requests.\",\"retryAft"
+   },
+   {
+    "status": 429,
+    "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(%22artificial%20intelligence%22%20OR%20%22machine%20learning%22%20OR%20algorithmic%20OR%20%22autonomous%20systems%22%20OR%20%22large%20language%20model%22%20OR%20%22generative%20AI%22%20OR%20robot)%20AND%20(ethic%20OR%20%22human%20rights%22%20OR%20accountab%20OR%20fairness%20OR%20responsib%20OR%20governance%20OR%20regulat%20OR%20tran",
+    "body": "{\"error\":\"Rate limit exceeded\",\"message\":\"Insufficient budget. This request has no API key, and keyless requests naming this mailto address, from every network that sends it, have used its free daily budget ($1.00, the same as a free key; resets at midnight UTC). Get a free key with its own budget: https://help.openalex.org/api/authentication/ then add api_key=YOUR_KEY to your requests.\",\"retryAft"
+   },
+   {
+    "status": 429,
+    "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(%22artificial%20intelligence%22%20OR%20%22machine%20learning%22%20OR%20algorithmic%20OR%20%22autonomous%20systems%22%20OR%20%22large%20language%20model%22%20OR%20%22generative%20AI%22%20OR%20robot)%20AND%20(ethic%20OR%20%22human%20rights%22%20OR%20accountab%20OR%20fairness%20OR%20responsib%20OR%20governance%20OR%20regulat%20OR%20tran",
+    "body": "{\"error\":\"Rate limit exceeded\",\"message\":\"Insufficient budget. This request has no API key, and keyless requests naming this mailto address, from every network that sends it, have used its free daily budget ($1.00, the same as a free key; resets at midnight UTC). Get a free key with its own budget: https://help.openalex.org/api/authentication/ then add api_key=YOUR_KEY to your requests.\",\"retryAft"
+   },
+   {
+    "status": 429,
+    "url": "https://api.openalex.org/works?search=artificial%20intelligence%20ethics%20guideline%20principles%20framework&filter=type:article,publication_year:2011,primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=andymiah@gmail.com",
+    "body": "{\"error\":\"Rate limit exceeded\",\"message\":\"Insufficient budget. This request has no API key, and keyless requests naming this mailto address, from every network that sends it, have used its free daily budget ($1.00, the same as a free key; resets at midnight UTC). Get a free key with its own budget: https://help.openalex.org/api/authentication/ then add api_key=YOUR_KEY to your requests.\",\"retryAft"
+   },
+   {
+    "status": 429,
+    "url": "https://api.openalex.org/works?search=artificial%20intelligence%20ethics%20guideline%20principles%20framework&filter=type:article,publication_year:2011,primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=andymiah@gmail.com",
+    "body": "{\"error\":\"Rate limit exceeded\",\"message\":\"Insufficient budget. This request has no API key, and keyless requests naming this mailto address, from every network that sends it, have used its free daily budget ($1.00, the same as a free key; resets at midnight UTC). Get a free key with its own budget: https://help.openalex.org/api/authentication/ then add api_key=YOUR_KEY to your requests.\",\"retryAft"
+   }
+  ]
+ },
  "counts": {
   "candidates": 0,
   "verified": 0,
