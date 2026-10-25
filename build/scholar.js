@@ -40,6 +40,18 @@ const JUR = [['eu', /\b(EU|European Union|GDPR|AI Act|Europe)\b/], ['us', /\b(US
 const DIAG = { requests: 0, failures: [] };
 const AIRE = /artificial intelligence|machine learning|deep learning|\bAI\b|algorithmic|large language model|generative|chatgpt|autonomous (weapon|system|vehicle|agent)|robot|automated decision|decision-making system/i;
 const ETHRE = /ethic|moral|fairness|accountab|responsib|governance|regulation|legal|\blaw\b|rights|discriminat|trustworth|oversight|policy|principles|guideline|societ|harm|stakeholder|justice|democra/i;
+const THEME_RE = {
+  principles: /principles|guideline|framework|ethic|moral/i, governance: /governance|regulat|\blaw\b|legal|polic(y|ies)|legislation/i,
+  bias: /bias|fairness|\bfair\b|discriminat/i, transparency: /explainab|transparen|interpretab|black.?box/i,
+  accountability: /accountab|responsib|liabil/i, privacy: /privacy|data protection|surveillance/i,
+  safety: /safety|alignment|existential|superintelligen|catastroph/i, work: /labou?r|employment|worker|\bjobs?\b|workplace|recruit/i,
+  environment: /environment|carbon|energy|sustainab|climate/i, health: /health|clinical|medic|patient|radiolog|nurs|diagnos/i,
+  military: /military|weapon|warfare|defen[cs]e/i, genai: /generative|chatgpt|language model|\bLLMs?\b/i,
+  'global-south': /global south|decoloni|africa|developing countr|indigenous/i, rights: /rights|democra|justice|civil liberties/i,
+  'public-sector': /public sector|government|public administration|welfare|algorithmic decision|automated decision/i,
+  adoption: /barrier|adoption|implementation|acceptance|readiness|uptake/i, operationalising: /operationalis|operationaliz|in practice|toolkit|tools|checklist|from principles/i,
+  auditing: /audit|impact assessment|assurance|evaluation/i, education: /education|student|teacher|academic|universit|learning environment/i };
+const BLOCK = /fault diagnosis|food|network slicing|image fusion|rehabilitation|transcriptom|pharmacolog|dental|\bPPG\b|adversarial network|maritime|\b6G\b|\bIoT\b|robotics design|vision-language-action|physicists|reservoir|battery|solar|wind turbine|crop|agricult/i;
 const clean = t => (t || '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function j(url, tries = 3) {
@@ -57,7 +69,7 @@ const SEEDS = [
   ['10.1007/s10676-017-9430-8', 'Society-in-the-loop', ['governance', 'accountability']],
   ['10.1126/science.aat5991', 'force for good', ['governance', 'principles']],
   ['10.1126/science.aax2342', 'racial bias', ['bias', 'health']],
-  ['10.1007/s11023-020-09539-2', 'values and alignment', ['safety']],
+  ['10.1007/s11023-020-09539-2', 'Values, and Alignment', ['safety']],
   ['10.1145/3442188.3445922', 'Stochastic Parrots', ['genai', 'environment', 'bias']],
   ['10.1145/3287560.3287598', 'Fairness and Abstraction', ['bias', 'operationalising']],
   ['10.1145/3351095.3372873', 'accountability gap', ['auditing', 'accountability']],
@@ -80,7 +92,8 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
       let kept = 0;
       for (const m of (d.message && d.message.items) || []) {
         const title = clean(m.title && m.title[0]);
-        if (!title || !AIRE.test(title) || !ETHRE.test(title)) continue;
+        if (BLOCK.test(title)) continue;
+        if (BLOCK.test(title) || !title || !AIRE.test(title) || !ETHRE.test(title)) continue;
         if (/^(editorial|erratum|correction|corrigendum|retraction)/i.test(title)) continue;
         const p = pub(m.publisher);
         if (!p || EXCLUDE.has(p)) continue;
@@ -115,10 +128,10 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
     const upd = (m['update-to'] || []).concat(m.relation && m.relation['is-retracted-by'] || []);
     if ((m['update-to'] || []).some(u => /retract|withdraw/i.test(u.type || '')) || (m.relation && m.relation['is-retracted-by'])) { rejected.push({ doi: c.doi, reason: 'retracted' }); continue; }
     const cp = pub(m.publisher) || c.publisher;
-    if (c.year < FROM) { rejected.push({ doi: c.doi, reason: 'outside window' }); continue; }
     if (EXCLUDE.has(pub(m.publisher))) { rejected.push({ doi: c.doi, reason: 'excluded publisher ' + m.publisher }); continue; }
     c.year = c.year || (m.issued && m.issued['date-parts'] && m.issued['date-parts'][0][0]) || 0; c.cited_by = c.cited_by || m['is-referenced-by-count'] || 0;
     if (!c.authors.length) c.authors = (m.author || []).slice(0, 4).map(a => [a.given, a.family].filter(Boolean).join(' '));
+    if (c.year < FROM || c.year > TO) { rejected.push({ doi: c.doi, reason: 'outside window ' + c.year }); continue; }
     if (!pub(m.publisher) && !pub(c.publisher_raw)) { rejected.push({ doi: c.doi, reason: 'publisher ' + m.publisher }); continue; }
     const as = {}; (m.assertion || []).forEach(a => { if (/received|accepted|revised/i.test(a.name)) as[a.name.toLowerCase()] = a.value; });
     out.push({ ...c, title: clean(m.title && m.title[0]) || c.title, journal: clean(m['container-title'] && m['container-title'][0]) || c.journal,
@@ -132,6 +145,7 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
       is_review: /review|survey|mapping|scoping|meta-analysis/i.test(c.title || '') });
     if (n % 100 === 0) console.log('verified', n, '/', cand.size);
   }
+  out.forEach(p => { if (!p.seed) { const t = Object.keys(THEME_RE).filter(k => THEME_RE[k].test(p.title)); p.theme_ids = t.length ? t : ['principles']; } });
   out.sort((a, b) => a.year - b.year || b.cited_by - a.cited_by);
   fs.mkdirSync('library', { recursive: true });
   fs.writeFileSync('library/scholarly.json', JSON.stringify({ generated: new Date().toISOString(), source: 'Crossref search ranked by citations, filtered for AI plus ethics terms in the title (Google Scholar has no API and blocks automated access; OpenAlex rate-limited), journal-article type, publisher whitelist and retraction checks',
