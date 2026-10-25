@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-10-25T11:24:07.713Z",
+  "_generated": "2026-10-25T11:35:21.761Z",
   "_schema_version": "1.0.0",
   "meta": {
     "id": "uk",
@@ -10,12 +10,12 @@
     "flag_emoji": "🇬🇧",
     "entry_author": "AETHON Lead",
     "entry_reviewed": false,
-    "last_updated": "2025-05-23",
-    "next_review_due": "2025-08-23",
+    "last_updated": "2026-10-25",
+    "next_review_due": "2027-01-25",
     "confidence": "high"
   },
   "framework": {
-    "primary_law": "Pro-Innovation AI Regulation White Paper + AI Safety Institute",
+    "primary_law": "Pro-Innovation AI Regulation White Paper + AI Security Institute",
     "status": "active",
     "approach": "sectoral",
     "binding": false,
@@ -23,7 +23,7 @@
     "year_effective": 2023,
     "enforcement_begins": null,
     "review_scheduled": "2026-01-01",
-    "enforcing_body": "Existing sector regulators (FCA, ICO, CMA, Ofcom) + AI Safety Institute",
+    "enforcing_body": "Existing sector regulators (FCA, ICO, CMA, Ofcom) + AI Security Institute",
     "max_penalty": "Varies by sector regulator",
     "geographic_scope": "UK persons and entities; some extraterritorial application via sector regulators",
     "source_documents": [
@@ -35,7 +35,7 @@
         "date": "2023-03-29"
       },
       {
-        "title": "UK AI Safety Institute — Frontier AI Safety Evaluations",
+        "title": "UK AI Security Institute — Frontier AI Safety Evaluations",
         "url": "https://www.gov.uk/government/organisations/ai-safety-institute",
         "local_path": "source/regulatory/uk/uk-aisi-framework-2024.pdf",
         "type": "official_guidance",
@@ -51,7 +51,7 @@
     ]
   },
   "research": {
-    "summary": "Post-Brexit, the UK has deliberately chosen not to pass comprehensive horizontal AI legislation, instead relying on existing sector regulators to address AI harms within their domains. The 2023 White Paper established five cross-cutting principles — safety, security and robustness; appropriate transparency and explainability; fairness; accountability and governance; contestability and redress — but these are not legally binding. The AI Safety Institute focuses exclusively on frontier model safety evaluation, not on consumer protection or rights.",
+    "summary": "Post-Brexit, the UK has deliberately chosen not to pass comprehensive horizontal AI legislation, instead relying on existing sector regulators to address AI harms within their domains. The 2023 White Paper established five cross-cutting principles — safety, security and robustness; appropriate transparency and explainability; fairness; accountability and governance; contestability and redress — but these are not legally binding. The AI Security Institute focuses exclusively on frontier model safety evaluation, not on consumer protection or rights.",
     "risk_tiers": [],
     "key_provisions": [
       {
@@ -62,7 +62,7 @@
       },
       {
         "id": "aisi",
-        "title": "AI Safety Institute",
+        "title": "AI Security Institute",
         "description": "Government body conducting pre-deployment safety evaluations of frontier AI models. Publishes standardised evaluation frameworks. Focused on catastrophic and systemic risk from powerful models, not on everyday AI harms to individuals.",
         "article_reference": "Established November 2023"
       },
@@ -139,7 +139,7 @@
   },
   "citizen": {
     "one_line": "The UK has chosen not to pass a single AI law — instead existing regulators in each industry are responsible for keeping AI in check, which means your protections depend on which sector you're in.",
-    "what_changed": "The government published a policy document in 2023 setting out principles for how AI should be regulated, and set up the AI Safety Institute to evaluate the most powerful AI systems. But these do not give you new legal rights — your existing rights under UK GDPR still apply, and your main protection comes from whichever industry regulator covers your situation.",
+    "what_changed": "The government published a policy document in 2023 setting out principles for how AI should be regulated, and set up the AI Security Institute to evaluate the most powerful AI systems. But these do not give you new legal rights — your existing rights under UK GDPR still apply, and your main protection comes from whichever industry regulator covers your situation.",
     "real_world_examples": [
       {
         "scenario": "Job application",
@@ -162,7 +162,7 @@
       "Anyone seeking a single, consistent set of AI rights — these do not exist in the UK",
       "People affected by AI in sectors without a strong regulator or clear AI guidance",
       "Anyone wanting a right to know when AI-generated content is AI-made — no labelling requirement exists in the UK",
-      "People harmed by everyday AI systems — the AI Safety Institute focuses only on powerful frontier models, not consumer-facing AI harms"
+      "People harmed by everyday AI systems — the AI Security Institute focuses only on powerful frontier models, not consumer-facing AI harms"
     ],
     "your_rights": [
       {
@@ -191,7 +191,7 @@
       "UK GDPR": "The UK's data protection law — it gives you rights over how your personal data is used, including by AI systems.",
       "ICO": "Information Commissioner's Office — the regulator that enforces data protection law and handles complaints about how organisations use your data.",
       "FCA": "Financial Conduct Authority — the regulator for banks, insurers, and financial services. Handles complaints about unfair AI in financial decisions.",
-      "AISI": "AI Safety Institute — a government body that tests the most powerful AI systems for safety risks. It does not handle individual complaints.",
+      "AISI": "AI Security Institute — a government body that tests the most powerful AI systems for safety risks. It does not handle individual complaints.",
       "Automated decision": "A decision made entirely by a computer system with no human involvement — for example, an algorithm rejecting your loan application without any person reviewing it.",
       "Frontier model": "An extremely powerful AI system at the cutting edge of capability — like the systems behind ChatGPT or Gemini. The AISI focuses on evaluating these."
     },

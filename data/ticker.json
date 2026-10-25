@@ -1,13 +1,37 @@
 {
-  "_generated": "2026-10-25T11:24:07.734Z",
-  "count": 1,
+  "_generated": "2026-10-25T11:35:21.771Z",
+  "count": 4,
   "items": [
+    {
+      "type": "update",
+      "iso": "US",
+      "name": "United States",
+      "text": "United States entry updated — NIST AI RMF + State-level legislation",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "GB",
+      "name": "United Kingdom",
+      "text": "United Kingdom entry updated — Pro-Innovation AI Regulation White Paper + AI Security Institute",
+      "date": "2026-10-25",
+      "priority": "high"
+    },
     {
       "type": "enforcement",
       "iso": "EU",
       "name": "European Union",
       "text": "European Union — EU AI Act (Regulation EU 2024/1689) effective 2026",
       "date": "2026",
+      "priority": "high"
+    },
+    {
+      "type": "update",
+      "iso": "EU",
+      "name": "European Union",
+      "text": "European Union entry updated — EU AI Act (Regulation EU 2024/1689)",
+      "date": "2026-10-25",
       "priority": "high"
     }
   ]

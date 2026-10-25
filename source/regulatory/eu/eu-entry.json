@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_schema_description": "AETHON Observatory — Jurisdiction entry schema. Every field is required unless marked [optional]. The citizen_layer fields are as important as the research_layer fields — they are not summaries of the research layer, they are a separate act of translation.",
-  "_last_updated": "2025-05-23",
+  "_last_updated": "2026-10-25",
 
   "jurisdiction": {
 
@@ -14,8 +14,8 @@
       "flag_emoji": "🇪🇺",
       "entry_author": "Your name or monitor name",
       "entry_reviewed": false,
-      "last_updated": "2025-05-23",
-      "next_review_due": "2025-08-23",
+      "last_updated": "2026-10-25",
+      "next_review_due": "2027-01-25",
       "confidence": "high",
       "_confidence_note": "high | medium | low — reflects quality and recency of source material available"
     },
@@ -29,7 +29,7 @@
       "binding": true,
       "year_enacted": 2024,
       "year_effective": 2026,
-      "enforcement_begins": "2026-08-02",
+      "enforcement_begins": "2027-12-02",
       "review_scheduled": "2029-01-01",
       "enforcing_body": "EU AI Office, national competent authorities",
       "max_penalty": "€35 million or 7% of global annual turnover",
@@ -65,7 +65,7 @@
         {
           "tier": "High risk",
           "description": "Permitted but subject to strict conformity assessments, risk management systems, data governance requirements, transparency obligations, human oversight, and accuracy standards. Covers AI in employment, education, critical infrastructure, essential services, law enforcement, migration, and administration of justice.",
-          "effective": "2026-08-02"
+          "effective": "2027-12-02"
         },
         {
           "tier": "Limited risk",
@@ -154,7 +154,7 @@
         }
       ],
 
-      "monitor_notes": "AI omnibus proposal adopted November 2025 may modify implementation timeline. Digital Omnibus political agreement reached May 2026 — implications for enforcement dates under review."
+      "monitor_notes": "Digital Omnibus on AI adopted (Regulation (EU) 2026/1744): Annex III high-risk obligations delayed to 2 December 2027; Annex I product-embedded systems to 2 August 2028; public-authority deployments to 2 August 2030. New Article 5 bans on nudifier apps and CSAM apply from 2 December 2026. Verify against the Official Journal text."
     },
 
     "citizen_layer": {
@@ -163,7 +163,7 @@
 
       "one_line": "The EU has passed the world's most comprehensive law controlling how AI can be used — it bans some uses outright and requires companies to justify high-stakes AI decisions that affect you.",
 
-      "what_changed": "From August 2025, companies using AI to make important decisions about you — hiring you, giving you a loan, setting your insurance, assessing your benefits — must follow strict rules. The AI must be tested before it's used on real people. You must be told when AI is involved. And you have the right to ask why.",
+      "what_changed": "From December 2027, companies using AI to make important decisions about you — hiring you, giving you a loan, setting your insurance, assessing your benefits — must follow strict rules. The AI must be tested before it's used on real people. You must be told when AI is involved. And you have the right to ask why.",
 
       "real_world_examples": [
         {
@@ -179,7 +179,7 @@
         {
           "scenario": "Deepfake or AI-generated content",
           "before": "A video or image could be entirely AI-generated with no indication it isn't real.",
-          "after": "All AI-generated content — images, video, audio, text — must be clearly labelled as AI-generated. This took effect from August 2025."
+          "after": "All AI-generated content — images, video, audio, text — must be clearly labelled as AI-generated. Companies already on the market have until 2 December 2026 to comply."
         },
         {
           "scenario": "Facial recognition in public",

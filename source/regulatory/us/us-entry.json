@@ -10,8 +10,8 @@
       "flag_emoji": "🇺🇸",
       "entry_author": "AETHON Lead",
       "entry_reviewed": false,
-      "last_updated": "2025-05-23",
-      "next_review_due": "2025-08-23",
+      "last_updated": "2026-10-25",
+      "next_review_due": "2027-01-25",
       "confidence": "medium"
     },
     "framework": {
@@ -37,7 +37,7 @@
       ]
     },
     "research_layer": {
-      "summary": "The US has no comprehensive federal AI law. Governance is fragmented across sector-specific agencies, voluntary frameworks (NIST AI RMF), and a growing patchwork of state legislation. EO 14110 was revoked in 2025 creating federal coordination uncertainty. Nine states have enacted formal AI statutes as of 2025.",
+      "summary": "The US has no comprehensive federal AI law. Governance is fragmented across sector-specific agencies, voluntary frameworks (NIST AI RMF), and a growing patchwork of state legislation. EO 14110 was revoked in 2025. Executive Order 14365 (11 December 2025) set up a DOJ task force to challenge state AI laws and calls for a federal preemption bill; Congress has not passed one. Colorado reenacted a narrower AI Act (SB 26-189) effective 1 January 2027; California SB 53 is in force.",
       "risk_tiers": [],
       "key_provisions": [
         { "id": "nist_rmf", "title": "NIST AI Risk Management Framework", "description": "Voluntary risk management framework covering AI lifecycle. Increasingly referenced in federal procurement and sector regulation.", "article_reference": "NIST AI 100-1" },
