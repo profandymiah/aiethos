@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AIETHOS — AI Ethics Observatory · global AI ethics regulatory intelligence tracking frameworks, ethical dimensions, and citizen rights across jurisdictions worldwide">
+<title>AIETHOS — AI Ethics Observatory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+/* ─── TOKENS (all text colours verified WCAG AA) ─────────────── */
+:root{
+  --bg:#06070A; --bg2:#0E1116; --bg3:#141820;
+  --surface:#101318; --s2:#171D26; --s3:#1D2430;
+  --border:rgba(255,255,255,0.08); --bm:rgba(255,255,255,0.14);
+  --gold-border:rgba(184,151,90,0.35);
+  --gold:#C4A063; --gl:#D4B47A; --gd:rgba(196,160,99,0.09);
+  --teal:#2DD4BF; --td:rgba(45,212,191,0.08);
+  --blue:#60A5FA; --red:#F87171; --amber:#FBBF24;
+  --purple:#A78BFA; --orange:#F97316;
+  --text:#EAE7DF;        /* 18.4:1 */
+  --text2:#C4BFB6;       /* 10.2:1 */
+  --muted:#8B9099;       /* 6.24:1 — passes AA at ALL sizes */
+  --faint:#252B36;
+  --enacted:#2DD4BF; --active:#60A5FA; --draft:#FBBF24;
+  --voluntary:#A78BFA; --consultation:#F97316; --advisory:#8B9099;
+  --gold-border:rgba(196,160,99,0.35);
+  --gap:1px;
+  --r:2px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:'JetBrains Mono','Courier New',monospace;
+  font-size:15px; line-height:1.75;
+  -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+h1,h2,h3,h4{font-family:'Cormorant Garamond',Georgia,serif;font-weight:300;line-height:1.1}
+
+/* ─── ACCESSIBILITY ─────────────────────────────────────────── */
+.skip{
+  position:absolute;top:-200%;left:0;
+  background:var(--gold);color:#06070A;
+  padding:14px 32px;font-size:14px;font-weight:600;
+  text-decoration:none;z-index:9999;
+  transition:top .2s;letter-spacing:.04em;
+}
+.skip:focus{top:0}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:var(--r)}
+:focus:not(:focus-visible){outline:none}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.01ms!important;
+    scroll-behavior:auto!important
+  }
+}
+@media(forced-colors:active){
+  .eth-fill{background:ButtonText!important}
+  .reg-card{border:2px solid ButtonText!important}
+  .dim-icon{forced-color-adjust:none}
+}
+
+/* ─── ANIMATIONS ─────────────────────────────────────────────── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes think{0%{transform:translateX(-200%)}100%{transform:translateX(500%)}}
+@keyframes ring{0%{r:4;opacity:.8}100%{r:22;opacity:0}}
+@keyframes ringB{0%{r:4;opacity:.6}100%{r:16;opacity:0}}
+@keyframes sweep{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+@keyframes barIn{from{width:0}to{width:var(--w)}}
+
+.reveal{opacity:0;transform:translateY(32px);transition:opacity .85s ease,transform .85s ease}
+.reveal.vis{opacity:1;transform:none}
+
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--faint);border-radius:2px}
+
+/* ─── NAV ───────────────────────────────────────────────────── */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  height:62px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 56px;
+  background:rgba(6,7,10,.94);backdrop-filter:blur(28px);
+  border-bottom:1px solid var(--border);
+}
+.nav-logo{
+  font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;
+  color:var(--gold);letter-spacing:.2em;text-decoration:none;text-transform:uppercase;
+}
+.nav-logo span{color:var(--muted);font-weight:300}
+.nav-links{display:flex;align-items:center;gap:40px;list-style:none}
+.nav-links a{
+  color:var(--muted);text-decoration:none;font-size:12px;
+  letter-spacing:.1em;text-transform:uppercase;transition:color .2s;
+}
+.nav-links a:hover{color:var(--text)}
+.nav-live{display:flex;align-items:center;gap:9px;font-size:12px;color:var(--muted)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 2.5s ease infinite;flex-shrink:0}
+
+/* ─── TICKER ─────────────────────────────────────────────────── */
+.ticker-wrap{
+  margin-top:62px;height:38px;display:flex;align-items:center;
+  background:var(--gd);border-bottom:1px solid rgba(196,160,99,0.12);overflow:hidden;
+}
+.ticker-lbl{
+  flex-shrink:0;padding:0 24px;font-size:11px;letter-spacing:.2em;
+  color:var(--gold);text-transform:uppercase;
+  border-right:1px solid rgba(196,160,99,0.18);height:38px;
+  display:flex;align-items:center;background:var(--bg);white-space:nowrap;
+}
+.ticker-inner{overflow:hidden;flex:1}
+.ticker-track{display:flex;animation:ticker 70s linear infinite;white-space:nowrap;will-change:transform}
+.ticker-track:hover{animation-play-state:paused}
+.t-item{padding:0 36px;font-size:12px;color:var(--muted)}
+.t-item b{color:var(--teal);font-weight:400;margin-right:9px}
+
+/* ─── HERO ───────────────────────────────────────────────────── */
+.hero{
+  position:relative;min-height:640px;padding:108px 56px 80px;
+  border-bottom:1px solid var(--border);overflow:hidden;
+  display:grid;grid-template-columns:480px 1fr;gap:64px;align-items:center;
+}
+.hero-bg{
+  position:absolute;inset:0;z-index:0;
+  background:
+    radial-gradient(ellipse 55% 70% at 72% 55%,rgba(196,160,99,0.055) 0%,transparent 65%),
+    radial-gradient(ellipse 35% 40% at 25% 40%,rgba(45,212,191,0.025) 0%,transparent 60%);
+  pointer-events:none;
+}
+.hero-grain{
+  position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.018;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.hero-text{position:relative;z-index:3}
+.eyebrow{
+  font-size:12px;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;
+  margin-bottom:24px;opacity:0;animation:fadeUp .6s ease .2s forwards;
+}
+.hero h1{
+  font-size:clamp(52px,6vw,92px);font-weight:300;letter-spacing:-.025em;
+  color:var(--text);margin-bottom:24px;
+  opacity:0;animation:fadeUp .6s ease .35s forwards;
+}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero-sub{
+  font-size:15px;color:var(--muted);max-width:460px;line-height:1.9;
+  margin-bottom:52px;
+  opacity:0;animation:fadeUp .6s ease .5s forwards;
+}
+.hero-kpis{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  border:1px solid var(--border);max-width:400px;
+  opacity:0;animation:fadeUp .6s ease .65s forwards;
+}
+.kpi{padding:22px 28px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
+.kpi:nth-child(2n){border-right:none}
+.kpi:nth-child(3),.kpi:nth-child(4){border-bottom:none}
+.kpi-n{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:48px;font-weight:300;line-height:1;margin-bottom:6px;
+}
+.kpi-l{font-size:12px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+
+/* ─── WORLD MAP ──────────────────────────────────────────────── */
+.map-outer{
+  position:relative;z-index:2;
+  opacity:0;animation:fadeIn 1.4s ease .8s forwards;
+}
+.map-outer svg{width:100%;height:auto}
+.graticule{stroke:rgba(196,160,99,0.06);stroke-width:.6;fill:none}
+.equator{stroke:rgba(196,160,99,0.14);stroke-width:.8;fill:none;stroke-dasharray:4 6}
+.land{fill:rgba(196,160,99,0.055);stroke:rgba(196,160,99,0.22);stroke-width:.7;stroke-linejoin:round}
+.uk-land{fill:rgba(196,160,99,0.055);stroke:rgba(196,160,99,0.22);stroke-width:.7}
+.jur-marker{cursor:pointer;transition:opacity .3s}
+.jur-marker circle.base{transition:r .3s}
+.jur-marker:hover circle.base{r:7}
+.jur-ring1{animation:ring 2.8s ease-out infinite;transform-origin:center center}
+.jur-ring2{animation:ring 2.8s ease-out 1.4s infinite;transform-origin:center center}
+.map-grid-label{
+  font-family:'JetBrains Mono',monospace;font-size:6px;
+  fill:rgba(196,160,99,0.28);text-anchor:middle;letter-spacing:.05em;
+}
+.map-title-txt{
+  font-family:'JetBrains Mono',monospace;font-size:7px;
+  fill:rgba(196,160,99,0.25);letter-spacing:.14em;text-transform:uppercase;
+}
+.tension-line{stroke:rgba(196,160,99,0.12);stroke-width:.8;stroke-dasharray:3 5;fill:none}
+
+/* ─── SECTION BASE ───────────────────────────────────────────── */
+section{padding:88px 56px;border-bottom:1px solid var(--border);position:relative}
+.s-hd{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:52px;gap:24px}
+.s-ey{font-size:12px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
+.s-tt{font-family:'Cormorant Garamond',Georgia,serif;font-size:40px;font-weight:300;letter-spacing:-.01em}
+.s-sub{font-size:13px;color:var(--muted);letter-spacing:.04em;padding-bottom:4px;text-align:right;flex-shrink:0}
+
+/* section background motifs */
+.section-grid-bg{
+  position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.4;
+  background-image:
+    linear-gradient(rgba(196,160,99,0.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(196,160,99,0.03) 1px,transparent 1px);
+  background-size:60px 60px;
+}
+
+/* ─── ARCHITECTURE ───────────────────────────────────────────── */
+.arch-split{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);background:var(--border);margin-bottom:var(--gap)}
+.arch-card{background:var(--surface);padding:44px;position:relative}
+.arch-card.rec{background:var(--s2)}
+.arch-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:32px;gap:20px}
+.arch-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:300;margin-bottom:8px}
+.arch-desc{font-size:13px;color:var(--muted);max-width:240px;line-height:1.8}
+.arch-badge{font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:6px 14px;flex-shrink:0;margin-top:4px}
+.badge-rec{background:rgba(45,212,191,0.08);color:var(--teal);border:1px solid rgba(45,212,191,0.25)}
+.badge-no{background:rgba(139,144,153,0.08);color:var(--muted);border:1px solid rgba(139,144,153,0.2)}
+.arch-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px}
+.a-s{background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:16px 18px}
+.a-s-l{font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin-bottom:8px}
+.a-s-v{font-size:18px;font-weight:600}
+.arch-list{list-style:none}
+.arch-list li{
+  font-size:13px;color:var(--muted);padding:8px 0;
+  border-bottom:1px solid rgba(255,255,255,0.03);
+  display:flex;align-items:baseline;gap:12px;
+}
+.arch-list li::before{content:attr(data-m);flex-shrink:0;font-size:12px}
+.arch-rec{
+  background:var(--s2);border:1px solid rgba(45,212,191,0.16);
+  padding:40px 48px;display:grid;grid-template-columns:56px 1fr;gap:32px;align-items:start;
+}
+.arch-rec-ico{
+  width:56px;height:56px;background:rgba(45,212,191,0.06);
+  border:1px solid rgba(45,212,191,0.22);
+  display:flex;align-items:center;justify-content:center;font-size:26px;
+}
+.arch-rec-tt{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:400;color:var(--teal);margin-bottom:14px}
+.arch-rec-body{font-size:14px;color:var(--muted);line-height:1.95}
+.arch-rec-body strong{color:var(--text);font-weight:400}
+.pipe{display:flex;align-items:center;margin-top:24px}
+.p-s{flex:1;text-align:center;padding:12px 4px;background:rgba(255,255,255,0.02);border:1px solid var(--border);font-size:11px;letter-spacing:.07em;color:var(--muted);text-transform:uppercase;line-height:1.5}
+.p-s.gold{background:rgba(196,160,99,0.05);border-color:rgba(196,160,99,0.22);color:var(--gold)}
+.p-s.teal{background:rgba(45,212,191,0.04);border-color:rgba(45,212,191,0.22);color:var(--teal)}
+.p-a{color:var(--faint);padding:0 3px;font-size:14px;flex-shrink:0}
+
+/* ─── REGULATORY ─────────────────────────────────────────────── */
+.legend{display:flex;flex-wrap:wrap;gap:24px;margin-bottom:36px}
+.leg{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--muted)}
+.leg-d{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.reg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:var(--gap);background:var(--border)}
+.reg-card{
+  background:var(--surface);padding:26px;cursor:pointer;
+  border:2px solid transparent;position:relative;
+  transition:background .2s,border-color .2s,transform .18s;
+}
+.reg-card:hover,.reg-card:focus{background:var(--s2);border-color:rgba(196,160,99,0.25);transform:translateY(-2px)}
+.reg-card.sel{background:var(--s3);border-color:var(--gold-border)}
+.rc-code{font-size:12px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-bottom:14px}
+.rc-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:400;line-height:1.25;margin-bottom:10px}
+.rc-law{font-size:13px;color:var(--muted);margin-bottom:18px;line-height:1.55}
+.rc-status{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.rc-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.rc-score{position:absolute;top:24px;right:22px;font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:300;opacity:.2}
+.rc-conf{position:absolute;bottom:20px;right:20px;font-size:11px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;opacity:.55}
+
+/* ─── DETAIL PANEL ───────────────────────────────────────────── */
+.reg-det{background:var(--s2);border:1px solid var(--gold-border);margin-top:var(--gap);animation:fadeIn .3s ease}
+.det-head{padding:30px 48px 0;display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:20px}
+.det-code{font-size:12px;letter-spacing:.18em;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
+.det-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:38px;font-weight:300;margin-bottom:8px}
+.det-law{font-size:14px;color:var(--muted)}
+.det-score-n{font-family:'Cormorant Garamond',Georgia,serif;font-size:72px;font-weight:300;line-height:1;opacity:.2}
+.det-score-l{font-size:12px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-top:4px}
+.view-tabs{display:flex;border-bottom:1px solid var(--border);background:var(--surface);margin-top:24px}
+.vt{
+  flex:1;padding:18px 28px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);cursor:pointer;background:transparent;border:none;
+  border-bottom:2px solid transparent;transition:color .2s,border-color .2s;
+  font-family:'JetBrains Mono',monospace;
+}
+.vt:hover{color:var(--text)}
+.vt.on{color:var(--gold);border-bottom-color:var(--gold)}
+.pane{display:none;padding:40px 48px}
+.pane.on{display:block;animation:fadeIn .25s ease}
+
+/* citizen */
+.cit-ol{background:var(--td);border:1px solid rgba(45,212,191,0.16);padding:24px 28px;margin-bottom:32px}
+.cit-ol-l{font-size:12px;letter-spacing:.16em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}
+.cit-ol-t{font-size:18px;color:var(--text);line-height:1.7;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400}
+.sec-label{font-size:12px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-bottom:14px}
+.rights-ul{list-style:none}
+.right-li{border-bottom:1px solid var(--border);padding:20px 0}
+.right-li:last-child{border-bottom:none}
+.right-name{font-size:15px;color:var(--text);margin-bottom:8px}
+.right-means{font-size:14px;color:var(--muted);margin-bottom:10px;line-height:1.8}
+.right-how{font-size:13px;color:var(--teal);line-height:1.65}
+.right-how::before{content:'→ '}
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:28px 0}
+.who-ul{list-style:none}
+.who-li{font-size:13px;color:var(--muted);padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
+.who-li::before{content:'— ';color:var(--red)}
+.summary-box{padding:24px 28px;background:rgba(255,255,255,0.02);border:1px solid var(--border);margin:28px 0}
+.summary-txt{font-size:16px;color:var(--text2);line-height:1.95}
+.jargon-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);background:var(--border);margin-top:28px}
+.jargon-item{background:var(--surface);padding:18px 22px}
+.jargon-t{font-size:13px;color:var(--gold);margin-bottom:8px;letter-spacing:.04em}
+.jargon-d{font-size:13px;color:var(--muted);line-height:1.75}
+
+/* researcher */
+.score-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);background:var(--border);margin-top:16px}
+.score-item{background:var(--surface);padding:16px 18px}
+.score-dim{font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;margin-bottom:10px;line-height:1.45}
+.score-n{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:300}
+.score-bar{height:3px;background:var(--faint);margin-top:10px}
+.score-fill{height:3px;transition:width 1s ease}
+.score-rat{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5}
+.gaps-ul{list-style:none}
+.gaps-li{font-size:13px;color:var(--muted);padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
+.gaps-li::before{content:'— ';color:var(--amber)}
+.tension-ul{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:16px}
+.tension-it{background:var(--surface);border:1px solid var(--border);padding:18px 22px}
+.tension-jur{font-size:12px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase;margin-bottom:8px}
+.tension-txt{font-size:13px;color:var(--muted);line-height:1.8}
+.tension-sev{display:inline-block;font-size:11px;letter-spacing:.1em;padding:4px 10px;text-transform:uppercase;margin-top:10px;border-radius:var(--r)}
+.sev-high{background:rgba(248,113,113,0.08);color:var(--red);border:1px solid rgba(248,113,113,0.22)}
+.sev-medium{background:rgba(251,191,36,0.08);color:var(--amber);border:1px solid rgba(251,191,36,0.22)}
+.sev-low{background:rgba(139,144,153,0.08);color:var(--muted);border:1px solid rgba(139,144,153,0.2)}
+.monitor-note{padding:18px 22px;background:rgba(196,160,99,0.04);border:1px solid rgba(196,160,99,0.14);margin-top:24px}
+.monitor-note p{font-size:13px;color:var(--muted);line-height:1.85}
+
+/* ─── ETHICS ─────────────────────────────────────────────────── */
+.eth-table{display:flex;flex-direction:column;gap:var(--gap);background:var(--border)}
+.eth-row{
+  background:var(--surface);padding:28px 40px;
+  display:grid;grid-template-columns:52px 260px 1fr 80px 120px;
+  align-items:center;gap:28px;transition:background .2s;
+}
+.eth-row:hover{background:var(--s2)}
+.dim-icon{
+  width:44px;height:44px;
+  display:flex;align-items:center;justify-content:center;
+  border:1px solid var(--border);flex-shrink:0;
+}
+.dim-icon svg{width:22px;height:22px}
+.eth-label{font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:400}
+.eth-sub{font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
+.eth-track{
+  height:4px;background:var(--faint);position:relative;
+  border-radius:2px;overflow:visible;
+}
+.eth-fill{height:4px;width:0;transition:width 1.9s cubic-bezier(.4,0,.2,1);border-radius:2px}
+.eth-score{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:38px;font-weight:300;text-align:right;
+}
+.eth-meta{text-align:right}
+.eth-jcount{font-size:13px;color:var(--muted)}
+.eth-high{font-size:12px;color:var(--muted);margin-top:3px}
+
+/* ─── INSIGHTS ───────────────────────────────────────────────── */
+.ins-box{background:var(--surface);border:1px solid var(--border);padding:48px}
+.api-note{
+  font-size:13px;color:var(--muted);line-height:1.65;
+  padding:14px 18px;background:rgba(196,160,99,0.04);
+  border:1px solid rgba(196,160,99,0.14);margin-bottom:28px;
+}
+.api-row{display:flex;align-items:center;gap:16px;margin-bottom:8px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.api-lbl{font-size:12px;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;flex-shrink:0}
+.api-in{
+  flex:1;background:transparent;border:1px solid var(--faint);
+  color:var(--text);padding:12px 18px;
+  font-family:'JetBrains Mono',monospace;font-size:13px;outline:none;
+  transition:border-color .2s;
+}
+.api-in:focus{border-color:var(--gold)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}
+.chip{
+  font-size:13px;padding:8px 16px;
+  border:1px solid var(--faint);color:var(--muted);cursor:pointer;
+  transition:border-color .2s,color .2s;background:transparent;
+  font-family:'JetBrains Mono',monospace;
+}
+.chip:hover,.chip:focus{border-color:var(--gold);color:var(--gold)}
+.ins-row{display:flex;gap:12px}
+.ins-in{
+  flex:1;background:transparent;border:1px solid var(--faint);
+  color:var(--text);padding:16px 22px;
+  font-family:'JetBrains Mono',monospace;font-size:15px;outline:none;
+  transition:border-color .2s;
+}
+.ins-in:focus{border-color:var(--gold)}
+.ins-in::placeholder{color:var(--muted)}
+.ins-btn{
+  background:var(--gold);color:#06070A;border:none;
+  padding:16px 36px;font-family:'JetBrains Mono',monospace;
+  font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  cursor:pointer;transition:background .2s;white-space:nowrap;
+}
+.ins-btn:hover{background:var(--gl)}
+.ins-btn:disabled{opacity:.4;cursor:not-allowed}
+.res-box{display:none;border-top:1px solid var(--border);padding-top:32px;margin-top:30px}
+.res-box.on{display:block;animation:fadeIn .4s ease}
+.res-lbl{font-size:12px;letter-spacing:.18em;color:var(--teal);text-transform:uppercase;margin-bottom:20px}
+.res-txt{font-size:15px;color:var(--text);line-height:2.05;white-space:pre-wrap}
+.think-bar{height:2px;background:var(--faint);overflow:hidden;margin-bottom:24px}
+.think-fill{height:100%;width:30%;background:linear-gradient(90deg,transparent,var(--teal),transparent);animation:think 1.4s ease infinite}
+
+/* ─── FOOTER ─────────────────────────────────────────────────── */
+footer{
+  padding:44px 56px;border-top:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;
+}
+.f-logo{font-size:12px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
+.f-links{display:flex;gap:28px}
+.f-links a{font-size:13px;color:var(--muted);text-decoration:none;letter-spacing:.06em}
+.f-links a:hover{color:var(--text)}
+.f-meta{font-size:13px;color:var(--muted)}
+.data-err{
+  grid-column:1/-1;padding:72px;text-align:center;
+  color:var(--muted);font-size:14px;line-height:2.4;
+}
+.data-err code{color:var(--gold);font-size:14px}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip">Skip to main content</a>
+
+<header role="banner">
+<nav class="nav" aria-label="Main navigation">
+  <a href="#top" class="nav-logo" aria-label="AIETHOS home">AIETHOS <span>AI Ethics Observatory</span></a>
+  <ul class="nav-links" role="list">
+    <li><a href="#regulatory">Monitor</a></li>
+    <li><a href="#ethics">Dimensions</a></li>
+  </ul>
+  <div class="nav-live"><div class="dot" aria-hidden="true"></div><span>Beta</span></div>
+</nav>
+</header>
+
+<div class="ticker-wrap" role="marquee" aria-label="Latest regulatory developments" aria-live="off">
+  <div class="ticker-lbl" aria-hidden="true">Latest</div>
+  <div class="ticker-inner"><div class="ticker-track" id="ticker" aria-hidden="true"></div></div>
+</div>
+
+<main id="main">
+
+<!-- HERO -->
+<div class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-grain" aria-hidden="true"></div>
+
+  <div class="hero-text">
+    <p class="eyebrow" aria-hidden="true">AI Ethics Observatory · Global Regulatory Intelligence</p>
+    <p style="font-size:13px;color:var(--muted);letter-spacing:.06em;margin-bottom:18px;opacity:0;animation:fadeUp .6s ease .28s forwards">Powered by <a href="https://andymiah.net" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(196,160,99,0.3)">Prof Andy Miah</a></p>
+    <h1>Mapping the <em>ethics</em><br>of artificial<br>intelligence</h1>
+    <p class="hero-sub">A comprehensive intelligence platform tracking AI regulatory frameworks, ethical compliance dimensions, and citizen rights across jurisdictions worldwide.</p>
+    <div class="hero-kpis" role="region" aria-label="Observatory statistics">
+      <div class="kpi">
+        <div class="kpi-n"><span class="cu" id="kj" data-t="0" aria-live="polite">0</span></div>
+        <div class="kpi-l">Jurisdictions</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-n"><span class="cu" id="ke" data-t="0" aria-live="polite">0</span></div>
+        <div class="kpi-l">Enacted</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-n"><span class="cu" id="km" data-t="0" aria-live="polite">0</span></div>
+        <div class="kpi-l">Library entries</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-n"><span class="cu" id="kc" data-t="0" aria-live="polite">0</span></div>
+        <div class="kpi-l">In progress</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SVG World Map -->
+  <div class="map-outer" role="img" aria-label="World map showing AI regulatory coverage by jurisdiction. Teal dots indicate enacted frameworks. Gold dots indicate active frameworks.">
+    <svg id="worldMap" viewBox="0 0 760 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+      <!-- Graticule grid lines every 30° -->
+      <!-- Longitude verticals -->
+      <line class="graticule" x1="63"  y1="0" x2="63"  y2="400"/>
+      <line class="graticule" x1="127" y1="0" x2="127" y2="400"/>
+      <line class="graticule" x1="190" y1="0" x2="190" y2="400"/>
+      <line class="graticule" x1="253" y1="0" x2="253" y2="400"/>
+      <line class="graticule" x1="317" y1="0" x2="317" y2="400"/>
+      <line class="graticule" x1="380" y1="0" x2="380" y2="400"/>
+      <line class="graticule" x1="443" y1="0" x2="443" y2="400"/>
+      <line class="graticule" x1="507" y1="0" x2="507" y2="400"/>
+      <line class="graticule" x1="570" y1="0" x2="570" y2="400"/>
+      <line class="graticule" x1="633" y1="0" x2="633" y2="400"/>
+      <line class="graticule" x1="697" y1="0" x2="697" y2="400"/>
+      <!-- Latitude horizontals -->
+      <line class="graticule" x1="0" y1="67"  x2="760" y2="67"/>
+      <line class="graticule" x1="0" y1="133" x2="760" y2="133"/>
+      <line class="equator"   x1="0" y1="200" x2="760" y2="200"/>
+      <line class="graticule" x1="0" y1="267" x2="760" y2="267"/>
+      <line class="graticule" x1="0" y1="333" x2="760" y2="333"/>
+
+      <!-- Latitude labels -->
+      <text class="map-grid-label" x="375" y="62">60°N</text>
+      <text class="map-grid-label" x="375" y="128">30°N</text>
+      <text class="map-grid-label" x="375" y="195">0°</text>
+      <text class="map-grid-label" x="375" y="262">30°S</text>
+
+      <!-- Longitude labels -->
+      <text class="map-grid-label" x="190" y="396">90°W</text>
+      <text class="map-grid-label" x="380" y="396">0°</text>
+      <text class="map-grid-label" x="570" y="396">90°E</text>
+
+      <!-- Continental outlines (simplified Mercator, lon/lat → x=(lon+180)/360*760, y=(90-lat)/180*400) -->
+      <!-- North America -->
+      <path class="land" d="M 12,67 L 85,44 L 148,54 L 190,78 L 200,102 L 218,148 L 196,168 L 155,122 L 127,90 L 85,80 L 48,90 L 20,78 Z"/>
+      <!-- South America -->
+      <path class="land" d="M 218,148 L 274,148 L 295,168 L 298,222 L 287,267 L 256,300 L 230,290 L 212,254 L 208,210 L 218,168 Z"/>
+      <!-- UK -->
+      <path class="uk-land" d="M 366,68 L 375,58 L 383,66 L 378,80 L 370,84 L 364,76 Z"/>
+      <!-- Europe -->
+      <path class="land" d="M 364,76 L 394,62 L 430,57 L 453,67 L 459,88 L 445,106 L 418,110 L 399,102 L 383,100 L 375,88 Z"/>
+      <!-- Africa -->
+      <path class="land" d="M 384,118 L 459,106 L 477,122 L 483,178 L 472,245 L 445,280 L 410,286 L 390,268 L 376,222 L 372,165 Z"/>
+      <!-- Middle East -->
+      <path class="land" d="M 459,106 L 510,100 L 530,116 L 520,140 L 496,148 L 477,138 L 467,122 Z"/>
+      <!-- Asia -->
+      <path class="land" d="M 453,67 L 633,54 L 700,68 L 714,90 L 690,112 L 650,118 L 610,115 L 570,118 L 530,116 L 510,100 L 459,88 Z"/>
+      <!-- South Asia -->
+      <path class="land" d="M 570,118 L 620,115 L 624,148 L 605,170 L 582,165 L 568,145 Z"/>
+      <!-- SE Asia -->
+      <path class="land" d="M 630,130 L 660,122 L 668,148 L 655,162 L 635,158 L 624,144 Z"/>
+      <!-- Japan area -->
+      <path class="land" d="M 698,88 L 710,84 L 716,96 L 706,104 L 698,100 Z"/>
+      <!-- Australia -->
+      <path class="land" d="M 630,262 L 700,252 L 735,276 L 724,322 L 690,338 L 650,330 L 628,310 L 620,286 Z"/>
+
+      <!-- Cross-jurisdiction tension lines -->
+      <line class="tension-line" x1="371" y1="80" x2="409" y2="80"/> <!-- UK-EU -->
+      <line class="tension-line" x1="409" y1="82" x2="175" y2="112"/> <!-- EU-US -->
+      <line class="tension-line" x1="175" y1="112" x2="500" y2="120"/> <!-- US-AE -->
+
+      <!-- Jurisdiction markers — populated by JS -->
+      <g id="mapMarkers"></g>
+
+      <!-- Map title -->
+      <text class="map-title-txt" x="8" y="395">AIETHOS · Global AI Ethics Regulatory Coverage</text>
+    </svg>
+  </div>
+</div>
+
+<!-- REGULATORY MONITOR -->
+<section id="regulatory" class="reveal" aria-labelledby="reg-h">
+  <div class="s-hd">
+    <div><p class="s-ey">Global Monitor</p><h2 class="s-tt" id="reg-h">Regulatory landscape</h2></div>
+    <div class="s-sub" id="reg-sub">Loading jurisdictions…</div>
+  </div>
+  <div class="legend" role="list" aria-label="Status legend">
+    <div class="leg" role="listitem"><div class="leg-d" style="background:#2DD4BF" aria-hidden="true"></div>Enacted</div>
+    <div class="leg" role="listitem"><div class="leg-d" style="background:#60A5FA" aria-hidden="true"></div>Active</div>
+    <div class="leg" role="listitem"><div class="leg-d" style="background:#FBBF24" aria-hidden="true"></div>Draft</div>
+    <div class="leg" role="listitem"><div class="leg-d" style="background:#A78BFA" aria-hidden="true"></div>Voluntary</div>
+    <div class="leg" role="listitem"><div class="leg-d" style="background:#F97316" aria-hidden="true"></div>Consultation</div>
+    <div class="leg" role="listitem"><div class="leg-d" style="background:#8B9099" aria-hidden="true"></div>Advisory</div>
+  </div>
+  <div class="reg-grid" id="regGrid" role="list" aria-label="Jurisdiction cards" aria-live="polite"></div>
+  <div id="regDet" style="display:none" role="region" aria-label="Jurisdiction detail" aria-live="polite"></div>
+</section>
+
+<!-- ETHICAL DIMENSIONS -->
+<section id="ethics" class="reveal" aria-labelledby="eth-h">
+  <div class="s-hd">
+    <div><p class="s-ey">Compliance Tracker</p><h2 class="s-tt" id="eth-h">Ethical dimensions</h2></div>
+    <div class="s-sub" id="eth-sub">Global average · 8 dimensions · WCAG-verified contrast</div>
+  </div>
+  <div class="eth-table" id="ethTable" role="list" aria-label="Ethical dimension scores" aria-live="polite"></div>
+</section>
+
+</main>
+
+<footer role="contentinfo">
+  <div class="f-logo">AIETHOS</div>
+  <nav class="f-links" aria-label="Footer links">
+    <a href="#regulatory">Monitor</a>
+    <a href="#ethics">Dimensions</a>
+  </nav>
+  <div class="f-meta">Public regulatory sources · Beta: entries are being reviewed · <a href="https://andymiah.net">Prof Andy Miah</a></div>
+</footer>
+
+<script>
+'use strict';
+
+/* ─── COLOUR MAP ─────────────────────────────────── */
+const SC={enacted:'#2DD4BF',active:'#60A5FA',draft:'#FBBF24',voluntary:'#A78BFA',consultation:'#F97316',advisory:'#8B9099',none:'#8B9099'};
+
+/* ─── ETHICAL DIMENSION ICONS (inline SVG paths) ─── */
+const ICONS={
+  safety_risk_management:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L20 6v8c0 5-8 8-8 8s-8-3-8-8V6z"/><polyline points="8,12 11,15 16,9"/></svg>`,
+  privacy_data_protection:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h4M18 12h4M12 2v4M12 18v4"/><circle cx="12" cy="12" r="3" fill="currentColor" opacity=".5"/></svg>`,
+  human_oversight:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="3"/><path d="M7 20c0-3 2.5-5 5-5s5 2 5 5"/><line x1="3" y1="22" x2="21" y2="22"/><line x1="12" y1="11" x2="12" y2="16"/></svg>`,
+  transparency:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`,
+  accountability:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><path d="M5 8l7-5 7 5"/><path d="M5 8l-2 6c0 2 2 3 4 3s4-1 4-3L5 8z"/><path d="M19 8l2 6c0 2-2 3-4 3s-4-1-4-3l6-6z"/></svg>`,
+  fairness_non_discrimination:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/></svg>`,
+  environmental_sustainability:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 0 0-7 17"/><path d="M12 22a10 10 0 0 0 7-17"/><path d="M12 2v20"/><path d="M12 12c-4-2-7-1-9 2"/></svg>`,
+  access_to_remedy:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="11" height="18" rx="1"/><line x1="14" y1="12" x2="21" y2="12"/><polyline points="18,8 22,12 18,16"/><circle cx="8.5" cy="12" r="1" fill="currentColor"/></svg>`,
+};
+
+/* ─── DIMENSION METADATA ─────────────────────────── */
+const DM={
+  safety_risk_management:      {name:'Safety & Risk Management',      sub:'Risk classification and pre-deployment testing across frameworks',                         color:'#2DD4BF'},
+  privacy_data_protection:     {name:'Privacy & Data Protection',     sub:'Data governance requirements embedded within AI-specific legislation',                    color:'#60A5FA'},
+  human_oversight:             {name:'Human Oversight',               sub:'Right to human review of automated decisions in high-stakes contexts',                    color:'#A78BFA'},
+  transparency:                {name:'Transparency',                  sub:'Explainability and disclosure requirements across major frameworks',                       color:'#C4A063'},
+  accountability:              {name:'Accountability',                sub:'Liability frameworks and audit trails for AI-caused harm',                                color:'#60A5FA'},
+  fairness_non_discrimination: {name:'Fairness & Non-discrimination', sub:'Non-discrimination provisions in automated decision-making',                              color:'#F97316'},
+  environmental_sustainability:{name:'Environmental Sustainability',  sub:'Energy and carbon impact reporting — the most neglected dimension globally (avg. 24/100)', color:'#8B9099'},
+  access_to_remedy:            {name:'Access to Remedy',              sub:'Practical mechanisms for individuals to challenge AI decisions',                          color:'#FBBF24'},
+};
+const DK=Object.keys(DM);
+
+/* ─── APPROXIMATE MERCATOR POSITIONS (760×400 viewport) ── */
+const JP={
+  eu:{x:408,y:82}, uk:{x:376,y:78}, us:{x:175,y:112},
+  cn:{x:650,y:88}, ca:{x:152,y:68}, jp:{x:706,y:90},
+  sg:{x:636,y:204}, au:{x:688,y:298}, br:{x:280,y:196},
+  in:{x:572,y:140}, kr:{x:690,y:86}, ae:{x:525,y:148},
+};
+
+
+/* ─── STATE ──────────────────────────────────────── */
+let DATA=null,ETH=null,META=null,selIdx=null,barsAnimated=false;
+
+/* ─── DATA LOADING ───────────────────────────────── */
+async function loadData(){
+  try{
+    const[jR,eR,mR]=await Promise.all([
+      fetch('data/jurisdictions.json'),
+      fetch('data/ethics-scores.json'),
+      fetch('data/meta.json')
+    ]);
+    if(!jR.ok||!eR.ok||!mR.ok)throw new Error('files missing');
+    DATA=await jR.json(); ETH=await eR.json(); META=await mR.json();
+    setKPI('kj',DATA.count);
+    setKPI('ke',META.by_status?.enacted||0);
+    setKPI('km',META.jurisdiction_count||0);
+    setKPI('kc',(META.by_status?.consultation||0)+(META.by_status?.draft||0));
+    const rs=document.getElementById('reg-sub');
+    if(rs)rs.textContent=`${DATA.count} jurisdiction${DATA.count!==1?'s':''} · click any card for detail`;
+    const es=document.getElementById('eth-sub');
+    if(es&&META.average_composite)es.textContent=`Global composite average: ${META.average_composite}/100 across ${DATA.count} jurisdictions · 8 dimensions`;
+    renderReg(); renderEth(); renderMap(); renderTicker();
+  }catch(e){
+    showErr();
+  }
+}
+function setKPI(id,v){const el=document.getElementById(id);if(el)el.dataset.t=v;}
+function showErr(){
+  const g=document.getElementById('regGrid');
+  if(g)g.innerHTML=`<div class="data-err">
+    <div style="font-size:40px;margin-bottom:18px;opacity:.18" aria-hidden="true">⟁</div>
+    Run the build script first:<br><code>node build/extract.js</code><br>
+    Then serve locally: <code>cd site && npx serve .</code>
+  </div>`;
+}
+
+/* ─── WORLD MAP ──────────────────────────────────── */
+function renderMap(){
+  if(!DATA?.jurisdictions)return;
+  const g=document.getElementById('mapMarkers');
+  if(!g)return;
+  let h='';
+  DATA.jurisdictions.forEach(j=>{
+    const p=JP[j.id];
+    if(!p)return;
+    const col=SC[j.status]||'#8B9099';
+    const delay1=(Math.random()*2).toFixed(1);
+    const delay2=(Math.random()*2+1.4).toFixed(1);
+    h+=`
+      <g class="jur-marker" onclick="focusCard('${j.id}')" onkeydown="if(event.key==='Enter')focusCard('${j.id}')" tabindex="0" role="button" aria-label="${j.name}: ${j.status} framework, ethics score ${j.composite_score??'not yet scored'}">
+        <circle r="22" cx="${p.x}" cy="${p.y}" fill="${col}" opacity="0" class="jur-ring1" style="animation-delay:${delay1}s"/>
+        <circle r="16" cx="${p.x}" cy="${p.y}" fill="${col}" opacity="0" class="jur-ring2" style="animation-delay:${delay2}s"/>
+        <circle class="base" r="5" cx="${p.x}" cy="${p.y}" fill="${col}" opacity=".9"/>
+        <circle r="2.5" cx="${p.x}" cy="${p.y}" fill="#06070A"/>
+        <text x="${p.x+8}" y="${p.y+3}" font-family="JetBrains Mono" font-size="6.5" fill="${col}" opacity=".75" pointer-events="none">${j.iso_code}</text>
+      </g>`;
+  });
+  // Show unlit dots for known positions without data
+  Object.entries(JP).forEach(([id,p])=>{
+    if(!DATA.jurisdictions.find(j=>j.id===id))
+      h+=`<circle cx="${p.x}" cy="${p.y}" r="3" fill="#252B36" opacity=".6" aria-hidden="true"/>`;
+  });
+  g.innerHTML=h;
+}
+function focusCard(id){
+  const idx=DATA?.jurisdictions?.findIndex(j=>j.id===id);
+  if(idx!=null&&idx>=0){
+    document.getElementById('regulatory')?.scrollIntoView({behavior:'smooth'});
+    setTimeout(()=>selectReg(idx),380);
+  }
+}
+
+/* ─── REGULATORY CARDS ───────────────────────────── */
+function renderReg(){
+  if(!DATA?.jurisdictions)return;
+  document.getElementById('regGrid').innerHTML=DATA.jurisdictions.map((r,i)=>`
+    <div class="reg-card" role="listitem" tabindex="0" id="rc${i}"
+      onclick="selectReg(${i})" onkeydown="if(event.key==='Enter'||event.key===' ')selectReg(${i})"
+      aria-expanded="false" aria-controls="regDet"
+      aria-label="${r.name}: ${r.status} framework, ethics score ${r.composite_score??'not yet scored'}. Click to expand.">
+      <div class="rc-code">${r.iso_code} · ${r.year_enacted||r.year_effective||'—'}</div>
+      <div class="rc-name">${r.flag||''} ${r.name}</div>
+      <div class="rc-law">${r.primary_law}</div>
+      <div class="rc-status">
+        <div class="rc-dot" style="background:${SC[r.status]||'#8B9099'}" aria-hidden="true"></div>
+        <span style="color:${SC[r.status]||'#8B9099'}">${cap(r.status)}</span>
+      </div>
+      <div class="rc-score" aria-hidden="true">${r.composite_score??'—'}</div>
+      <div class="rc-conf" aria-hidden="true">${r.confidence}</div>
+    </div>`).join('');
+}
+
+/* ─── REGULATORY DETAIL ──────────────────────────── */
+async function selectReg(i){
+  const det=document.getElementById('regDet');
+  if(selIdx===i){
+    selIdx=null; det.style.display='none';
+    document.querySelectorAll('.reg-card').forEach(c=>{c.classList.remove('sel');c.setAttribute('aria-expanded','false');});
+    return;
+  }
+  selIdx=i;
+  document.querySelectorAll('.reg-card').forEach((c,ci)=>{
+    c.classList.toggle('sel',ci===i);
+    c.setAttribute('aria-expanded',ci===i?'true':'false');
+  });
+  const r=DATA.jurisdictions[i];
+  det.style.display='block';
+  det.innerHTML=`<div style="padding:28px 48px;color:var(--muted);font-size:14px">Loading full entry…</div>`;
+  setTimeout(()=>det.scrollIntoView({behavior:'smooth',block:'nearest'}),80);
+
+  let full=null;
+  try{const res=await fetch(`data/jurisdictions/${r.id}.json`);if(res.ok)full=await res.json();}catch(e){}
+  const cit=full?.citizen||{}, res2=full?.research||{}, fw=full?.framework||r;
+
+  det.innerHTML=`
+    <div class="det-head">
+      <div>
+        <div class="det-code">${r.iso_code} · ${fw.year_enacted||'—'}</div>
+        <h3 class="det-name">${r.flag||''} ${r.name}</h3>
+        <div class="det-law">${r.primary_law}</div>
+      </div>
+      <div style="text-align:right;flex-shrink:0">
+        <div class="det-score-n" aria-label="Ethics score: ${r.composite_score??'not yet scored'}">${r.composite_score??'—'}</div>
+        <div class="det-score-l">Ethics score</div>
+      </div>
+    </div>
+    <div class="view-tabs" role="tablist" aria-label="View mode">
+      <button class="vt on" role="tab" id="tc" aria-selected="true" aria-controls="pc" onclick="sv('citizen')">For Citizens</button>
+      <button class="vt" role="tab" id="tr" aria-selected="false" aria-controls="pr" onclick="sv('researcher')">For Researchers</button>
+    </div>
+
+    <div id="pc" class="pane on" role="tabpanel" aria-labelledby="tc">
+      ${cit.one_line?`<div class="cit-ol"><div class="cit-ol-l">In plain language</div><p class="cit-ol-t">${cit.one_line}</p></div>`:''}
+      ${cit.what_changed?`<div style="margin-bottom:28px"><div class="sec-label">What has changed</div><p style="font-size:15px;color:var(--muted);line-height:1.9">${cit.what_changed}</p></div>`:''}
+      ${cit.your_rights?.length?`
+        <div style="margin-bottom:32px">
+          <div class="sec-label">Your rights</div>
+          <ul class="rights-ul" aria-label="Rights under this framework">
+            ${cit.your_rights.map(rt=>`<li class="right-li"><div class="right-name">${rt.right}</div><div class="right-means">${rt.what_it_means}</div><div class="right-how">${rt.how_to_invoke}</div></li>`).join('')}
+          </ul>
+        </div>`:''}
+      <div class="who-grid">
+        ${cit.who_is_protected?`<div><div class="sec-label">Who is protected</div><p style="font-size:14px;color:var(--muted);line-height:1.85">${cit.who_is_protected}</p></div>`:''}
+        ${cit.who_is_not_protected?.length?`<div><div class="sec-label">Who is not protected</div><ul class="who-ul">${cit.who_is_not_protected.map(w=>`<li class="who-li">${w}</li>`).join('')}</ul></div>`:''}
+      </div>
+      ${cit.plain_language_summary?`<div class="summary-box"><div class="sec-label" style="margin-bottom:10px">Summary</div><p class="summary-txt">${cit.plain_language_summary}</p></div>`:''}
+      ${cit.jargon_buster&&Object.keys(cit.jargon_buster).length?`
+        <div>
+          <div class="sec-label">Jargon explained</div>
+          <div class="jargon-grid">
+            ${Object.entries(cit.jargon_buster).map(([t,d])=>`<div class="jargon-item"><div class="jargon-t">${t}</div><div class="jargon-d">${d}</div></div>`).join('')}
+          </div>
+        </div>`:''}
+    </div>
+
+    <div id="pr" class="pane" role="tabpanel" aria-labelledby="tr">
+      ${res2.summary?`<div style="margin-bottom:32px"><div class="sec-label">Overview</div><p style="font-size:15px;color:var(--text2);line-height:2">${res2.summary}</p></div>`:''}
+      <div style="margin-bottom:32px">
+        <div class="sec-label">Ethical dimension scores</div>
+        <div class="score-grid" role="list">
+          ${DK.map(k=>{const s=res2.ethical_dimension_scores?.[k];const sc=s?.score??0;const m=DM[k];return`
+          <div class="score-item" role="listitem" aria-label="${m.name}: ${sc} out of 100">
+            <div class="score-dim">${m.name}</div>
+            <div class="score-n" style="color:${m.color}">${sc}</div>
+            <div class="score-bar"><div class="score-fill" style="width:${sc}%;background:${m.color}"></div></div>
+            ${s?.rationale?`<div class="score-rat">${s.rationale}</div>`:''}
+          </div>`}).join('')}
+        </div>
+      </div>
+      ${res2.gaps_and_weaknesses?.length?`<div style="margin-bottom:28px"><div class="sec-label">Gaps and weaknesses</div><ul class="gaps-ul">${res2.gaps_and_weaknesses.map(g=>`<li class="gaps-li">${g}</li>`).join('')}</ul></div>`:''}
+      ${res2.cross_jurisdiction_tensions?.length?`<div style="margin-bottom:28px"><div class="sec-label">Cross-jurisdiction tensions</div><ul class="tension-ul">${res2.cross_jurisdiction_tensions.map(t=>`<li class="tension-it"><div class="tension-jur">vs. ${t.jurisdiction_b?.toUpperCase()}</div><div class="tension-txt">${t.tension}</div><span class="tension-sev sev-${t.severity}">${t.severity} severity</span></li>`).join('')}</ul></div>`:''}
+      ${res2.monitor_notes?`<div class="monitor-note"><div class="sec-label" style="margin-bottom:10px">Monitor notes</div><p>${res2.monitor_notes}</p></div>`:''}
+    </div>`;
+}
+
+function sv(v){
+  document.getElementById('pc').classList.toggle('on',v==='citizen');
+  document.getElementById('pr').classList.toggle('on',v==='researcher');
+  document.getElementById('tc').classList.toggle('on',v==='citizen');
+  document.getElementById('tr').classList.toggle('on',v==='researcher');
+  document.getElementById('tc').setAttribute('aria-selected',v==='citizen');
+  document.getElementById('tr').setAttribute('aria-selected',v==='researcher');
+}
+
+/* ─── ETHICS TABLE ───────────────────────────────── */
+function renderEth(){
+  if(!ETH?.dimensions)return;
+  document.getElementById('ethTable').innerHTML=Object.entries(DM).map(([key,meta])=>{
+    const dim=ETH.dimensions[key];
+    const score=dim?.global_average??0;
+    return`
+    <div class="eth-row" role="listitem">
+      <div class="dim-icon" style="color:${meta.color};border-color:${meta.color}22" aria-hidden="true">
+        ${ICONS[key]||''}
+      </div>
+      <div>
+        <div class="eth-label">${meta.name}</div>
+        <div class="eth-sub">${meta.sub}</div>
+      </div>
+      <div class="eth-track" role="progressbar" aria-valuenow="${score}" aria-valuemin="0" aria-valuemax="100" aria-label="${meta.name} global average: ${score} out of 100">
+        <div class="eth-fill" style="background:${meta.color}" data-t="${score}"></div>
+      </div>
+      <div class="eth-score" style="color:${meta.color}" aria-hidden="true">${score}</div>
+      <div class="eth-meta">
+        <div class="eth-jcount">${dim?.jurisdiction_count??0} jurisdictions</div>
+        ${dim?.highest!=null?`<div class="eth-high">High: ${dim.highest}</div>`:''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* ─── TICKER ─────────────────────────────────────── */
+function renderTicker(){
+  const el=document.getElementById('ticker'); if(!el)return;
+  const items=(DATA&&DATA.jurisdictions||[]).map(j=>({iso:j.iso||j.id.toUpperCase(),text:(j.name||'')+' — '+(j.status||'')+' · composite '+(j.composite_score??'n/a')+'/100'}));
+  if(!items.length){el.textContent='';return;}
+  el.innerHTML=[...items,...items].map(t=>`<span class="t-item"><b>${t.iso}</b>${t.text}</span>`).join('');
+}
+
+
+/* ─── ANIMATIONS ─────────────────────────────────── */
+function countUp(){
+  if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){
+    document.querySelectorAll('.cu').forEach(el=>el.textContent=el.dataset.t||0); return;
+  }
+  document.querySelectorAll('.cu').forEach(el=>{
+    const tgt=+el.dataset.t||0; if(!tgt)return;
+    const dur=1800,t0=performance.now();
+    const step=now=>{
+      const p=Math.min((now-t0)/dur,1),e=1-Math.pow(1-p,3);
+      el.textContent=Math.floor(e*tgt);
+      if(p<1)requestAnimationFrame(step); else el.textContent=tgt;
+    };
+    requestAnimationFrame(step);
+  });
+}
+function animBars(){
+  if(barsAnimated)return; barsAnimated=true;
+  document.querySelectorAll('.eth-fill').forEach(b=>b.style.width=b.dataset.t+'%');
+}
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('vis');
+      if(e.target.id==='ethics')setTimeout(animBars,500);
+    }
+  });
+},{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+/* ─── HELPERS ────────────────────────────────────── */
+function cap(s){return s?s[0].toUpperCase()+s.slice(1):'—';}
+
+/* ─── INIT ───────────────────────────────────────── */
+fetch('data/ticker.json').then(r=>r.json()).catch(()=>null).finally(()=>{
+  loadData().then(()=>{
+    
+    setTimeout(countUp,700);
+    setTimeout(animBars,1800);
+  });
+});
+</script>
+</body>
+</html>

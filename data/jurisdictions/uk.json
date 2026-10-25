@@ -1,0 +1,210 @@
+{
+  "_generated": "2026-10-25T11:24:07.713Z",
+  "_schema_version": "1.0.0",
+  "meta": {
+    "id": "uk",
+    "name": "United Kingdom",
+    "region": "Europe",
+    "population": 67000000,
+    "iso_code": "GB",
+    "flag_emoji": "🇬🇧",
+    "entry_author": "AETHON Lead",
+    "entry_reviewed": false,
+    "last_updated": "2025-05-23",
+    "next_review_due": "2025-08-23",
+    "confidence": "high"
+  },
+  "framework": {
+    "primary_law": "Pro-Innovation AI Regulation White Paper + AI Safety Institute",
+    "status": "active",
+    "approach": "sectoral",
+    "binding": false,
+    "year_enacted": 2023,
+    "year_effective": 2023,
+    "enforcement_begins": null,
+    "review_scheduled": "2026-01-01",
+    "enforcing_body": "Existing sector regulators (FCA, ICO, CMA, Ofcom) + AI Safety Institute",
+    "max_penalty": "Varies by sector regulator",
+    "geographic_scope": "UK persons and entities; some extraterritorial application via sector regulators",
+    "source_documents": [
+      {
+        "title": "A pro-innovation approach to AI regulation — UK Government White Paper",
+        "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+        "local_path": "source/regulatory/uk/uk-ai-regulation-white-paper-2023.pdf",
+        "type": "strategy",
+        "date": "2023-03-29"
+      },
+      {
+        "title": "UK AI Safety Institute — Frontier AI Safety Evaluations",
+        "url": "https://www.gov.uk/government/organisations/ai-safety-institute",
+        "local_path": "source/regulatory/uk/uk-aisi-framework-2024.pdf",
+        "type": "official_guidance",
+        "date": "2024-05-01"
+      },
+      {
+        "title": "ICO Guidance on AI and Data Protection",
+        "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/",
+        "local_path": "source/regulatory/uk/uk-ico-ai-guidance-2024.pdf",
+        "type": "official_guidance",
+        "date": "2024-03-01"
+      }
+    ]
+  },
+  "research": {
+    "summary": "Post-Brexit, the UK has deliberately chosen not to pass comprehensive horizontal AI legislation, instead relying on existing sector regulators to address AI harms within their domains. The 2023 White Paper established five cross-cutting principles — safety, security and robustness; appropriate transparency and explainability; fairness; accountability and governance; contestability and redress — but these are not legally binding. The AI Safety Institute focuses exclusively on frontier model safety evaluation, not on consumer protection or rights.",
+    "risk_tiers": [],
+    "key_provisions": [
+      {
+        "id": "five_principles",
+        "title": "Five cross-cutting AI principles",
+        "description": "Safety, security and robustness; appropriate transparency and explainability; fairness; accountability and governance; contestability and redress. Issued to existing regulators as guidance — not legally binding on industry.",
+        "article_reference": "AI Regulation White Paper, 2023"
+      },
+      {
+        "id": "aisi",
+        "title": "AI Safety Institute",
+        "description": "Government body conducting pre-deployment safety evaluations of frontier AI models. Publishes standardised evaluation frameworks. Focused on catastrophic and systemic risk from powerful models, not on everyday AI harms to individuals.",
+        "article_reference": "Established November 2023"
+      },
+      {
+        "id": "ico_ai",
+        "title": "ICO AI and data protection guidance",
+        "description": "The Information Commissioner's Office applies UK GDPR to AI systems processing personal data. Includes guidance on automated decision-making, fairness in AI, and transparency. Legally binding under UK GDPR.",
+        "article_reference": "UK GDPR Article 22"
+      },
+      {
+        "id": "sector_approach",
+        "title": "Sector-led enforcement",
+        "description": "The FCA regulates AI in financial services. Ofcom regulates AI in media and communications. CMA addresses AI competition concerns. Each regulator interprets the five principles within their own frameworks — creating inconsistency across sectors.",
+        "article_reference": "AI Regulation White Paper, Section 4"
+      }
+    ],
+    "cross_jurisdiction_tensions": [
+      {
+        "jurisdiction_b": "eu",
+        "tension": "Post-Brexit regulatory divergence is widening. UK explicitly rejected a horizontal EU-style AI Act. A system compliant with the EU AI Act is not automatically compliant in the UK and vice versa. UK-based providers serving EU customers must comply with EU AI Act regardless, creating dual compliance obligations.",
+        "severity": "high"
+      },
+      {
+        "jurisdiction_b": "us",
+        "tension": "Both jurisdictions favour sector-led, pro-innovation approaches without comprehensive legislation. Closer alignment than UK-EU, but enforcement mechanisms differ significantly — US has FTC with broad consumer protection mandate; UK distributes responsibility across multiple sector regulators.",
+        "severity": "low"
+      }
+    ],
+    "ethical_dimension_scores": {
+      "safety_risk_management": {
+        "score": 71,
+        "rationale": "AISI conducts frontier model evaluations — genuinely world-leading in this narrow domain. But no mandatory risk classification for everyday AI systems. No pre-deployment assessment requirements for non-frontier models."
+      },
+      "privacy_data_protection": {
+        "score": 74,
+        "rationale": "UK GDPR applies to AI processing personal data. ICO guidance is detailed and enforceable. Weakened slightly by post-Brexit uncertainty around adequacy decisions and potential future divergence from EU data standards."
+      },
+      "human_oversight": {
+        "score": 62,
+        "rationale": "UK GDPR Article 22 provides a right to human review of solely automated decisions. Not extended or strengthened by the AI White Paper. No equivalent to EU AI Act's design obligation for human oversight capability."
+      },
+      "transparency": {
+        "score": 65,
+        "rationale": "ICO guidance requires transparency in automated decision-making under UK GDPR. White Paper principle of appropriate transparency and explainability is not binding. No equivalent to EU AI Act's mandatory labelling of AI-generated content."
+      },
+      "accountability": {
+        "score": 68,
+        "rationale": "Existing sector regulators have enforcement powers. ICO can fine up to £17.5m or 4% of global turnover for GDPR breaches. No AI-specific liability framework. Accountability fragmented across regulators."
+      },
+      "fairness_non_discrimination": {
+        "score": 66,
+        "rationale": "Equality Act 2010 applies to algorithmic discrimination. ICO fairness guidance covers AI. No mandatory bias testing requirement. Fairness principle in White Paper is non-binding."
+      },
+      "environmental_sustainability": {
+        "score": 22,
+        "rationale": "No AI-specific environmental requirements. No energy reporting obligations for AI systems. Environmental sustainability not addressed in the White Paper or AISI framework."
+      },
+      "access_to_remedy": {
+        "score": 64,
+        "rationale": "UK GDPR provides right to explanation and human review for automated decisions. ICO as complaints body. White Paper principle of contestability and redress is non-binding. No dedicated AI complaints mechanism beyond existing channels."
+      }
+    },
+    "gaps_and_weaknesses": [
+      "No binding horizontal AI legislation — five principles are guidance only",
+      "Frontier model focus of AISI leaves everyday AI harms unaddressed",
+      "Sector-led approach creates inconsistent protections across industries",
+      "Post-Brexit divergence from EU creates dual compliance burden for UK companies serving EU customers",
+      "No mandatory AI-generated content labelling requirement",
+      "No binding bias testing or algorithmic fairness standard",
+      "Environmental impact of AI entirely unaddressed"
+    ],
+    "academic_references": [],
+    "monitor_notes": "Government committed to review the non-statutory approach in 2025 and consider whether binding legislation is needed. New AI legislation remains politically contested. AISI renamed AI Security Institute in some communications — watch for rebranding. Labour government elected July 2024 has signalled more appetite for regulation but has not committed to a binding AI Act equivalent."
+  },
+  "citizen": {
+    "one_line": "The UK has chosen not to pass a single AI law — instead existing regulators in each industry are responsible for keeping AI in check, which means your protections depend on which sector you're in.",
+    "what_changed": "The government published a policy document in 2023 setting out principles for how AI should be regulated, and set up the AI Safety Institute to evaluate the most powerful AI systems. But these do not give you new legal rights — your existing rights under UK GDPR still apply, and your main protection comes from whichever industry regulator covers your situation.",
+    "real_world_examples": [
+      {
+        "scenario": "Job application",
+        "before": "An employer could use AI to screen or reject your application with no requirement to tell you or explain why.",
+        "after": "If the AI decision was made solely by an automated system with no human involvement, UK GDPR gives you the right to request human review and an explanation. But the employer must tell you this is available — many do not. If they used a human alongside the AI, these rights may not apply."
+      },
+      {
+        "scenario": "Financial decision — loan or insurance",
+        "before": "A lender or insurer could use AI to set your price or deny your application based on data you don't know is being used.",
+        "after": "The Financial Conduct Authority requires financial firms to treat customers fairly, which extends to algorithmic decisions. If you are treated unfairly by an AI decision from a bank or insurer, you can complain to the Financial Ombudsman Service — a free and accessible route that does not require a lawyer."
+      },
+      {
+        "scenario": "Content moderation or online harm",
+        "before": "Platforms could use AI to remove your content or ban your account without meaningful explanation or appeal.",
+        "after": "The Online Safety Act 2023 requires platforms to have accessible complaints and appeals processes. Ofcom enforces this. If a platform's AI moderation system treats you unfairly, you can complain to the platform and then to Ofcom if unresolved."
+      }
+    ],
+    "who_is_protected": "Anyone in the UK whose personal data is processed by an AI system has rights under UK GDPR. People using financial services have protections through the FCA. People affected by online AI moderation have protections under the Online Safety Act. Protection is strongest where a specific sector regulator has issued clear AI guidance.",
+    "who_is_not_protected": [
+      "Anyone seeking a single, consistent set of AI rights — these do not exist in the UK",
+      "People affected by AI in sectors without a strong regulator or clear AI guidance",
+      "Anyone wanting a right to know when AI-generated content is AI-made — no labelling requirement exists in the UK",
+      "People harmed by everyday AI systems — the AI Safety Institute focuses only on powerful frontier models, not consumer-facing AI harms"
+    ],
+    "your_rights": [
+      {
+        "right": "Right to human review of automated decisions",
+        "what_it_means": "If a decision about you was made solely by an automated system — with no human involved — you have the right to request that a human reviews it. This applies to decisions that significantly affect you, like a loan rejection or a job application outcome.",
+        "how_to_invoke": "Write to the company and state you are exercising your right under UK GDPR Article 22 to request human review of the automated decision. If they ignore you, complain to the ICO at ico.org.uk/make-a-complaint."
+      },
+      {
+        "right": "Right to an explanation of an automated decision",
+        "what_it_means": "You can ask a company to explain the logic behind an automated decision that significantly affects you — what factors were used, and how they led to that outcome.",
+        "how_to_invoke": "Make a Subject Access Request to the company, specifically requesting information about the logic involved in automated processing. Template letters are available at ico.org.uk."
+      },
+      {
+        "right": "Right to complain about unfair AI in financial services",
+        "what_it_means": "If a bank, insurer, or lender uses AI in a way that treats you unfairly, you can complain without needing a lawyer.",
+        "how_to_invoke": "Complain to the company first. If unresolved within 8 weeks, take your complaint to the Financial Ombudsman Service at financial-ombudsman.org.uk — it is free and legally binding on firms."
+      },
+      {
+        "right": "Right to complain about AI content moderation",
+        "what_it_means": "If an online platform's AI removes your content or restricts your account unfairly, you have the right to appeal.",
+        "how_to_invoke": "Use the platform's appeals process first. If that fails, you can report the platform to Ofcom at ofcom.org.uk if it is subject to the Online Safety Act."
+      }
+    ],
+    "plain_language_summary": "The UK government decided not to write a single new AI law. Instead, it told existing regulators — the ones already in charge of banks, media companies, and data protection — to handle AI within their own areas. This means your protections are different depending on who is using AI on you. Your strongest protection is the right to request a human review of any automated decision that significantly affects you — this already exists under UK GDPR and most people don't know about it.",
+    "jargon_buster": {
+      "UK GDPR": "The UK's data protection law — it gives you rights over how your personal data is used, including by AI systems.",
+      "ICO": "Information Commissioner's Office — the regulator that enforces data protection law and handles complaints about how organisations use your data.",
+      "FCA": "Financial Conduct Authority — the regulator for banks, insurers, and financial services. Handles complaints about unfair AI in financial decisions.",
+      "AISI": "AI Safety Institute — a government body that tests the most powerful AI systems for safety risks. It does not handle individual complaints.",
+      "Automated decision": "A decision made entirely by a computer system with no human involvement — for example, an algorithm rejecting your loan application without any person reviewing it.",
+      "Frontier model": "An extremely powerful AI system at the cutting edge of capability — like the systems behind ChatGPT or Gemini. The AISI focuses on evaluating these."
+    },
+    "still_confused": "Use the Insight Engine on this site to ask any question about how AI regulation in the UK affects your specific situation."
+  },
+  "monitor": {
+    "assigned_to": null,
+    "monitor_name": null,
+    "monitor_affiliation": null,
+    "monitor_country": "United Kingdom",
+    "contact": null,
+    "update_frequency": "monthly",
+    "last_submission": null,
+    "submission_format": "github_pr"
+  }
+}

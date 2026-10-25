@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-10-25T11:24:07.726Z",
+  "schema_version": "1.0.0",
+  "jurisdiction_count": 3,
+  "monitored_count": 0,
+  "high_confidence": 2,
+  "by_region": {
+    "Europe": 2,
+    "Americas": 1
+  },
+  "by_status": {
+    "enacted": 1,
+    "active": 2
+  },
+  "by_approach": {
+    "comprehensive": 1,
+    "sectoral": 2
+  },
+  "build_errors": [],
+  "average_composite": 64
+}

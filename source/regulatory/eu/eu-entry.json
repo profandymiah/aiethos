@@ -1,0 +1,247 @@
+{
+  "_schema_version": "1.0.0",
+  "_schema_description": "AETHON Observatory — Jurisdiction entry schema. Every field is required unless marked [optional]. The citizen_layer fields are as important as the research_layer fields — they are not summaries of the research layer, they are a separate act of translation.",
+  "_last_updated": "2025-05-23",
+
+  "jurisdiction": {
+
+    "meta": {
+      "id": "eu",
+      "name": "European Union",
+      "region": "Europe",
+      "population": 448000000,
+      "iso_code": "EU",
+      "flag_emoji": "🇪🇺",
+      "entry_author": "Your name or monitor name",
+      "entry_reviewed": false,
+      "last_updated": "2025-05-23",
+      "next_review_due": "2025-08-23",
+      "confidence": "high",
+      "_confidence_note": "high | medium | low — reflects quality and recency of source material available"
+    },
+
+    "framework": {
+      "primary_law": "EU AI Act (Regulation EU 2024/1689)",
+      "status": "enacted",
+      "_status_options": ["enacted", "active", "draft", "consultation", "voluntary", "advisory", "none"],
+      "approach": "comprehensive",
+      "_approach_options": ["comprehensive", "sectoral", "voluntary", "rights-based", "innovation-led", "state-directed"],
+      "binding": true,
+      "year_enacted": 2024,
+      "year_effective": 2026,
+      "enforcement_begins": "2026-08-02",
+      "review_scheduled": "2029-01-01",
+      "enforcing_body": "EU AI Office, national competent authorities",
+      "max_penalty": "€35 million or 7% of global annual turnover",
+      "geographic_scope": "Extraterritorial — applies to any AI system used in the EU regardless of provider location",
+      "source_documents": [
+        {
+          "title": "EU AI Act — Official Journal full text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+          "local_path": "source/regulatory/eu/eu-ai-act-2024.pdf",
+          "type": "primary_legislation",
+          "date": "2024-07-12"
+        },
+        {
+          "title": "EU AI Act Implementation Timeline",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "local_path": "source/regulatory/eu/eu-ai-act-implementation-timeline.pdf",
+          "type": "official_guidance",
+          "date": "2024-08-01"
+        }
+      ]
+    },
+
+    "research_layer": {
+
+      "summary": "The EU AI Act is the world's first comprehensive horizontal AI law, applying a risk-tiered classification system to all AI systems placed on the EU market or used within it, regardless of where the provider is based. It prohibits outright a set of unacceptable-risk applications, imposes extensive conformity assessment obligations on high-risk systems, and introduces a novel governance regime for general-purpose AI (GPAI) models above compute thresholds.",
+
+      "risk_tiers": [
+        {
+          "tier": "Unacceptable risk",
+          "description": "Prohibited outright. Includes social scoring by public authorities, real-time remote biometric identification in public spaces (with narrow exceptions), AI that exploits vulnerabilities, subliminal manipulation, and emotion recognition in workplaces and educational institutions.",
+          "effective": "2025-02-02"
+        },
+        {
+          "tier": "High risk",
+          "description": "Permitted but subject to strict conformity assessments, risk management systems, data governance requirements, transparency obligations, human oversight, and accuracy standards. Covers AI in employment, education, critical infrastructure, essential services, law enforcement, migration, and administration of justice.",
+          "effective": "2026-08-02"
+        },
+        {
+          "tier": "Limited risk",
+          "description": "Transparency obligations only. Chatbots must disclose they are AI. Deepfakes must be labelled.",
+          "effective": "2025-08-02"
+        },
+        {
+          "tier": "Minimal risk",
+          "description": "No specific obligations under the Act. Voluntary codes of conduct encouraged.",
+          "effective": "2024-08-01"
+        }
+      ],
+
+      "key_provisions": [
+        {
+          "id": "gpai",
+          "title": "General-Purpose AI Model obligations",
+          "description": "Providers of GPAI models must produce technical documentation, comply with EU copyright law for training data, publish summaries of training data. Models above 10^25 FLOPs are classified as systemic-risk models with additional safety and adversarial testing obligations.",
+          "article_reference": "Articles 51–55"
+        },
+        {
+          "id": "transparency",
+          "title": "Transparency and disclosure",
+          "description": "AI-generated content, deepfakes, and chatbot interactions must be clearly labelled. Users of high-risk systems must be informed they are subject to AI-assisted decision-making.",
+          "article_reference": "Articles 50, 13"
+        },
+        {
+          "id": "human_oversight",
+          "title": "Human oversight requirement",
+          "description": "High-risk AI systems must be designed to allow meaningful human oversight, including the ability to override, interrupt, or stop the system. This is a design obligation, not merely a policy one.",
+          "article_reference": "Article 14"
+        },
+        {
+          "id": "right_to_explanation",
+          "title": "Right to explanation",
+          "description": "Individuals subject to high-risk AI decisions have the right to an explanation of the decision and to challenge it. Applies particularly in employment, credit, social benefits, and law enforcement contexts.",
+          "article_reference": "Article 86"
+        }
+      ],
+
+      "cross_jurisdiction_tensions": [
+        {
+          "jurisdiction_b": "us",
+          "tension": "Liability model: EU places obligations on providers and deployers upstream; US approach is sector-by-sector with no equivalent upstream liability regime. Multinational operators face fundamentally incompatible compliance frameworks.",
+          "severity": "high"
+        },
+        {
+          "jurisdiction_b": "cn",
+          "tension": "Training data transparency: EU requires copyright-compliant training data and published summaries. China's regime requires content alignment with state values but does not impose equivalent copyright disclosure requirements. Models trained on Chinese data may not be relicensable for EU compliance.",
+          "severity": "high"
+        },
+        {
+          "jurisdiction_b": "uk",
+          "tension": "Post-Brexit divergence: UK is pursuing a sector-led, pro-innovation approach without equivalent horizontal legislation. A system compliant with the EU AI Act is not automatically compliant in the UK and vice versa. Gap is widening as EU enforcement begins.",
+          "severity": "medium"
+        }
+      ],
+
+      "ethical_dimension_scores": {
+        "_methodology": "Scored 0–100 against defined criteria. See /data/methodology.json for scoring rubric. Not an endorsement of the framework — a high score reflects the presence and quality of provisions, not their real-world effectiveness.",
+        "safety_risk_management": { "score": 94, "rationale": "Most comprehensive risk classification system globally. Mandatory conformity assessments, post-market monitoring, and systemic-risk model requirements." },
+        "privacy_data_protection": { "score": 88, "rationale": "Strong data governance requirements for training data, combined with GDPR applicability to AI systems processing personal data." },
+        "human_oversight": { "score": 91, "rationale": "Explicit design obligation for meaningful human oversight in high-risk systems, including override capability. One of the strongest provisions globally." },
+        "transparency": { "score": 86, "rationale": "Comprehensive disclosure requirements for high-risk systems and GPAI models. Labelling obligations for AI-generated content." },
+        "accountability": { "score": 82, "rationale": "Clear provider/deployer liability chain. Penalties among the highest globally. EU AI Office as enforcement body." },
+        "fairness_non_discrimination": { "score": 79, "rationale": "Non-discrimination requirements embedded in high-risk system obligations. Prohibition on social scoring. But no standalone algorithmic fairness standard." },
+        "environmental_sustainability": { "score": 41, "rationale": "GPAI models must report energy consumption. No binding sustainability thresholds. Weakest dimension relative to framework maturity." },
+        "access_to_remedy": { "score": 77, "rationale": "Right to explanation and challenge for high-risk AI decisions. National supervisory authorities as complaint bodies. No dedicated AI ombudsman." }
+      },
+
+      "gaps_and_weaknesses": [
+        "Environmental thresholds not binding — energy reporting without enforceable limits",
+        "Enforcement depends on national competent authorities — capacity varies enormously across member states",
+        "SME carve-outs may create compliance arbitrage where smaller providers avoid obligations",
+        "Foundation model liability still contested — deployer vs provider responsibility unclear in practice",
+        "Emotion recognition prohibition has workplace exceptions that civil society argues are too broad"
+      ],
+
+      "academic_references": [
+        {
+          "title": "Regulating AI in Europe: Four Problems and Four Solutions",
+          "authors": ["Floridi, L.", "Cowls, J."],
+          "journal": "Nature Machine Intelligence",
+          "year": 2022,
+          "local_path": "source/research/academic/floridi-cowls-regulating-ai-europe-2022.pdf"
+        }
+      ],
+
+      "monitor_notes": "AI omnibus proposal adopted November 2025 may modify implementation timeline. Digital Omnibus political agreement reached May 2026 — implications for enforcement dates under review."
+    },
+
+    "citizen_layer": {
+
+      "_design_note": "This layer is written for a person with no legal or technical background. It is not a simplification of the research layer — it is a separate act of translation. Accuracy is still paramount. When simplification would be misleading, say so plainly. Every field should pass this test: could a delivery driver, a job applicant, a benefits claimant, or a school student read this and know something they can act on?",
+
+      "one_line": "The EU has passed the world's most comprehensive law controlling how AI can be used — it bans some uses outright and requires companies to justify high-stakes AI decisions that affect you.",
+
+      "what_changed": "From August 2025, companies using AI to make important decisions about you — hiring you, giving you a loan, setting your insurance, assessing your benefits — must follow strict rules. The AI must be tested before it's used on real people. You must be told when AI is involved. And you have the right to ask why.",
+
+      "real_world_examples": [
+        {
+          "scenario": "Job application",
+          "before": "A company could use an AI system to screen your CV and reject you without telling you, with no way to appeal or even know it happened.",
+          "after": "Under the EU AI Act, AI used in hiring is classified as high-risk. The company must tell you AI is involved, must have human oversight of the process, and you have the right to ask for an explanation of any decision and to challenge it."
+        },
+        {
+          "scenario": "Bank loan",
+          "before": "An algorithm could reject your loan application based on patterns in data — your postcode, your spending habits, data points you don't know are being used — with no explanation.",
+          "after": "Credit scoring AI is high-risk under the Act. Lenders must be able to explain decisions, must test for discrimination, and must have a human available to review automated rejections."
+        },
+        {
+          "scenario": "Deepfake or AI-generated content",
+          "before": "A video or image could be entirely AI-generated with no indication it isn't real.",
+          "after": "All AI-generated content — images, video, audio, text — must be clearly labelled as AI-generated. This took effect from August 2025."
+        },
+        {
+          "scenario": "Facial recognition in public",
+          "before": "Police or authorities could use real-time facial recognition cameras in public spaces — shopping centres, transport hubs, protests — to identify people.",
+          "after": "Real-time remote biometric identification in public spaces is banned, with very narrow exceptions for serious crime investigations requiring judicial authorisation. This is one of the strongest protections in the Act."
+        }
+      ],
+
+      "who_is_protected": "Anyone in the EU — citizen, resident, or visitor — who is subject to an AI decision in a high-risk context (employment, credit, benefits, education, healthcare, law enforcement, immigration). The law applies regardless of where the AI company is based.",
+
+      "who_is_not_protected": [
+        "People outside the EU unless the AI system's output is used within the EU",
+        "People affected by AI in lower-risk contexts where no specific obligations apply",
+        "People whose data was used to train AI models before the Act came into force — there is no retroactive protection for training data"
+      ],
+
+      "your_rights": [
+        {
+          "right": "Right to know AI is involved",
+          "what_it_means": "If a company uses AI to make a high-stakes decision about you — a job offer, a loan, a benefits assessment — they must tell you AI was involved.",
+          "how_to_invoke": "Ask the company directly. They are legally required to disclose this under Article 50 of the AI Act."
+        },
+        {
+          "right": "Right to an explanation",
+          "what_it_means": "You can ask why the AI made the decision it did. The company must be able to give you a meaningful answer — not just 'the algorithm decided'.",
+          "how_to_invoke": "Submit a written request to the company. If they refuse or give an inadequate explanation, you can complain to your national AI supervisory authority."
+        },
+        {
+          "right": "Right to human review",
+          "what_it_means": "For high-risk AI decisions, you have the right to have a human being review the decision — not just accept the AI's output.",
+          "how_to_invoke": "Request human review in writing. Under GDPR Article 22, you already have this right for fully automated decisions — the AI Act reinforces it."
+        },
+        {
+          "right": "Right to complain",
+          "what_it_means": "If you believe an AI system has been used illegally or unfairly, you can report it to national authorities.",
+          "how_to_invoke": "Contact your national data protection authority (which also handles AI Act complaints). In Germany: BfDI. In France: CNIL. In Ireland: DPC. Full list at edpb.europa.eu."
+        }
+      ],
+
+      "plain_language_summary": "Imagine AI as a powerful new employee that companies can hire to make decisions. The EU has decided that this employee needs supervision, especially when making important decisions about people's lives. The law says: some decisions are too important for AI to make without a human checking the work. Some uses of AI are simply banned — like using it to watch everyone's face in public places, or to score people like a video game to decide who gets services. If AI affects a big decision in your life, you now have the right to know about it, understand why, and argue against it.",
+
+      "jargon_buster": {
+        "High-risk AI": "AI used in situations where a wrong decision could seriously harm you — like a job, a loan, medical treatment, or a court case.",
+        "GPAI model": "A powerful AI system like ChatGPT or Gemini that can do many different things, not just one specific task.",
+        "Conformity assessment": "A legal check a company must pass before putting a high-risk AI on the market — like an MOT for AI systems.",
+        "Deployer": "The company or organisation actually using an AI system on you — your employer, your bank, your local council.",
+        "Provider": "The company that built and sold the AI system — like a tech company that sells a recruitment AI to employers."
+      },
+
+      "still_confused": "You can use the Insight Engine on this site to ask any question about how this law affects your specific situation. Type your question in plain language — no legal knowledge needed."
+    },
+
+    "monitor": {
+      "assigned_to": null,
+      "monitor_name": null,
+      "monitor_affiliation": null,
+      "monitor_country": null,
+      "contact": null,
+      "update_frequency": "monthly",
+      "last_submission": null,
+      "submission_format": "github_pr",
+      "_submission_format_options": ["github_pr", "form", "airtable", "email"]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "_generated": "2026-10-25T11:24:07.729Z",
+  "dimensions": {
+    "safety_risk_management": {
+      "global_average": 74,
+      "jurisdiction_count": 3,
+      "highest": 94,
+      "lowest": 58,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 94
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 71
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 58
+        }
+      ]
+    },
+    "privacy_data_protection": {
+      "global_average": 71,
+      "jurisdiction_count": 3,
+      "highest": 88,
+      "lowest": 52,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 88
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 74
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 52
+        }
+      ]
+    },
+    "human_oversight": {
+      "global_average": 66,
+      "jurisdiction_count": 3,
+      "highest": 91,
+      "lowest": 45,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 91
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 62
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 45
+        }
+      ]
+    },
+    "transparency": {
+      "global_average": 67,
+      "jurisdiction_count": 3,
+      "highest": 86,
+      "lowest": 49,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 86
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 65
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 49
+        }
+      ]
+    },
+    "accountability": {
+      "global_average": 68,
+      "jurisdiction_count": 3,
+      "highest": 82,
+      "lowest": 55,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 82
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 68
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 55
+        }
+      ]
+    },
+    "fairness_non_discrimination": {
+      "global_average": 69,
+      "jurisdiction_count": 3,
+      "highest": 79,
+      "lowest": 61,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 79
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 66
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 61
+        }
+      ]
+    },
+    "environmental_sustainability": {
+      "global_average": 27,
+      "jurisdiction_count": 3,
+      "highest": 41,
+      "lowest": 18,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 41
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 22
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 18
+        }
+      ]
+    },
+    "access_to_remedy": {
+      "global_average": 60,
+      "jurisdiction_count": 3,
+      "highest": 77,
+      "lowest": 38,
+      "by_jurisdiction": [
+        {
+          "id": "eu",
+          "name": "European Union",
+          "score": 77
+        },
+        {
+          "id": "uk",
+          "name": "United Kingdom",
+          "score": 64
+        },
+        {
+          "id": "us",
+          "name": "United States",
+          "score": 38
+        }
+      ]
+    }
+  }
+}
