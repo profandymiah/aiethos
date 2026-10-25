@@ -37,11 +37,14 @@ const THEMES = [
   ['auditing', 'audit* OR "impact assessment" OR assurance'],
 ];
 const JUR = [['eu', /\b(EU|European Union|GDPR|AI Act|Europe)\b/], ['us', /\b(US|U\.S\.|United States|American|America)\b/], ['uk', /\b(UK|United Kingdom|Britain|British)\b/], ['cn', /\bChin(a|ese)\b/], ['in', /\bIndia(n)?\b/], ['jp', /\bJapan(ese)?\b/], ['kr', /\bKorea(n)?\b/], ['sg', /\bSingapore\b/], ['br', /\bBrazil(ian)?\b/], ['au', /\bAustralia(n)?\b/], ['ca', /\bCanad(a|ian)\b/], ['ch', /\bSwiss|Switzerland\b/], ['ae', /\b(UAE|Emirates|Gulf)\b/], ['ke', /\b(Kenya|Africa(n)?)\b/], ['vn', /\bVietnam(ese)?\b/]];
+const DIAG = { requests: 0, failures: [] };
+const AIRE = /artificial intelligence|machine learning|algorithm|\bAI\b|autonomous|robot|language model|generative|deep learning|chatbot|ChatGPT|automated decision/i;
+const ETHRE = /ethic|moral|fair|bias|discriminat|accountab|responsib|transparen|explainab|governance|regulat|rights|trust|privacy|safety|risk|law|polic|principle/i;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function j(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try { const r = await fetch(url, { headers: { 'User-Agent': `AIETHOS/1.0 (mailto:${MAIL})` }, signal: AbortSignal.timeout(25000) });
-      if (r.ok) return await r.json(); if (!j.logged) { j.logged = 1; console.log('HTTP', r.status, url.slice(0, 160), (await r.text()).slice(0, 300)); } if (r.status === 404) return null; if (r.status === 429) await sleep(3000 * (i + 1)); } catch (e) {}
+      DIAG.requests++; if (r.ok) return await r.json(); if (DIAG.failures.length < 5) DIAG.failures.push({ status: r.status, url: url.slice(0, 400), body: (await r.text()).slice(0, 400) }); if (!j.logged) { j.logged = 1; console.log('HTTP', r.status, url.slice(0, 160), (await r.text()).slice(0, 300)); } if (r.status === 404) return null; if (r.status === 429) await sleep(3000 * (i + 1)); } catch (e) {}
     await sleep(1500 * (i + 1));
   }
   return null;
@@ -55,7 +58,13 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
       if (Date.now() - T0 > BUDGET) break;
       const expr = `${BASE} AND ${ETH} AND (${q})`.replace(/\*/g, '');
       const url = `https://api.openalex.org/works?filter=title_and_abstract.search:${encodeURIComponent(expr)},type:article,publication_year:${y},primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=${MAIL}`;
-      const d = await j(url); if (!d) continue;
+      let d = await j(url);
+      if (!d) {
+        const plain = `https://api.openalex.org/works?search=${encodeURIComponent('artificial intelligence ethics ' + q.replace(/[()"*]|\bOR\b|\bAND\b/g, ' ').replace(/\s+/g, ' ').trim())}&filter=type:article,publication_year:${y},primary_location.source.type:journal,has_doi:true&sort=cited_by_count:desc&per-page=25&mailto=${MAIL}`;
+        d = await j(plain);
+        if (d) d.results = (d.results || []).filter(w => AIRE.test(w.title || '') && ETHRE.test(w.title || ''));
+      }
+      if (!d) continue;
       let kept = 0;
       for (const w of d.results || []) {
         const src = w.primary_location && w.primary_location.source;
@@ -107,6 +116,6 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
   fs.mkdirSync('library', { recursive: true });
   fs.writeFileSync('library/scholarly.json', JSON.stringify({ generated: new Date().toISOString(), source: 'OpenAlex candidate search (Google Scholar has no API and blocks automated access), verified against Crossref',
     window: [FROM, TO], themes: THEMES.map(([id, q]) => ({ id, query: q })), publishers: [...new Set(PUBLISHERS.map(p => p[1]))].filter(p => !EXCLUDE.has(p)),
-    counts: { candidates: cand.size, verified: out.length, rejected: rejected.length }, rejected, papers: out }, null, 1));
+    diagnostics: DIAG, counts: { candidates: cand.size, verified: out.length, rejected: rejected.length }, rejected, papers: out }, null, 1));
   console.log('done', out.length, 'verified;', rejected.length, 'rejected');
 })();
