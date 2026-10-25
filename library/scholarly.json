@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T17:41:16.224Z",
+ "generated": "2026-10-25T17:44:48.163Z",
  "source": "Crossref search ranked by citations, filtered for AI plus ethics terms in the title (Google Scholar has no API and blocks automated access; OpenAlex rate-limited), journal-article type, publisher whitelist and retraction checks",
  "window": [
   2011,
@@ -97,37 +97,15 @@
   "BMJ"
  ],
  "diagnostics": {
-  "requests": 393,
-  "failures": [
-   {
-    "status": 429,
-    "url": "https://api.crossref.org/works?query.bibliographic=artificial%20intelligence%20ethics%20public%20sector%20government%20algorithmic%20decision-making%20welfare&filter=type:journal-article,from-pub-date:2019-01-01,until-pub-date:2019-12-31&sort=is-referenced-by-count&order=desc&rows=120&select=DOI,title,publisher,container-title,ISSN,issued,is-referenced-by-count,author,type&mailto=andymiah@gmail.co",
-    "body": ""
-   }
-  ]
+  "requests": 386,
+  "failures": []
  },
  "counts": {
-  "candidates": 104,
-  "verified": 95,
-  "rejected": 9
+  "candidates": 98,
+  "verified": 94,
+  "rejected": 4
  },
  "rejected": [
-  {
-   "doi": "10.1177/2053951716679679",
-   "reason": "outside window"
-  },
-  {
-   "doi": "10.1126/science.aat5991",
-   "reason": "outside window"
-  },
-  {
-   "doi": "10.1126/science.aax2342",
-   "reason": "outside window"
-  },
-  {
-   "doi": "10.1007/s11023-020-09539-2",
-   "reason": "seed title mismatch: Artificial Intelligence, Values, and Alignment"
-  },
   {
    "doi": "10.1145/3442188.3445922",
    "reason": "type proceedings-article"
@@ -143,10 +121,6 @@
   {
    "doi": "10.1145/3287560.3287596",
    "reason": "type proceedings-article"
-  },
-  {
-   "doi": "10.1007/s13347-021-00460-9",
-   "reason": "outside window"
   }
  ],
  "papers": [
@@ -166,7 +140,8 @@
     "Peter Asaro"
    ],
    "theme_ids": [
-    "public-sector"
+    "military",
+    "rights"
    ],
    "oa": false,
    "openalex": null,
@@ -195,7 +170,7 @@
    "doi": "10.1016/j.tra.2015.04.003",
    "title": "Preparing a nation for autonomous vehicles: opportunities, barriers and policy recommendations",
    "year": 2015,
-   "cited_by": 2059,
+   "cited_by": 2060,
    "journal": "Transportation Research Part A: Policy and Practice",
    "issn": [
     "0965-8564"
@@ -208,15 +183,14 @@
    ],
    "theme_ids": [
     "governance",
-    "military",
-    "operationalising"
+    "adoption"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2059,
+   "crossref_cited_by": 2060,
    "volume": "77",
    "pages": "167-181",
    "peer_review": {
@@ -275,6 +249,49 @@
    "is_review": false
   },
   {
+   "doi": "10.1177/2053951716679679",
+   "title": "The ethics of algorithms: Mapping the debate",
+   "year": 2016,
+   "cited_by": 2945,
+   "journal": "Big Data & Society",
+   "publisher": "SAGE",
+   "publisher_raw": "",
+   "authors": [
+    "Brent Daniel Mittelstadt",
+    "Patrick Allo",
+    "Mariarosaria Taddeo",
+    "Sandra Wachter"
+   ],
+   "theme_ids": [
+    "principles",
+    "accountability",
+    "bias"
+   ],
+   "seed": "ethics of algorithms",
+   "publisher_crossref": "SAGE Publications",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 2945,
+   "issn": [
+    "2053-9517",
+    "2053-9517"
+   ],
+   "volume": "3",
+   "issue": "2",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1177/2053951716679679",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
    "doi": "10.1145/2844110",
    "title": "Accountability in algorithmic decision making",
    "year": 2016,
@@ -290,6 +307,7 @@
     "Nicholas Diakopoulos"
    ],
    "theme_ids": [
+    "accountability",
     "public-sector"
    ],
    "oa": false,
@@ -330,24 +348,7 @@
     "Spyros Makridakis"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -388,7 +389,7 @@
     "Seth Flaxman"
    ],
    "theme_ids": [
-    "genai",
+    "governance",
     "public-sector"
    ],
    "oa": false,
@@ -414,50 +415,6 @@
    "jurisdictions": [
     "eu"
    ],
-   "is_review": false
-  },
-  {
-   "doi": "10.1109/tbme.2016.2609282",
-   "title": "Algorithmic Principles of Remote PPG",
-   "year": 2017,
-   "cited_by": 1158,
-   "journal": "IEEE Transactions on Biomedical Engineering",
-   "issn": [
-    "0018-9294",
-    "1558-2531"
-   ],
-   "publisher": "IEEE",
-   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
-   "authors": [
-    "Wenjin Wang",
-    "Albertus C. den Brinker",
-    "Sander Stuijk",
-    "Gerard de Haan"
-   ],
-   "theme_ids": [
-    "principles"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 1158,
-   "volume": "64",
-   "issue": "7",
-   "pages": "1479-1491",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1109/tbme.2016.2609282",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
    "is_review": false
   },
   {
@@ -568,6 +525,9 @@
     "Alex Pentland"
    ],
    "theme_ids": [
+    "bias",
+    "transparency",
+    "accountability",
     "public-sector"
    ],
    "oa": false,
@@ -660,9 +620,7 @@
     "Mariarosaria Taddeo"
    ],
    "theme_ids": [
-    "transparency",
-    "accountability",
-    "public-sector"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -752,7 +710,7 @@
    ],
    "theme_ids": [
     "bias",
-    "privacy"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
@@ -777,6 +735,47 @@
    "is_review": false
   },
   {
+   "doi": "10.1126/science.aat5991",
+   "title": "How AI can be a force for good",
+   "year": 2018,
+   "cited_by": 685,
+   "journal": "Science",
+   "publisher": "AAAS (Science)",
+   "publisher_raw": "",
+   "authors": [
+    "Mariarosaria Taddeo",
+    "Luciano Floridi"
+   ],
+   "theme_ids": [
+    "governance",
+    "principles"
+   ],
+   "seed": "force for good",
+   "publisher_crossref": "American Association for the Advancement of Science (AAAS)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 685,
+   "issn": [
+    "0036-8075",
+    "1095-9203"
+   ],
+   "volume": "361",
+   "issue": "6404",
+   "pages": "751-752",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1126/science.aat5991",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
    "doi": "10.1098/rsta.2018.0080",
    "title": "Governing artificial intelligence: ethical, legal and technical opportunities and challenges",
    "year": 2018,
@@ -792,13 +791,8 @@
     "Corinne Cath"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector",
-    "adoption"
+    "principles",
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -840,12 +834,7 @@
     "Nezih Hekim"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector"
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -888,7 +877,9 @@
     "Francesco Sardanelli"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles",
+    "governance",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -933,7 +924,8 @@
     "Marina Jirotka"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles",
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -974,7 +966,7 @@
     "Virginia Dignum"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -994,6 +986,49 @@
     "crossref_review_asserted": false
    },
    "url": "https://doi.org/10.1007/s10676-018-9450-z",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1126/science.aax2342",
+   "title": "Dissecting racial bias in an algorithm used to manage the health of populations",
+   "year": 2019,
+   "cited_by": 6540,
+   "journal": "Science",
+   "publisher": "AAAS (Science)",
+   "publisher_raw": "",
+   "authors": [
+    "Ziad Obermeyer",
+    "Brian Powers",
+    "Christine Vogeli",
+    "Sendhil Mullainathan"
+   ],
+   "theme_ids": [
+    "bias",
+    "health"
+   ],
+   "seed": "racial bias",
+   "publisher_crossref": "American Association for the Advancement of Science (AAAS)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 6540,
+   "issn": [
+    "0036-8075",
+    "1095-9203"
+   ],
+   "volume": "366",
+   "issue": "6464",
+   "pages": "447-453",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1126/science.aax2342",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -1074,23 +1109,7 @@
     "Brent Mittelstadt"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -1128,10 +1147,7 @@
     "Josh Cowls"
    ],
    "theme_ids": [
-    "principles",
-    "privacy",
-    "genai",
-    "operationalising"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -1171,7 +1187,8 @@
     "Paul Cooper"
    ],
    "theme_ids": [
-    "governance"
+    "governance",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -1268,6 +1285,8 @@
     "Philipp Berens"
    ],
    "theme_ids": [
+    "principles",
+    "health",
     "public-sector"
    ],
    "oa": false,
@@ -1311,24 +1330,8 @@
     "Adrien Bennetot"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
     "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "accountability"
    ],
    "oa": false,
    "openalex": null,
@@ -1411,49 +1414,6 @@
    "is_review": false
   },
   {
-   "doi": "10.1109/tip.2020.2977573",
-   "title": "DDcGAN: A Dual-Discriminator Conditional Generative Adversarial Network for Multi-Resolution Image Fusion",
-   "year": 2020,
-   "cited_by": 1354,
-   "journal": "IEEE Transactions on Image Processing",
-   "issn": [
-    "1057-7149",
-    "1941-0042"
-   ],
-   "publisher": "IEEE",
-   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
-   "authors": [
-    "Jiayi Ma",
-    "Han Xu",
-    "Junjun Jiang",
-    "Xiaoguang Mei"
-   ],
-   "theme_ids": [
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 1354,
-   "volume": "29",
-   "pages": "4980-4995",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1109/tip.2020.2977573",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
    "doi": "10.1038/s41591-020-1034-x",
    "title": "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension",
    "year": 2020,
@@ -1473,22 +1433,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -1532,19 +1477,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "adoption",
-    "auditing"
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -1586,6 +1519,8 @@
     "Imon Banerjee"
    ],
    "theme_ids": [
+    "principles",
+    "health",
     "adoption"
    ],
    "oa": false,
@@ -1628,8 +1563,7 @@
     "Christian Katzenbach"
    ],
    "theme_ids": [
-    "governance",
-    "work"
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -1655,6 +1589,45 @@
    "is_review": false
   },
   {
+   "doi": "10.1007/s11023-020-09539-2",
+   "title": "Artificial Intelligence, Values, and Alignment",
+   "year": 2020,
+   "cited_by": 787,
+   "journal": "Minds and Machines",
+   "publisher": "Springer Nature",
+   "publisher_raw": "",
+   "authors": [
+    "Iason Gabriel"
+   ],
+   "theme_ids": [
+    "safety"
+   ],
+   "seed": "Values, and Alignment",
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 787,
+   "issn": [
+    "0924-6495",
+    "1572-8641"
+   ],
+   "volume": "30",
+   "issue": "3",
+   "pages": "411-437",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "22 February 2020",
+    "accepted": "26 August 2020",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s11023-020-09539-2",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
    "doi": "10.1016/j.giq.2020.101493",
    "title": "Data governance: Organizing data for trustworthy Artificial Intelligence",
    "year": 2020,
@@ -1672,14 +1645,7 @@
     "Luis S. Barbosa"
    ],
    "theme_ids": [
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector",
-    "adoption"
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -1723,11 +1689,8 @@
     "Alastair K. Denniston"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "military",
-    "public-sector"
+    "principles",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -1768,7 +1731,7 @@
     "Madalina Busuioc"
    ],
    "theme_ids": [
-    "public-sector"
+    "accountability"
    ],
    "oa": false,
    "openalex": null,
@@ -1811,7 +1774,8 @@
     "Melanie J Calvert"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -1896,24 +1860,7 @@
     "Gert Aarts"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -1955,23 +1902,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -2016,18 +1947,8 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
     "bias",
-    "transparency",
-    "accountability",
-    "safety",
-    "work",
-    "military",
-    "genai",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -2053,48 +1974,6 @@
    "is_review": false
   },
   {
-   "doi": "10.15252/msb.20209620",
-   "title": "Probabilistic harmonization and annotation of single‐cell transcriptomics data with deep generative models",
-   "year": 2021,
-   "cited_by": 813,
-   "journal": "Molecular Systems Biology",
-   "issn": [
-    "1744-4292"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Chenling Xu",
-    "Romain Lopez",
-    "Edouard Mehlman",
-    "Jeffrey Regier"
-   ],
-   "theme_ids": [
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 813,
-   "volume": "17",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "8 April 2020",
-    "accepted": "26 November 2020",
-    "revised": "18 November 2020",
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.15252/msb.20209620",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
    "doi": "10.1016/j.jbi.2020.103655",
    "title": "The role of explainability in creating trustworthy artificial intelligence for health care: A comprehensive survey of the terminology, design choices, and evaluation strategies",
    "year": 2021,
@@ -2111,18 +1990,8 @@
     "Peter R. Rijnbeek"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
     "transparency",
-    "accountability",
-    "safety",
-    "work",
-    "military",
-    "genai",
-    "rights",
-    "public-sector",
-    "adoption",
+    "health",
     "auditing"
    ],
    "oa": false,
@@ -2164,15 +2033,7 @@
     "Fadi Salem"
    ],
    "theme_ids": [
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -2212,12 +2073,8 @@
     "Abeba Birhane"
    ],
    "theme_ids": [
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector",
-    "adoption"
+    "principles",
+    "rights"
    ],
    "oa": false,
    "openalex": null,
@@ -2243,6 +2100,45 @@
    "is_review": false
   },
   {
+   "doi": "10.1007/s13347-021-00460-9",
+   "title": "The European Legislation on AI: a Brief Analysis of its Philosophical Approach",
+   "year": 2021,
+   "cited_by": 134,
+   "journal": "Philosophy & Technology",
+   "publisher": "Springer Nature",
+   "publisher_raw": "",
+   "authors": [
+    "Luciano Floridi"
+   ],
+   "theme_ids": [
+    "governance"
+   ],
+   "seed": "European legislation on AI",
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 134,
+   "issn": [
+    "2210-5433",
+    "2210-5441"
+   ],
+   "volume": "34",
+   "issue": "2",
+   "pages": "215-222",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "23 May 2021",
+    "accepted": "23 May 2021",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s13347-021-00460-9",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
    "doi": "10.1007/s40593-021-00239-1",
    "title": "Ethics of AI in Education: Towards a Community-Wide Framework",
    "year": 2022,
@@ -2261,23 +2157,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -2322,23 +2202,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -2383,22 +2247,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
     "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
     "auditing"
    ],
    "oa": false,
@@ -2443,20 +2292,7 @@
     "Arjan Durresi"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "military",
-    "genai",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -2500,18 +2336,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "military",
-    "genai",
-    "rights",
-    "public-sector",
-    "adoption",
+    "health",
     "auditing"
    ],
    "oa": false,
@@ -2596,14 +2421,7 @@
     "L. Fei-Fei"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "adoption",
-    "auditing"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -2646,7 +2464,8 @@
     "Ilse M. J. Kant"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -2689,8 +2508,7 @@
    ],
    "theme_ids": [
     "governance",
-    "genai",
-    "operationalising"
+    "genai"
    ],
    "oa": false,
    "openalex": null,
@@ -2730,22 +2548,8 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
     "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "genai"
    ],
    "oa": false,
    "openalex": null,
@@ -2787,24 +2591,7 @@
     "Khan Muhammad"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "transparency"
    ],
    "oa": false,
    "openalex": null,
@@ -2845,7 +2632,7 @@
    "theme_ids": [
     "principles",
     "governance",
-    "genai"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -2885,6 +2672,8 @@
     "Eric J. Topol"
    ],
    "theme_ids": [
+    "governance",
+    "health",
     "genai"
    ],
    "oa": false,
@@ -2925,23 +2714,8 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
     "operationalising",
-    "auditing"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -2985,22 +2759,8 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "genai",
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -3043,22 +2803,8 @@
     "Tiffany Y. Chen"
    ],
    "theme_ids": [
-    "principles",
     "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -3101,20 +2847,9 @@
     "Marcos López de Prado"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "principles",
+    "governance",
+    "accountability"
    ],
    "oa": false,
    "openalex": null,
@@ -3139,34 +2874,35 @@
    "is_review": false
   },
   {
-   "doi": "10.1093/bib/bbad518",
-   "title": "Network pharmacology: towards the artificial intelligence-based precision traditional Chinese medicine",
+   "doi": "10.1016/j.inffus.2023.03.008",
+   "title": "A systematic review of trustworthy and explainable artificial intelligence in healthcare: Assessment of quality, bias risk, and data fusion",
    "year": 2023,
-   "cited_by": 704,
-   "journal": "Briefings in Bioinformatics",
+   "cited_by": 684,
+   "journal": "Information Fusion",
    "issn": [
-    "1467-5463",
-    "1477-4054"
+    "1566-2535"
    ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Peng Zhang",
-    "Dingfan Zhang",
-    "Wuai Zhou",
-    "Lan Wang"
+    "A.S. Albahri",
+    "Ali M. Duhaim",
+    "Mohammed A. Fadhel",
+    "Alhamzah Alnoor"
    ],
    "theme_ids": [
-    "public-sector"
+    "bias",
+    "transparency",
+    "health"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 704,
-   "volume": "25",
-   "issue": "1",
+   "crossref_cited_by": 684,
+   "volume": "96",
+   "pages": "156-191",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -3175,13 +2911,11 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1093/bib/bbad518",
+   "url": "https://doi.org/10.1016/j.inffus.2023.03.008",
    "verified": true,
    "verified_at": "2026-10-25",
-   "jurisdictions": [
-    "cn"
-   ],
-   "is_review": false
+   "jurisdictions": [],
+   "is_review": true
   },
   {
    "doi": "10.1016/j.heliyon.2024.e26297",
@@ -3201,7 +2935,9 @@
     "Massimo Esposito"
    ],
    "theme_ids": [
-    "genai"
+    "principles",
+    "governance",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -3245,23 +2981,8 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
     "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -3348,23 +3069,8 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
     "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -3404,6 +3110,7 @@
    ],
    "theme_ids": [
     "governance",
+    "health",
     "genai",
     "adoption"
    ],
@@ -3446,7 +3153,8 @@
     "Tariq Iqbal Khan"
    ],
    "theme_ids": [
-    "genai"
+    "genai",
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -3529,20 +3237,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "military",
-    "global-south",
-    "rights",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "genai"
    ],
    "oa": false,
    "openalex": null,
@@ -3583,18 +3278,8 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "military",
-    "global-south",
-    "rights",
-    "adoption",
-    "auditing"
+    "health",
+    "genai"
    ],
    "oa": false,
    "openalex": null,
@@ -3636,7 +3321,8 @@
     "Ashish Kapoor"
    ],
    "theme_ids": [
-    "principles"
+    "principles",
+    "genai"
    ],
    "oa": false,
    "openalex": null,
@@ -3678,19 +3364,8 @@
     "Selin Akgun"
    ],
    "theme_ids": [
-    "principles",
     "governance",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "genai"
    ],
    "oa": false,
    "openalex": null,
@@ -3730,7 +3405,8 @@
     "Talal M. Alasmari"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles",
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -3772,7 +3448,7 @@
     "Harmonie Dehaene"
    ],
    "theme_ids": [
-    "public-sector"
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -3814,7 +3490,7 @@
     "Reem D. Ismael"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
@@ -3858,8 +3534,7 @@
    ],
    "theme_ids": [
     "principles",
-    "genai",
-    "operationalising"
+    "genai"
    ],
    "oa": false,
    "openalex": null,
@@ -3903,23 +3578,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -4007,22 +3666,7 @@
    "theme_ids": [
     "principles",
     "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "accountability"
    ],
    "oa": false,
    "openalex": null,
@@ -4066,23 +3710,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "bias"
    ],
    "oa": false,
    "openalex": null,
@@ -4127,22 +3755,9 @@
    "theme_ids": [
     "principles",
     "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
     "genai",
-    "global-south",
-    "rights",
-    "public-sector",
     "adoption",
-    "operationalising",
-    "auditing"
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -4185,22 +3800,8 @@
     "Gary S. Collins"
    ],
    "theme_ids": [
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "principles",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -4243,20 +3844,7 @@
    ],
    "theme_ids": [
     "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -4282,48 +3870,6 @@
    "is_review": false
   },
   {
-   "doi": "10.1016/j.measurement.2025.118794",
-   "title": "Human-computer interactive rehabilitation: A 3D graph deep learning method for non-contact gesture recognition in post-epidemic and aging societies",
-   "year": 2026,
-   "cited_by": 69,
-   "journal": "Measurement",
-   "issn": [
-    "0263-2241"
-   ],
-   "publisher": "Elsevier",
-   "publisher_raw": "Elsevier BV",
-   "authors": [
-    "Zhizhong Xing",
-    "Zhijun Meng",
-    "Gengfeng Zheng",
-    "Lin Yang"
-   ],
-   "theme_ids": [
-    "rights"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Elsevier BV",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 69,
-   "volume": "257",
-   "pages": "118794",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1016/j.measurement.2025.118794",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
    "doi": "10.1038/s41746-026-02418-7",
    "title": "Advancing healthcare AI governance through a comprehensive maturity model based on systematic review",
    "year": 2026,
@@ -4341,7 +3887,8 @@
     "Frederick M. Howard"
    ],
    "theme_ids": [
-    "governance"
+    "governance",
+    "health"
    ],
    "oa": false,
    "openalex": null,
@@ -4384,20 +3931,7 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "health",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "operationalising"
    ],
    "oa": false,
    "openalex": null,
@@ -4441,19 +3975,9 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
+    "health",
     "adoption",
-    "auditing"
+    "operationalising"
    ],
    "oa": false,
    "openalex": null,
@@ -4478,91 +4002,6 @@
    "is_review": false
   },
   {
-   "doi": "10.1016/j.inffus.2026.104193",
-   "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
-   "year": 2026,
-   "cited_by": 43,
-   "journal": "Information Fusion",
-   "issn": [
-    "1566-2535"
-   ],
-   "publisher": "Elsevier",
-   "publisher_raw": "Elsevier BV",
-   "authors": [
-    "Shunlei Li",
-    "Longsen Gao",
-    "Jin Wang",
-    "Chang Che"
-   ],
-   "theme_ids": [
-    "governance"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Elsevier BV",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 43,
-   "volume": "131",
-   "pages": "104193",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1016/j.inffus.2026.104193",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1002/fsn3.71534",
-   "title": "Multimodal AI for Real‐Time Food Safety and Quality: From Sensors to Foundation Models, Edge Deployment, and Regulation",
-   "year": 2026,
-   "cited_by": 43,
-   "journal": "Food Science & Nutrition",
-   "issn": [
-    "2048-7177",
-    "2048-7177"
-   ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
-   "authors": [
-    "Zhaojie Chen",
-    "Guangyu Zhang",
-    "Fan Zhang"
-   ],
-   "theme_ids": [
-    "governance",
-    "safety"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Wiley",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 43,
-   "volume": "14",
-   "issue": "2",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2025-11-11",
-    "accepted": "2026-01-21",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1002/fsn3.71534",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
    "doi": "10.1177/13621688261422129",
    "title": "Empowering the autonomous learner: How AI-assisted language learning environments shape self-regulation, autonomy, and self-directed behaviors",
    "year": 2026,
@@ -4579,7 +4018,8 @@
    ],
    "theme_ids": [
     "governance",
-    "military"
+    "environment",
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -4618,17 +4058,8 @@
    ],
    "theme_ids": [
     "principles",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "work",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "genai",
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -4668,14 +4099,8 @@
     "Victor Rafael Rezende Celestino"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "rights",
-    "public-sector",
-    "adoption"
+    "principles",
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -4717,14 +4142,10 @@
     "Jessica Eustace-Cook"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "rights",
-    "public-sector",
-    "adoption"
+    "principles",
+    "health",
+    "genai",
+    "education"
    ],
    "oa": false,
    "openalex": null,
@@ -4765,12 +4186,7 @@
     "Christos Emmanouilidis"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "public-sector",
-    "adoption"
+    "principles"
    ],
    "oa": false,
    "openalex": null,
