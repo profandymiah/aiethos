@@ -1,0 +1,96 @@
+{
+  "fr-ai": {
+    "ids": [
+      "2026-21786",
+      "2026-21723",
+      "2026-21710",
+      "2026-21658",
+      "2026-21578",
+      "2026-21505",
+      "2026-21447",
+      "2026-21420",
+      "2026-21265",
+      "2026-21254",
+      "2026-21149",
+      "2026-20993",
+      "2026-20891",
+      "2026-20890",
+      "2026-20888",
+      "2026-20674",
+      "2026-20537",
+      "2026-20474",
+      "2026-20466",
+      "2026-20311",
+      "2026-20321",
+      "2026-20143",
+      "2026-20023",
+      "2026-20005",
+      "2026-19964"
+    ],
+    "page_hash": null,
+    "initialised": true,
+    "last_checked": "2026-10-25T12:17:50.619Z"
+  },
+  "uk-bills": {
+    "ids": [
+      "4310",
+      "3464",
+      "3519",
+      "3942"
+    ],
+    "page_hash": null,
+    "initialised": true,
+    "last_checked": "2026-10-25T12:17:50.619Z"
+  },
+  "govuk-ai": {
+    "ids": [
+      "https://www.gov.uk/government/publications/delivering-the-30by30-commitment",
+      "https://www.gov.uk/government/publications/young-voices-for-climate-and-nature",
+      "https://www.gov.uk/government/publications/national-enforcement-priorities-for-animal-feed-and-food-hygiene",
+      "https://www.gov.uk/government/news/uk-oman-joint-statement-on-omani-state-visit",
+      "https://www.gov.uk/government/publications/pathways-to-work-innovation-fund-applicant-bid-pack",
+      "https://www.gov.uk/government/organisations/department-for-business-innovation-science-and-trade/about/personal-information-charter",
+      "https://www.gov.uk/government/publications/named-tax-avoidance-schemes-promoters-enablers-and-suppliers",
+      "https://www.gov.uk/government/publications/import-trends-monitor",
+      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
+      "https://www.gov.uk/government/consultations/improving-standards-for-industrial-fans"
+    ],
+    "page_hash": null,
+    "initialised": true,
+    "last_checked": "2026-10-25T12:17:50.619Z"
+  },
+  "ec-ai-news": {
+    "ids": [],
+    "page_hash": null,
+    "initialised": false
+  },
+  "oecd-ai-news": {
+    "ids": [],
+    "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
+    "initialised": true,
+    "last_checked": "2026-10-25T12:17:50.619Z"
+  },
+  "coe-ai-news": {
+    "ids": [],
+    "page_hash": null,
+    "initialised": false
+  },
+  "un-ai-news": {
+    "ids": [],
+    "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
+    "initialised": true,
+    "last_checked": "2026-10-25T12:17:50.619Z"
+  },
+  "nist-ai-news": {
+    "ids": [],
+    "page_hash": "9811ffc128c10332b8f99d32f0a546e8d0104ffd5aa9b7e359fbc96daf78334f",
+    "initialised": true,
+    "last_checked": "2026-10-25T12:17:50.619Z"
+  },
+  "regulations-ai": {
+    "ids": [],
+    "page_hash": "795190b5b8988d04e80d43c12add1680a93bdd2b8b806087b074656490bb854b",
+    "initialised": true,
+    "last_checked": "2026-10-25T12:17:50.619Z"
+  }
+}

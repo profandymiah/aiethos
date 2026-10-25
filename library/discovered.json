@@ -1,0 +1,15 @@
+{
+  "run_at": "2026-10-25T12:17:50.619Z",
+  "new_items": [],
+  "page_changes": [],
+  "errors": [
+    {
+      "source": "ec-ai-news",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "coe-ai-news",
+      "error": "HTTP 403"
+    }
+  ]
+}

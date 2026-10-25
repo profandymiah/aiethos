@@ -1,0 +1,177 @@
+AI Verify Foundation - Building Trustworthy AI Skip to content 
+
+ Contact Us 
+
+ Search 
+
+ Global AI  
+Assurance Sandbox 
+ Testing GenAI applications in the real world
+
+ Express Interest 
+
+ AI Tester Accreditation 
+Programme
+
+ For 3rd party testing service providers
+
+ Read More 
+
+ Global AI Assurance Sandbox 
+Case Studies
+
+ Read More 
+
+ Global AI  
+Assurance Sandbox
+
+ Testing GenAI in the real world &#8211; Express Interest today!
+
+ Read More 
+
+ Project Moonshot: Now integrated with Starter Kit
+
+ ⁠Evaluating Large Language Model Just Got Closer than You Think
+
+ Learn More 
+
+ AI Verify Toolkit
+
+ Faster and more seamless than before
+
+ Learn More 
+
+ Starter Kit for Safety Testing of LLM-Based Application
+
+ Read More 
+
+ AI Verify Testing Framework
+
+ Paving the way for Trusted and Reliable AI systems
+
+ Read More 
+
+ Building Reliable and Trustworthy AI
+
+ A global open-source community that convenes AI owners, solution providers, users, and policymakers, to build trustworthy AI.
+
+ About AIVF 
+
+ Premier Members Powering Trustworthy AI
+
+ Meet All Our Members 
+
+ What Our New Members Say
+
+ AI providers cannot credibly audit and defend their own systems, the same conflict of interest that made independent financial audit mandatory. Vigil builds an independent accountability and defence layer that records what AI actually does in a tamper-evident format that any party can verify. We are joining AI Verify Foundation because trustworthy AI depends on independent verification and defence, and Singapore is setting the standard the rest of the region will reference.
+ Vigil
+
+ At LinkedIn, we are committed to harnessing AI to create economic opportunities for every member of the global workforce. In Singapore, and across the world, we empower professionals to build connections, discover career opportunities, and develop skills, while helping businesses find talent, grow and become more productive. AI is a tool to further our vision, empowering our members and augmenting their success and productivity. We are committed to using AI responsibly and upholding trust in how these technologies are developed and used.
+ LinkedIn
+
+ AI agents don&#8217;t fail alone — risk flows in through the tools, MCP servers and skills they trust, so AgentSure independently attack-tests the whole agent and its extension supply chain, producing evidence rigorous enough to underwrite. We join the AI Verify Foundation to bring this testing lens, born from Singapore&#8217;s AI-security research, to the assurance ecosystem and help make trustworthy agentic AI the norm.
+
+ AgentSure Pte. Ltd.
+
+ At Cohere, responsible AI is foundational to building technology that organizations can trust and deploy with confidence. Joining the AI Verify Foundation reflects our commitment to advancing secure, sovereign, and trustworthy AI through rigorous testing and strong governance. We’re proud to support the development of shared, open frameworks that help enterprises and institutions worldwide adopt AI that is reliable, safe, and fully under their control.
+ Cohere
+
+ At RajISG, we are building Public Trust Infrastructure for the AI era. As AI becomes a more valuable part of how organisations work and serve people, accountability, dependability, and trust matter more. Independent testing and verifiable assurance help users engage with AI-enabled services with greater confidence, and give providers a credible way to show their systems have been properly tested. The AI Verify Foundation is making that trust verifiable. We are pleased to join the effort.
+ RajISG
+
+ Amaris.AI is dedicated to advancing humanity through agile, innovative and trustworthy solutions. We believe AI must be deployed responsibly, with security-by-design at its core. We are excited to partner with the AI Verify Foundation to promote AI applications built on the principles of security-by-design, ethics, transparency and accountability to foster greater trust to use AI.
+ Amaris AI
+
+ Initiatives and Tools that Benefit You
+
+ We empower our community with frameworks, tools, and best practices in AI governance and testing.
+
+ 01
+
+ Initiatives
+
+ Global AI Assurance Sandbox brings AI deployers and technical testing firms together to test GenAI apps
+
+ 02
+
+ Testing Tools
+
+ AI Verify Testing Framework and  technical tools enable companies  to be more transparent about  their AI solutions
+
+ 03
+
+ Guidelines
+
+ A repository of AI governance best practices for reference and implementation
+
+ Latest Happenings
+
+ Events 
+ Connect and join conversations  shaping the future of trustworthy AI
+
+ View All Events 
+
+ 18
+
+ May
+
+ past
+
+ event
+
+ 3:00pm to 5:00pm 
+ Webinar 
+
+ Recap of AI Assurance Exchange @ ISE and ATxSummit 2026
+
+ Read More 
+ RSVP Now 
+
+ Publications 
+ Explore insights and real-world  use cases from the community.
+
+ View All Publications
+
+ AI Assurance Exchange Networking Session by AI Verify Foundation 
+
+ Events 
+
+ Recap of AI Assurance Exchange @ ISE and ATxSummit 2026 
+
+ Events 
+
+ AI Assurance Exchange: Standards in Action 
+
+ Events 
+
+ Future of AI Generated Code 
+
+ Events 
+
+ Press Release – Launch of the AI Tester Accreditation Programme 
+
+ News 
+
+ Agentic Testing Guidelines 
+
+ Resources 
+
+ Press Release – AI Tester Accreditation Programme 
+
+ News 
+
+ Model AI Governance Framework for Agentic AI 
+
+ Resources 
+
+ Case Study Compendium 2026 
+
+ Case Study 
+
+ Starter Kit for Testing LLM-based Applications for Safety and Reliability 
+
+ Resource 
+
+ Follow Us
+
+ Linkedin Youtube Github

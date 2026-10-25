@@ -1,0 +1,893 @@
+Data (Use and Access) Act 2025 
+
+ Skip to main content 
+ Skip to navigation 
+ legislation.gov.uk 
+ https://www.nationalarchives.gov.uk Cymraeg 
+
+ Home 
+ Explore our collections 
+ Research tools 
+ Help and guidance 
+ What's new 
+ About us 
+ Search Legislation 
+
+ Search Legislation
+ Title: (or keywords in the title) 
+ Year: 
+ Number: 
+ Type: All UK Legislation (excluding originating from the EU) -------------------------------------------- All Legislation (including originating from EU) -------------------------------------------- All Legislation originating from the EU that is amended by the UK -------------------------------------------- All Primary Legislation     UK Public General Acts     UK Local Acts     UK Private and Personal Acts     Acts of the Scottish Parliament     Acts of Senedd Cymru     Acts of the National Assembly for Wales     Measures of the National Assembly for Wales     Church Measures     Acts of the Northern Ireland Assembly     Acts of the Old Scottish Parliament     Acts of the English Parliament     Acts of the Old Irish Parliament     Acts of the Parliament of Great Britain     Local Acts of the Parliament of Great Britain     Private and Personal Acts of the Parliament of Great Britain     Northern Ireland Orders in Council     Measures of the Northern Ireland Assembly     Acts of the Northern Ireland Parliament -------------------------------------------- All Secondary Legislation     UK Statutory Instruments     Welsh Statutory Instruments     Scottish Statutory Instruments     Northern Ireland Statutory Rules     Church Instruments     UK Ministerial Directions     UK Ministerial Orders     UK Statutory Rules and Orders     Northern Ireland Statutory Rules and Orders -------------------------------------------- All Legislation originating from the EU     Regulations originating from the EU     Regulations originating from the EU that are amended by the UK     Decisions originating from the EU     Decisions originating from the EU that are amended by the UK     Directives originating from the EU     European Union Treaties -------------------------------------------- All Draft Legislation     UK Draft Statutory Instruments     Scottish Draft Statutory Instruments     Northern Ireland Draft Statutory Rules -------------------------------------------- All Impact Assessments     UK Impact Assessments 
+ Search 
+ Advanced Search 
+ Data (Use and Access) Act 2025
+ You are here:
+ UK Public General Acts 
+ 2025 c. 18 
+ Table of contents
+
+ Table of Contents 
+ Content 
+ Explanatory Notes 
+ More Resources 
+ Plain View 
+ Print Options 
+
+ What Version
+
+ Latest available (Revised) 
+ Original (As enacted) 
+
+ Opening Options
+
+ Open whole Act 
+ Open Act without Schedules 
+ Open Schedules only 
+
+ More Resources
+
+ Original: King's Printer Version 
+
+ View more 
+
+ Changes to legislation:
+ There are currently no known outstanding effects for the Data (Use and Access) Act 2025. 
+ Changes to Legislation
+ Revised legislation carried on this site may not be fully up to date. At the current time any known changes or effects made by subsequent legislation have been applied to the text of the legislation you are viewing by the editorial team. Please see ‘Frequently Asked Questions’ for details regarding the timescales for which new effects are identified and recorded on this site.
+
+ Introductory Text 
+
+ Part 1 Access to customer data and business data 
+ Introductory 
+ 1. Customer data and business data 
+
+ Data regulations 
+ 2. Power to make provision in connection with customer data 
+
+ 3. Customer data: supplementary 
+
+ 4. Power to make provision in connection with business data 
+
+ 5. Business data: supplementary 
+
+ 6. Decision-makers 
+
+ 7. Interface bodies 
+
+ Enforcement 
+ 8. Enforcement of regulations under this Part 
+
+ 9. Restrictions on powers of investigation etc 
+
+ 10. Financial penalties 
+
+ Fees etc and financial assistance 
+ 11. Fees 
+
+ 12. Levy 
+
+ 13. Financial assistance 
+
+ Financial services sector 
+ 14. The FCA and financial services interfaces 
+
+ 15. The FCA and financial services interfaces: supplementary 
+
+ 16. The FCA and financial services interfaces: penalties and levies 
+
+ 17. The FCA and co-ordination with other regulators 
+
+ Supplementary 
+ 18. Liability in damages 
+
+ 19. Duty to review regulations 
+
+ 20. Restrictions on processing and data protection 
+
+ 21. Regulations under this Part: supplementary 
+
+ 22. Regulations under this Part: Parliamentary procedure and consultation 
+
+ 23. Related subordinate legislation 
+
+ 24. Repeal of provisions relating to supply of customer data 
+
+ 25. Other defined terms 
+
+ 26. Index of defined terms for this Part 
+
+ Part 2 Digital verification services 
+ Introductory 
+ 27. Introductory 
+
+ DVS trust framework and supplementary codes 
+ 28. DVS trust framework 
+
+ 29. Supplementary codes 
+
+ 30. Withdrawal of a supplementary code 
+
+ 31. Review of DVS trust framework and supplementary codes 
+
+ DVS register 
+ 32. DVS register 
+
+ 33. Registration in the DVS register 
+
+ 34. Power to refuse registration in the DVS register 
+
+ 35. Registration of additional services 
+
+ 36. Supplementary notes 
+
+ 37. Addition of services to supplementary notes 
+
+ 38. Applications for registration, supplementary notes, etc 
+
+ 39. Fees for applications for registration, supplementary notes, etc 
+
+ 40. Duty to remove person from the DVS register 
+
+ 41. Power to remove person from the DVS register 
+
+ 42. Duty to remove services from the DVS register 
+
+ 43. Duty to remove supplementary notes from the DVS register 
+
+ 44. Duty to remove services from supplementary notes 
+
+ Information gateway 
+ 45. Power of public authority to disclose information to registered person 
+
+ 46. Information disclosed by the Revenue and Customs 
+
+ 47. Information disclosed by the Welsh Revenue Authority 
+
+ 48. Information disclosed by Revenue Scotland 
+
+ 49. Code of practice about the disclosure of information 
+
+ Trust mark 
+ 50. Trust mark for use by registered persons 
+
+ Supplementary 
+ 51. Power of Secretary of State to require information 
+
+ 52. Arrangements for third party to exercise functions 
+
+ 53. Report on the operation of this Part 
+
+ 54. Index of defined terms for this Part 
+
+ 55. Powers relating to verification of identity or status 
+
+ Part 3 National Underground Asset Register 
+ 56. National Underground Asset Register: England and Wales 
+
+ 57. Information in relation to apparatus: England and Wales 
+
+ 58. National Underground Asset Register: Northern Ireland 
+
+ 59. Information in relation to apparatus: Northern Ireland 
+
+ 60. Pre-commencement consultation 
+
+ Part 4 Registers of births and deaths 
+ 61. Form in which registers of births and deaths are to be kept 
+
+ 62. Provision of equipment and facilities by local authorities 
+
+ 63. Requirements to sign register 
+
+ 64. Treatment of existing registers and records 
+
+ 65. Minor and consequential amendments 
+
+ Part 5 Data protection and privacy 
+ Chapter 1 Data protection 
+ Terms used in this Chapter 
+ 66. The 2018 Act and the UK GDPR 
+
+ Definitions in the UK GDPR and the 2018 Act 
+ 67. Meaning of research and statistical purposes 
+
+ 68. Consent to processing for the purposes of scientific research 
+
+ 69. Consent to law enforcement processing 
+
+ Data protection principles 
+ 70. Lawfulness of processing 
+
+ 71. The purpose limitation 
+
+ 72. Processing in reliance on relevant international law 
+
+ Processing of special categories of personal data 
+ 73. Elected representatives responding to requests 
+
+ 74. Processing of special categories of personal data 
+
+ Data subject’s rights 
+ 75. Fees and reasons for responses to data subjects’ requests about law enforcement processing 
+
+ 76. Time limits for responding to data subjects’ requests 
+
+ 77. Information to be provided to data subjects 
+
+ 78. Searches in response to data subjects’ requests 
+
+ 79. Data subjects’ rights to information: legal professional privilege exemption 
+
+ Automated decision-making 
+ 80. Automated decision-making 
+
+ Obligations of controllers 
+ 81. Data protection by design: children’s higher protection matters 
+
+ Logging of law enforcement processing 
+ 82. Logging of law enforcement processing 
+
+ Codes of conduct 
+ 83. General processing and codes of conduct 
+
+ 84. Law enforcement processing and codes of conduct 
+
+ International transfers of personal data 
+ 85. Transfers of personal data to third countries and international organisations 
+
+ Safeguards for processing for research etc purposes 
+ 86. Safeguards for processing for research etc purposes 
+
+ 87. Section 86: consequential provision 
+
+ National security 
+ 88. National security exemption 
+
+ Intelligence services 
+ 89. Joint processing by intelligence services and competent authorities 
+
+ 90. Joint processing: consequential amendments 
+
+ Information Commission's role 
+ 91. Duties of the Commission in carrying out functions 
+
+ 92. Codes of practice for the processing of personal data 
+
+ 93. Codes of practice: panels and impact assessments 
+
+ 94. Manifestly unfounded or excessive requests to the Commissioner 
+
+ 95. Analysis of performance 
+
+ 96. Notices from the Commissioner 
+
+ Enforcement 
+ 97. Power of the Commissioner to require documents 
+
+ 98. Power of the Commissioner to require a report 
+
+ 99. Assessment notices: removal of OFSTED restriction 
+
+ 100. Interview notices 
+
+ 101. Penalty notices 
+
+ 102. Annual report on regulatory action 
+
+ 103. Complaints by data subjects 
+
+ 104. Court procedure in connection with subject access requests 
+
+ 105. Consequential amendments to the EITSET Regulations 
+
+ Protection of prohibitions, restrictions and data subject’s rights 
+ 106. Protection of prohibitions, restrictions and data subject’s rights 
+
+ Miscellaneous 
+ 107. Regulations under the UK GDPR 
+
+ 108. Further minor provision about data protection 
+
+ Chapter 2 Privacy and electronic communications 
+ 109. The PEC Regulations 
+
+ 110. Interpretation of the PEC Regulations 
+
+ 111. Duty to notify the Commissioner of personal data breach: time periods 
+
+ 112. Storing information in the terminal equipment of a subscriber or user 
+
+ 113. Emergency alerts: interpretation of time periods 
+
+ 114. Use of electronic mail for direct marketing by charities 
+
+ 115. Commissioner’s enforcement powers 
+
+ 116. Codes of conduct 
+
+ Part 6 The Information Commission 
+ 117. The Information Commission 
+
+ 118. Abolition of the office of Information Commissioner 
+
+ 119. Transfer of functions to the Information Commission 
+
+ 120. Transfer of property etc to the Information Commission 
+
+ Part 7 Other provision about use of, or access to, data 
+ Information standards for health and social care 
+ 121. Information standards for health and adult social care in England 
+
+ Smart meter communication services 
+ 122. Grant of smart meter communication licences 
+
+ Information to improve public service delivery 
+ 123. Disclosure of information to improve public service delivery to undertakings 
+
+ Retention of information by providers of internet services 
+ 124. Retention of information by providers of internet services in connection with death of child 
+
+ Information for research about online safety matters 
+ 125. Information for research about online safety matters 
+
+ Retention of biometric data 
+ 126. Retention of biometric data and recordable offences 
+
+ 127. Retention of pseudonymised biometric data 
+
+ 128. Retention of biometric data from INTERPOL 
+
+ Trust services 
+ 129. The eIDAS Regulation 
+
+ 130. Recognition of EU conformity assessment bodies 
+
+ 131. Removal of recognition of EU standards etc 
+
+ 132. Recognition of overseas trust products 
+
+ 133. Co-operation between supervisory authority and overseas authorities 
+
+ 134. Time periods: the eIDAS Regulation and the EITSET Regulations 
+
+ Copyright works and artificial intelligence systems 
+ 135. Economic impact assessment 
+
+ 136. Report on the use of copyright works in the development of AI systems 
+
+ 137. Progress statement 
+
+ Purported intimate images 
+ 138. Creating, or requesting the creation of, purported intimate image of adult 
+
+ Part 8 Final provisions 
+ 139. Power to make consequential amendments 
+
+ 140. Regulations 
+
+ 141. Extent 
+
+ 142. Commencement 
+
+ 143. Transitional, transitory and saving provision 
+
+ 144. Short title 
+
+ Schedules
+ Schedule 1 
+ National Underground Asset Register (England and Wales): monetary penalties 
+
+ Schedule 2 
+ National Underground Asset Register (Northern Ireland): monetary penalties 
+
+ Schedule 3 
+ Registers of births and deaths: minor and consequential amendments 
+ Part 1 Amendments of the Births and Deaths Registration Act 1953 
+ 1. The Births and Deaths Registration Act 1953 is amended as... 
+
+ 2. (1) Section 3A (registration of births of abandoned children) is... 
+
+ 3. (1) Section 13 (registration of name of child or of... 
+
+ 4. In Part 3 (general), the italic heading before section 25... 
+
+ 5. (1) Section 29 (correction of errors in registers) is amended... 
+
+ 6. In section 29A (alternative procedure for certain corrections), in subsection... 
+
+ 7. (1) Section 30 (searches of indexes kept by Registrar General)... 
+
+ 8. In section 31 (searches of indexes kept by superintendent registrars),... 
+
+ 9. For section 32 (searches in registers kept by registrars) substitute—... 
+
+ 10. (1) Section 33 (short certificate of birth) is amended as... 
+
+ 11. In section 33A (short certificate of death), in subsection (2),... 
+
+ 12. In section 34 (entry in register as evidence of birth... 
+
+ 13. (1) Section 34A (searches and records of information: additional provision)... 
+
+ 14. In section 35 (offences relating to registers), in paragraph (b),... 
+
+ 15. In section 40 (sending and providing notices, information or other... 
+
+ 16. In section 41 (interpretation), after subsection (3) insert— 
+
+ Part 2 Amendments of other legislation 
+ 17. Registration Service Act 1953 
+
+ 18. In section 10 (district register offices), in subsection (1), omit... 
+
+ 19. In section 12 (provision of register boxes), omit “registrar of... 
+
+ 20. In section 13 (local schemes of organisation), in subsection (2),... 
+
+ 21. Public Records Act 1958 
+
+ 22. Social Security Administration Act 1992 
+
+ 23. Education Act 1996 
+
+ 24. Adoption and Children Act 2002 
+
+ 25. Gender Recognition Act 2004 
+
+ 26. (1) Section 10 (registration) is amended as follows. 
+
+ 27. In Part 1 of Schedule 3 (registration: England and Wales),... 
+
+ 28. Presumption of Death Act 2013 
+
+ Schedule 4 
+ Lawfulness of processing: recognised legitimate interests 
+
+ Schedule 5 
+ Purpose limitation: processing to be treated as compatible with original purpose 
+
+ Schedule 6 
+ Automated decision-making: minor and consequential amendments 
+ 1. The UK GDPR 
+
+ 2. (1) Article 12 (transparent information, communication and modalities for the... 
+
+ 3. In Article 13(2)(f) (information about automated decision-making to be provided... 
+
+ 4. In Article 14(2)(g) (information about automated decision-making to be provided... 
+
+ 5. In Article 15(1)(h) (right of access by the data subject),... 
+
+ 6. In the heading of Section 4 of Chapter 3, omit... 
+
+ 7. In Article 23(1) (restrictions), for “provided for in Articles 12... 
+
+ 8. In Article 47(2)(e) (binding corporate rules), for the words from... 
+
+ 9. In Article 83(5) (general conditions for imposing administrative fines)— 
+
+ 10. The 2018 Act 
+
+ 11. Omit section 14 (automated decision-making authorised by law: safeguards). 
+
+ 12. In section 43(1)(d) (overview and scope of provisions in Part... 
+
+ 13. (1) Section 52 (form of provision of information etc) is... 
+
+ 14. (1) Section 53 (manifestly unfounded or excessive requests by the... 
+
+ 15. In section 149(2)(b) (enforcement notices)— (a) after “provision of” insert... 
+
+ 16. In section 157(2)(a) (maximum amount of penalty), for “49,” substitute... 
+
+ Schedule 7 
+ Transfers of personal data to third countries etc: general processing 
+ 1. Introduction 
+
+ 2. General principles for transfers 
+
+ 3. Transfers approved by regulations 
+
+ 4. After that Article insert— Transfers approved by regulations (1) For the purposes of Article 44A, the Secretary of... 
+
+ 5. Transfers approved by regulations: monitoring 
+
+ 6. Transfers subject to appropriate safeguards 
+
+ 7. In the heading of Article 47 (binding corporate rules) at... 
+
+ 8. After Article 47 insert— Transfers subject to appropriate safeguards: further... 
+
+ 9. Derogations for specific situations 
+
+ 10. Public interest restrictions 
+
+ Schedule 8 
+ Transfers of personal data to third countries etc: law enforcement processing 
+ 1. Introduction 
+
+ 2. Overview and interpretation 
+
+ 3. General principles for transfer 
+
+ 4. Transfers approved by regulations 
+
+ 5. Transfers approved by regulations: monitoring 
+
+ 6. Transfers subject to appropriate safeguards 
+
+ 7. Transfers based on special circumstances 
+
+ 8. Transfers to particular recipients 
+
+ 9. (1) Section 77 (conditions for transfers of personal data to... 
+
+ 10. Subsequent transfers 
+
+ Schedule 9 
+ Transfers of personal data to third countries etc: minor and consequential amendments and transitional provision 
+ Part 1 Minor and consequential amendments 
+ 1. The UK GDPR 
+
+ 2. In Article 13(1)(f) (information to be provided where personal data... 
+
+ 3. In Article 14(1)(f) (information to be provided where personal data... 
+
+ 4. In Article 15(2) (right of access by the data subject)—... 
+
+ 5. (1) Article 40 (codes of conduct) is amended as follows.... 
+
+ 6. In Article 42(2) (certification) omit “appropriate” in both places. 
+
+ 7. In Article 46(2)(d) (transfers subject to appropriate safeguards: standard data... 
+
+ 8. In Article 57(1) (Commissioner’s tasks)— (a) in point (m) omit... 
+
+ 9. In Article 58(3) (authorisation and advisory powers of the Commissioner),... 
+
+ 10. In Article 83(5)(c) (general conditions for imposing administrative fines), for... 
+
+ 11. The 2018 Act 
+
+ 12. Omit section 17A (transfers based on adequacy regulations) and the... 
+
+ 13. Omit section 17B (transfers based on adequacy regulations: review etc).... 
+
+ 14. Omit section 17C (standard data protection clauses). 
+
+ 15. Omit section 18 (transfers of personal data to third countries... 
+
+ 16. In section 24(2) (manual unstructured data held by FOI public... 
+
+ 17. In section 26(2) (national security and defence exemption), omit paragraph... 
+
+ 18. In section 75 (transfers on the basis of appropriate safeguards),... 
+
+ 19. In section 78A (law enforcement processing: national security exemption) (inserted... 
+
+ 20. (1) Section 119A (power of Commissioner to specify standard clauses... 
+
+ 21. In section 149(2)(e) (enforcement notices), for “44 to 49” substitute... 
+
+ 22. (1) Section 182 (regulations and consultation) is amended as follows.... 
+
+ 23. In section 205(2)(e) (references to periods of time) omit “and... 
+
+ 24. In paragraph 26(9)(d) of Schedule 2 (exemptions etc for journalistic,... 
+
+ 25. (1) Part 3 of Schedule 21 (further transitional provision etc:... 
+
+ Part 2 Transitional provision 
+ 26. The UK GDPR: transfers approved by regulations 
+
+ 27. The UK GDPR: transfers subject to appropriate safeguards 
+
+ 28. The UK GDPR: transfers subject to appropriate safeguards provided by standard data protection clauses 
+
+ 29. (1) This paragraph applies to a requirement for safeguards to... 
+
+ 30. The UK GDPR: transfers necessary for important reasons of public interest 
+
+ 31. The UK GDPR: restrictions on transfers of personal data to third countries and international organisations 
+
+ 32. Part 3 of the 2018 Act (law enforcement processing): transfers approved by regulations 
+
+ 33. Part 3 of the 2018 Act (law enforcement processing): transfers subject to appropriate safeguards 
+
+ Schedule 10 
+ Complaints: minor and consequential amendments 
+ 1. The UK GDPR 
+
+ 2. In Article 12(4) (transparent information, communication and modalities for the... 
+
+ 3. (1) Article 13(2) (information to be provided where personal data... 
+
+ 4. (1) Article 14(2) (information to be provided where personal data... 
+
+ 5. (1) Article 15(1) (right of access by the data subject)... 
+
+ 6. In Article 47 (binding corporate rules), in paragraph 2(e), for... 
+
+ 7. (1) Article 80 (representation of data subjects) is amended as... 
+
+ 8. The 2018 Act 
+
+ 9. In section 26(2)(f) (national security and defence exemption), omit sub-paragraph... 
+
+ 10. (1) Section 44 (information: controller’s general duties) is amended as... 
+
+ 11. (1) Section 45 (right of access by the data subject)... 
+
+ 12. In section 45A (exemption from sections 44 and 45: legal... 
+
+ 13. (1) Section 48 (rights to rectification, to erasure or to... 
+
+ 14. In section 93(1)(e) (right to information), after “Commissioner”, in the... 
+
+ 15. In section 94(2)(f) (right of access), after “Commissioner”, in the... 
+
+ 16. (1) Section 149 (enforcement notices) is amended as follows. 
+
+ 17. In section 155 (penalty notices), in subsection (1)(a), for “or... 
+
+ 18. In section 157 (maximum amount of penalty), after subsection (4)... 
+
+ 19. In section 165 (complaints by data subjects), in the heading,... 
+
+ 20. (1) Section 166 (orders to progress complaints) is amended as... 
+
+ 21. (1) Section 187 (representation of data subjects with their authority)... 
+
+ Schedule 11 
+ Further minor provision about data protection 
+ 1. The UK GDPR 
+
+ 2. (1) Article 4(1) (interpretation) is amended as follows. 
+
+ 3. After Article 4 insert— Periods of time (1) References in this Regulation to a period expressed in... 
+
+ 4. In Article 9 (processing of special categories of personal data)—... 
+
+ 5. In Article 12(5) (information etc to be provided free of... 
+
+ 6. In Article 23(1)(h) (restrictions), for “(a)” substitute “(c)”. 
+
+ 7. In Article 24(3) (responsibility of the controller), for “an element... 
+
+ 8. In Article 25(3) (data protection by design and by default),... 
+
+ 9. In Article 28(5) (processors), for “an element by which to... 
+
+ 10. In Article 32(3) (security of processing), for “an element by... 
+
+ 11. In Article 37(1)(a), after “courts” insert “and tribunals”. 
+
+ 12. Omit Article 59 (activity reports). 
+
+ 13. The 2018 Act 
+
+ 14. In section 3(9) (definition of “the data protection legislation”)— 
+
+ 15. Omit section 20 (meaning of “court” in Part 2). 
+
+ 16. In section 94 (data subject’s right of access under Part... 
+
+ 17. In section 119A(11) (standard clauses for transfers to third countries... 
+
+ 18. In section 124(5) (data protection and journalism code), in the... 
+
+ 19. (1) Section 125 (approval of codes of practice prepared by... 
+
+ 20. In section 139 (reporting to Parliament), omit subsection (2). 
+
+ 21. In section 161(6) (approval of first guidance about regulatory action),... 
+
+ 22. In section 170(2)(a) (unlawful obtaining etc of personal data), after... 
+
+ 23. (1) Section 171 (re-identification of de-identified personal data) is amended... 
+
+ 24. In section 181 (interpretation of Part 6) omit the definition... 
+
+ 25. In section 184(4) (prohibition of requirement to produce relevant records),... 
+
+ 26. In section 192(6) (approval of the Framework), after “any” insert... 
+
+ 27. In section 206 (index of defined expressions), in the Table,... 
+
+ 28. (1) Schedule 1 (special categories of personal data and criminal... 
+
+ 29. (1) Schedule 2 (exemptions etc from the UK GDPR) is... 
+
+ 30. In paragraph 8(1)(b) of Schedule 8 (conditions for sensitive processing... 
+
+ 31. In paragraph 2(a) of Schedule 11 (other exemptions under Part... 
+
+ 32. Victims and Prisoners Act 2024 
+
+ Schedule 12 
+ Storing information in the terminal equipment of a subscriber or user 
+
+ Schedule 13 
+ Privacy and electronic communications: Commissioner’s enforcement powers 
+
+ Schedule 14 
+ The Information Commission 
+ 1. Schedule 12A to the Data Protection Act 2018 
+
+ 2. Transitional provision: first chair 
+
+ 3. Transitional provision: consultation about non-executive members 
+
+ 4. Transitional provision: consultation about interim chief executive 
+
+ Schedule 15 
+ Information standards for health and adult social care in England 
+ 1. Chapter 1 of Part 9 of the Health and Social... 
+
+ 2. Before section 250 insert— Powers to publish standards . 
+
+ 3. (1) Section 250 (powers to publish information standards) is amended... 
+
+ 4. After section 250 insert— Standards relating to information technology (1) An information standard relating to information technology or IT... 
+
+ 5. (1) Section 251 (information standards: procedure etc) is amended as... 
+
+ 6. After section 251 insert— Compliance with standards . 
+
+ 7. For the heading of section 251ZA (information standards: compliance) substitute... 
+
+ 8. After that section insert— Notice requesting compliance by relevant IT... 
+
+ Schedule 16 
+ Grant of smart meter communication licences 
+ Part 1 Amendments of the Energy Act 2008 
+ 1. The Energy Act 2008 is amended as follows. 
+
+ 2. In the italic heading before section 88, after “meters” insert... 
+
+ 3. After section 91 insert— Grant of smart meter communication licences... 
+
+ 4. In section 104 (subordinate legislation)— (a) in subsection (1), for... 
+
+ Part 2 Amendments of other legislation 
+ 5. Gas Act 1986 
+
+ 6. Electricity Act 1989 
+
+ 7. Electricity and Gas (Competitive Tenders for Smart Meter Communication Licences) Regulations 2012 
+
+ Back to top 
+
+ Options/Help
+ Print Options
+ Print Table of Contents
+ PDF
+ table of contents 
+ Web page table of contents 
+
+ Print The Whole
+ Act
+ PDF The Whole
+ Act 
+ Web page The Whole
+ Act 
+
+ You have chosen to open
+ The Whole
+ Act
+
+ The Whole
+ Act you have selected contains over
+ 200 provisions and might take some time to download. You
+ may also experience some issues with your browser, such as an alert box that a script is taking a
+ long time to run.
+
+ Would you like to continue?
+
+ Continue to open 
+
+ You have chosen to open
+ The Whole
+ Act as a PDF
+
+ The Whole
+ Act you have selected contains over
+ 200 provisions and might take some time to download.
+
+ Would you like to continue?
+
+ Continue to open 
+
+ You have chosen to open the Whole Act
+
+ The Whole Act you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+ Would you like to continue?
+
+ Continue to open 
+
+ You have chosen to open the Whole Act without Schedules
+
+ The Whole Act without Schedules you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+ Would you like to continue?
+
+ Continue to open 
+
+ You have chosen to open Schedules only
+
+ The Schedules you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+ Would you like to continue?
+
+ Continue to open 
+
+ Legislation is available in different versions:
+ Latest Available (revised): The latest available updated version of the legislation incorporating changes made by subsequent legislation and applied by our editorial team. Changes we have not yet applied to the text, can be found in the ‘Changes to Legislation’ area.
+ Original (As Enacted or Made): The original version of the legislation as it stood when it was enacted or made. No changes have been applied to the text.
+
+ Opening Options
+ Different options to open legislation in order to view more content on screen at once
+
+ Explanatory Notes
+ Text created by the government department responsible for the subject matter of the Act to explain what the Act sets out to achieve and to make the Act accessible to readers who are not legally qualified. Explanatory Notes were introduced in 1999 and accompany all Public Acts except Appropriation, Consolidated Fund, Finance and Consolidation Acts.
+
+ More Resources
+ Access essential accompanying documents and information for this legislation item from this tab. Dependent on the legislation item being viewed this may include:
+ the original print PDF of the as enacted version that was used for the print copy
+ lists of changes made by and/or affecting this legislation item
+ confers power and blanket amendment details
+ all formats of all associated documents
+ correction slips
+ links to related legislation and further information resources
+
+ Timeline of Changes
+ This timeline shows the different points in time where a change occurred. The dates will coincide with the earliest date on which the change (e.g an insertion, a repeal or a substitution) that was applied came into force. The first date in the timeline will usually be the earliest date when the provision came into force. In some cases the first date is 01/02/1991 (or for Northern Ireland legislation 01/01/2006). This date is our basedate. No versions before this date are available. For further information see the Editorial Practice Guide and Glossary under Help.
+
+ More Resources
+ Use this menu to access essential accompanying documents and information for this legislation item. Dependent on the legislation item being viewed this may include:
+ the original print PDF of the as enacted version that was used for the print copy
+ correction slips
+
+ Click 'View More' or select 'More Resources' tab for additional information including:
+ lists of changes made by and/or affecting this legislation item
+ confers power and blanket amendment details
+ all formats of all associated documents
+ links to related legislation and further information resources
+
+ The data on this page is available in the alternative data formats listed: HTML5 alternative version 
+ HTML snippet alternative version 
+ PDF alternative version 
+ XML alternative version 
+ Akoma Ntoso alternative version 
+ HTML RDFa alternative version 
+
+ New site design 
+ Help 
+ About us 
+ Site map 
+ Accessibility 
+ Contact us 
+ Privacy notice 
+ Cookies 
+ Fair use policy 
+
+ All content is available under the Open Government Licence v3.0 except where otherwise stated . This site additionally contains content derived from EUR-Lex, reused under the terms of the Commission Decision 2011/833/EU on the reuse of documents from the EU institutions. For more information see the EUR-Lex public statement on re-use . 
+ © Crown and database right

@@ -1,0 +1,293 @@
+-->
+
+ Press Releases - 과학기술정보통신부 > 
+
+ Go to content 
+
+ Go to main menu 
+
+ This website is the official e-government website of Korea.
+
+ Ministry of Science and ICT 
+
+ Site Map 
+
+ Language 
+
+ 한국어 
+
+ English 
+
+ Integrated search 
+
+ 검색 초기화 
+
+ SERCH 
+
+ News & Notice 
+
+ News & Notice
+
+ Global science and technology powerhouse!
+
+ Notice 
+
+ Press Releases 
+
+ Photo News 
+
+ Science & ICT Trends 
+
+ Newsletter 
+
+ Laws & Statistics 
+
+ Laws & Statistics
+
+ Global science and technology powerhouse!
+
+ Laws 
+
+ Statistics 
+
+ National Law Information Center 
+
+ About MSIT 
+
+ About MSIT
+
+ Global science and technology powerhouse!
+
+ Minister 
+
+ Vice Minister for Science, Technology and Innovation 
+
+ 1st Vice-Minister 
+
+ 2nd Vice-Minister 
+
+ About MI 
+
+ Organization 
+
+ Location Map 
+
+ Extension Agency 
+
+ This website is the official e-government website of Korea.
+
+ Ministry of Science and ICT 
+
+ Open Search Area 
+
+ Search Area 
+ Integrated search 
+
+ SEARCH 
+
+ search reset 
+
+ close Search Area 
+
+ Open All Menus 
+
+ Ministry of Science and ICT 
+
+ Close all menus 
+
+ Site Map 
+
+ Language 
+
+ 한국어 
+
+ English 
+
+ News & Notice 
+ News & Notice -->
+
+ News & Notice
+
+ Notice 
+
+ Press Releases 
+
+ Photo News 
+
+ Science & ICT Trends 
+
+ Newsletter 
+
+ Laws & Statistics 
+ News & Notice -->
+
+ Laws & Statistics
+
+ Laws 
+
+ Statistics 
+
+ National Law Information Center 
+
+ About MSIT 
+ News & Notice -->
+
+ About MSIT
+
+ Minister 
+
+ Vice Minister for Science, Technology and Innovation 
+
+ 1st Vice-Minister 
+
+ 2nd Vice-Minister 
+
+ About MI 
+
+ Organization 
+
+ Location Map 
+
+ Extension Agency 
+
+ News & Notice 
+
+ Notice 
+
+ Press Releases 
+
+ Photo News 
+
+ Science & ICT Trends 
+
+ Newsletter 
+
+ Press Releases 
+
+ SNS Share 
+
+ SNS Share
+
+ FaceBook 
+
+ Twitter 
+
+ URL Copy 
+
+ Close 
+
+ Print 
+
+ The AI Basic Act Comes into Force to Lay the Foundation for Korea to Become an AI G3
+
+ 담당부서 
+
+ 작성자 
+
+ 연락처 
+
+ ﻿ - The AI Basic Act, establishing the foundation for the AI industry, takes effect on January 22.
+
+ -  A grace period of at least one year will be granted, and the AI Basic Act Support Desk will be operated to provide advisory services to AI business operators. 
+ -  Input from industry, academia, and civil society will be collected to refine the Act in light of global AI technological developments and trends. 
+
+ The Ministry of Science and ICT (MSIT, Deputy Prime Minister and Minister: Bae Kyung-hoon) announced that the Basic Act on the Development of Artificial Intelligence and the Establishment of a Trustworthy Foundation (“AI Basic Act”) comes into effect on January 22. 
+
+ The AI Basic Act, aimed at enhancing national AI competitiveness and establishing a safe and reliable foundation for AI use, was passed by the National Assembly in December 2024 following agreement between the ruling and opposition parties. As the second AI regime enacted in the world, South Korea’s legislation provides legal grounds for establishing national AI governance and promoting the AI industry. It also supports the development of foundational infrastructure and the creation of a safe and trustworthy framework to underpin AI innovation. 
+
+ Regarding national AI governance, the Act establishes the legal basis for the Presidential Council on National Artificial Intelligence Strategy, the control tower for national AI policies, and for the Expert Standing Committees, the Secretariat, and Chief AI Officers (CAIOs) within the council, enabling national AI policies to be implemented in a systematic and effective manner. 
+
+ The Act specifies statutory support measures to promote the development of the domestic AI industry, with detailed provisions set out in its Enforcement Decree. These include support for AI research and development; the establishment of training datasets; the introduction and use of AI technologies; support to enable new business formation; the promotion of AI convergence; the cultivation of AI professionals; and the establishment of AI data centers. The Enforcement Decree further sets out detailed criteria and procedures governing each of these areas. 
+
+ To establish a safe and trustworthy foundation, the Act prescribes obligations regarding AI ethics, verification and certification, transparency, safety, and high-impact AI. The Enforcement Decree specifies detailed content, target areas, and implementation methods to clarify the provisions stipulated in the Act. 
+
+ Notably, the Act emphasizes the promotion of the AI industry. According to the “minimum regulation principle,” the Act minimizes obligations and restrictions on AI business operators while broadly incorporating measures to foster the growth of the AI sector. 
+
+ To prepare for the Act’s implementation, MSIT formed a working group in January 2025, composed of around 80 private-sector experts, and held more than 70 consultation sessions to gather feedback for the drafting of the Enforcement Decree. 
+
+ The draft version was first unveiled in September 2025, coinciding with the opening ceremony of the Presidential Council on National Artificial Intelligence Strategy. Immediately thereafter, the ministry revealed the full set of subordinate regulations, including notices and guidelines, for public comments and conducted over 20 briefings for domestic and international companies to facilitate communication. 
+
+ Incorporating the comments received, MSIT released the draft Enforcement Decree for legislative notice on November 12, 2025. Following approval at a Cabinet meeting on January 20, 2026, the AI Basic Act and its Enforcement Decree come into force on January 22, 2026. 
+
+ Key Features of the Enforcement Decree 
+
+ 1. Establishment of National AI Governance (Articles 4–8) 
+ To lay the foundation for implementing national AI policies, the Enforcement Decree specifies details concerning the establishment and operation of the Presidential Council on National Artificial Intelligence Strategy, which serves as a control tower, as well as the CAIO Council, the Expert Standing Committee, the Special Committee, and the Secretariat within the Council. 
+
+ ② AI Research and Development and the Establishment and Provision of Training Data (Articles 11–14) 
+ To secure leading AI technologies and establish training data, the Enforcement Decree sets forth the scope and criteria for government support projects. It also stipulates that the Minister of MSIT shall establish and manage an “integrated provision system” for the distribution of training data and prescribes the functional requirements to ensure its effective operation. 
+
+ ③ Support for AI Adoption and Utilization and the Establishment of Testing Infrastructure (Articles 15 and 19) 
+ The Enforcement Decree sets out government support measures and mandates the development of related support plans to promote the adoption and broader use of AI by businesses and public institutions. It also establishes the legal basis for administrative and financial support to enable public enterprises, government-funded research institutes, and national and public universities to make their facilities available to AI business operators for the testing and performance evaluation of AI technologies. 
+
+ ④ Support for International Cooperation and Overseas Market Expansion (Article 16) 
+ To support the overseas expansion of AI businesses, the Enforcement Decree provides the legal basis for promoting international exchanges of AI-related technologies and professionals and for designating public institutions or other organizations to provide relevant support. 
+
+ ⑤ Designation of AI Clusters (Articles 17 and 18) 
+ When designating AI clusters that bring together infrastructure for businesses and institutions, the Enforcement Decree requires comprehensive consideration of factors such as (i) alignment with the AI basic plan, (ii) the expected benefits of clustering, and (iii) contributions to regional economic development. It also establishes a basis for the establishment or designation of a dedicated organization to support the clusters, thereby creating an institutional foundation for their systematic operation. 
+
+ ⑥ Obligation to Ensure Transparency (Article 23) 
+ The Enforcement Decree requires AI business operators that provide products or services using high-impact or generative AI to inform users in advance that AI is being used. It also allows various notification methods so that businesses can comply with the obligation more easily. 
+
+ For outputs generated by generative AI, including AI-manipulated content (deepfakes) that may raise social concerns, the decree requires clear labeling in a manner that can be easily recognized by users, taking into account factors such as age. 
+
+ However, for AI-generated content other than deepfakes, such as animations and webtoons, the decree permits not only visible labeling but also invisible digital identifiers (watermarks). It further allows AI business operators to provide notice through pop-up messages or user interface (UI) features indicating that the content was generated by AI. 
+
+ ⑦ Obligation to Ensure Safety (Article 24) 
+ To be subject to the obligation to ensure safety, an AI system must meet all of the following criteria: 
+
+ (i) The cumulative computational power used for training exceeds 1026 FLOPs (Floating-point Operations Per Second); 
+ (ii) It incorporates state-of-the-art technologies; and 
+ (iii) It poses a risk of broad and significant impact on fundamental human rights. 
+
+ Detailed guidance on how to determine whether an AI system falls within the scope of the safety obligation will be provided through guidelines. The purpose of the safety obligation is to prevent serious social harm in advance by anticipating situations in which highly advanced AI systems may become uncontrollable. 
+
+ ⑧ Judgment of High-impact AI and Responsibilities of Business Operators (Articles 25–27) 
+ The Enforcement Decree sets out the criteria for determining high-impact AI and the responsibilities of business operators that develop or provide such systems. In determining whether an AI system qualifies as high-impact, factors including (i) whether the AI is used in areas specified in the Act* and (ii) the level of risk involved are comprehensively considered. At the same time, it is also considered whether a human is involved in the final decision-making process. In this case, the AI system is deemed controllable and is therefore excluded from the scope of high-impact AI. 
+
+ More detailed criteria for determining high-impact AI in each area, as well as guidance on how business operators should fulfill their responsibilities, are provided in the guidelines. 
+ * Ten areas: energy, drinking water, healthcare, nuclear sector, crime investigations, recruitment, credit assessment, transportation, public services, and education 
+
+ Grace Period for the AI Basic Act 
+
+ MSIT will grant a grace period of at least one year to minimize confusion among companies and allow sufficient time for preparation. During this period, fact-finding investigations and the imposition of penalties will be deferred. Investigations will be conducted only in highly exceptional cases, such as incidents involving loss of life, violations of human rights, or other serious social harm. 
+
+ To help companies prepare for compliance with the Act, MSIT will establish and operate the “AI Basic Act Support Desk,” composed of experts who participated in drafting the subordinate regulations. The Support Desk will provide detailed consultations based on expert review and analysis to address inquiries and practical challenges related to the Act. To alleviate concerns about the disclosure of trade secrets, all consultations will be kept confidential, and anonymous consultations will also be available. 
+
+ Relevant guidelines will be further refined during the grace period to ensure the smooth and reasonable implementation of the regulatory framework and to reduce uncertainty for businesses. The revised version of the guidelines, reflecting comments received to date, will be released on January 22, when the Act enters into force. The guidelines will be available on the websites of the National Information Society Agency ( www.nia.or.kr), and the Korea AI Software Industry Association ( www.sw.or.kr). 
+
+ In addition, an “AI Basic Act Improvement Working Group” will be launched in February to identify areas for improvement by gathering input from stakeholders, including industry, civil society, and academia. 
+
+ MSIT will also hold on-site briefing sessions on the AI Basic Act for startups. Recognizing that startups and companies based outside major metropolitan areas may not be fully prepared for the new regulatory framework, the science ministry plans to conduct outreach sessions during the grace period to introduce the AI Basic Act and to actively promote it as a legislative foundation for the growth of the domestic AI industry and the realization of an AI-driven society. 
+
+ As AI becomes increasingly integrated into daily life across all sectors including the economy, society, culture, national defense, and security, MSIT plans to closely monitor global regulatory developments and technological trends and respond in a flexible manner. 
+
+ MSIT emphasized that “the application of watermarks to AI-generated content is a minimum safeguard to prevent the misuse of AI technologies, such as AI-manipulated content (deepfakes), and reflects a global trend already adopted by leading international companies.” The ministry added that it “expects the implementation of the AI Basic Act to reduce legal uncertainty in practice and foster a sound and safe domestic AI ecosystem.” 
+
+ For further information, please contact the Public Relations Division (Phone: +82-44-202-4034, E-mail: msitmedia@korea.kr) of the Ministry of Science and ICT. 
+
+ Please refer to the attached PDF. 
+
+ File
+
+ 2. AI G3의 기틀인 「인공지능기본법」 시행.pdf 
+
+ DOWNLOAD 
+ PREVIEW 
+
+ 2. The AI Basic Act Comes into Force to Lay the Foundation for Korea to Become an AI G3.docx 
+
+ DOWNLOAD 
+ PREVIEW 
+
+ Type 1 : Source Indication The works of the Ministry of Science and ICT can be used under the terms of "KOGL Type 1". 
+
+ PREV 
+ SNU Team Uncovers Secrets of Solar System Formation Using James Webb Space Telescope 
+
+ NEXT 
+ MSIT Releases Guidelines on Ensuring AI Transparency 
+
+ LIST 
+
+ TOP

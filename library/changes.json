@@ -1,0 +1,225 @@
+{
+  "run_at": "2026-10-25T12:15:57.959Z",
+  "changed": [],
+  "new": [
+    {
+      "id": "coe-convention",
+      "title": "Council of Europe Framework Convention on AI and Human Rights, Democracy and the Rule of Law (CETS 225)",
+      "url": "https://rm.coe.int/1680afae3c"
+    },
+    {
+      "id": "oecd-principles",
+      "title": "OECD AI Principles",
+      "url": "https://oecd.ai/en/ai-principles"
+    },
+    {
+      "id": "unesco-rec",
+      "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137"
+    },
+    {
+      "id": "un-79-325",
+      "title": "UN General Assembly Resolution A/RES/79/325 (Scientific Panel and Global Dialogue)",
+      "url": "https://docs.un.org/en/A/RES/79/325"
+    },
+    {
+      "id": "un-gdc",
+      "title": "Global Digital Compact (A/RES/79/1 Annex I)",
+      "url": "https://www.un.org/global-digital-compact/sites/default/files/2024-09/Global%20Digital%20Compact%20-%20English_0.pdf"
+    },
+    {
+      "id": "un-panel-page",
+      "title": "UN Independent International Scientific Panel on AI",
+      "url": "https://www.un.org/independent-international-scientific-panel-ai/en"
+    },
+    {
+      "id": "un-dialogue-page",
+      "title": "UN Global Dialogue on AI Governance",
+      "url": "https://www.un.org/global-dialogue-ai-governance/en"
+    },
+    {
+      "id": "bletchley",
+      "title": "Bletchley Declaration (AI Safety Summit 2023)",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023"
+    },
+    {
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689"
+    },
+    {
+      "id": "eu-ai-act-explorer",
+      "title": "Digital Omnibus on AI (explorer, tracks amendments)",
+      "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/"
+    },
+    {
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791"
+    },
+    {
+      "id": "uk-whitepaper",
+      "title": "A pro-innovation approach to AI regulation (White Paper)",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
+    },
+    {
+      "id": "uk-opportunities",
+      "title": "AI Opportunities Action Plan",
+      "url": "https://www.gov.uk/government/publications/ai-opportunities-action-plan"
+    },
+    {
+      "id": "uk-dua-act",
+      "title": "Data (Use and Access) Act 2025",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents"
+    },
+    {
+      "id": "uk-aisi",
+      "title": "AI Security Institute",
+      "url": "https://www.gov.uk/government/organisations/ai-security-institute"
+    },
+    {
+      "id": "us-nist-rmf",
+      "title": "NIST AI Risk Management Framework 1.0 (AI 100-1)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "id": "us-nist-genai",
+      "title": "NIST AI 600-1 Generative AI Profile",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "id": "us-action-plan",
+      "title": "America's AI Action Plan",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
+    },
+    {
+      "id": "kr-msit",
+      "title": "AI Basic Act comes into force (MSIT announcement)",
+      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng"
+    },
+    {
+      "id": "jp-cao-ai",
+      "title": "Cabinet Office AI policy page (AI Promotion Act, Basic Plan)",
+      "url": "https://www8.cao.go.jp/cstp/ai/index.html"
+    },
+    {
+      "id": "jp-meti-guidelines",
+      "title": "AI Guidelines for Business",
+      "url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20240419_report.html"
+    },
+    {
+      "id": "sg-model-framework",
+      "title": "Model AI Governance Framework",
+      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework"
+    },
+    {
+      "id": "sg-aiverify",
+      "title": "AI Verify Foundation",
+      "url": "https://aiverifyfoundation.sg/"
+    },
+    {
+      "id": "cn-cac",
+      "title": "Cyberspace Administration of China (English site)",
+      "url": "https://www.cac.gov.cn/"
+    },
+    {
+      "id": "vn-gov",
+      "title": "Vietnam Government portal (legal documents)",
+      "url": "https://xaydungchinhsach.chinhphu.vn/"
+    },
+    {
+      "id": "ca-voluntary-code",
+      "title": "Voluntary Code of Conduct on Advanced Generative AI",
+      "url": "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems"
+    },
+    {
+      "id": "br-pl2338",
+      "title": "PL 2338/2023 (AI Legal Framework): Senate bill page",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233"
+    },
+    {
+      "id": "br-camara",
+      "title": "PL 2338/2023 Chamber of Deputies proceeding",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262"
+    },
+    {
+      "id": "ae-uae-ai",
+      "title": "UAE Government portal: Artificial Intelligence",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence"
+    }
+  ],
+  "failed": [
+    {
+      "id": "coe-treaty-page",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "iea-energy-ai",
+      "title": "Energy and AI (IEA report on data centre electricity demand)",
+      "url": "https://www.iea.org/reports/energy-and-ai",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "eu-ai-act-consolidated",
+      "title": "AI Act: Commission regulatory framework page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "eu-gpai-code",
+      "title": "General-Purpose AI Code of Practice",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "us-ca-sb53",
+      "title": "California SB 53 (Transparency in Frontier AI Act)",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "us-co-sb205",
+      "title": "Colorado SB24-205 (Consumer Protections for AI)",
+      "url": "https://leg.colorado.gov/bills/sb24-205",
+      "error": "HTTP 406"
+    },
+    {
+      "id": "au-industry-ai",
+      "title": "Australian Government: Safe and responsible AI",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence",
+      "error": "fetch failed"
+    },
+    {
+      "id": "in-meity",
+      "title": "MeitY: Artificial Intelligence portal",
+      "url": "https://www.meity.gov.in/",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "in-pib",
+      "title": "PIB press releases on AI (watch page)",
+      "url": "https://pib.gov.in/allRel.aspx",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "ca-legisinfo",
+      "title": "LEGISinfo: Parliament of Canada bills",
+      "url": "https://www.parl.ca/legisinfo/en/bills",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "ke-ict",
+      "title": "Kenya Ministry of ICT",
+      "url": "https://www.ict.go.ke/",
+      "error": "fetch failed"
+    },
+    {
+      "id": "ch-federal-council",
+      "title": "Federal Council: AI regulatory approach",
+      "url": "https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html",
+      "error": "HTTP 404"
+    }
+  ]
+}
