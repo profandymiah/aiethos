@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T17:34:25.385Z",
+ "generated": "2026-10-25T17:37:57.830Z",
  "source": "Crossref search ranked by citations, filtered for AI plus ethics terms in the title (Google Scholar has no API and blocks automated access; OpenAlex rate-limited), journal-article type, publisher whitelist and retraction checks",
  "window": [
   2011,
@@ -97,60 +97,16 @@
   "BMJ"
  ],
  "diagnostics": {
-  "requests": 379,
+  "requests": 389,
   "failures": []
  },
  "counts": {
-  "candidates": 91,
-  "verified": 91,
+  "candidates": 101,
+  "verified": 101,
   "rejected": 0
  },
  "rejected": [],
  "papers": [
-  {
-   "doi": "10.1177/0018720811417254",
-   "title": "A Meta-Analysis of Factors Affecting Trust in Human-Robot Interaction",
-   "year": 2011,
-   "cited_by": 1879,
-   "journal": "Human Factors: The Journal of the Human Factors and Ergonomics Society",
-   "issn": [
-    "0018-7208",
-    "1547-8181"
-   ],
-   "publisher": "SAGE",
-   "publisher_raw": "SAGE Publications",
-   "authors": [
-    "Peter A. Hancock",
-    "Deborah R. Billings",
-    "Kristin E. Schaefer",
-    "Jessie Y. C. Chen"
-   ],
-   "theme_ids": [
-    "rights"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "SAGE Publications",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 1879,
-   "volume": "53",
-   "issue": "5",
-   "pages": "517-527",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1177/0018720811417254",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
   {
    "doi": "10.1017/s1816383112000768",
    "title": "On banning autonomous weapon systems: human rights, automation, and the dehumanization of lethal decision-making",
@@ -167,8 +123,6 @@
     "Peter Asaro"
    ],
    "theme_ids": [
-    "work",
-    "military",
     "public-sector"
    ],
    "oa": false,
@@ -195,33 +149,38 @@
    "is_review": false
   },
   {
-   "doi": "10.1002/tesq.129",
-   "title": "The Interaction of Motivation, Self‐Regulatory Strategies, and Autonomous Learning Behavior in Different Learner Groups",
+   "doi": "10.1007/s10676-013-9321-6",
+   "title": "Bias in algorithmic filtering and personalization",
    "year": 2013,
-   "cited_by": 206,
-   "journal": "TESOL Quarterly",
+   "cited_by": 481,
+   "journal": "Ethics and Information Technology",
    "issn": [
-    "0039-8322",
-    "1545-7249"
+    "1388-1957",
+    "1572-8439"
    ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
    "authors": [
-    "Judit Kormos",
-    "Kata Csizér"
+    "Engin Bozdag"
    ],
    "theme_ids": [
-    "military"
+    "bias",
+    "transparency",
+    "accountability",
+    "work",
+    "military",
+    "public-sector",
+    "adoption"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Wiley",
+   "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 206,
-   "volume": "48",
-   "issue": "2",
-   "pages": "275-299",
+   "crossref_cited_by": 481,
+   "volume": "15",
+   "issue": "3",
+   "pages": "209-227",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -230,51 +189,7 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1002/tesq.129",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1126/science.1249547",
-   "title": "Polarization of the Effects of Autoimmune and Neurodegenerative Risk Alleles in Leukocytes",
-   "year": 2014,
-   "cited_by": 497,
-   "journal": "Science",
-   "issn": [
-    "0036-8075",
-    "1095-9203"
-   ],
-   "publisher": "AAAS (Science)",
-   "publisher_raw": "American Association for the Advancement of Science (AAAS)",
-   "authors": [
-    "Towfique Raj",
-    "Katie Rothamel",
-    "Sara Mostafavi",
-    "Chun Ye"
-   ],
-   "theme_ids": [
-    "safety"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "American Association for the Advancement of Science (AAAS)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 497,
-   "volume": "344",
-   "issue": "6183",
-   "pages": "519-523",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1126/science.1249547",
+   "url": "https://doi.org/10.1007/s10676-013-9321-6",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -323,36 +238,33 @@
    "is_review": false
   },
   {
-   "doi": "10.1177/0162243915606523",
-   "title": "Toward an Ethics of Algorithms",
+   "doi": "10.1016/j.tra.2015.04.003",
+   "title": "Preparing a nation for autonomous vehicles: opportunities, barriers and policy recommendations",
    "year": 2015,
-   "cited_by": 333,
-   "journal": "Science, Technology, &amp; Human Values",
+   "cited_by": 2059,
+   "journal": "Transportation Research Part A: Policy and Practice",
    "issn": [
-    "0162-2439",
-    "1552-8251"
+    "0965-8564"
    ],
-   "publisher": "SAGE",
-   "publisher_raw": "SAGE Publications",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Mike Ananny"
+    "Daniel J. Fagnant",
+    "Kara Kockelman"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military"
+    "governance",
+    "military",
+    "operationalising"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "SAGE Publications",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 333,
-   "volume": "41",
-   "issue": "1",
-   "pages": "93-117",
+   "crossref_cited_by": 2059,
+   "volume": "77",
+   "pages": "167-181",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -361,100 +273,40 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1177/0162243915606523",
+   "url": "https://doi.org/10.1016/j.tra.2015.04.003",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1093/jamia/ocv044",
-   "title": "RobotReviewer: evaluation of a system for automatically assessing bias in clinical trials",
-   "year": 2015,
-   "cited_by": 261,
-   "journal": "Journal of the American Medical Informatics Association",
-   "issn": [
-    "1527-974X",
-    "1067-5027"
-   ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
-   "authors": [
-    "Iain J Marshall",
-    "Joël Kuiper",
-    "Byron C Wallace"
-   ],
-   "theme_ids": [
-    "bias"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 261,
-   "volume": "23",
-   "issue": "1",
-   "pages": "193-201",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1093/jamia/ocv044",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1177/2053951716679679",
-   "title": "The ethics of algorithms: Mapping the debate",
+   "doi": "10.1016/j.tra.2016.09.010",
+   "title": "Driving to safety: How many miles of driving would it take to demonstrate autonomous vehicle reliability?",
    "year": 2016,
-   "cited_by": 2945,
-   "journal": "Big Data &amp; Society",
+   "cited_by": 964,
+   "journal": "Transportation Research Part A: Policy and Practice",
    "issn": [
-    "2053-9517",
-    "2053-9517"
+    "0965-8564"
    ],
-   "publisher": "SAGE",
-   "publisher_raw": "SAGE Publications",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Brent Daniel Mittelstadt",
-    "Patrick Allo",
-    "Mariarosaria Taddeo",
-    "Sandra Wachter"
+    "Nidhi Kalra",
+    "Susan M. Paddock"
    ],
    "theme_ids": [
-    "principles",
     "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
     "safety",
-    "work",
-    "environment",
-    "health",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "military"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "SAGE Publications",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2945,
-   "volume": "3",
-   "issue": "2",
+   "crossref_cited_by": 964,
+   "volume": "94",
+   "pages": "182-193",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -463,48 +315,7 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1177/2053951716679679",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1177/1461444815608807",
-   "title": "#Gamergate and The Fappening: How Reddit’s algorithm, governance, and culture support toxic technocultures",
-   "year": 2016,
-   "cited_by": 884,
-   "journal": "New Media &amp; Society",
-   "issn": [
-    "1461-4448",
-    "1461-7315"
-   ],
-   "publisher": "SAGE",
-   "publisher_raw": "SAGE Publications",
-   "authors": [
-    "Adrienne Massanari"
-   ],
-   "theme_ids": [
-    "governance"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "SAGE Publications",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 884,
-   "volume": "19",
-   "issue": "3",
-   "pages": "329-346",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1177/1461444815608807",
+   "url": "https://doi.org/10.1016/j.tra.2016.09.010",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -597,11 +408,100 @@
    "is_review": false
   },
   {
+   "doi": "10.1093/idpl/ipx005",
+   "title": "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation",
+   "year": 2017,
+   "cited_by": 1015,
+   "journal": "International Data Privacy Law",
+   "issn": [
+    "2044-3994",
+    "2044-4001"
+   ],
+   "publisher": "Oxford University Press",
+   "publisher_raw": "Oxford University Press (OUP)",
+   "authors": [
+    "Sandra Wachter",
+    "Brent Mittelstadt",
+    "Luciano Floridi"
+   ],
+   "theme_ids": [
+    "governance",
+    "privacy",
+    "public-sector"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Oxford University Press (OUP)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1015,
+   "volume": "7",
+   "issue": "2",
+   "pages": "76-99",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1093/idpl/ipx005",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1109/tro.2017.2659727",
+   "title": "Safety Barrier Certificates for Collisions-Free Multirobot Systems",
+   "year": 2017,
+   "cited_by": 785,
+   "journal": "IEEE Transactions on Robotics",
+   "issn": [
+    "1552-3098",
+    "1941-0468"
+   ],
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "authors": [
+    "Li Wang",
+    "Aaron D. Ames",
+    "Magnus Egerstedt"
+   ],
+   "theme_ids": [
+    "safety",
+    "adoption"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 785,
+   "volume": "33",
+   "issue": "3",
+   "pages": "661-674",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1109/tro.2017.2659727",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
    "doi": "10.1111/rego.12158",
    "title": "Algorithmic regulation: A critical interrogation",
    "year": 2017,
    "cited_by": 668,
-   "journal": "Regulation &amp; Governance",
+   "journal": "Regulation & Governance",
    "issn": [
     "1748-5983",
     "1748-5991"
@@ -638,34 +538,35 @@
    "is_review": false
   },
   {
-   "doi": "10.1002/adfm.201606287",
-   "title": "Energy‐Autonomous, Flexible, and Transparent Tactile Skin",
+   "doi": "10.1007/s13347-017-0279-x",
+   "title": "Fair, Transparent, and Accountable Algorithmic Decision-making Processes",
    "year": 2017,
-   "cited_by": 300,
-   "journal": "Advanced Functional Materials",
+   "cited_by": 597,
+   "journal": "Philosophy & Technology",
    "issn": [
-    "1616-301X",
-    "1616-3028"
+    "2210-5433",
+    "2210-5441"
    ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
    "authors": [
-    "Carlos García Núñez",
-    "William Taube Navaraj",
-    "Emre O. Polat",
-    "Ravinder Dahiya"
+    "Bruno Lepri",
+    "Nuria Oliver",
+    "Emmanuel Letouzé",
+    "Alex Pentland"
    ],
    "theme_ids": [
-    "military"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Wiley",
+   "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 300,
-   "volume": "27",
-   "issue": "18",
+   "crossref_cited_by": 597,
+   "volume": "31",
+   "issue": "4",
+   "pages": "611-627",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -674,18 +575,416 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1002/adfm.201606287",
+   "url": "https://doi.org/10.1007/s13347-017-0279-x",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
+   "doi": "10.1109/mits.2016.2583491",
+   "title": "Autonomous Vehicle Safety: An Interdisciplinary Challenge",
+   "year": 2017,
+   "cited_by": 569,
+   "journal": "IEEE Intelligent Transportation Systems Magazine",
+   "issn": [
+    "1939-1390"
+   ],
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "authors": [
+    "Philip Koopman",
+    "Michael Wagner"
+   ],
+   "theme_ids": [
+    "military"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 569,
+   "volume": "9",
+   "issue": "1",
+   "pages": "90-96",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1109/mits.2016.2583491",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.ijhcs.2016.12.008",
+   "title": "Can we control it? Autonomous robots threaten human identity, uniqueness, safety, and resources",
+   "year": 2017,
+   "cited_by": 375,
+   "journal": "International Journal of Human-Computer Studies",
+   "issn": [
+    "1071-5819"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Jakub Złotowski",
+    "Kumar Yogeeswaran",
+    "Christoph Bartneck"
+   ],
+   "theme_ids": [
+    "military"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 375,
+   "volume": "100",
+   "pages": "48-54",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.ijhcs.2016.12.008",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1007/s13347-017-0263-5",
+   "title": "Algorithmic Accountability and Public Reason",
+   "year": 2017,
+   "cited_by": 316,
+   "journal": "Philosophy & Technology",
+   "issn": [
+    "2210-5433",
+    "2210-5441"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Reuben Binns"
+   ],
+   "theme_ids": [
+    "public-sector"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 316,
+   "volume": "31",
+   "issue": "4",
+   "pages": "543-556",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s13347-017-0263-5",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1007/s10892-017-9252-2",
+   "title": "Incorporating Ethics into Artificial Intelligence",
+   "year": 2017,
+   "cited_by": 313,
+   "journal": "The Journal of Ethics",
+   "issn": [
+    "1382-4554",
+    "1572-8609"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Amitai Etzioni",
+    "Oren Etzioni"
+   ],
+   "theme_ids": [
+    "public-sector"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 313,
+   "volume": "21",
+   "issue": "4",
+   "pages": "403-418",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s10892-017-9252-2",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1109/access.2018.2870052",
+   "title": "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)",
+   "year": 2018,
+   "cited_by": 5710,
+   "journal": "IEEE Access",
+   "issn": [
+    "2169-3536"
+   ],
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "authors": [
+    "Amina Adadi",
+    "Mohammed Berrada"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 5710,
+   "volume": "6",
+   "pages": "52138-52160",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1109/access.2018.2870052",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
+   "doi": "10.1007/s11023-018-9482-5",
+   "title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
+   "year": 2018,
+   "cited_by": 4385,
+   "journal": "Minds and Machines",
+   "issn": [
+    "0924-6495",
+    "1572-8641"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Luciano Floridi",
+    "Josh Cowls",
+    "Monica Beltrametti",
+    "Raja Chatila"
+   ],
+   "theme_ids": [
+    "principles",
+    "genai",
+    "operationalising"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 4385,
+   "volume": "28",
+   "issue": "4",
+   "pages": "689-707",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "28 October 2018",
+    "accepted": "2 November 2018",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s11023-018-9482-5",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1001/jamainternmed.2018.3763",
+   "title": "Potential Biases in Machine Learning Algorithms Using Electronic Health Record Data",
+   "year": 2018,
+   "cited_by": 1260,
+   "journal": "JAMA Internal Medicine",
+   "issn": [
+    "2168-6106"
+   ],
+   "publisher": "AMA",
+   "publisher_raw": "American Medical Association (AMA)",
+   "authors": [
+    "Milena A. Gianfrancesco",
+    "Suzanne Tamang",
+    "Jinoos Yazdany",
+    "Gabriela Schmajuk"
+   ],
+   "theme_ids": [
+    "privacy"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "American Medical Association (AMA)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1260,
+   "volume": "178",
+   "issue": "11",
+   "pages": "1544",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1001/jamainternmed.2018.3763",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1109/tifs.2017.2787987",
+   "title": "Privacy-Preserving Deep Learning via Additively Homomorphic Encryption",
+   "year": 2018,
+   "cited_by": 1218,
+   "journal": "IEEE Transactions on Information Forensics and Security",
+   "issn": [
+    "1556-6013",
+    "1556-6021"
+   ],
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "authors": [
+    "Le Trieu Phong",
+    "Yoshinori Aono",
+    "Takuya Hayashi",
+    "Lihua Wang"
+   ],
+   "theme_ids": [
+    "privacy"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1218,
+   "volume": "13",
+   "issue": "5",
+   "pages": "1333-1345",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1109/tifs.2017.2787987",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.mechatronics.2018.02.009",
+   "title": "Survey on human–robot collaboration in industrial settings: Safety, intuitive interfaces and applications",
+   "year": 2018,
+   "cited_by": 1195,
+   "journal": "Mechatronics",
+   "issn": [
+    "0957-4158"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Valeria Villani",
+    "Fabio Pini",
+    "Francesco Leali",
+    "Cristian Secchi"
+   ],
+   "theme_ids": [
+    "safety",
+    "rights"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1195,
+   "volume": "55",
+   "pages": "248-266",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.mechatronics.2018.02.009",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
    "doi": "10.1177/2053951718756684",
    "title": "Understanding perception of algorithmic decisions: Fairness, trust, and emotion in response to algorithmic management",
    "year": 2018,
    "cited_by": 1137,
-   "journal": "Big Data &amp; Society",
+   "journal": "Big Data & Society",
    "issn": [
     "2053-9517",
     "2053-9517"
@@ -737,16 +1036,13 @@
     "Corinne Cath"
    ],
    "theme_ids": [
-    "governance",
     "bias",
     "transparency",
     "accountability",
-    "safety",
     "work",
     "military",
     "public-sector",
-    "adoption",
-    "auditing"
+    "adoption"
    ],
    "oa": false,
    "openalex": null,
@@ -788,14 +1084,12 @@
     "Nezih Hekim"
    ],
    "theme_ids": [
-    "governance",
     "bias",
     "transparency",
     "accountability",
     "work",
     "military",
-    "public-sector",
-    "adoption"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
@@ -818,6 +1112,52 @@
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1007/s13244-018-0645-y",
+   "title": "Artificial intelligence as a medical device in radiology: ethical and regulatory issues in Europe and the United States",
+   "year": 2018,
+   "cited_by": 427,
+   "journal": "Insights into Imaging",
+   "issn": [
+    "1869-4101"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Filippo Pesapane",
+    "Caterina Volonté",
+    "Marina Codari",
+    "Francesco Sardanelli"
+   ],
+   "theme_ids": [
+    "public-sector"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 427,
+   "volume": "9",
+   "issue": "5",
+   "pages": "745-753",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "18 May 2018",
+    "accepted": "28 June 2018",
+    "revised": "18 June 2018",
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s13244-018-0645-y",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [
+    "eu",
+    "us"
+   ],
    "is_review": false
   },
   {
@@ -863,36 +1203,32 @@
    "is_review": false
   },
   {
-   "doi": "10.1126/science.aax2342",
-   "title": "Dissecting racial bias in an algorithm used to manage the health of populations",
-   "year": 2019,
-   "cited_by": 6540,
-   "journal": "Science",
+   "doi": "10.1007/s10676-018-9450-z",
+   "title": "Ethics in artificial intelligence: introduction to the special issue",
+   "year": 2018,
+   "cited_by": 358,
+   "journal": "Ethics and Information Technology",
    "issn": [
-    "0036-8075",
-    "1095-9203"
+    "1388-1957",
+    "1572-8439"
    ],
-   "publisher": "AAAS (Science)",
-   "publisher_raw": "American Association for the Advancement of Science (AAAS)",
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
    "authors": [
-    "Ziad Obermeyer",
-    "Brian Powers",
-    "Christine Vogeli",
-    "Sendhil Mullainathan"
+    "Virginia Dignum"
    ],
    "theme_ids": [
-    "bias",
-    "health"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "American Association for the Advancement of Science (AAAS)",
+   "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 6540,
-   "volume": "366",
-   "issue": "6464",
-   "pages": "447-453",
+   "crossref_cited_by": 358,
+   "volume": "20",
+   "issue": "1",
+   "pages": "1-3",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -901,7 +1237,66 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1126/science.aax2342",
+   "url": "https://doi.org/10.1007/s10676-018-9450-z",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1038/s42256-019-0088-2",
+   "title": "The global landscape of AI ethics guidelines",
+   "year": 2019,
+   "cited_by": 5682,
+   "journal": "Nature Machine Intelligence",
+   "issn": [
+    "2522-5839"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Anna Jobin",
+    "Marcello Ienca",
+    "Effy Vayena"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 5682,
+   "volume": "1",
+   "issue": "9",
+   "pages": "389-399",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "23 May 2019",
+    "accepted": "23 July 2019",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1038/s42256-019-0088-2",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -961,6 +1356,62 @@
     "crossref_review_asserted": false
    },
    "url": "https://doi.org/10.1126/scirobotics.aay7120",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1038/s42256-019-0114-4",
+   "title": "Principles alone cannot guarantee ethical AI",
+   "year": 2019,
+   "cited_by": 1720,
+   "journal": "Nature Machine Intelligence",
+   "issn": [
+    "2522-5839"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Brent Mittelstadt"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1720,
+   "volume": "1",
+   "issue": "11",
+   "pages": "501-507",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "23 May 2019",
+    "accepted": "9 October 2019",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1038/s42256-019-0114-4",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -1027,6 +1478,48 @@
    "is_review": false
   },
   {
+   "doi": "10.1007/s11747-019-00710-5",
+   "title": "Explainable AI: from black box to glass box",
+   "year": 2019,
+   "cited_by": 1239,
+   "journal": "Journal of the Academy of Marketing Science",
+   "issn": [
+    "0092-0703",
+    "1552-7824"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Arun Rai"
+   ],
+   "theme_ids": [
+    "genai",
+    "operationalising"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1239,
+   "volume": "48",
+   "issue": "1",
+   "pages": "137-141",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s11747-019-00710-5",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
    "doi": "10.1609/aimag.v40i2.2850",
    "title": "DARPA's Explainable Artificial Intelligence Program",
    "year": 2019,
@@ -1051,8 +1544,6 @@
     "privacy",
     "safety",
     "work",
-    "environment",
-    "health",
     "military",
     "genai",
     "global-south",
@@ -1086,35 +1577,33 @@
    "is_review": false
   },
   {
-   "doi": "10.1093/jamia/ocz192",
-   "title": "A governance model for the application of AI in health care",
+   "doi": "10.1016/j.physrep.2019.03.001",
+   "title": "A high-bias, low-variance introduction to Machine Learning for physicists",
    "year": 2019,
-   "cited_by": 876,
-   "journal": "Journal of the American Medical Informatics Association",
+   "cited_by": 953,
+   "journal": "Physics Reports",
    "issn": [
-    "1527-974X"
+    "0370-1573"
    ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Sandeep Reddy",
-    "Sonia Allan",
-    "Simon Coghlan",
-    "Paul Cooper"
+    "Pankaj Mehta",
+    "Marin Bukov",
+    "Ching-Hao Wang",
+    "Alexandre G.R. Day"
    ],
    "theme_ids": [
-    "governance",
-    "genai"
+    "bias"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 876,
-   "volume": "27",
-   "issue": "3",
-   "pages": "491-497",
+   "crossref_cited_by": 953,
+   "volume": "810",
+   "pages": "1-124",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -1123,71 +1612,68 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1093/jamia/ocz192",
+   "url": "https://doi.org/10.1016/j.physrep.2019.03.001",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1007/s11948-019-00165-5",
-   "title": "From What to How: An Initial Review of Publicly Available AI Ethics Tools, Methods and Research to Translate Principles into Practices",
+   "doi": "10.1136/bmjqs-2018-008370",
+   "title": "Artificial intelligence, bias and clinical safety",
    "year": 2019,
-   "cited_by": 852,
-   "journal": "Science and Engineering Ethics",
+   "cited_by": 897,
+   "journal": "BMJ Quality & Safety",
    "issn": [
-    "1353-3452",
-    "1471-5546"
+    "2044-5415",
+    "2044-5423"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "BMJ",
+   "publisher_raw": "BMJ",
    "authors": [
-    "Jessica Morley",
-    "Luciano Floridi",
-    "Libby Kinsey",
-    "Anat Elhalal"
+    "Robert Challen",
+    "Joshua Denny",
+    "Martin Pitt",
+    "Luke Gompels"
    ],
    "theme_ids": [
     "principles",
     "governance",
-    "bias",
     "transparency",
     "accountability",
     "safety",
     "work",
     "military",
-    "genai",
-    "global-south",
-    "rights",
+    "public-sector",
     "adoption",
     "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "BMJ",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 852,
-   "volume": "26",
-   "issue": "4",
-   "pages": "2141-2168",
+   "crossref_cited_by": 897,
+   "volume": "28",
+   "issue": "3",
+   "pages": "231-237",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "16 May 2019",
-    "accepted": "29 November 2019",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s11948-019-00165-5",
+   "url": "https://doi.org/10.1136/bmjqs-2018-008370",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
-   "is_review": true
+   "is_review": false
   },
   {
    "doi": "10.1002/hast.973",
-   "title": "Artificial Intelligence and Black‐Box Medical Decisions:\n                    <i>Accuracy versus Explainability</i>",
+   "title": "Artificial Intelligence and Black‐Box Medical Decisions: Accuracy versus Explainability",
    "year": 2019,
    "cited_by": 801,
    "journal": "Hastings Center Report",
@@ -1201,19 +1687,7 @@
     "Alex John London"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "safety",
-    "work",
-    "military",
-    "genai",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
@@ -1239,33 +1713,109 @@
    "is_review": false
   },
   {
-   "doi": "10.1136/medethics-2019-105586",
-   "title": "On the ethics of algorithmic decision-making in healthcare",
-   "year": 2019,
-   "cited_by": 476,
-   "journal": "Journal of Medical Ethics",
+   "doi": "10.1038/s42256-019-0138-9",
+   "title": "From local explanations to global understanding with explainable AI for trees",
+   "year": 2020,
+   "cited_by": 10241,
+   "journal": "Nature Machine Intelligence",
    "issn": [
-    "0306-6800",
-    "1473-4257"
+    "2522-5839"
    ],
-   "publisher": "BMJ",
-   "publisher_raw": "BMJ",
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
    "authors": [
-    "Thomas Grote",
-    "Philipp Berens"
+    "Scott M. Lundberg",
+    "Gabriel Erion",
+    "Hugh Chen",
+    "Alex DeGrave"
    ],
    "theme_ids": [
-    "public-sector"
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "adoption",
+    "operationalising",
+    "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "BMJ",
+   "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 476,
-   "volume": "46",
-   "issue": "3",
-   "pages": "205-211",
+   "crossref_cited_by": 10241,
+   "volume": "2",
+   "issue": "1",
+   "pages": "56-67",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "27 June 2019",
+    "accepted": "6 December 2019",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1038/s42256-019-0138-9",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.inffus.2019.12.012",
+   "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+   "year": 2020,
+   "cited_by": 9733,
+   "journal": "Information Fusion",
+   "issn": [
+    "1566-2535"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Alejandro Barredo Arrieta",
+    "Natalia Díaz-Rodríguez",
+    "Javier Del Ser",
+    "Adrien Bennetot"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 9733,
+   "volume": "58",
+   "pages": "82-115",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -1274,7 +1824,7 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1136/medethics-2019-105586",
+   "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -1397,6 +1947,203 @@
    "is_review": false
   },
   {
+   "doi": "10.1038/s42256-020-0186-1",
+   "title": "Secure, privacy-preserving and federated machine learning in medical imaging",
+   "year": 2020,
+   "cited_by": 1443,
+   "journal": "Nature Machine Intelligence",
+   "issn": [
+    "2522-5839"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Georgios A. Kaissis",
+    "Marcus R. Makowski",
+    "Daniel Rückert",
+    "Rickmer F. Braren"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1443,
+   "volume": "2",
+   "issue": "6",
+   "pages": "305-311",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "26 February 2020",
+    "accepted": "7 May 2020",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1038/s42256-020-0186-1",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1109/tip.2020.2977573",
+   "title": "DDcGAN: A Dual-Discriminator Conditional Generative Adversarial Network for Multi-Resolution Image Fusion",
+   "year": 2020,
+   "cited_by": 1354,
+   "journal": "IEEE Transactions on Image Processing",
+   "issn": [
+    "1057-7149",
+    "1941-0042"
+   ],
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "authors": [
+    "Jiayi Ma",
+    "Han Xu",
+    "Junjun Jiang",
+    "Xiaoguang Mei"
+   ],
+   "theme_ids": [
+    "genai"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1354,
+   "volume": "29",
+   "pages": "4980-4995",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1109/tip.2020.2977573",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.socscimed.2020.113172",
+   "title": "The ethics of AI in health care: A mapping review",
+   "year": 2020,
+   "cited_by": 1030,
+   "journal": "Social Science & Medicine",
+   "issn": [
+    "0277-9536"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Jessica Morley",
+    "Caio C.V. Machado",
+    "Christopher Burr",
+    "Josh Cowls"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "military",
+    "global-south",
+    "rights",
+    "adoption",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1030,
+   "volume": "260",
+   "pages": "113172",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.socscimed.2020.113172",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
+   "doi": "10.1038/s42256-020-00236-4",
+   "title": "Drug discovery with explainable artificial intelligence",
+   "year": 2020,
+   "cited_by": 995,
+   "journal": "Nature Machine Intelligence",
+   "issn": [
+    "2522-5839"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "José Jiménez-Luna",
+    "Francesca Grisoni",
+    "Gisbert Schneider"
+   ],
+   "theme_ids": [
+    "public-sector"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 995,
+   "volume": "2",
+   "issue": "10",
+   "pages": "573-584",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "11 July 2020",
+    "accepted": "10 September 2020",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1038/s42256-020-00236-4",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
    "doi": "10.1002/widm.1356",
    "title": "Bias in data‐driven artificial intelligence systems—An introductory survey",
    "year": 2020,
@@ -1415,17 +2162,7 @@
     "Vasileios Iosifidis"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "safety",
-    "work",
-    "military",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
@@ -1450,161 +2187,64 @@
    "is_review": true
   },
   {
-   "doi": "10.1111/puar.13293",
-   "title": "Accountable Artificial Intelligence: Holding Algorithms to Account",
+   "doi": "10.1016/j.giq.2020.101493",
+   "title": "Data governance: Organizing data for trustworthy Artificial Intelligence",
    "year": 2020,
-   "cited_by": 597,
-   "journal": "Public Administration Review",
+   "cited_by": 729,
+   "journal": "Government Information Quarterly",
    "issn": [
-    "0033-3352",
-    "1540-6210"
+    "0740-624X"
    ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Madalina Busuioc"
+    "Marijn Janssen",
+    "Paul Brous",
+    "Elsa Estevez",
+    "Luis S. Barbosa"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
     "public-sector"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Wiley",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 597,
-   "volume": "81",
-   "issue": "5",
-   "pages": "825-836",
+   "crossref_cited_by": 729,
+   "volume": "37",
+   "issue": "3",
+   "pages": "101493",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
-    "accepted": "2020-08-11",
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1111/puar.13293",
+   "url": "https://doi.org/10.1016/j.giq.2020.101493",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1007/s11948-020-00276-4",
-   "title": "Towards Transparency by Design for Artificial Intelligence",
+   "doi": "10.2139/ssrn.3518482",
+   "title": "Principled Artificial Intelligence: Mapping Consensus in Ethical and Rights-Based Approaches to Principles for AI",
    "year": 2020,
-   "cited_by": 533,
-   "journal": "Science and Engineering Ethics",
+   "cited_by": 647,
+   "journal": "SSRN Electronic Journal",
    "issn": [
-    "1353-3452",
-    "1471-5546"
+    "1556-5068"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Heike Felzmann",
-    "Eduard Fosch-Villaronga",
-    "Christoph Lutz",
-    "Aurelia Tamò-Larrieux"
-   ],
-   "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 533,
-   "volume": "26",
-   "issue": "6",
-   "pages": "3333-3361",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "11 January 2020",
-    "accepted": "29 October 2020",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1007/s11948-020-00276-4",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1007/s11948-020-00228-y",
-   "title": "In AI We Trust: Ethics, Artificial Intelligence, and Reliability",
-   "year": 2020,
-   "cited_by": 533,
-   "journal": "Science and Engineering Ethics",
-   "issn": [
-    "1353-3452",
-    "1471-5546"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Mark Ryan"
-   ],
-   "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "military",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 533,
-   "volume": "26",
-   "issue": "5",
-   "pages": "2749-2767",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "16 December 2019",
-    "accepted": "26 May 2020",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1007/s11948-020-00228-y",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1007/s12525-020-00441-4",
-   "title": "Trustworthy artificial intelligence",
-   "year": 2020,
-   "cited_by": 512,
-   "journal": "Electronic Markets",
-   "issn": [
-    "1019-6781",
-    "1422-8890"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Scott Thiebes",
-    "Sebastian Lins",
-    "Ali Sunyaev"
+    "Jessica Fjeld",
+    "Nele Achten",
+    "Hannah Hilligoss",
+    "Adam Nagy"
    ],
    "theme_ids": [
     "public-sector"
@@ -1612,25 +2252,22 @@
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 512,
-   "volume": "31",
-   "issue": "2",
-   "pages": "447-464",
+   "crossref_cited_by": 647,
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "13 May 2020",
-    "accepted": "9 September 2020",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s12525-020-00441-4",
+   "url": "https://doi.org/10.2139/ssrn.3518482",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
-   "is_review": false
+   "is_review": true
   },
   {
    "doi": "10.1145/3457607",
@@ -1677,35 +2314,50 @@
    "is_review": true
   },
   {
-   "doi": "10.1093/eurheartj/ehab309",
-   "title": "SCORE2 risk prediction algorithms: new models to estimate 10-year risk of cardiovascular disease in Europe",
+   "doi": "10.1016/j.ijinfomgt.2019.08.002",
+   "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
    "year": 2021,
-   "cited_by": 1678,
-   "journal": "European Heart Journal",
+   "cited_by": 3676,
+   "journal": "International Journal of Information Management",
    "issn": [
-    "0195-668X",
-    "1522-9645"
+    "0268-4012"
    ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "",
-    "Steven Hageman",
-    "Lisa Pennells",
-    "Francisco Ojeda"
+    "Yogesh K. Dwivedi",
+    "Laurie Hughes",
+    "Elvira Ismagilova",
+    "Gert Aarts"
    ],
    "theme_ids": [
-    "safety"
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1678,
-   "volume": "42",
-   "issue": "25",
-   "pages": "2439-2454",
+   "crossref_cited_by": 3676,
+   "volume": "57",
+   "pages": "101994",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -1714,12 +2366,227 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1093/eurheartj/ehab309",
+   "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
    "verified": true,
    "verified_at": "2026-10-25",
-   "jurisdictions": [
-    "eu"
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1109/tnnls.2020.3027314",
+   "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+   "year": 2021,
+   "cited_by": 2213,
+   "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+   "issn": [
+    "2162-237X",
+    "2162-2388"
    ],
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "authors": [
+    "Erico Tjoa",
+    "Cuntai Guan"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 2213,
+   "volume": "32",
+   "issue": "11",
+   "pages": "4793-4813",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1109/tnnls.2020.3027314",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
+   "doi": "10.1016/s2589-7500(21)00208-9",
+   "title": "The false hope of current approaches to explainable artificial intelligence in health care",
+   "year": 2021,
+   "cited_by": 1646,
+   "journal": "The Lancet Digital Health",
+   "issn": [
+    "2589-7500"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Marzyeh Ghassemi",
+    "Luke Oakden-Rayner",
+    "Andrew L Beam"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1646,
+   "volume": "3",
+   "issue": "11",
+   "pages": "e745-e750",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/s2589-7500(21)00208-9",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.ijhcs.2020.102551",
+   "title": "The effects of explainability and causability on perception, trust, and acceptance: Implications for explainable AI",
+   "year": 2021,
+   "cited_by": 1485,
+   "journal": "International Journal of Human-Computer Studies",
+   "issn": [
+    "1071-5819"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Donghee Shin"
+   ],
+   "theme_ids": [
+    "genai",
+    "rights"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1485,
+   "volume": "146",
+   "pages": "102551",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.ijhcs.2020.102551",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1007/s43681-021-00096-7",
+   "title": "Artificial intelligence in education: Addressing ethical challenges in K-12 settings",
+   "year": 2021,
+   "cited_by": 1318,
+   "journal": "AI and Ethics",
+   "issn": [
+    "2730-5953",
+    "2730-5961"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Selin Akgun",
+    "Christine Greenhow"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1318,
+   "volume": "2",
+   "issue": "3",
+   "pages": "431-440",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "9 July 2021",
+    "accepted": "1 September 2021",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s43681-021-00096-7",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
    "is_review": false
   },
   {
@@ -1802,21 +2669,16 @@
    "theme_ids": [
     "principles",
     "governance",
-    "bias",
     "transparency",
     "accountability",
     "privacy",
     "safety",
     "work",
     "environment",
-    "health",
     "military",
-    "genai",
     "global-south",
-    "rights",
     "public-sector",
     "adoption",
-    "operationalising",
     "auditing"
    ],
    "oa": false,
@@ -1857,23 +2719,7 @@
     "Blake Murdoch"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "military",
-    "genai",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "operationalising",
-    "auditing"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
@@ -1898,22 +2744,21 @@
    "is_review": false
   },
   {
-   "doi": "10.1136/bmjopen-2020-048008",
-   "title": "Protocol for development of a reporting guideline (TRIPOD-AI) and risk of bias tool (PROBAST-AI) for diagnostic and prognostic prediction model studies based on artificial intelligence",
-   "year": 2021,
-   "cited_by": 820,
-   "journal": "BMJ Open",
+   "doi": "10.1016/j.media.2022.102470",
+   "title": "Explainable artificial intelligence (XAI) in deep learning-based medical image analysis",
+   "year": 2022,
+   "cited_by": 1289,
+   "journal": "Medical Image Analysis",
    "issn": [
-    "2044-6055",
-    "2044-6055"
+    "1361-8415"
    ],
-   "publisher": "BMJ",
-   "publisher_raw": "BMJ",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Gary S Collins",
-    "Paula Dhiman",
-    "Constanza L Andaur Navarro",
-    "Jie Ma"
+    "Bas H.M. van der Velden",
+    "Hugo J. Kuijf",
+    "Kenneth G.A. Gilhuijs",
+    "Max A. Viergever"
    ],
    "theme_ids": [
     "principles",
@@ -1925,23 +2770,24 @@
     "safety",
     "work",
     "environment",
+    "health",
     "military",
     "genai",
     "global-south",
     "rights",
     "public-sector",
     "adoption",
+    "operationalising",
     "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "BMJ",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 820,
-   "volume": "11",
-   "issue": "7",
-   "pages": "e048008",
+   "crossref_cited_by": 1289,
+   "volume": "79",
+   "pages": "102470",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -1950,29 +2796,28 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1136/bmjopen-2020-048008",
+   "url": "https://doi.org/10.1016/j.media.2022.102470",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1002/widm.1424",
-   "title": "Explainable artificial intelligence: an analytical review",
-   "year": 2021,
-   "cited_by": 714,
-   "journal": "WIREs Data Mining and Knowledge Discovery",
+   "doi": "10.1007/s40593-021-00239-1",
+   "title": "Ethics of AI in Education: Towards a Community-Wide Framework",
+   "year": 2022,
+   "cited_by": 1219,
+   "journal": "International Journal of Artificial Intelligence in Education",
    "issn": [
-    "1942-4787",
-    "1942-4795"
+    "1560-4292"
    ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Plamen P. Angelov",
-    "Eduardo A. Soares",
-    "Richard Jiang",
-    "Nicholas I. Arnold"
+    "Wayne Holmes",
+    "Kaska Porayska-Pomsta",
+    "Ken Holstein",
+    "Emma Sutherland"
    ],
    "theme_ids": [
     "principles",
@@ -1980,116 +2825,29 @@
     "bias",
     "transparency",
     "accountability",
+    "privacy",
     "safety",
     "work",
     "environment",
+    "health",
     "military",
     "genai",
     "global-south",
     "rights",
     "public-sector",
     "adoption",
+    "operationalising",
     "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Wiley",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 714,
-   "volume": "11",
-   "issue": "5",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2021-01-31",
-    "accepted": "2021-06-10",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1002/widm.1424",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1145/3387166",
-   "title": "A Multidisciplinary Survey and Framework for Design and Evaluation of Explainable AI Systems",
-   "year": 2021,
-   "cited_by": 581,
-   "journal": "ACM Transactions on Interactive Intelligent Systems",
-   "issn": [
-    "2160-6455",
-    "2160-6463"
-   ],
-   "publisher": "ACM",
-   "publisher_raw": "Association for Computing Machinery (ACM)",
-   "authors": [
-    "Sina Mohseni",
-    "Niloofar Zarei",
-    "Eric D. Ragan"
-   ],
-   "theme_ids": [
-    "principles",
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Association for Computing Machinery (ACM)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 581,
-   "volume": "11",
-   "issue": "3-4",
-   "pages": "1-45",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2019-11-01",
-    "accepted": "2020-07-01",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1145/3387166",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1080/14494035.2021.1928377",
-   "title": "Governance of artificial intelligence",
-   "year": 2021,
-   "cited_by": 521,
-   "journal": "Policy and Society",
-   "issn": [
-    "1449-4035",
-    "1839-3373"
-   ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
-   "authors": [
-    "Araz Taeihagh"
-   ],
-   "theme_ids": [
-    "governance",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector",
-    "adoption"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 521,
-   "volume": "40",
-   "issue": "2",
-   "pages": "137-157",
+   "crossref_cited_by": 1219,
+   "volume": "32",
+   "issue": "3",
+   "pages": "504-526",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -2098,49 +2856,7 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1080/14494035.2021.1928377",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1002/mar.21457",
-   "title": "Alexa,\n                    <i>she's</i>\n                    not human but… Unveiling the drivers of consumers' trust in voice‐based artificial intelligence",
-   "year": 2021,
-   "cited_by": 481,
-   "journal": "Psychology &amp; Marketing",
-   "issn": [
-    "0742-6046",
-    "1520-6793"
-   ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
-   "authors": [
-    "Valentina Pitardi",
-    "Hannah R. Marriott"
-   ],
-   "theme_ids": [
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Wiley",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 481,
-   "volume": "38",
-   "issue": "4",
-   "pages": "626-642",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2020-04-30",
-    "accepted": "2021-01-06",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1002/mar.21457",
+   "url": "https://doi.org/10.1007/s40593-021-00239-1",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -2208,22 +2924,79 @@
    "is_review": false
   },
   {
-   "doi": "10.1145/3491209",
-   "title": "Trustworthy Artificial Intelligence: A Review",
+   "doi": "10.1109/tii.2022.3146552",
+   "title": "From Artificial Intelligence to Explainable Artificial Intelligence in Industry 4.0: A Survey on What, How, and Where",
    "year": 2022,
-   "cited_by": 666,
-   "journal": "ACM Computing Surveys",
+   "cited_by": 832,
+   "journal": "IEEE Transactions on Industrial Informatics",
    "issn": [
-    "0360-0300",
-    "1557-7341"
+    "1551-3203",
+    "1941-0050"
    ],
-   "publisher": "ACM",
-   "publisher_raw": "Association for Computing Machinery (ACM)",
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
    "authors": [
-    "Davinder Kaur",
-    "Suleyman Uslu",
-    "Kaley J. Rittichier",
-    "Arjan Durresi"
+    "Imran Ahmed",
+    "Gwanggil Jeon",
+    "Francesco Piccialli"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 832,
+   "volume": "18",
+   "issue": "8",
+   "pages": "5031-5042",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1109/tii.2022.3146552",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
+   "doi": "10.1007/s40593-021-00285-9",
+   "title": "Algorithmic Bias in Education",
+   "year": 2022,
+   "cited_by": 772,
+   "journal": "International Journal of Artificial Intelligence in Education",
+   "issn": [
+    "1560-4292"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Ryan S. Baker",
+    "Aaron Hawn"
    ],
    "theme_ids": [
     "principles",
@@ -2247,188 +3020,12 @@
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Association for Computing Machinery (ACM)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 666,
-   "volume": "55",
-   "issue": "2",
-   "pages": "1-38",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2020-12-01",
-    "accepted": "2021-10-01",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1145/3491209",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1145/3494672",
-   "title": "A Review on Fairness in Machine Learning",
-   "year": 2022,
-   "cited_by": 565,
-   "journal": "ACM Computing Surveys",
-   "issn": [
-    "0360-0300",
-    "1557-7341"
-   ],
-   "publisher": "ACM",
-   "publisher_raw": "Association for Computing Machinery (ACM)",
-   "authors": [
-    "Dana Pessach",
-    "Erez Shmueli"
-   ],
-   "theme_ids": [
-    "bias"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Association for Computing Machinery (ACM)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 565,
-   "volume": "55",
-   "issue": "3",
-   "pages": "1-44",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2020-01-01",
-    "accepted": "2021-10-01",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1145/3494672",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1111/bjet.13232",
-   "title": "Teachers' trust in\n                    <scp>AI</scp>\n                    ‐powered educational technology and a professional development program to improve it",
-   "year": 2022,
-   "cited_by": 540,
-   "journal": "British Journal of Educational Technology",
-   "issn": [
-    "0007-1013",
-    "1467-8535"
-   ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
-   "authors": [
-    "Tanya Nazaretsky",
-    "Moriah Ariely",
-    "Mutlu Cukurova",
-    "Giora Alexandron"
-   ],
-   "theme_ids": [
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Wiley",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 540,
-   "volume": "53",
+   "crossref_cited_by": 772,
+   "volume": "32",
    "issue": "4",
-   "pages": "914-931",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2021-12-14",
-    "accepted": "2022-04-22",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1111/bjet.13232",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1038/s41593-022-01026-4",
-   "title": "Shared computational principles for language processing in humans and deep language models",
-   "year": 2022,
-   "cited_by": 478,
-   "journal": "Nature Neuroscience",
-   "issn": [
-    "1097-6256",
-    "1546-1726"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Ariel Goldstein",
-    "Zaid Zada",
-    "Eliav Buchnik",
-    "Mariano Schain"
-   ],
-   "theme_ids": [
-    "principles",
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 478,
-   "volume": "25",
-   "issue": "3",
-   "pages": "369-380",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "13 January 2021",
-    "accepted": "27 January 2022",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1038/s41593-022-01026-4",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1093/jopart/muac007",
-   "title": "Human–AI Interactions in Public Sector Decision Making: “Automation Bias” and “Selective Adherence” to Algorithmic Advice",
-   "year": 2022,
-   "cited_by": 445,
-   "journal": "Journal of Public Administration Research and Theory",
-   "issn": [
-    "1053-1858",
-    "1477-9803"
-   ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
-   "authors": [
-    "Saar Alon-Barkat",
-    "Madalina Busuioc"
-   ],
-   "theme_ids": [
-    "bias",
-    "work",
-    "genai",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 445,
-   "volume": "33",
-   "issue": "1",
-   "pages": "153-169",
+   "pages": "1052-1092",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -2437,101 +3034,108 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1093/jopart/muac007",
+   "url": "https://doi.org/10.1007/s40593-021-00285-9",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1007/s10551-022-05049-6",
-   "title": "Ethics of AI-Enabled Recruiting and Selection: A Review and Research Agenda",
+   "doi": "10.1016/j.caeai.2022.100074",
+   "title": "Explainable Artificial Intelligence in education",
    "year": 2022,
-   "cited_by": 398,
-   "journal": "Journal of Business Ethics",
+   "cited_by": 712,
+   "journal": "Computers and Education: Artificial Intelligence",
    "issn": [
-    "0167-4544",
-    "1573-0697"
+    "2666-920X"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Anna Lena Hunkenschroer",
-    "Christoph Luetge"
+    "Hassan Khosravi",
+    "Simon Buckingham Shum",
+    "Guanliang Chen",
+    "Cristina Conati"
    ],
    "theme_ids": [
+    "principles",
     "governance",
     "bias",
     "transparency",
     "accountability",
+    "privacy",
+    "safety",
     "work",
+    "environment",
     "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
     "adoption",
     "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 398,
-   "volume": "178",
-   "issue": "4",
-   "pages": "977-1007",
+   "crossref_cited_by": 712,
+   "volume": "3",
+   "pages": "100074",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "24 September 2020",
-    "accepted": "25 January 2022",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s10551-022-05049-6",
+   "url": "https://doi.org/10.1016/j.caeai.2022.100074",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
-   "is_review": true
+   "is_review": false
   },
   {
-   "doi": "10.1007/s43681-022-00209-w",
-   "title": "The uselessness of AI ethics",
-   "year": 2022,
-   "cited_by": 348,
-   "journal": "AI and Ethics",
+   "doi": "10.1016/j.ijinfomgt.2023.102642",
+   "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+   "year": 2023,
+   "cited_by": 4110,
+   "journal": "International Journal of Information Management",
    "issn": [
-    "2730-5953",
-    "2730-5961"
+    "0268-4012"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Luke Munn"
+    "Yogesh K. Dwivedi",
+    "Nir Kshetri",
+    "Laurie Hughes",
+    "Emma Louise Slade"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military"
+    "governance",
+    "genai",
+    "operationalising"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 348,
-   "volume": "3",
-   "issue": "3",
-   "pages": "869-877",
+   "crossref_cited_by": 4110,
+   "volume": "71",
+   "pages": "102642",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "6 June 2022",
-    "accepted": "2 August 2022",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s43681-022-00209-w",
+   "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -2597,6 +3201,120 @@
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": true
+  },
+  {
+   "doi": "10.1016/j.iotcps.2023.04.003",
+   "title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
+   "year": 2023,
+   "cited_by": 2119,
+   "journal": "Internet of Things and Cyber-Physical Systems",
+   "issn": [
+    "2667-3452"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Partha Pratim Ray"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 2119,
+   "volume": "3",
+   "pages": "121-154",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.iotcps.2023.04.003",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
+   "doi": "10.1016/j.inffus.2023.101805",
+   "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+   "year": 2023,
+   "cited_by": 1737,
+   "journal": "Information Fusion",
+   "issn": [
+    "1566-2535"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Sajid Ali",
+    "Tamer Abuhmed",
+    "Shaker El-Sappagh",
+    "Khan Muhammad"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1737,
+   "volume": "99",
+   "pages": "101805",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.inffus.2023.101805",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
   },
   {
    "doi": "10.1145/3561048",
@@ -2684,92 +3402,63 @@
    "is_review": false
   },
   {
-   "doi": "10.1038/s41746-023-00873-0",
-   "title": "The imperative for regulatory oversight of large language models (or generative AI) in healthcare",
+   "doi": "10.1016/j.chb.2022.107468",
+   "title": "Towards Intelligent-TPACK: An empirical study on teachers’ professional knowledge to ethically integrate artificial intelligence (AI)-based tools into education",
    "year": 2023,
-   "cited_by": 1028,
-   "journal": "npj Digital Medicine",
+   "cited_by": 944,
+   "journal": "Computers in Human Behavior",
    "issn": [
-    "2398-6352"
+    "0747-5632"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Bertalan Meskó",
-    "Eric J. Topol"
+    "Ismail Celik"
    ],
    "theme_ids": [
-    "genai"
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1028,
-   "volume": "6",
-   "issue": "1",
+   "crossref_cited_by": 944,
+   "volume": "138",
+   "pages": "107468",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "7 April 2023",
-    "accepted": "26 June 2023",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1038/s41746-023-00873-0",
+   "url": "https://doi.org/10.1016/j.chb.2022.107468",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1111/bjet.13370",
-   "title": "Practical and ethical challenges of large language models in education: A systematic scoping review",
-   "year": 2023,
-   "cited_by": 940,
-   "journal": "British Journal of Educational Technology",
-   "issn": [
-    "0007-1013",
-    "1467-8535"
-   ],
-   "publisher": "Wiley",
-   "publisher_raw": "Wiley",
-   "authors": [
-    "Lixiang Yan",
-    "Lele Sha",
-    "Linxuan Zhao",
-    "Yuheng Li"
-   ],
-   "theme_ids": [
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Wiley",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 940,
-   "volume": "55",
-   "issue": "1",
-   "pages": "90-112",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2023-03-09",
-    "accepted": "2023-07-22",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1111/bjet.13370",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
    "doi": "10.1002/asi.24750",
-   "title": "<scp>ChatGPT</scp>\n                    and a new academic reality:\n                    <scp>Artificial Intelligence‐written</scp>\n                    research papers and the ethics of the large language models in scholarly publishing",
+   "title": "ChatGPT and a new academic reality: Artificial Intelligence‐written research papers and the ethics of the large language models in scholarly publishing",
    "year": 2023,
    "cited_by": 792,
    "journal": "Journal of the Association for Information Science and Technology",
@@ -2787,7 +3476,6 @@
    ],
    "theme_ids": [
     "principles",
-    "governance",
     "bias",
     "transparency",
     "accountability",
@@ -2797,7 +3485,6 @@
     "environment",
     "health",
     "military",
-    "genai",
     "global-south",
     "rights",
     "public-sector",
@@ -2829,32 +3516,31 @@
    "is_review": false
   },
   {
-   "doi": "10.1007/s11604-023-01474-3",
-   "title": "Fairness of artificial intelligence in healthcare: review and recommendations",
+   "doi": "10.1038/s41551-023-01056-8",
+   "title": "Algorithmic fairness in artificial intelligence for medicine and healthcare",
    "year": 2023,
-   "cited_by": 594,
-   "journal": "Japanese Journal of Radiology",
+   "cited_by": 767,
+   "journal": "Nature Biomedical Engineering",
    "issn": [
-    "1867-1071",
-    "1867-108X"
+    "2157-846X"
    ],
    "publisher": "Springer Nature",
    "publisher_raw": "Springer Science and Business Media LLC",
    "authors": [
-    "Daiju Ueda",
-    "Taichi Kakinuma",
-    "Shohei Fujita",
-    "Koji Kamagata"
+    "Richard J. Chen",
+    "Judy J. Wang",
+    "Drew F. K. Williamson",
+    "Tiffany Y. Chen"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
     "bias",
     "transparency",
     "accountability",
+    "privacy",
     "safety",
     "work",
     "environment",
+    "health",
     "military",
     "global-south",
     "rights",
@@ -2867,205 +3553,152 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 594,
-   "volume": "42",
-   "issue": "1",
-   "pages": "3-15",
+   "crossref_cited_by": 767,
+   "volume": "7",
+   "issue": "6",
+   "pages": "719-742",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "14 June 2023",
-    "accepted": "17 July 2023",
+    "received": "1 October 2021",
+    "accepted": "13 April 2023",
     "revised": null,
     "has_review_dates": true,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s11604-023-01474-3",
+   "url": "https://doi.org/10.1038/s41551-023-01056-8",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.inffus.2023.101896",
+   "title": "Connecting the dots in trustworthy Artificial Intelligence: From AI principles, ethics, and key requirements to responsible AI systems and regulation",
+   "year": 2023,
+   "cited_by": 747,
+   "journal": "Information Fusion",
+   "issn": [
+    "1566-2535"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Natalia Díaz-Rodríguez",
+    "Javier Del Ser",
+    "Mark Coeckelbergh",
+    "Marcos López de Prado"
+   ],
+   "theme_ids": [
+    "public-sector"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 747,
+   "volume": "99",
+   "pages": "101896",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.inffus.2023.101896",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.hcc.2024.100211",
+   "title": "A survey on large language model (LLM) security and privacy: The Good, The Bad, and The Ugly",
+   "year": 2024,
+   "cited_by": 1099,
+   "journal": "High-Confidence Computing",
+   "issn": [
+    "2667-2952"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Yifan Yao",
+    "Jinhao Duan",
+    "Kaidi Xu",
+    "Yuanfang Cai"
+   ],
+   "theme_ids": [
+    "privacy",
+    "genai"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 1099,
+   "volume": "4",
+   "issue": "2",
+   "pages": "100211",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.hcc.2024.100211",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": true
   },
   {
-   "doi": "10.1145/3555803",
-   "title": "Trustworthy AI: From Principles to Practices",
-   "year": 2023,
-   "cited_by": 531,
-   "journal": "ACM Computing Surveys",
+   "doi": "10.1016/j.heliyon.2024.e26297",
+   "title": "Ethical and regulatory challenges of AI technologies in healthcare: A narrative review",
+   "year": 2024,
+   "cited_by": 1068,
+   "journal": "Heliyon",
    "issn": [
-    "0360-0300",
-    "1557-7341"
+    "2405-8440"
    ],
-   "publisher": "ACM",
-   "publisher_raw": "Association for Computing Machinery (ACM)",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Bo Li",
-    "Peng Qi",
-    "Bo Liu",
-    "Shuai Di"
+    "Ciro Mennella",
+    "Umberto Maniscalco",
+    "Giuseppe De Pietro",
+    "Massimo Esposito"
    ],
    "theme_ids": [
-    "principles"
+    "genai"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Association for Computing Machinery (ACM)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 531,
-   "volume": "55",
-   "issue": "9",
-   "pages": "1-46",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2021-10-03",
-    "accepted": "2022-08-02",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1145/3555803",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1186/s12911-023-02103-9",
-   "title": "Ethics and governance of trustworthy medical artificial intelligence",
-   "year": 2023,
-   "cited_by": 489,
-   "journal": "BMC Medical Informatics and Decision Making",
-   "issn": [
-    "1472-6947"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Jie Zhang",
-    "Zong-ming Zhang"
-   ],
-   "theme_ids": [
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector",
-    "adoption",
-    "auditing"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 489,
-   "volume": "23",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "9 August 2022",
-    "accepted": "9 January 2023",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1186/s12911-023-02103-9",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1007/s00146-023-01635-y",
-   "title": "Accountability in artificial intelligence: what it is and how it works",
-   "year": 2023,
-   "cited_by": 439,
-   "journal": "AI &amp; SOCIETY",
-   "issn": [
-    "0951-5666",
-    "1435-5655"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Claudio Novelli",
-    "Mariarosaria Taddeo",
-    "Luciano Floridi"
-   ],
-   "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 439,
-   "volume": "39",
-   "issue": "4",
-   "pages": "1871-1882",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "4 August 2022",
-    "accepted": "17 January 2023",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1007/s00146-023-01635-y",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1057/s41599-023-02079-x",
-   "title": "Ethics and discrimination in artificial intelligence-enabled recruitment practices",
-   "year": 2023,
-   "cited_by": 438,
-   "journal": "Humanities and Social Sciences Communications",
-   "issn": [
-    "2662-9992"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Zhisheng Chen"
-   ],
-   "theme_ids": [
-    "transparency",
-    "accountability",
-    "work",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 438,
+   "crossref_cited_by": 1068,
    "volume": "10",
-   "issue": "1",
+   "issue": "4",
+   "pages": "e26297",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "18 February 2023",
-    "accepted": "29 August 2023",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1057/s41599-023-02079-x",
+   "url": "https://doi.org/10.1016/j.heliyon.2024.e26297",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
-   "is_review": false
+   "is_review": true
   },
   {
    "doi": "10.1002/aisy.202400304",
@@ -3232,48 +3865,178 @@
    "is_review": true
   },
   {
-   "doi": "10.1145/3639372",
-   "title": "Explainability for Large Language Models: A Survey",
+   "doi": "10.1016/j.compeleceng.2024.109370",
+   "title": "A review of Explainable Artificial Intelligence in healthcare",
    "year": 2024,
-   "cited_by": 609,
-   "journal": "ACM Transactions on Intelligent Systems and Technology",
+   "cited_by": 624,
+   "journal": "Computers and Electrical Engineering",
    "issn": [
-    "2157-6904",
-    "2157-6912"
+    "0045-7906"
    ],
-   "publisher": "ACM",
-   "publisher_raw": "Association for Computing Machinery (ACM)",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Haiyan Zhao",
-    "Hanjie Chen",
-    "Fan Yang",
-    "Ninghao Liu"
+    "Zahra Sadeghi",
+    "Roohallah Alizadehsani",
+    "Mehmet Akif CIFCI",
+    "Samina Kausar"
    ],
    "theme_ids": [
-    "genai"
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Association for Computing Machinery (ACM)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 609,
-   "volume": "15",
-   "issue": "2",
-   "pages": "1-38",
+   "crossref_cited_by": 624,
+   "volume": "118",
+   "pages": "109370",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2023-09-18",
-    "accepted": "2023-11-30",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1145/3639372",
+   "url": "https://doi.org/10.1016/j.compeleceng.2024.109370",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": true
+  },
+  {
+   "doi": "10.1016/j.jclepro.2023.140527",
+   "title": "Navigating the confluence of artificial intelligence and education for sustainable development in the era of industry 4.0: Challenges, opportunities, and ethical dimensions",
+   "year": 2024,
+   "cited_by": 605,
+   "journal": "Journal of Cleaner Production",
+   "issn": [
+    "0959-6526"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Ammar Abulibdeh",
+    "Esmat Zaidan",
+    "Rawan Abulibdeh"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 605,
+   "volume": "437",
+   "pages": "140527",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.jclepro.2023.140527",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.inffus.2024.102301",
+   "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+   "year": 2024,
+   "cited_by": 600,
+   "journal": "Information Fusion",
+   "issn": [
+    "1566-2535"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Luca Longo",
+    "Mario Brcic",
+    "Federico Cabitza",
+    "Jaesik Choi"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 600,
+   "volume": "106",
+   "pages": "102301",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.inffus.2024.102301",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
   },
   {
    "doi": "10.1186/s13012-024-01357-9",
@@ -3291,7 +4054,6 @@
    ],
    "theme_ids": [
     "governance",
-    "genai",
     "adoption"
    ],
    "oa": false,
@@ -3317,174 +4079,41 @@
    "is_review": false
   },
   {
-   "doi": "10.1093/nar/gkad989",
-   "title": "CADD v1.7: using protein language models, regulatory CNNs and other nucleotide-level scores to improve genome-wide variant predictions",
+   "doi": "10.1016/j.ijinfomgt.2023.102700",
+   "title": "The ethics of ChatGPT – Exploring the ethical issues of an emerging technology",
    "year": 2024,
-   "cited_by": 510,
-   "journal": "Nucleic Acids Research",
+   "cited_by": 431,
+   "journal": "International Journal of Information Management",
    "issn": [
-    "0305-1048",
-    "1362-4962"
+    "0268-4012"
    ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Max Schubach",
-    "Thorben Maass",
-    "Lusiné Nazaretyan",
-    "Sebastian Röner"
-   ],
-   "theme_ids": [
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 510,
-   "volume": "52",
-   "issue": "D1",
-   "pages": "D1143-D1154",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1093/nar/gkad989",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1145/3616865",
-   "title": "Fairness in Machine Learning: A Survey",
-   "year": 2024,
-   "cited_by": 480,
-   "journal": "ACM Computing Surveys",
-   "issn": [
-    "0360-0300",
-    "1557-7341"
-   ],
-   "publisher": "ACM",
-   "publisher_raw": "Association for Computing Machinery (ACM)",
-   "authors": [
-    "Simon Caton",
-    "Christian Haas"
-   ],
-   "theme_ids": [
-    "bias"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Association for Computing Machinery (ACM)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 480,
-   "volume": "56",
-   "issue": "7",
-   "pages": "1-38",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2022-10-14",
-    "accepted": "2023-08-03",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1145/3616865",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1038/s41746-024-01157-x",
-   "title": "The ethics of ChatGPT in medicine and healthcare: a systematic review on Large Language Models (LLMs)",
-   "year": 2024,
-   "cited_by": 403,
-   "journal": "npj Digital Medicine",
-   "issn": [
-    "2398-6352"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Joschka Haltaufderheide",
-    "Robert Ranisch"
+    "Bernd Carsten Stahl",
+    "Damian Eke"
    ],
    "theme_ids": [
     "principles",
-    "governance",
-    "bias",
     "transparency",
     "accountability",
-    "privacy",
     "safety",
     "work",
     "environment",
     "military",
     "global-south",
     "rights",
-    "adoption",
     "operationalising",
     "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 403,
-   "volume": "7",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "21 March 2024",
-    "accepted": "29 May 2024",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1038/s41746-024-01157-x",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1093/pnasnexus/pgae346",
-   "title": "Cultural bias and cultural alignment of large language models",
-   "year": 2024,
-   "cited_by": 385,
-   "journal": "PNAS Nexus",
-   "issn": [
-    "2752-6542"
-   ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
-   "authors": [
-    "Yan Tao",
-    "Olga Viberg",
-    "Ryan S Baker",
-    "René F Kizilcec"
-   ],
-   "theme_ids": [
-    "bias",
-    "safety"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 385,
-   "volume": "3",
-   "issue": "9",
+   "crossref_cited_by": 431,
+   "volume": "74",
+   "pages": "102700",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -3493,7 +4122,7 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1093/pnasnexus/pgae346",
+   "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102700",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
@@ -3517,20 +4146,7 @@
     "Selin Akgun"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "military",
-    "global-south",
-    "rights",
-    "public-sector",
-    "adoption",
-    "auditing"
+    "public-sector"
    ],
    "oa": false,
    "openalex": null,
@@ -3555,143 +4171,241 @@
    "is_review": false
   },
   {
-   "doi": "10.1007/s10462-024-10854-8",
-   "title": "Explainable artificial intelligence (XAI) in finance: a systematic literature review",
-   "year": 2024,
-   "cited_by": 316,
-   "journal": "Artificial Intelligence Review",
+   "doi": "10.1136/bmj-2024-082505",
+   "title": "PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods",
+   "year": 2025,
+   "cited_by": 1091,
+   "journal": "BMJ",
    "issn": [
-    "1573-7462"
+    "1756-1833"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "BMJ",
+   "publisher_raw": "BMJ",
    "authors": [
-    "Jurgita Černevičienė",
-    "Audrius Kabašinskas"
+    "Karel G M Moons",
+    "Johanna A A Damen",
+    "Tabea Kaul",
+    "Lotty Hooft"
    ],
    "theme_ids": [
+    "principles",
     "governance",
+    "bias",
     "transparency",
     "accountability",
+    "privacy",
     "safety",
     "work",
+    "environment",
+    "health",
     "military",
+    "genai",
+    "global-south",
     "rights",
     "public-sector",
     "adoption",
+    "operationalising",
     "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "BMJ",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 316,
-   "volume": "57",
-   "issue": "8",
+   "crossref_cited_by": 1091,
+   "volume": "388",
+   "pages": "e082505",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
-    "accepted": "3 July 2024",
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s10462-024-10854-8",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1057/s41599-024-03432-4",
-   "title": "Exploring the impact of artificial intelligence on higher education: The dynamics of ethical, social, and educational implications",
-   "year": 2024,
-   "cited_by": 282,
-   "journal": "Humanities and Social Sciences Communications",
-   "issn": [
-    "2662-9992"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Abdulrahman M. Al-Zahrani",
-    "Talal M. Alasmari"
-   ],
-   "theme_ids": [
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 282,
-   "volume": "11",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "4 December 2023",
-    "accepted": "3 July 2024",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1057/s41599-024-03432-4",
+   "url": "https://doi.org/10.1136/bmj-2024-082505",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1145/3703155",
-   "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+   "doi": "10.1136/bmj-2024-081554",
+   "title": "FUTURE-AI: international consensus guideline for trustworthy and deployable artificial intelligence in healthcare",
    "year": 2025,
-   "cited_by": 2362,
-   "journal": "ACM Transactions on Information Systems",
+   "cited_by": 798,
+   "journal": "BMJ",
    "issn": [
-    "1046-8188",
-    "1558-2868"
+    "1756-1833"
    ],
-   "publisher": "ACM",
-   "publisher_raw": "Association for Computing Machinery (ACM)",
+   "publisher": "BMJ",
+   "publisher_raw": "BMJ",
    "authors": [
-    "Lei Huang",
-    "Weijiang Yu",
-    "Weitao Ma",
-    "Weihong Zhong"
+    "Karim Lekadir",
+    "Alejandro F Frangi",
+    "Antonio R Porras",
+    "Ben Glocker"
    ],
    "theme_ids": [
     "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
     "genai",
-    "operationalising"
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Association for Computing Machinery (ACM)",
+   "publisher_crossref": "BMJ",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2362,
-   "volume": "43",
-   "issue": "2",
-   "pages": "1-55",
+   "crossref_cited_by": 798,
+   "volume": "388",
+   "pages": "e081554",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2023-12-08",
-    "accepted": "2024-09-24",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1145/3703155",
+   "url": "https://doi.org/10.1136/bmj-2024-081554",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.jsis.2024.101885",
+   "title": "Responsible artificial intelligence governance: A review and research framework",
+   "year": 2025,
+   "cited_by": 582,
+   "journal": "The Journal of Strategic Information Systems",
+   "issn": [
+    "0963-8687"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Emmanouil Papagiannidis",
+    "Patrick Mikalef",
+    "Kieran Conboy"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 582,
+   "volume": "34",
+   "issue": "2",
+   "pages": "101885",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.jsis.2024.101885",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": true
+  },
+  {
+   "doi": "10.1016/j.modpat.2024.100686",
+   "title": "Ethical and Bias Considerations in Artificial Intelligence/Machine Learning",
+   "year": 2025,
+   "cited_by": 532,
+   "journal": "Modern Pathology",
+   "issn": [
+    "0893-3952"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Matthew G. Hanna",
+    "Liron Pantanowitz",
+    "Brian Jackson",
+    "Octavia Palmer"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "genai",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 532,
+   "volume": "38",
+   "issue": "3",
+   "pages": "100686",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.modpat.2024.100686",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
   },
   {
    "doi": "10.1145/3712001",
@@ -3797,21 +4511,78 @@
    "is_review": false
   },
   {
-   "doi": "10.1007/s43681-024-00653-w",
-   "title": "AI governance: a systematic literature review",
+   "doi": "10.1038/s41746-025-01503-7",
+   "title": "Bias recognition and mitigation strategies in artificial intelligence healthcare applications",
    "year": 2025,
-   "cited_by": 327,
-   "journal": "AI and Ethics",
+   "cited_by": 328,
+   "journal": "npj Digital Medicine",
    "issn": [
-    "2730-5953",
-    "2730-5961"
+    "2398-6352"
    ],
    "publisher": "Springer Nature",
    "publisher_raw": "Springer Science and Business Media LLC",
    "authors": [
-    "Amna Batool",
-    "Didar Zowghi",
-    "Muneera Bano"
+    "Fereshteh Hasanzadeh",
+    "Colin B. Josephson",
+    "Gabriella Waters",
+    "Demilade Adedinsewo"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "safety",
+    "work",
+    "environment",
+    "health",
+    "military",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "operationalising",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 328,
+   "volume": "8",
+   "issue": "1",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "17 June 2024",
+    "accepted": "6 February 2025",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1038/s41746-025-01503-7",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1186/s12880-025-02118-w",
+   "title": "Explainable artificial intelligence (XAI) in medical imaging: a systematic review of techniques, applications, and challenges",
+   "year": 2026,
+   "cited_by": 56,
+   "journal": "BMC Medical Imaging",
+   "issn": [
+    "1471-2342"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Fahad Ahmed",
+    "Naila Sammar Naz",
+    "Sunawar Khan",
+    "Ateeq Ur Rehman"
    ],
    "theme_ids": [
     "principles",
@@ -3828,186 +4599,6 @@
     "genai",
     "global-south",
     "rights",
-    "adoption",
-    "operationalising",
-    "auditing"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 327,
-   "volume": "5",
-   "issue": "3",
-   "pages": "3265-3279",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "21 July 2024",
-    "accepted": "12 December 2024",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1007/s43681-024-00653-w",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1098/rsos.241873",
-   "title": "Ethical and legal considerations in healthcare AI: innovation and policy for safe and fair use",
-   "year": 2025,
-   "cited_by": 296,
-   "journal": "Royal Society Open Science",
-   "issn": [
-    "2054-5703"
-   ],
-   "publisher": "Royal Society",
-   "publisher_raw": "The Royal Society",
-   "authors": [
-    "Tuan Pham"
-   ],
-   "theme_ids": [
-    "governance",
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "The Royal Society",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 296,
-   "volume": "12",
-   "issue": "5",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "2024-10-27",
-    "accepted": "2025-03-03",
-    "revised": "2025-01-27",
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1098/rsos.241873",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1186/s41239-025-00507-3",
-   "title": "Investigating the higher education institutions’ guidelines and policies regarding the use of generative AI in teaching, learning, research, and administration",
-   "year": 2025,
-   "cited_by": 238,
-   "journal": "International Journal of Educational Technology in Higher Education",
-   "issn": [
-    "2365-9440"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Yunjo An",
-    "Ji Hyun Yu",
-    "Shadarra James"
-   ],
-   "theme_ids": [
-    "genai"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 238,
-   "volume": "22",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "6 August 2024",
-    "accepted": "4 February 2025",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1186/s41239-025-00507-3",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1007/s00146-025-02422-7",
-   "title": "Exploring automation bias in human–AI collaboration: a review and implications for explainable AI",
-   "year": 2025,
-   "cited_by": 215,
-   "journal": "AI &amp; SOCIETY",
-   "issn": [
-    "0951-5666",
-    "1435-5655"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Giuseppe Romeo",
-    "Daniela Conti"
-   ],
-   "theme_ids": [
-    "bias",
-    "work",
-    "rights"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 215,
-   "volume": "41",
-   "issue": "1",
-   "pages": "259-278",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "13 March 2025",
-    "accepted": "2 June 2025",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1007/s00146-025-02422-7",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": true
-  },
-  {
-   "doi": "10.1007/s42452-025-06472-w",
-   "title": "Leveraging artificial intelligence and advanced food processing techniques for enhanced food safety, quality, and security: a comprehensive review",
-   "year": 2025,
-   "cited_by": 211,
-   "journal": "Discover Applied Sciences",
-   "issn": [
-    "3004-9261"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Sambandh Bhusan Dhal",
-    "Debashish Kar"
-   ],
-   "theme_ids": [
-    "principles",
-    "governance",
-    "bias",
-    "transparency",
-    "accountability",
-    "privacy",
-    "safety",
-    "work",
-    "environment",
-    "military",
-    "global-south",
-    "rights",
     "public-sector",
     "adoption",
     "operationalising",
@@ -4018,50 +4609,53 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 211,
-   "volume": "7",
+   "crossref_cited_by": 56,
+   "volume": "26",
    "issue": "1",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "14 October 2024",
-    "accepted": "3 January 2025",
+    "received": "22 June 2025",
+    "accepted": "9 December 2025",
     "revised": null,
     "has_review_dates": true,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s42452-025-06472-w",
+   "url": "https://doi.org/10.1186/s12880-025-02118-w",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": true
   },
   {
-   "doi": "10.1093/polsoc/puaf001",
-   "title": "Governance of Generative AI",
-   "year": 2025,
-   "cited_by": 204,
-   "journal": "Policy and Society",
+   "doi": "10.1016/j.ress.2025.111648",
+   "title": "Improving maritime accident severity prediction accuracy: A holistic machine learning framework with data balancing and explainability techniques",
+   "year": 2026,
+   "cited_by": 53,
+   "journal": "Reliability Engineering & System Safety",
    "issn": [
-    "1449-4035",
-    "1839-3373"
+    "0951-8320"
    ],
-   "publisher": "Oxford University Press",
-   "publisher_raw": "Oxford University Press (OUP)",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Araz Taeihagh"
+    "Wenjie Cao",
+    "Xinjian Wang",
+    "Yuanjun Feng",
+    "Jingen Zhou"
    ],
    "theme_ids": [
-    "governance"
+    "principles",
+    "privacy",
+    "safety"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Oxford University Press (OUP)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 204,
-   "volume": "44",
-   "issue": "1",
-   "pages": "1-22",
+   "crossref_cited_by": 53,
+   "volume": "266",
+   "pages": "111648",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -4070,147 +4664,55 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1093/polsoc/puaf001",
+   "url": "https://doi.org/10.1016/j.ress.2025.111648",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1038/s41467-025-57640-w",
-   "title": "Early warning of complex climate risk with integrated artificial intelligence",
-   "year": 2025,
-   "cited_by": 146,
-   "journal": "Nature Communications",
+   "doi": "10.1109/jiot.2025.3619970",
+   "title": "Explainable and Trust-Aware AI-Driven Network Slicing Framework for 6G IoT Using Deep Learning",
+   "year": 2026,
+   "cited_by": 53,
+   "journal": "IEEE Internet of Things Journal",
    "issn": [
-    "2041-1723"
+    "2327-4662",
+    "2372-2541"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "IEEE",
+   "publisher_raw": "Institute of Electrical and Electronics Engineers (IEEE)",
    "authors": [
-    "Markus Reichstein",
-    "Vitus Benson",
-    "Jan Blunk",
-    "Gustau Camps-Valls"
+    "Kun Zhang",
+    "Bing Zheng",
+    "Jing Xue",
+    "Yu Zhou"
    ],
    "theme_ids": [
-    "bias",
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector"
+    "principles",
+    "genai"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
+   "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 146,
-   "volume": "16",
-   "issue": "1",
+   "crossref_cited_by": 53,
+   "volume": "13",
+   "issue": "5",
+   "pages": "8212-8219",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "12 May 2024",
-    "accepted": "27 February 2025",
+    "received": null,
+    "accepted": null,
     "revised": null,
-    "has_review_dates": true,
+    "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1038/s41467-025-57640-w",
+   "url": "https://doi.org/10.1109/jiot.2025.3619970",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1186/s41077-025-00350-6",
-   "title": "Artificial intelligence-assisted academic writing: recommendations for ethical use",
-   "year": 2025,
-   "cited_by": 145,
-   "journal": "Advances in Simulation",
-   "issn": [
-    "2059-0628"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Adam Cheng",
-    "Aaron Calhoun",
-    "Gabriel Reedy"
-   ],
-   "theme_ids": [
-    "transparency",
-    "accountability",
-    "work",
-    "military",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 145,
-   "volume": "10",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "27 February 2025",
-    "accepted": "12 April 2025",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1186/s41077-025-00350-6",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1186/s12910-025-01243-z",
-   "title": "Evaluating accountability, transparency, and bias in AI-assisted healthcare decision- making: a qualitative study of healthcare professionals’ perspectives in the UK",
-   "year": 2025,
-   "cited_by": 137,
-   "journal": "BMC Medical Ethics",
-   "issn": [
-    "1472-6939"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Saoudi CE Nouis",
-    "Victoria Uren",
-    "Srushti Jariwala"
-   ],
-   "theme_ids": [
-    "transparency",
-    "accountability",
-    "public-sector"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 137,
-   "volume": "26",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "15 March 2025",
-    "accepted": "11 June 2025",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1186/s12910-025-01243-z",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [
-    "uk"
-   ],
    "is_review": false
   },
   {
@@ -4231,8 +4733,7 @@
     "Frederick M. Howard"
    ],
    "theme_ids": [
-    "governance",
-    "genai"
+    "governance"
    ],
    "oa": false,
    "openalex": null,
@@ -4257,11 +4758,108 @@
    "is_review": true
   },
   {
-   "doi": "10.1002/fsn3.71534",
-   "title": "Multimodal\n                    <scp>AI</scp>\n                    for Real‐Time Food Safety and Quality: From Sensors to Foundation Models, Edge Deployment, and Regulation",
+   "doi": "10.1016/j.inffus.2025.103812",
+   "title": "A design framework for operationalizing trustworthy artificial intelligence in healthcare: Requirements, tradeoffs and challenges for its clinical adoption",
+   "year": 2026,
+   "cited_by": 44,
+   "journal": "Information Fusion",
+   "issn": [
+    "1566-2535"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Pedro A. Moreno-Sánchez",
+    "Javier Del Ser",
+    "Mark van Gils",
+    "Jussi Hernesniemi"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "military",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 44,
+   "volume": "127",
+   "pages": "103812",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.inffus.2025.103812",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1016/j.inffus.2026.104193",
+   "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
    "year": 2026,
    "cited_by": 43,
-   "journal": "Food Science &amp; Nutrition",
+   "journal": "Information Fusion",
+   "issn": [
+    "1566-2535"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Shunlei Li",
+    "Longsen Gao",
+    "Jin Wang",
+    "Chang Che"
+   ],
+   "theme_ids": [
+    "governance"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 43,
+   "volume": "131",
+   "pages": "104193",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.inffus.2026.104193",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1002/fsn3.71534",
+   "title": "Multimodal AI for Real‐Time Food Safety and Quality: From Sensors to Foundation Models, Edge Deployment, and Regulation",
+   "year": 2026,
+   "cited_by": 43,
+   "journal": "Food Science & Nutrition",
    "issn": [
     "2048-7177",
     "2048-7177"
@@ -4275,9 +4873,7 @@
    ],
    "theme_ids": [
     "governance",
-    "safety",
-    "genai",
-    "operationalising"
+    "safety"
    ],
    "oa": false,
    "openalex": null,
@@ -4302,6 +4898,61 @@
    "is_review": false
   },
   {
+   "doi": "10.1007/s10462-026-11553-2",
+   "title": "Explainable artificial intelligence techniques for interpretation of food models: a review",
+   "year": 2026,
+   "cited_by": 42,
+   "journal": "Artificial Intelligence Review",
+   "issn": [
+    "1573-7462"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Leonardo Arrighi",
+    "Ingrid Alves de Moraes",
+    "Marco Zullich",
+    "Michele Simonato"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance",
+    "bias",
+    "transparency",
+    "accountability",
+    "privacy",
+    "safety",
+    "work",
+    "military",
+    "global-south",
+    "rights",
+    "public-sector",
+    "adoption",
+    "auditing"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 42,
+   "volume": "59",
+   "issue": "8",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "24 April 2025",
+    "accepted": "26 March 2026",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1007/s10462-026-11553-2",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
    "doi": "10.1177/13621688261422129",
    "title": "Empowering the autonomous learner: How AI-assisted language learning environments shape self-regulation, autonomy, and self-directed behaviors",
    "year": 2026,
@@ -4317,9 +4968,7 @@
     "Lei Yang"
    ],
    "theme_ids": [
-    "governance",
-    "military",
-    "genai"
+    "military"
    ],
    "oa": false,
    "openalex": null,
@@ -4342,89 +4991,38 @@
    "is_review": false
   },
   {
-   "doi": "10.1038/s41746-025-02280-z",
-   "title": "Differential privacy for medical deep learning: methods, tradeoffs, and deployment implications",
+   "doi": "10.1016/j.ject.2025.07.001",
+   "title": "A comprehensive review of Artificial Intelligence regulation: Weighing ethical principles and innovation",
    "year": 2026,
-   "cited_by": 34,
-   "journal": "npj Digital Medicine",
+   "cited_by": 36,
+   "journal": "Journal of Economy and Technology",
    "issn": [
-    "2398-6352"
+    "2949-9488"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Marziyeh Mohammadi",
-    "Mohsen Vejdanihemmat",
-    "Mahshad Lotfinia",
-    "Mirabela Rusu"
+    "Daniel Oliveira Cajueiro",
+    "Victor Rafael Rezende Celestino"
    ],
    "theme_ids": [
-    "privacy"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 34,
-   "volume": "9",
-   "issue": "1",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "31 May 2025",
-    "accepted": "11 December 2025",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1038/s41746-025-02280-z",
-   "verified": true,
-   "verified_at": "2026-10-25",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1001/jamanetworkopen.2026.0815",
-   "title": "Factors for Patient Trust and Acceptance of Medical Artificial Intelligence",
-   "year": 2026,
-   "cited_by": 32,
-   "journal": "JAMA Network Open",
-   "issn": [
-    "2574-3805"
-   ],
-   "publisher": "AMA",
-   "publisher_raw": "American Medical Association (AMA)",
-   "authors": [
-    "Ana Bracic",
-    "Kayte Spector-Bagdady",
-    "Sophie Towle",
-    "Rina Zhang"
-   ],
-   "theme_ids": [
-    "principles",
-    "governance",
     "bias",
     "transparency",
     "accountability",
-    "privacy",
-    "safety",
     "work",
     "military",
-    "global-south",
     "rights",
     "public-sector",
-    "adoption",
-    "auditing"
+    "adoption"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "American Medical Association (AMA)",
+   "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 32,
-   "volume": "9",
-   "issue": "3",
-   "pages": "e260815",
+   "crossref_cited_by": 36,
+   "volume": "4",
+   "pages": "77-91",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -4433,60 +5031,104 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1001/jamanetworkopen.2026.0815",
+   "url": "https://doi.org/10.1016/j.ject.2025.07.001",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
-   "is_review": false
+   "is_review": true
   },
   {
-   "doi": "10.1007/s10462-025-11459-5",
-   "title": "Leveraging explainable AI for sustainable agriculture: a comprehensive review of recent advances",
+   "doi": "10.1016/j.ress.2025.111935",
+   "title": "Explainable artificial intelligence based intelligent fault diagnosis: A systematic review from applications to insights",
    "year": 2026,
-   "cited_by": 30,
-   "journal": "Artificial Intelligence Review",
+   "cited_by": 35,
+   "journal": "Reliability Engineering & System Safety",
    "issn": [
-    "1573-7462"
+    "0951-8320"
    ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
    "authors": [
-    "Aditya Rajbongshi",
-    "Fatema Tuz Johora",
-    "Arafat Hossain",
-    "Md. Salauddin Sarker"
+    "Tianfu Li",
+    "Junfan Chen",
+    "Tao Liu",
+    "Chuang Sun"
    ],
    "theme_ids": [
-    "principles",
-    "governance",
     "bias",
     "transparency",
     "accountability",
     "work",
     "military",
-    "global-south",
     "rights",
     "public-sector",
-    "adoption",
-    "auditing"
+    "adoption"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 35,
+   "volume": "267",
+   "pages": "111935",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.ress.2025.111935",
+   "verified": true,
+   "verified_at": "2026-10-25",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
+   "doi": "10.1186/s12912-025-04253-9",
+   "title": "Applications, attitudes and ethical considerations of Generative Artificial Intelligence (Gen AI) in nursing education: a scoping review",
+   "year": 2026,
+   "cited_by": 35,
+   "journal": "BMC Nursing",
+   "issn": [
+    "1472-6955"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Philip Hardie",
+    "Andrew Darley",
+    "Rosemarie Derwin",
+    "Jessica Eustace-Cook"
+   ],
+   "theme_ids": [
+    "bias",
+    "transparency",
+    "accountability",
+    "work",
+    "rights",
+    "public-sector",
+    "adoption"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 30,
-   "volume": "59",
-   "issue": "3",
+   "crossref_cited_by": 35,
+   "volume": "25",
+   "issue": "1",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "8 August 2025",
-    "accepted": "26 November 2025",
+    "received": "4 September 2025",
+    "accepted": "18 December 2025",
     "revised": null,
     "has_review_dates": true,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1007/s10462-025-11459-5",
+   "url": "https://doi.org/10.1186/s12912-025-04253-9",
    "verified": true,
    "verified_at": "2026-10-25",
    "jurisdictions": [],
