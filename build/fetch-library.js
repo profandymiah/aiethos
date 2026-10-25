@@ -15,6 +15,7 @@ const LIB = path.join(ROOT, 'library');
 const MANIFEST = process.env.MANIFEST || path.join(LIB, 'manifest.json');
 const MAX_RAW = 20 * 1024 * 1024;
 const UA = 'Mozilla/5.0 (compatible; AIETHOS-library/1.0; +https://aiethos.andymiah.net)';
+const { spawnSync } = require('child_process');
 const only = process.argv.includes('--only') ? process.argv[process.argv.indexOf('--only') + 1] : null;
 
 const readJSON = (p, d) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return d; } };
@@ -39,6 +40,19 @@ async function fetchDoc(doc) {
   return { status: res.status, ok: res.ok, type: res.headers.get('content-type') || '', buf, finalUrl: res.url };
 }
 
+
+function browserFallback(doc) {
+  const out = '/tmp/render-' + doc.id;
+  const r = spawnSync('node', [path.join(__dirname, 'render.js'), doc.url, out], { encoding: 'utf8', timeout: 150000 });
+  try {
+    const j = JSON.parse((r.stdout || '').trim().split('\n').pop());
+    if (!j.ok) return null;
+    const buf = fs.readFileSync(out);
+    return j.kind === 'pdf' ? { status: 200, ok: true, type: 'application/pdf', buf, finalUrl: doc.url, via: 'browser' }
+                            : { status: 200, ok: true, type: 'text/html', buf: Buffer.from('<main>' + buf.toString('utf8').replace(/</g, '&lt;') + '</main>'), finalUrl: doc.url, via: 'browser', plain: buf.toString('utf8') };
+  } catch (e) { return null; }
+}
+
 (async () => {
   const manifest = readJSON(MANIFEST, { documents: [] });
   const state = readJSON(path.join(LIB, 'state.json'), {});
@@ -51,8 +65,10 @@ async function fetchDoc(doc) {
     if (only && doc.id !== only) continue;
     const prev = state[doc.id] || {};
     try {
-      const r = await fetchDoc(doc);
-      if (!r.ok) throw new Error('HTTP ' + r.status);
+      let r = null, firstErr = null;
+      if (!doc.render) { try { r = await fetchDoc(doc); if (!r.ok) { firstErr = 'HTTP ' + r.status; r = null; } } catch (e) { firstErr = String(e.message || e); } }
+      if (!r || (r.buf.length < 400 && !(r.buf.slice(0, 5).toString() === '%PDF-'))) { const b = browserFallback(doc); if (b) r = b; }
+      if (!r) throw new Error(firstErr || 'empty response');
       const isPdf = /pdf/i.test(r.type) || r.buf.slice(0, 5).toString() === '%PDF-';
       let text, rawName = null;
       if (isPdf) {
@@ -61,14 +77,14 @@ async function fetchDoc(doc) {
         else fs.writeFileSync('/tmp/' + doc.id + '.pdf', r.buf);
         text = pdfToText(r.buf.length <= MAX_RAW ? tmp : '/tmp/' + doc.id + '.pdf');
       } else {
-        text = htmlToText(r.buf.toString('utf8'));
+        text = r.plain !== undefined ? r.plain : htmlToText(r.buf.toString('utf8'));
       }
       // Hash the extracted text so cosmetic HTML changes do not trigger alerts; PDFs also hash bytes.
       const normText = text.replace(/\s+/g, ' ').trim();
       const hash = sha(isPdf && !normText ? r.buf : Buffer.from(normText));
       fs.writeFileSync(path.join(LIB, 'text', doc.id + '.txt'), text);
       const entry = { url: doc.url, final_url: r.finalUrl, http: r.status, content_type: r.type, bytes: r.buf.length, text_chars: text.length,
-        sha256: hash, raw_file: rawName, url_verified: true, last_checked: now,
+        sha256: hash, raw_file: rawName, fetched_via: r.via || 'http', url_verified: true, last_checked: now,
         first_seen: prev.first_seen || now, last_changed: prev.last_changed || now, prev_sha256: prev.prev_sha256 || null, error: null };
       if (!prev.sha256) changes.new.push({ id: doc.id, title: doc.title, url: doc.url });
       else if (prev.sha256 !== hash) {
