@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T17:44:48.163Z",
+ "generated": "2026-10-26T08:22:33.861Z",
  "source": "Crossref search ranked by citations, filtered for AI plus ethics terms in the title (Google Scholar has no API and blocks automated access; OpenAlex rate-limited), journal-article type, publisher whitelist and retraction checks",
  "window": [
   2011,
@@ -162,7 +162,7 @@
    },
    "url": "https://doi.org/10.1017/s1816383112000768",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -203,7 +203,7 @@
    },
    "url": "https://doi.org/10.1016/j.tra.2015.04.003",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -244,7 +244,7 @@
    },
    "url": "https://doi.org/10.1016/j.jsis.2015.02.001",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -252,7 +252,7 @@
    "doi": "10.1177/2053951716679679",
    "title": "The ethics of algorithms: Mapping the debate",
    "year": 2016,
-   "cited_by": 2945,
+   "cited_by": 2946,
    "journal": "Big Data & Society",
    "publisher": "SAGE",
    "publisher_raw": "",
@@ -270,7 +270,7 @@
    "seed": "ethics of algorithms",
    "publisher_crossref": "SAGE Publications",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2945,
+   "crossref_cited_by": 2946,
    "issn": [
     "2053-9517",
     "2053-9517"
@@ -287,7 +287,7 @@
    },
    "url": "https://doi.org/10.1177/2053951716679679",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -295,7 +295,7 @@
    "doi": "10.1145/2844110",
    "title": "Accountability in algorithmic decision making",
    "year": 2016,
-   "cited_by": 645,
+   "cited_by": 646,
    "journal": "Communications of the ACM",
    "issn": [
     "0001-0782",
@@ -315,7 +315,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 645,
+   "crossref_cited_by": 646,
    "volume": "59",
    "issue": "2",
    "pages": "56-62",
@@ -329,7 +329,7 @@
    },
    "url": "https://doi.org/10.1145/2844110",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -368,7 +368,7 @@
    },
    "url": "https://doi.org/10.1016/j.futures.2017.03.006",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -411,7 +411,7 @@
    },
    "url": "https://doi.org/10.1609/aimag.v38i3.2741",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [
     "eu"
    ],
@@ -421,7 +421,7 @@
    "doi": "10.1093/idpl/ipx005",
    "title": "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation",
    "year": 2017,
-   "cited_by": 1015,
+   "cited_by": 1016,
    "journal": "International Data Privacy Law",
    "issn": [
     "2044-3994",
@@ -447,7 +447,7 @@
    "seed": "Right to Explanation",
    "publisher_crossref": "Oxford University Press (OUP)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1015,
+   "crossref_cited_by": 1016,
    "volume": "7",
    "issue": "2",
    "pages": "76-99",
@@ -461,7 +461,7 @@
    },
    "url": "https://doi.org/10.1093/idpl/ipx005",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -502,7 +502,7 @@
    },
    "url": "https://doi.org/10.1111/rego.12158",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -549,7 +549,7 @@
    },
    "url": "https://doi.org/10.1007/s13347-017-0279-x",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -597,7 +597,7 @@
    },
    "url": "https://doi.org/10.1007/s10676-017-9430-8",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -638,7 +638,7 @@
    },
    "url": "https://doi.org/10.1007/s11948-017-9901-7",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [
     "eu",
     "us",
@@ -650,7 +650,7 @@
    "doi": "10.1007/s11023-018-9482-5",
    "title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
    "year": 2018,
-   "cited_by": 4385,
+   "cited_by": 4387,
    "journal": "Minds and Machines",
    "issn": [
     "0924-6495",
@@ -675,7 +675,7 @@
    "seed": "AI4People",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 4385,
+   "crossref_cited_by": 4387,
    "volume": "28",
    "issue": "4",
    "pages": "689-707",
@@ -689,7 +689,7 @@
    },
    "url": "https://doi.org/10.1007/s11023-018-9482-5",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -697,7 +697,7 @@
    "doi": "10.1177/2053951718756684",
    "title": "Understanding perception of algorithmic decisions: Fairness, trust, and emotion in response to algorithmic management",
    "year": 2018,
-   "cited_by": 1137,
+   "cited_by": 1138,
    "journal": "Big Data & Society",
    "issn": [
     "2053-9517",
@@ -717,7 +717,7 @@
    "in_doaj": false,
    "publisher_crossref": "SAGE Publications",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1137,
+   "crossref_cited_by": 1138,
    "volume": "5",
    "issue": "1",
    "peer_review": {
@@ -730,7 +730,7 @@
    },
    "url": "https://doi.org/10.1177/2053951718756684",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -771,7 +771,7 @@
    },
    "url": "https://doi.org/10.1126/science.aat5991",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -813,7 +813,7 @@
    },
    "url": "https://doi.org/10.1098/rsta.2018.0080",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -855,7 +855,7 @@
    },
    "url": "https://doi.org/10.1089/omi.2017.0194",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -900,7 +900,7 @@
    },
    "url": "https://doi.org/10.1007/s13244-018-0645-y",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [
     "eu",
     "us"
@@ -946,7 +946,7 @@
    },
    "url": "https://doi.org/10.1098/rsta.2018.0085",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -987,7 +987,7 @@
    },
    "url": "https://doi.org/10.1007/s10676-018-9450-z",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -995,7 +995,7 @@
    "doi": "10.1126/science.aax2342",
    "title": "Dissecting racial bias in an algorithm used to manage the health of populations",
    "year": 2019,
-   "cited_by": 6540,
+   "cited_by": 6542,
    "journal": "Science",
    "publisher": "AAAS (Science)",
    "publisher_raw": "",
@@ -1012,7 +1012,7 @@
    "seed": "racial bias",
    "publisher_crossref": "American Association for the Advancement of Science (AAAS)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 6540,
+   "crossref_cited_by": 6542,
    "issn": [
     "0036-8075",
     "1095-9203"
@@ -1030,7 +1030,7 @@
    },
    "url": "https://doi.org/10.1126/science.aax2342",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1038,7 +1038,7 @@
    "doi": "10.1038/s42256-019-0088-2",
    "title": "The global landscape of AI ethics guidelines",
    "year": 2019,
-   "cited_by": 5682,
+   "cited_by": 5683,
    "journal": "Nature Machine Intelligence",
    "issn": [
     "2522-5839"
@@ -1076,7 +1076,7 @@
    "seed": "global landscape",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 5682,
+   "crossref_cited_by": 5683,
    "volume": "1",
    "issue": "9",
    "pages": "389-399",
@@ -1090,7 +1090,7 @@
    },
    "url": "https://doi.org/10.1038/s42256-019-0088-2",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1130,7 +1130,7 @@
    },
    "url": "https://doi.org/10.1038/s42256-019-0114-4",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1138,7 +1138,7 @@
    "doi": "10.1162/99608f92.8cd550d1",
    "title": "A Unified Framework of Five Principles for AI in Society",
    "year": 2019,
-   "cited_by": 1259,
+   "cited_by": 1260,
    "journal": "Harvard Data Science Review",
    "publisher": "MIT Press",
    "publisher_raw": "MIT Press",
@@ -1154,7 +1154,7 @@
    "in_doaj": false,
    "publisher_crossref": "MIT Press",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1259,
+   "crossref_cited_by": 1260,
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -1165,7 +1165,7 @@
    },
    "url": "https://doi.org/10.1162/99608f92.8cd550d1",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1209,7 +1209,7 @@
    },
    "url": "https://doi.org/10.1093/jamia/ocz192",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1264,7 +1264,7 @@
    },
    "url": "https://doi.org/10.1007/s11948-019-00165-5",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1308,7 +1308,7 @@
    },
    "url": "https://doi.org/10.1136/medethics-2019-105586",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1316,7 +1316,7 @@
    "doi": "10.1016/j.inffus.2019.12.012",
    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
    "year": 2020,
-   "cited_by": 9733,
+   "cited_by": 9738,
    "journal": "Information Fusion",
    "issn": [
     "1566-2535"
@@ -1338,7 +1338,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 9733,
+   "crossref_cited_by": 9738,
    "volume": "58",
    "pages": "82-115",
    "peer_review": {
@@ -1351,7 +1351,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1409,7 +1409,7 @@
    },
    "url": "https://doi.org/10.1007/s11023-020-09517-8",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1454,7 +1454,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-020-1034-x",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1497,7 +1497,7 @@
    },
    "url": "https://doi.org/10.1016/j.socscimed.2020.113172",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1541,7 +1541,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-020-00341-z",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1549,7 +1549,7 @@
    "doi": "10.1177/2053951719897945",
    "title": "Algorithmic content moderation: Technical and political challenges in the automation of platform governance",
    "year": 2020,
-   "cited_by": 819,
+   "cited_by": 820,
    "journal": "Big Data & Society",
    "issn": [
     "2053-9517",
@@ -1570,7 +1570,7 @@
    "in_doaj": false,
    "publisher_crossref": "SAGE Publications",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 819,
+   "crossref_cited_by": 820,
    "volume": "7",
    "issue": "1",
    "pages": "205395171989794",
@@ -1584,7 +1584,7 @@
    },
    "url": "https://doi.org/10.1177/2053951719897945",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1592,7 +1592,7 @@
    "doi": "10.1007/s11023-020-09539-2",
    "title": "Artificial Intelligence, Values, and Alignment",
    "year": 2020,
-   "cited_by": 787,
+   "cited_by": 788,
    "journal": "Minds and Machines",
    "publisher": "Springer Nature",
    "publisher_raw": "",
@@ -1605,7 +1605,7 @@
    "seed": "Values, and Alignment",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 787,
+   "crossref_cited_by": 788,
    "issn": [
     "0924-6495",
     "1572-8641"
@@ -1623,7 +1623,7 @@
    },
    "url": "https://doi.org/10.1007/s11023-020-09539-2",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1666,7 +1666,7 @@
    },
    "url": "https://doi.org/10.1016/j.giq.2020.101493",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1711,7 +1711,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-020-1037-7",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1719,7 +1719,7 @@
    "doi": "10.1111/puar.13293",
    "title": "Accountable Artificial Intelligence: Holding Algorithms to Account",
    "year": 2020,
-   "cited_by": 597,
+   "cited_by": 598,
    "journal": "Public Administration Review",
    "issn": [
     "0033-3352",
@@ -1738,7 +1738,7 @@
    "in_doaj": false,
    "publisher_crossref": "Wiley",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 597,
+   "crossref_cited_by": 598,
    "volume": "81",
    "issue": "5",
    "pages": "825-836",
@@ -1752,7 +1752,7 @@
    },
    "url": "https://doi.org/10.1111/puar.13293",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1794,7 +1794,7 @@
    },
    "url": "https://doi.org/10.1136/bmj.m3164",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1802,7 +1802,7 @@
    "doi": "10.1145/3457607",
    "title": "A Survey on Bias and Fairness in Machine Learning",
    "year": 2021,
-   "cited_by": 4640,
+   "cited_by": 4642,
    "journal": "ACM Computing Surveys",
    "issn": [
     "0360-0300",
@@ -1824,7 +1824,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 4640,
+   "crossref_cited_by": 4642,
    "volume": "54",
    "issue": "6",
    "pages": "1-35",
@@ -1838,7 +1838,7 @@
    },
    "url": "https://doi.org/10.1145/3457607",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1846,7 +1846,7 @@
    "doi": "10.1016/j.ijinfomgt.2019.08.002",
    "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
    "year": 2021,
-   "cited_by": 3676,
+   "cited_by": 3678,
    "journal": "International Journal of Information Management",
    "issn": [
     "0268-4012"
@@ -1867,7 +1867,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 3676,
+   "crossref_cited_by": 3678,
    "volume": "57",
    "pages": "101994",
    "peer_review": {
@@ -1880,7 +1880,7 @@
    },
    "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1888,7 +1888,7 @@
    "doi": "10.1007/s43681-021-00096-7",
    "title": "Artificial intelligence in education: Addressing ethical challenges in K-12 settings",
    "year": 2021,
-   "cited_by": 1318,
+   "cited_by": 1319,
    "journal": "AI and Ethics",
    "issn": [
     "2730-5953",
@@ -1909,7 +1909,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1318,
+   "crossref_cited_by": 1319,
    "volume": "2",
    "issue": "3",
    "pages": "431-440",
@@ -1923,7 +1923,7 @@
    },
    "url": "https://doi.org/10.1007/s43681-021-00096-7",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1969,7 +1969,7 @@
    },
    "url": "https://doi.org/10.1136/bmjopen-2020-048008",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2012,7 +2012,7 @@
    },
    "url": "https://doi.org/10.1016/j.jbi.2020.103655",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2054,7 +2054,7 @@
    },
    "url": "https://doi.org/10.1016/j.giq.2021.101577",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2095,7 +2095,7 @@
    },
    "url": "https://doi.org/10.1016/j.patter.2021.100205",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2134,7 +2134,7 @@
    },
    "url": "https://doi.org/10.1007/s13347-021-00460-9",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2178,7 +2178,7 @@
    },
    "url": "https://doi.org/10.1007/s40593-021-00239-1",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2223,7 +2223,7 @@
    },
    "url": "https://doi.org/10.1007/s10639-022-11316-w",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2269,7 +2269,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-022-01772-9",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2313,7 +2313,7 @@
    },
    "url": "https://doi.org/10.1145/3491209",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2357,7 +2357,7 @@
    },
    "url": "https://doi.org/10.1136/bmj-2022-070904",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2399,7 +2399,7 @@
    },
    "url": "https://doi.org/10.1145/3494672",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2442,7 +2442,7 @@
    },
    "url": "https://doi.org/10.1038/s42256-022-00516-1",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2485,7 +2485,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-021-00549-7",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2528,7 +2528,7 @@
    },
    "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2569,7 +2569,7 @@
    },
    "url": "https://doi.org/10.1016/j.iotcps.2023.04.003",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2577,7 +2577,7 @@
    "doi": "10.1016/j.inffus.2023.101805",
    "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
    "year": 2023,
-   "cited_by": 1737,
+   "cited_by": 1738,
    "journal": "Information Fusion",
    "issn": [
     "1566-2535"
@@ -2598,7 +2598,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1737,
+   "crossref_cited_by": 1738,
    "volume": "99",
    "pages": "101805",
    "peer_review": {
@@ -2611,7 +2611,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2023.101805",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2619,7 +2619,7 @@
    "doi": "10.1186/s41239-023-00408-3",
    "title": "A comprehensive AI policy education framework for university teaching and learning",
    "year": 2023,
-   "cited_by": 1397,
+   "cited_by": 1398,
    "journal": "International Journal of Educational Technology in Higher Education",
    "issn": [
     "2365-9440"
@@ -2639,7 +2639,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1397,
+   "crossref_cited_by": 1398,
    "volume": "20",
    "issue": "1",
    "peer_review": {
@@ -2652,7 +2652,7 @@
    },
    "url": "https://doi.org/10.1186/s41239-023-00408-3",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2694,7 +2694,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-023-00873-0",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2735,7 +2735,7 @@
    },
    "url": "https://doi.org/10.1016/j.chb.2022.107468",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2781,7 +2781,7 @@
    },
    "url": "https://doi.org/10.1002/asi.24750",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2825,7 +2825,7 @@
    },
    "url": "https://doi.org/10.1038/s41551-023-01056-8",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2869,7 +2869,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2023.101896",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2913,7 +2913,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2023.03.008",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2958,7 +2958,7 @@
    },
    "url": "https://doi.org/10.1016/j.heliyon.2024.e26297",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3002,7 +3002,7 @@
    },
    "url": "https://doi.org/10.1186/s41239-023-00436-z",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3047,7 +3047,7 @@
    },
    "url": "https://doi.org/10.1162/coli_a_00524",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3090,7 +3090,7 @@
    },
    "url": "https://doi.org/10.1016/j.jclepro.2023.140527",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3132,7 +3132,7 @@
    },
    "url": "https://doi.org/10.1186/s13012-024-01357-9",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3174,7 +3174,7 @@
    },
    "url": "https://doi.org/10.1186/s41239-024-00444-7",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3216,7 +3216,7 @@
    },
    "url": "https://doi.org/10.1145/3616865",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3257,7 +3257,7 @@
    },
    "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102700",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3299,7 +3299,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-024-01157-x",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3342,7 +3342,7 @@
    },
    "url": "https://doi.org/10.1109/access.2024.3387941",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3385,7 +3385,7 @@
    },
    "url": "https://doi.org/10.1093/pnasnexus/pgae191",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3426,7 +3426,7 @@
    },
    "url": "https://doi.org/10.1057/s41599-024-03432-4",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3468,7 +3468,7 @@
    },
    "url": "https://doi.org/10.1016/j.artmed.2024.102830",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3510,7 +3510,7 @@
    },
    "url": "https://doi.org/10.1016/j.compeleceng.2024.109409",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3518,7 +3518,7 @@
    "doi": "10.1145/3703155",
    "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
    "year": 2025,
-   "cited_by": 2362,
+   "cited_by": 2364,
    "journal": "ACM Transactions on Information Systems",
    "issn": [
     "1046-8188",
@@ -3541,7 +3541,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2362,
+   "crossref_cited_by": 2364,
    "volume": "43",
    "issue": "2",
    "pages": "1-55",
@@ -3555,7 +3555,7 @@
    },
    "url": "https://doi.org/10.1145/3703155",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3598,7 +3598,7 @@
    },
    "url": "https://doi.org/10.1136/bmj-2024-081554",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3643,7 +3643,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-024-03425-5",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3687,7 +3687,7 @@
    },
    "url": "https://doi.org/10.1016/j.jsis.2024.101885",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3731,7 +3731,7 @@
    },
    "url": "https://doi.org/10.1016/j.modpat.2024.100686",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3777,7 +3777,7 @@
    },
    "url": "https://doi.org/10.1016/j.caeai.2024.100348",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3822,7 +3822,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-025-03953-8",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3865,7 +3865,7 @@
    },
    "url": "https://doi.org/10.1001/jama.2024.21451",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3908,7 +3908,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-026-02418-7",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3952,7 +3952,7 @@
    },
    "url": "https://doi.org/10.1016/j.identj.2025.109322",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3997,7 +3997,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2025.103812",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -4037,7 +4037,7 @@
    },
    "url": "https://doi.org/10.1177/13621688261422129",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -4079,7 +4079,7 @@
    },
    "url": "https://doi.org/10.1016/j.caeai.2026.100572",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   },
@@ -4120,7 +4120,7 @@
    },
    "url": "https://doi.org/10.1016/j.ject.2025.07.001",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -4165,7 +4165,7 @@
    },
    "url": "https://doi.org/10.1186/s12912-025-04253-9",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": true
   },
@@ -4206,7 +4206,7 @@
    },
    "url": "https://doi.org/10.1016/j.compind.2025.104409",
    "verified": true,
-   "verified_at": "2026-10-25",
+   "verified_at": "2026-10-26",
    "jurisdictions": [],
    "is_review": false
   }
