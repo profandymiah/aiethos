@@ -12,7 +12,7 @@
 .cp-form label{display:grid;gap:6px;font-size:14px;font-weight:600}
 .cp-form label.chk{display:flex;gap:10px;align-items:flex-start;font-weight:400}
 .cp-form label.chk input{width:24px;min-height:24px;margin-top:2px;flex:none}
-.cp-btn{min-height:48px;padding:0 20px;background:var(--ink);color:var(--on-ink);border:0;border-radius:10px;font:700 15px var(--sans);cursor:pointer;justify-self:start}
+.cp-btn{min-height:48px;padding:0 20px;background:var(--accent);color:var(--on-accent);border:0;border-radius:10px;font:700 15px var(--sans);cursor:pointer;justify-self:start}
 .cp-btn.alt{background:transparent;color:var(--ink);border:1px solid var(--bm)}
 .cp-badge{display:inline-block;border:1px solid currentColor;border-radius:4px;padding:1px 7px;font-size:12px;font-weight:700}
 .cp-top{display:flex;justify-content:space-between;gap:12px;margin:8px 0}

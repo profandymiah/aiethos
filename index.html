@@ -3,22 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AIETHOS · Who governs AI, and how?</title>
-<meta name="description" content="A tracker of how countries govern artificial intelligence: laws, treaties, rights, data centres and research, each traced to its source.">
+<title>AIETHOS · AI Ethics Observatory</title>
+<meta name="description" content="AIETHOS is the AI Ethics Observatory: a global tracker of how countries govern artificial intelligence, with laws, treaties, data centres and research traced to their sources. Powered by Prof Andy Miah.">
 <link rel="canonical" href="https://aiethos.andymiah.net/">
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-<script src="assets/shell.js" data-root="" data-active="countries"></script>
+<script src="assets/shell.js" data-root="" data-active="overview"></script>
 <main id="main" class="wrap" tabindex="-1">
 
+<!-- OVERVIEW -->
+<section id="v-overview" data-title="Overview" data-tab="overview" aria-labelledby="h-over">
+  <div class="hero">
+    <p class="eyebrow">AI Ethics Observatory · Global regulatory intelligence</p>
+    <h1 id="h-over" tabindex="-1">Mapping the <em>ethics</em> of artificial intelligence</h1>
+    <p class="lead">Who governs AI, under what law, and how well. Every territory, treaty, data centre and study traced to its source.</p>
+    <p class="by">Powered by <a href="https://andymiah.net" rel="noopener">Prof Andy Miah</a></p>
+  </div>
+  <div class="kpis" id="kpis" aria-label="Observatory at a glance"></div>
+  <div class="maphead"><h2>The global monitor</h2></div>
+  <p class="note" style="margin:0 0 8px" id="mapnote">Tap a territory to open its briefing.</p>
+  <div class="chips" id="rchips" role="group" aria-label="Zoom to a region"></div>
+  <div class="mapbox"><svg id="cmap" role="group" aria-label="World map. Each monitored territory is shaded by regulatory status and is a button."></svg></div>
+  <div class="legend" id="clegend"></div>
+  <div class="sheet" id="csheet" aria-live="polite"><p class="note" style="margin:0">Select a territory on the map to see its status, its main law and when it was last captured.</p></div>
+  <div class="ticker" id="ticker" hidden><span class="tl">Latest</span><div class="win"><ul id="tickul"></ul></div></div>
+  <h2>How well do the rules protect people?</h2>
+  <p class="note" id="dimlead"></p>
+  <div id="dimover"></div>
+  <p><a class="lnk" href="#/countries/compare">Compare countries on each dimension</a></p>
+  <h2>Explore the observatory</h2>
+  <div class="tiles" id="tiles"></div>
+</section>
+
 <!-- COUNTRIES -->
-<section id="v-countries" data-title="Countries" data-tab="countries" aria-labelledby="h-countries">
-  <h1 id="h-countries" tabindex="-1">Who governs AI, and how?</h1>
+<section id="v-countries" data-title="Countries" data-tab="countries" hidden aria-labelledby="h-countries">
+  <h1 id="h-countries" tabindex="-1">The countries</h1>
   <p class="lead" id="intro">Loading the latest entries…</p>
   <div class="seg" role="group" aria-label="Choose a view">
     <button type="button" data-m="list" aria-pressed="true">List</button>
-    <button type="button" data-m="map" aria-pressed="false">Map</button>
     <button type="button" data-m="compare" aria-pressed="false">Compare</button>
   </div>
 
@@ -27,13 +50,6 @@
     <div class="chips" id="fchips" role="group" aria-label="Filter by status"></div>
     <p class="note" id="count" aria-live="polite"></p>
     <ul class="rows two" id="rows"></ul>
-  </div>
-
-  <div id="c-map" hidden>
-    <div class="chips" id="rchips" role="group" aria-label="Zoom to a region"></div>
-    <div class="mapbox"><svg id="cmap" role="group" aria-label="Map of jurisdictions. Each marker is a button."></svg></div>
-    <div class="legend" id="clegend"></div>
-    <div class="sheet" id="csheet" aria-live="polite"><p class="note" style="margin:0">Tap a marker to see the country.</p></div>
   </div>
 
   <div id="c-compare" hidden>
@@ -52,9 +68,17 @@
   <div class="seg" role="group" aria-label="Choose a view">
     <button type="button" data-m="ins" aria-pressed="true">In force</button>
     <button type="button" data-m="tra" aria-pressed="false">Heading next</button>
+    <button type="button" data-m="lib" aria-pressed="false">Library</button>
   </div>
   <div id="r-ins"></div>
   <div id="r-tra" hidden></div>
+  <div id="r-lib" hidden>
+    <p class="note" id="lib-note"></p>
+    <label class="sr" for="libSel">Filter documents by jurisdiction</label>
+    <select id="libSel"></select>
+    <ul class="rows" id="libList" style="margin-top:12px"></ul>
+    <div id="libLatest"></div>
+  </div>
 </section>
 
 <!-- DATA CENTRES -->
@@ -82,22 +106,16 @@
   <div id="d-src"></div>
 </section>
 
-<!-- MORE -->
-<section id="v-more" data-title="More" data-tab="more" hidden aria-labelledby="h-more">
-  <h1 id="h-more" tabindex="-1">More</h1>
-  <h2 style="margin-top:20px">Document library</h2>
-  <p class="note" id="lib-note"></p>
-  <label class="sr" for="libSel">Filter documents by jurisdiction</label>
-  <select id="libSel"></select>
-  <ul class="rows" id="libList" style="margin-top:12px"></ul>
-  <div id="libLatest"></div>
-
-  <h2>How to read this site</h2>
-  <details class="acc"><summary><span class="acc-title">What the scores mean</span></summary><div class="acc-body"><p>Each country is scored from 0 to 100 on eight dimensions: safety, privacy, human oversight, transparency, accountability, fairness, environment and access to remedy. The scores are editorial judgements of protections in force, not forecasts and not official ratings.</p></div></details>
+<!-- ABOUT -->
+<section id="v-about" data-title="About and method" data-tab="about" hidden aria-labelledby="h-about">
+  <p class="eyebrow" style="margin-top:22px">About the observatory</p>
+  <h1 id="h-about" tabindex="-1">How to read AIETHOS</h1>
+  <p class="lead">AIETHOS is the AI Ethics Observatory, built and curated by <a href="https://andymiah.net" rel="noopener">Prof Andy Miah</a>. It follows how countries govern artificial intelligence and shows the evidence behind every claim.</p>
+  <details class="acc" open><summary><span class="acc-title">What the scores mean</span></summary><div class="acc-body"><p>Each country is scored from 0 to 100 on eight dimensions: safety, privacy, human oversight, transparency, accountability, fairness, environment and access to remedy. The scores are editorial judgements of protections in force, not forecasts and not official ratings.</p></div></details>
   <details class="acc"><summary><span class="acc-title">What “provisional” means</span></summary><div class="acc-body"><p>A provisional entry was drafted from secondary sources and has not yet been checked against a primary document such as the law itself. Treat its scores as a starting point.</p></div></details>
   <details class="acc"><summary><span class="acc-title">How entries are checked</span></summary><div class="acc-body"><p>Every claim links to its sources, tagged primary or secondary, with a confidence level. A watcher checks the library of official documents daily and flags changes. Each entry shows the year it was captured so you can judge how current it is.</p></div></details>
   <details class="acc"><summary><span class="acc-title">Add a note from your country</span></summary><div class="acc-body"><p>People who study or work on AI in their area can add notes to a country page. Contributors sign in with LinkedIn and are checked once. Every note is read by a moderator before it appears. Open any country and scroll to Community notes.</p></div></details>
-  <p class="note" style="margin-top:28px">AIETHOS is built by <a href="https://andymiah.net" rel="noopener">Prof Andy Miah</a>. Entries are being reviewed during the beta.</p>
+  <p class="note" style="margin-top:28px">Powered by <a href="https://andymiah.net" rel="noopener">Prof Andy Miah</a>. Entries are being reviewed during the beta.</p>
 </section>
 </main>
 
@@ -113,17 +131,24 @@ let J=[],ETH=null,META=null,WM=null;
 const X=lon=>(lon+180)/360*1000,Y=lat=>(90-lat)/180*500;
 
 /* ── router ── */
-const VIEWS={'':'countries','/':'countries','/rules':'rules','/datacentres':'datacentres','/more':'more'};
-const LEGACY={regulatory:'/',ethics:'/',instruments:'/rules',trajectories:'/rules',datacentres:'/datacentres',library:'/more',top:'/'};
+const LEGACY={regulatory:'/countries',ethics:'/countries',instruments:'/rules',trajectories:'/rules',datacentres:'/datacentres',library:'/rules/library',top:'/','/more':'/about','/':'/'};
+const TABS={'':'overview','countries':'countries','rules':'rules','datacentres':'datacentres','about':'about'};
+let curKey='';
 function route(first){
   let h=location.hash.replace(/^#/,'');
-  if(LEGACY[h]){h=LEGACY[h];}
-  const key=VIEWS[h]||'countries';
+  if(LEGACY[h])h=LEGACY[h];
+  const [t,mode]=h.replace(/^\//,'').split('/');
+  const key=TABS[t||'']||'overview';
   document.querySelectorAll('main>section').forEach(s=>s.hidden=s.dataset.tab!==key);
   const sec=document.querySelector(`main>section[data-tab="${key}"]`);
-  window.AIETHOS_SHELL&&AIETHOS_SHELL.setActive(key);
-  document.title=(key==='countries'?'AIETHOS · Who governs AI, and how?':sec.dataset.title+' · AIETHOS');
-  if(!first){window.scrollTo(0,0);const hd=sec.querySelector('h1');hd&&hd.focus({preventScroll:true});}
+  window.AIETHOS_SHELL&&AIETHOS_SHELL.setActive(key==='about'?'':key);
+  document.title=key==='overview'?'AIETHOS · AI Ethics Observatory':sec.dataset.title+' · AIETHOS';
+  const want=mode||(key==='rules'||key==='countries'?'':'');
+  const sg=sec.querySelector('.seg');
+  if(sg){const m=want&&sg.querySelector(`button[data-m="${want==='library'?'lib':want}"]`);if(m)m.click();else if(!first&&key!==curKey){const f=sg.querySelector('button');f&&f.click();}}
+  if(key==='overview'&&J.length)drawCMap();
+  if(!first&&key!==curKey){window.scrollTo(0,0);const hd=sec.querySelector('h1');hd&&hd.focus({preventScroll:true});}
+  curKey=key;
 }
 addEventListener('hashchange',()=>route(false));
 
@@ -156,10 +181,36 @@ function pins(svgId,items,sel,onPick,reg){
   svg.querySelectorAll('.mk').forEach(g=>{const pick=()=>onPick(items[+g.dataset.i]);g.addEventListener('click',pick);g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});});
 }
 let selC=null;
+const SMALL=['ch','ae','sg','kr','vn','ke'];
+function graticule(){let d='';for(let lo=-150;lo<=180;lo+=30){const x=X(lo);d+=`M${x} 0V500`;}for(let la=-60;la<=60;la+=30){const y=Y(la);d+=`M0 ${y}H1000`;}return `<path class="grat" d="${d}"/>`;}
+function showTerr(j){
+  selC=j.id;
+  document.querySelectorAll('#cmap [data-id]').forEach(e=>e.setAttribute('aria-pressed',e.dataset.id===j.id));
+  $('csheet').innerHTML=`<p class="eyebrow m">Territory briefing</p><h3 style="margin-top:6px">${esc(j.flag||'')} ${esc(j.name)}</h3><p class="row-meta" style="margin:4px 0 8px"><span class="pill" style="--c:${ST[j.status]}">${esc(cap(j.status))}</span><span>Captured ${esc(String(j.last_updated).slice(0,4))}</span>${j.composite_score!=null?`<span>Score ${j.composite_score} of 100</span>`:''}${j.provisional?'<span class="badge prov">Provisional</span>':''}</p><p style="margin:0">${esc(j.one_line||j.primary_law)}</p><a class="go" href="country/${esc(j.id)}/">Open ${esc(j.name)}</a>`;
+}
 function drawCMap(){
-  const items=J.filter(j=>LL[j.id]).map(j=>({id:j.id,x:X(LL[j.id][0]),y:Y(LL[j.id][1]),c:ST[j.status]||ST.none,label:`${j.name}, ${j.status}`,j}));
-  pins('cmap',items,selC,m=>{selC=m.id;const j=m.j;$('csheet').innerHTML=`<h3>${esc(j.flag||'')} ${esc(j.name)}</h3><p class="row-meta" style="margin:4px 0 8px"><span class="pill" style="--c:${ST[j.status]}">${esc(cap(j.status))}</span><span>Captured ${esc(String(j.last_updated).slice(0,4))}</span>${j.provisional?'<span class="badge prov">Provisional</span>':''}</p><p style="margin:0">${esc(j.one_line||j.primary_law)}</p><a class="go" href="country/${esc(j.id)}/">Open ${esc(j.name)}</a>`;drawCMap();},curReg);
-  $('clegend').innerHTML=Object.keys(ST).filter(k=>k!=='none'&&J.some(j=>j.status===k)).map(k=>`<span><i style="background:${ST[k]}"></i>${cap(k)}</span>`).join('');
+  if(!WM||!J.length)return;
+  const svg=$('cmap'),vb=REG[curReg][1].split(' ').map(Number),w=svg.getBoundingClientRect().width||360,k=vb[2]/w;
+  svg.setAttribute('viewBox',REG[curReg][1]);
+  const T=WM.territories||{};let h=graticule()+`<path class="land" d="${WM.d}"/>`;
+  J.forEach(j=>{const c=`style="fill:${ST[j.status]||ST.none}"`,lab=esc(`${j.name}, ${j.status}`);
+    if(T[j.id])h+=`<path class="ter" ${c} d="${T[j.id]}" tabindex="0" role="button" aria-label="${lab}" aria-pressed="${selC===j.id}" data-id="${esc(j.id)}"/>`;
+    if(LL[j.id]&&(SMALL.includes(j.id)||!T[j.id])){const x=X(LL[j.id][0]),y=Y(LL[j.id][1]);h+=`<g class="mkg" tabindex="${T[j.id]?-1:0}" role="button" aria-label="${lab}" aria-pressed="${selC===j.id}" data-id="${esc(j.id)}"><circle class="mk-h" cx="${x}" cy="${y}" r="${20*k}"/><circle class="mk-dot" style="stroke:${ST[j.status]||ST.none}" cx="${x}" cy="${y}" r="${4.5*k}"/></g>`;}});
+  svg.innerHTML=h;
+  svg.querySelectorAll('[data-id]').forEach(e=>{const j=J.find(x=>x.id===e.dataset.id),pick=()=>showTerr(j);e.addEventListener('click',pick);e.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();pick();}});});
+  const by={};J.forEach(j=>by[j.status]=(by[j.status]||0)+1);
+  $('clegend').innerHTML=Object.keys(ST).filter(q=>q!=='none'&&by[q]).map(q=>`<span><i style="background:${ST[q]}"></i>${cap(q)} ${by[q]}</span>`).join('');
+}
+function drawOverview(lib,dc,sch,ins,tr,tk){
+  const by=META.by_status||{};
+  $('kpis').innerHTML=[[J.length,'Territories'],[by.enacted||0,'Laws enacted'],[lib?lib.documents.length:'–','Documents'],[(by.draft||0)+(by.consultation||0),'In draft']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('');
+  const dims=Object.keys(DM).filter(k=>ETH.dimensions[k]).map(k=>[k,ETH.dimensions[k].global_average]).sort((a,b)=>b[1]-a[1]),low=dims[dims.length-1];
+  $('dimlead').textContent=`Average protection in force across ${J.length} territories, from 0 to 100. ${DM[low[0]][0]} is the weakest.`;
+  $('dimover').innerHTML=dims.map(([k,v])=>`<div class="dimrow${k===low[0]?' weak':''}"><span class="lb"><span>${esc(DM[k][0])}</span>${k===low[0]?'<em>Weakest</em>':''}</span><span class="t"><i style="width:${v}%"></i></span><b>${v}</b></div>`).join('');
+  const nIns=ins?ins.items.length:0,nTr=tr?tr.themes.reduce((a,t)=>a+t.items.length,0):0;
+  const tiles=[[J.length,'Countries','Briefings with law, gaps, rights and community notes','#/countries'],[nIns+nTr,'Rules',`${nIns} instruments in force and ${nTr} proposals heading next`,'#/rules'],[dc?dc.sites.length:'–','Data centres','Operating, planned and proposed sites, rated for ethical impact','#/datacentres'],[sch?sch.papers.length:'–','Research',`Verified peer-reviewed papers mapped over ${sch&&sch.window?sch.window[1]-sch.window[0]:15} years`,'scholarly.html'],[lib?lib.documents.length:'–','Library','Official documents tracked by a daily watcher','#/rules/library']];
+  $('tiles').innerHTML=tiles.map(([n,t,d,h])=>`<a class="tile" href="${h}"><span class="n">${n}</span><span><h3>${t}</h3><p>${esc(d)}</p></span></a>`).join('');
+  if(tk&&tk.items&&tk.items.length){const seen=new Set(),it=tk.items.filter(x=>!seen.has(x.text)&&seen.add(x.text)).slice(0,12);const li=it.map(x=>`<li><b>${esc(x.iso||'')}</b>${esc(x.text)}</li>`).join('');$('tickul').innerHTML=li+li.replace(/<li>/g,'<li aria-hidden="true">');$('ticker').hidden=false;}
 }
 function drawCompare(){
   const k=$('dim').value,d=ETH.dimensions[k];
@@ -209,8 +260,7 @@ function initDC(dc){
 }
 
 /* ── library ── */
-async function initLib(){
-  let lib=null;try{const r=await fetch('data/library.json');if(r.ok)lib=await r.json()}catch(e){}
+function initLib(lib){
   if(!lib)return;
   const sel=$('libSel'),js=[...new Set(lib.documents.map(d=>d.jurisdiction))].sort();
   const have=lib.documents.filter(d=>d.verified===true||d.verified==='True').length;
@@ -223,9 +273,12 @@ async function initLib(){
 
 /* ── boot ── */
 async function boot(){
+  seg(document.querySelector('#v-rules .seg'),m=>{$('r-ins').hidden=m!=='ins';$('r-tra').hidden=m!=='tra';$('r-lib').hidden=m!=='lib';});
+  seg(document.querySelector('#v-countries .seg'),m=>{$('c-list').hidden=m!=='list';$('c-compare').hidden=m!=='compare';});
   route(true);
-  seg(document.querySelector('#v-rules .seg'),m=>{$('r-ins').hidden=m!=='ins';$('r-tra').hidden=m!=='tra';});
-  seg(document.querySelector('#v-countries .seg'),m=>{$('c-list').hidden=m!=='list';$('c-map').hidden=m!=='map';$('c-compare').hidden=m!=='compare';if(m==='map')drawCMap();});
+  const libP=fetch('data/library.json').then(r=>r.ok?r.json():null).catch(()=>null);
+  const schP=fetch('data/scholarly.json').then(r=>r.ok?r.json():null).catch(()=>null);
+  const tkP=fetch('data/ticker.json').then(r=>r.ok?r.json():null).catch(()=>null);
   try{
     const [a,b,c,w]=await Promise.all([fetch('data/jurisdictions.json').then(r=>r.json()),fetch('data/ethics-scores.json').then(r=>r.json()),fetch('data/meta.json').then(r=>r.json()),getJ('worldmap.json')]);
     J=a.jurisdictions;ETH=b;META=c;WM=w;
@@ -239,10 +292,12 @@ async function boot(){
     $('rchips').querySelectorAll('button').forEach(bt=>bt.addEventListener('click',()=>{curReg=bt.dataset.r;$('rchips').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===bt));drawCMap();}));
     $('dim').innerHTML=Object.keys(DM).filter(k=>ETH.dimensions[k]).map(k=>`<option value="${k}">${DM[k][0]}</option>`).join('');
     $('dim').addEventListener('change',drawCompare);drawCompare();
+    drawCMap();let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(drawCMap,150);});
   }catch(e){$('intro').innerHTML='<span class="msg err" style="display:block">The data could not be loaded. Check your connection and reload the page.</span>';}
-  const [ins,tr,dc]=await Promise.all([getJ('instruments.json'),getJ('trajectories.json'),getJ('datacentres.json')]);
+  const [ins,tr,dc,lib,sch,tk]=await Promise.all([getJ('instruments.json'),getJ('trajectories.json'),getJ('datacentres.json'),libP,schP,tkP]);
   drawRules(ins,tr);if(dc)initDC(dc);
-  initLib();
+  if(J.length)drawOverview(lib,dc,sch,ins,tr,tk);
+  initLib(lib);
 }
 boot();
 </script>

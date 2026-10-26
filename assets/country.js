@@ -3,7 +3,7 @@
   const N = window.AIETHOS_NOTES, esc = N.esc, root = document.getElementById('cp');
   const get = async u => { try { const r = await fetch('../../' + u); return r.ok ? r.json() : null; } catch (e) { return null; } };
   const [j, lib, dc, sch] = await Promise.all([get(`data/jurisdictions/${id}.json`), get('data/library.json'), get('data/global/datacentres.json'), get('data/scholarly.json')]);
-  if (!j) { root.innerHTML = '<p class="msg err">This entry could not be loaded. Reload the page, or go back to the country list.</p><p><a href="../../index.html#/">All countries</a></p>'; return; }
+  if (!j) { root.innerHTML = '<p class="msg err">This entry could not be loaded. Reload the page, or go back to the country list.</p><p><a href="../../index.html#/countries">All countries</a></p>'; return; }
   const m = j.meta, f = j.framework, r = j.research, c = j.citizen, ev = j.evidence;
   const ST = { enacted: 'var(--st-enacted)', active: 'var(--st-active)', draft: 'var(--st-draft)', voluntary: 'var(--st-voluntary)', consultation: 'var(--st-consultation)', advisory: 'var(--st-advisory)', none: 'var(--st-none)' };
   const fmt = d => d ? new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : 'not set';
@@ -13,7 +13,7 @@
   const cap = s => s ? s[0].toUpperCase() + s.slice(1) : '';
   const sec = (t, sub, body, open) => `<details class="acc"${open ? ' open' : ''}><summary><span><span class="acc-title">${t}</span>${sub ? `<span class="acc-sub">${sub}</span>` : ''}</span></summary><div class="acc-body">${body}</div></details>`;
   const lab = k => cap(k.replace(/_/g, ' ').replace(/\band\b/, 'and'));
-  let h = `<a class="back" href="../../index.html#/">← All countries</a>
+  let h = `<a class="back" href="../../index.html#/countries">← All countries</a>
   <h1 tabindex="-1"><span aria-hidden="true">${esc(m.flag_emoji || '')}</span> ${esc(m.name)}</h1>
   <p class="row-meta" style="display:flex;gap:6px 14px;margin:0"><span class="pill" style="--c:${ST[f.status] || ST.none}">${esc(cap(f.status))}</span><span>${esc(cap(f.approach))} approach</span><span>${f.binding ? 'Legally binding' : 'Not legally binding'}</span>${prov ? '<span class="badge prov">Provisional</span>' : ''}</p>
   <div class="cap" role="note" aria-label="How current this entry is"><b>Captured ${esc((m.last_updated || '').slice(0, 4))}</b><span>Entry updated ${esc(fmt(m.last_updated))}</span><span>Newest source dated ${esc(latestSrc ? fmt(latestSrc) : 'not recorded')}</span><span>Framework in force since ${esc(f.year_effective || f.year_enacted || 'n/a')}. Next review ${esc(fmt(m.next_review_due))}.</span></div>
