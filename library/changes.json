@@ -1,23 +1,23 @@
 {
-  "run_at": "2026-10-25T13:15:15.711Z",
+  "run_at": "2026-10-26T13:08:54.330Z",
   "changed": [
     {
-      "id": "kr-msit",
-      "title": "AI Basic Act comes into force (MSIT announcement)",
-      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
-      "jurisdiction": "KR",
-      "priority": "high",
-      "chars_before": 14372,
-      "chars_after": 13417
+      "id": "cn-cac",
+      "title": "Cyberspace Administration of China (English site)",
+      "url": "https://www.cac.gov.cn/",
+      "jurisdiction": "CN",
+      "priority": "medium",
+      "chars_before": 5186,
+      "chars_after": 5206
     },
     {
-      "id": "sg-model-framework",
-      "title": "Model AI Governance Framework",
-      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
-      "jurisdiction": "SG",
-      "priority": "high",
-      "chars_before": 0,
-      "chars_after": 12973
+      "id": "vn-gov",
+      "title": "Vietnam Government portal (legal documents)",
+      "url": "https://xaydungchinhsach.chinhphu.vn/",
+      "jurisdiction": "VN",
+      "priority": "low",
+      "chars_before": 27774,
+      "chars_after": 24572
     },
     {
       "id": "br-pl2338",
@@ -34,94 +34,36 @@
       "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
       "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 757,
-      "chars_after": 759
-    }
-  ],
-  "new": [
-    {
-      "id": "us-co-sb205",
-      "title": "Colorado SB24-205 (Consumer Protections for AI)",
-      "url": "https://leg.colorado.gov/bills/sb24-205"
-    },
-    {
-      "id": "eu-ai-act-text",
-      "title": "AI Act full text (reader-friendly)",
-      "url": "https://artificialintelligenceact.eu/the-act/"
-    },
-    {
-      "id": "eu-ai-act-eli",
-      "title": "Regulation (EU) 2024/1689 via ELI link",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
-    },
-    {
-      "id": "uk-pro-innovation-response",
-      "title": "A pro-innovation approach to AI regulation: government response",
-      "url": "https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response"
-    },
-    {
-      "id": "uk-ai-playbook",
-      "title": "Artificial Intelligence Playbook for the UK Government",
-      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government"
+      "chars_before": 759,
+      "chars_after": 757
     },
     {
       "id": "us-eo-14179",
       "title": "Executive Order 14179: Removing Barriers to American Leadership in AI",
-      "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence"
-    },
-    {
-      "id": "us-omb-m2521",
-      "title": "OMB Memorandum M-25-21: Accelerating Federal Use of AI",
-      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
-    },
-    {
-      "id": "us-ca-ccpa-adm",
-      "title": "California CPPA automated decision-making technology regulations",
-      "url": "https://cppa.ca.gov/regulations/"
-    },
-    {
-      "id": "us-tx-traiga",
-      "title": "Texas HB 149 (Responsible AI Governance Act)",
-      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149"
-    },
-    {
-      "id": "cn-genai-measures",
-      "title": "Interim Measures for the Management of Generative AI Services (English translation)",
-      "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/"
-    },
-    {
-      "id": "cn-labelling",
-      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
-      "url": "https://www.chinalawtranslate.com/en/ai-labeling/"
+      "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+      "jurisdiction": "US",
+      "priority": "high",
+      "chars_before": 13782,
+      "chars_after": 13782
     },
     {
       "id": "kr-ai-basic-act",
       "title": "AI Basic Act (English translation)",
-      "url": "https://elaw.klri.re.kr/eng_service/main.do"
-    },
-    {
-      "id": "paris-statement",
-      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
-      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet"
-    },
-    {
-      "id": "un-hlab",
-      "title": "Governing AI for Humanity (UN High-Level Advisory Body final report)",
-      "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf"
-    },
-    {
-      "id": "ieee-7000",
-      "title": "IEEE 7000 series ethics standards overview",
-      "url": "https://standards.ieee.org/initiatives/autonomous-intelligence-systems/"
+      "url": "https://elaw.klri.re.kr/eng_service/main.do",
+      "jurisdiction": "KR",
+      "priority": "high",
+      "chars_before": 2141,
+      "chars_after": 2135
     }
   ],
-  "failed": [
+  "new": [
     {
       "id": "coe-treaty-page",
       "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
-      "error": "HTTP 403"
-    },
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225"
+    }
+  ],
+  "failed": [
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",

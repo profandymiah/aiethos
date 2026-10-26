@@ -29,7 +29,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-25T13:27:30.647Z"
+    "last_checked": "2026-10-26T13:19:40.356Z"
   },
   "uk-bills": {
     "ids": [
@@ -40,10 +40,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-25T13:27:30.647Z"
+    "last_checked": "2026-10-26T13:19:40.356Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/trade-mark-disputes-unpaid-costs-orders",
+      "https://www.gov.uk/government/publications/proscription-policy-and-process-statement",
+      "https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024",
+      "https://www.gov.uk/government/news/four-million-illegal-cigarettes-seized-in-border-force-crackdown",
+      "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
+      "https://www.gov.uk/government/publications/hiv-east-of-england-annual-data-spotlight",
+      "https://www.gov.uk/government/publications/mobilising-private-finance-for-local-nature-recovery",
+      "https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland",
+      "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
       "https://www.gov.uk/government/publications/delivering-the-30by30-commitment",
       "https://www.gov.uk/government/publications/young-voices-for-climate-and-nature",
       "https://www.gov.uk/government/publications/national-enforcement-priorities-for-animal-feed-and-food-hygiene",
@@ -52,12 +62,11 @@
       "https://www.gov.uk/government/organisations/department-for-business-innovation-science-and-trade/about/personal-information-charter",
       "https://www.gov.uk/government/publications/named-tax-avoidance-schemes-promoters-enablers-and-suppliers",
       "https://www.gov.uk/government/publications/import-trends-monitor",
-      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "https://www.gov.uk/government/consultations/improving-standards-for-industrial-fans"
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-25T13:27:30.647Z"
+    "last_checked": "2026-10-26T13:19:40.356Z"
   },
   "ec-ai-news": {
     "ids": [],
@@ -68,7 +77,7 @@
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-10-25T13:27:30.647Z"
+    "last_checked": "2026-10-26T13:19:40.356Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -79,18 +88,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-10-25T13:27:30.647Z"
+    "last_checked": "2026-10-26T13:19:40.356Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "9811ffc128c10332b8f99d32f0a546e8d0104ffd5aa9b7e359fbc96daf78334f",
     "initialised": true,
-    "last_checked": "2026-10-25T13:27:30.647Z"
+    "last_checked": "2026-10-26T13:19:40.356Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "795190b5b8988d04e80d43c12add1680a93bdd2b8b806087b074656490bb854b",
+    "page_hash": "e5b397be3066e4fcef815cfa263f08676c1808845e06bf66153271ec52b5b6da",
     "initialised": true,
-    "last_checked": "2026-10-25T13:27:30.647Z"
+    "last_checked": "2026-10-26T13:19:40.356Z"
   }
 }

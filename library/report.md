@@ -1,13 +1,30 @@
 ## Tracked documents that changed
 
-- **kr-msit** (KR, high): [AI Basic Act comes into force (MSIT announcement)](https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng), 14372 to 13417 characters
-- **sg-model-framework** (SG, high): [Model AI Governance Framework](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework), 0 to 12973 characters
+- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5186 to 5206 characters
+- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 27774 to 24572 characters
 - **br-pl2338** (BR, high): [PL 2338/2023 (AI Legal Framework): Senate bill page](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233), 230249 to 230249 characters
-- **ae-uae-ai** (AE, high): [UAE Government portal: Artificial Intelligence](https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence), 757 to 759 characters
+- **ae-uae-ai** (AE, high): [UAE Government portal: Artificial Intelligence](https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence), 759 to 757 characters
+- **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13782 to 13782 characters
+- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2141 to 2135 characters
+
+## New items found
+
+- UK: [Trade mark disputes: unpaid costs orders](https://www.gov.uk/government/publications/trade-mark-disputes-unpaid-costs-orders) (GOV.UK updates on artificial intelligence, 2026-10-26T13:18:24+00:00)
+- UK: [Proscription policy and process statement](https://www.gov.uk/government/publications/proscription-policy-and-process-statement) (GOV.UK updates on artificial intelligence, 2026-10-26T12:53:22+00:00)
+- UK: [Mr A Verma v Manchester University NHS Foundation Trust: 2402904/2024](https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024) (GOV.UK updates on artificial intelligence, 2026-10-26T12:32:16+00:00)
+- UK: [Four million illegal cigarettes seized in Border Force crackdown](https://www.gov.uk/government/news/four-million-illegal-cigarettes-seized-in-border-force-crackdown) (GOV.UK updates on artificial intelligence, 2026-10-26T11:44:50+00:00)
+- UK: [Government response to SSAC Occasional Paper 27: The influence of the social security system on educational and vocational decision-making at age 16](https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16) (GOV.UK updates on artificial intelligence, 2026-10-26T11:00:03+00:00)
+- UK: [HIV: East of England annual data spotlight](https://www.gov.uk/government/publications/hiv-east-of-england-annual-data-spotlight) (GOV.UK updates on artificial intelligence, 2026-10-26T10:09:27+00:00)
+- UK: [Mobilising private finance for local nature recovery](https://www.gov.uk/government/publications/mobilising-private-finance-for-local-nature-recovery) (GOV.UK updates on artificial intelligence, 2026-10-26T09:30:00+00:00)
+- UK: [Identifying and protecting archaeological features in woodland](https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland) (GOV.UK updates on artificial intelligence, 2026-10-26T09:30:00+00:00)
+- UK: [Company Names Tribunal undefended decisions and orders](https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders) (GOV.UK updates on artificial intelligence, 2026-10-26T08:48:36+00:00)
+
+## Watched pages that changed
+
+- INT: [regulations.ai global tracker (secondary signal)](https://regulations.ai/) (secondary signal)
 
 ## Documents that could not be fetched
 
-- coe-treaty-page: HTTP 403 ([link](https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225))
 - unesco-rec: empty response ([link](https://unesdoc.unesco.org/ark:/48223/pf0000381137))
 - un-79-325: empty response ([link](https://docs.un.org/en/A/RES/79/325))
 - iea-energy-ai: HTTP 403 ([link](https://www.iea.org/reports/energy-and-ai))

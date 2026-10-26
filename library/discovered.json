@@ -1,7 +1,97 @@
 {
-  "run_at": "2026-10-25T13:27:30.647Z",
-  "new_items": [],
-  "page_changes": [],
+  "run_at": "2026-10-26T13:19:40.356Z",
+  "new_items": [
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/trade-mark-disputes-unpaid-costs-orders",
+      "title": "Trade mark disputes: unpaid costs orders",
+      "url": "https://www.gov.uk/government/publications/trade-mark-disputes-unpaid-costs-orders",
+      "date": "2026-10-26T13:18:24+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/proscription-policy-and-process-statement",
+      "title": "Proscription policy and process statement",
+      "url": "https://www.gov.uk/government/publications/proscription-policy-and-process-statement",
+      "date": "2026-10-26T12:53:22+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024",
+      "title": "Mr A Verma v Manchester University NHS Foundation Trust: 2402904/2024",
+      "url": "https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024",
+      "date": "2026-10-26T12:32:16+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/four-million-illegal-cigarettes-seized-in-border-force-crackdown",
+      "title": "Four million illegal cigarettes seized in Border Force crackdown",
+      "url": "https://www.gov.uk/government/news/four-million-illegal-cigarettes-seized-in-border-force-crackdown",
+      "date": "2026-10-26T11:44:50+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "title": "Government response to SSAC Occasional Paper 27: The influence of the social security system on educational and vocational decision-making at age 16",
+      "url": "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "date": "2026-10-26T11:00:03+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/hiv-east-of-england-annual-data-spotlight",
+      "title": "HIV: East of England annual data spotlight",
+      "url": "https://www.gov.uk/government/publications/hiv-east-of-england-annual-data-spotlight",
+      "date": "2026-10-26T10:09:27+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/mobilising-private-finance-for-local-nature-recovery",
+      "title": "Mobilising private finance for local nature recovery",
+      "url": "https://www.gov.uk/government/publications/mobilising-private-finance-for-local-nature-recovery",
+      "date": "2026-10-26T09:30:00+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland",
+      "title": "Identifying and protecting archaeological features in woodland",
+      "url": "https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland",
+      "date": "2026-10-26T09:30:00+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
+      "title": "Company Names Tribunal undefended decisions and orders",
+      "url": "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
+      "date": "2026-10-26T08:48:36+00:00"
+    }
+  ],
+  "page_changes": [
+    {
+      "source": "regulations-ai",
+      "label": "regulations.ai global tracker (secondary signal)",
+      "jurisdiction": "INT",
+      "url": "https://regulations.ai/",
+      "signal": true
+    }
+  ],
   "errors": [
     {
       "source": "ec-ai-news",
