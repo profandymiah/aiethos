@@ -2,1042 +2,249 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="AIETHOS — AI Ethics Observatory · global AI ethics regulatory intelligence tracking frameworks, ethical dimensions, and citizen rights across jurisdictions worldwide">
-<title>AIETHOS — AI Ethics Observatory</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
-<style>
-/* ─── TOKENS (all text colours verified WCAG AA) ─────────────── */
-:root{
-  --bg:#06070A; --bg2:#0E1116; --bg3:#141820;
-  --surface:#101318; --s2:#171D26; --s3:#1D2430;
-  --border:rgba(255,255,255,0.08); --bm:rgba(255,255,255,0.14);
-  --gold-border:rgba(184,151,90,0.35);
-  --gold:#C4A063; --gl:#D4B47A; --gd:rgba(196,160,99,0.09);
-  --teal:#2DD4BF; --td:rgba(45,212,191,0.08);
-  --blue:#60A5FA; --red:#F87171; --amber:#FBBF24;
-  --purple:#A78BFA; --orange:#F97316;
-  --text:#EAE7DF;        /* 18.4:1 */
-  --text2:#C4BFB6;       /* 10.2:1 */
-  --muted:#8B9099;       /* 6.24:1 — passes AA at ALL sizes */
-  --faint:#252B36;
-  --enacted:#2DD4BF; --active:#60A5FA; --draft:#FBBF24;
-  --voluntary:#A78BFA; --consultation:#F97316; --advisory:#8B9099;
-  --gold-border:rgba(196,160,99,0.35);
-  --gap:1px;
-  --r:2px;
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{
-  background:var(--bg); color:var(--text);
-  font-family:'JetBrains Mono','Courier New',monospace;
-  font-size:15px; line-height:1.75;
-  -webkit-font-smoothing:antialiased; overflow-x:hidden;
-}
-h1,h2,h3,h4{font-family:'Cormorant Garamond',Georgia,serif;font-weight:300;line-height:1.1}
-
-/* ─── ACCESSIBILITY ─────────────────────────────────────────── */
-.skip{
-  position:absolute;top:-200%;left:0;
-  background:var(--gold);color:#06070A;
-  padding:14px 32px;font-size:14px;font-weight:600;
-  text-decoration:none;z-index:9999;
-  transition:top .2s;letter-spacing:.04em;
-}
-.skip:focus{top:0}
-:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:var(--r)}
-:focus:not(:focus-visible){outline:none}
-.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
-
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{
-    animation-duration:.01ms!important;
-    animation-iteration-count:1!important;
-    transition-duration:.01ms!important;
-    scroll-behavior:auto!important
-  }
-}
-@media(forced-colors:active){
-  .eth-fill{background:ButtonText!important}
-  .reg-card{border:2px solid ButtonText!important}
-  .dim-icon{forced-color-adjust:none}
-}
-
-/* ─── ANIMATIONS ─────────────────────────────────────────────── */
-@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
-@keyframes fadeIn{from{opacity:0}to{opacity:1}}
-@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
-@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-@keyframes think{0%{transform:translateX(-200%)}100%{transform:translateX(500%)}}
-@keyframes ring{0%{r:4;opacity:.8}100%{r:22;opacity:0}}
-@keyframes ringB{0%{r:4;opacity:.6}100%{r:16;opacity:0}}
-@keyframes sweep{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-@keyframes barIn{from{width:0}to{width:var(--w)}}
-
-.reveal{opacity:0;transform:translateY(32px);transition:opacity .85s ease,transform .85s ease}
-.reveal.vis{opacity:1;transform:none}
-
-::-webkit-scrollbar{width:4px}
-::-webkit-scrollbar-track{background:var(--bg)}
-::-webkit-scrollbar-thumb{background:var(--faint);border-radius:2px}
-
-/* ─── NAV ───────────────────────────────────────────────────── */
-.nav{
-  position:fixed;top:0;left:0;right:0;z-index:200;
-  height:62px;display:flex;align-items:center;justify-content:space-between;
-  padding:0 56px;
-  background:rgba(6,7,10,.94);backdrop-filter:blur(28px);
-  border-bottom:1px solid var(--border);
-}
-.nav-logo{
-  font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;
-  color:var(--gold);letter-spacing:.2em;text-decoration:none;text-transform:uppercase;
-}
-.nav-logo span{color:var(--muted);font-weight:300}
-.nav-links{display:flex;align-items:center;gap:40px;list-style:none}
-.nav-links a{
-  color:var(--muted);text-decoration:none;font-size:12px;
-  letter-spacing:.1em;text-transform:uppercase;transition:color .2s;
-}
-.nav-links a:hover{color:var(--text)}
-.nav-live{display:flex;align-items:center;gap:9px;font-size:12px;color:var(--muted)}
-.dot{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 2.5s ease infinite;flex-shrink:0}
-
-/* ─── TICKER ─────────────────────────────────────────────────── */
-.ticker-wrap{
-  margin-top:62px;height:38px;display:flex;align-items:center;
-  background:var(--gd);border-bottom:1px solid rgba(196,160,99,0.12);overflow:hidden;
-}
-.ticker-lbl{
-  flex-shrink:0;padding:0 24px;font-size:11px;letter-spacing:.2em;
-  color:var(--gold);text-transform:uppercase;
-  border-right:1px solid rgba(196,160,99,0.18);height:38px;
-  display:flex;align-items:center;background:var(--bg);white-space:nowrap;
-}
-.ticker-inner{overflow:hidden;flex:1}
-.ticker-track{display:flex;animation:ticker 70s linear infinite;white-space:nowrap;will-change:transform}
-.ticker-track:hover{animation-play-state:paused}
-.t-item{padding:0 36px;font-size:12px;color:var(--muted)}
-.t-item b{color:var(--teal);font-weight:400;margin-right:9px}
-
-/* ─── HERO ───────────────────────────────────────────────────── */
-.hero{
-  position:relative;min-height:640px;padding:108px 56px 80px;
-  border-bottom:1px solid var(--border);overflow:hidden;
-  display:grid;grid-template-columns:480px 1fr;gap:64px;align-items:center;
-}
-.hero-bg{
-  position:absolute;inset:0;z-index:0;
-  background:
-    radial-gradient(ellipse 55% 70% at 72% 55%,rgba(196,160,99,0.055) 0%,transparent 65%),
-    radial-gradient(ellipse 35% 40% at 25% 40%,rgba(45,212,191,0.025) 0%,transparent 60%);
-  pointer-events:none;
-}
-.hero-grain{
-  position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.018;
-  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-.hero-text{position:relative;z-index:3}
-.eyebrow{
-  font-size:12px;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;
-  margin-bottom:24px;opacity:0;animation:fadeUp .6s ease .2s forwards;
-}
-.hero h1{
-  font-size:clamp(52px,6vw,92px);font-weight:300;letter-spacing:-.025em;
-  color:var(--text);margin-bottom:24px;
-  opacity:0;animation:fadeUp .6s ease .35s forwards;
-}
-.hero h1 em{font-style:italic;color:var(--gold)}
-.hero-sub{
-  font-size:15px;color:var(--muted);max-width:460px;line-height:1.9;
-  margin-bottom:52px;
-  opacity:0;animation:fadeUp .6s ease .5s forwards;
-}
-.hero-kpis{
-  display:grid;grid-template-columns:repeat(2,1fr);
-  border:1px solid var(--border);max-width:400px;
-  opacity:0;animation:fadeUp .6s ease .65s forwards;
-}
-.kpi{padding:22px 28px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
-.kpi:nth-child(2n){border-right:none}
-.kpi:nth-child(3),.kpi:nth-child(4){border-bottom:none}
-.kpi-n{
-  font-family:'Cormorant Garamond',Georgia,serif;
-  font-size:48px;font-weight:300;line-height:1;margin-bottom:6px;
-}
-.kpi-l{font-size:12px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
-
-/* ─── WORLD MAP ──────────────────────────────────────────────── */
-.map-outer{
-  position:relative;z-index:2;
-  opacity:0;animation:fadeIn 1.4s ease .8s forwards;
-}
-.map-outer svg{width:100%;height:auto}
-.graticule{stroke:rgba(196,160,99,0.06);stroke-width:.6;fill:none}
-.equator{stroke:rgba(196,160,99,0.14);stroke-width:.8;fill:none;stroke-dasharray:4 6}
-.land{fill:rgba(196,160,99,0.055);stroke:rgba(196,160,99,0.22);stroke-width:.7;stroke-linejoin:round}
-.uk-land{fill:rgba(196,160,99,0.055);stroke:rgba(196,160,99,0.22);stroke-width:.7}
-.jur-marker{cursor:pointer;transition:opacity .3s}
-.jur-marker circle.base{transition:r .3s}
-.jur-marker:hover circle.base{r:7}
-.jur-ring1{animation:ring 2.8s ease-out infinite;transform-origin:center center}
-.jur-ring2{animation:ring 2.8s ease-out 1.4s infinite;transform-origin:center center}
-.map-grid-label{
-  font-family:'JetBrains Mono',monospace;font-size:6px;
-  fill:rgba(196,160,99,0.28);text-anchor:middle;letter-spacing:.05em;
-}
-.map-title-txt{
-  font-family:'JetBrains Mono',monospace;font-size:7px;
-  fill:rgba(196,160,99,0.25);letter-spacing:.14em;text-transform:uppercase;
-}
-.tension-line{stroke:rgba(196,160,99,0.12);stroke-width:.8;stroke-dasharray:3 5;fill:none}
-
-/* ─── SECTION BASE ───────────────────────────────────────────── */
-section{padding:88px 56px;border-bottom:1px solid var(--border);position:relative}
-.s-hd{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:52px;gap:24px}
-.s-ey{font-size:12px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
-.s-tt{font-family:'Cormorant Garamond',Georgia,serif;font-size:40px;font-weight:300;letter-spacing:-.01em}
-.s-sub{font-size:13px;color:var(--muted);letter-spacing:.04em;padding-bottom:4px;text-align:right;flex-shrink:0}
-
-/* section background motifs */
-.section-grid-bg{
-  position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.4;
-  background-image:
-    linear-gradient(rgba(196,160,99,0.03) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(196,160,99,0.03) 1px,transparent 1px);
-  background-size:60px 60px;
-}
-
-/* ─── ARCHITECTURE ───────────────────────────────────────────── */
-.arch-split{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);background:var(--border);margin-bottom:var(--gap)}
-.arch-card{background:var(--surface);padding:44px;position:relative}
-.arch-card.rec{background:var(--s2)}
-.arch-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:32px;gap:20px}
-.arch-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:300;margin-bottom:8px}
-.arch-desc{font-size:13px;color:var(--muted);max-width:240px;line-height:1.8}
-.arch-badge{font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:6px 14px;flex-shrink:0;margin-top:4px}
-.badge-rec{background:rgba(45,212,191,0.08);color:var(--teal);border:1px solid rgba(45,212,191,0.25)}
-.badge-no{background:rgba(139,144,153,0.08);color:var(--muted);border:1px solid rgba(139,144,153,0.2)}
-.arch-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px}
-.a-s{background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:16px 18px}
-.a-s-l{font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin-bottom:8px}
-.a-s-v{font-size:18px;font-weight:600}
-.arch-list{list-style:none}
-.arch-list li{
-  font-size:13px;color:var(--muted);padding:8px 0;
-  border-bottom:1px solid rgba(255,255,255,0.03);
-  display:flex;align-items:baseline;gap:12px;
-}
-.arch-list li::before{content:attr(data-m);flex-shrink:0;font-size:12px}
-.arch-rec{
-  background:var(--s2);border:1px solid rgba(45,212,191,0.16);
-  padding:40px 48px;display:grid;grid-template-columns:56px 1fr;gap:32px;align-items:start;
-}
-.arch-rec-ico{
-  width:56px;height:56px;background:rgba(45,212,191,0.06);
-  border:1px solid rgba(45,212,191,0.22);
-  display:flex;align-items:center;justify-content:center;font-size:26px;
-}
-.arch-rec-tt{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:400;color:var(--teal);margin-bottom:14px}
-.arch-rec-body{font-size:14px;color:var(--muted);line-height:1.95}
-.arch-rec-body strong{color:var(--text);font-weight:400}
-.pipe{display:flex;align-items:center;margin-top:24px}
-.p-s{flex:1;text-align:center;padding:12px 4px;background:rgba(255,255,255,0.02);border:1px solid var(--border);font-size:11px;letter-spacing:.07em;color:var(--muted);text-transform:uppercase;line-height:1.5}
-.p-s.gold{background:rgba(196,160,99,0.05);border-color:rgba(196,160,99,0.22);color:var(--gold)}
-.p-s.teal{background:rgba(45,212,191,0.04);border-color:rgba(45,212,191,0.22);color:var(--teal)}
-.p-a{color:var(--faint);padding:0 3px;font-size:14px;flex-shrink:0}
-
-/* ─── REGULATORY ─────────────────────────────────────────────── */
-.legend{display:flex;flex-wrap:wrap;gap:24px;margin-bottom:36px}
-.leg{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--muted)}
-.leg-d{width:9px;height:9px;border-radius:50%;flex-shrink:0}
-.reg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:var(--gap);background:var(--border)}
-.reg-card{
-  background:var(--surface);padding:26px;cursor:pointer;
-  border:2px solid transparent;position:relative;
-  transition:background .2s,border-color .2s,transform .18s;
-}
-.reg-card:hover,.reg-card:focus{background:var(--s2);border-color:rgba(196,160,99,0.25);transform:translateY(-2px)}
-.reg-card.sel{background:var(--s3);border-color:var(--gold-border)}
-.rc-code{font-size:12px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-bottom:14px}
-.rc-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:400;line-height:1.25;margin-bottom:10px}
-.rc-law{font-size:13px;color:var(--muted);margin-bottom:18px;line-height:1.55}
-.rc-status{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
-.rc-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
-.rc-score{position:absolute;top:24px;right:22px;font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:300;opacity:.2}
-.rc-conf{position:absolute;bottom:20px;right:20px;font-size:11px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;opacity:.55}
-
-/* ─── DETAIL PANEL ───────────────────────────────────────────── */
-.reg-det{background:var(--s2);border:1px solid var(--gold-border);margin-top:var(--gap);animation:fadeIn .3s ease}
-.det-head{padding:30px 48px 0;display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:20px}
-.det-code{font-size:12px;letter-spacing:.18em;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
-.det-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:38px;font-weight:300;margin-bottom:8px}
-.det-law{font-size:14px;color:var(--muted)}
-.det-score-n{font-family:'Cormorant Garamond',Georgia,serif;font-size:72px;font-weight:300;line-height:1;opacity:.2}
-.det-score-l{font-size:12px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-top:4px}
-.view-tabs{display:flex;border-bottom:1px solid var(--border);background:var(--surface);margin-top:24px}
-.vt{
-  flex:1;padding:18px 28px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--muted);cursor:pointer;background:transparent;border:none;
-  border-bottom:2px solid transparent;transition:color .2s,border-color .2s;
-  font-family:'JetBrains Mono',monospace;
-}
-.vt:hover{color:var(--text)}
-.vt.on{color:var(--gold);border-bottom-color:var(--gold)}
-.pane{display:none;padding:40px 48px}
-.pane.on{display:block;animation:fadeIn .25s ease}
-
-/* citizen */
-.cit-ol{background:var(--td);border:1px solid rgba(45,212,191,0.16);padding:24px 28px;margin-bottom:32px}
-.cit-ol-l{font-size:12px;letter-spacing:.16em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}
-.cit-ol-t{font-size:18px;color:var(--text);line-height:1.7;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400}
-.sec-label{font-size:12px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-bottom:14px}
-.rights-ul{list-style:none}
-.right-li{border-bottom:1px solid var(--border);padding:20px 0}
-.right-li:last-child{border-bottom:none}
-.right-name{font-size:15px;color:var(--text);margin-bottom:8px}
-.right-means{font-size:14px;color:var(--muted);margin-bottom:10px;line-height:1.8}
-.right-how{font-size:13px;color:var(--teal);line-height:1.65}
-.right-how::before{content:'→ '}
-.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:28px 0}
-.who-ul{list-style:none}
-.who-li{font-size:13px;color:var(--muted);padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
-.who-li::before{content:'— ';color:var(--red)}
-.summary-box{padding:24px 28px;background:rgba(255,255,255,0.02);border:1px solid var(--border);margin:28px 0}
-.summary-txt{font-size:16px;color:var(--text2);line-height:1.95}
-.jargon-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);background:var(--border);margin-top:28px}
-.jargon-item{background:var(--surface);padding:18px 22px}
-.jargon-t{font-size:13px;color:var(--gold);margin-bottom:8px;letter-spacing:.04em}
-.jargon-d{font-size:13px;color:var(--muted);line-height:1.75}
-
-/* researcher */
-.score-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);background:var(--border);margin-top:16px}
-.score-item{background:var(--surface);padding:16px 18px}
-.score-dim{font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;margin-bottom:10px;line-height:1.45}
-.score-n{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:300}
-.score-bar{height:3px;background:var(--faint);margin-top:10px}
-.score-fill{height:3px;transition:width 1s ease}
-.score-rat{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5}
-.gaps-ul{list-style:none}
-.gaps-li{font-size:13px;color:var(--muted);padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
-.gaps-li::before{content:'— ';color:var(--amber)}
-.tension-ul{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:16px}
-.tension-it{background:var(--surface);border:1px solid var(--border);padding:18px 22px}
-.tension-jur{font-size:12px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase;margin-bottom:8px}
-.tension-txt{font-size:13px;color:var(--muted);line-height:1.8}
-.tension-sev{display:inline-block;font-size:11px;letter-spacing:.1em;padding:4px 10px;text-transform:uppercase;margin-top:10px;border-radius:var(--r)}
-.sev-high{background:rgba(248,113,113,0.08);color:var(--red);border:1px solid rgba(248,113,113,0.22)}
-.sev-medium{background:rgba(251,191,36,0.08);color:var(--amber);border:1px solid rgba(251,191,36,0.22)}
-.sev-low{background:rgba(139,144,153,0.08);color:var(--muted);border:1px solid rgba(139,144,153,0.2)}
-.ev{margin-top:28px;padding:20px 24px;border:1px solid var(--border,#2a2d35)}
-.ev ol{margin:12px 0 0 20px;padding:0}.ev li{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:6px}
-.ev a{color:var(--gold,#C4A063)}.ev-tag{font-size:11px;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;padding:1px 6px;margin-left:6px}
-.ev-p{color:#5FD3B0}.ev-s{color:#E0B866}.ev-claim{margin-bottom:14px}.ev-claim p{font-size:14px;color:var(--text2,#C9CDD4);line-height:1.7}
-.ev-ref a{font-size:12px;text-decoration:none;border-bottom:1px dotted}.ev-note{font-size:12px;color:var(--muted)}
-.gl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin:20px 0}
-.gl-card{border:1px solid var(--border,#2a2d35);padding:20px 22px;background:rgba(255,255,255,.015)}
-.gl-card h3,.gl-card h4{font-size:16px;margin:0 0 6px;color:var(--text,#EDEAE0);font-weight:600}
-.gl-meta{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
-.gl-card p{font-size:14px;color:var(--text2,#C9CDD4);line-height:1.75;margin:0 0 8px}
-.gl-cit{font-size:13px;color:var(--muted);border-left:2px solid var(--gold,#C4A063);padding-left:10px;margin:10px 0}
-.gl-h{font-size:18px;margin:36px 0 4px;color:var(--text,#EDEAE0)}
-.gl-theme{margin-bottom:36px}.gl-dir{font-size:14px;color:var(--gold,#C4A063);margin:6px 0 4px}
-.gl-badge{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;padding:1px 7px;margin-right:6px;color:var(--muted)}
-.gl-conf{font-size:12px;color:var(--muted)}
-.gl-src{margin-top:24px;padding:18px 22px;border:1px solid var(--border,#2a2d35)}
-.gl-src ol{margin:10px 0 0 20px;padding:0}.gl-src li{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:5px}
-.gl-src a,.gl-ref a{color:var(--gold,#C4A063)}.gl-ref a{font-size:12px;text-decoration:none;border-bottom:1px dotted;margin-right:4px}
-.dc-map{width:100%;max-width:900px;height:auto;display:block;margin:0 auto;border:1px solid var(--border,#2a2d35);background:rgba(255,255,255,.01)}
-.lib-filter{margin:20px 0}.lib-filter select{background:#0E1015;color:var(--text,#EDEAE0);border:1px solid var(--border,#2a2d35);padding:8px 12px;font-size:14px}.lib-ok{color:#5FD3B0}.lib-no{color:var(--muted)}.prov{display:inline-block;margin-top:8px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#E0B866;border:1px solid #E0B866;padding:2px 8px}
-.dc-key{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:12px 0;font-size:13px;color:var(--muted)}.dc-key i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}.dc-crit{margin:10px 0 10px 20px;font-size:13px;color:var(--muted);line-height:1.8}.dc-rate{display:flex;gap:14px;align-items:center;border-left:3px solid;padding:6px 12px;margin:10px 0;font-size:14px}.dc-rate-n{font-size:30px;font-weight:600}.dc-c{display:grid;grid-template-columns:1fr 90px 28px;gap:6px;align-items:center;font-size:12px;margin:6px 0}.dc-c .ev-note{grid-column:1/-1}.dc-cl{color:var(--text2,#C9CDD4)}.dc-bar{height:6px;background:#1b1f27;display:block}.dc-bar span{display:block;height:100%}.dc-cn{text-align:right;color:var(--muted)}
-.monitor-note{padding:18px 22px;background:rgba(196,160,99,0.04);border:1px solid rgba(196,160,99,0.14);margin-top:24px}
-.monitor-note p{font-size:13px;color:var(--muted);line-height:1.85}
-
-/* ─── ETHICS ─────────────────────────────────────────────────── */
-.eth-table{display:flex;flex-direction:column;gap:var(--gap);background:var(--border)}
-.eth-row{
-  background:var(--surface);padding:28px 40px;
-  display:grid;grid-template-columns:52px 260px 1fr 80px 120px;
-  align-items:center;gap:28px;transition:background .2s;
-}
-.eth-row:hover{background:var(--s2)}
-.dim-icon{
-  width:44px;height:44px;
-  display:flex;align-items:center;justify-content:center;
-  border:1px solid var(--border);flex-shrink:0;
-}
-.dim-icon svg{width:22px;height:22px}
-.eth-label{font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:400}
-.eth-sub{font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
-.eth-track{
-  height:4px;background:var(--faint);position:relative;
-  border-radius:2px;overflow:visible;
-}
-.eth-fill{height:4px;width:0;transition:width 1.9s cubic-bezier(.4,0,.2,1);border-radius:2px}
-.eth-score{
-  font-family:'Cormorant Garamond',Georgia,serif;
-  font-size:38px;font-weight:300;text-align:right;
-}
-.eth-meta{text-align:right}
-.eth-jcount{font-size:13px;color:var(--muted)}
-.eth-high{font-size:12px;color:var(--muted);margin-top:3px}
-
-/* ─── INSIGHTS ───────────────────────────────────────────────── */
-.ins-box{background:var(--surface);border:1px solid var(--border);padding:48px}
-.api-note{
-  font-size:13px;color:var(--muted);line-height:1.65;
-  padding:14px 18px;background:rgba(196,160,99,0.04);
-  border:1px solid rgba(196,160,99,0.14);margin-bottom:28px;
-}
-.api-row{display:flex;align-items:center;gap:16px;margin-bottom:8px;padding-bottom:24px;border-bottom:1px solid var(--border)}
-.api-lbl{font-size:12px;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;flex-shrink:0}
-.api-in{
-  flex:1;background:transparent;border:1px solid var(--faint);
-  color:var(--text);padding:12px 18px;
-  font-family:'JetBrains Mono',monospace;font-size:13px;outline:none;
-  transition:border-color .2s;
-}
-.api-in:focus{border-color:var(--gold)}
-.chips{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}
-.chip{
-  font-size:13px;padding:8px 16px;
-  border:1px solid var(--faint);color:var(--muted);cursor:pointer;
-  transition:border-color .2s,color .2s;background:transparent;
-  font-family:'JetBrains Mono',monospace;
-}
-.chip:hover,.chip:focus{border-color:var(--gold);color:var(--gold)}
-.ins-row{display:flex;gap:12px}
-.ins-in{
-  flex:1;background:transparent;border:1px solid var(--faint);
-  color:var(--text);padding:16px 22px;
-  font-family:'JetBrains Mono',monospace;font-size:15px;outline:none;
-  transition:border-color .2s;
-}
-.ins-in:focus{border-color:var(--gold)}
-.ins-in::placeholder{color:var(--muted)}
-.ins-btn{
-  background:var(--gold);color:#06070A;border:none;
-  padding:16px 36px;font-family:'JetBrains Mono',monospace;
-  font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
-  cursor:pointer;transition:background .2s;white-space:nowrap;
-}
-.ins-btn:hover{background:var(--gl)}
-.ins-btn:disabled{opacity:.4;cursor:not-allowed}
-.res-box{display:none;border-top:1px solid var(--border);padding-top:32px;margin-top:30px}
-.res-box.on{display:block;animation:fadeIn .4s ease}
-.res-lbl{font-size:12px;letter-spacing:.18em;color:var(--teal);text-transform:uppercase;margin-bottom:20px}
-.res-txt{font-size:15px;color:var(--text);line-height:2.05;white-space:pre-wrap}
-.think-bar{height:2px;background:var(--faint);overflow:hidden;margin-bottom:24px}
-.think-fill{height:100%;width:30%;background:linear-gradient(90deg,transparent,var(--teal),transparent);animation:think 1.4s ease infinite}
-
-/* ─── FOOTER ─────────────────────────────────────────────────── */
-footer{
-  padding:44px 56px;border-top:1px solid var(--border);
-  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;
-}
-.f-logo{font-size:12px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
-.f-links{display:flex;gap:28px}
-.f-links a{font-size:13px;color:var(--muted);text-decoration:none;letter-spacing:.06em}
-.f-links a:hover{color:var(--text)}
-.f-meta{font-size:13px;color:var(--muted)}
-.data-err{
-  grid-column:1/-1;padding:72px;text-align:center;
-  color:var(--muted);font-size:14px;line-height:2.4;
-}
-.data-err code{color:var(--gold);font-size:14px}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AIETHOS · Who governs AI, and how?</title>
+<meta name="description" content="A tracker of how countries govern artificial intelligence: laws, treaties, rights, data centres and research, each traced to its source.">
+<link rel="canonical" href="https://aiethos.andymiah.net/">
+<link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
+<script src="assets/shell.js" data-root="" data-active="countries"></script>
+<main id="main" class="wrap" tabindex="-1">
 
-<a href="#main" class="skip">Skip to main content</a>
-
-<header role="banner">
-<nav class="nav" aria-label="Main navigation">
-  <a href="#top" class="nav-logo" aria-label="AIETHOS home">AIETHOS <span>AI Ethics Observatory</span></a>
-  <ul class="nav-links" role="list">
-    <li><a href="#regulatory">Monitor</a></li>
-    <li><a href="#ethics">Dimensions</a></li>
-    <li><a href="#instruments">Instruments</a></li>
-    <li><a href="#trajectories">Trajectories</a></li>
-    <li><a href="#datacentres">Data centres</a></li>
-    <li><a href="#library">Library</a></li>
-    <li><a href="scholarly.html">Research map</a></li>
-  </ul>
-  <div class="nav-live"><div class="dot" aria-hidden="true"></div><span>Beta</span></div>
-</nav>
-</header>
-
-<div class="ticker-wrap" role="marquee" aria-label="Latest regulatory developments" aria-live="off">
-  <div class="ticker-lbl" aria-hidden="true">Latest</div>
-  <div class="ticker-inner"><div class="ticker-track" id="ticker" aria-hidden="true"></div></div>
-</div>
-
-<main id="main">
-
-<!-- HERO -->
-<div class="hero" id="top">
-  <div class="hero-bg" aria-hidden="true"></div>
-  <div class="hero-grain" aria-hidden="true"></div>
-
-  <div class="hero-text">
-    <p class="eyebrow" aria-hidden="true">AI Ethics Observatory · Global Regulatory Intelligence</p>
-    <p style="font-size:13px;color:var(--muted);letter-spacing:.06em;margin-bottom:18px;opacity:0;animation:fadeUp .6s ease .28s forwards">Powered by <a href="https://andymiah.net" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(196,160,99,0.3)">Prof Andy Miah</a></p>
-    <h1>Mapping the <em>ethics</em><br>of artificial<br>intelligence</h1>
-    <p class="hero-sub">A comprehensive intelligence platform tracking AI regulatory frameworks, ethical compliance dimensions, and citizen rights across jurisdictions worldwide.</p>
-    <div class="hero-kpis" role="region" aria-label="Observatory statistics">
-      <div class="kpi">
-        <div class="kpi-n"><span class="cu" id="kj" data-t="0" aria-live="polite">0</span></div>
-        <div class="kpi-l">Jurisdictions</div>
-      </div>
-      <div class="kpi">
-        <div class="kpi-n"><span class="cu" id="ke" data-t="0" aria-live="polite">0</span></div>
-        <div class="kpi-l">Enacted</div>
-      </div>
-      <div class="kpi">
-        <div class="kpi-n"><span class="cu" id="km" data-t="0" aria-live="polite">0</span></div>
-        <div class="kpi-l">Library entries</div>
-      </div>
-      <div class="kpi">
-        <div class="kpi-n"><span class="cu" id="kc" data-t="0" aria-live="polite">0</span></div>
-        <div class="kpi-l">In progress</div>
-      </div>
-    </div>
+<!-- COUNTRIES -->
+<section id="v-countries" data-title="Countries" data-tab="countries" aria-labelledby="h-countries">
+  <h1 id="h-countries" tabindex="-1">Who governs AI, and how?</h1>
+  <p class="lead" id="intro">Loading the latest entries…</p>
+  <div class="seg" role="group" aria-label="Choose a view">
+    <button type="button" data-m="list" aria-pressed="true">List</button>
+    <button type="button" data-m="map" aria-pressed="false">Map</button>
+    <button type="button" data-m="compare" aria-pressed="false">Compare</button>
   </div>
 
-  <!-- SVG World Map -->
-  <div class="map-outer" role="img" aria-label="World map showing AI regulatory coverage by jurisdiction. Teal dots indicate enacted frameworks. Gold dots indicate active frameworks.">
-    <svg id="worldMap" viewBox="0 0 760 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-
-      <!-- Graticule grid lines every 30° -->
-      <!-- Longitude verticals -->
-      <line class="graticule" x1="63"  y1="0" x2="63"  y2="400"/>
-      <line class="graticule" x1="127" y1="0" x2="127" y2="400"/>
-      <line class="graticule" x1="190" y1="0" x2="190" y2="400"/>
-      <line class="graticule" x1="253" y1="0" x2="253" y2="400"/>
-      <line class="graticule" x1="317" y1="0" x2="317" y2="400"/>
-      <line class="graticule" x1="380" y1="0" x2="380" y2="400"/>
-      <line class="graticule" x1="443" y1="0" x2="443" y2="400"/>
-      <line class="graticule" x1="507" y1="0" x2="507" y2="400"/>
-      <line class="graticule" x1="570" y1="0" x2="570" y2="400"/>
-      <line class="graticule" x1="633" y1="0" x2="633" y2="400"/>
-      <line class="graticule" x1="697" y1="0" x2="697" y2="400"/>
-      <!-- Latitude horizontals -->
-      <line class="graticule" x1="0" y1="67"  x2="760" y2="67"/>
-      <line class="graticule" x1="0" y1="133" x2="760" y2="133"/>
-      <line class="equator"   x1="0" y1="200" x2="760" y2="200"/>
-      <line class="graticule" x1="0" y1="267" x2="760" y2="267"/>
-      <line class="graticule" x1="0" y1="333" x2="760" y2="333"/>
-
-      <!-- Latitude labels -->
-      <text class="map-grid-label" x="375" y="62">60°N</text>
-      <text class="map-grid-label" x="375" y="128">30°N</text>
-      <text class="map-grid-label" x="375" y="195">0°</text>
-      <text class="map-grid-label" x="375" y="262">30°S</text>
-
-      <!-- Longitude labels -->
-      <text class="map-grid-label" x="190" y="396">90°W</text>
-      <text class="map-grid-label" x="380" y="396">0°</text>
-      <text class="map-grid-label" x="570" y="396">90°E</text>
-
-      <!-- Continental outlines (simplified Mercator, lon/lat → x=(lon+180)/360*760, y=(90-lat)/180*400) -->
-      <!-- North America -->
-      <path class="land" d="M 12,67 L 85,44 L 148,54 L 190,78 L 200,102 L 218,148 L 196,168 L 155,122 L 127,90 L 85,80 L 48,90 L 20,78 Z"/>
-      <!-- South America -->
-      <path class="land" d="M 218,148 L 274,148 L 295,168 L 298,222 L 287,267 L 256,300 L 230,290 L 212,254 L 208,210 L 218,168 Z"/>
-      <!-- UK -->
-      <path class="uk-land" d="M 366,68 L 375,58 L 383,66 L 378,80 L 370,84 L 364,76 Z"/>
-      <!-- Europe -->
-      <path class="land" d="M 364,76 L 394,62 L 430,57 L 453,67 L 459,88 L 445,106 L 418,110 L 399,102 L 383,100 L 375,88 Z"/>
-      <!-- Africa -->
-      <path class="land" d="M 384,118 L 459,106 L 477,122 L 483,178 L 472,245 L 445,280 L 410,286 L 390,268 L 376,222 L 372,165 Z"/>
-      <!-- Middle East -->
-      <path class="land" d="M 459,106 L 510,100 L 530,116 L 520,140 L 496,148 L 477,138 L 467,122 Z"/>
-      <!-- Asia -->
-      <path class="land" d="M 453,67 L 633,54 L 700,68 L 714,90 L 690,112 L 650,118 L 610,115 L 570,118 L 530,116 L 510,100 L 459,88 Z"/>
-      <!-- South Asia -->
-      <path class="land" d="M 570,118 L 620,115 L 624,148 L 605,170 L 582,165 L 568,145 Z"/>
-      <!-- SE Asia -->
-      <path class="land" d="M 630,130 L 660,122 L 668,148 L 655,162 L 635,158 L 624,144 Z"/>
-      <!-- Japan area -->
-      <path class="land" d="M 698,88 L 710,84 L 716,96 L 706,104 L 698,100 Z"/>
-      <!-- Australia -->
-      <path class="land" d="M 630,262 L 700,252 L 735,276 L 724,322 L 690,338 L 650,330 L 628,310 L 620,286 Z"/>
-
-      <!-- Cross-jurisdiction tension lines -->
-      <line class="tension-line" x1="371" y1="80" x2="409" y2="80"/> <!-- UK-EU -->
-      <line class="tension-line" x1="409" y1="82" x2="175" y2="112"/> <!-- EU-US -->
-      <line class="tension-line" x1="175" y1="112" x2="500" y2="120"/> <!-- US-AE -->
-
-      <!-- Jurisdiction markers — populated by JS -->
-      <g id="mapMarkers"></g>
-
-      <!-- Map title -->
-      <text class="map-title-txt" x="8" y="395">AIETHOS · Global AI Ethics Regulatory Coverage</text>
-    </svg>
+  <div id="c-list">
+    <div class="field-row"><div class="grow"><label class="sr" for="q">Search countries</label><input id="q" type="search" placeholder="Search countries or laws" autocomplete="off"></div><div class="fixed"><label class="sr" for="sort">Sort by</label><select id="sort"><option value="name">A to Z</option><option value="score">Top score</option><option value="new">Newest</option></select></div></div>
+    <div class="chips" id="fchips" role="group" aria-label="Filter by status"></div>
+    <p class="note" id="count" aria-live="polite"></p>
+    <ul class="rows two" id="rows"></ul>
   </div>
-</div>
 
-<!-- REGULATORY MONITOR -->
-<section id="regulatory" class="reveal" aria-labelledby="reg-h">
-  <div class="s-hd">
-    <div><p class="s-ey">Global Monitor</p><h2 class="s-tt" id="reg-h">Regulatory landscape</h2></div>
-    <div class="s-sub" id="reg-sub">Loading jurisdictions…</div>
+  <div id="c-map" hidden>
+    <div class="chips" id="rchips" role="group" aria-label="Zoom to a region"></div>
+    <div class="mapbox"><svg id="cmap" role="group" aria-label="Map of jurisdictions. Each marker is a button."></svg></div>
+    <div class="legend" id="clegend"></div>
+    <div class="sheet" id="csheet" aria-live="polite"><p class="note" style="margin:0">Tap a marker to see the country.</p></div>
   </div>
-  <div class="legend" role="list" aria-label="Status legend">
-    <div class="leg" role="listitem"><div class="leg-d" style="background:#2DD4BF" aria-hidden="true"></div>Enacted</div>
-    <div class="leg" role="listitem"><div class="leg-d" style="background:#60A5FA" aria-hidden="true"></div>Active</div>
-    <div class="leg" role="listitem"><div class="leg-d" style="background:#FBBF24" aria-hidden="true"></div>Draft</div>
-    <div class="leg" role="listitem"><div class="leg-d" style="background:#A78BFA" aria-hidden="true"></div>Voluntary</div>
-    <div class="leg" role="listitem"><div class="leg-d" style="background:#F97316" aria-hidden="true"></div>Consultation</div>
-    <div class="leg" role="listitem"><div class="leg-d" style="background:#8B9099" aria-hidden="true"></div>Advisory</div>
+
+  <div id="c-compare" hidden>
+    <label for="dim" class="note">Compare countries on one dimension</label>
+    <select id="dim"></select>
+    <p class="note" id="dimsub" style="margin-top:10px"></p>
+    <div id="dimbars"></div>
+    <p class="note">Scores are editorial judgements of protections in force, from 0 to 100. Entries marked provisional have not yet been checked against a primary document.</p>
   </div>
-  <div class="reg-grid" id="regGrid" role="list" aria-label="Jurisdiction cards" aria-live="polite"></div>
-  <div id="regDet" style="display:none" role="region" aria-label="Jurisdiction detail" aria-live="polite"></div>
 </section>
 
-<!-- ETHICAL DIMENSIONS -->
-<section id="ethics" class="reveal" aria-labelledby="eth-h">
-  <div class="s-hd">
-    <div><p class="s-ey">Compliance Tracker</p><h2 class="s-tt" id="eth-h">Ethical dimensions</h2></div>
-    <div class="s-sub" id="eth-sub">Global average · 8 dimensions · WCAG-verified contrast</div>
+<!-- RULES -->
+<section id="v-rules" data-title="Rules" data-tab="rules" hidden aria-labelledby="h-rules">
+  <h1 id="h-rules" tabindex="-1">The rules, and where they are heading</h1>
+  <p class="lead">International treaties and standards, and the proposals that could change them.</p>
+  <div class="seg" role="group" aria-label="Choose a view">
+    <button type="button" data-m="ins" aria-pressed="true">In force</button>
+    <button type="button" data-m="tra" aria-pressed="false">Heading next</button>
   </div>
-  <div class="eth-table" id="ethTable" role="list" aria-label="Ethical dimension scores" aria-live="polite"></div>
-</section>
-
-<!-- INSTRUMENTS -->
-<section id="instruments" class="reveal" aria-labelledby="inst-h">
-  <div class="s-hd">
-    <div><p class="s-ey">International</p><h2 class="s-tt" id="inst-h">Global instruments</h2></div>
-    <div class="s-sub">Treaties, UN bodies and summit declarations</div>
-  </div>
-  <div id="instList" class="gl-grid" role="list"></div>
-  <div id="instSrc"></div>
-</section>
-
-<!-- TRAJECTORIES -->
-<section id="trajectories" class="reveal" aria-labelledby="traj-h">
-  <div class="s-hd">
-    <div><p class="s-ey">Direction of travel</p><h2 class="s-tt" id="traj-h">Trajectories and debates</h2></div>
-    <div class="s-sub">Pause proposals, kill switches, preemption</div>
-  </div>
-  <div id="trajList"></div>
-  <div id="trajSrc"></div>
+  <div id="r-ins"></div>
+  <div id="r-tra" hidden></div>
 </section>
 
 <!-- DATA CENTRES -->
-<section id="datacentres" class="reveal" aria-labelledby="dc-h">
-  <div class="s-hd">
-    <div><p class="s-ey">Infrastructure ethics</p><h2 class="s-tt" id="dc-h">Data centres</h2></div>
-    <div class="s-sub">Operating, planned and proposed sites with expected ethical impact ratings</div>
+<section id="v-datacentres" data-title="Data centres" data-tab="datacentres" hidden aria-labelledby="h-dc">
+  <h1 id="h-dc" tabindex="-1">Where AI is built, and what it costs</h1>
+  <p class="lead" id="dc-lead"></p>
+  <details class="acc"><summary><span><span class="acc-title">How the ratings work</span><span class="acc-sub">Expected ethical impact, 0 to 100</span></span></summary><div class="acc-body" id="dc-meth"></div></details>
+  <div class="seg" role="group" aria-label="Choose a view">
+    <button type="button" data-m="list" aria-pressed="true">List</button>
+    <button type="button" data-m="map" aria-pressed="false">Map</button>
   </div>
-  <div id="dcMap"></div>
-  <div id="dcMeth"></div>
-  <div class="lib-filter"><label for="dcStage" class="sr">Filter by stage</label><select id="dcStage" aria-label="Filter sites by stage"><option value="">All stages</option><option value="operating">Operating</option><option value="under_construction">Under construction</option><option value="planned">Planned</option><option value="proposed">Proposed</option></select></div>
-  <div id="dcSites" class="gl-grid" role="list"></div>
-  <h3 class="gl-h">Policy approaches</h3>
-  <div id="dcPolicy" class="gl-grid" role="list"></div>
-  <h3 class="gl-h">Ethical issues</h3>
-  <div id="dcIssues" class="gl-grid" role="list"></div>
-  <div id="dcOpp"></div>
-  <div id="dcSrc"></div>
+  <div class="chips" id="dchips" role="group" aria-label="Filter by stage"></div>
+  <div id="d-list"></div>
+  <div id="d-map" hidden>
+    <div class="chips" id="dr" role="group" aria-label="Zoom to a region"></div>
+    <div class="mapbox"><svg id="dmap" role="group" aria-label="Map of AI data centre sites. Each marker is a button."></svg></div>
+    <div class="legend" id="dlegend"></div>
+    <div class="sheet" id="dsheet" aria-live="polite"><p class="note" style="margin:0">Tap a marker to see the site.</p></div>
+  </div>
+  <h2>How governments are responding</h2>
+  <div id="d-policy"></div>
+  <h2>Ethical issues</h2>
+  <div id="d-issues"></div>
+  <div id="d-opp"></div>
+  <div id="d-src"></div>
 </section>
 
-<!-- LIBRARY -->
-<section id="library" class="reveal" aria-labelledby="lib-h">
-  <div class="s-hd">
-    <div><p class="s-ey">Evidence base</p><h2 class="s-tt" id="lib-h">Document library</h2></div>
-    <div class="s-sub">Primary documents tracked daily for changes</div>
-  </div>
-  <p style="font-size:15px;color:var(--text2,#C9CDD4);line-height:1.8;max-width:760px">Every document below is fetched, fingerprinted and read into a searchable text library. When a document changes or a new relevant item appears, the watcher flags it so the entries can be updated. A grey tick means the link has not yet been fetched successfully.</p>
+<!-- MORE -->
+<section id="v-more" data-title="More" data-tab="more" hidden aria-labelledby="h-more">
+  <h1 id="h-more" tabindex="-1">More</h1>
+  <h2 style="margin-top:20px">Document library</h2>
+  <p class="note" id="lib-note"></p>
+  <label class="sr" for="libSel">Filter documents by jurisdiction</label>
+  <select id="libSel"></select>
+  <ul class="rows" id="libList" style="margin-top:12px"></ul>
   <div id="libLatest"></div>
-  <div class="lib-filter"><label for="libSel" class="sr">Filter by jurisdiction</label><select id="libSel" aria-label="Filter documents by jurisdiction"></select></div>
-  <div id="libList" class="gl-grid" role="list"></div>
+
+  <h2>How to read this site</h2>
+  <details class="acc"><summary><span class="acc-title">What the scores mean</span></summary><div class="acc-body"><p>Each country is scored from 0 to 100 on eight dimensions: safety, privacy, human oversight, transparency, accountability, fairness, environment and access to remedy. The scores are editorial judgements of protections in force, not forecasts and not official ratings.</p></div></details>
+  <details class="acc"><summary><span class="acc-title">What “provisional” means</span></summary><div class="acc-body"><p>A provisional entry was drafted from secondary sources and has not yet been checked against a primary document such as the law itself. Treat its scores as a starting point.</p></div></details>
+  <details class="acc"><summary><span class="acc-title">How entries are checked</span></summary><div class="acc-body"><p>Every claim links to its sources, tagged primary or secondary, with a confidence level. A watcher checks the library of official documents daily and flags changes. Each entry shows the year it was captured so you can judge how current it is.</p></div></details>
+  <details class="acc"><summary><span class="acc-title">Add a note from your country</span></summary><div class="acc-body"><p>People who study or work on AI in their area can add notes to a country page. Contributors sign in with LinkedIn and are checked once. Every note is read by a moderator before it appears. Open any country and scroll to Community notes.</p></div></details>
+  <p class="note" style="margin-top:28px">AIETHOS is built by <a href="https://andymiah.net" rel="noopener">Prof Andy Miah</a>. Entries are being reviewed during the beta.</p>
 </section>
-
 </main>
-
-<footer role="contentinfo">
-  <div class="f-logo">AIETHOS</div>
-  <nav class="f-links" aria-label="Footer links">
-    <a href="#regulatory">Monitor</a>
-    <a href="#ethics">Dimensions</a>
-    <a href="#instruments">Instruments</a>
-    <a href="#trajectories">Trajectories</a>
-    <a href="#datacentres">Data centres</a>
-    <a href="#library">Library</a> · <a href="scholarly.html">Research map</a>
-  </nav>
-  <div class="f-meta">Public regulatory sources · Beta: entries are being reviewed · <a href="https://andymiah.net">Prof Andy Miah</a></div>
-</footer>
 
 <script>
 'use strict';
+const esc=t=>String(t??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const cap=s=>s?s[0].toUpperCase()+s.slice(1):'';
+const $=id=>document.getElementById(id);
+const ST={enacted:'var(--st-enacted)',active:'var(--st-active)',draft:'var(--st-draft)',voluntary:'var(--st-voluntary)',consultation:'var(--st-consultation)',advisory:'var(--st-advisory)',none:'var(--st-none)'};
+const LL={us:[-98,39],eu:[10,50],uk:[-2,54],cn:[104,35],vn:[106,16],ke:[37,0],ch:[8,47],ca:[-100,57],jp:[138,37],sg:[104,1.3],au:[134,-25],br:[-52,-10],in:[78,22],kr:[128,36],ae:[54,24]};
+const DM={safety_risk_management:['Safety and risk management','Risk classification and testing before deployment'],privacy_data_protection:['Privacy and data protection','Data rules built into AI law'],human_oversight:['Human oversight','Human review of automated decisions in high-stakes settings'],transparency:['Transparency','Explanation and disclosure duties'],accountability:['Accountability','Liability and audit trails for harm'],fairness_non_discrimination:['Fairness and non-discrimination','Rules against discriminatory automated decisions'],environmental_sustainability:['Environmental sustainability','Energy and carbon reporting, the most neglected dimension'],access_to_remedy:['Access to remedy','Practical ways to challenge an AI decision']};
+let J=[],ETH=null,META=null,WM=null;
+const X=lon=>(lon+180)/360*1000,Y=lat=>(90-lat)/180*500;
 
-/* ─── COLOUR MAP ─────────────────────────────────── */
-const SC={enacted:'#2DD4BF',active:'#60A5FA',draft:'#FBBF24',voluntary:'#A78BFA',consultation:'#F97316',advisory:'#8B9099',none:'#8B9099'};
-
-/* ─── ETHICAL DIMENSION ICONS (inline SVG paths) ─── */
-const ICONS={
-  safety_risk_management:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L20 6v8c0 5-8 8-8 8s-8-3-8-8V6z"/><polyline points="8,12 11,15 16,9"/></svg>`,
-  privacy_data_protection:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h4M18 12h4M12 2v4M12 18v4"/><circle cx="12" cy="12" r="3" fill="currentColor" opacity=".5"/></svg>`,
-  human_oversight:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="3"/><path d="M7 20c0-3 2.5-5 5-5s5 2 5 5"/><line x1="3" y1="22" x2="21" y2="22"/><line x1="12" y1="11" x2="12" y2="16"/></svg>`,
-  transparency:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`,
-  accountability:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><path d="M5 8l7-5 7 5"/><path d="M5 8l-2 6c0 2 2 3 4 3s4-1 4-3L5 8z"/><path d="M19 8l2 6c0 2-2 3-4 3s-4-1-4-3l6-6z"/></svg>`,
-  fairness_non_discrimination:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/></svg>`,
-  environmental_sustainability:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 0 0-7 17"/><path d="M12 22a10 10 0 0 0 7-17"/><path d="M12 2v20"/><path d="M12 12c-4-2-7-1-9 2"/></svg>`,
-  access_to_remedy:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="11" height="18" rx="1"/><line x1="14" y1="12" x2="21" y2="12"/><polyline points="18,8 22,12 18,16"/><circle cx="8.5" cy="12" r="1" fill="currentColor"/></svg>`,
-};
-
-/* ─── DIMENSION METADATA ─────────────────────────── */
-const DM={
-  safety_risk_management:      {name:'Safety & Risk Management',      sub:'Risk classification and pre-deployment testing across frameworks',                         color:'#2DD4BF'},
-  privacy_data_protection:     {name:'Privacy & Data Protection',     sub:'Data governance requirements embedded within AI-specific legislation',                    color:'#60A5FA'},
-  human_oversight:             {name:'Human Oversight',               sub:'Right to human review of automated decisions in high-stakes contexts',                    color:'#A78BFA'},
-  transparency:                {name:'Transparency',                  sub:'Explainability and disclosure requirements across major frameworks',                       color:'#C4A063'},
-  accountability:              {name:'Accountability',                sub:'Liability frameworks and audit trails for AI-caused harm',                                color:'#60A5FA'},
-  fairness_non_discrimination: {name:'Fairness & Non-discrimination', sub:'Non-discrimination provisions in automated decision-making',                              color:'#F97316'},
-  environmental_sustainability:{name:'Environmental Sustainability',  sub:'Energy and carbon impact reporting — the most neglected dimension globally (avg. 24/100)', color:'#8B9099'},
-  access_to_remedy:            {name:'Access to Remedy',              sub:'Practical mechanisms for individuals to challenge AI decisions',                          color:'#FBBF24'},
-};
-const DK=Object.keys(DM);
-
-/* ─── APPROXIMATE MERCATOR POSITIONS (760×400 viewport) ── */
-const JP={
-  eu:{x:408,y:82}, uk:{x:376,y:78}, us:{x:175,y:112},
-  cn:{x:650,y:88}, vn:{x:632,y:158}, ke:{x:500,y:200}, ch:{x:400,y:92}, ca:{x:152,y:68}, jp:{x:706,y:90},
-  sg:{x:636,y:204}, au:{x:688,y:298}, br:{x:280,y:196},
-  in:{x:572,y:140}, kr:{x:690,y:86}, ae:{x:525,y:148},
-};
-
-
-/* ─── STATE ──────────────────────────────────────── */
-let DATA=null,ETH=null,META=null,selIdx=null,barsAnimated=false;
-
-/* ─── DATA LOADING ───────────────────────────────── */
-async function loadData(){
-  try{
-    const[jR,eR,mR]=await Promise.all([
-      fetch('data/jurisdictions.json'),
-      fetch('data/ethics-scores.json'),
-      fetch('data/meta.json')
-    ]);
-    if(!jR.ok||!eR.ok||!mR.ok)throw new Error('files missing');
-    DATA=await jR.json(); ETH=await eR.json(); META=await mR.json();
-    setKPI('kj',DATA.count);
-    setKPI('ke',META.by_status?.enacted||0);
-    setKPI('km',META.jurisdiction_count||0);
-    setKPI('kc',(META.by_status?.consultation||0)+(META.by_status?.draft||0));
-    const rs=document.getElementById('reg-sub');
-    if(rs)rs.textContent=`${DATA.count} jurisdiction${DATA.count!==1?'s':''} · click any card for detail`;
-    const es=document.getElementById('eth-sub');
-    if(es&&META.average_composite)es.textContent=`Global composite average: ${META.average_composite}/100 across ${DATA.count} jurisdictions · 8 dimensions`;
-    renderReg(); renderEth(); renderMap(); renderTicker();
-  }catch(e){
-    showErr();
-  }
+/* ── router ── */
+const VIEWS={'':'countries','/':'countries','/rules':'rules','/datacentres':'datacentres','/more':'more'};
+const LEGACY={regulatory:'/',ethics:'/',instruments:'/rules',trajectories:'/rules',datacentres:'/datacentres',library:'/more',top:'/'};
+function route(first){
+  let h=location.hash.replace(/^#/,'');
+  if(LEGACY[h]){h=LEGACY[h];}
+  const key=VIEWS[h]||'countries';
+  document.querySelectorAll('main>section').forEach(s=>s.hidden=s.dataset.tab!==key);
+  const sec=document.querySelector(`main>section[data-tab="${key}"]`);
+  window.AIETHOS_SHELL&&AIETHOS_SHELL.setActive(key);
+  document.title=(key==='countries'?'AIETHOS · Who governs AI, and how?':sec.dataset.title+' · AIETHOS');
+  if(!first){window.scrollTo(0,0);const hd=sec.querySelector('h1');hd&&hd.focus({preventScroll:true});}
 }
-function setKPI(id,v){const el=document.getElementById(id);if(el)el.dataset.t=v;}
-function showErr(){
-  const g=document.getElementById('regGrid');
-  if(g)g.innerHTML=`<div class="data-err">
-    <div style="font-size:40px;margin-bottom:18px;opacity:.18" aria-hidden="true">⟁</div>
-    Run the build script first:<br><code>node build/extract.js</code><br>
-    Then serve locally: <code>cd site && npx serve .</code>
-  </div>`;
+addEventListener('hashchange',()=>route(false));
+
+/* ── segmented controls ── */
+function seg(root,onPick){
+  root.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{root.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));onPick(b.dataset.m);}));
 }
 
-/* ─── WORLD MAP ──────────────────────────────────── */
-function renderMap(){
-  if(!DATA?.jurisdictions)return;
-  const g=document.getElementById('mapMarkers');
-  if(!g)return;
-  let h='';
-  DATA.jurisdictions.forEach(j=>{
-    const p=JP[j.id];
-    if(!p)return;
-    const col=SC[j.status]||'#8B9099';
-    const delay1=(Math.random()*2).toFixed(1);
-    const delay2=(Math.random()*2+1.4).toFixed(1);
-    h+=`
-      <g class="jur-marker" onclick="focusCard('${j.id}')" onkeydown="if(event.key==='Enter')focusCard('${j.id}')" tabindex="0" role="button" aria-label="${j.name}: ${j.status} framework, ethics score ${j.composite_score??'not yet scored'}">
-        <circle r="22" cx="${p.x}" cy="${p.y}" fill="${col}" opacity="0" class="jur-ring1" style="animation-delay:${delay1}s"/>
-        <circle r="16" cx="${p.x}" cy="${p.y}" fill="${col}" opacity="0" class="jur-ring2" style="animation-delay:${delay2}s"/>
-        <circle class="base" r="5" cx="${p.x}" cy="${p.y}" fill="${col}" opacity=".9"/>
-        <circle r="2.5" cx="${p.x}" cy="${p.y}" fill="#06070A"/>
-        <text x="${p.x+8}" y="${p.y+3}" font-family="JetBrains Mono" font-size="6.5" fill="${col}" opacity=".75" pointer-events="none">${j.iso_code}</text>
-      </g>`;
-  });
-  // Show unlit dots for known positions without data
-  Object.entries(JP).forEach(([id,p])=>{
-    if(!DATA.jurisdictions.find(j=>j.id===id))
-      h+=`<circle cx="${p.x}" cy="${p.y}" r="3" fill="#252B36" opacity=".6" aria-hidden="true"/>`;
-  });
-  g.innerHTML=h;
+/* ── countries ── */
+let F={q:'',status:'',sort:'name'};
+function drawRows(){
+  let r=J.filter(j=>(!F.status||j.status===F.status)&&(!F.q||(j.name+' '+j.primary_law+' '+j.region+' '+j.iso_code).toLowerCase().includes(F.q)));
+  const s=F.sort;
+  r.sort((a,b)=>s==='score'?(b.composite_score??-1)-(a.composite_score??-1):s==='new'?String(b.last_updated).localeCompare(String(a.last_updated))||a.name.localeCompare(b.name):a.name.localeCompare(b.name));
+  $('count').textContent=`${r.length} of ${J.length} countries`+(window.PROV?`. ${window.PROV} are provisional, not yet checked against the law itself.`:'');
+  $('rows').innerHTML=r.length?r.map(j=>`<li><a class="row" href="country/${esc(j.id)}/" style="--c:${ST[j.status]||ST.none}"><span class="bar" aria-hidden="true"></span><span><span class="row-name"><span aria-hidden="true">${esc(j.flag||'')}</span> ${esc(j.name)}</span><span class="row-law">${esc(j.primary_law)}</span><span class="row-meta"><span class="pill">${esc(cap(j.status))}</span><span>Captured ${esc(String(j.last_updated||'').slice(0,4)||'n/a')}</span>${j.provisional?'<span class="badge prov">Provisional</span>':''}</span></span><span class="score">${j.composite_score??'–'}<small>${j.composite_score!=null?'of 100':'not scored'}</small></span></a></li>`).join(''):'<li class="msg">No countries match. Clear the search or choose All.</li>';
 }
-function focusCard(id){
-  const idx=DATA?.jurisdictions?.findIndex(j=>j.id===id);
-  if(idx!=null&&idx>=0){
-    document.getElementById('regulatory')?.scrollIntoView({behavior:'smooth'});
-    setTimeout(()=>selectReg(idx),380);
-  }
+function drawChips(){
+  const by={};J.forEach(j=>by[j.status]=(by[j.status]||0)+1);
+  const items=[['','All',J.length],...Object.keys(ST).filter(k=>by[k]).map(k=>[k,cap(k),by[k]])];
+  $('fchips').innerHTML=items.map(([k,l,n])=>`<button type="button" class="chip" data-s="${k}" aria-pressed="${k===F.status}">${k?`<i style="background:${ST[k]}"></i>`:''}${l} ${n}</button>`).join('');
+  $('fchips').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{F.status=b.dataset.s;drawChips();drawRows();}));
 }
-
-/* ─── REGULATORY CARDS ───────────────────────────── */
-function renderReg(){
-  if(!DATA?.jurisdictions)return;
-  document.getElementById('regGrid').innerHTML=DATA.jurisdictions.map((r,i)=>`
-    <div class="reg-card" role="listitem" tabindex="0" id="rc${i}"
-      onclick="selectReg(${i})" onkeydown="if(event.key==='Enter'||event.key===' ')selectReg(${i})"
-      aria-expanded="false" aria-controls="regDet"
-      aria-label="${r.name}: ${r.status} framework, ethics score ${r.composite_score??'not yet scored'}. Click to expand.">
-      <div class="rc-code">${r.iso_code} · ${r.year_enacted||r.year_effective||'—'}</div>
-      <div class="rc-code" style="color:var(--gold)">Captured ${(r.last_updated||'').slice(0,4)||'—'}</div>
-      <div class="rc-name">${r.flag||''} ${r.name}</div>
-      <div class="rc-law">${r.primary_law}</div>
-      <div class="rc-status">
-        <div class="rc-dot" style="background:${SC[r.status]||'#8B9099'}" aria-hidden="true"></div>
-        <span style="color:${SC[r.status]||'#8B9099'}">${cap(r.status)}</span>
-      </div>
-      <div class="rc-score" aria-hidden="true">${r.composite_score??'—'}</div>
-      <div class="rc-conf" aria-hidden="true">${r.confidence}</div>
-    </div>`).join('');
+const REG={world:['World','0 36 1000 350'],eu:['Europe','452 66 160 100'],am:['Americas','120 85 300 270'],ap:['Asia-Pacific','650 110 300 260'],af:['Africa and Middle East','430 120 250 230']};
+let curReg='world';
+function pins(svgId,items,sel,onPick,reg){
+  const svg=$(svgId),vb=REG[reg][1].split(' ').map(Number),w=svg.getBoundingClientRect().width||360,k=vb[2]/w;
+  svg.setAttribute('viewBox',REG[reg][1]);
+  svg.innerHTML=(WM?`<path class="land" d="${WM.d}"/>`:'')+items.map((m,i)=>`<g class="mk" tabindex="0" role="button" aria-label="${esc(m.label)}" aria-pressed="${sel===m.id}" data-i="${i}"><circle class="h" cx="${m.x}" cy="${m.y}" r="${24*k}"/><circle class="d" cx="${m.x}" cy="${m.y}" r="${(m.r||9)*k}" fill="${m.c}"/></g>`).join('');
+  svg.querySelectorAll('.mk').forEach(g=>{const pick=()=>onPick(items[+g.dataset.i]);g.addEventListener('click',pick);g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});});
+}
+let selC=null;
+function drawCMap(){
+  const items=J.filter(j=>LL[j.id]).map(j=>({id:j.id,x:X(LL[j.id][0]),y:Y(LL[j.id][1]),c:ST[j.status]||ST.none,label:`${j.name}, ${j.status}`,j}));
+  pins('cmap',items,selC,m=>{selC=m.id;const j=m.j;$('csheet').innerHTML=`<h3>${esc(j.flag||'')} ${esc(j.name)}</h3><p class="row-meta" style="margin:4px 0 8px"><span class="pill" style="--c:${ST[j.status]}">${esc(cap(j.status))}</span><span>Captured ${esc(String(j.last_updated).slice(0,4))}</span>${j.provisional?'<span class="badge prov">Provisional</span>':''}</p><p style="margin:0">${esc(j.one_line||j.primary_law)}</p><a class="go" href="country/${esc(j.id)}/">Open ${esc(j.name)}</a>`;drawCMap();},curReg);
+  $('clegend').innerHTML=Object.keys(ST).filter(k=>k!=='none'&&J.some(j=>j.status===k)).map(k=>`<span><i style="background:${ST[k]}"></i>${cap(k)}</span>`).join('');
+}
+function drawCompare(){
+  const k=$('dim').value,d=ETH.dimensions[k];
+  $('dimsub').textContent=`${DM[k][1]}. Average ${d.global_average} out of 100 across ${d.jurisdiction_count} countries.`;
+  $('dimbars').innerHTML=[...d.by_jurisdiction].sort((a,b)=>b.score-a.score).map(x=>`<a href="country/${esc(x.id)}/" style="text-decoration:none;color:inherit;display:block"><div class="meter"><span class="lb">${esc(x.name)}</span><span class="t"><i style="width:${x.score}%"></i></span><b>${x.score}</b></div></a>`).join('');
 }
 
-/* ─── REGULATORY DETAIL ──────────────────────────── */
-function evidenceHTML(ev,compact){
-  if(!ev||!ev.sources?.length)return '';
-  const src=Object.fromEntries(ev.sources.map(x=>[x.id,x]));
-  const ref=ids=>(ids||[]).map(id=>src[id]?`<span class="ev-ref"><a href="#src-${id}" aria-label="Source ${id}: ${src[id].title}">[${id}]</a></span>`:'').join(' ');
-  const claims=(ev.claims||[]).map(c=>`<div class="ev-claim"><p>${c.text} ${ref(c.source_ids)}</p><div class="ev-note">Confidence: ${c.confidence}${c.note?' · '+c.note:''}</div></div>`).join('');
-  const list=ev.sources.map(x=>`<li id="src-${x.id}"><a href="${x.url}" target="_blank" rel="noopener">${x.title}</a> — ${x.publisher}${x.date?', '+x.date:''}<span class="ev-tag ${x.type==='primary'?'ev-p':'ev-s'}">${x.type}</span> <span class="ev-note">accessed ${x.accessed}</span></li>`).join('');
-  return `<div class="ev" role="region" aria-label="Evidence and sources"><div class="sec-label">${compact?'Where this comes from':'Evidence trail: claims and sources'}</div>${compact?'':claims}<ol>${list}</ol></div>`;
-}
-async function selectReg(i){
-  const det=document.getElementById('regDet');
-  if(selIdx===i){
-    selIdx=null; det.style.display='none';
-    document.querySelectorAll('.reg-card').forEach(c=>{c.classList.remove('sel');c.setAttribute('aria-expanded','false');});
-    return;
-  }
-  selIdx=i;
-  document.querySelectorAll('.reg-card').forEach((c,ci)=>{
-    c.classList.toggle('sel',ci===i);
-    c.setAttribute('aria-expanded',ci===i?'true':'false');
-  });
-  const r=DATA.jurisdictions[i];
-  det.style.display='block';
-  det.innerHTML=`<div style="padding:28px 48px;color:var(--muted);font-size:14px">Loading full entry…</div>`;
-  setTimeout(()=>det.scrollIntoView({behavior:'smooth',block:'nearest'}),80);
-
-  let full=null;
-  try{const res=await fetch(`data/jurisdictions/${r.id}.json`);if(res.ok)full=await res.json();}catch(e){}
-  const cit=full?.citizen||{}, res2=full?.research||{}, fw=full?.framework||r;
-
-  det.innerHTML=`
-    <div class="det-head">
-      <div>
-        <div class="det-code">${r.iso_code} · ${fw.year_enacted||'—'}</div>
-        <h3 class="det-name">${r.flag||''} ${r.name}</h3>
-        <div class="det-law">${r.primary_law}</div><div class="det-code" style="color:var(--gold);font-size:14px;margin:6px 0">Captured ${(r.last_updated||'—')} · <a href="country/${r.id}/" style="color:var(--gl)">Open the ${r.name} page, with community notes →</a></div>${(full?.evidence?.sources||[]).length&&!(full.evidence.sources||[]).some(x=>x.type==='primary')?'<span class="prov" role="note">Provisional: not yet checked against primary documents</span>':''}
-      </div>
-      <div style="text-align:right;flex-shrink:0">
-        <div class="det-score-n" aria-label="Ethics score: ${r.composite_score??'not yet scored'}">${r.composite_score??'—'}</div>
-        <div class="det-score-l">Ethics score</div>
-      </div>
-    </div>
-    <div class="view-tabs" role="tablist" aria-label="View mode">
-      <button class="vt on" role="tab" id="tc" aria-selected="true" aria-controls="pc" onclick="sv('citizen')">For Citizens</button>
-      <button class="vt" role="tab" id="tr" aria-selected="false" aria-controls="pr" onclick="sv('researcher')">For Researchers</button>
-    </div>
-
-    <div id="pc" class="pane on" role="tabpanel" aria-labelledby="tc">
-      ${cit.one_line?`<div class="cit-ol"><div class="cit-ol-l">In plain language</div><p class="cit-ol-t">${cit.one_line}</p></div>`:''}
-      ${cit.what_changed?`<div style="margin-bottom:28px"><div class="sec-label">What has changed</div><p style="font-size:15px;color:var(--muted);line-height:1.9">${cit.what_changed}</p></div>`:''}
-      ${cit.your_rights?.length?`
-        <div style="margin-bottom:32px">
-          <div class="sec-label">Your rights</div>
-          <ul class="rights-ul" aria-label="Rights under this framework">
-            ${cit.your_rights.map(rt=>`<li class="right-li"><div class="right-name">${rt.right}</div><div class="right-means">${rt.what_it_means}</div><div class="right-how">${rt.how_to_invoke}</div></li>`).join('')}
-          </ul>
-        </div>`:''}
-      <div class="who-grid">
-        ${cit.who_is_protected?`<div><div class="sec-label">Who is protected</div><p style="font-size:14px;color:var(--muted);line-height:1.85">${cit.who_is_protected}</p></div>`:''}
-        ${cit.who_is_not_protected?.length?`<div><div class="sec-label">Who is not protected</div><ul class="who-ul">${cit.who_is_not_protected.map(w=>`<li class="who-li">${w}</li>`).join('')}</ul></div>`:''}
-      </div>
-      ${cit.plain_language_summary?`<div class="summary-box"><div class="sec-label" style="margin-bottom:10px">Summary</div><p class="summary-txt">${cit.plain_language_summary}</p></div>`:''}
-      ${cit.jargon_buster&&Object.keys(cit.jargon_buster).length?`
-        <div>
-          <div class="sec-label">Jargon explained</div>
-          <div class="jargon-grid">
-            ${Object.entries(cit.jargon_buster).map(([t,d])=>`<div class="jargon-item"><div class="jargon-t">${t}</div><div class="jargon-d">${d}</div></div>`).join('')}
-          </div>
-        </div>`:''}
-      ${evidenceHTML(full?.evidence,true)}
-    </div>
-
-    <div id="pr" class="pane" role="tabpanel" aria-labelledby="tr">
-      ${res2.summary?`<div style="margin-bottom:32px"><div class="sec-label">Overview</div><p style="font-size:15px;color:var(--text2);line-height:2">${res2.summary}</p></div>`:''}
-      <div style="margin-bottom:32px">
-        <div class="sec-label">Ethical dimension scores</div>
-        <div class="score-grid" role="list">
-          ${DK.map(k=>{const s=res2.ethical_dimension_scores?.[k];const sc=s?.score??0;const m=DM[k];return`
-          <div class="score-item" role="listitem" aria-label="${m.name}: ${sc} out of 100">
-            <div class="score-dim">${m.name}</div>
-            <div class="score-n" style="color:${m.color}">${sc}</div>
-            <div class="score-bar"><div class="score-fill" style="width:${sc}%;background:${m.color}"></div></div>
-            ${s?.rationale?`<div class="score-rat">${s.rationale}</div>`:''}
-          </div>`}).join('')}
-        </div>
-      </div>
-      ${res2.gaps_and_weaknesses?.length?`<div style="margin-bottom:28px"><div class="sec-label">Gaps and weaknesses</div><ul class="gaps-ul">${res2.gaps_and_weaknesses.map(g=>`<li class="gaps-li">${g}</li>`).join('')}</ul></div>`:''}
-      ${res2.cross_jurisdiction_tensions?.length?`<div style="margin-bottom:28px"><div class="sec-label">Cross-jurisdiction tensions</div><ul class="tension-ul">${res2.cross_jurisdiction_tensions.map(t=>`<li class="tension-it"><div class="tension-jur">vs. ${t.jurisdiction_b?.toUpperCase()}</div><div class="tension-txt">${t.tension}</div><span class="tension-sev sev-${t.severity}">${t.severity} severity</span></li>`).join('')}</ul></div>`:''}
-      ${res2.monitor_notes?`<div class="monitor-note"><div class="sec-label" style="margin-bottom:10px">Monitor notes</div><p>${res2.monitor_notes}</p></div>`:''}
-      ${evidenceHTML(full?.evidence,false)}
-    </div>`;
+/* ── rules ── */
+const refs=(ids,p)=>(ids||[]).map(i=>`<a href="#${p}-${esc(i)}" onclick="document.getElementById('${p}-${esc(i)}')?.closest('details')?.setAttribute('open','')">[${esc(i)}]</a>`).join(' ');
+const srcBlock=(d,p,t)=>d&&d.sources&&d.sources.length?`<details class="acc"><summary><span class="acc-title">${t}</span><span class="acc-sub">${d.sources.length} sources</span></summary><div class="acc-body"><ol class="src-list">${d.sources.map(x=>`<li id="${p}-${esc(x.id)}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>, ${esc(x.publisher)}${x.date?', '+esc(x.date):''} <span class="tag ${x.type==='primary'?'p':''}">${esc(x.type)}</span></li>`).join('')}</ol></div></details>`:'';
+const conf=c=>c?`<span class="note"> Confidence: ${esc(c)}</span>`:'';
+async function getJ(f){try{const r=await fetch('data/global/'+f);return r.ok?await r.json():null}catch(e){return null}}
+function drawRules(ins,tr){
+  if(ins){$('r-ins').innerHTML=`<div>${ins.items.map(i=>`<details class="acc"><summary><span><span class="acc-title">${esc(i.name)}</span><span class="acc-sub">${esc(i.body)} · ${esc(i.kind)} · ${esc(i.binding)}</span></span></summary><div class="acc-body"><p class="kv"><b>Status:</b> ${esc(i.status)}</p><p>${esc(i.summary)}</p><p class="quote"><b>In plain language:</b> ${esc(i.citizen)}</p><p class="refs">${refs(i.source_ids,'is')}${conf(i.confidence)}</p>${i.note?`<p class="note">${esc(i.note)}</p>`:''}</div></details>`).join('')}</div>${ins.gaps&&ins.gaps.length?`<div class="msg"><b>Not yet covered:</b> ${ins.gaps.map(esc).join(' ')}</div>`:''}${srcBlock(ins,'is','Sources for these instruments')}`;}
+  if(tr){$('r-tra').innerHTML=tr.themes.map(t=>`<h2>${esc(t.title)}</h2><p>${esc(t.summary)}</p><p class="msg"><b>Direction:</b> ${esc(t.direction)}</p><div>${t.items.map(i=>`<details class="acc"><summary><span><span class="acc-title">${esc(i.name)}</span><span class="acc-sub">${esc(i.iso)} · ${esc(i.date||'')} · likelihood ${esc(i.likelihood||'n/a')}</span></span></summary><div class="acc-body"><p class="kv"><b>Status:</b> ${esc(i.status)}</p><p>${esc(i.stance)}</p><p class="refs">${refs(i.source_ids,'ts')}${conf(i.confidence)}</p></div></details>`).join('')}</div>`).join('')+`<h2>What experts say about shutdown powers</h2>${tr.expert_views.map(v=>`<p class="quote">${esc(v.view)} <span class="refs">${refs(v.source_ids,'ts')}</span></p>`).join('')}`+srcBlock(tr,'ts','Sources for these proposals');}
 }
 
-function sv(v){
-  document.getElementById('pc').classList.toggle('on',v==='citizen');
-  document.getElementById('pr').classList.toggle('on',v==='researcher');
-  document.getElementById('tc').classList.toggle('on',v==='citizen');
-  document.getElementById('tr').classList.toggle('on',v==='researcher');
-  document.getElementById('tc').setAttribute('aria-selected',v==='citizen');
-  document.getElementById('tr').setAttribute('aria-selected',v==='researcher');
+/* ── data centres ── */
+const STG={operating:['Operating','var(--st-enacted)'],under_construction:['Under construction','var(--st-draft)'],planned:['Planned','var(--st-active)'],proposed:['Proposed','var(--st-voluntary)']};
+const rcol=x=>x.rating==null?'var(--muted)':x.rating>=70?'var(--good)':x.rating>=50?'var(--mid)':x.rating>=30?'var(--warn)':'var(--bad)';
+let DC=null,dstage='',dreg='world';
+function rtxt(x){return x.rating==null?'Not rated':x.rating+(x.rating_status==='indicative'?' (indicative)':' · '+x.rating_label)}
+function drawDC(){
+  const meth=DC.methodology,sites=DC.sites.filter(x=>!dstage||x.stage===dstage);
+  $('d-list').innerHTML=sites.map((x,i)=>`<details class="dc" id="dc-${esc(x.id)}" style="--c:${rcol(x)}"><summary><span><span class="dc-n">${esc(x.name)}</span><span class="row-meta" style="display:flex;margin-top:4px"><span class="pill" style="--c:${STG[x.stage][1]}">${STG[x.stage][0]}</span><span>${esc(x.place)}</span></span></span><span class="dc-score">${x.rating==null?'–':x.rating}<small>${x.rating==null?'not rated':x.rating_status==='indicative'?'indicative':esc(x.rating_label)}</small></span></summary><div class="acc-body"><p class="kv"><b>Operator:</b> ${esc(x.operator)}<br><b>Capacity:</b> ${esc(x.capacity)}<br><b>Status:</b> ${esc(x.status)}</p><p class="note">${x.evidence_count} of ${meth.criteria.length} criteria have evidence.</p>${meth.criteria.map(c=>{const k=x.criteria&&x.criteria[c.id];return `<div class="meter"><span class="lb">${esc(c.label)}</span>${k?`<span class="t"><i style="width:${k.score}%;background:${rcol({rating:k.score})}"></i></span><b>${k.score}</b><span class="note" style="grid-column:1/-1">${esc(k.note)} <span class="refs">${refs(k.source_ids,'ds')}</span></span>`:'<span class="note" style="grid-column:1/-1">Not disclosed</span>'}</div>`}).join('')}<p class="quote">${esc(x.ethics)}</p><p class="refs">${refs(x.source_ids,'ds')}${conf(x.confidence)}</p></div></details>`).join('')||'<p class="msg">No sites at this stage.</p>';
+}
+function drawDMap(){
+  $('dr').innerHTML=Object.entries(REG).map(([k,[l]])=>`<button type="button" class="chip" data-r="${k}" aria-pressed="${k===dreg}">${l}</button>`).join('');
+  $('dr').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{dreg=b.dataset.r;drawDMap();}));
+  const items=DC.sites.filter(x=>!dstage||x.stage===dstage).map(x=>({id:x.id,x:X(x.lon),y:Y(x.lat),c:rcol(x),r:8,label:`${x.name}, ${STG[x.stage][0]}, ${rtxt(x)}`,s:x}));
+  pins('dmap',items,null,m=>{const x=m.s;$('dsheet').innerHTML=`<h3>${esc(x.name)}</h3><p class="row-meta" style="margin:4px 0 8px"><span class="pill" style="--c:${STG[x.stage][1]}">${STG[x.stage][0]}</span><span>${esc(x.place)}</span></p><p style="margin:0"><b style="color:${rcol(x)}">${esc(rtxt(x))}</b>. ${esc(x.capacity)}</p><button type="button" class="btn" style="margin-top:10px;width:100%" id="dshow">Show details</button>`;$('dshow').onclick=()=>{document.querySelector('#v-datacentres .seg button[data-m=list]').click();const d=$('dc-'+x.id);if(d){d.open=true;d.scrollIntoView({block:'start'});}};},dreg);
+  $('dlegend').innerHTML='<span><i style="background:var(--good)"></i>Strong</span><span><i style="background:var(--mid)"></i>Mixed</span><span><i style="background:var(--warn)"></i>Concerning</span><span><i style="background:var(--bad)"></i>Poor</span><span><i style="background:var(--muted)"></i>Not rated</span>';
+}
+function initDC(dc){
+  DC=dc;const meth=dc.methodology;
+  const nR=dc.sites.filter(x=>x.rating_status==='rated').length,nI=dc.sites.filter(x=>x.rating_status==='indicative').length;
+  $('dc-lead').textContent=`${dc.sites.length} sites, operating, planned and proposed. ${nR} are rated, ${nI} are indicative, and the rest lack enough public evidence to rate.`;
+  $('dc-meth').innerHTML=`<p>${esc(meth.scale)} ${esc(meth.basis)}</p><ul class="src-list">${meth.criteria.map(c=>`<li><b>${esc(c.label)}</b> (${c.weight}%): ${esc(c.asks)}</li>`).join('')}</ul><p class="note">${esc(meth.rules)}</p>`;
+  const by={};dc.sites.forEach(x=>by[x.stage]=(by[x.stage]||0)+1);
+  const draw=()=>{$('dchips').innerHTML=[['','All',dc.sites.length],...Object.keys(STG).filter(k=>by[k]).map(k=>[k,STG[k][0],by[k]])].map(([k,l,n])=>`<button type="button" class="chip" data-s="${k}" aria-pressed="${k===dstage}">${l} ${n}</button>`).join('');$('dchips').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{dstage=b.dataset.s;draw();drawDC();if(!$('d-map').hidden)drawDMap();}));};
+  draw();drawDC();
+  seg(document.querySelector('#v-datacentres .seg'),m=>{$('d-list').hidden=m!=='list';$('d-map').hidden=m!=='map';if(m==='map')drawDMap();});
+  $('d-policy').innerHTML=dc.policy.map(x=>`<details class="acc"><summary><span><span class="acc-title">${esc(x.region)}</span><span class="acc-sub">${esc(x.approach)}</span></span></summary><div class="acc-body"><p>${esc(x.detail)}</p><p class="refs">${refs(x.source_ids,'ds')}${conf(x.confidence)}</p>${x.note?`<p class="note">${esc(x.note)}</p>`:''}</div></details>`).join('');
+  $('d-issues').innerHTML=dc.ethical_issues.map(x=>`<details class="acc"><summary><span class="acc-title">${esc(x.issue)}</span></summary><div class="acc-body"><p>${esc(x.detail)}</p><p class="refs">${refs(x.source_ids,'ds')}</p></div></details>`).join('');
+  $('d-opp').innerHTML=`<h2>Local opposition</h2><p>${esc(dc.opposition.summary)}</p><p class="refs">${refs(dc.opposition.source_ids,'ds')}${conf(dc.opposition.confidence)}</p><p class="note">${esc(dc.note)}</p>`;
+  $('d-src').innerHTML=srcBlock(dc,'ds','Sources for data centres');
 }
 
-/* ─── ETHICS TABLE ───────────────────────────────── */
-function renderEth(){
-  if(!ETH?.dimensions)return;
-  document.getElementById('ethTable').innerHTML=Object.entries(DM).map(([key,meta])=>{
-    const dim=ETH.dimensions[key];
-    const score=dim?.global_average??0;
-    return`
-    <div class="eth-row" role="listitem">
-      <div class="dim-icon" style="color:${meta.color};border-color:${meta.color}22" aria-hidden="true">
-        ${ICONS[key]||''}
-      </div>
-      <div>
-        <div class="eth-label">${meta.name}</div>
-        <div class="eth-sub">${meta.sub}</div>
-      </div>
-      <div class="eth-track" role="progressbar" aria-valuenow="${score}" aria-valuemin="0" aria-valuemax="100" aria-label="${meta.name} global average: ${score} out of 100">
-        <div class="eth-fill" style="background:${meta.color}" data-t="${score}"></div>
-      </div>
-      <div class="eth-score" style="color:${meta.color}" aria-hidden="true">${score}</div>
-      <div class="eth-meta">
-        <div class="eth-jcount">${dim?.jurisdiction_count??0} jurisdictions</div>
-        ${dim?.highest!=null?`<div class="eth-high">High: ${dim.highest}</div>`:''}
-      </div>
-    </div>`;
-  }).join('');
-}
-
-/* ─── TICKER ─────────────────────────────────────── */
-function renderTicker(){
-  const el=document.getElementById('ticker'); if(!el)return;
-  const items=(DATA&&DATA.jurisdictions||[]).map(j=>({iso:j.iso||j.id.toUpperCase(),text:(j.name||'')+' — '+(j.status||'')+' · composite '+(j.composite_score??'n/a')+'/100'}));
-  if(!items.length){el.textContent='';return;}
-  el.innerHTML=[...items,...items].map(t=>`<span class="t-item"><b>${t.iso}</b>${t.text}</span>`).join('');
-}
-
-
-/* ─── ANIMATIONS ─────────────────────────────────── */
-function countUp(){
-  if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){
-    document.querySelectorAll('.cu').forEach(el=>el.textContent=el.dataset.t||0); return;
-  }
-  document.querySelectorAll('.cu').forEach(el=>{
-    const tgt=+el.dataset.t||0; if(!tgt)return;
-    const dur=1800,t0=performance.now();
-    const step=now=>{
-      const p=Math.min((now-t0)/dur,1),e=1-Math.pow(1-p,3);
-      el.textContent=Math.floor(e*tgt);
-      if(p<1)requestAnimationFrame(step); else el.textContent=tgt;
-    };
-    requestAnimationFrame(step);
-  });
-}
-function animBars(){
-  if(barsAnimated)return; barsAnimated=true;
-  document.querySelectorAll('.eth-fill').forEach(b=>b.style.width=b.dataset.t+'%');
-}
-const obs=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{
-    if(e.isIntersecting){
-      e.target.classList.add('vis');
-      if(e.target.id==='ethics')setTimeout(animBars,500);
-    }
-  });
-},{threshold:.08});
-document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
-
-/* ─── GLOBAL SECTIONS ────────────────────────────── */
-const esc=t=>String(t??'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
-const grefs=(ids,pre)=>(ids||[]).map(id=>`<span class="gl-ref"><a href="#${pre}-${id}" aria-label="Source ${id}">[${id}]</a></span>`).join('');
-const gconf=c=>c?`<span class="gl-conf">Confidence: ${c}</span>`:'';
-function gsrc(d,pre,label){
-  if(!d?.sources?.length)return '';
-  return `<div class="gl-src" role="region" aria-label="${label}"><div class="sec-label">${label}</div><ol>${d.sources.map(x=>`<li id="${pre}-${x.id}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> — ${esc(x.publisher)}${x.date?', '+esc(x.date):''}<span class="ev-tag ${x.type==='primary'?'ev-p':'ev-s'}">${esc(x.type)}</span> <span class="ev-note">accessed ${esc(x.accessed)}</span></li>`).join('')}</ol></div>`;
-}
-async function getJ(f){try{const r=await fetch('data/global/'+f);return r.ok?await r.json():null;}catch(e){return null;}}
-async function renderGlobal(){
-  const [ins,tr,dc]=await Promise.all([getJ('instruments.json'),getJ('trajectories.json'),getJ('datacentres.json')]);
-  if(ins){
-    document.getElementById('instList').innerHTML=ins.items.map(i=>`<article class="gl-card" role="listitem"><div class="gl-meta">${esc(i.body)} · ${esc(i.kind)}</div><h3>${esc(i.name)}</h3><div class="gl-meta"><span class="gl-badge">${esc(i.binding)}</span>${esc(i.status)}</div><p>${esc(i.summary)}</p><p class="gl-cit">In plain language: ${esc(i.citizen)}</p><div>${grefs(i.source_ids,'isrc')} ${gconf(i.confidence)}</div>${i.note?`<div class="ev-note">${esc(i.note)}</div>`:''}</article>`).join('')
-      +(ins.gaps?.length?`<div class="gl-card"><h4>Not yet covered</h4><p>${ins.gaps.map(esc).join(' ')}</p></div>`:'');
-    document.getElementById('instSrc').innerHTML=gsrc(ins,'isrc','Sources for instruments');
-  }
-  if(tr){
-    document.getElementById('trajList').innerHTML=tr.themes.map(t=>`<div class="gl-theme"><h3 class="gl-h">${esc(t.title)}</h3><p style="font-size:15px;color:var(--text2,#C9CDD4);line-height:1.8">${esc(t.summary)}</p><p class="gl-dir">Direction: ${esc(t.direction)}</p><div class="gl-grid" role="list">${t.items.map(i=>`<article class="gl-card" role="listitem"><div class="gl-meta"><span class="gl-badge">${esc(i.iso)}</span>${esc(i.date)}</div><h4>${esc(i.name)}</h4><div class="gl-meta">${esc(i.status)}</div><p>${esc(i.stance)}</p><p class="gl-cit">Chance of becoming law near term: ${esc(i.likelihood)} (editorial judgement)</p><div>${grefs(i.source_ids,'tsrc')} ${gconf(i.confidence)}</div>${i.note?`<div class="ev-note">${esc(i.note)}</div>`:''}</article>`).join('')}</div></div>`).join('')
-      +`<h3 class="gl-h">What experts say about shutdown</h3><div class="gl-grid">${tr.expert_views.map(v=>`<div class="gl-card"><p>${esc(v.view)}</p><div>${grefs(v.source_ids,'tsrc')}</div></div>`).join('')}</div>`;
-    document.getElementById('trajSrc').innerHTML=gsrc(tr,'tsrc','Sources for trajectories');
-  }
-  if(dc){
-    let wm=null;try{const r=await fetch('data/global/worldmap.json');if(r.ok)wm=await r.json();}catch(e){}
-    const X=lon=>(lon+180)/360*1000, Y=lat=>(90-lat)/180*500;
-    const STG={operating:'#5FD3B0',under_construction:'#E0B866',planned:'#7FB2FF',proposed:'#C79BFF'};
-    const STL={operating:'Operating',under_construction:'Under construction',planned:'Planned',proposed:'Proposed'};
-    const col=x=>x.rating===null?'#8B9099':x.rating>=70?'#5FD3B0':x.rating>=50?'#E0B866':x.rating>=30?'#F0A060':'#FF7A7A';
-    const meth=dc.methodology;
-    const ratingTxt=x=>x.rating===null?'Not rated':x.rating+(x.rating_status==='indicative'?' (indicative)':' · '+x.rating_label);
-    document.getElementById('dcMap').innerHTML=`<svg class="dc-map" viewBox="0 45 1000 335" role="img" aria-label="World map of ${dc.sites.length} AI data centre sites, operating, under construction, planned or proposed: ${dc.sites.map(x=>esc(x.name)+' ('+STL[x.stage]+')').join('; ')}">${wm?`<path d="${wm.d}" fill="rgba(196,160,99,.07)" stroke="#3a3f4b" stroke-width=".6"/>`:''}${dc.sites.map(x=>`<g><circle cx="${X(x.lon)}" cy="${Y(x.lat)}" r="6" fill="${STG[x.stage]}" opacity=".9"/><circle cx="${X(x.lon)}" cy="${Y(x.lat)}" r="3" fill="${col(x)}"/></g>`).join('')}</svg><div class="dc-key" role="list" aria-label="Map key">${Object.keys(STG).map(k=>`<span role="listitem"><i style="background:${STG[k]}"></i>${STL[k]}</span>`).join('')}<span class="ev-note">Outer ring = stage. Inner dot = rating colour (grey = not rated). Positions approximate.</span></div>`;
-    document.getElementById('dcMeth').innerHTML=`<div class="gl-src"><div class="sec-label">${esc(meth.name)}: how it works</div><p style="font-size:14px;color:var(--text2,#C9CDD4);line-height:1.8">${esc(meth.scale)} ${esc(meth.basis)}</p><ul class="dc-crit">${meth.criteria.map(c=>`<li><b>${esc(c.label)}</b> (${c.weight}%): ${esc(c.asks)}</li>`).join('')}</ul><p class="ev-note">${esc(meth.rules)}</p></div>`;
-    const drawSites=()=>{const f=document.getElementById('dcStage').value;document.getElementById('dcSites').innerHTML=dc.sites.filter(x=>!f||x.stage===f).map(x=>`<article class="gl-card" role="listitem"><div class="gl-meta"><span class="gl-badge" style="color:${STG[x.stage]}">${STL[x.stage]}</span>${esc(x.operator)}</div><h4>${esc(x.name)}</h4><div class="gl-meta">${esc(x.place)}</div><div class="dc-rate" style="border-color:${col(x)}"><span class="dc-rate-n" style="color:${col(x)}">${x.rating===null?'—':x.rating}</span><span>${esc(ratingTxt(x))}<br><span class="ev-note">${x.evidence_count} of ${meth.criteria.length} criteria have evidence</span></span></div><p><b>Capacity:</b> ${esc(x.capacity)}<br><b>Status:</b> ${esc(x.status)}</p>${meth.criteria.map(c=>{const k=x.criteria&&x.criteria[c.id];return `<div class="dc-c"><span class="dc-cl">${esc(c.label)}</span>${k?`<span class="dc-bar"><span style="width:${k.score}%;background:${col({rating:k.score})}"></span></span><span class="dc-cn">${k.score}</span><div class="ev-note">${esc(k.note)} ${grefs(k.source_ids,'dsrc')}</div>`:'<span class="ev-note">Not disclosed</span>'}</div>`}).join('')}<p class="gl-cit">${esc(x.ethics)}</p><div>${grefs(x.source_ids,'dsrc')} ${gconf(x.confidence)}</div></article>`).join('');};
-    document.getElementById('dcStage').addEventListener('change',drawSites);drawSites();
-    document.getElementById('dcPolicy').innerHTML=dc.policy.map(x=>`<article class="gl-card" role="listitem"><div class="gl-meta"><span class="gl-badge">${esc(x.iso)}</span>${esc(x.approach)}</div><h4>${esc(x.region)}</h4><p>${esc(x.detail)}</p><div>${grefs(x.source_ids,'dsrc')} ${gconf(x.confidence)}</div>${x.note?`<div class="ev-note">${esc(x.note)}</div>`:''}</article>`).join('');
-    document.getElementById('dcIssues').innerHTML=dc.ethical_issues.map(x=>`<article class="gl-card" role="listitem"><h4>${esc(x.issue)}</h4><p>${esc(x.detail)}</p><div>${grefs(x.source_ids,'dsrc')}</div></article>`).join('');
-    document.getElementById('dcOpp').innerHTML=`<div class="gl-card" style="margin-top:20px"><h4>Local opposition</h4><p>${esc(dc.opposition.summary)}</p><div>${grefs(dc.opposition.source_ids,'dsrc')} ${gconf(dc.opposition.confidence)}</div></div><p class="ev-note" style="margin-top:12px">${esc(dc.note)}</p>`;
-    document.getElementById('dcSrc').innerHTML=gsrc(dc,'dsrc','Sources for data centres');
-  }
-  document.querySelectorAll('.reveal:not(.vis)').forEach(el=>obs.observe(el));
-}
-renderGlobal();
-
-async function renderLibrary(){
-  let lib=null;try{const r=await fetch('data/library.json');if(r.ok)lib=await r.json();}catch(e){}
+/* ── library ── */
+async function initLib(){
+  let lib=null;try{const r=await fetch('data/library.json');if(r.ok)lib=await r.json()}catch(e){}
   if(!lib)return;
-  const sel=document.getElementById('libSel');
-  const js=[...new Set(lib.documents.map(d=>d.jurisdiction))].sort();
-  sel.innerHTML='<option value="">All jurisdictions ('+lib.documents.length+' documents)</option>'+js.map(j=>`<option value="${esc(j)}">${esc(j)}</option>`).join('');
-  const draw=()=>{const f=sel.value;document.getElementById('libList').innerHTML=lib.documents.filter(d=>!f||d.jurisdiction===f).map(d=>`<article class="gl-card" role="listitem"><div class="gl-meta"><span class="gl-badge">${esc(d.jurisdiction)}</span>${esc(d.type.replace(/_/g,' '))}${d.date?' · '+esc(d.date):''}</div><h4><a href="${esc(d.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(d.title)}</a></h4><p>${esc(d.publisher)}</p><div class="gl-conf">${d.verified?'<span class="lib-ok">&#10003; fetched</span>':'<span class="lib-no">&#10003; not yet fetched</span>'}${d.checked?' · checked '+esc(d.checked.slice(0,10)):''}${d.sha256?' · fingerprint '+esc(d.sha256):''}${d.text_chars?' · '+d.text_chars.toLocaleString()+' characters read':''}</div>${d.error?`<div class="ev-note">Last error: ${esc(d.error)}</div>`:''}${d.note?`<div class="ev-note">${esc(d.note)}</div>`:''}</article>`).join('');};
+  const sel=$('libSel'),js=[...new Set(lib.documents.map(d=>d.jurisdiction))].sort();
+  const have=lib.documents.filter(d=>d.verified===true||d.verified==='True').length;
+  $('lib-note').textContent=`${lib.documents.length} official documents tracked; text has been extracted from ${have}. A watcher checks them daily.`;
+  sel.innerHTML=`<option value="">All jurisdictions</option>`+js.map(j=>`<option value="${esc(j)}">${esc(j==='INT'?'International':j)}</option>`).join('');
+  const draw=()=>{const f=sel.value;$('libList').innerHTML=lib.documents.filter(d=>!f||d.jurisdiction===f).map(d=>`<li><a class="row" style="grid-template-columns:1fr;--c:var(--line)" href="${esc(d.url)}" target="_blank" rel="noopener"><span><span class="row-name" style="font-size:19px">${esc(d.title)}</span><span class="row-meta" style="margin-top:6px"><span class="badge">${esc(d.jurisdiction)}</span><span>${esc(String(d.type||'').replace(/_/g,' '))}</span>${d.date?`<span>${esc(d.date)}</span>`:''}<span>${d.verified===true||d.verified==='True'?'Text extracted':'Link only'}</span></span></span></a></li>`).join('')};
   sel.addEventListener('change',draw);draw();
-  if(lib.latest?.length)document.getElementById('libLatest').innerHTML=`<div class="gl-src"><div class="sec-label">Latest items found by the watcher</div><ol>${lib.latest.map(x=>`<li>${esc(x.jurisdiction)}: <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="ev-note">${esc(x.label)}${x.date?', '+esc(x.date):''}</span></li>`).join('')}</ol></div>`;
-  document.querySelectorAll('.reveal:not(.vis)').forEach(el=>obs.observe(el));
+  if(lib.latest&&lib.latest.length)$('libLatest').innerHTML=`<h2>Latest found by the watcher</h2><ol class="src-list">${lib.latest.map(x=>`<li>${esc(x.jurisdiction)}: <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="note">${esc(x.label||'')}${x.date?', '+esc(x.date):''}</span></li>`).join('')}</ol>`;
 }
-renderLibrary();
 
-/* ─── HELPERS ────────────────────────────────────── */
-function cap(s){return s?s[0].toUpperCase()+s.slice(1):'—';}
-
-/* ─── INIT ───────────────────────────────────────── */
-fetch('data/ticker.json').then(r=>r.json()).catch(()=>null).finally(()=>{
-  loadData().then(()=>{
-    
-    setTimeout(countUp,700);
-    setTimeout(animBars,1800);
-  });
-});
+/* ── boot ── */
+async function boot(){
+  route(true);
+  seg(document.querySelector('#v-rules .seg'),m=>{$('r-ins').hidden=m!=='ins';$('r-tra').hidden=m!=='tra';});
+  seg(document.querySelector('#v-countries .seg'),m=>{$('c-list').hidden=m!=='list';$('c-map').hidden=m!=='map';$('c-compare').hidden=m!=='compare';if(m==='map')drawCMap();});
+  try{
+    const [a,b,c,w]=await Promise.all([fetch('data/jurisdictions.json').then(r=>r.json()),fetch('data/ethics-scores.json').then(r=>r.json()),fetch('data/meta.json').then(r=>r.json()),getJ('worldmap.json')]);
+    J=a.jurisdictions;ETH=b;META=c;WM=w;
+    const yrs=J.map(j=>String(j.last_updated||'').slice(0,4)).filter(Boolean).sort(),yr=yrs[yrs.length-1];
+    const prov=J.filter(j=>j.provisional).length;
+    $('intro').textContent=`${J.length} jurisdictions traced to their sources. Latest capture ${yr}.`;window.PROV=prov;
+    drawChips();drawRows();
+    $('q').addEventListener('input',e=>{F.q=e.target.value.trim().toLowerCase();drawRows();});
+    $('sort').addEventListener('change',e=>{F.sort=e.target.value;drawRows();});
+    $('rchips').innerHTML=Object.entries(REG).map(([k,[l]])=>`<button type="button" class="chip" data-r="${k}" aria-pressed="${k===curReg}">${l}</button>`).join('');
+    $('rchips').querySelectorAll('button').forEach(bt=>bt.addEventListener('click',()=>{curReg=bt.dataset.r;$('rchips').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===bt));drawCMap();}));
+    $('dim').innerHTML=Object.keys(DM).filter(k=>ETH.dimensions[k]).map(k=>`<option value="${k}">${DM[k][0]}</option>`).join('');
+    $('dim').addEventListener('change',drawCompare);drawCompare();
+  }catch(e){$('intro').innerHTML='<span class="msg err" style="display:block">The data could not be loaded. Check your connection and reload the page.</span>';}
+  const [ins,tr,dc]=await Promise.all([getJ('instruments.json'),getJ('trajectories.json'),getJ('datacentres.json')]);
+  drawRules(ins,tr);if(dc)initDC(dc);
+  initLib();
+}
+boot();
 </script>
 </body>
 </html>

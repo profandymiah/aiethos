@@ -210,6 +210,7 @@ function transformCard(entry) {
       return acc;
     }, {}),
     gaps_count: (j.research_layer?.gaps_and_weaknesses || []).length,
+    provisional: !!(j.evidence?.sources?.length) && !j.evidence.sources.some(x => x.type === 'primary'),
 
     one_line:       j.citizen_layer?.one_line,
     rights_count:   (j.citizen_layer?.your_rights || []).length,

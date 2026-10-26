@@ -146,6 +146,7 @@ const T0 = Date.now(), BUDGET = 20 * 60 * 1000;
     if (n % 100 === 0) console.log('verified', n, '/', cand.size);
   }
   out.forEach(p => { if (!p.seed) { const t = Object.keys(THEME_RE).filter(k => THEME_RE[k].test(p.title)); p.theme_ids = t.length ? t : ['principles']; } });
+  if (out.length < 30 && fs.existsSync('library/scholarly.json')) { console.log('Too few verified papers (' + out.length + '); keeping the previous file.'); process.exit(0); }
   out.sort((a, b) => a.year - b.year || b.cited_by - a.cited_by);
   fs.mkdirSync('library', { recursive: true });
   fs.writeFileSync('library/scholarly.json', JSON.stringify({ generated: new Date().toISOString(), source: 'Crossref search ranked by citations, filtered for AI plus ethics terms in the title (Google Scholar has no API and blocks automated access; OpenAlex rate-limited), journal-article type, publisher whitelist and retraction checks',

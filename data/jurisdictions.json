@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-10-25T17:46:12.271Z",
+  "_generated": "2026-10-26T08:11:54.573Z",
   "count": 15,
   "jurisdictions": [
     {
@@ -31,6 +31,7 @@
         "access_to_remedy": 50
       },
       "gaps_count": 2,
+      "provisional": true,
       "one_line": "Australia decided not to pass an AI law and instead relies on existing laws; government agencies face new AI rules.",
       "rights_count": 1,
       "examples_count": 0,
@@ -65,6 +66,7 @@
         "access_to_remedy": 45
       },
       "gaps_count": 3,
+      "provisional": true,
       "one_line": "Brazil is close to passing an EU-style AI law but it has stalled in Congress; for now privacy law is the main protection.",
       "rights_count": 1,
       "examples_count": 0,
@@ -99,6 +101,7 @@
         "access_to_remedy": 50
       },
       "gaps_count": 3,
+      "provisional": true,
       "one_line": "Canada has no national AI law yet; protections come from privacy rules, some provincial laws and voluntary codes.",
       "rights_count": 2,
       "examples_count": 0,
@@ -133,6 +136,7 @@
         "access_to_remedy": 40
       },
       "gaps_count": 3,
+      "provisional": true,
       "one_line": "In China the state sets the rules on AI: AI content must be labelled and companies must file their systems with regulators.",
       "rights_count": 2,
       "examples_count": 0,
@@ -167,6 +171,7 @@
         "access_to_remedy": 77
       },
       "gaps_count": 5,
+      "provisional": false,
       "one_line": "The EU has passed the world's most comprehensive law controlling how AI can be used — it bans some uses outright and requires companies to justify high-stakes AI decisions that affect you.",
       "rights_count": 4,
       "examples_count": 4,
@@ -201,6 +206,7 @@
         "access_to_remedy": 35
       },
       "gaps_count": 3,
+      "provisional": true,
       "one_line": "India relies on voluntary guidelines for AI, with firm rules on deepfake labelling and data protection.",
       "rights_count": 2,
       "examples_count": 0,
@@ -235,6 +241,7 @@
         "access_to_remedy": 30
       },
       "gaps_count": 3,
+      "provisional": true,
       "one_line": "Japan encourages responsible AI through guidance and national plans rather than strict rules or fines.",
       "rights_count": 1,
       "examples_count": 0,
@@ -269,6 +276,7 @@
         "access_to_remedy": 45
       },
       "gaps_count": 3,
+      "provisional": true,
       "one_line": "Kenya has published a rights-focused AI bill but it is not yet law; data protection law is the main safeguard.",
       "rights_count": 1,
       "examples_count": 0,
@@ -303,6 +311,7 @@
         "access_to_remedy": 35
       },
       "gaps_count": 2,
+      "provisional": true,
       "one_line": "Singapore guides AI through voluntary frameworks and testing tools rather than a single AI law.",
       "rights_count": 1,
       "examples_count": 0,
@@ -337,6 +346,7 @@
         "access_to_remedy": 50
       },
       "gaps_count": 3,
+      "provisional": false,
       "one_line": "South Korea now has a binding AI law that makes companies label AI content and take extra care when AI affects your health, job or rights.",
       "rights_count": 2,
       "examples_count": 0,
@@ -371,6 +381,7 @@
         "access_to_remedy": 50
       },
       "gaps_count": 2,
+      "provisional": true,
       "one_line": "Switzerland will not copy the EU's AI Act; it plans to adopt the Council of Europe treaty and adjust sector laws.",
       "rights_count": 1,
       "examples_count": 0,
@@ -405,6 +416,7 @@
         "access_to_remedy": 35
       },
       "gaps_count": 2,
+      "provisional": true,
       "one_line": "The UAE has no single AI law; rules differ between the federal government, free zones and sectors.",
       "rights_count": 1,
       "examples_count": 0,
@@ -439,6 +451,7 @@
         "access_to_remedy": 64
       },
       "gaps_count": 7,
+      "provisional": false,
       "one_line": "The UK has chosen not to pass a single AI law — instead existing regulators in each industry are responsible for keeping AI in check, which means your protections depend on which sector you're in.",
       "rights_count": 4,
       "examples_count": 3,
@@ -473,6 +486,7 @@
         "access_to_remedy": 38
       },
       "gaps_count": 4,
+      "provisional": false,
       "one_line": "The US has no single national AI law — your protections depend entirely on which state you live in and which industry is using AI on you.",
       "rights_count": 3,
       "examples_count": 2,
@@ -507,6 +521,7 @@
         "access_to_remedy": 50
       },
       "gaps_count": 2,
+      "provisional": true,
       "one_line": "Vietnam now has a binding AI law that sorts AI by risk and requires labelling of AI-made media.",
       "rights_count": 1,
       "examples_count": 0,
