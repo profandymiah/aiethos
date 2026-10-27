@@ -104,6 +104,12 @@ Portal da Câmara dos Deputados
  Data 
  A&ccedil;&atilde;o 
 
+ 26/10/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 3615/2026 à proposição PL 6708/2025. 
+
  02/09/2026 
 
  Mesa Diretora ( MESA )
@@ -258,7 +264,7 @@ Portal da Câmara dos Deputados
 
  Apensados ao 
  PL 2338/2023
- ( 37
+ ( 38
  )
 
  PL 1685/2025 
@@ -366,7 +372,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 3009/2025 
- (2) 
+ (3) 
 
  PL 3009/2025 
 
@@ -378,7 +384,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 6708/2025 
- (1) 
+ (2) 
 
  PL 6708/2025 
 
@@ -398,6 +404,17 @@ Portal da Câmara dos Deputados
 
  Ementa: 
  Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para incluir a literacia e cidadania digital, com ênfase em Inteligência Artificial, como tema transversal na educação básica e superior da rede pública de ensino.
+
+ , 
+ PL 3615/2026 
+
+ PL 3615/2026 
+
+ Autor: 
+ Capitão Alberto Neto
+
+ Ementa: 
+ Altera a redação do § 11 do art. 26 da Lei nº 9.394, de 20 de dezembro de 1996, de diretrizes e bases da educação nacional, para inserir referência à inteligência artificial no foco da educação digital no ensino fundamental e médio.
 
  , 
  PL 3782/2025 
@@ -2251,6 +2268,14 @@ Portal da Câmara dos Deputados
  Mesa Diretora ( MESA )
 
  Apensação da proposição PL 1542/2026 à proposição PL 904/2026.
+
+ Inteiro teor
+
+ 26/10/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 3615/2026 à proposição PL 6708/2025.
 
  Inteiro teor
 

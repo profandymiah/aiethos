@@ -1,14 +1,23 @@
 {
-  "run_at": "2026-10-26T13:08:54.330Z",
+  "run_at": "2026-10-27T12:17:10.088Z",
   "changed": [
+    {
+      "id": "un-panel-page",
+      "title": "UN Independent International Scientific Panel on AI",
+      "url": "https://www.un.org/independent-international-scientific-panel-ai/en",
+      "jurisdiction": "INT",
+      "priority": "high",
+      "chars_before": 2584,
+      "chars_after": 2355
+    },
     {
       "id": "cn-cac",
       "title": "Cyberspace Administration of China (English site)",
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5186,
-      "chars_after": 5206
+      "chars_before": 5206,
+      "chars_after": 5166
     },
     {
       "id": "vn-gov",
@@ -16,8 +25,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 27774,
-      "chars_after": 24572
+      "chars_before": 24572,
+      "chars_after": 25565
     },
     {
       "id": "br-pl2338",
@@ -29,13 +38,22 @@
       "chars_after": 230249
     },
     {
+      "id": "br-camara",
+      "title": "PL 2338/2023 Chamber of Deputies proceeding",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+      "jurisdiction": "BR",
+      "priority": "medium",
+      "chars_before": 223011,
+      "chars_after": 223564
+    },
+    {
       "id": "ae-uae-ai",
       "title": "UAE Government portal: Artificial Intelligence",
       "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
       "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 759,
-      "chars_after": 757
+      "chars_before": 757,
+      "chars_after": 759
     },
     {
       "id": "us-eo-14179",
@@ -52,18 +70,18 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2141,
-      "chars_after": 2135
+      "chars_before": 2135,
+      "chars_after": 2160
     }
   ],
-  "new": [
+  "new": [],
+  "failed": [
     {
       "id": "coe-treaty-page",
       "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225"
-    }
-  ],
-  "failed": [
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "error": "HTTP 403"
+    },
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",

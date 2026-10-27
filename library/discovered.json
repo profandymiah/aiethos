@@ -1,97 +1,108 @@
 {
-  "run_at": "2026-10-26T13:19:40.356Z",
+  "run_at": "2026-10-27T12:28:26.793Z",
   "new_items": [
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/trade-mark-disputes-unpaid-costs-orders",
-      "title": "Trade mark disputes: unpaid costs orders",
-      "url": "https://www.gov.uk/government/publications/trade-mark-disputes-unpaid-costs-orders",
-      "date": "2026-10-26T13:18:24+00:00"
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-21884",
+      "title": "Critical Material List; Addition of Helium",
+      "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21884/critical-material-list-addition-of-helium",
+      "date": "2026-10-27",
+      "extra": "Notice"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/proscription-policy-and-process-statement",
-      "title": "Proscription policy and process statement",
-      "url": "https://www.gov.uk/government/publications/proscription-policy-and-process-statement",
-      "date": "2026-10-26T12:53:22+00:00"
+      "id": "https://www.gov.uk/government/organisations/commission-on-human-medicines/about/membership",
+      "title": "Membership - Commission on Human Medicines",
+      "url": "https://www.gov.uk/government/organisations/commission-on-human-medicines/about/membership",
+      "date": "2026-10-27T12:21:39+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024",
-      "title": "Mr A Verma v Manchester University NHS Foundation Trust: 2402904/2024",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024",
-      "date": "2026-10-26T12:32:16+00:00"
+      "id": "https://www.gov.uk/government/publications/professional-bodies-approved-for-tax-relief-list-3",
+      "title": "List of approved professional organisations and learned societies (List 3)",
+      "url": "https://www.gov.uk/government/publications/professional-bodies-approved-for-tax-relief-list-3",
+      "date": "2026-10-27T11:32:10+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/four-million-illegal-cigarettes-seized-in-border-force-crackdown",
-      "title": "Four million illegal cigarettes seized in Border Force crackdown",
-      "url": "https://www.gov.uk/government/news/four-million-illegal-cigarettes-seized-in-border-force-crackdown",
-      "date": "2026-10-26T11:44:50+00:00"
+      "id": "https://www.gov.uk/government/consultations/restructuring-hm-land-registry-fees",
+      "title": "Restructuring HM Land Registry fees",
+      "url": "https://www.gov.uk/government/consultations/restructuring-hm-land-registry-fees",
+      "date": "2026-10-27T11:00:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
-      "title": "Government response to SSAC Occasional Paper 27: The influence of the social security system on educational and vocational decision-making at age 16",
-      "url": "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
-      "date": "2026-10-26T11:00:03+00:00"
+      "id": "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
+      "title": "Future of access to HM Land Registry information",
+      "url": "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
+      "date": "2026-10-27T11:00:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/hiv-east-of-england-annual-data-spotlight",
-      "title": "HIV: East of England annual data spotlight",
-      "url": "https://www.gov.uk/government/publications/hiv-east-of-england-annual-data-spotlight",
-      "date": "2026-10-26T10:09:27+00:00"
+      "id": "https://www.gov.uk/government/publications/undertaking-and-notices-of-monetary-penalty-and-costs-recovery-innovate",
+      "title": "Undertaking and notices of monetary penalty and costs recovery: Innovate",
+      "url": "https://www.gov.uk/government/publications/undertaking-and-notices-of-monetary-penalty-and-costs-recovery-innovate",
+      "date": "2026-10-27T09:30:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/mobilising-private-finance-for-local-nature-recovery",
-      "title": "Mobilising private finance for local nature recovery",
-      "url": "https://www.gov.uk/government/publications/mobilising-private-finance-for-local-nature-recovery",
-      "date": "2026-10-26T09:30:00+00:00"
+      "id": "https://www.gov.uk/government/statistics/port-freight-annual-statistics-2025",
+      "title": "Port freight annual statistics: 2025",
+      "url": "https://www.gov.uk/government/statistics/port-freight-annual-statistics-2025",
+      "date": "2026-10-27T09:30:01+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland",
-      "title": "Identifying and protecting archaeological features in woodland",
-      "url": "https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland",
-      "date": "2026-10-26T09:30:00+00:00"
+      "id": "https://www.gov.uk/government/statistics/private-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "title": "Private registered provider social housing stock and rents in England 2025 to 2026",
+      "url": "https://www.gov.uk/government/statistics/private-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "date": "2026-10-27T09:30:01+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
-      "title": "Company Names Tribunal undefended decisions and orders",
-      "url": "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
-      "date": "2026-10-26T08:48:36+00:00"
+      "id": "https://www.gov.uk/government/publications/summary-of-questions-included-in-the-desnz-public-attitudes-tracker",
+      "title": "Summary of questions included in the DESNZ Public Attitudes Tracker",
+      "url": "https://www.gov.uk/government/publications/summary-of-questions-included-in-the-desnz-public-attitudes-tracker",
+      "date": "2026-10-27T09:30:01+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/statistics/local-authority-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "title": "Local authority registered provider social housing stock and rents in England 2025 to 2026",
+      "url": "https://www.gov.uk/government/statistics/local-authority-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "date": "2026-10-27T09:30:01+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/statistics/registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "title": "Registered provider social housing stock and rents in England 2025 to 2026",
+      "url": "https://www.gov.uk/government/statistics/registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "date": "2026-10-27T09:30:01+00:00"
     }
   ],
-  "page_changes": [
-    {
-      "source": "regulations-ai",
-      "label": "regulations.ai global tracker (secondary signal)",
-      "jurisdiction": "INT",
-      "url": "https://regulations.ai/",
-      "signal": true
-    }
-  ],
+  "page_changes": [],
   "errors": [
     {
       "source": "ec-ai-news",

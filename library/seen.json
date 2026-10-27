@@ -1,6 +1,7 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-21884",
       "2026-21786",
       "2026-21723",
       "2026-21710",
@@ -29,7 +30,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-26T13:19:40.356Z"
+    "last_checked": "2026-10-27T12:28:26.793Z"
   },
   "uk-bills": {
     "ids": [
@@ -40,10 +41,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-26T13:19:40.356Z"
+    "last_checked": "2026-10-27T12:28:26.793Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/organisations/commission-on-human-medicines/about/membership",
+      "https://www.gov.uk/government/publications/professional-bodies-approved-for-tax-relief-list-3",
+      "https://www.gov.uk/government/consultations/restructuring-hm-land-registry-fees",
+      "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
+      "https://www.gov.uk/government/publications/undertaking-and-notices-of-monetary-penalty-and-costs-recovery-innovate",
+      "https://www.gov.uk/government/statistics/port-freight-annual-statistics-2025",
+      "https://www.gov.uk/government/statistics/private-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "https://www.gov.uk/government/publications/summary-of-questions-included-in-the-desnz-public-attitudes-tracker",
+      "https://www.gov.uk/government/statistics/local-authority-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
+      "https://www.gov.uk/government/statistics/registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026",
       "https://www.gov.uk/government/publications/trade-mark-disputes-unpaid-costs-orders",
       "https://www.gov.uk/government/publications/proscription-policy-and-process-statement",
       "https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024",
@@ -66,7 +77,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-26T13:19:40.356Z"
+    "last_checked": "2026-10-27T12:28:26.793Z"
   },
   "ec-ai-news": {
     "ids": [],
@@ -77,7 +88,7 @@
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-10-26T13:19:40.356Z"
+    "last_checked": "2026-10-27T12:28:26.793Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -88,18 +99,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-10-26T13:19:40.356Z"
+    "last_checked": "2026-10-27T12:28:26.793Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "9811ffc128c10332b8f99d32f0a546e8d0104ffd5aa9b7e359fbc96daf78334f",
     "initialised": true,
-    "last_checked": "2026-10-26T13:19:40.356Z"
+    "last_checked": "2026-10-27T12:28:26.793Z"
   },
   "regulations-ai": {
     "ids": [],
     "page_hash": "e5b397be3066e4fcef815cfa263f08676c1808845e06bf66153271ec52b5b6da",
     "initialised": true,
-    "last_checked": "2026-10-26T13:19:40.356Z"
+    "last_checked": "2026-10-27T12:28:26.793Z"
   }
 }
