@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-10-27T12:17:10.088Z",
+  "run_at": "2026-10-28T13:00:45.740Z",
   "changed": [
     {
-      "id": "un-panel-page",
-      "title": "UN Independent International Scientific Panel on AI",
-      "url": "https://www.un.org/independent-international-scientific-panel-ai/en",
-      "jurisdiction": "INT",
+      "id": "jp-cao-ai",
+      "title": "Cabinet Office AI policy page (AI Promotion Act, Basic Plan)",
+      "url": "https://www8.cao.go.jp/cstp/ai/index.html",
+      "jurisdiction": "JP",
       "priority": "high",
-      "chars_before": 2584,
-      "chars_after": 2355
+      "chars_before": 1363,
+      "chars_after": 1387
     },
     {
       "id": "cn-cac",
@@ -16,8 +16,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5206,
-      "chars_after": 5166
+      "chars_before": 5166,
+      "chars_after": 5240
     },
     {
       "id": "vn-gov",
@@ -25,8 +25,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 24572,
-      "chars_after": 25565
+      "chars_before": 25565,
+      "chars_after": 26860
     },
     {
       "id": "br-pl2338",
@@ -43,17 +43,8 @@
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
       "jurisdiction": "BR",
       "priority": "medium",
-      "chars_before": 223011,
-      "chars_after": 223564
-    },
-    {
-      "id": "ae-uae-ai",
-      "title": "UAE Government portal: Artificial Intelligence",
-      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
-      "jurisdiction": "AE",
-      "priority": "high",
-      "chars_before": 757,
-      "chars_after": 759
+      "chars_before": 223564,
+      "chars_after": 225167
     },
     {
       "id": "us-eo-14179",
@@ -65,16 +56,31 @@
       "chars_after": 13782
     },
     {
+      "id": "cn-labelling",
+      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
+      "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
+      "jurisdiction": "CN",
+      "priority": "high",
+      "chars_before": 13591,
+      "chars_after": 14544
+    },
+    {
       "id": "kr-ai-basic-act",
       "title": "AI Basic Act (English translation)",
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2135,
-      "chars_after": 2160
+      "chars_before": 2160,
+      "chars_after": 2141
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "id": "ca-legisinfo",
+      "title": "LEGISinfo: Parliament of Canada bills",
+      "url": "https://www.parl.ca/legisinfo/en/bills"
+    }
+  ],
   "failed": [
     {
       "id": "coe-treaty-page",
@@ -146,12 +152,6 @@
       "id": "in-pib",
       "title": "PIB press releases on AI (watch page)",
       "url": "https://pib.gov.in/allRel.aspx",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "ca-legisinfo",
-      "title": "LEGISinfo: Parliament of Canada bills",
-      "url": "https://www.parl.ca/legisinfo/en/bills",
       "error": "HTTP 403"
     },
     {

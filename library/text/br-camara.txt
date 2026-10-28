@@ -104,6 +104,18 @@ Portal da Câmara dos Deputados
  Data 
  A&ccedil;&atilde;o 
 
+ 27/10/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 3560/2026 à proposição PL 728/2026. 
+
+ 27/10/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 3382/2026 à proposição PL 904/2026. 
+
  26/10/2026 
 
  Mesa Diretora ( MESA )
@@ -264,7 +276,7 @@ Portal da Câmara dos Deputados
 
  Apensados ao 
  PL 2338/2023
- ( 38
+ ( 40
  )
 
  PL 1685/2025 
@@ -566,7 +578,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 4358/2025 
- (5) 
+ (7) 
 
  PL 4358/2025 
 
@@ -589,6 +601,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 728/2026 
+ (1) 
 
  PL 728/2026 
 
@@ -603,8 +616,19 @@ Portal da Câmara dos Deputados
  Altera a Lei nº 12.527, de 18 de Novembro de 2011, a Lei nº 13.709, de 14 de Agosto de 2018, a Lei nº 14.133, de 1º de Abril de 2021, e a Lei nº 12.965, de 23 de Abril de 2014.
 
  , 
+ PL 3560/2026 
+
+ PL 3560/2026 
+
+ Autor: 
+ José Medeiros
+
+ Ementa: 
+ Institui a Auditoria Obrigatória de Transparência Algorítmica na Administração Pública Federal, estabelece normas de transparência, auditabilidade e explicabilidade para sistemas automatizados utilizados na tomada de decisões administrativas que afetem direitos dos cidadãos.
+
+ , 
  PL 904/2026 
- (1) 
+ (2) 
 
  PL 904/2026 
 
@@ -628,6 +652,17 @@ Portal da Câmara dos Deputados
 
  Ementa: 
  Estabelece o Marco de Responsabilidade por Sistemas Autônomos no Brasil, disciplinando a responsabilidade civil, administrativa e regulatória por danos causados por sistemas baseados em inteligência artificial e automação decisória, e dá outras providências. 
+
+ , 
+ PL 3382/2026 
+
+ PL 3382/2026 
+
+ Autor: 
+ Rubens Pereira Júnior
+
+ Ementa: 
+ Regulamenta o uso de automação, algoritmos e inteligência artificial em processos de fiscalização e na lavratura de autos de infração por órgãos e agências reguladoras federais; proíbe autuação unicamente fundamentada em decisão automatizada; exige revisão humana qualificada anterior à autuação formal; impõe obrigações de transparência, auditabilidade e notificação preventiva ao administrado; institui comitê consultivo para validação e acompanhamento de modelos; determina a publicação anual de indicadores de qualidade das fiscalizações assistidas por automação; disciplina sanções administrativas em caso de uso indevido; altera dispositivos das Leis nº 9.784/1999, nº 12.527/2011 e nº 13.709/2018; e dá outras providências.
 
  , 
  PL 1523/2026 
@@ -2276,6 +2311,18 @@ Portal da Câmara dos Deputados
  Mesa Diretora ( MESA )
 
  Apensação da proposição PL 3615/2026 à proposição PL 6708/2025.
+
+ Inteiro teor
+
+ 27/10/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 3382/2026 à proposição PL 904/2026.
+
+ Inteiro teor
+
+ Apensação da proposição PL 3560/2026 à proposição PL 728/2026.
 
  Inteiro teor
 

@@ -1,6 +1,11 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-21989",
+      "2026-21966",
+      "2026-21948",
+      "2026-21943",
+      "2026-21939",
       "2026-21884",
       "2026-21786",
       "2026-21723",
@@ -30,7 +35,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-27T12:28:26.793Z"
+    "last_checked": "2026-10-28T13:12:01.976Z"
   },
   "uk-bills": {
     "ids": [
@@ -41,10 +46,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-27T12:28:26.793Z"
+    "last_checked": "2026-10-28T13:12:01.976Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/further-education-initial-teacher-education",
+      "https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008",
+      "https://www.gov.uk/employment-tribunal-decisions/x-v-y-2413027-slash-2023",
+      "https://www.gov.uk/government/publications/methodology-for-estimating-the-scale-and-cost-of-ip-infringement",
+      "https://www.gov.uk/government/case-studies/stakeholder-views-on-tumble-dryer-safety",
+      "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes",
+      "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation",
+      "https://www.gov.uk/government/statistics/civil-service-statistics-2026",
+      "https://www.gov.uk/government/publications/infection-prevention-and-control-ipc-in-adult-social-care-asc",
+      "https://www.gov.uk/employment-tribunal-decisions/mr-j-da-silva-v-getronics-services-uk-ltd-and-others-2303160-slash-2023",
       "https://www.gov.uk/government/organisations/commission-on-human-medicines/about/membership",
       "https://www.gov.uk/government/publications/professional-bodies-approved-for-tax-relief-list-3",
       "https://www.gov.uk/government/consultations/restructuring-hm-land-registry-fees",
@@ -77,7 +92,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-27T12:28:26.793Z"
+    "last_checked": "2026-10-28T13:12:01.976Z"
   },
   "ec-ai-news": {
     "ids": [],
@@ -88,7 +103,7 @@
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-10-27T12:28:26.793Z"
+    "last_checked": "2026-10-28T13:12:01.976Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -99,18 +114,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-10-27T12:28:26.793Z"
+    "last_checked": "2026-10-28T13:12:01.976Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "9811ffc128c10332b8f99d32f0a546e8d0104ffd5aa9b7e359fbc96daf78334f",
     "initialised": true,
-    "last_checked": "2026-10-27T12:28:26.793Z"
+    "last_checked": "2026-10-28T13:12:01.976Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "e5b397be3066e4fcef815cfa263f08676c1808845e06bf66153271ec52b5b6da",
+    "page_hash": "f783cdb6d63948c13edab86af418d47d17114712f1f10186fc1fb843f128fa83",
     "initialised": true,
-    "last_checked": "2026-10-27T12:28:26.793Z"
+    "last_checked": "2026-10-28T13:12:01.976Z"
   }
 }

@@ -1,27 +1,35 @@
 ## Tracked documents that changed
 
-- **un-panel-page** (INT, high): [UN Independent International Scientific Panel on AI](https://www.un.org/independent-international-scientific-panel-ai/en), 2584 to 2355 characters
-- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5206 to 5166 characters
-- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 24572 to 25565 characters
+- **jp-cao-ai** (JP, high): [Cabinet Office AI policy page (AI Promotion Act, Basic Plan)](https://www8.cao.go.jp/cstp/ai/index.html), 1363 to 1387 characters
+- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5166 to 5240 characters
+- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 25565 to 26860 characters
 - **br-pl2338** (BR, high): [PL 2338/2023 (AI Legal Framework): Senate bill page](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233), 230249 to 230249 characters
-- **br-camara** (BR, medium): [PL 2338/2023 Chamber of Deputies proceeding](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262), 223011 to 223564 characters
-- **ae-uae-ai** (AE, high): [UAE Government portal: Artificial Intelligence](https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence), 757 to 759 characters
+- **br-camara** (BR, medium): [PL 2338/2023 Chamber of Deputies proceeding](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262), 223564 to 225167 characters
 - **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13782 to 13782 characters
-- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2135 to 2160 characters
+- **cn-labelling** (CN, high): [Measures for Labeling AI-Generated Synthetic Content (translation)](https://www.chinalawtranslate.com/en/ai-labeling/), 13591 to 14544 characters
+- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2160 to 2141 characters
 
 ## New items found
 
-- US: [Critical Material List; Addition of Helium](https://www.federalregister.gov/documents/2026/10/27/2026-21884/critical-material-list-addition-of-helium) (US Federal Register: artificial intelligence, 2026-10-27)
-- UK: [Membership - Commission on Human Medicines](https://www.gov.uk/government/organisations/commission-on-human-medicines/about/membership) (GOV.UK updates on artificial intelligence, 2026-10-27T12:21:39+00:00)
-- UK: [List of approved professional organisations and learned societies (List 3)](https://www.gov.uk/government/publications/professional-bodies-approved-for-tax-relief-list-3) (GOV.UK updates on artificial intelligence, 2026-10-27T11:32:10+00:00)
-- UK: [Restructuring HM Land Registry fees](https://www.gov.uk/government/consultations/restructuring-hm-land-registry-fees) (GOV.UK updates on artificial intelligence, 2026-10-27T11:00:02+00:00)
-- UK: [Future of access to HM Land Registry information](https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information) (GOV.UK updates on artificial intelligence, 2026-10-27T11:00:02+00:00)
-- UK: [Undertaking and notices of monetary penalty and costs recovery: Innovate](https://www.gov.uk/government/publications/undertaking-and-notices-of-monetary-penalty-and-costs-recovery-innovate) (GOV.UK updates on artificial intelligence, 2026-10-27T09:30:02+00:00)
-- UK: [Port freight annual statistics: 2025](https://www.gov.uk/government/statistics/port-freight-annual-statistics-2025) (GOV.UK updates on artificial intelligence, 2026-10-27T09:30:01+00:00)
-- UK: [Private registered provider social housing stock and rents in England 2025 to 2026](https://www.gov.uk/government/statistics/private-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026) (GOV.UK updates on artificial intelligence, 2026-10-27T09:30:01+00:00)
-- UK: [Summary of questions included in the DESNZ Public Attitudes Tracker](https://www.gov.uk/government/publications/summary-of-questions-included-in-the-desnz-public-attitudes-tracker) (GOV.UK updates on artificial intelligence, 2026-10-27T09:30:01+00:00)
-- UK: [Local authority registered provider social housing stock and rents in England 2025 to 2026](https://www.gov.uk/government/statistics/local-authority-registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026) (GOV.UK updates on artificial intelligence, 2026-10-27T09:30:01+00:00)
-- UK: [Registered provider social housing stock and rents in England 2025 to 2026](https://www.gov.uk/government/statistics/registered-provider-social-housing-stock-and-rents-in-england-2025-to-2026) (GOV.UK updates on artificial intelligence, 2026-10-27T09:30:01+00:00)
+- US: [ETC Tiger Pipeline, LLC; Notice of Schedule for the Preparation of an Environmental Assessment for the Franklin Farms Project](https://www.federalregister.gov/documents/2026/10/28/2026-21989/etc-tiger-pipeline-llc-notice-of-schedule-for-the-preparation-of-an-environmental-assessment-for-the) (US Federal Register: artificial intelligence, 2026-10-28)
+- US: [Internal Revenue Service Advisory Council; Public Meeting](https://www.federalregister.gov/documents/2026/10/28/2026-21966/internal-revenue-service-advisory-council-public-meeting) (US Federal Register: artificial intelligence, 2026-10-28)
+- US: [NCUA Draft 2027-2028 Budget](https://www.federalregister.gov/documents/2026/10/28/2026-21948/ncua-draft-2027-2028-budget) (US Federal Register: artificial intelligence, 2026-10-28)
+- US: [Health Data, Technology, and Interoperability: ONC Deregulatory Actions To Unleash Prosperity](https://www.federalregister.gov/documents/2026/10/28/2026-21943/health-data-technology-and-interoperability-onc-deregulatory-actions-to-unleash-prosperity) (US Federal Register: artificial intelligence, 2026-10-28)
+- US: [Exemptions To Permit Circumvention of Access Controls on Copyrighted Works](https://www.federalregister.gov/documents/2026/10/28/2026-21939/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works) (US Federal Register: artificial intelligence, 2026-10-28)
+- UK: [Further education: initial teacher education](https://www.gov.uk/government/publications/further-education-initial-teacher-education) (GOV.UK updates on artificial intelligence, 2026-10-28T12:32:24+00:00)
+- UK: [Pre-release access to DWP statistics](https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008) (GOV.UK updates on artificial intelligence, 2026-10-28T11:37:25+00:00)
+- UK: [X v Y: 2413027/2023](https://www.gov.uk/employment-tribunal-decisions/x-v-y-2413027-slash-2023) (GOV.UK updates on artificial intelligence, 2026-10-28T10:06:34+00:00)
+- UK: [Methodology for estimating the scale and cost of IP infringement](https://www.gov.uk/government/publications/methodology-for-estimating-the-scale-and-cost-of-ip-infringement) (GOV.UK updates on artificial intelligence, 2026-10-28T10:00:00+00:00)
+- UK: [Stakeholder views on tumble dryer safety](https://www.gov.uk/government/case-studies/stakeholder-views-on-tumble-dryer-safety) (GOV.UK updates on artificial intelligence, 2026-10-28T09:45:07+00:00)
+- UK: [Social care common inspection framework (SCCIF): children’s homes](https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes) (GOV.UK updates on artificial intelligence, 2026-10-28T09:30:08+00:00)
+- UK: [Social care common inspection framework (SCCIF): supported accommodation](https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation) (GOV.UK updates on artificial intelligence, 2026-10-28T09:30:08+00:00)
+- UK: [Civil Service statistics: 2026](https://www.gov.uk/government/statistics/civil-service-statistics-2026) (GOV.UK updates on artificial intelligence, 2026-10-28T09:30:03+00:00)
+- UK: [Infection prevention and control (IPC) in adult social care (ASC)](https://www.gov.uk/government/publications/infection-prevention-and-control-ipc-in-adult-social-care-asc) (GOV.UK updates on artificial intelligence, 2026-10-28T09:30:03+00:00)
+- UK: [Mr J Da Silva v Getronics Services UK Ltd and Others: 2303160/2023](https://www.gov.uk/employment-tribunal-decisions/mr-j-da-silva-v-getronics-services-uk-ltd-and-others-2303160-slash-2023) (GOV.UK updates on artificial intelligence, 2026-10-28T09:13:40+00:00)
+
+## Watched pages that changed
+
+- INT: [regulations.ai global tracker (secondary signal)](https://regulations.ai/) (secondary signal)
 
 ## Documents that could not be fetched
 
@@ -37,7 +45,6 @@
 - au-industry-ai: fetch failed ([link](https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence))
 - in-meity: HTTP 403 ([link](https://www.meity.gov.in/))
 - in-pib: HTTP 403 ([link](https://pib.gov.in/allRel.aspx))
-- ca-legisinfo: HTTP 403 ([link](https://www.parl.ca/legisinfo/en/bills))
 - ke-ict: fetch failed ([link](https://www.ict.go.ke/))
 - ch-federal-council: HTTP 404 ([link](https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html))
 - eu-gpai-guidelines: empty response ([link](https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers))
