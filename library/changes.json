@@ -1,23 +1,14 @@
 {
-  "run_at": "2026-10-28T13:00:45.740Z",
+  "run_at": "2026-10-29T13:07:33.099Z",
   "changed": [
-    {
-      "id": "jp-cao-ai",
-      "title": "Cabinet Office AI policy page (AI Promotion Act, Basic Plan)",
-      "url": "https://www8.cao.go.jp/cstp/ai/index.html",
-      "jurisdiction": "JP",
-      "priority": "high",
-      "chars_before": 1363,
-      "chars_after": 1387
-    },
     {
       "id": "cn-cac",
       "title": "Cyberspace Administration of China (English site)",
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5166,
-      "chars_after": 5240
+      "chars_before": 5240,
+      "chars_after": 5239
     },
     {
       "id": "vn-gov",
@@ -25,8 +16,17 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 25565,
-      "chars_after": 26860
+      "chars_before": 26860,
+      "chars_after": 27426
+    },
+    {
+      "id": "ca-legisinfo",
+      "title": "LEGISinfo: Parliament of Canada bills",
+      "url": "https://www.parl.ca/legisinfo/en/bills",
+      "jurisdiction": "CA",
+      "priority": "medium",
+      "chars_before": 54112,
+      "chars_after": 54227
     },
     {
       "id": "br-pl2338",
@@ -38,13 +38,13 @@
       "chars_after": 230249
     },
     {
-      "id": "br-camara",
-      "title": "PL 2338/2023 Chamber of Deputies proceeding",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
-      "jurisdiction": "BR",
-      "priority": "medium",
-      "chars_before": 223564,
-      "chars_after": 225167
+      "id": "ae-uae-ai",
+      "title": "UAE Government portal: Artificial Intelligence",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
+      "jurisdiction": "AE",
+      "priority": "high",
+      "chars_before": 759,
+      "chars_after": 757
     },
     {
       "id": "us-eo-14179",
@@ -61,8 +61,8 @@
       "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
       "jurisdiction": "CN",
       "priority": "high",
-      "chars_before": 13591,
-      "chars_after": 14544
+      "chars_before": 14544,
+      "chars_after": 13591
     },
     {
       "id": "kr-ai-basic-act",
@@ -70,15 +70,35 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2160,
-      "chars_after": 2141
+      "chars_before": 2141,
+      "chars_after": 2154
     }
   ],
   "new": [
     {
-      "id": "ca-legisinfo",
-      "title": "LEGISinfo: Parliament of Canada bills",
-      "url": "https://www.parl.ca/legisinfo/en/bills"
+      "id": "eu-ai-act-consolidated",
+      "title": "AI Act: Commission regulatory framework page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+      "id": "eu-gpai-code",
+      "title": "General-Purpose AI Code of Practice",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"
+    },
+    {
+      "id": "eu-gpai-guidelines",
+      "title": "Guidelines on obligations for general-purpose AI model providers",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers"
+    },
+    {
+      "id": "eu-ai-office",
+      "title": "European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+    },
+    {
+      "id": "g7-hiroshima",
+      "title": "Hiroshima Process International Code of Conduct for Advanced AI Systems",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems"
     }
   ],
   "failed": [
@@ -113,22 +133,10 @@
       "error": "empty response"
     },
     {
-      "id": "eu-ai-act-consolidated",
-      "title": "AI Act: Commission regulatory framework page",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-      "error": "HTTP 403"
-    },
-    {
       "id": "eu-eed",
       "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
       "error": "empty response"
-    },
-    {
-      "id": "eu-gpai-code",
-      "title": "General-Purpose AI Code of Practice",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
-      "error": "HTTP 403"
     },
     {
       "id": "us-ca-sb53",
@@ -167,18 +175,6 @@
       "error": "HTTP 404"
     },
     {
-      "id": "eu-gpai-guidelines",
-      "title": "Guidelines on obligations for general-purpose AI model providers",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
-      "error": "empty response"
-    },
-    {
-      "id": "eu-ai-office",
-      "title": "European AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-      "error": "empty response"
-    },
-    {
       "id": "us-ny-raise",
       "title": "New York RAISE Act (frontier AI safety)",
       "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
@@ -200,12 +196,6 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
-      "error": "empty response"
-    },
-    {
-      "id": "g7-hiroshima",
-      "title": "Hiroshima Process International Code of Conduct for Advanced AI Systems",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems",
       "error": "empty response"
     },
     {

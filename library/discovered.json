@@ -1,145 +1,115 @@
 {
-  "run_at": "2026-10-28T13:12:01.976Z",
+  "run_at": "2026-10-29T13:19:32.263Z",
   "new_items": [
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-21989",
-      "title": "ETC Tiger Pipeline, LLC; Notice of Schedule for the Preparation of an Environmental Assessment for the Franklin Farms Project",
-      "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21989/etc-tiger-pipeline-llc-notice-of-schedule-for-the-preparation-of-an-environmental-assessment-for-the",
-      "date": "2026-10-28",
+      "id": "2026-22112",
+      "title": "Eunice Kennedy Shriver National Institute of Child Health & Human Development; Notice of Meeting",
+      "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22112/eunice-kennedy-shriver-national-institute-of-child-health-and-human-development-notice-of-meeting",
+      "date": "2026-10-29",
       "extra": "Notice"
     },
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-21966",
-      "title": "Internal Revenue Service Advisory Council; Public Meeting",
-      "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21966/internal-revenue-service-advisory-council-public-meeting",
-      "date": "2026-10-28",
+      "id": "2026-22047",
+      "title": "Request for Information",
+      "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22047/request-for-information",
+      "date": "2026-10-29",
       "extra": "Notice"
     },
     {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-21948",
-      "title": "NCUA Draft 2027-2028 Budget",
-      "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21948/ncua-draft-2027-2028-budget",
-      "date": "2026-10-28",
-      "extra": "Notice"
-    },
-    {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-21943",
-      "title": "Health Data, Technology, and Interoperability: ONC Deregulatory Actions To Unleash Prosperity",
-      "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21943/health-data-technology-and-interoperability-onc-deregulatory-actions-to-unleash-prosperity",
-      "date": "2026-10-28",
-      "extra": "Rule"
-    },
-    {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-21939",
-      "title": "Exemptions To Permit Circumvention of Access Controls on Copyrighted Works",
-      "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21939/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works",
-      "date": "2026-10-28",
-      "extra": "Proposed Rule"
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
+      "title": "Ethiopia: country policy and information notes",
+      "url": "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
+      "date": "2026-10-29T11:17:58+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/further-education-initial-teacher-education",
-      "title": "Further education: initial teacher education",
-      "url": "https://www.gov.uk/government/publications/further-education-initial-teacher-education",
-      "date": "2026-10-28T12:32:24+00:00"
+      "id": "https://www.gov.uk/government/publications/combined-discrimination-research-into-prevalence-and-experiences",
+      "title": "Combined discrimination: research into prevalence and experiences",
+      "url": "https://www.gov.uk/government/publications/combined-discrimination-research-into-prevalence-and-experiences",
+      "date": "2026-10-29T11:09:55+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008",
-      "title": "Pre-release access to DWP statistics",
-      "url": "https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008",
-      "date": "2026-10-28T11:37:25+00:00"
+      "id": "https://www.gov.uk/government/calls-for-evidence/equality-law-call-for-evidence",
+      "title": "Equality law call for evidence",
+      "url": "https://www.gov.uk/government/calls-for-evidence/equality-law-call-for-evidence",
+      "date": "2026-10-29T11:09:35+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/x-v-y-2413027-slash-2023",
-      "title": "X v Y: 2413027/2023",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/x-v-y-2413027-slash-2023",
-      "date": "2026-10-28T10:06:34+00:00"
+      "id": "https://www.gov.uk/government/publications/emerging-technologies-for-offender-rehabilitation",
+      "title": "Emerging technologies for offender rehabilitation",
+      "url": "https://www.gov.uk/government/publications/emerging-technologies-for-offender-rehabilitation",
+      "date": "2026-10-29T10:30:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/methodology-for-estimating-the-scale-and-cost-of-ip-infringement",
-      "title": "Methodology for estimating the scale and cost of IP infringement",
-      "url": "https://www.gov.uk/government/publications/methodology-for-estimating-the-scale-and-cost-of-ip-infringement",
-      "date": "2026-10-28T10:00:00+00:00"
+      "id": "https://www.gov.uk/government/publications/hmpps-annual-report-and-accounts-2025-to-2026",
+      "title": "HMPPS Annual Report and Accounts 2025 to 2026",
+      "url": "https://www.gov.uk/government/publications/hmpps-annual-report-and-accounts-2025-to-2026",
+      "date": "2026-10-29T10:24:38+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/case-studies/stakeholder-views-on-tumble-dryer-safety",
-      "title": "Stakeholder views on tumble dryer safety",
-      "url": "https://www.gov.uk/government/case-studies/stakeholder-views-on-tumble-dryer-safety",
-      "date": "2026-10-28T09:45:07+00:00"
+      "id": "https://www.gov.uk/government/news/britains-ambitious-scale-ups-backed-to-keep-growing-in-the-uk",
+      "title": "Britain’s ambitious scale-ups backed to keep growing in the UK",
+      "url": "https://www.gov.uk/government/news/britains-ambitious-scale-ups-backed-to-keep-growing-in-the-uk",
+      "date": "2026-10-29T10:01:12+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes",
-      "title": "Social care common inspection framework (SCCIF): children’s homes",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes",
-      "date": "2026-10-28T09:30:08+00:00"
+      "id": "https://www.gov.uk/government/publications/water-only-companies-in-england-environmental-performance-report-2025",
+      "title": "Water only companies in England: environmental performance report 2025",
+      "url": "https://www.gov.uk/government/publications/water-only-companies-in-england-environmental-performance-report-2025",
+      "date": "2026-10-29T09:45:19+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation",
-      "title": "Social care common inspection framework (SCCIF): supported accommodation",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation",
-      "date": "2026-10-28T09:30:08+00:00"
+      "id": "https://www.gov.uk/government/statistics/student-loan-repayments-via-paye-eligible-for-refund-tax-year-202526",
+      "title": "Student loan repayments via PAYE eligible for refund - Tax Year 2025/26",
+      "url": "https://www.gov.uk/government/statistics/student-loan-repayments-via-paye-eligible-for-refund-tax-year-202526",
+      "date": "2026-10-29T09:30:15+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/statistics/civil-service-statistics-2026",
-      "title": "Civil Service statistics: 2026",
-      "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026",
-      "date": "2026-10-28T09:30:03+00:00"
+      "id": "https://www.gov.uk/government/publications/restart-provider-guidance",
+      "title": "Restart Scheme provider guidance",
+      "url": "https://www.gov.uk/government/publications/restart-provider-guidance",
+      "date": "2026-10-29T09:30:09+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/infection-prevention-and-control-ipc-in-adult-social-care-asc",
-      "title": "Infection prevention and control (IPC) in adult social care (ASC)",
-      "url": "https://www.gov.uk/government/publications/infection-prevention-and-control-ipc-in-adult-social-care-asc",
-      "date": "2026-10-28T09:30:03+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/mr-j-da-silva-v-getronics-services-uk-ltd-and-others-2303160-slash-2023",
-      "title": "Mr J Da Silva v Getronics Services UK Ltd and Others: 2303160/2023",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-da-silva-v-getronics-services-uk-ltd-and-others-2303160-slash-2023",
-      "date": "2026-10-28T09:13:40+00:00"
+      "id": "https://www.gov.uk/government/calls-for-evidence/carers-allowance-call-for-evidence",
+      "title": "Carer's Allowance: call for evidence",
+      "url": "https://www.gov.uk/government/calls-for-evidence/carers-allowance-call-for-evidence",
+      "date": "2026-10-29T09:30:09+00:00"
     }
   ],
   "page_changes": [
@@ -152,10 +122,6 @@
     }
   ],
   "errors": [
-    {
-      "source": "ec-ai-news",
-      "error": "HTTP 403"
-    },
     {
       "source": "coe-ai-news",
       "error": "HTTP 403"

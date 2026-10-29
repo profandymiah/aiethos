@@ -157,34 +157,37 @@ All
 All 
 
  At consideration in committee in the House of Commons
- 19 results 
+ 20 results 
 
  At consideration in committee in the Senate
  16 results 
 
  At report stage in the House of Commons
- 8 results 
+ 7 results 
 
  At report stage in the Senate
  1 result 
 
  At second reading in the House of Commons
- 26 results 
+ 23 results 
 
  At second reading in the Senate
  18 results 
 
  At third reading in the House of Commons
- 2 results 
-
- At third reading in the Senate
- 4 results 
-
- Awaiting royal assent
  1 result 
 
+ At third reading in the Senate
+ 3 results 
+
+ Awaiting royal assent
+ 2 results 
+
  Bill defeated
- 11 results 
+ 13 results 
+
+ House of Commons bill awaiting first reading in the Senate
+ 2 results 
 
  Introduced as pro forma bill
  2 results 
@@ -669,7 +672,7 @@ All
  4 results 
 
  Human Resources, Skills and Social Development and the Status of Persons with Disabilities
- 3 results 
+ 4 results 
 
  Indigenous and Northern Affairs
  5 results 
@@ -1000,10 +1003,10 @@ All
  An Act to restrict young persons&#x2019; online access to pornographic material
 
  Current status 
- At second reading in the House of Commons 
+ At consideration in committee in the House of Commons 
 
  Last major stage completed 
- First reading in the House of Commons 
+ Second reading in the House of Commons 
 
  S-210
 
@@ -2204,11 +2207,11 @@ All
 
  Current status
 
- At second reading in the House of Commons
+ At consideration in committee in the House of Commons
 
  Latest activity
 
- Debate at second reading on September 24, 2026 (House of Commons)
+ Second reading and referral to committee on October 28, 2026 (House of Commons)
 
  S-210
 
@@ -2991,7 +2994,7 @@ All
 
  Latest activity
 
- Committee report presented with amendments on October 27, 2026 (Senate)
+ Debate at consideration of committee report on October 28, 2026 (Senate)
 
  S-240
 

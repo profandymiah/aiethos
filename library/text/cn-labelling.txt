@@ -1,91 +1,32 @@
 Press "Enter" to skip to content
-Search
-Search China Law Translate
-	
-LOGIN
-About
-open menu
-FAQ
-Instructions
-Media Coverage
-Contact Us
-References
-open menu
-CrimPro Timetable
-Sentencing Guide
-Civil Causes of Action
-Civil Society Menu
-4th Plenum
-Social Credit
-Participate
-open menu
-Subscribe
-Translate
-Submit Content
-Write for CLT
-Works in Progress
+SEARCH
+LOGINABOUTREFERENCESPARTICIPATEWORKS IN PROGRESS
 Bluesky
-open menu
-Back
-Topics
-open menu
-Our Articles
-Admin
-Civil
-Criminal Law
-open menu
-Crackdown on Underworld Forces
-Plea Leniency System
-Disability
-Environment
-Internet
-IP
-Juvenile
-Labor
-Policy
-Religion
-Departments
-open menu
-SPC
-SPP
-State Council
-MPS
-MOJ
-MOH
-Party
-Social Credit
-open menu
-Vocab List
-Articles
-Legal Authority
-Joint Enforcement Breakdown
-Site Index
-Glossary
-ENGLISH HOME
-Affiliated with
+TopicsDepartmentsSocial CreditSite IndexGlossaryENGLISH HOME
+AFFILIATED WITH
 Edit Translations
-Criminal
+CRIMINAL
 Public Security Administration Punishments Law (2025)
 Public Security Administration Punishments Law (2025)
 Interpretation of Several Issues Concerning the Application of Law in Handling Criminal Cases of Attacks on Police Officers
 Interpretation of Several Issues Concerning the Application of Law in Handling Criminal Cases of Attacks on Police Officers
 Joint Discipline Measures for Telecommunications Network Fraud and Related Violations and Crimes
 Joint Discipline Measures for Telecommunications Network Fraud and Related Violations and Crimes
-Administration
-Regulations on Government Affairs Data Sharing 
+ADMINISTRATION
+Regulations on Government Affairs Data Sharing
 Regulations on Government Affairs Data Sharing
 Regulations on Procedures for Formulating Administrative Regulations (Revision Draft for Soliciting Comments )
 Regulations on Procedures for Formulating Administrative Regulations (Revision Draft for Soliciting Comments )
-Guidelines for Online Transaction Platforms' Compliance in Charging Fees (Draft for Solicitation of Comments) 
 Guidelines for Online Transaction Platforms' Compliance in Charging Fees (Draft for Solicitation of Comments)
-Labor
-Notice on the Release of the System for the Elimination of Sexual Harassment in the Workplace (Reference Text) and System for Special Workplace Protections of Female Workers (Reference Text) 
+Guidelines for Online Transaction Platforms' Compliance in Charging Fees (Draft for Solicitation of Comments)
+LABOR
+Notice on the Release of the System for the Elimination of Sexual Harassment in the Workplace (Reference Text) and System for Special Workplace Protections of Female Workers (Reference Text)
 Notice on the Release of the System for the Elimination of Sexual Harassment in the Workplace (Reference Text) and System for Special Workplace Protections of Female Workers (Reference Text)
 Measures for the Hiring and Management of Foreign Teachers (Draft for Solicitation of Comments)
 Measures for the Hiring and Management of Foreign Teachers (Draft for Solicitation of Comments)
 Notice on Relevant Safeguards for Medical Care Workers and Related Staff Infected with the Novel Coronavirus Pneumonia Due to the Performance of Work Duties
 Notice on Relevant Safeguards for Medical Care Workers and Related Staff Infected with the Novel Coronavirus Pneumonia Due to the Performance of Work Duties
-More Categories
+MORE CATEGORIES
 More Categories
 Select Category
 CLT Originals
@@ -125,7 +66,7 @@ Topics
 Uncategorized
 US Law
 Measures for Labeling of AI-Generated Synthetic Content
-By China Law Translate on 2025/03/14
+BY CHINA LAW TRANSLATE ON 2025/03/14
 Promulgation Date: 2025-3-7
 Title: Measures for Labeling of AI-Generated Synthetic Content
 Document Number:State Information Office Tongzi [2025] No. 2
@@ -202,7 +143,7 @@ Article 13: Where the provisions of these Measures are violated, relevant regula
 
 Article 14: These measures are to take effect from September 1, 2025. 　　
 
- Cite this as:
+Cite this as:
 APA (7th ed.)
 MLA (9th ed.)
 Chicago (Author-Date)
@@ -213,28 +154,17 @@ ASA
 ACS
 ACM
 BibTeX
-  Copy Citation
+Copy Citation
 Translate, China Law. "关于印发《人工智能生成合成内容标识办法》的通知." China Law Translate. 2025. Accessed on October 18, 2026 at 09:56. https://www.chinalawtranslate.com/ai-labeling/.
 Click to rate this post!
 [Total: 0 Average: 0]
-Author profileRelated entries
+Author profile
+Related entries
 China Law Translate
 
 CLT is a crowdsourced, crowdfunded legal translation project that enables English speaking people to better understand Chinese law.
 
-China Law Translate
-2026/10/15
-China’s “NetID” One Year in: Big Brother or Small Bother？
-China Law Translate
-2026/10/06
-Some Issues in the Draft Cross-border Corruption Law
-China Law Translate
-2026/09/24
-A few notes on the Ethnic Unity Law
-China Law Translate
-2026/09/17
-Breakdown of SPC Opinions on AI Related Disputes
-Related posts:
+Related Posts:
 Provisions on the Administration of Deep Synthesis Internet Information Services (Draft for solicitation of comments)
 Douyin Specifications for Watermark and Metadata Labeling of Content Generated by Artificial Intelligence
 Provisions on Management of Internet News Services
@@ -243,7 +173,8 @@ Measures for the National Security Review of Network Products and Services (Prov
 Published in Internet
 
 One Comment
-Regulating AI in China: the 2025 measures on deep synthesis and content transparency – Make Digital Different 2026/01/11
+Regulating AI in China: the 2025 measures on deep synthesis and content transparency – Make Digital Different
+2026/01/11
 
 […] https://www.chinalawtranslate.com/en/ai-labeling/#gsc.tab=0 […]
 
@@ -254,21 +185,17 @@ Your email address will not be published. Required fields are marked *
 
 Comments
 
-Name* 
+Name*
 
-Email* 
+Email*
 
-Website 
+Website
 
 Bluesky
-USER AGREEMENT
-About Us
-Getting Started
+USER AGREEMENTAbout UsGetting Started
 Mission News Theme by Compete Themes.
 Scroll to the top
 Translate
 Translate
 Select language
- English/en/ai-labeling/
- 中文(简体)/ai-labeling/
 Edit Translations
