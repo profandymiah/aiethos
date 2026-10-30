@@ -1,6 +1,7 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-22174",
       "2026-22112",
       "2026-22047",
       "2026-21989",
@@ -37,7 +38,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   },
   "uk-bills": {
     "ids": [
@@ -48,10 +49,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/department-for-education-non-executive-appointments",
+      "https://www.gov.uk/administrative-appeals-tribunal-decisions/john-robert-james-rawlings-v-secretary-of-state-for-work-and-pensions-ii-2026-ukut-389-aac",
+      "https://www.gov.uk/employment-tribunal-decisions/mrs-m-a-hogg-v-outcomes-first-group-ltd-8000201-slash-2025",
+      "https://www.gov.uk/guidance/northern-ireland-retail-movement-scheme-nirms-how-to-move-goods",
+      "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-accounting-officer-assessment-summary",
+      "https://www.gov.uk/government/news/joint-communique-from-international-charity-regulator-leaders--2",
+      "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
+      "https://www.gov.uk/government/publications/care-act-2014-supporting-implementation",
+      "https://www.gov.uk/government/organisations/intertrade-uk/about",
+      "https://www.gov.uk/employment-tribunal-decisions/dr-a-miller-v-dr-h-kingston-and-others-6020095-slash-2024",
       "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
       "https://www.gov.uk/government/publications/combined-discrimination-research-into-prevalence-and-experiences",
       "https://www.gov.uk/government/calls-for-evidence/equality-law-call-for-evidence",
@@ -104,7 +115,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -121,13 +132,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -138,18 +149,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   },
   "nist-ai-news": {
     "ids": [],
-    "page_hash": "9811ffc128c10332b8f99d32f0a546e8d0104ffd5aa9b7e359fbc96daf78334f",
+    "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   },
   "regulations-ai": {
     "ids": [],
     "page_hash": "7ff75165ed59d904414f1e1cc0d503d23d4a918f3f430a2b5cb86edd7c56d02d",
     "initialised": true,
-    "last_checked": "2026-10-29T13:19:32.263Z"
+    "last_checked": "2026-10-30T13:13:02.425Z"
   }
 }

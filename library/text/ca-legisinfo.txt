@@ -94,7 +94,7 @@ All
 All 
 
  Senate
- 60 results 
+ 61 results 
 
  House of Commons
  135 results 
@@ -108,7 +108,7 @@ All
  6 results 
 
  Senate Public Bill
- 53 results 
+ 54 results 
 
  Senate Private Bill
  1 result 
@@ -160,34 +160,25 @@ All
  20 results 
 
  At consideration in committee in the Senate
- 16 results 
+ 15 results 
 
  At report stage in the House of Commons
  7 results 
-
- At report stage in the Senate
- 1 result 
 
  At second reading in the House of Commons
  23 results 
 
  At second reading in the Senate
- 18 results 
+ 21 results 
 
  At third reading in the House of Commons
  1 result 
 
  At third reading in the Senate
- 3 results 
-
- Awaiting royal assent
- 2 results 
+ 4 results 
 
  Bill defeated
  13 results 
-
- House of Commons bill awaiting first reading in the Senate
- 2 results 
 
  Introduced as pro forma bill
  2 results 
@@ -196,10 +187,10 @@ All
  52 results 
 
  Royal assent received
- 30 results 
+ 32 results 
 
  Senate bill awaiting first reading in the House of Commons
- 5 results 
+ 6 results 
 
  From date 
 
@@ -211,7 +202,7 @@ All
 All 
 
  30th - Carney, Mark
- 195 results 
+ 196 results 
 
  (March 14, 2025 to present) 
 
@@ -651,7 +642,7 @@ All
  1 result 
 
  Canadian Heritage
- 3 results 
+ 4 results 
 
  Citizenship and Immigration
  1 result 
@@ -707,9 +698,9 @@ All
  Show more 
  Show less 
 
- Results 1-60 of 195 
+ Results 1-60 of 196 
 
- Results 1-60 of 195 
+ Results 1-60 of 196 
 
  Relevance
 
@@ -1022,10 +1013,10 @@ All
  An Act respecting Ukrainian Heritage Month
 
  Current status 
- Awaiting royal assent 
+ Royal assent received 
 
  Last major stage completed 
- Third reading in the House of Commons 
+ Royal assent 
 
  S-211
 
@@ -1203,7 +1194,7 @@ All
  An Act to designate the month of March as Hellenic Heritage Month
 
  Current status 
- At consideration in committee in the Senate 
+ At third reading in the Senate 
 
  Last major stage completed 
  Second reading in the Senate 
@@ -1508,10 +1499,10 @@ All
  An Act respecting a Cities and Municipalities Day
 
  Current status 
- At third reading in the Senate 
+ Senate bill awaiting first reading in the House of Commons 
 
  Last major stage completed 
- Second reading in the Senate 
+ Third reading in the Senate 
 
  S-238
 
@@ -1546,7 +1537,7 @@ All
  An Act to amend the Competition Act
 
  Current status 
- At report stage in the Senate 
+ At third reading in the Senate 
 
  Last major stage completed 
  Second reading in the Senate 
@@ -1776,6 +1767,9 @@ All
 
  An Act to amend the Criminal Code (consent to pornographic material)
 
+ Short title 
+ Stopping Internet Sexual Exploitation Act (the Protect Act) 
+
  S-252 
 
  An Act to amend the Criminal Code (consent to pornographic material)
@@ -1786,21 +1780,24 @@ All
  Last major stage completed 
  First reading in the Senate 
 
- S-1001
+ S-253
 
  45th Parliament, 1st session
 
- An Act to authorize Gore Mutual Insurance Company to apply to be continued as a body corporate under the laws of the Province of Quebec
+ An Act to amend the Income Tax Act (child care expense deduction indexation)
 
- S-1001 
+ Short title 
+ Making Child Care More Affordable for Canadian Families Act 
 
- An Act to authorize Gore Mutual Insurance Company to apply to be continued as a body corporate under the laws of the Province of Quebec
+ S-253 
+
+ An Act to amend the Income Tax Act (child care expense deduction indexation)
 
  Current status 
- Royal assent received 
+ At second reading in the Senate 
 
  Last major stage completed 
- Royal assent 
+ First reading in the Senate 
 
  S-1
 
@@ -2234,11 +2231,11 @@ All
 
  Current status
 
- Awaiting royal assent
+ Royal assent received
 
  Latest activity
 
- Third reading on October 21, 2026 (House of Commons)
+ Royal assent on October 29, 2026 (Senate)
 
  S-211
 
@@ -2495,11 +2492,11 @@ All
 
  Current status
 
- At consideration in committee in the Senate
+ At third reading in the Senate
 
  Latest activity
 
- Referral to committee on November 26, 2025 (Senate)
+ Committee report presented without amendment on October 29, 2026 (Senate)
 
  S-221
 
@@ -2760,7 +2757,7 @@ All
 
  Latest activity
 
- Placed in the Order of Precedence on April 22, 2026 (House of Commons)
+ Debate at second reading on October 29, 2026 (House of Commons)
 
  S-231
 
@@ -2936,11 +2933,11 @@ All
 
  Current status
 
- At third reading in the Senate
+ Senate bill awaiting first reading in the House of Commons
 
  Latest activity
 
- Committee report presented without amendment on October 22, 2026 (Senate)
+ Third reading on October 29, 2026 (Senate)
 
  S-238
 
@@ -2990,11 +2987,11 @@ All
 
  Current status
 
- At report stage in the Senate
+ At third reading in the Senate
 
  Latest activity
 
- Debate at consideration of committee report on October 28, 2026 (Senate)
+ Committee report adopted on October 29, 2026 (Senate)
 
  S-240
 
@@ -3319,6 +3316,9 @@ All
 
  An Act to amend the Criminal Code (consent to pornographic material)
 
+ Short title: 
+ Stopping Internet Sexual Exploitation Act (the Protect Act) 
+
  Bill type
 
  Senate Public Bill
@@ -3335,29 +3335,28 @@ All
 
  Introduction and first reading on October 20, 2026 (Senate)
 
- S-1001
+ S-253
 
  45th Parliament, 1st session
 
  May 26, 2025 to present
 
- An Act to authorize Gore Mutual Insurance Company to apply to be continued as a body corporate under the laws of the Province of Quebec
+ An Act to amend the Income Tax Act (child care expense deduction indexation)
+
+ Short title: 
+ Making Child Care More Affordable for Canadian Families Act 
 
  Bill type
 
- Senate Private Bill
-
- Sponsor
-
- Sen. Tony Loffreda
+ Senate Public Bill
 
  Current status
 
- Royal assent received
+ At second reading in the Senate
 
  Latest activity
 
- Royal assent on November 20, 2025 (Senate)
+ Introduction and first reading on October 29, 2026 (Senate)
 
  Export as:
 

@@ -1,14 +1,23 @@
 {
-  "run_at": "2026-10-29T13:07:33.099Z",
+  "run_at": "2026-10-30T13:00:02.817Z",
   "changed": [
+    {
+      "id": "eu-ai-act-consolidated",
+      "title": "AI Act: Commission regulatory framework page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 17683,
+      "chars_after": 17643
+    },
     {
       "id": "cn-cac",
       "title": "Cyberspace Administration of China (English site)",
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5240,
-      "chars_after": 5239
+      "chars_before": 5239,
+      "chars_after": 5255
     },
     {
       "id": "vn-gov",
@@ -16,8 +25,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26860,
-      "chars_after": 27426
+      "chars_before": 27426,
+      "chars_after": 27006
     },
     {
       "id": "ca-legisinfo",
@@ -25,8 +34,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54112,
-      "chars_after": 54227
+      "chars_before": 54227,
+      "chars_after": 54187
     },
     {
       "id": "br-pl2338",
@@ -38,13 +47,13 @@
       "chars_after": 230249
     },
     {
-      "id": "ae-uae-ai",
-      "title": "UAE Government portal: Artificial Intelligence",
-      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
-      "jurisdiction": "AE",
+      "id": "eu-ai-office",
+      "title": "European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 759,
-      "chars_after": 757
+      "chars_before": 9780,
+      "chars_after": 9782
     },
     {
       "id": "us-eo-14179",
@@ -53,16 +62,7 @@
       "jurisdiction": "US",
       "priority": "high",
       "chars_before": 13782,
-      "chars_after": 13782
-    },
-    {
-      "id": "cn-labelling",
-      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
-      "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
-      "jurisdiction": "CN",
-      "priority": "high",
-      "chars_before": 14544,
-      "chars_after": 13591
+      "chars_after": 1239
     },
     {
       "id": "kr-ai-basic-act",
@@ -70,37 +70,11 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2141,
-      "chars_after": 2154
+      "chars_before": 2154,
+      "chars_after": 2136
     }
   ],
-  "new": [
-    {
-      "id": "eu-ai-act-consolidated",
-      "title": "AI Act: Commission regulatory framework page",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
-    },
-    {
-      "id": "eu-gpai-code",
-      "title": "General-Purpose AI Code of Practice",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"
-    },
-    {
-      "id": "eu-gpai-guidelines",
-      "title": "Guidelines on obligations for general-purpose AI model providers",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers"
-    },
-    {
-      "id": "eu-ai-office",
-      "title": "European AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
-    },
-    {
-      "id": "g7-hiroshima",
-      "title": "Hiroshima Process International Code of Conduct for Advanced AI Systems",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems"
-    }
-  ],
+  "new": [],
   "failed": [
     {
       "id": "coe-treaty-page",
@@ -175,6 +149,12 @@
       "error": "HTTP 404"
     },
     {
+      "id": "us-tx-traiga",
+      "title": "Texas HB 149 (Responsible AI Governance Act)",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+      "error": "empty response"
+    },
+    {
       "id": "us-ny-raise",
       "title": "New York RAISE Act (frontier AI safety)",
       "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
@@ -202,6 +182,12 @@
       "id": "oecd-dd-guidance",
       "title": "OECD Due Diligence Guidance for Responsible AI",
       "url": "https://www.oecd.org/en/publications.html",
+      "error": "empty response"
+    },
+    {
+      "id": "paris-statement",
+      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
       "error": "empty response"
     }
   ]
