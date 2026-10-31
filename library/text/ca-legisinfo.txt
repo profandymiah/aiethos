@@ -163,10 +163,10 @@ All
  15 results 
 
  At report stage in the House of Commons
- 7 results 
+ 8 results 
 
  At second reading in the House of Commons
- 23 results 
+ 21 results 
 
  At second reading in the Senate
  21 results 
@@ -179,6 +179,9 @@ All
 
  Bill defeated
  13 results 
+
+ Bill not proceeded with
+ 1 result 
 
  Introduced as pro forma bill
  2 results 
@@ -1051,7 +1054,7 @@ All
  An Act respecting a national strategy for children and youth in Canada
 
  Current status 
- At second reading in the House of Commons 
+ Bill not proceeded with 
 
  Last major stage completed 
  First reading in the House of Commons 
@@ -2285,11 +2288,11 @@ All
 
  Current status
 
- At second reading in the House of Commons
+ Bill not proceeded with
 
  Latest activity
 
- Placed in the Order of Precedence on March 12, 2026 (House of Commons)
+ Bill not proceeded with on October 30, 2026 (House of Commons)
 
  S-213
 

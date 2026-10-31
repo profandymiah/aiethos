@@ -1,114 +1,77 @@
 {
-  "run_at": "2026-10-30T13:13:02.425Z",
+  "run_at": "2026-10-31T12:49:07.752Z",
   "new_items": [
     {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-22174",
-      "title": "Accreditation, Innovation, and Modernization: The Secretary's Recognition of Accrediting Agencies; Institutional Eligibility Under the Higher Education Act of 1965, as Amended; Student Assistance General Provisions",
-      "url": "https://www.federalregister.gov/documents/2026/10/30/2026-22174/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies",
-      "date": "2026-10-30",
-      "extra": "Rule"
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+      "title": "Faster planning decisions as new rules and AI tackle delays",
+      "url": "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+      "date": "2026-10-30T22:30:01+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/department-for-education-non-executive-appointments",
-      "title": "Department for Education non-executive appointments",
-      "url": "https://www.gov.uk/government/publications/department-for-education-non-executive-appointments",
-      "date": "2026-10-30T12:00:04+00:00"
+      "id": "https://www.gov.uk/government/publications/dvla-privacy-policy",
+      "title": "DVLA privacy policy",
+      "url": "https://www.gov.uk/government/publications/dvla-privacy-policy",
+      "date": "2026-10-30T16:32:49+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/administrative-appeals-tribunal-decisions/john-robert-james-rawlings-v-secretary-of-state-for-work-and-pensions-ii-2026-ukut-389-aac",
-      "title": "John Robert James Rawlings v Secretary of State for Work and Pensions (II): [2026] UKUT 389 (AAC)",
-      "url": "https://www.gov.uk/administrative-appeals-tribunal-decisions/john-robert-james-rawlings-v-secretary-of-state-for-work-and-pensions-ii-2026-ukut-389-aac",
-      "date": "2026-10-30T11:58:48+00:00"
+      "id": "https://www.gov.uk/guidance/about-foreign-commonwealth-development-office-travel-advice",
+      "title": "About Foreign, Commonwealth &amp; Development Office travel advice",
+      "url": "https://www.gov.uk/guidance/about-foreign-commonwealth-development-office-travel-advice",
+      "date": "2026-10-30T16:30:51+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/mrs-m-a-hogg-v-outcomes-first-group-ltd-8000201-slash-2025",
-      "title": "Mrs M A Hogg v Outcomes First Group Ltd: 8000201/2025",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/mrs-m-a-hogg-v-outcomes-first-group-ltd-8000201-slash-2025",
-      "date": "2026-10-30T11:39:23+00:00"
+      "id": "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-summary-business-case",
+      "title": "Enterprise Customer Relationship Management Programme Summary Business Case",
+      "url": "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-summary-business-case",
+      "date": "2026-10-30T15:45:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/northern-ireland-retail-movement-scheme-nirms-how-to-move-goods",
-      "title": "Northern Ireland Retail Movement Scheme (NIRMS): how to move goods",
-      "url": "https://www.gov.uk/guidance/northern-ireland-retail-movement-scheme-nirms-how-to-move-goods",
-      "date": "2026-10-30T11:15:52+00:00"
+      "id": "https://www.gov.uk/government/publications/bovine-tb-historical-compensation-value-tables",
+      "title": "Bovine TB: compensation value tables",
+      "url": "https://www.gov.uk/government/publications/bovine-tb-historical-compensation-value-tables",
+      "date": "2026-10-30T14:29:19+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-accounting-officer-assessment-summary",
-      "title": "Enterprise Customer Relationship Management Programme Accounting Officer Assessment Summary",
-      "url": "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-accounting-officer-assessment-summary",
-      "date": "2026-10-30T11:15:01+00:00"
+      "id": "https://www.gov.uk/government/publications/the-national-archives-framework-document-2026-to-2029",
+      "title": "The National Archives framework document 2026 to 2029",
+      "url": "https://www.gov.uk/government/publications/the-national-archives-framework-document-2026-to-2029",
+      "date": "2026-10-30T14:29:09+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/joint-communique-from-international-charity-regulator-leaders--2",
-      "title": "Joint communique from International Charity Regulator leaders",
-      "url": "https://www.gov.uk/government/news/joint-communique-from-international-charity-regulator-leaders--2",
-      "date": "2026-10-30T11:09:26+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
-      "title": "UK and Ukrainian industry unite to accelerate drone innovation",
-      "url": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
-      "date": "2026-10-30T10:49:35+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/care-act-2014-supporting-implementation",
-      "title": "Care Act 2014: supporting implementation",
-      "url": "https://www.gov.uk/government/publications/care-act-2014-supporting-implementation",
-      "date": "2026-10-30T10:06:42+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/organisations/intertrade-uk/about",
-      "title": "About us - Intertrade UK",
-      "url": "https://www.gov.uk/government/organisations/intertrade-uk/about",
-      "date": "2026-10-30T09:44:26+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/dr-a-miller-v-dr-h-kingston-and-others-6020095-slash-2024",
-      "title": "Dr A Miller v Dr H Kingston and Others: 6020095/2024",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/dr-a-miller-v-dr-h-kingston-and-others-6020095-slash-2024",
-      "date": "2026-10-30T09:39:55+00:00"
+      "id": "https://www.gov.uk/government/publications/october-2026-economic-and-fiscal-outlook",
+      "title": "Economic and fiscal outlook - October 2026",
+      "url": "https://www.gov.uk/government/publications/october-2026-economic-and-fiscal-outlook",
+      "date": "2026-10-30T14:21:10+00:00"
     }
   ],
   "page_changes": [
     {
-      "source": "nist-ai-news",
-      "label": "NIST AI news",
-      "jurisdiction": "US",
-      "url": "https://www.nist.gov/artificial-intelligence",
-      "signal": false
+      "source": "regulations-ai",
+      "label": "regulations.ai global tracker (secondary signal)",
+      "jurisdiction": "INT",
+      "url": "https://regulations.ai/",
+      "signal": true
     }
   ],
   "errors": [

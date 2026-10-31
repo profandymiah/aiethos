@@ -38,7 +38,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   },
   "uk-bills": {
     "ids": [
@@ -49,10 +49,19 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+      "https://www.gov.uk/government/publications/dvla-privacy-policy",
+      "https://www.gov.uk/guidance/about-foreign-commonwealth-development-office-travel-advice",
+      "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-summary-business-case",
+      "https://www.gov.uk/government/publications/care-act-2014-supporting-implementation",
+      "https://www.gov.uk/government/publications/bovine-tb-historical-compensation-value-tables",
+      "https://www.gov.uk/government/publications/the-national-archives-framework-document-2026-to-2029",
+      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
+      "https://www.gov.uk/government/publications/october-2026-economic-and-fiscal-outlook",
       "https://www.gov.uk/government/publications/department-for-education-non-executive-appointments",
       "https://www.gov.uk/administrative-appeals-tribunal-decisions/john-robert-james-rawlings-v-secretary-of-state-for-work-and-pensions-ii-2026-ukut-389-aac",
       "https://www.gov.uk/employment-tribunal-decisions/mrs-m-a-hogg-v-outcomes-first-group-ltd-8000201-slash-2025",
@@ -60,7 +69,6 @@
       "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-accounting-officer-assessment-summary",
       "https://www.gov.uk/government/news/joint-communique-from-international-charity-regulator-leaders--2",
       "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
-      "https://www.gov.uk/government/publications/care-act-2014-supporting-implementation",
       "https://www.gov.uk/government/organisations/intertrade-uk/about",
       "https://www.gov.uk/employment-tribunal-decisions/dr-a-miller-v-dr-h-kingston-and-others-6020095-slash-2024",
       "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
@@ -98,7 +106,6 @@
       "https://www.gov.uk/employment-tribunal-decisions/mr-a-verma-v-manchester-university-nhs-foundation-trust-2402904-slash-2024",
       "https://www.gov.uk/government/news/four-million-illegal-cigarettes-seized-in-border-force-crackdown",
       "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
-      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "https://www.gov.uk/government/publications/hiv-east-of-england-annual-data-spotlight",
       "https://www.gov.uk/government/publications/mobilising-private-finance-for-local-nature-recovery",
       "https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland",
@@ -115,7 +122,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -132,13 +139,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -149,18 +156,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "7ff75165ed59d904414f1e1cc0d503d23d4a918f3f430a2b5cb86edd7c56d02d",
+    "page_hash": "ae8deab7861fabc621085dfe190026eb78b6c13981009fbe72905d5dbe8e8a73",
     "initialised": true,
-    "last_checked": "2026-10-30T13:13:02.425Z"
+    "last_checked": "2026-10-31T12:49:07.752Z"
   }
 }
