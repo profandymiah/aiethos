@@ -38,7 +38,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   },
   "uk-bills": {
     "ids": [
@@ -49,7 +49,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   },
   "govuk-ai": {
     "ids": [
@@ -122,7 +122,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -139,13 +139,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -156,18 +156,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "ae8deab7861fabc621085dfe190026eb78b6c13981009fbe72905d5dbe8e8a73",
+    "page_hash": "2643965c5f0f47822873a741ad799186d56b71e4fa9df00e1017448f9a81894f",
     "initialised": true,
-    "last_checked": "2026-10-31T12:49:07.752Z"
+    "last_checked": "2026-11-01T13:41:02.493Z"
   }
 }
