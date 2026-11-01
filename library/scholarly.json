@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T08:22:33.861Z",
+ "generated": "2026-11-01T12:04:09.544Z",
  "source": "Crossref search ranked by citations, filtered for AI plus ethics terms in the title (Google Scholar has no API and blocks automated access; OpenAlex rate-limited), journal-article type, publisher whitelist and retraction checks",
  "window": [
   2011,
@@ -97,12 +97,12 @@
   "BMJ"
  ],
  "diagnostics": {
-  "requests": 386,
+  "requests": 387,
   "failures": []
  },
  "counts": {
-  "candidates": 98,
-  "verified": 94,
+  "candidates": 99,
+  "verified": 95,
   "rejected": 4
  },
  "rejected": [
@@ -128,7 +128,7 @@
    "doi": "10.1017/s1816383112000768",
    "title": "On banning autonomous weapon systems: human rights, automation, and the dehumanization of lethal decision-making",
    "year": 2012,
-   "cited_by": 289,
+   "cited_by": 290,
    "journal": "International Review of the Red Cross",
    "issn": [
     "1816-3831",
@@ -148,7 +148,7 @@
    "in_doaj": false,
    "publisher_crossref": "Cambridge University Press (CUP)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 289,
+   "crossref_cited_by": 290,
    "volume": "94",
    "issue": "886",
    "pages": "687-709",
@@ -162,7 +162,7 @@
    },
    "url": "https://doi.org/10.1017/s1816383112000768",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -170,7 +170,7 @@
    "doi": "10.1016/j.tra.2015.04.003",
    "title": "Preparing a nation for autonomous vehicles: opportunities, barriers and policy recommendations",
    "year": 2015,
-   "cited_by": 2060,
+   "cited_by": 2069,
    "journal": "Transportation Research Part A: Policy and Practice",
    "issn": [
     "0965-8564"
@@ -190,7 +190,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2060,
+   "crossref_cited_by": 2069,
    "volume": "77",
    "pages": "167-181",
    "peer_review": {
@@ -203,7 +203,7 @@
    },
    "url": "https://doi.org/10.1016/j.tra.2015.04.003",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -211,7 +211,7 @@
    "doi": "10.1016/j.jsis.2015.02.001",
    "title": "Strategic opportunities (and challenges) of algorithmic decision-making: A call for action on the long-term societal effects of ‘datification’",
    "year": 2015,
-   "cited_by": 383,
+   "cited_by": 384,
    "journal": "The Journal of Strategic Information Systems",
    "issn": [
     "0963-8687"
@@ -230,7 +230,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 383,
+   "crossref_cited_by": 384,
    "volume": "24",
    "issue": "1",
    "pages": "3-14",
@@ -244,7 +244,7 @@
    },
    "url": "https://doi.org/10.1016/j.jsis.2015.02.001",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -252,7 +252,7 @@
    "doi": "10.1177/2053951716679679",
    "title": "The ethics of algorithms: Mapping the debate",
    "year": 2016,
-   "cited_by": 2946,
+   "cited_by": 2983,
    "journal": "Big Data & Society",
    "publisher": "SAGE",
    "publisher_raw": "",
@@ -270,7 +270,7 @@
    "seed": "ethics of algorithms",
    "publisher_crossref": "SAGE Publications",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2946,
+   "crossref_cited_by": 2983,
    "issn": [
     "2053-9517",
     "2053-9517"
@@ -287,7 +287,7 @@
    },
    "url": "https://doi.org/10.1177/2053951716679679",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -295,7 +295,7 @@
    "doi": "10.1145/2844110",
    "title": "Accountability in algorithmic decision making",
    "year": 2016,
-   "cited_by": 646,
+   "cited_by": 653,
    "journal": "Communications of the ACM",
    "issn": [
     "0001-0782",
@@ -315,7 +315,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 646,
+   "crossref_cited_by": 653,
    "volume": "59",
    "issue": "2",
    "pages": "56-62",
@@ -329,7 +329,7 @@
    },
    "url": "https://doi.org/10.1145/2844110",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -337,7 +337,7 @@
    "doi": "10.1016/j.futures.2017.03.006",
    "title": "The forthcoming Artificial Intelligence (AI) revolution: Its impact on society and firms",
    "year": 2017,
-   "cited_by": 1555,
+   "cited_by": 1557,
    "journal": "Futures",
    "issn": [
     "0016-3287"
@@ -355,7 +355,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1555,
+   "crossref_cited_by": 1557,
    "volume": "90",
    "pages": "46-60",
    "peer_review": {
@@ -368,7 +368,7 @@
    },
    "url": "https://doi.org/10.1016/j.futures.2017.03.006",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -376,7 +376,7 @@
    "doi": "10.1609/aimag.v38i3.2741",
    "title": "European Union Regulations on Algorithmic Decision Making and a “Right to Explanation”",
    "year": 2017,
-   "cited_by": 1384,
+   "cited_by": 1386,
    "journal": "AI Magazine",
    "issn": [
     "0738-4602",
@@ -397,7 +397,7 @@
    "in_doaj": false,
    "publisher_crossref": "Wiley",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1384,
+   "crossref_cited_by": 1386,
    "volume": "38",
    "issue": "3",
    "pages": "50-57",
@@ -411,7 +411,7 @@
    },
    "url": "https://doi.org/10.1609/aimag.v38i3.2741",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [
     "eu"
    ],
@@ -421,7 +421,7 @@
    "doi": "10.1093/idpl/ipx005",
    "title": "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation",
    "year": 2017,
-   "cited_by": 1016,
+   "cited_by": 1025,
    "journal": "International Data Privacy Law",
    "issn": [
     "2044-3994",
@@ -447,7 +447,7 @@
    "seed": "Right to Explanation",
    "publisher_crossref": "Oxford University Press (OUP)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1016,
+   "crossref_cited_by": 1025,
    "volume": "7",
    "issue": "2",
    "pages": "76-99",
@@ -461,7 +461,7 @@
    },
    "url": "https://doi.org/10.1093/idpl/ipx005",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -469,7 +469,7 @@
    "doi": "10.1111/rego.12158",
    "title": "Algorithmic regulation: A critical interrogation",
    "year": 2017,
-   "cited_by": 668,
+   "cited_by": 676,
    "journal": "Regulation & Governance",
    "issn": [
     "1748-5983",
@@ -488,7 +488,7 @@
    "in_doaj": false,
    "publisher_crossref": "Wiley",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 668,
+   "crossref_cited_by": 676,
    "volume": "12",
    "issue": "4",
    "pages": "505-523",
@@ -502,7 +502,7 @@
    },
    "url": "https://doi.org/10.1111/rego.12158",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -510,7 +510,7 @@
    "doi": "10.1007/s13347-017-0279-x",
    "title": "Fair, Transparent, and Accountable Algorithmic Decision-making Processes",
    "year": 2017,
-   "cited_by": 597,
+   "cited_by": 601,
    "journal": "Philosophy & Technology",
    "issn": [
     "2210-5433",
@@ -535,7 +535,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 597,
+   "crossref_cited_by": 601,
    "volume": "31",
    "issue": "4",
    "pages": "611-627",
@@ -549,7 +549,7 @@
    },
    "url": "https://doi.org/10.1007/s13347-017-0279-x",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -557,7 +557,7 @@
    "doi": "10.1007/s10676-017-9430-8",
    "title": "Society-in-the-loop: programming the algorithmic social contract",
    "year": 2017,
-   "cited_by": 472,
+   "cited_by": 473,
    "journal": "Ethics and Information Technology",
    "issn": [
     "1388-1957",
@@ -583,7 +583,7 @@
    "seed": "Society-in-the-loop",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 472,
+   "crossref_cited_by": 473,
    "volume": "20",
    "issue": "1",
    "pages": "5-14",
@@ -597,7 +597,7 @@
    },
    "url": "https://doi.org/10.1007/s10676-017-9430-8",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -605,7 +605,7 @@
    "doi": "10.1007/s11948-017-9901-7",
    "title": "Artificial Intelligence and the ‘Good Society’: the US, EU, and UK approach",
    "year": 2017,
-   "cited_by": 372,
+   "cited_by": 374,
    "journal": "Science and Engineering Ethics",
    "issn": [
     "1353-3452",
@@ -627,7 +627,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 372,
+   "crossref_cited_by": 374,
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -638,7 +638,7 @@
    },
    "url": "https://doi.org/10.1007/s11948-017-9901-7",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [
     "eu",
     "us",
@@ -650,7 +650,7 @@
    "doi": "10.1007/s11023-018-9482-5",
    "title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
    "year": 2018,
-   "cited_by": 4387,
+   "cited_by": 4437,
    "journal": "Minds and Machines",
    "issn": [
     "0924-6495",
@@ -675,7 +675,7 @@
    "seed": "AI4People",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 4387,
+   "crossref_cited_by": 4437,
    "volume": "28",
    "issue": "4",
    "pages": "689-707",
@@ -689,7 +689,7 @@
    },
    "url": "https://doi.org/10.1007/s11023-018-9482-5",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -697,7 +697,7 @@
    "doi": "10.1177/2053951718756684",
    "title": "Understanding perception of algorithmic decisions: Fairness, trust, and emotion in response to algorithmic management",
    "year": 2018,
-   "cited_by": 1138,
+   "cited_by": 1148,
    "journal": "Big Data & Society",
    "issn": [
     "2053-9517",
@@ -717,7 +717,7 @@
    "in_doaj": false,
    "publisher_crossref": "SAGE Publications",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1138,
+   "crossref_cited_by": 1148,
    "volume": "5",
    "issue": "1",
    "peer_review": {
@@ -730,7 +730,7 @@
    },
    "url": "https://doi.org/10.1177/2053951718756684",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -738,7 +738,7 @@
    "doi": "10.1126/science.aat5991",
    "title": "How AI can be a force for good",
    "year": 2018,
-   "cited_by": 685,
+   "cited_by": 688,
    "journal": "Science",
    "publisher": "AAAS (Science)",
    "publisher_raw": "",
@@ -753,7 +753,7 @@
    "seed": "force for good",
    "publisher_crossref": "American Association for the Advancement of Science (AAAS)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 685,
+   "crossref_cited_by": 688,
    "issn": [
     "0036-8075",
     "1095-9203"
@@ -771,7 +771,7 @@
    },
    "url": "https://doi.org/10.1126/science.aat5991",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -779,7 +779,7 @@
    "doi": "10.1098/rsta.2018.0080",
    "title": "Governing artificial intelligence: ethical, legal and technical opportunities and challenges",
    "year": 2018,
-   "cited_by": 583,
+   "cited_by": 587,
    "journal": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
    "issn": [
     "1364-503X",
@@ -799,7 +799,7 @@
    "in_doaj": false,
    "publisher_crossref": "The Royal Society",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 583,
+   "crossref_cited_by": 587,
    "volume": "376",
    "issue": "2133",
    "pages": "20180080",
@@ -813,7 +813,7 @@
    },
    "url": "https://doi.org/10.1098/rsta.2018.0080",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -855,7 +855,7 @@
    },
    "url": "https://doi.org/10.1089/omi.2017.0194",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -863,7 +863,7 @@
    "doi": "10.1007/s13244-018-0645-y",
    "title": "Artificial intelligence as a medical device in radiology: ethical and regulatory issues in Europe and the United States",
    "year": 2018,
-   "cited_by": 427,
+   "cited_by": 430,
    "journal": "Insights into Imaging",
    "issn": [
     "1869-4101"
@@ -886,7 +886,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 427,
+   "crossref_cited_by": 430,
    "volume": "9",
    "issue": "5",
    "pages": "745-753",
@@ -900,7 +900,7 @@
    },
    "url": "https://doi.org/10.1007/s13244-018-0645-y",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [
     "eu",
     "us"
@@ -911,7 +911,7 @@
    "doi": "10.1098/rsta.2018.0085",
    "title": "Ethical governance is essential to building trust in robotics and artificial intelligence systems",
    "year": 2018,
-   "cited_by": 365,
+   "cited_by": 368,
    "journal": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
    "issn": [
     "1364-503X",
@@ -932,7 +932,7 @@
    "in_doaj": false,
    "publisher_crossref": "The Royal Society",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 365,
+   "crossref_cited_by": 368,
    "volume": "376",
    "issue": "2133",
    "pages": "20180085",
@@ -946,7 +946,7 @@
    },
    "url": "https://doi.org/10.1098/rsta.2018.0085",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -954,7 +954,7 @@
    "doi": "10.1007/s10676-018-9450-z",
    "title": "Ethics in artificial intelligence: introduction to the special issue",
    "year": 2018,
-   "cited_by": 358,
+   "cited_by": 359,
    "journal": "Ethics and Information Technology",
    "issn": [
     "1388-1957",
@@ -973,7 +973,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 358,
+   "crossref_cited_by": 359,
    "volume": "20",
    "issue": "1",
    "pages": "1-3",
@@ -987,7 +987,7 @@
    },
    "url": "https://doi.org/10.1007/s10676-018-9450-z",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -995,7 +995,7 @@
    "doi": "10.1126/science.aax2342",
    "title": "Dissecting racial bias in an algorithm used to manage the health of populations",
    "year": 2019,
-   "cited_by": 6542,
+   "cited_by": 6614,
    "journal": "Science",
    "publisher": "AAAS (Science)",
    "publisher_raw": "",
@@ -1012,7 +1012,7 @@
    "seed": "racial bias",
    "publisher_crossref": "American Association for the Advancement of Science (AAAS)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 6542,
+   "crossref_cited_by": 6614,
    "issn": [
     "0036-8075",
     "1095-9203"
@@ -1030,7 +1030,7 @@
    },
    "url": "https://doi.org/10.1126/science.aax2342",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1038,7 +1038,7 @@
    "doi": "10.1038/s42256-019-0088-2",
    "title": "The global landscape of AI ethics guidelines",
    "year": 2019,
-   "cited_by": 5683,
+   "cited_by": 5748,
    "journal": "Nature Machine Intelligence",
    "issn": [
     "2522-5839"
@@ -1076,7 +1076,7 @@
    "seed": "global landscape",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 5683,
+   "crossref_cited_by": 5748,
    "volume": "1",
    "issue": "9",
    "pages": "389-399",
@@ -1090,7 +1090,7 @@
    },
    "url": "https://doi.org/10.1038/s42256-019-0088-2",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1098,7 +1098,7 @@
    "doi": "10.1038/s42256-019-0114-4",
    "title": "Principles alone cannot guarantee ethical AI",
    "year": 2019,
-   "cited_by": 1720,
+   "cited_by": 1739,
    "journal": "Nature Machine Intelligence",
    "issn": [
     "2522-5839"
@@ -1116,7 +1116,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1720,
+   "crossref_cited_by": 1739,
    "volume": "1",
    "issue": "11",
    "pages": "501-507",
@@ -1130,7 +1130,7 @@
    },
    "url": "https://doi.org/10.1038/s42256-019-0114-4",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1138,8 +1138,12 @@
    "doi": "10.1162/99608f92.8cd550d1",
    "title": "A Unified Framework of Five Principles for AI in Society",
    "year": 2019,
-   "cited_by": 1260,
+   "cited_by": 1281,
    "journal": "Harvard Data Science Review",
+   "issn": [
+    "2688-8513",
+    "2644-2353"
+   ],
    "publisher": "MIT Press",
    "publisher_raw": "MIT Press",
    "authors": [
@@ -1154,7 +1158,9 @@
    "in_doaj": false,
    "publisher_crossref": "MIT Press",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1260,
+   "crossref_cited_by": 1281,
+   "volume": "1",
+   "issue": "1",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -1165,7 +1171,7 @@
    },
    "url": "https://doi.org/10.1162/99608f92.8cd550d1",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1173,7 +1179,7 @@
    "doi": "10.1093/jamia/ocz192",
    "title": "A governance model for the application of AI in health care",
    "year": 2019,
-   "cited_by": 876,
+   "cited_by": 882,
    "journal": "Journal of the American Medical Informatics Association",
    "issn": [
     "1527-974X"
@@ -1195,7 +1201,7 @@
    "in_doaj": false,
    "publisher_crossref": "Oxford University Press (OUP)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 876,
+   "crossref_cited_by": 882,
    "volume": "27",
    "issue": "3",
    "pages": "491-497",
@@ -1209,7 +1215,7 @@
    },
    "url": "https://doi.org/10.1093/jamia/ocz192",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1217,7 +1223,7 @@
    "doi": "10.1007/s11948-019-00165-5",
    "title": "From What to How: An Initial Review of Publicly Available AI Ethics Tools, Methods and Research to Translate Principles into Practices",
    "year": 2019,
-   "cited_by": 852,
+   "cited_by": 858,
    "journal": "Science and Engineering Ethics",
    "issn": [
     "1353-3452",
@@ -1250,7 +1256,7 @@
    "seed": "From what to how",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 852,
+   "crossref_cited_by": 858,
    "volume": "26",
    "issue": "4",
    "pages": "2141-2168",
@@ -1264,7 +1270,7 @@
    },
    "url": "https://doi.org/10.1007/s11948-019-00165-5",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1308,7 +1314,7 @@
    },
    "url": "https://doi.org/10.1136/medethics-2019-105586",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1316,7 +1322,7 @@
    "doi": "10.1016/j.inffus.2019.12.012",
    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
    "year": 2020,
-   "cited_by": 9738,
+   "cited_by": 9815,
    "journal": "Information Fusion",
    "issn": [
     "1566-2535"
@@ -1338,7 +1344,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 9738,
+   "crossref_cited_by": 9815,
    "volume": "58",
    "pages": "82-115",
    "peer_review": {
@@ -1351,7 +1357,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1359,7 +1365,7 @@
    "doi": "10.1007/s11023-020-09517-8",
    "title": "The Ethics of AI Ethics: An Evaluation of Guidelines",
    "year": 2020,
-   "cited_by": 1708,
+   "cited_by": 1719,
    "journal": "Minds and Machines",
    "issn": [
     "0924-6495",
@@ -1395,7 +1401,7 @@
    "seed": "Ethics of AI Ethics",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1708,
+   "crossref_cited_by": 1719,
    "volume": "30",
    "issue": "1",
    "pages": "99-120",
@@ -1409,7 +1415,7 @@
    },
    "url": "https://doi.org/10.1007/s11023-020-09517-8",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1417,7 +1423,7 @@
    "doi": "10.1038/s41591-020-1034-x",
    "title": "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension",
    "year": 2020,
-   "cited_by": 1299,
+   "cited_by": 1332,
    "journal": "Nature Medicine",
    "issn": [
     "1078-8956",
@@ -1440,7 +1446,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1299,
+   "crossref_cited_by": 1332,
    "volume": "26",
    "issue": "9",
    "pages": "1364-1374",
@@ -1454,7 +1460,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-020-1034-x",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1462,7 +1468,7 @@
    "doi": "10.1016/j.socscimed.2020.113172",
    "title": "The ethics of AI in health care: A mapping review",
    "year": 2020,
-   "cited_by": 1030,
+   "cited_by": 1036,
    "journal": "Social Science & Medicine",
    "issn": [
     "0277-9536"
@@ -1484,7 +1490,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1030,
+   "crossref_cited_by": 1036,
    "volume": "260",
    "pages": "113172",
    "peer_review": {
@@ -1497,7 +1503,7 @@
    },
    "url": "https://doi.org/10.1016/j.socscimed.2020.113172",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1505,7 +1511,7 @@
    "doi": "10.1038/s41746-020-00341-z",
    "title": "Fusion of medical imaging and electronic health records using deep learning: a systematic review and implementation guidelines",
    "year": 2020,
-   "cited_by": 920,
+   "cited_by": 930,
    "journal": "npj Digital Medicine",
    "issn": [
     "2398-6352"
@@ -1528,7 +1534,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 920,
+   "crossref_cited_by": 930,
    "volume": "3",
    "issue": "1",
    "peer_review": {
@@ -1541,7 +1547,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-020-00341-z",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1549,7 +1555,7 @@
    "doi": "10.1177/2053951719897945",
    "title": "Algorithmic content moderation: Technical and political challenges in the automation of platform governance",
    "year": 2020,
-   "cited_by": 820,
+   "cited_by": 828,
    "journal": "Big Data & Society",
    "issn": [
     "2053-9517",
@@ -1570,7 +1576,7 @@
    "in_doaj": false,
    "publisher_crossref": "SAGE Publications",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 820,
+   "crossref_cited_by": 828,
    "volume": "7",
    "issue": "1",
    "pages": "205395171989794",
@@ -1584,7 +1590,7 @@
    },
    "url": "https://doi.org/10.1177/2053951719897945",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1592,7 +1598,7 @@
    "doi": "10.1007/s11023-020-09539-2",
    "title": "Artificial Intelligence, Values, and Alignment",
    "year": 2020,
-   "cited_by": 788,
+   "cited_by": 800,
    "journal": "Minds and Machines",
    "publisher": "Springer Nature",
    "publisher_raw": "",
@@ -1605,7 +1611,7 @@
    "seed": "Values, and Alignment",
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 788,
+   "crossref_cited_by": 800,
    "issn": [
     "0924-6495",
     "1572-8641"
@@ -1623,7 +1629,7 @@
    },
    "url": "https://doi.org/10.1007/s11023-020-09539-2",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1631,7 +1637,7 @@
    "doi": "10.1016/j.giq.2020.101493",
    "title": "Data governance: Organizing data for trustworthy Artificial Intelligence",
    "year": 2020,
-   "cited_by": 729,
+   "cited_by": 738,
    "journal": "Government Information Quarterly",
    "issn": [
     "0740-624X"
@@ -1652,7 +1658,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 729,
+   "crossref_cited_by": 738,
    "volume": "37",
    "issue": "3",
    "pages": "101493",
@@ -1666,7 +1672,7 @@
    },
    "url": "https://doi.org/10.1016/j.giq.2020.101493",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1674,7 +1680,7 @@
    "doi": "10.1038/s41591-020-1037-7",
    "title": "Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension",
    "year": 2020,
-   "cited_by": 696,
+   "cited_by": 716,
    "journal": "Nature Medicine",
    "issn": [
     "1078-8956",
@@ -1697,7 +1703,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 696,
+   "crossref_cited_by": 716,
    "volume": "26",
    "issue": "9",
    "pages": "1351-1363",
@@ -1711,7 +1717,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-020-1037-7",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1719,7 +1725,7 @@
    "doi": "10.1111/puar.13293",
    "title": "Accountable Artificial Intelligence: Holding Algorithms to Account",
    "year": 2020,
-   "cited_by": 598,
+   "cited_by": 605,
    "journal": "Public Administration Review",
    "issn": [
     "0033-3352",
@@ -1738,7 +1744,7 @@
    "in_doaj": false,
    "publisher_crossref": "Wiley",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 598,
+   "crossref_cited_by": 605,
    "volume": "81",
    "issue": "5",
    "pages": "825-836",
@@ -1752,7 +1758,7 @@
    },
    "url": "https://doi.org/10.1111/puar.13293",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1760,7 +1766,7 @@
    "doi": "10.1136/bmj.m3164",
    "title": "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension",
    "year": 2020,
-   "cited_by": 580,
+   "cited_by": 589,
    "journal": "BMJ",
    "issn": [
     "1756-1833"
@@ -1782,7 +1788,7 @@
    "in_doaj": false,
    "publisher_crossref": "BMJ",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 580,
+   "crossref_cited_by": 589,
    "pages": "m3164",
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
@@ -1794,7 +1800,7 @@
    },
    "url": "https://doi.org/10.1136/bmj.m3164",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1802,7 +1808,7 @@
    "doi": "10.1145/3457607",
    "title": "A Survey on Bias and Fairness in Machine Learning",
    "year": 2021,
-   "cited_by": 4642,
+   "cited_by": 4670,
    "journal": "ACM Computing Surveys",
    "issn": [
     "0360-0300",
@@ -1824,7 +1830,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 4642,
+   "crossref_cited_by": 4670,
    "volume": "54",
    "issue": "6",
    "pages": "1-35",
@@ -1838,7 +1844,7 @@
    },
    "url": "https://doi.org/10.1145/3457607",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -1846,7 +1852,7 @@
    "doi": "10.1016/j.ijinfomgt.2019.08.002",
    "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
    "year": 2021,
-   "cited_by": 3678,
+   "cited_by": 3704,
    "journal": "International Journal of Information Management",
    "issn": [
     "0268-4012"
@@ -1867,7 +1873,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 3678,
+   "crossref_cited_by": 3704,
    "volume": "57",
    "pages": "101994",
    "peer_review": {
@@ -1880,7 +1886,7 @@
    },
    "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1888,7 +1894,7 @@
    "doi": "10.1007/s43681-021-00096-7",
    "title": "Artificial intelligence in education: Addressing ethical challenges in K-12 settings",
    "year": 2021,
-   "cited_by": 1319,
+   "cited_by": 1332,
    "journal": "AI and Ethics",
    "issn": [
     "2730-5953",
@@ -1909,7 +1915,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1319,
+   "crossref_cited_by": 1332,
    "volume": "2",
    "issue": "3",
    "pages": "431-440",
@@ -1923,7 +1929,7 @@
    },
    "url": "https://doi.org/10.1007/s43681-021-00096-7",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1931,7 +1937,7 @@
    "doi": "10.1136/bmjopen-2020-048008",
    "title": "Protocol for development of a reporting guideline (TRIPOD-AI) and risk of bias tool (PROBAST-AI) for diagnostic and prognostic prediction model studies based on artificial intelligence",
    "year": 2021,
-   "cited_by": 820,
+   "cited_by": 823,
    "journal": "BMJ Open",
    "issn": [
     "2044-6055",
@@ -1955,7 +1961,7 @@
    "in_doaj": false,
    "publisher_crossref": "BMJ",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 820,
+   "crossref_cited_by": 823,
    "volume": "11",
    "issue": "7",
    "pages": "e048008",
@@ -1969,7 +1975,7 @@
    },
    "url": "https://doi.org/10.1136/bmjopen-2020-048008",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -1977,7 +1983,7 @@
    "doi": "10.1016/j.jbi.2020.103655",
    "title": "The role of explainability in creating trustworthy artificial intelligence for health care: A comprehensive survey of the terminology, design choices, and evaluation strategies",
    "year": 2021,
-   "cited_by": 777,
+   "cited_by": 779,
    "journal": "Journal of Biomedical Informatics",
    "issn": [
     "1532-0464"
@@ -1999,7 +2005,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 777,
+   "crossref_cited_by": 779,
    "volume": "113",
    "pages": "103655",
    "peer_review": {
@@ -2012,7 +2018,7 @@
    },
    "url": "https://doi.org/10.1016/j.jbi.2020.103655",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2020,7 +2026,7 @@
    "doi": "10.1016/j.giq.2021.101577",
    "title": "Implications of the use of artificial intelligence in public governance: A systematic literature review and a research agenda",
    "year": 2021,
-   "cited_by": 706,
+   "cited_by": 714,
    "journal": "Government Information Quarterly",
    "issn": [
     "0740-624X"
@@ -2040,7 +2046,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 706,
+   "crossref_cited_by": 714,
    "volume": "38",
    "issue": "3",
    "pages": "101577",
@@ -2054,7 +2060,7 @@
    },
    "url": "https://doi.org/10.1016/j.giq.2021.101577",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2062,7 +2068,7 @@
    "doi": "10.1016/j.patter.2021.100205",
    "title": "Algorithmic injustice: a relational ethics approach",
    "year": 2021,
-   "cited_by": 620,
+   "cited_by": 626,
    "journal": "Patterns",
    "issn": [
     "2666-3899"
@@ -2081,7 +2087,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 620,
+   "crossref_cited_by": 626,
    "volume": "2",
    "issue": "2",
    "pages": "100205",
@@ -2095,7 +2101,7 @@
    },
    "url": "https://doi.org/10.1016/j.patter.2021.100205",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2134,7 +2140,7 @@
    },
    "url": "https://doi.org/10.1007/s13347-021-00460-9",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2142,7 +2148,7 @@
    "doi": "10.1007/s40593-021-00239-1",
    "title": "Ethics of AI in Education: Towards a Community-Wide Framework",
    "year": 2022,
-   "cited_by": 1219,
+   "cited_by": 1231,
    "journal": "International Journal of Artificial Intelligence in Education",
    "issn": [
     "1560-4292"
@@ -2164,7 +2170,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1219,
+   "crossref_cited_by": 1231,
    "volume": "32",
    "issue": "3",
    "pages": "504-526",
@@ -2178,7 +2184,7 @@
    },
    "url": "https://doi.org/10.1007/s40593-021-00239-1",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2186,7 +2192,7 @@
    "doi": "10.1007/s10639-022-11316-w",
    "title": "Ethical principles for artificial intelligence in education",
    "year": 2022,
-   "cited_by": 1116,
+   "cited_by": 1129,
    "journal": "Education and Information Technologies",
    "issn": [
     "1360-2357",
@@ -2209,7 +2215,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1116,
+   "crossref_cited_by": 1129,
    "volume": "28",
    "issue": "4",
    "pages": "4221-4241",
@@ -2223,7 +2229,7 @@
    },
    "url": "https://doi.org/10.1007/s10639-022-11316-w",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2231,7 +2237,7 @@
    "doi": "10.1038/s41591-022-01772-9",
    "title": "Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI",
    "year": 2022,
-   "cited_by": 1011,
+   "cited_by": 1059,
    "journal": "Nature Medicine",
    "issn": [
     "1078-8956",
@@ -2255,7 +2261,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1011,
+   "crossref_cited_by": 1059,
    "volume": "28",
    "issue": "5",
    "pages": "924-933",
@@ -2269,7 +2275,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-022-01772-9",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2277,7 +2283,7 @@
    "doi": "10.1145/3491209",
    "title": "Trustworthy Artificial Intelligence: A Review",
    "year": 2022,
-   "cited_by": 666,
+   "cited_by": 672,
    "journal": "ACM Computing Surveys",
    "issn": [
     "0360-0300",
@@ -2299,7 +2305,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 666,
+   "crossref_cited_by": 672,
    "volume": "55",
    "issue": "2",
    "pages": "1-38",
@@ -2313,7 +2319,7 @@
    },
    "url": "https://doi.org/10.1145/3491209",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2321,7 +2327,7 @@
    "doi": "10.1136/bmj-2022-070904",
    "title": "Reporting guideline for the early stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI",
    "year": 2022,
-   "cited_by": 639,
+   "cited_by": 661,
    "journal": "BMJ",
    "issn": [
     "1756-1833"
@@ -2344,7 +2350,7 @@
    "in_doaj": false,
    "publisher_crossref": "BMJ",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 639,
+   "crossref_cited_by": 661,
    "volume": "377",
    "pages": "e070904",
    "peer_review": {
@@ -2357,7 +2363,7 @@
    },
    "url": "https://doi.org/10.1136/bmj-2022-070904",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2365,7 +2371,7 @@
    "doi": "10.1145/3494672",
    "title": "A Review on Fairness in Machine Learning",
    "year": 2022,
-   "cited_by": 565,
+   "cited_by": 567,
    "journal": "ACM Computing Surveys",
    "issn": [
     "0360-0300",
@@ -2385,7 +2391,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 565,
+   "crossref_cited_by": 567,
    "volume": "55",
    "issue": "3",
    "pages": "1-44",
@@ -2399,7 +2405,7 @@
    },
    "url": "https://doi.org/10.1145/3494672",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2407,7 +2413,7 @@
    "doi": "10.1038/s42256-022-00516-1",
    "title": "Advances, challenges and opportunities in creating data for trustworthy AI",
    "year": 2022,
-   "cited_by": 545,
+   "cited_by": 546,
    "journal": "Nature Machine Intelligence",
    "issn": [
     "2522-5839"
@@ -2428,7 +2434,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 545,
+   "crossref_cited_by": 546,
    "volume": "4",
    "issue": "8",
    "pages": "669-677",
@@ -2442,7 +2448,7 @@
    },
    "url": "https://doi.org/10.1038/s42256-022-00516-1",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2450,7 +2456,7 @@
    "doi": "10.1038/s41746-021-00549-7",
    "title": "Guidelines and quality criteria for artificial intelligence-based prediction models in healthcare: a scoping review",
    "year": 2022,
-   "cited_by": 477,
+   "cited_by": 478,
    "journal": "npj Digital Medicine",
    "issn": [
     "2398-6352"
@@ -2472,7 +2478,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 477,
+   "crossref_cited_by": 478,
    "volume": "5",
    "issue": "1",
    "peer_review": {
@@ -2485,7 +2491,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-021-00549-7",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2493,7 +2499,7 @@
    "doi": "10.1016/j.ijinfomgt.2023.102642",
    "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
    "year": 2023,
-   "cited_by": 4110,
+   "cited_by": 4150,
    "journal": "International Journal of Information Management",
    "issn": [
     "0268-4012"
@@ -2515,7 +2521,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 4110,
+   "crossref_cited_by": 4150,
    "volume": "71",
    "pages": "102642",
    "peer_review": {
@@ -2528,7 +2534,7 @@
    },
    "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2536,7 +2542,7 @@
    "doi": "10.1016/j.iotcps.2023.04.003",
    "title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
    "year": 2023,
-   "cited_by": 2119,
+   "cited_by": 2128,
    "journal": "Internet of Things and Cyber-Physical Systems",
    "issn": [
     "2667-3452"
@@ -2556,7 +2562,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2119,
+   "crossref_cited_by": 2128,
    "volume": "3",
    "pages": "121-154",
    "peer_review": {
@@ -2569,7 +2575,7 @@
    },
    "url": "https://doi.org/10.1016/j.iotcps.2023.04.003",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2577,7 +2583,7 @@
    "doi": "10.1016/j.inffus.2023.101805",
    "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
    "year": 2023,
-   "cited_by": 1738,
+   "cited_by": 1746,
    "journal": "Information Fusion",
    "issn": [
     "1566-2535"
@@ -2598,7 +2604,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1738,
+   "crossref_cited_by": 1746,
    "volume": "99",
    "pages": "101805",
    "peer_review": {
@@ -2611,7 +2617,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2023.101805",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2619,7 +2625,7 @@
    "doi": "10.1186/s41239-023-00408-3",
    "title": "A comprehensive AI policy education framework for university teaching and learning",
    "year": 2023,
-   "cited_by": 1398,
+   "cited_by": 1420,
    "journal": "International Journal of Educational Technology in Higher Education",
    "issn": [
     "2365-9440"
@@ -2639,7 +2645,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1398,
+   "crossref_cited_by": 1420,
    "volume": "20",
    "issue": "1",
    "peer_review": {
@@ -2652,7 +2658,7 @@
    },
    "url": "https://doi.org/10.1186/s41239-023-00408-3",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2660,7 +2666,7 @@
    "doi": "10.1038/s41746-023-00873-0",
    "title": "The imperative for regulatory oversight of large language models (or generative AI) in healthcare",
    "year": 2023,
-   "cited_by": 1028,
+   "cited_by": 1037,
    "journal": "npj Digital Medicine",
    "issn": [
     "2398-6352"
@@ -2681,7 +2687,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1028,
+   "crossref_cited_by": 1037,
    "volume": "6",
    "issue": "1",
    "peer_review": {
@@ -2694,7 +2700,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-023-00873-0",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2702,7 +2708,7 @@
    "doi": "10.1016/j.chb.2022.107468",
    "title": "Towards Intelligent-TPACK: An empirical study on teachers’ professional knowledge to ethically integrate artificial intelligence (AI)-based tools into education",
    "year": 2023,
-   "cited_by": 944,
+   "cited_by": 960,
    "journal": "Computers in Human Behavior",
    "issn": [
     "0747-5632"
@@ -2722,7 +2728,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 944,
+   "crossref_cited_by": 960,
    "volume": "138",
    "pages": "107468",
    "peer_review": {
@@ -2735,15 +2741,61 @@
    },
    "url": "https://doi.org/10.1016/j.chb.2022.107468",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
+  },
+  {
+   "doi": "10.1111/bjet.13370",
+   "title": "Practical and ethical challenges of large language models in education: A systematic scoping review",
+   "year": 2023,
+   "cited_by": 960,
+   "journal": "British Journal of Educational Technology",
+   "issn": [
+    "0007-1013",
+    "1467-8535"
+   ],
+   "publisher": "Wiley",
+   "publisher_raw": "Wiley",
+   "authors": [
+    "Lixiang Yan",
+    "Lele Sha",
+    "Linxuan Zhao",
+    "Yuheng Li"
+   ],
+   "theme_ids": [
+    "principles",
+    "genai",
+    "education"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Wiley",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 960,
+   "volume": "55",
+   "issue": "1",
+   "pages": "90-112",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "2023-03-09",
+    "accepted": "2023-07-22",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1111/bjet.13370",
+   "verified": true,
+   "verified_at": "2026-11-01",
+   "jurisdictions": [],
+   "is_review": true
   },
   {
    "doi": "10.1002/asi.24750",
    "title": "ChatGPT and a new academic reality: Artificial Intelligence‐written research papers and the ethics of the large language models in scholarly publishing",
    "year": 2023,
-   "cited_by": 792,
+   "cited_by": 796,
    "journal": "Journal of the Association for Information Science and Technology",
    "issn": [
     "2330-1635",
@@ -2767,7 +2819,7 @@
    "in_doaj": false,
    "publisher_crossref": "Wiley",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 792,
+   "crossref_cited_by": 796,
    "volume": "74",
    "issue": "5",
    "pages": "570-581",
@@ -2781,7 +2833,7 @@
    },
    "url": "https://doi.org/10.1002/asi.24750",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2789,7 +2841,7 @@
    "doi": "10.1038/s41551-023-01056-8",
    "title": "Algorithmic fairness in artificial intelligence for medicine and healthcare",
    "year": 2023,
-   "cited_by": 767,
+   "cited_by": 777,
    "journal": "Nature Biomedical Engineering",
    "issn": [
     "2157-846X"
@@ -2811,7 +2863,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 767,
+   "crossref_cited_by": 777,
    "volume": "7",
    "issue": "6",
    "pages": "719-742",
@@ -2825,7 +2877,7 @@
    },
    "url": "https://doi.org/10.1038/s41551-023-01056-8",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2833,7 +2885,7 @@
    "doi": "10.1016/j.inffus.2023.101896",
    "title": "Connecting the dots in trustworthy Artificial Intelligence: From AI principles, ethics, and key requirements to responsible AI systems and regulation",
    "year": 2023,
-   "cited_by": 747,
+   "cited_by": 754,
    "journal": "Information Fusion",
    "issn": [
     "1566-2535"
@@ -2856,7 +2908,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 747,
+   "crossref_cited_by": 754,
    "volume": "99",
    "pages": "101896",
    "peer_review": {
@@ -2869,7 +2921,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2023.101896",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -2877,7 +2929,7 @@
    "doi": "10.1016/j.inffus.2023.03.008",
    "title": "A systematic review of trustworthy and explainable artificial intelligence in healthcare: Assessment of quality, bias risk, and data fusion",
    "year": 2023,
-   "cited_by": 684,
+   "cited_by": 685,
    "journal": "Information Fusion",
    "issn": [
     "1566-2535"
@@ -2900,7 +2952,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 684,
+   "crossref_cited_by": 685,
    "volume": "96",
    "pages": "156-191",
    "peer_review": {
@@ -2913,7 +2965,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2023.03.008",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2921,7 +2973,7 @@
    "doi": "10.1016/j.heliyon.2024.e26297",
    "title": "Ethical and regulatory challenges of AI technologies in healthcare: A narrative review",
    "year": 2024,
-   "cited_by": 1068,
+   "cited_by": 1079,
    "journal": "Heliyon",
    "issn": [
     "2405-8440"
@@ -2944,7 +2996,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 1068,
+   "crossref_cited_by": 1079,
    "volume": "10",
    "issue": "4",
    "pages": "e26297",
@@ -2958,7 +3010,7 @@
    },
    "url": "https://doi.org/10.1016/j.heliyon.2024.e26297",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -2966,7 +3018,7 @@
    "doi": "10.1186/s41239-023-00436-z",
    "title": "A meta systematic review of artificial intelligence in higher education: a call for increased ethics, collaboration, and rigour",
    "year": 2024,
-   "cited_by": 824,
+   "cited_by": 849,
    "journal": "International Journal of Educational Technology in Higher Education",
    "issn": [
     "2365-9440"
@@ -2989,7 +3041,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 824,
+   "crossref_cited_by": 849,
    "volume": "21",
    "issue": "1",
    "peer_review": {
@@ -3002,7 +3054,7 @@
    },
    "url": "https://doi.org/10.1186/s41239-023-00436-z",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3010,7 +3062,7 @@
    "doi": "10.1162/coli_a_00524",
    "title": "Bias and Fairness in Large Language Models: A Survey",
    "year": 2024,
-   "cited_by": 740,
+   "cited_by": 746,
    "journal": "Computational Linguistics",
    "issn": [
     "0891-2017",
@@ -3033,7 +3085,7 @@
    "in_doaj": false,
    "publisher_crossref": "MIT Press",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 740,
+   "crossref_cited_by": 746,
    "volume": "50",
    "issue": "3",
    "pages": "1097-1179",
@@ -3047,7 +3099,7 @@
    },
    "url": "https://doi.org/10.1162/coli_a_00524",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3055,7 +3107,7 @@
    "doi": "10.1016/j.jclepro.2023.140527",
    "title": "Navigating the confluence of artificial intelligence and education for sustainable development in the era of industry 4.0: Challenges, opportunities, and ethical dimensions",
    "year": 2024,
-   "cited_by": 605,
+   "cited_by": 608,
    "journal": "Journal of Cleaner Production",
    "issn": [
     "0959-6526"
@@ -3077,7 +3129,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 605,
+   "crossref_cited_by": 608,
    "volume": "437",
    "pages": "140527",
    "peer_review": {
@@ -3090,7 +3142,7 @@
    },
    "url": "https://doi.org/10.1016/j.jclepro.2023.140527",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3098,7 +3150,7 @@
    "doi": "10.1186/s13012-024-01357-9",
    "title": "Generative AI in healthcare: an implementation science informed translational path on application, integration and governance",
    "year": 2024,
-   "cited_by": 561,
+   "cited_by": 573,
    "journal": "Implementation Science",
    "issn": [
     "1748-5908"
@@ -3119,7 +3171,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 561,
+   "crossref_cited_by": 573,
    "volume": "19",
    "issue": "1",
    "peer_review": {
@@ -3132,7 +3184,7 @@
    },
    "url": "https://doi.org/10.1186/s13012-024-01357-9",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3140,7 +3192,7 @@
    "doi": "10.1186/s41239-024-00444-7",
    "title": "Is it harmful or helpful? Examining the causes and consequences of generative AI usage among university students",
    "year": 2024,
-   "cited_by": 481,
+   "cited_by": 495,
    "journal": "International Journal of Educational Technology in Higher Education",
    "issn": [
     "2365-9440"
@@ -3161,7 +3213,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 481,
+   "crossref_cited_by": 495,
    "volume": "21",
    "issue": "1",
    "peer_review": {
@@ -3174,7 +3226,7 @@
    },
    "url": "https://doi.org/10.1186/s41239-024-00444-7",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3182,7 +3234,7 @@
    "doi": "10.1145/3616865",
    "title": "Fairness in Machine Learning: A Survey",
    "year": 2024,
-   "cited_by": 480,
+   "cited_by": 481,
    "journal": "ACM Computing Surveys",
    "issn": [
     "0360-0300",
@@ -3202,7 +3254,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 480,
+   "crossref_cited_by": 481,
    "volume": "56",
    "issue": "7",
    "pages": "1-38",
@@ -3216,7 +3268,7 @@
    },
    "url": "https://doi.org/10.1145/3616865",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3224,7 +3276,7 @@
    "doi": "10.1016/j.ijinfomgt.2023.102700",
    "title": "The ethics of ChatGPT – Exploring the ethical issues of an emerging technology",
    "year": 2024,
-   "cited_by": 431,
+   "cited_by": 434,
    "journal": "International Journal of Information Management",
    "issn": [
     "0268-4012"
@@ -3244,7 +3296,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 431,
+   "crossref_cited_by": 434,
    "volume": "74",
    "pages": "102700",
    "peer_review": {
@@ -3257,7 +3309,7 @@
    },
    "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102700",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3265,7 +3317,7 @@
    "doi": "10.1038/s41746-024-01157-x",
    "title": "The ethics of ChatGPT in medicine and healthcare: a systematic review on Large Language Models (LLMs)",
    "year": 2024,
-   "cited_by": 403,
+   "cited_by": 410,
    "journal": "npj Digital Medicine",
    "issn": [
     "2398-6352"
@@ -3286,7 +3338,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 403,
+   "crossref_cited_by": 410,
    "volume": "7",
    "issue": "1",
    "peer_review": {
@@ -3299,7 +3351,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-024-01157-x",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3307,7 +3359,7 @@
    "doi": "10.1109/access.2024.3387941",
    "title": "ChatGPT for Robotics: Design Principles and Model Abilities",
    "year": 2024,
-   "cited_by": 381,
+   "cited_by": 385,
    "journal": "IEEE Access",
    "issn": [
     "2169-3536"
@@ -3329,7 +3381,7 @@
    "in_doaj": false,
    "publisher_crossref": "Institute of Electrical and Electronics Engineers (IEEE)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 381,
+   "crossref_cited_by": 385,
    "volume": "12",
    "pages": "55682-55696",
    "peer_review": {
@@ -3342,7 +3394,7 @@
    },
    "url": "https://doi.org/10.1109/access.2024.3387941",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3350,7 +3402,7 @@
    "doi": "10.1093/pnasnexus/pgae191",
    "title": "The impact of generative artificial intelligence on socioeconomic inequalities and policy making",
    "year": 2024,
-   "cited_by": 378,
+   "cited_by": 382,
    "journal": "PNAS Nexus",
    "issn": [
     "2752-6542"
@@ -3372,7 +3424,7 @@
    "in_doaj": false,
    "publisher_crossref": "Oxford University Press (OUP)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 378,
+   "crossref_cited_by": 382,
    "volume": "3",
    "issue": "6",
    "peer_review": {
@@ -3385,7 +3437,7 @@
    },
    "url": "https://doi.org/10.1093/pnasnexus/pgae191",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3393,7 +3445,7 @@
    "doi": "10.1057/s41599-024-03432-4",
    "title": "Exploring the impact of artificial intelligence on higher education: The dynamics of ethical, social, and educational implications",
    "year": 2024,
-   "cited_by": 282,
+   "cited_by": 286,
    "journal": "Humanities and Social Sciences Communications",
    "issn": [
     "2662-9992"
@@ -3413,7 +3465,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 282,
+   "crossref_cited_by": 286,
    "volume": "11",
    "issue": "1",
    "peer_review": {
@@ -3426,7 +3478,7 @@
    },
    "url": "https://doi.org/10.1057/s41599-024-03432-4",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3434,7 +3486,7 @@
    "doi": "10.1016/j.artmed.2024.102830",
    "title": "Trustworthy clinical AI solutions: A unified review of uncertainty quantification in Deep Learning models for medical image analysis",
    "year": 2024,
-   "cited_by": 279,
+   "cited_by": 286,
    "journal": "Artificial Intelligence in Medicine",
    "issn": [
     "0933-3657"
@@ -3455,7 +3507,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 279,
+   "crossref_cited_by": 286,
    "volume": "150",
    "pages": "102830",
    "peer_review": {
@@ -3468,7 +3520,7 @@
    },
    "url": "https://doi.org/10.1016/j.artmed.2024.102830",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3476,7 +3528,7 @@
    "doi": "10.1016/j.compeleceng.2024.109409",
    "title": "A systematic review of trustworthy artificial intelligence applications in natural disasters",
    "year": 2024,
-   "cited_by": 278,
+   "cited_by": 280,
    "journal": "Computers and Electrical Engineering",
    "issn": [
     "0045-7906"
@@ -3497,7 +3549,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 278,
+   "crossref_cited_by": 280,
    "volume": "118",
    "pages": "109409",
    "peer_review": {
@@ -3510,7 +3562,7 @@
    },
    "url": "https://doi.org/10.1016/j.compeleceng.2024.109409",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3518,7 +3570,7 @@
    "doi": "10.1145/3703155",
    "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
    "year": 2025,
-   "cited_by": 2364,
+   "cited_by": 2405,
    "journal": "ACM Transactions on Information Systems",
    "issn": [
     "1046-8188",
@@ -3541,7 +3593,7 @@
    "in_doaj": false,
    "publisher_crossref": "Association for Computing Machinery (ACM)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 2364,
+   "crossref_cited_by": 2405,
    "volume": "43",
    "issue": "2",
    "pages": "1-55",
@@ -3555,7 +3607,7 @@
    },
    "url": "https://doi.org/10.1145/3703155",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3563,7 +3615,7 @@
    "doi": "10.1136/bmj-2024-081554",
    "title": "FUTURE-AI: international consensus guideline for trustworthy and deployable artificial intelligence in healthcare",
    "year": 2025,
-   "cited_by": 798,
+   "cited_by": 832,
    "journal": "BMJ",
    "issn": [
     "1756-1833"
@@ -3585,7 +3637,7 @@
    "in_doaj": false,
    "publisher_crossref": "BMJ",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 798,
+   "crossref_cited_by": 832,
    "volume": "388",
    "pages": "e081554",
    "peer_review": {
@@ -3598,7 +3650,7 @@
    },
    "url": "https://doi.org/10.1136/bmj-2024-081554",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3606,7 +3658,7 @@
    "doi": "10.1038/s41591-024-03425-5",
    "title": "The TRIPOD-LLM reporting guideline for studies using large language models",
    "year": 2025,
-   "cited_by": 660,
+   "cited_by": 692,
    "journal": "Nature Medicine",
    "issn": [
     "1078-8956",
@@ -3629,7 +3681,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 660,
+   "crossref_cited_by": 692,
    "volume": "31",
    "issue": "1",
    "pages": "60-69",
@@ -3643,7 +3695,7 @@
    },
    "url": "https://doi.org/10.1038/s41591-024-03425-5",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3651,7 +3703,7 @@
    "doi": "10.1016/j.jsis.2024.101885",
    "title": "Responsible artificial intelligence governance: A review and research framework",
    "year": 2025,
-   "cited_by": 582,
+   "cited_by": 593,
    "journal": "The Journal of Strategic Information Systems",
    "issn": [
     "0963-8687"
@@ -3673,7 +3725,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 582,
+   "crossref_cited_by": 593,
    "volume": "34",
    "issue": "2",
    "pages": "101885",
@@ -3687,7 +3739,7 @@
    },
    "url": "https://doi.org/10.1016/j.jsis.2024.101885",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3695,7 +3747,7 @@
    "doi": "10.1016/j.modpat.2024.100686",
    "title": "Ethical and Bias Considerations in Artificial Intelligence/Machine Learning",
    "year": 2025,
-   "cited_by": 532,
+   "cited_by": 542,
    "journal": "Modern Pathology",
    "issn": [
     "0893-3952"
@@ -3717,7 +3769,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 532,
+   "crossref_cited_by": 542,
    "volume": "38",
    "issue": "3",
    "pages": "100686",
@@ -3731,7 +3783,52 @@
    },
    "url": "https://doi.org/10.1016/j.modpat.2024.100686",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
+   "jurisdictions": [],
+   "is_review": false
+  },
+  {
+   "doi": "10.1038/s41591-025-03953-8",
+   "title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+   "year": 2025,
+   "cited_by": 445,
+   "journal": "Nature Medicine",
+   "issn": [
+    "1078-8956",
+    "1546-170X"
+   ],
+   "publisher": "Springer Nature",
+   "publisher_raw": "Springer Science and Business Media LLC",
+   "authors": [
+    "Viknesh Sounderajah",
+    "Ahmad Guni",
+    "Xiaoxuan Liu",
+    "Gary S. Collins"
+   ],
+   "theme_ids": [
+    "principles",
+    "health"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Springer Science and Business Media LLC",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 445,
+   "volume": "31",
+   "issue": "10",
+   "pages": "3283-3289",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": "21 February 2025",
+    "accepted": "11 August 2025",
+    "revised": null,
+    "has_review_dates": true,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1038/s41591-025-03953-8",
+   "verified": true,
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3739,7 +3836,7 @@
    "doi": "10.1016/j.caeai.2024.100348",
    "title": "Generative AI in higher education: A global perspective of institutional adoption policies and guidelines",
    "year": 2025,
-   "cited_by": 420,
+   "cited_by": 437,
    "journal": "Computers and Education: Artificial Intelligence",
    "issn": [
     "2666-920X"
@@ -3764,7 +3861,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 420,
+   "crossref_cited_by": 437,
    "volume": "8",
    "pages": "100348",
    "peer_review": {
@@ -3777,52 +3874,7 @@
    },
    "url": "https://doi.org/10.1016/j.caeai.2024.100348",
    "verified": true,
-   "verified_at": "2026-10-26",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1038/s41591-025-03953-8",
-   "title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
-   "year": 2025,
-   "cited_by": 419,
-   "journal": "Nature Medicine",
-   "issn": [
-    "1078-8956",
-    "1546-170X"
-   ],
-   "publisher": "Springer Nature",
-   "publisher_raw": "Springer Science and Business Media LLC",
-   "authors": [
-    "Viknesh Sounderajah",
-    "Ahmad Guni",
-    "Xiaoxuan Liu",
-    "Gary S. Collins"
-   ],
-   "theme_ids": [
-    "principles",
-    "health"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "Springer Science and Business Media LLC",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 419,
-   "volume": "31",
-   "issue": "10",
-   "pages": "3283-3289",
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": "21 February 2025",
-    "accepted": "11 August 2025",
-    "revised": null,
-    "has_review_dates": true,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1038/s41591-025-03953-8",
-   "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3830,7 +3882,7 @@
    "doi": "10.1001/jama.2024.21451",
    "title": "FDA Perspective on the Regulation of Artificial Intelligence in Health Care and Biomedicine",
    "year": 2025,
-   "cited_by": 336,
+   "cited_by": 337,
    "journal": "JAMA",
    "issn": [
     "0098-7484"
@@ -3851,7 +3903,7 @@
    "in_doaj": false,
    "publisher_crossref": "American Medical Association (AMA)",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 336,
+   "crossref_cited_by": 337,
    "volume": "333",
    "issue": "3",
    "pages": "241",
@@ -3865,7 +3917,7 @@
    },
    "url": "https://doi.org/10.1001/jama.2024.21451",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -3873,7 +3925,7 @@
    "doi": "10.1038/s41746-026-02418-7",
    "title": "Advancing healthcare AI governance through a comprehensive maturity model based on systematic review",
    "year": 2026,
-   "cited_by": 49,
+   "cited_by": 53,
    "journal": "npj Digital Medicine",
    "issn": [
     "2398-6352"
@@ -3895,7 +3947,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 49,
+   "crossref_cited_by": 53,
    "volume": "9",
    "issue": "1",
    "peer_review": {
@@ -3908,7 +3960,7 @@
    },
    "url": "https://doi.org/10.1038/s41746-026-02418-7",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3916,7 +3968,7 @@
    "doi": "10.1016/j.identj.2025.109322",
    "title": "Artificial Intelligence in Dentistry: A Concise Review of Reporting Checklists and Guidelines",
    "year": 2026,
-   "cited_by": 48,
+   "cited_by": 51,
    "journal": "International Dental Journal",
    "issn": [
     "0020-6539"
@@ -3938,7 +3990,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 48,
+   "crossref_cited_by": 51,
    "volume": "76",
    "issue": "1",
    "pages": "109322",
@@ -3952,7 +4004,7 @@
    },
    "url": "https://doi.org/10.1016/j.identj.2025.109322",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -3960,7 +4012,7 @@
    "doi": "10.1016/j.inffus.2025.103812",
    "title": "A design framework for operationalizing trustworthy artificial intelligence in healthcare: Requirements, tradeoffs and challenges for its clinical adoption",
    "year": 2026,
-   "cited_by": 44,
+   "cited_by": 45,
    "journal": "Information Fusion",
    "issn": [
     "1566-2535"
@@ -3984,7 +4036,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 44,
+   "crossref_cited_by": 45,
    "volume": "127",
    "pages": "103812",
    "peer_review": {
@@ -3997,47 +4049,7 @@
    },
    "url": "https://doi.org/10.1016/j.inffus.2025.103812",
    "verified": true,
-   "verified_at": "2026-10-26",
-   "jurisdictions": [],
-   "is_review": false
-  },
-  {
-   "doi": "10.1177/13621688261422129",
-   "title": "Empowering the autonomous learner: How AI-assisted language learning environments shape self-regulation, autonomy, and self-directed behaviors",
-   "year": 2026,
-   "cited_by": 41,
-   "journal": "Language Teaching Research",
-   "issn": [
-    "1362-1688",
-    "1477-0954"
-   ],
-   "publisher": "SAGE",
-   "publisher_raw": "SAGE Publications",
-   "authors": [
-    "Lei Yang"
-   ],
-   "theme_ids": [
-    "governance",
-    "environment",
-    "education"
-   ],
-   "oa": false,
-   "openalex": null,
-   "in_doaj": false,
-   "publisher_crossref": "SAGE Publications",
-   "crossref_type": "journal-article",
-   "crossref_cited_by": 41,
-   "peer_review": {
-    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
-    "received": null,
-    "accepted": null,
-    "revised": null,
-    "has_review_dates": false,
-    "crossref_review_asserted": false
-   },
-   "url": "https://doi.org/10.1177/13621688261422129",
-   "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
@@ -4045,7 +4057,7 @@
    "doi": "10.1016/j.caeai.2026.100572",
    "title": "Scaffolding critical thinking with generative AI: Design principles for integrating large language models in higher education",
    "year": 2026,
-   "cited_by": 40,
+   "cited_by": 45,
    "journal": "Computers and Education: Artificial Intelligence",
    "issn": [
     "2666-920X"
@@ -4066,7 +4078,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 40,
+   "crossref_cited_by": 45,
    "volume": "10",
    "pages": "100572",
    "peer_review": {
@@ -4079,37 +4091,36 @@
    },
    "url": "https://doi.org/10.1016/j.caeai.2026.100572",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   },
   {
-   "doi": "10.1016/j.ject.2025.07.001",
-   "title": "A comprehensive review of Artificial Intelligence regulation: Weighing ethical principles and innovation",
+   "doi": "10.1177/13621688261422129",
+   "title": "Empowering the autonomous learner: How AI-assisted language learning environments shape self-regulation, autonomy, and self-directed behaviors",
    "year": 2026,
-   "cited_by": 36,
-   "journal": "Journal of Economy and Technology",
+   "cited_by": 42,
+   "journal": "Language Teaching Research",
    "issn": [
-    "2949-9488"
+    "1362-1688",
+    "1477-0954"
    ],
-   "publisher": "Elsevier",
-   "publisher_raw": "Elsevier BV",
+   "publisher": "SAGE",
+   "publisher_raw": "SAGE Publications",
    "authors": [
-    "Daniel Oliveira Cajueiro",
-    "Victor Rafael Rezende Celestino"
+    "Lei Yang"
    ],
    "theme_ids": [
-    "principles",
-    "governance"
+    "governance",
+    "environment",
+    "education"
    ],
    "oa": false,
    "openalex": null,
    "in_doaj": false,
-   "publisher_crossref": "Elsevier BV",
+   "publisher_crossref": "SAGE Publications",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 36,
-   "volume": "4",
-   "pages": "77-91",
+   "crossref_cited_by": 42,
    "peer_review": {
     "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
     "received": null,
@@ -4118,17 +4129,17 @@
     "has_review_dates": false,
     "crossref_review_asserted": false
    },
-   "url": "https://doi.org/10.1016/j.ject.2025.07.001",
+   "url": "https://doi.org/10.1177/13621688261422129",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
-   "is_review": true
+   "is_review": false
   },
   {
    "doi": "10.1186/s12912-025-04253-9",
    "title": "Applications, attitudes and ethical considerations of Generative Artificial Intelligence (Gen AI) in nursing education: a scoping review",
    "year": 2026,
-   "cited_by": 35,
+   "cited_by": 39,
    "journal": "BMC Nursing",
    "issn": [
     "1472-6955"
@@ -4152,7 +4163,7 @@
    "in_doaj": false,
    "publisher_crossref": "Springer Science and Business Media LLC",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 35,
+   "crossref_cited_by": 39,
    "volume": "25",
    "issue": "1",
    "peer_review": {
@@ -4165,7 +4176,48 @@
    },
    "url": "https://doi.org/10.1186/s12912-025-04253-9",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
+   "jurisdictions": [],
+   "is_review": true
+  },
+  {
+   "doi": "10.1016/j.ject.2025.07.001",
+   "title": "A comprehensive review of Artificial Intelligence regulation: Weighing ethical principles and innovation",
+   "year": 2026,
+   "cited_by": 37,
+   "journal": "Journal of Economy and Technology",
+   "issn": [
+    "2949-9488"
+   ],
+   "publisher": "Elsevier",
+   "publisher_raw": "Elsevier BV",
+   "authors": [
+    "Daniel Oliveira Cajueiro",
+    "Victor Rafael Rezende Celestino"
+   ],
+   "theme_ids": [
+    "principles",
+    "governance"
+   ],
+   "oa": false,
+   "openalex": null,
+   "in_doaj": false,
+   "publisher_crossref": "Elsevier BV",
+   "crossref_type": "journal-article",
+   "crossref_cited_by": 37,
+   "volume": "4",
+   "pages": "77-91",
+   "peer_review": {
+    "basis": "Journal article in a publisher-hosted journal; DOI registered with Crossref; not retracted at check date.",
+    "received": null,
+    "accepted": null,
+    "revised": null,
+    "has_review_dates": false,
+    "crossref_review_asserted": false
+   },
+   "url": "https://doi.org/10.1016/j.ject.2025.07.001",
+   "verified": true,
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": true
   },
@@ -4173,7 +4225,7 @@
    "doi": "10.1016/j.compind.2025.104409",
    "title": "Towards trustworthy artificial intelligence for decision-making: A lifecycle perspective on knowledge- and data-driven artificial intelligence systems",
    "year": 2026,
-   "cited_by": 33,
+   "cited_by": 35,
    "journal": "Computers in Industry",
    "issn": [
     "0166-3615"
@@ -4193,7 +4245,7 @@
    "in_doaj": false,
    "publisher_crossref": "Elsevier BV",
    "crossref_type": "journal-article",
-   "crossref_cited_by": 33,
+   "crossref_cited_by": 35,
    "volume": "174",
    "pages": "104409",
    "peer_review": {
@@ -4206,7 +4258,7 @@
    },
    "url": "https://doi.org/10.1016/j.compind.2025.104409",
    "verified": true,
-   "verified_at": "2026-10-26",
+   "verified_at": "2026-11-01",
    "jurisdictions": [],
    "is_review": false
   }
