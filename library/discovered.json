@@ -1,6 +1,97 @@
 {
-  "run_at": "2026-11-01T13:41:02.493Z",
-  "new_items": [],
+  "run_at": "2026-11-02T16:12:20.360Z",
+  "new_items": [
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/consultations/earned-settlement",
+      "title": "Earned settlement",
+      "url": "https://www.gov.uk/government/consultations/earned-settlement",
+      "date": "2026-11-02T16:09:05+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
+      "title": "Carbon border adjustment mechanism (CBAM): Policy summary",
+      "url": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
+      "date": "2026-11-02T15:09:31+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment",
+      "title": "River modelling: technical standards and assessment",
+      "url": "https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment",
+      "date": "2026-11-02T14:54:48+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/seasonal-workers-pilot-review",
+      "title": "Seasonal workers reviews and surveys",
+      "url": "https://www.gov.uk/government/publications/seasonal-workers-pilot-review",
+      "date": "2026-11-02T14:08:45+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots",
+      "title": "‘No Place for Knives’ campaign launches in knife crime hotspots",
+      "url": "https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots",
+      "date": "2026-11-02T13:33:15+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245",
+      "title": "Parliamentary Under-Secretary of State (Minister for the Armed Forces)",
+      "url": "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245",
+      "date": "2026-11-02T13:03:55+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/intellectual-property-office-structure-chart",
+      "title": "Intellectual Property Office: structure chart",
+      "url": "https://www.gov.uk/government/publications/intellectual-property-office-structure-chart",
+      "date": "2026-11-02T12:25:11+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/green-gas-support-scheme-budget-management",
+      "title": "Green Gas Support Scheme: budget management",
+      "url": "https://www.gov.uk/government/publications/green-gas-support-scheme-budget-management",
+      "date": "2026-11-02T12:11:06+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
+      "title": "Hundreds of employers handed penalties for illegally underpaying workers",
+      "url": "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
+      "date": "2026-11-02T12:09:14+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/guidance/sparck-masters-scholarship",
+      "title": "Spärck Master’s Scholarship",
+      "url": "https://www.gov.uk/guidance/sparck-masters-scholarship",
+      "date": "2026-11-02T12:00:04+00:00"
+    }
+  ],
   "page_changes": [
     {
       "source": "regulations-ai",

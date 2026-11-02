@@ -38,7 +38,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   },
   "uk-bills": {
     "ids": [
@@ -49,10 +49,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/consultations/earned-settlement",
+      "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
+      "https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment",
+      "https://www.gov.uk/government/publications/seasonal-workers-pilot-review",
+      "https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots",
+      "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245",
+      "https://www.gov.uk/government/publications/intellectual-property-office-structure-chart",
+      "https://www.gov.uk/government/publications/green-gas-support-scheme-budget-management",
+      "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
+      "https://www.gov.uk/guidance/sparck-masters-scholarship",
       "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
       "https://www.gov.uk/government/publications/dvla-privacy-policy",
       "https://www.gov.uk/guidance/about-foreign-commonwealth-development-office-travel-advice",
@@ -122,7 +132,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -139,13 +149,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -156,18 +166,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "2643965c5f0f47822873a741ad799186d56b71e4fa9df00e1017448f9a81894f",
+    "page_hash": "5a2886022dfb0bce38b734593bf916573ad70b0ed3a479d3e87d92e2eaff4c17",
     "initialised": true,
-    "last_checked": "2026-11-01T13:41:02.493Z"
+    "last_checked": "2026-11-02T16:12:20.360Z"
   }
 }

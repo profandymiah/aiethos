@@ -36,6 +36,7 @@ CRIMINAL ACT
 COMMERCIAL ACT
 LABOR STANDARDS ACT
 Recently Viewed
+ENFORCEMENT DECREE OF THE TOURISM ...
 ENFORCEMENT DECREE OF THE ACT ON T...
 ENFORCEMENT DECREE OF THE AVIATION...
 ENFORCEMENT DECREE OF THE WASTES C...
@@ -43,7 +44,6 @@ ENFORCEMENT DECREE OF THE ACT ON T...
 ACT ON THE DESIGNATION AND OPERATI...
 ACT ON THE PROTECTION OF TEMPORARY...
 ENFORCEMENT DECREE OF THE SOIL ENV...
-GRASSLAND ACT
 By Legal Field By Ministry By Subject
 Constitution
 Administration
@@ -75,7 +75,7 @@ If you have any questions or comments about our servies, let us know. We will ge
 Go to
 Translation Statistics
 Current Laws 3,084
-Former Laws 21,210
+Former Laws 21,213
 Current 1
 Former 0
 Constitution
@@ -83,7 +83,7 @@ Current 1,599
 Former 12,398
 Statutes
 Current 1,398
-Former 8,739
+Former 8,742
 Enforcement Decrees
 Current 3
 Former 9
