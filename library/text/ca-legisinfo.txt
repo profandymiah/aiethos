@@ -166,7 +166,7 @@ All
  8 results 
 
  At second reading in the House of Commons
- 21 results 
+ 22 results 
 
  At second reading in the Senate
  21 results 
@@ -193,7 +193,7 @@ All
  32 results 
 
  Senate bill awaiting first reading in the House of Commons
- 6 results 
+ 5 results 
 
  From date 
 
@@ -1086,10 +1086,10 @@ All
  An Act to amend the Special Economic Measures Act (disposal of foreign state assets)
 
  Current status 
- Senate bill awaiting first reading in the House of Commons 
+ At second reading in the House of Commons 
 
  Last major stage completed 
- Third reading in the Senate 
+ First reading in the House of Commons 
 
  S-215
 
@@ -2336,11 +2336,11 @@ All
 
  Current status
 
- Senate bill awaiting first reading in the House of Commons
+ At second reading in the House of Commons
 
  Latest activity
 
- Third reading on May 26, 2026 (Senate)
+ Placed in the Order of Precedence on November 2, 2026 (House of Commons)
 
  S-215
 

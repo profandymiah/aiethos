@@ -1,30 +1,26 @@
 ## Tracked documents that changed
 
-- **jp-cao-ai** (JP, high): [Cabinet Office AI policy page (AI Promotion Act, Basic Plan)](https://www8.cao.go.jp/cstp/ai/index.html), 1387 to 1384 characters
-- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5251 to 5280 characters
-- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 26773 to 27557 characters
+- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5280 to 5222 characters
+- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 27557 to 26078 characters
+- **ca-legisinfo** (CA, medium): [LEGISinfo: Parliament of Canada bills](https://www.parl.ca/legisinfo/en/bills), 54182 to 54192 characters
 - **br-pl2338** (BR, high): [PL 2338/2023 (AI Legal Framework): Senate bill page](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233), 230249 to 230249 characters
-- **br-camara** (BR, medium): [PL 2338/2023 Chamber of Deputies proceeding](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262), 225167 to 224981 characters
-- **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13782 to 13783 characters
-- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2136 to 2160 characters
-- **paris-statement** (INT, high): [Statement on Inclusive and Sustainable AI (Paris AI Action Summit)](https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet), 7455 to 7540 characters
+- **eu-ai-office** (EU, high): [European AI Office](https://digital-strategy.ec.europa.eu/en/policies/ai-office), 9782 to 9773 characters
+- **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13783 to 13782 characters
+- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2160 to 2137 characters
 
 ## New items found
 
-- UK: [Earned settlement](https://www.gov.uk/government/consultations/earned-settlement) (GOV.UK updates on artificial intelligence, 2026-11-02T16:09:05+00:00)
-- UK: [Carbon border adjustment mechanism (CBAM): Policy summary](https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary) (GOV.UK updates on artificial intelligence, 2026-11-02T15:09:31+00:00)
-- UK: [River modelling: technical standards and assessment](https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment) (GOV.UK updates on artificial intelligence, 2026-11-02T14:54:48+00:00)
-- UK: [Seasonal workers reviews and surveys](https://www.gov.uk/government/publications/seasonal-workers-pilot-review) (GOV.UK updates on artificial intelligence, 2026-11-02T14:08:45+00:00)
-- UK: [‘No Place for Knives’ campaign launches in knife crime hotspots](https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots) (GOV.UK updates on artificial intelligence, 2026-11-02T13:33:15+00:00)
-- UK: [Parliamentary Under-Secretary of State (Minister for the Armed Forces)](https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245) (GOV.UK updates on artificial intelligence, 2026-11-02T13:03:55+00:00)
-- UK: [Intellectual Property Office: structure chart](https://www.gov.uk/government/publications/intellectual-property-office-structure-chart) (GOV.UK updates on artificial intelligence, 2026-11-02T12:25:11+00:00)
-- UK: [Green Gas Support Scheme: budget management](https://www.gov.uk/government/publications/green-gas-support-scheme-budget-management) (GOV.UK updates on artificial intelligence, 2026-11-02T12:11:06+00:00)
-- UK: [Hundreds of employers handed penalties for illegally underpaying workers](https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers) (GOV.UK updates on artificial intelligence, 2026-11-02T12:09:14+00:00)
-- UK: [Spärck Master’s Scholarship](https://www.gov.uk/guidance/sparck-masters-scholarship) (GOV.UK updates on artificial intelligence, 2026-11-02T12:00:04+00:00)
-
-## Watched pages that changed
-
-- INT: [regulations.ai global tracker (secondary signal)](https://regulations.ai/) (secondary signal)
+- US: [Streamlining Contested Adjudications in Licensing Proceedings](https://www.federalregister.gov/documents/2026/11/03/2026-22443/streamlining-contested-adjudications-in-licensing-proceedings) (US Federal Register: artificial intelligence, 2026-11-03)
+- UK: [Taxpayer Data Standards Forum](https://www.gov.uk/government/groups/taxpayer-data-standards-forum) (GOV.UK updates on artificial intelligence, 2026-11-03T12:59:49+00:00)
+- UK: [DCMS sectors soft power evidence review and theory of change](https://www.gov.uk/government/publications/dcms-sectors-soft-power-evidence-review-and-theory-of-change) (GOV.UK updates on artificial intelligence, 2026-11-03T11:41:04+00:00)
+- UK: [UK National Screening Committee register of interests](https://www.gov.uk/government/publications/uk-national-screening-committee-register-of-interests) (GOV.UK updates on artificial intelligence, 2026-11-03T11:40:09+00:00)
+- UK: [Powers and operational procedure: caseworker guidance](https://www.gov.uk/government/publications/powers-and-operational-procedure-caseworker-guidance) (GOV.UK updates on artificial intelligence, 2026-11-03T11:38:41+00:00)
+- UK: [Draft National Policy Statement for Data Centres](https://www.gov.uk/government/consultations/draft-national-policy-statement-for-data-centres) (GOV.UK updates on artificial intelligence, 2026-11-03T11:32:46+00:00)
+- UK: [Countryside Stewardship Higher Tier (CSHT)](https://www.gov.uk/government/publications/countryside-stewardship-higher-tier-csht) (GOV.UK updates on artificial intelligence, 2026-11-03T11:00:02+00:00)
+- UK: [Cyber Security and Resilience (Network and Information Systems) Bill: factsheets](https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets) (GOV.UK updates on artificial intelligence, 2026-11-03T10:14:50+00:00)
+- UK: [Revised guidance issued under section 182 of Licensing Act 2003](https://www.gov.uk/government/publications/explanatory-memorandum-revised-guidance-issued-under-s-182-of-licensing-act-2003) (GOV.UK updates on artificial intelligence, 2026-11-03T10:00:05+00:00)
+- UK: [The Agricultural Supply Chain Adjudicator (ASCA): rules and guidance](https://www.gov.uk/government/publications/the-agricultural-supply-chain-adjudicator-asca-making-a-complaint) (GOV.UK updates on artificial intelligence, 2026-11-03T09:57:43+00:00)
+- EU: [Web Summit 2026](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026) (European Commission digital strategy news, Tue, 03 Nov 2026 10:13:35 +0000)
 
 ## Documents that could not be fetched
 

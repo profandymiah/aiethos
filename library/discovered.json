@@ -1,106 +1,108 @@
 {
-  "run_at": "2026-11-02T16:12:20.360Z",
+  "run_at": "2026-11-03T14:32:39.424Z",
   "new_items": [
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/earned-settlement",
-      "title": "Earned settlement",
-      "url": "https://www.gov.uk/government/consultations/earned-settlement",
-      "date": "2026-11-02T16:09:05+00:00"
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-22443",
+      "title": "Streamlining Contested Adjudications in Licensing Proceedings",
+      "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22443/streamlining-contested-adjudications-in-licensing-proceedings",
+      "date": "2026-11-03",
+      "extra": "Rule"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
-      "title": "Carbon border adjustment mechanism (CBAM): Policy summary",
-      "url": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
-      "date": "2026-11-02T15:09:31+00:00"
+      "id": "https://www.gov.uk/government/groups/taxpayer-data-standards-forum",
+      "title": "Taxpayer Data Standards Forum",
+      "url": "https://www.gov.uk/government/groups/taxpayer-data-standards-forum",
+      "date": "2026-11-03T12:59:49+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment",
-      "title": "River modelling: technical standards and assessment",
-      "url": "https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment",
-      "date": "2026-11-02T14:54:48+00:00"
+      "id": "https://www.gov.uk/government/publications/dcms-sectors-soft-power-evidence-review-and-theory-of-change",
+      "title": "DCMS sectors soft power evidence review and theory of change",
+      "url": "https://www.gov.uk/government/publications/dcms-sectors-soft-power-evidence-review-and-theory-of-change",
+      "date": "2026-11-03T11:41:04+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/seasonal-workers-pilot-review",
-      "title": "Seasonal workers reviews and surveys",
-      "url": "https://www.gov.uk/government/publications/seasonal-workers-pilot-review",
-      "date": "2026-11-02T14:08:45+00:00"
+      "id": "https://www.gov.uk/government/publications/uk-national-screening-committee-register-of-interests",
+      "title": "UK National Screening Committee register of interests",
+      "url": "https://www.gov.uk/government/publications/uk-national-screening-committee-register-of-interests",
+      "date": "2026-11-03T11:40:09+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots",
-      "title": "‘No Place for Knives’ campaign launches in knife crime hotspots",
-      "url": "https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots",
-      "date": "2026-11-02T13:33:15+00:00"
+      "id": "https://www.gov.uk/government/publications/powers-and-operational-procedure-caseworker-guidance",
+      "title": "Powers and operational procedure: caseworker guidance",
+      "url": "https://www.gov.uk/government/publications/powers-and-operational-procedure-caseworker-guidance",
+      "date": "2026-11-03T11:38:41+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245",
-      "title": "Parliamentary Under-Secretary of State (Minister for the Armed Forces)",
-      "url": "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245",
-      "date": "2026-11-02T13:03:55+00:00"
+      "id": "https://www.gov.uk/government/consultations/draft-national-policy-statement-for-data-centres",
+      "title": "Draft National Policy Statement for Data Centres",
+      "url": "https://www.gov.uk/government/consultations/draft-national-policy-statement-for-data-centres",
+      "date": "2026-11-03T11:32:46+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/intellectual-property-office-structure-chart",
-      "title": "Intellectual Property Office: structure chart",
-      "url": "https://www.gov.uk/government/publications/intellectual-property-office-structure-chart",
-      "date": "2026-11-02T12:25:11+00:00"
+      "id": "https://www.gov.uk/government/publications/countryside-stewardship-higher-tier-csht",
+      "title": "Countryside Stewardship Higher Tier (CSHT)",
+      "url": "https://www.gov.uk/government/publications/countryside-stewardship-higher-tier-csht",
+      "date": "2026-11-03T11:00:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/green-gas-support-scheme-budget-management",
-      "title": "Green Gas Support Scheme: budget management",
-      "url": "https://www.gov.uk/government/publications/green-gas-support-scheme-budget-management",
-      "date": "2026-11-02T12:11:06+00:00"
+      "id": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets",
+      "title": "Cyber Security and Resilience (Network and Information Systems) Bill: factsheets",
+      "url": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets",
+      "date": "2026-11-03T10:14:50+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
-      "title": "Hundreds of employers handed penalties for illegally underpaying workers",
-      "url": "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
-      "date": "2026-11-02T12:09:14+00:00"
+      "id": "https://www.gov.uk/government/publications/explanatory-memorandum-revised-guidance-issued-under-s-182-of-licensing-act-2003",
+      "title": "Revised guidance issued under section 182 of Licensing Act 2003",
+      "url": "https://www.gov.uk/government/publications/explanatory-memorandum-revised-guidance-issued-under-s-182-of-licensing-act-2003",
+      "date": "2026-11-03T10:00:05+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/sparck-masters-scholarship",
-      "title": "Spärck Master’s Scholarship",
-      "url": "https://www.gov.uk/guidance/sparck-masters-scholarship",
-      "date": "2026-11-02T12:00:04+00:00"
+      "id": "https://www.gov.uk/government/publications/the-agricultural-supply-chain-adjudicator-asca-making-a-complaint",
+      "title": "The Agricultural Supply Chain Adjudicator (ASCA): rules and guidance",
+      "url": "https://www.gov.uk/government/publications/the-agricultural-supply-chain-adjudicator-asca-making-a-complaint",
+      "date": "2026-11-03T09:57:43+00:00"
+    },
+    {
+      "source": "ec-ai-news",
+      "label": "European Commission digital strategy news",
+      "jurisdiction": "EU",
+      "id": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
+      "title": "Web Summit 2026",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
+      "date": "Tue, 03 Nov 2026 10:13:35 +0000"
     }
   ],
-  "page_changes": [
-    {
-      "source": "regulations-ai",
-      "label": "regulations.ai global tracker (secondary signal)",
-      "jurisdiction": "INT",
-      "url": "https://regulations.ai/",
-      "signal": true
-    }
-  ],
+  "page_changes": [],
   "errors": [
     {
       "source": "coe-ai-news",
