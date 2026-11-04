@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-03T14:21:19.047Z",
+  "run_at": "2026-11-04T14:37:45.990Z",
   "changed": [
     {
       "id": "cn-cac",
@@ -7,8 +7,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5280,
-      "chars_after": 5222
+      "chars_before": 5222,
+      "chars_after": 3087
     },
     {
       "id": "vn-gov",
@@ -16,8 +16,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 27557,
-      "chars_after": 26078
+      "chars_before": 26078,
+      "chars_after": 24914
     },
     {
       "id": "ca-legisinfo",
@@ -25,8 +25,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54182,
-      "chars_after": 54192
+      "chars_before": 54192,
+      "chars_after": 54645
     },
     {
       "id": "br-pl2338",
@@ -38,13 +38,13 @@
       "chars_after": 230249
     },
     {
-      "id": "eu-ai-office",
-      "title": "European AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-      "jurisdiction": "EU",
+      "id": "ae-uae-ai",
+      "title": "UAE Government portal: Artificial Intelligence",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
+      "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 9782,
-      "chars_after": 9773
+      "chars_before": 759,
+      "chars_after": 757
     },
     {
       "id": "us-eo-14179",
@@ -52,8 +52,8 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 13783,
-      "chars_after": 13782
+      "chars_before": 13782,
+      "chars_after": 1239
     },
     {
       "id": "kr-ai-basic-act",
@@ -61,8 +61,17 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2160,
-      "chars_after": 2137
+      "chars_before": 2137,
+      "chars_after": 2178
+    },
+    {
+      "id": "paris-statement",
+      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+      "jurisdiction": "INT",
+      "priority": "high",
+      "chars_before": 7540,
+      "chars_after": 7617
     }
   ],
   "new": [],

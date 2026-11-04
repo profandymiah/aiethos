@@ -1,26 +1,33 @@
 ## Tracked documents that changed
 
-- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5280 to 5222 characters
-- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 27557 to 26078 characters
-- **ca-legisinfo** (CA, medium): [LEGISinfo: Parliament of Canada bills](https://www.parl.ca/legisinfo/en/bills), 54182 to 54192 characters
+- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5222 to 3087 characters
+- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 26078 to 24914 characters
+- **ca-legisinfo** (CA, medium): [LEGISinfo: Parliament of Canada bills](https://www.parl.ca/legisinfo/en/bills), 54192 to 54645 characters
 - **br-pl2338** (BR, high): [PL 2338/2023 (AI Legal Framework): Senate bill page](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233), 230249 to 230249 characters
-- **eu-ai-office** (EU, high): [European AI Office](https://digital-strategy.ec.europa.eu/en/policies/ai-office), 9782 to 9773 characters
-- **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13783 to 13782 characters
-- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2160 to 2137 characters
+- **ae-uae-ai** (AE, high): [UAE Government portal: Artificial Intelligence](https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence), 759 to 757 characters
+- **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13782 to 1239 characters
+- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2137 to 2178 characters
+- **paris-statement** (INT, high): [Statement on Inclusive and Sustainable AI (Paris AI Action Summit)](https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet), 7540 to 7617 characters
 
 ## New items found
 
-- US: [Streamlining Contested Adjudications in Licensing Proceedings](https://www.federalregister.gov/documents/2026/11/03/2026-22443/streamlining-contested-adjudications-in-licensing-proceedings) (US Federal Register: artificial intelligence, 2026-11-03)
-- UK: [Taxpayer Data Standards Forum](https://www.gov.uk/government/groups/taxpayer-data-standards-forum) (GOV.UK updates on artificial intelligence, 2026-11-03T12:59:49+00:00)
-- UK: [DCMS sectors soft power evidence review and theory of change](https://www.gov.uk/government/publications/dcms-sectors-soft-power-evidence-review-and-theory-of-change) (GOV.UK updates on artificial intelligence, 2026-11-03T11:41:04+00:00)
-- UK: [UK National Screening Committee register of interests](https://www.gov.uk/government/publications/uk-national-screening-committee-register-of-interests) (GOV.UK updates on artificial intelligence, 2026-11-03T11:40:09+00:00)
-- UK: [Powers and operational procedure: caseworker guidance](https://www.gov.uk/government/publications/powers-and-operational-procedure-caseworker-guidance) (GOV.UK updates on artificial intelligence, 2026-11-03T11:38:41+00:00)
-- UK: [Draft National Policy Statement for Data Centres](https://www.gov.uk/government/consultations/draft-national-policy-statement-for-data-centres) (GOV.UK updates on artificial intelligence, 2026-11-03T11:32:46+00:00)
-- UK: [Countryside Stewardship Higher Tier (CSHT)](https://www.gov.uk/government/publications/countryside-stewardship-higher-tier-csht) (GOV.UK updates on artificial intelligence, 2026-11-03T11:00:02+00:00)
-- UK: [Cyber Security and Resilience (Network and Information Systems) Bill: factsheets](https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets) (GOV.UK updates on artificial intelligence, 2026-11-03T10:14:50+00:00)
-- UK: [Revised guidance issued under section 182 of Licensing Act 2003](https://www.gov.uk/government/publications/explanatory-memorandum-revised-guidance-issued-under-s-182-of-licensing-act-2003) (GOV.UK updates on artificial intelligence, 2026-11-03T10:00:05+00:00)
-- UK: [The Agricultural Supply Chain Adjudicator (ASCA): rules and guidance](https://www.gov.uk/government/publications/the-agricultural-supply-chain-adjudicator-asca-making-a-complaint) (GOV.UK updates on artificial intelligence, 2026-11-03T09:57:43+00:00)
-- EU: [Web Summit 2026](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026) (European Commission digital strategy news, Tue, 03 Nov 2026 10:13:35 +0000)
+- UK: [Regulator of Social Housing Corporate Plan 2026-2029](https://www.gov.uk/government/publications/regulator-of-social-housing-corporate-plan-2026-2029) (GOV.UK updates on artificial intelligence, 2026-11-04T13:30:03+00:00)
+- UK: [Strengthening seafarer protections on UK-France routes](https://www.gov.uk/government/consultations/strengthening-seafarer-protections-on-uk-france-routes) (GOV.UK updates on artificial intelligence, 2026-11-04T12:09:21+00:00)
+- UK: [Ms J Bassford v Devon County Council: 6022874/2024](https://www.gov.uk/employment-tribunal-decisions/ms-j-bassford-v-devon-county-council-6022874-slash-2024) (GOV.UK updates on artificial intelligence, 2026-11-04T11:43:43+00:00)
+- UK: [Dr Ewan Kirk appointed MOD’s Director Innovation](https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation) (GOV.UK updates on artificial intelligence, 2026-11-04T11:27:38+00:00)
+- UK: [Consultation on changes to the UK designs framework](https://www.gov.uk/government/consultations/consultation-on-changes-to-the-uk-designs-framework) (GOV.UK updates on artificial intelligence, 2026-11-04T11:01:50+00:00)
+- UK: [Legal framework for using facial recognition in law enforcement](https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement) (GOV.UK updates on artificial intelligence, 2026-11-04T10:30:03+00:00)
+- UK: [Ms K King v Secretary of State for Justice: 3310886/2023](https://www.gov.uk/employment-tribunal-decisions/ms-k-king-v-secretary-of-state-for-justice-3310886-slash-2023) (GOV.UK updates on artificial intelligence, 2026-11-04T10:16:47+00:00)
+- UK: [Offshore wind development: library of strategic compensatory measures](https://www.gov.uk/guidance/offshore-wind-development-library-of-strategic-compensatory-measures) (GOV.UK updates on artificial intelligence, 2026-11-04T10:14:07+00:00)
+- UK: [Mr D Boshle v Mr F Zeineddine and Basita Ltd (In Voluntary Creditor’s Liquidation): 6009009/2024](https://www.gov.uk/employment-tribunal-decisions/mr-d-boshle-v-mr-f-zeineddine-and-basita-ltd-in-voluntary-creditors-liquidation-6009009-slash-2024) (GOV.UK updates on artificial intelligence, 2026-11-04T10:06:28+00:00)
+- UK: [Reform of the Crichel Down Rules](https://www.gov.uk/government/consultations/reform-of-the-crichel-down-rules) (GOV.UK updates on artificial intelligence, 2026-11-04T10:00:09+00:00)
+- EU: [Independent study on the impact of age assurance on fundamental rights and costs for businesses](https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses) (European Commission digital strategy news, Wed, 04 Nov 2026 14:04:13 +0000)
+- EU: [Call for evidence on advertising repositories](https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories) (European Commission digital strategy news, Wed, 04 Nov 2026 10:10:00 +0000)
+- EU: [Call for proposals: EU AI Media Platform – Modular multilingual public-interest infrastructure for European news and audiovisual media (IA) - Apply AI](https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european) (European Commission digital strategy news, Tue, 03 Nov 2026 10:49:00 +0000)
+
+## Watched pages that changed
+
+- INT: [regulations.ai global tracker (secondary signal)](https://regulations.ai/) (secondary signal)
 
 ## Documents that could not be fetched
 

@@ -39,7 +39,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   },
   "uk-bills": {
     "ids": [
@@ -50,10 +50,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/regulator-of-social-housing-corporate-plan-2026-2029",
+      "https://www.gov.uk/government/consultations/strengthening-seafarer-protections-on-uk-france-routes",
+      "https://www.gov.uk/employment-tribunal-decisions/ms-j-bassford-v-devon-county-council-6022874-slash-2024",
+      "https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation",
+      "https://www.gov.uk/government/consultations/consultation-on-changes-to-the-uk-designs-framework",
+      "https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement",
+      "https://www.gov.uk/employment-tribunal-decisions/ms-k-king-v-secretary-of-state-for-justice-3310886-slash-2023",
+      "https://www.gov.uk/guidance/offshore-wind-development-library-of-strategic-compensatory-measures",
+      "https://www.gov.uk/employment-tribunal-decisions/mr-d-boshle-v-mr-f-zeineddine-and-basita-ltd-in-voluntary-creditors-liquidation-6009009-slash-2024",
+      "https://www.gov.uk/government/consultations/reform-of-the-crichel-down-rules",
       "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
       "https://www.gov.uk/government/groups/taxpayer-data-standards-forum",
       "https://www.gov.uk/government/publications/dcms-sectors-soft-power-evidence-review-and-theory-of-change",
@@ -142,10 +152,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   },
   "ec-ai-news": {
     "ids": [
+      "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
+      "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
+      "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european",
       "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
       "https://digital-strategy.ec.europa.eu/en/events/local-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026",
       "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-temus-action-plan-remedy-breach-digital-services-act",
@@ -160,13 +173,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -177,18 +190,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "5a2886022dfb0bce38b734593bf916573ad70b0ed3a479d3e87d92e2eaff4c17",
+    "page_hash": "24645bcf91a6676fab6caf5fc49c7c90a9474d2dd0f7aa8bfd2aff720ca9ce45",
     "initialised": true,
-    "last_checked": "2026-11-03T14:32:39.424Z"
+    "last_checked": "2026-11-04T14:49:21.412Z"
   }
 }
