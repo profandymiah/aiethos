@@ -1,14 +1,32 @@
 {
-  "run_at": "2026-11-04T14:37:45.990Z",
+  "run_at": "2026-11-05T14:43:14.809Z",
   "changed": [
+    {
+      "id": "eu-ai-act-consolidated",
+      "title": "AI Act: Commission regulatory framework page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 17643,
+      "chars_after": 17737
+    },
+    {
+      "id": "uk-whitepaper",
+      "title": "A pro-innovation approach to AI regulation (White Paper)",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "jurisdiction": "UK",
+      "priority": "high",
+      "chars_before": 5295,
+      "chars_after": 5355
+    },
     {
       "id": "cn-cac",
       "title": "Cyberspace Administration of China (English site)",
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5222,
-      "chars_after": 3087
+      "chars_before": 3087,
+      "chars_after": 5359
     },
     {
       "id": "vn-gov",
@@ -16,8 +34,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26078,
-      "chars_after": 24914
+      "chars_before": 24914,
+      "chars_after": 25821
     },
     {
       "id": "ca-legisinfo",
@@ -25,8 +43,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54192,
-      "chars_after": 54645
+      "chars_before": 54645,
+      "chars_after": 54523
     },
     {
       "id": "br-pl2338",
@@ -38,13 +56,13 @@
       "chars_after": 230249
     },
     {
-      "id": "ae-uae-ai",
-      "title": "UAE Government portal: Artificial Intelligence",
-      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
-      "jurisdiction": "AE",
+      "id": "eu-ai-office",
+      "title": "European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 759,
-      "chars_after": 757
+      "chars_before": 9773,
+      "chars_after": 9860
     },
     {
       "id": "us-eo-14179",
@@ -52,8 +70,8 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 13782,
-      "chars_after": 1239
+      "chars_before": 1239,
+      "chars_after": 13782
     },
     {
       "id": "kr-ai-basic-act",
@@ -61,17 +79,8 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2137,
+      "chars_before": 2178,
       "chars_after": 2178
-    },
-    {
-      "id": "paris-statement",
-      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
-      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
-      "jurisdiction": "INT",
-      "priority": "high",
-      "chars_before": 7540,
-      "chars_after": 7617
     }
   ],
   "new": [],
@@ -117,6 +126,12 @@
       "title": "California SB 53 (Transparency in Frontier AI Act)",
       "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
       "error": "HTTP 403"
+    },
+    {
+      "id": "kr-msit",
+      "title": "AI Basic Act comes into force (MSIT announcement)",
+      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
+      "error": "empty response"
     },
     {
       "id": "au-industry-ai",

@@ -1,6 +1,8 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-22615",
+      "2026-22593",
       "2026-22443",
       "2026-22174",
       "2026-22112",
@@ -39,7 +41,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   },
   "uk-bills": {
     "ids": [
@@ -50,10 +52,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007",
+      "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026",
+      "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
+      "https://www.gov.uk/business-finance-support/pathways-to-funding",
+      "https://www.gov.uk/government/publications/quarterly-reports-on-the-pesticide-residues-monitoring-programme-background-and-methodology",
+      "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+      "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg51820",
+      "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg47320",
+      "https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement",
+      "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-al-ateeqi-v-kuwait-investment-authority-2026-eat-169",
       "https://www.gov.uk/government/publications/regulator-of-social-housing-corporate-plan-2026-2029",
       "https://www.gov.uk/government/consultations/strengthening-seafarer-protections-on-uk-france-routes",
       "https://www.gov.uk/employment-tribunal-decisions/ms-j-bassford-v-devon-county-council-6022874-slash-2024",
@@ -152,7 +164,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -173,13 +185,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -190,18 +202,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "24645bcf91a6676fab6caf5fc49c7c90a9474d2dd0f7aa8bfd2aff720ca9ce45",
+    "page_hash": "af3f4d43f0794785588954f9958af77bde7e758c2b2bafa4f868be6b84826882",
     "initialised": true,
-    "last_checked": "2026-11-04T14:49:21.412Z"
+    "last_checked": "2026-11-05T14:55:20.539Z"
   }
 }

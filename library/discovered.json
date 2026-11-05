@@ -1,122 +1,115 @@
 {
-  "run_at": "2026-11-04T14:49:21.412Z",
+  "run_at": "2026-11-05T14:55:20.539Z",
   "new_items": [
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/regulator-of-social-housing-corporate-plan-2026-2029",
-      "title": "Regulator of Social Housing Corporate Plan 2026-2029",
-      "url": "https://www.gov.uk/government/publications/regulator-of-social-housing-corporate-plan-2026-2029",
-      "date": "2026-11-04T13:30:03+00:00"
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-22615",
+      "title": "Proposed Priorities and Definitions-Secretary's Supplemental Priorities and Definitions",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions",
+      "date": "2026-11-05",
+      "extra": "Proposed Rule"
+    },
+    {
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-22593",
+      "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology",
+      "date": "2026-11-05",
+      "extra": "Rule"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/strengthening-seafarer-protections-on-uk-france-routes",
-      "title": "Strengthening seafarer protections on UK-France routes",
-      "url": "https://www.gov.uk/government/consultations/strengthening-seafarer-protections-on-uk-france-routes",
-      "date": "2026-11-04T12:09:21+00:00"
+      "id": "https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007",
+      "title": "Secretary of State for Housing, Communities and Local Government v Urban Splash Ltd &amp; Ors: MAN/00BN/BSB/2024/0001-0007",
+      "url": "https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007",
+      "date": "2026-11-05T14:20:56+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/ms-j-bassford-v-devon-county-council-6022874-slash-2024",
-      "title": "Ms J Bassford v Devon County Council: 6022874/2024",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/ms-j-bassford-v-devon-county-council-6022874-slash-2024",
-      "date": "2026-11-04T11:43:43+00:00"
+      "id": "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026",
+      "title": "Defending media freedom and the safety of journalists: UK statement to the OSCE, November 2026",
+      "url": "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026",
+      "date": "2026-11-05T14:16:06+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation",
-      "title": "Dr Ewan Kirk appointed MOD’s Director Innovation",
-      "url": "https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation",
-      "date": "2026-11-04T11:27:38+00:00"
+      "id": "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
+      "title": "National flu and COVID-19 surveillance reports: 2026 to 2027 season",
+      "url": "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
+      "date": "2026-11-05T14:00:05+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/consultation-on-changes-to-the-uk-designs-framework",
-      "title": "Consultation on changes to the UK designs framework",
-      "url": "https://www.gov.uk/government/consultations/consultation-on-changes-to-the-uk-designs-framework",
-      "date": "2026-11-04T11:01:50+00:00"
+      "id": "https://www.gov.uk/business-finance-support/pathways-to-funding",
+      "title": "Pathways to Funding",
+      "url": "https://www.gov.uk/business-finance-support/pathways-to-funding",
+      "date": "2026-11-05T13:51:52+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement",
-      "title": "Legal framework for using facial recognition in law enforcement",
-      "url": "https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement",
-      "date": "2026-11-04T10:30:03+00:00"
+      "id": "https://www.gov.uk/government/publications/quarterly-reports-on-the-pesticide-residues-monitoring-programme-background-and-methodology",
+      "title": "Quarterly reports on the pesticide residues monitoring programme: background and methodology",
+      "url": "https://www.gov.uk/government/publications/quarterly-reports-on-the-pesticide-residues-monitoring-programme-background-and-methodology",
+      "date": "2026-11-05T13:41:04+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/ms-k-king-v-secretary-of-state-for-justice-3310886-slash-2023",
-      "title": "Ms K King v Secretary of State for Justice: 3310886/2023",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/ms-k-king-v-secretary-of-state-for-justice-3310886-slash-2023",
-      "date": "2026-11-04T10:16:47+00:00"
+      "id": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+      "title": "Budget 2026: Overview of tax legislation and rates (OOTLAR)",
+      "url": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+      "date": "2026-11-05T13:23:10+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/offshore-wind-development-library-of-strategic-compensatory-measures",
-      "title": "Offshore wind development: library of strategic compensatory measures",
-      "url": "https://www.gov.uk/guidance/offshore-wind-development-library-of-strategic-compensatory-measures",
-      "date": "2026-11-04T10:14:07+00:00"
+      "id": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg51820",
+      "title": "CG51820 - Shares and securities: share reorganisations: consideration paid",
+      "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg51820",
+      "date": "2026-11-05T13:21:17+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/mr-d-boshle-v-mr-f-zeineddine-and-basita-ltd-in-voluntary-creditors-liquidation-6009009-slash-2024",
-      "title": "Mr D Boshle v Mr F Zeineddine and Basita Ltd (In Voluntary Creditor’s Liquidation): 6009009/2024",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/mr-d-boshle-v-mr-f-zeineddine-and-basita-ltd-in-voluntary-creditors-liquidation-6009009-slash-2024",
-      "date": "2026-11-04T10:06:28+00:00"
+      "id": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg47320",
+      "title": "CG47320 - Anti-gain buying rules in Finance Act 2006",
+      "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg47320",
+      "date": "2026-11-05T13:07:20+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/reform-of-the-crichel-down-rules",
-      "title": "Reform of the Crichel Down Rules",
-      "url": "https://www.gov.uk/government/consultations/reform-of-the-crichel-down-rules",
-      "date": "2026-11-04T10:00:09+00:00"
+      "id": "https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement",
+      "title": "UK-Switzerland Financial Dialogue 2026 Joint Statement",
+      "url": "https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement",
+      "date": "2026-11-05T13:00:03+00:00"
     },
     {
-      "source": "ec-ai-news",
-      "label": "European Commission digital strategy news",
-      "jurisdiction": "EU",
-      "id": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
-      "title": "Independent study on the impact of age assurance on fundamental rights and costs for businesses",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
-      "date": "Wed, 04 Nov 2026 14:04:13 +0000"
-    },
-    {
-      "source": "ec-ai-news",
-      "label": "European Commission digital strategy news",
-      "jurisdiction": "EU",
-      "id": "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
-      "title": "Call for evidence on advertising repositories",
-      "url": "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
-      "date": "Wed, 04 Nov 2026 10:10:00 +0000"
-    },
-    {
-      "source": "ec-ai-news",
-      "label": "European Commission digital strategy news",
-      "jurisdiction": "EU",
-      "id": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european",
-      "title": "Call for proposals: EU AI Media Platform – Modular multilingual public-interest infrastructure for European news and audiovisual media (IA) - Apply AI",
-      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european",
-      "date": "Tue, 03 Nov 2026 10:49:00 +0000"
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-al-ateeqi-v-kuwait-investment-authority-2026-eat-169",
+      "title": "Mr Al-Ateeqi v Kuwait Investment Authority: [2026] EAT 169",
+      "url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-al-ateeqi-v-kuwait-investment-authority-2026-eat-169",
+      "date": "2026-11-05T12:59:12+00:00"
     }
   ],
   "page_changes": [

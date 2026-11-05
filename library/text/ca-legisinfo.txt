@@ -97,7 +97,7 @@ All
  62 results 
 
  House of Commons
- 135 results 
+ 136 results 
 
  Bill type 
  selected 
@@ -117,7 +117,7 @@ All
  41 results 
 
  Private Member’s Bill
- 94 results 
+ 95 results 
 
  Political affiliation 
  selected 
@@ -143,7 +143,7 @@ All
  58 results 
 
  NDP
- 26 results 
+ 27 results 
 
  Non-affiliated
  12 results 
@@ -157,46 +157,40 @@ All
 All 
 
  At consideration in committee in the House of Commons
- 20 results 
+ 18 results 
 
  At consideration in committee in the Senate
  14 results 
 
  At report stage in the House of Commons
- 7 results 
-
- At report stage in the Senate
- 1 result 
+ 10 results 
 
  At second reading in the House of Commons
- 22 results 
+ 20 results 
 
  At second reading in the Senate
- 21 results 
+ 22 results 
 
  At third reading in the House of Commons
  1 result 
 
  At third reading in the Senate
- 3 results 
+ 4 results 
 
  Awaiting royal assent
  1 result 
 
  Bill defeated
- 13 results 
+ 14 results 
 
  Bill not proceeded with
- 1 result 
-
- House of Commons bill awaiting first reading in the Senate
  1 result 
 
  Introduced as pro forma bill
  2 results 
 
  Outside the Order of Precedence
- 52 results 
+ 53 results 
 
  Royal assent received
  32 results 
@@ -214,7 +208,7 @@ All
 All 
 
  30th - Carney, Mark
- 197 results 
+ 198 results 
 
  (March 14, 2025 to present) 
 
@@ -504,7 +498,7 @@ All
  1 result 
 
  Kwan, Jenny
- 5 results 
+ 6 results 
 
  Lalonde, Marie-France
  1 result 
@@ -690,7 +684,7 @@ All
  10 results 
 
  National Defence
- 2 results 
+ 3 results 
 
  Procedure and House Affairs
  1 result 
@@ -710,9 +704,9 @@ All
  Show more 
  Show less 
 
- Results 1-60 of 197 
+ Results 1-60 of 198 
 
- Results 1-60 of 197 
+ Results 1-60 of 198 
 
  Relevance
 
@@ -1063,7 +1057,7 @@ All
  An Act respecting a national framework on sports betting advertising
 
  Current status 
- At consideration in committee in the House of Commons 
+ At report stage in the House of Commons 
 
  Last major stage completed 
  Second reading in the House of Commons 
@@ -1476,7 +1470,7 @@ All
  An Act respecting a national framework for fetal alcohol spectrum disorder
 
  Current status 
- At report stage in the Senate 
+ At third reading in the Senate 
 
  Last major stage completed 
  Second reading in the Senate 
@@ -1695,10 +1689,10 @@ All
  An Act respecting the recognition of wartime service
 
  Current status 
- At second reading in the House of Commons 
+ At consideration in committee in the House of Commons 
 
  Last major stage completed 
- First reading in the House of Commons 
+ Second reading in the House of Commons 
 
  S-247
 
@@ -2297,11 +2291,11 @@ All
 
  Current status
 
- At consideration in committee in the House of Commons
+ At report stage in the House of Commons
 
  Latest activity
 
- Second reading and referral to committee on April 22, 2026 (House of Commons)
+ Committee report presented with amendments on November 4, 2026 (House of Commons)
 
  S-212
 
@@ -2894,11 +2888,11 @@ All
 
  Current status
 
- At report stage in the Senate
+ At third reading in the Senate
 
  Latest activity
 
- Committee report presented with amendments on November 3, 2026 (Senate)
+ Committee report adopted on November 4, 2026 (Senate)
 
  S-235
 
@@ -3209,11 +3203,11 @@ All
 
  Current status
 
- At second reading in the House of Commons
+ At consideration in committee in the House of Commons
 
  Latest activity
 
- Placed in the Order of Precedence on June 8, 2026 (House of Commons)
+ Second reading and referral to committee on November 4, 2026 (House of Commons)
 
  S-247
 
