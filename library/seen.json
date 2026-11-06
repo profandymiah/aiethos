@@ -1,6 +1,8 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-22739",
+      "2026-22680",
       "2026-22615",
       "2026-22593",
       "2026-22443",
@@ -41,7 +43,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   },
   "uk-bills": {
     "ids": [
@@ -52,10 +54,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/tactical-power-challenge",
+      "https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026",
+      "https://www.gov.uk/government/publications/use-of-force-for-adults-in-detention",
+      "https://www.gov.uk/government/publications/department-for-education-non-executive-appointments",
+      "https://www.gov.uk/government/publications/dvsa-privacy-notices",
+      "https://www.gov.uk/government/publications/uk-natural-capital-and-ecosystem-services-a-pathway-to-at-scale-investment-capital-flows",
+      "https://www.gov.uk/government/publications/hmrcs-engagement-forums",
+      "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
+      "https://www.gov.uk/government/publications/the-consultancy-playbook",
+      "https://www.gov.uk/government/consultations/amending-licensing-restrictions-for-18-and-19-year-old-bus-and-coach-drivers",
       "https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007",
       "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026",
       "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
@@ -105,7 +117,6 @@
       "https://www.gov.uk/government/publications/the-national-archives-framework-document-2026-to-2029",
       "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "https://www.gov.uk/government/publications/october-2026-economic-and-fiscal-outlook",
-      "https://www.gov.uk/government/publications/department-for-education-non-executive-appointments",
       "https://www.gov.uk/administrative-appeals-tribunal-decisions/john-robert-james-rawlings-v-secretary-of-state-for-work-and-pensions-ii-2026-ukut-389-aac",
       "https://www.gov.uk/employment-tribunal-decisions/mrs-m-a-hogg-v-outcomes-first-group-ltd-8000201-slash-2025",
       "https://www.gov.uk/guidance/northern-ireland-retail-movement-scheme-nirms-how-to-move-goods",
@@ -164,10 +175,11 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   },
   "ec-ai-news": {
     "ids": [
+      "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
       "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
       "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
       "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european",
@@ -185,13 +197,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   },
   "oecd-ai-news": {
     "ids": [],
-    "page_hash": "d74a5abeccbf584bd9bcabb81d141ec9c6f0ea98e3ede0a89600125438736e47",
+    "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -202,18 +214,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "af3f4d43f0794785588954f9958af77bde7e758c2b2bafa4f868be6b84826882",
+    "page_hash": "799c47e1a0b61d3def83cc361f41ec5bb51024c942c39c55715ebb85f231eb45",
     "initialised": true,
-    "last_checked": "2026-11-05T14:55:20.539Z"
+    "last_checked": "2026-11-06T14:31:43.684Z"
   }
 }

@@ -51,6 +51,9 @@ AI Principles Overview - OECD.AI
  The Hiroshima AI Reporting Framework 
  Organisations developing advanced AI systems can participate by submitting a report. By sharing information, they will facilitate transparency and comparability of risk mitigation measures. 
 
+ OECD.AI Index 
+ The OECD.AI Index assesses countries' progress in implementing the OECD Recommendation on AI 
+
  OECD AI Principles 
  The first IGO standard to promote innovative and trustworthy AI 
 

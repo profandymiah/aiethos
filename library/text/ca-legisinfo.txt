@@ -160,22 +160,25 @@ All
  18 results 
 
  At consideration in committee in the Senate
- 14 results 
+ 13 results 
 
  At report stage in the House of Commons
  10 results 
+
+ At report stage in the Senate
+ 1 result 
 
  At second reading in the House of Commons
  20 results 
 
  At second reading in the Senate
- 22 results 
+ 21 results 
 
  At third reading in the House of Commons
  1 result 
 
  At third reading in the Senate
- 4 results 
+ 5 results 
 
  Awaiting royal assent
  1 result 
@@ -622,7 +625,7 @@ All
  4 results 
 
  Indigenous Peoples
- 4 results 
+ 5 results 
 
  Legal and Constitutional Affairs
  10 results 
@@ -1146,7 +1149,7 @@ All
  An Act to declare the Chignecto Isthmus Dykeland System and related works to be for the general advantage of Canada
 
  Current status 
- At consideration in committee in the Senate 
+ At report stage in the Senate 
 
  Last major stage completed 
  Second reading in the Senate 
@@ -1670,10 +1673,10 @@ All
  An Act respecting a National Blanket Ceremony Day
 
  Current status 
- At second reading in the Senate 
+ At consideration in committee in the Senate 
 
  Last major stage completed 
- First reading in the Senate 
+ Second reading in the Senate 
 
  S-246
 
@@ -1926,7 +1929,7 @@ All
 
  Latest activity
 
- First reading on May 28, 2026 (House of Commons)
+ Debate at second reading on November 5, 2026 (House of Commons)
 
  S-6
 
@@ -1980,7 +1983,7 @@ All
 
  Latest activity
 
- Debate at second reading on November 3, 2026 (Senate)
+ Debate at second reading on November 5, 2026 (Senate)
 
  S-8
 
@@ -2420,11 +2423,11 @@ All
 
  Current status
 
- At consideration in committee in the Senate
+ At report stage in the Senate
 
  Latest activity
 
- Referral to committee on February 10, 2026 (Senate)
+ Committee report presented with an amendment on November 5, 2026 (Senate)
 
  S-217
 
@@ -3176,11 +3179,11 @@ All
 
  Current status
 
- At second reading in the Senate
+ At consideration in committee in the Senate
 
  Latest activity
 
- Debate at second reading on October 20, 2026 (Senate)
+ Referral to committee on November 5, 2026 (Senate)
 
  S-246
 

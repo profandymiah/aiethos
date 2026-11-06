@@ -1,23 +1,32 @@
 {
-  "run_at": "2026-11-05T14:43:14.809Z",
+  "run_at": "2026-11-06T14:20:09.770Z",
   "changed": [
     {
-      "id": "eu-ai-act-consolidated",
-      "title": "AI Act: Commission regulatory framework page",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-      "jurisdiction": "EU",
+      "id": "oecd-principles",
+      "title": "OECD AI Principles",
+      "url": "https://oecd.ai/en/ai-principles",
+      "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 17643,
-      "chars_after": 17737
+      "chars_before": 5755,
+      "chars_after": 5867
     },
     {
-      "id": "uk-whitepaper",
-      "title": "A pro-innovation approach to AI regulation (White Paper)",
-      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "id": "uk-dua-act",
+      "title": "Data (Use and Access) Act 2025",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
       "jurisdiction": "UK",
       "priority": "high",
-      "chars_before": 5295,
-      "chars_after": 5355
+      "chars_before": 30244,
+      "chars_after": 32649
+    },
+    {
+      "id": "sg-aiverify",
+      "title": "AI Verify Foundation",
+      "url": "https://aiverifyfoundation.sg/",
+      "jurisdiction": "SG",
+      "priority": "medium",
+      "chars_before": 5472,
+      "chars_after": 5211
     },
     {
       "id": "cn-cac",
@@ -25,8 +34,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 3087,
-      "chars_after": 5359
+      "chars_before": 5359,
+      "chars_after": 5222
     },
     {
       "id": "vn-gov",
@@ -34,8 +43,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 24914,
-      "chars_after": 25821
+      "chars_before": 25821,
+      "chars_after": 26584
     },
     {
       "id": "ca-legisinfo",
@@ -43,8 +52,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54645,
-      "chars_after": 54523
+      "chars_before": 54523,
+      "chars_after": 54599
     },
     {
       "id": "br-pl2338",
@@ -56,13 +65,22 @@
       "chars_after": 230249
     },
     {
-      "id": "eu-ai-office",
-      "title": "European AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-      "jurisdiction": "EU",
+      "id": "br-camara",
+      "title": "PL 2338/2023 Chamber of Deputies proceeding",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+      "jurisdiction": "BR",
+      "priority": "medium",
+      "chars_before": 224981,
+      "chars_after": 206567
+    },
+    {
+      "id": "ae-uae-ai",
+      "title": "UAE Government portal: Artificial Intelligence",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
+      "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 9773,
-      "chars_after": 9860
+      "chars_before": 757,
+      "chars_after": 759
     },
     {
       "id": "us-eo-14179",
@@ -70,8 +88,8 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 1239,
-      "chars_after": 13782
+      "chars_before": 13782,
+      "chars_after": 1239
     },
     {
       "id": "kr-ai-basic-act",
@@ -80,7 +98,7 @@
       "jurisdiction": "KR",
       "priority": "high",
       "chars_before": 2178,
-      "chars_after": 2178
+      "chars_after": 2186
     }
   ],
   "new": [],
@@ -126,12 +144,6 @@
       "title": "California SB 53 (Transparency in Frontier AI Act)",
       "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
       "error": "HTTP 403"
-    },
-    {
-      "id": "kr-msit",
-      "title": "AI Basic Act comes into force (MSIT announcement)",
-      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
-      "error": "empty response"
     },
     {
       "id": "au-industry-ai",

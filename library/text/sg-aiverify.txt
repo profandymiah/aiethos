@@ -63,24 +63,26 @@ Assurance Sandbox
 
  What Our New Members Say
 
- AI providers cannot credibly audit and defend their own systems, the same conflict of interest that made independent financial audit mandatory. Vigil builds an independent accountability and defence layer that records what AI actually does in a tamper-evident format that any party can verify. We are joining AI Verify Foundation because trustworthy AI depends on independent verification and defence, and Singapore is setting the standard the rest of the region will reference.
- Vigil
+ At Kimi, we believe that trust in AI grows through openness, collaboration, and responsible innovation. We are pleased to join the AI Verify Foundation and to be part of a community that brings together diverse perspectives from across the AI ecosystem. We see this as a valuable opportunity to exchange experiences, learn from others, and engage in broader discussions on practical approaches to AI testing and assurance.
+ Kimi
 
- At LinkedIn, we are committed to harnessing AI to create economic opportunities for every member of the global workforce. In Singapore, and across the world, we empower professionals to build connections, discover career opportunities, and develop skills, while helping businesses find talent, grow and become more productive. AI is a tool to further our vision, empowering our members and augmenting their success and productivity. We are committed to using AI responsibly and upholding trust in how these technologies are developed and used.
- LinkedIn
+ At SmartOSC, we engineer AI solutions with trust built in from day one, embedding reliability, safety, and governance into the foundation &#8211; not as an afterthought. Through SmartOSC Tin AI, we make AI performance measurable, explainable and continuously verifiable, giving enterprises the evidence and control to confidently scale AI into mission-critical operations.
+ By joining the AI Verify Foundation, we aim to contribute real-world insights from enterprise AI deployments, collaborate with the wider community and advance the adoption of robust, industry-aligned agentic AI testing and assurance practices.
 
- AI agents don&#8217;t fail alone — risk flows in through the tools, MCP servers and skills they trust, so AgentSure independently attack-tests the whole agent and its extension supply chain, producing evidence rigorous enough to underwrite. We join the AI Verify Foundation to bring this testing lens, born from Singapore&#8217;s AI-security research, to the assurance ecosystem and help make trustworthy agentic AI the norm.
+ SmartOSC
 
- AgentSure Pte. Ltd.
+ As AI agents increasingly take on financial transactions, establishing trust, accountability and clear standards for their safe deployment is more important than ever. By joining the AI Verify Foundation, MetaComp hopes to contribute our experience in regulated financial services to advancing common testing standards and good practices for responsible agentic AI deployment.
 
- At Cohere, responsible AI is foundational to building technology that organizations can trust and deploy with confidence. Joining the AI Verify Foundation reflects our commitment to advancing secure, sovereign, and trustworthy AI through rigorous testing and strong governance. We’re proud to support the development of shared, open frameworks that help enterprises and institutions worldwide adopt AI that is reliable, safe, and fully under their control.
- Cohere
+ MetaComp
 
- At RajISG, we are building Public Trust Infrastructure for the AI era. As AI becomes a more valuable part of how organisations work and serve people, accountability, dependability, and trust matter more. Independent testing and verifiable assurance help users engage with AI-enabled services with greater confidence, and give providers a credible way to show their systems have been properly tested. The AI Verify Foundation is making that trust verifiable. We are pleased to join the effort.
- RajISG
+ AI is moving into the daily operations of SMEs, where it handles customer data, payments and decisions that affect real people. These businesses will scale it only when they can prove it is safe, and few can build that proof themselves. A shared, independent standard closes that gap. TenthNode joins the AI Verify Foundation to build to that standard from day one and make verified AI the default for the SMEs we serve.
+ TenthNode
 
- Amaris.AI is dedicated to advancing humanity through agile, innovative and trustworthy solutions. We believe AI must be deployed responsibly, with security-by-design at its core. We are excited to partner with the AI Verify Foundation to promote AI applications built on the principles of security-by-design, ethics, transparency and accountability to foster greater trust to use AI.
- Amaris AI
+ Every claim about AI today rests on a company&#8217;s word. The new standard is a record anyone can verify: what the world said, what the agents did, who approved it, sealed each day and checkable without us. oddly builds that record and runs on it. We joined AI Verify Foundation so that when a regulator asks to see the record, the industry has one answer.
+ oddly
+
+ The value of AI lies in its potential to empower team members, enhance guest experiences and drive operational excellence, enabling a smarter, more responsive destination. Resorts World Sentosa is committed to adopting AI responsibly, prioritising accuracy, robustness, fairness and security to build trust among guests.
+ Resorts World Sentosa
 
  Initiatives and Tools that Benefit You
 

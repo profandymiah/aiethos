@@ -1,32 +1,35 @@
 ## Tracked documents that changed
 
-- **eu-ai-act-consolidated** (EU, high): [AI Act: Commission regulatory framework page](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), 17643 to 17737 characters
-- **uk-whitepaper** (UK, high): [A pro-innovation approach to AI regulation (White Paper)](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach), 5295 to 5355 characters
-- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 3087 to 5359 characters
-- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 24914 to 25821 characters
-- **ca-legisinfo** (CA, medium): [LEGISinfo: Parliament of Canada bills](https://www.parl.ca/legisinfo/en/bills), 54645 to 54523 characters
+- **oecd-principles** (INT, high): [OECD AI Principles](https://oecd.ai/en/ai-principles), 5755 to 5867 characters
+- **uk-dua-act** (UK, high): [Data (Use and Access) Act 2025](https://www.legislation.gov.uk/ukpga/2025/18/contents), 30244 to 32649 characters
+- **sg-aiverify** (SG, medium): [AI Verify Foundation](https://aiverifyfoundation.sg/), 5472 to 5211 characters
+- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5359 to 5222 characters
+- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 25821 to 26584 characters
+- **ca-legisinfo** (CA, medium): [LEGISinfo: Parliament of Canada bills](https://www.parl.ca/legisinfo/en/bills), 54523 to 54599 characters
 - **br-pl2338** (BR, high): [PL 2338/2023 (AI Legal Framework): Senate bill page](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233), 230249 to 230249 characters
-- **eu-ai-office** (EU, high): [European AI Office](https://digital-strategy.ec.europa.eu/en/policies/ai-office), 9773 to 9860 characters
-- **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 1239 to 13782 characters
-- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2178 to 2178 characters
+- **br-camara** (BR, medium): [PL 2338/2023 Chamber of Deputies proceeding](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262), 224981 to 206567 characters
+- **ae-uae-ai** (AE, high): [UAE Government portal: Artificial Intelligence](https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence), 757 to 759 characters
+- **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13782 to 1239 characters
+- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2178 to 2186 characters
 
 ## New items found
 
-- US: [Proposed Priorities and Definitions-Secretary's Supplemental Priorities and Definitions](https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions) (US Federal Register: artificial intelligence, 2026-11-05)
-- US: [Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm](https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology) (US Federal Register: artificial intelligence, 2026-11-05)
-- UK: [Secretary of State for Housing, Communities and Local Government v Urban Splash Ltd &amp; Ors: MAN/00BN/BSB/2024/0001-0007](https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007) (GOV.UK updates on artificial intelligence, 2026-11-05T14:20:56+00:00)
-- UK: [Defending media freedom and the safety of journalists: UK statement to the OSCE, November 2026](https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026) (GOV.UK updates on artificial intelligence, 2026-11-05T14:16:06+00:00)
-- UK: [National flu and COVID-19 surveillance reports: 2026 to 2027 season](https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season) (GOV.UK updates on artificial intelligence, 2026-11-05T14:00:05+00:00)
-- UK: [Pathways to Funding](https://www.gov.uk/business-finance-support/pathways-to-funding) (GOV.UK updates on artificial intelligence, 2026-11-05T13:51:52+00:00)
-- UK: [Quarterly reports on the pesticide residues monitoring programme: background and methodology](https://www.gov.uk/government/publications/quarterly-reports-on-the-pesticide-residues-monitoring-programme-background-and-methodology) (GOV.UK updates on artificial intelligence, 2026-11-05T13:41:04+00:00)
-- UK: [Budget 2026: Overview of tax legislation and rates (OOTLAR)](https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar) (GOV.UK updates on artificial intelligence, 2026-11-05T13:23:10+00:00)
-- UK: [CG51820 - Shares and securities: share reorganisations: consideration paid](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg51820) (GOV.UK updates on artificial intelligence, 2026-11-05T13:21:17+00:00)
-- UK: [CG47320 - Anti-gain buying rules in Finance Act 2006](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg47320) (GOV.UK updates on artificial intelligence, 2026-11-05T13:07:20+00:00)
-- UK: [UK-Switzerland Financial Dialogue 2026 Joint Statement](https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement) (GOV.UK updates on artificial intelligence, 2026-11-05T13:00:03+00:00)
-- UK: [Mr Al-Ateeqi v Kuwait Investment Authority: [2026] EAT 169](https://www.gov.uk/employment-appeal-tribunal-decisions/mr-al-ateeqi-v-kuwait-investment-authority-2026-eat-169) (GOV.UK updates on artificial intelligence, 2026-11-05T12:59:12+00:00)
+- US: [Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots](https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment) (US Federal Register: artificial intelligence, 2026-11-06)
+- US: [Prohibiting Illegal Discrimination in Registered Apprenticeship Programs](https://www.federalregister.gov/documents/2026/11/06/2026-22680/prohibiting-illegal-discrimination-in-registered-apprenticeship-programs) (US Federal Register: artificial intelligence, 2026-11-06)
+- UK: [Tactical Power Challenge](https://www.gov.uk/government/publications/tactical-power-challenge) (GOV.UK updates on artificial intelligence, 2026-11-06T13:34:39+00:00)
+- UK: [National Survey of Businesses wave 1: June to August 2026](https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026) (GOV.UK updates on artificial intelligence, 2026-11-06T11:47:12+00:00)
+- UK: [Use of force for adults in detention](https://www.gov.uk/government/publications/use-of-force-for-adults-in-detention) (GOV.UK updates on artificial intelligence, 2026-11-06T11:38:29+00:00)
+- UK: [DVSA privacy notices](https://www.gov.uk/government/publications/dvsa-privacy-notices) (GOV.UK updates on artificial intelligence, 2026-11-06T11:34:46+00:00)
+- UK: [UK natural capital and ecosystem services: a pathway to at-scale investment capital flows](https://www.gov.uk/government/publications/uk-natural-capital-and-ecosystem-services-a-pathway-to-at-scale-investment-capital-flows) (GOV.UK updates on artificial intelligence, 2026-11-06T10:58:43+00:00)
+- UK: [HMRC's engagement forums](https://www.gov.uk/government/publications/hmrcs-engagement-forums) (GOV.UK updates on artificial intelligence, 2026-11-06T10:47:01+00:00)
+- UK: [Clinical trials for medicines: Good clinical practice inspections](https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections) (GOV.UK updates on artificial intelligence, 2026-11-06T09:52:24+00:00)
+- UK: [The Consultancy Playbook](https://www.gov.uk/government/publications/the-consultancy-playbook) (GOV.UK updates on artificial intelligence, 2026-11-06T09:30:06+00:00)
+- UK: [Amending licensing restrictions for 18- and 19-year-old bus and coach drivers](https://www.gov.uk/government/consultations/amending-licensing-restrictions-for-18-and-19-year-old-bus-and-coach-drivers) (GOV.UK updates on artificial intelligence, 2026-11-06T09:00:00+00:00)
+- EU: [Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect](https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes) (European Commission digital strategy news, Fri, 06 Nov 2026 11:09:12 +0000)
 
 ## Watched pages that changed
 
+- INT: [OECD.AI news](https://oecd.ai/en/wonk)
 - INT: [regulations.ai global tracker (secondary signal)](https://regulations.ai/) (secondary signal)
 
 ## Documents that could not be fetched
@@ -38,7 +41,6 @@
 - eu-ai-act: empty response ([link](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689))
 - eu-eed: empty response ([link](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791))
 - us-ca-sb53: HTTP 403 ([link](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53))
-- kr-msit: empty response ([link](https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng))
 - au-industry-ai: fetch failed ([link](https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence))
 - in-meity: HTTP 403 ([link](https://www.meity.gov.in/))
 - in-pib: HTTP 403 ([link](https://pib.gov.in/allRel.aspx))

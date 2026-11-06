@@ -1,118 +1,125 @@
 {
-  "run_at": "2026-11-05T14:55:20.539Z",
+  "run_at": "2026-11-06T14:31:43.684Z",
   "new_items": [
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-22615",
-      "title": "Proposed Priorities and Definitions-Secretary's Supplemental Priorities and Definitions",
-      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions",
-      "date": "2026-11-05",
-      "extra": "Proposed Rule"
+      "id": "2026-22739",
+      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+      "date": "2026-11-06",
+      "extra": "Rule"
     },
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-22593",
-      "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
-      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology",
-      "date": "2026-11-05",
+      "id": "2026-22680",
+      "title": "Prohibiting Illegal Discrimination in Registered Apprenticeship Programs",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22680/prohibiting-illegal-discrimination-in-registered-apprenticeship-programs",
+      "date": "2026-11-06",
       "extra": "Rule"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007",
-      "title": "Secretary of State for Housing, Communities and Local Government v Urban Splash Ltd &amp; Ors: MAN/00BN/BSB/2024/0001-0007",
-      "url": "https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007",
-      "date": "2026-11-05T14:20:56+00:00"
+      "id": "https://www.gov.uk/government/publications/tactical-power-challenge",
+      "title": "Tactical Power Challenge",
+      "url": "https://www.gov.uk/government/publications/tactical-power-challenge",
+      "date": "2026-11-06T13:34:39+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026",
-      "title": "Defending media freedom and the safety of journalists: UK statement to the OSCE, November 2026",
-      "url": "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026",
-      "date": "2026-11-05T14:16:06+00:00"
+      "id": "https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026",
+      "title": "National Survey of Businesses wave 1: June to August 2026",
+      "url": "https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026",
+      "date": "2026-11-06T11:47:12+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
-      "title": "National flu and COVID-19 surveillance reports: 2026 to 2027 season",
-      "url": "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
-      "date": "2026-11-05T14:00:05+00:00"
+      "id": "https://www.gov.uk/government/publications/use-of-force-for-adults-in-detention",
+      "title": "Use of force for adults in detention",
+      "url": "https://www.gov.uk/government/publications/use-of-force-for-adults-in-detention",
+      "date": "2026-11-06T11:38:29+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/business-finance-support/pathways-to-funding",
-      "title": "Pathways to Funding",
-      "url": "https://www.gov.uk/business-finance-support/pathways-to-funding",
-      "date": "2026-11-05T13:51:52+00:00"
+      "id": "https://www.gov.uk/government/publications/dvsa-privacy-notices",
+      "title": "DVSA privacy notices",
+      "url": "https://www.gov.uk/government/publications/dvsa-privacy-notices",
+      "date": "2026-11-06T11:34:46+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/quarterly-reports-on-the-pesticide-residues-monitoring-programme-background-and-methodology",
-      "title": "Quarterly reports on the pesticide residues monitoring programme: background and methodology",
-      "url": "https://www.gov.uk/government/publications/quarterly-reports-on-the-pesticide-residues-monitoring-programme-background-and-methodology",
-      "date": "2026-11-05T13:41:04+00:00"
+      "id": "https://www.gov.uk/government/publications/uk-natural-capital-and-ecosystem-services-a-pathway-to-at-scale-investment-capital-flows",
+      "title": "UK natural capital and ecosystem services: a pathway to at-scale investment capital flows",
+      "url": "https://www.gov.uk/government/publications/uk-natural-capital-and-ecosystem-services-a-pathway-to-at-scale-investment-capital-flows",
+      "date": "2026-11-06T10:58:43+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
-      "title": "Budget 2026: Overview of tax legislation and rates (OOTLAR)",
-      "url": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
-      "date": "2026-11-05T13:23:10+00:00"
+      "id": "https://www.gov.uk/government/publications/hmrcs-engagement-forums",
+      "title": "HMRC's engagement forums",
+      "url": "https://www.gov.uk/government/publications/hmrcs-engagement-forums",
+      "date": "2026-11-06T10:47:01+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg51820",
-      "title": "CG51820 - Shares and securities: share reorganisations: consideration paid",
-      "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg51820",
-      "date": "2026-11-05T13:21:17+00:00"
+      "id": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
+      "title": "Clinical trials for medicines: Good clinical practice inspections",
+      "url": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
+      "date": "2026-11-06T09:52:24+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg47320",
-      "title": "CG47320 - Anti-gain buying rules in Finance Act 2006",
-      "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg47320",
-      "date": "2026-11-05T13:07:20+00:00"
+      "id": "https://www.gov.uk/government/publications/the-consultancy-playbook",
+      "title": "The Consultancy Playbook",
+      "url": "https://www.gov.uk/government/publications/the-consultancy-playbook",
+      "date": "2026-11-06T09:30:06+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement",
-      "title": "UK-Switzerland Financial Dialogue 2026 Joint Statement",
-      "url": "https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement",
-      "date": "2026-11-05T13:00:03+00:00"
+      "id": "https://www.gov.uk/government/consultations/amending-licensing-restrictions-for-18-and-19-year-old-bus-and-coach-drivers",
+      "title": "Amending licensing restrictions for 18- and 19-year-old bus and coach drivers",
+      "url": "https://www.gov.uk/government/consultations/amending-licensing-restrictions-for-18-and-19-year-old-bus-and-coach-drivers",
+      "date": "2026-11-06T09:00:00+00:00"
     },
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-al-ateeqi-v-kuwait-investment-authority-2026-eat-169",
-      "title": "Mr Al-Ateeqi v Kuwait Investment Authority: [2026] EAT 169",
-      "url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-al-ateeqi-v-kuwait-investment-authority-2026-eat-169",
-      "date": "2026-11-05T12:59:12+00:00"
+      "source": "ec-ai-news",
+      "label": "European Commission digital strategy news",
+      "jurisdiction": "EU",
+      "id": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+      "title": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+      "date": "Fri, 06 Nov 2026 11:09:12 +0000"
     }
   ],
   "page_changes": [
+    {
+      "source": "oecd-ai-news",
+      "label": "OECD.AI news",
+      "jurisdiction": "INT",
+      "url": "https://oecd.ai/en/wonk",
+      "signal": false
+    },
     {
       "source": "regulations-ai",
       "label": "regulations.ai global tracker (secondary signal)",
