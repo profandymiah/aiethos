@@ -1,32 +1,32 @@
 {
-  "run_at": "2026-11-06T14:20:09.770Z",
+  "run_at": "2026-11-07T13:07:22.972Z",
   "changed": [
     {
-      "id": "oecd-principles",
-      "title": "OECD AI Principles",
-      "url": "https://oecd.ai/en/ai-principles",
-      "jurisdiction": "INT",
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 5755,
-      "chars_after": 5867
+      "chars_before": 0,
+      "chars_after": 699833
     },
     {
-      "id": "uk-dua-act",
-      "title": "Data (Use and Access) Act 2025",
-      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
-      "jurisdiction": "UK",
-      "priority": "high",
-      "chars_before": 30244,
-      "chars_after": 32649
-    },
-    {
-      "id": "sg-aiverify",
-      "title": "AI Verify Foundation",
-      "url": "https://aiverifyfoundation.sg/",
-      "jurisdiction": "SG",
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "jurisdiction": "EU",
       "priority": "medium",
-      "chars_before": 5472,
-      "chars_after": 5211
+      "chars_before": 0,
+      "chars_after": 454699
+    },
+    {
+      "id": "us-nist-rmf",
+      "title": "NIST AI Risk Management Framework 1.0 (AI 100-1)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "jurisdiction": "US",
+      "priority": "high",
+      "chars_before": 122270,
+      "chars_after": 122154
     },
     {
       "id": "cn-cac",
@@ -34,7 +34,7 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5359,
+      "chars_before": 5222,
       "chars_after": 5222
     },
     {
@@ -43,8 +43,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 25821,
-      "chars_after": 26584
+      "chars_before": 26584,
+      "chars_after": 26602
     },
     {
       "id": "ca-legisinfo",
@@ -52,7 +52,7 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54523,
+      "chars_before": 54599,
       "chars_after": 54599
     },
     {
@@ -70,8 +70,8 @@
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
       "jurisdiction": "BR",
       "priority": "medium",
-      "chars_before": 224981,
-      "chars_after": 206567
+      "chars_before": 206567,
+      "chars_after": 224981
     },
     {
       "id": "ae-uae-ai",
@@ -79,8 +79,8 @@
       "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
       "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 757,
-      "chars_after": 759
+      "chars_before": 759,
+      "chars_after": 757
     },
     {
       "id": "us-eo-14179",
@@ -88,8 +88,8 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 13782,
-      "chars_after": 1239
+      "chars_before": 1239,
+      "chars_after": 13782
     },
     {
       "id": "kr-ai-basic-act",
@@ -97,8 +97,17 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2178,
+      "chars_before": 2186,
       "chars_after": 2186
+    },
+    {
+      "id": "un-hlab",
+      "title": "Governing AI for Humanity (UN High-Level Advisory Body final report)",
+      "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf",
+      "jurisdiction": "INT",
+      "priority": "high",
+      "chars_before": 610491,
+      "chars_after": 570710
     }
   ],
   "new": [],
@@ -126,18 +135,6 @@
       "title": "Energy and AI (IEA report on data centre electricity demand)",
       "url": "https://www.iea.org/reports/energy-and-ai",
       "error": "HTTP 403"
-    },
-    {
-      "id": "eu-ai-act",
-      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
-      "error": "empty response"
-    },
-    {
-      "id": "eu-eed",
-      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
-      "error": "empty response"
     },
     {
       "id": "us-ca-sb53",

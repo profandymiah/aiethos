@@ -1,125 +1,62 @@
 {
-  "run_at": "2026-11-06T14:31:43.684Z",
+  "run_at": "2026-11-07T13:18:31.125Z",
   "new_items": [
     {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-22739",
-      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
-      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-      "date": "2026-11-06",
-      "extra": "Rule"
-    },
-    {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-22680",
-      "title": "Prohibiting Illegal Discrimination in Registered Apprenticeship Programs",
-      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22680/prohibiting-illegal-discrimination-in-registered-apprenticeship-programs",
-      "date": "2026-11-06",
-      "extra": "Rule"
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
+      "title": "UK military satellite Titania launches into orbit following £3bn space investment into defence of space",
+      "url": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
+      "date": "2026-11-07T00:01:00+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/tactical-power-challenge",
-      "title": "Tactical Power Challenge",
-      "url": "https://www.gov.uk/government/publications/tactical-power-challenge",
-      "date": "2026-11-06T13:34:39+00:00"
+      "id": "https://www.gov.uk/government/publications/updated-estimates-of-children-with-a-parent-in-prison",
+      "title": "Updated Estimates of Children with a Parent in Prison",
+      "url": "https://www.gov.uk/government/publications/updated-estimates-of-children-with-a-parent-in-prison",
+      "date": "2026-11-06T16:36:16+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026",
-      "title": "National Survey of Businesses wave 1: June to August 2026",
-      "url": "https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026",
-      "date": "2026-11-06T11:47:12+00:00"
+      "id": "https://www.gov.uk/residential-property-tribunal-decisions/apartment-626-the-kettleworks-126-pope-street-birmingham-b1-3dq-bir-slash-00cn-slash-mnr-slash-2026-slash-0119",
+      "title": "Apartment 626, The Kettleworks, 126 Pope Street, Birmingham B1 3DQ:BIR/00CN/MNR/2026/0119",
+      "url": "https://www.gov.uk/residential-property-tribunal-decisions/apartment-626-the-kettleworks-126-pope-street-birmingham-b1-3dq-bir-slash-00cn-slash-mnr-slash-2026-slash-0119",
+      "date": "2026-11-06T15:49:34+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/use-of-force-for-adults-in-detention",
-      "title": "Use of force for adults in detention",
-      "url": "https://www.gov.uk/government/publications/use-of-force-for-adults-in-detention",
-      "date": "2026-11-06T11:38:29+00:00"
+      "id": "https://www.gov.uk/government/publications/space-to-innovate-delta-drop",
+      "title": "Space to Innovate: Delta Drop",
+      "url": "https://www.gov.uk/government/publications/space-to-innovate-delta-drop",
+      "date": "2026-11-06T15:39:58+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/dvsa-privacy-notices",
-      "title": "DVSA privacy notices",
-      "url": "https://www.gov.uk/government/publications/dvsa-privacy-notices",
-      "date": "2026-11-06T11:34:46+00:00"
+      "id": "https://www.gov.uk/employment-tribunal-decisions/miss-n-ayub-v-northern-care-alliance-nhs-foundation-trust-2412233-slash-2023",
+      "title": "Miss N Ayub v Northern Care Alliance NHS Foundation Trust: 2412233/2023",
+      "url": "https://www.gov.uk/employment-tribunal-decisions/miss-n-ayub-v-northern-care-alliance-nhs-foundation-trust-2412233-slash-2023",
+      "date": "2026-11-06T15:10:07+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/uk-natural-capital-and-ecosystem-services-a-pathway-to-at-scale-investment-capital-flows",
-      "title": "UK natural capital and ecosystem services: a pathway to at-scale investment capital flows",
-      "url": "https://www.gov.uk/government/publications/uk-natural-capital-and-ecosystem-services-a-pathway-to-at-scale-investment-capital-flows",
-      "date": "2026-11-06T10:58:43+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/hmrcs-engagement-forums",
-      "title": "HMRC's engagement forums",
-      "url": "https://www.gov.uk/government/publications/hmrcs-engagement-forums",
-      "date": "2026-11-06T10:47:01+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
-      "title": "Clinical trials for medicines: Good clinical practice inspections",
-      "url": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
-      "date": "2026-11-06T09:52:24+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/the-consultancy-playbook",
-      "title": "The Consultancy Playbook",
-      "url": "https://www.gov.uk/government/publications/the-consultancy-playbook",
-      "date": "2026-11-06T09:30:06+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/amending-licensing-restrictions-for-18-and-19-year-old-bus-and-coach-drivers",
-      "title": "Amending licensing restrictions for 18- and 19-year-old bus and coach drivers",
-      "url": "https://www.gov.uk/government/consultations/amending-licensing-restrictions-for-18-and-19-year-old-bus-and-coach-drivers",
-      "date": "2026-11-06T09:00:00+00:00"
-    },
-    {
-      "source": "ec-ai-news",
-      "label": "European Commission digital strategy news",
-      "jurisdiction": "EU",
-      "id": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
-      "title": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
-      "date": "Fri, 06 Nov 2026 11:09:12 +0000"
+      "id": "https://www.gov.uk/government/publications/chief-medical-officers-annual-report-2026-health-in-rural-areas-and-small-towns",
+      "title": "Chief Medical Officer's annual report 2026: health in rural areas and small towns",
+      "url": "https://www.gov.uk/government/publications/chief-medical-officers-annual-report-2026-health-in-rural-areas-and-small-towns",
+      "date": "2026-11-06T15:06:15+00:00"
     }
   ],
   "page_changes": [
-    {
-      "source": "oecd-ai-news",
-      "label": "OECD.AI news",
-      "jurisdiction": "INT",
-      "url": "https://oecd.ai/en/wonk",
-      "signal": false
-    },
     {
       "source": "regulations-ai",
       "label": "regulations.ai global tracker (secondary signal)",

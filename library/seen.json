@@ -43,7 +43,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   },
   "uk-bills": {
     "ids": [
@@ -54,10 +54,16 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
+      "https://www.gov.uk/government/publications/updated-estimates-of-children-with-a-parent-in-prison",
+      "https://www.gov.uk/residential-property-tribunal-decisions/apartment-626-the-kettleworks-126-pope-street-birmingham-b1-3dq-bir-slash-00cn-slash-mnr-slash-2026-slash-0119",
+      "https://www.gov.uk/government/publications/space-to-innovate-delta-drop",
+      "https://www.gov.uk/employment-tribunal-decisions/miss-n-ayub-v-northern-care-alliance-nhs-foundation-trust-2412233-slash-2023",
+      "https://www.gov.uk/government/publications/chief-medical-officers-annual-report-2026-health-in-rural-areas-and-small-towns",
       "https://www.gov.uk/government/publications/tactical-power-challenge",
       "https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026",
       "https://www.gov.uk/government/publications/use-of-force-for-adults-in-detention",
@@ -175,7 +181,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -197,13 +203,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -214,18 +220,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "799c47e1a0b61d3def83cc361f41ec5bb51024c942c39c55715ebb85f231eb45",
+    "page_hash": "4f17d4c9cdc0a0a91a300c561ac4f35377f228b12d3788042fb78fe2a36b1ca7",
     "initialised": true,
-    "last_checked": "2026-11-06T14:31:43.684Z"
+    "last_checked": "2026-11-07T13:18:31.125Z"
   }
 }
