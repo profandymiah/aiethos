@@ -1,59 +1,14 @@
 {
-  "run_at": "2026-11-07T13:07:22.972Z",
+  "run_at": "2026-11-08T13:29:27.984Z",
   "changed": [
-    {
-      "id": "eu-ai-act",
-      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 0,
-      "chars_after": 699833
-    },
-    {
-      "id": "eu-eed",
-      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
-      "jurisdiction": "EU",
-      "priority": "medium",
-      "chars_before": 0,
-      "chars_after": 454699
-    },
-    {
-      "id": "us-nist-rmf",
-      "title": "NIST AI Risk Management Framework 1.0 (AI 100-1)",
-      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-      "jurisdiction": "US",
-      "priority": "high",
-      "chars_before": 122270,
-      "chars_after": 122154
-    },
-    {
-      "id": "cn-cac",
-      "title": "Cyberspace Administration of China (English site)",
-      "url": "https://www.cac.gov.cn/",
-      "jurisdiction": "CN",
-      "priority": "medium",
-      "chars_before": 5222,
-      "chars_after": 5222
-    },
     {
       "id": "vn-gov",
       "title": "Vietnam Government portal (legal documents)",
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26584,
-      "chars_after": 26602
-    },
-    {
-      "id": "ca-legisinfo",
-      "title": "LEGISinfo: Parliament of Canada bills",
-      "url": "https://www.parl.ca/legisinfo/en/bills",
-      "jurisdiction": "CA",
-      "priority": "medium",
-      "chars_before": 54599,
-      "chars_after": 54599
+      "chars_before": 26602,
+      "chars_after": 27802
     },
     {
       "id": "br-pl2338",
@@ -65,49 +20,40 @@
       "chars_after": 230249
     },
     {
-      "id": "br-camara",
-      "title": "PL 2338/2023 Chamber of Deputies proceeding",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
-      "jurisdiction": "BR",
-      "priority": "medium",
-      "chars_before": 206567,
-      "chars_after": 224981
-    },
-    {
-      "id": "ae-uae-ai",
-      "title": "UAE Government portal: Artificial Intelligence",
-      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
-      "jurisdiction": "AE",
-      "priority": "high",
-      "chars_before": 759,
-      "chars_after": 757
-    },
-    {
       "id": "us-eo-14179",
       "title": "Executive Order 14179: Removing Barriers to American Leadership in AI",
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 1239,
+      "chars_before": 13782,
       "chars_after": 13782
     },
     {
-      "id": "kr-ai-basic-act",
-      "title": "AI Basic Act (English translation)",
-      "url": "https://elaw.klri.re.kr/eng_service/main.do",
-      "jurisdiction": "KR",
+      "id": "cn-genai-measures",
+      "title": "Interim Measures for the Management of Generative AI Services (English translation)",
+      "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
+      "jurisdiction": "CN",
       "priority": "high",
-      "chars_before": 2186,
-      "chars_after": 2186
+      "chars_before": 18964,
+      "chars_after": 18944
     },
     {
-      "id": "un-hlab",
-      "title": "Governing AI for Humanity (UN High-Level Advisory Body final report)",
-      "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf",
+      "id": "cn-labelling",
+      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
+      "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
+      "jurisdiction": "CN",
+      "priority": "high",
+      "chars_before": 13591,
+      "chars_after": 14544
+    },
+    {
+      "id": "paris-statement",
+      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
       "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 610491,
-      "chars_after": 570710
+      "chars_before": 7617,
+      "chars_after": 7625
     }
   ],
   "new": [],

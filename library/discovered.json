@@ -1,59 +1,14 @@
 {
-  "run_at": "2026-11-07T13:18:31.125Z",
+  "run_at": "2026-11-08T13:40:38.019Z",
   "new_items": [
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
-      "title": "UK military satellite Titania launches into orbit following £3bn space investment into defence of space",
-      "url": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
-      "date": "2026-11-07T00:01:00+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/updated-estimates-of-children-with-a-parent-in-prison",
-      "title": "Updated Estimates of Children with a Parent in Prison",
-      "url": "https://www.gov.uk/government/publications/updated-estimates-of-children-with-a-parent-in-prison",
-      "date": "2026-11-06T16:36:16+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/residential-property-tribunal-decisions/apartment-626-the-kettleworks-126-pope-street-birmingham-b1-3dq-bir-slash-00cn-slash-mnr-slash-2026-slash-0119",
-      "title": "Apartment 626, The Kettleworks, 126 Pope Street, Birmingham B1 3DQ:BIR/00CN/MNR/2026/0119",
-      "url": "https://www.gov.uk/residential-property-tribunal-decisions/apartment-626-the-kettleworks-126-pope-street-birmingham-b1-3dq-bir-slash-00cn-slash-mnr-slash-2026-slash-0119",
-      "date": "2026-11-06T15:49:34+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/space-to-innovate-delta-drop",
-      "title": "Space to Innovate: Delta Drop",
-      "url": "https://www.gov.uk/government/publications/space-to-innovate-delta-drop",
-      "date": "2026-11-06T15:39:58+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/miss-n-ayub-v-northern-care-alliance-nhs-foundation-trust-2412233-slash-2023",
-      "title": "Miss N Ayub v Northern Care Alliance NHS Foundation Trust: 2412233/2023",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/miss-n-ayub-v-northern-care-alliance-nhs-foundation-trust-2412233-slash-2023",
-      "date": "2026-11-06T15:10:07+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/chief-medical-officers-annual-report-2026-health-in-rural-areas-and-small-towns",
-      "title": "Chief Medical Officer's annual report 2026: health in rural areas and small towns",
-      "url": "https://www.gov.uk/government/publications/chief-medical-officers-annual-report-2026-health-in-rural-areas-and-small-towns",
-      "date": "2026-11-06T15:06:15+00:00"
+      "id": "https://www.gov.uk/residential-property-tribunal-decisions/14-moody-road-london-se15-5jb-lon-slash-00be-slash-hin-slash-2025-slash-0630",
+      "title": "14 Moody Road, London SE15 5JB : LON/00BE/HIN/2025/0630",
+      "url": "https://www.gov.uk/residential-property-tribunal-decisions/14-moody-road-london-se15-5jb-lon-slash-00be-slash-hin-slash-2025-slash-0630",
+      "date": "2026-11-07T16:52:08+00:00"
     }
   ],
   "page_changes": [
