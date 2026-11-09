@@ -37,11 +37,11 @@ Xây Dựng Chính Sách, Pháp Luật
 
  Đóng 
 
- TO&#xC0;N V&#x102;N: D&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; s&#x1EED;a &#x111;&#x1ED5;i quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan c&#xF4;ng an ngh&#x1EC9; h&#x1B0;u, th&#xF4;i vi&#x1EC7;c 
+ Qu&#x1ED1;c h&#x1ED9;i quy&#x1EBF;t ngh&#x1ECB; v&#x1EC1; ti&#x1EC1;n l&#x1B0;&#x1A1;ng, ph&#x1EE5; c&#x1EA5;p, l&#x1B0;&#x1A1;ng h&#x1B0;u, tr&#x1EE3; c&#x1EA5;p 
 
- Tham v&#x1EA5;n ch&#xED;nh s&#xE1;ch 
+ Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
 
- (Chinhphu.vn) - To&#xE0;n v&#x103;n d&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a Th&#xF4;ng t&#x1B0; s&#x1ED1; 54/2019/TT-BCA ng&#xE0;y 11/11/2019 c&#x1EE7;a B&#x1ED9; tr&#x1B0;&#x1EDF;ng B&#x1ED9; C&#xF4;ng an quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan, h&#x1EA1; s&#x129; quan, chi&#x1EBF;n s&#x129; C&#xF4;ng an nh&#xE2;n d&#xE2;n, c&#xF4;ng nh&#xE2;n c&#xF4;ng an ngh&#x1EC9; h&#x1B0;u, chuy&#x1EC3;n ng&#xE0;nh, xu&#x1EA5;t ng&#x169;, th&#xF4;i vi&#x1EC7;c, hy sinh, t&#x1EEB; tr&#x1EA7;n &#x111;ang &#x111;&#x1B0;&#x1EE3;c B&#x1ED9; C&#xF4;ng an l&#x1EA5;y &#xFD; ki&#x1EBF;n g&#xF3;p &#xFD;.
+ (Chinhphu.vn) - Qu&#x1ED1;c h&#x1ED9;i quy&#x1EBF;t ngh&#x1ECB; b&#x1ED1; tr&#xED; d&#x1EF1; to&#xE1;n chi c&#x1EA3;i c&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng n&#x103;m 2027 theo &#x111;&#x1EC1; xu&#x1EA5;t c&#x1EE7;a Ch&#xED;nh ph&#x1EE7;. Ch&#xED;nh ph&#x1EE7; ch&#x1EC9; &#x111;&#x1EA1;o s&#x1EED; d&#x1EE5;ng ngu&#x1ED3;n t&#xED;ch l&#x169;y cho c&#x1EA3;i c&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng &#x111;&#x1EC3; &#x111;&#x1EA3;m b&#x1EA3;o th&#x1EF1;c hi&#x1EC7;n c&#xE1;c ch&#x1EBF; &#x111;&#x1ED9; ti&#x1EC1;n l&#x1B0;&#x1A1;ng, ph&#x1EE5; c&#x1EA5;p, thu nh&#x1EAD;p, &#x111;i&#x1EC1;u ch&#x1EC9;nh l&#x1B0;&#x1A1;ng h&#x1B0;u, tr&#x1EE3; c&#x1EA5;p b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i, tr&#x1EE3; c&#x1EA5;p h&#x1EB1;ng th&#xE1;ng, tr&#x1EE3; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ng&#x1B0;&#x1EDD;i c&#xF3; c&#xF4;ng v&#xE0; tinh gi&#x1EA3;n bi&#xEA;n ch&#x1EBF; theo quy &#x111;&#x1ECB;nh.
 
  TO&#xC0;N V&#x102;N: D&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; ph&#x1EE5; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ngh&#x1EC1; v&#x1EDB;i ng&#x1B0;&#x1EDD;i l&#xE0;m chuy&#xEA;n m&#xF4;n y t&#x1EBF; trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng 
 
@@ -49,107 +49,107 @@ Xây Dựng Chính Sách, Pháp Luật
 
  (Chinhphu.vn) - To&#xE0;n v&#x103;n d&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; ph&#x1EE5; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ngh&#x1EC1; &#x111;&#x1ED1;i v&#x1EDB;i ng&#x1B0;&#x1EDD;i l&#xE0;m chuy&#xEA;n m&#xF4;n y t&#x1EBF; trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng &#x111;ang &#x111;&#x1B0;&#x1EE3;c B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng l&#x1EA5;y &#xFD; ki&#x1EBF;n g&#xF3;p &#xFD;.
 
- T&#x1EAD;p trung ho&#xE0;n thi&#x1EC7;n h&#x1ED3; s&#x1A1; tr&#xEC;nh c&#x1EA5;p c&#xF3; th&#x1EA9;m quy&#x1EC1;n &#x110;&#x1EC1; &#xE1;n c&#x1EA3;i c&#xE1;ch ch&#xED;nh s&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng v&#xE0; BHXH 
+ Ch&#xED;nh ph&#x1EE7; ch&#x1EC9; &#x111;&#x1EA1;o t&#x1EAD;p trung ho&#xE0;n thi&#x1EC7;n h&#x1ED3; s&#x1A1; tr&#xEC;nh &#x110;&#x1EC1; &#xE1;n C&#x1EA2;I C&#xC1;CH TI&#x1EC0;N L&#x1AF;&#x1A0;NG v&#xE0; B&#x1EA2;O HI&#x1EC2;M X&#xC3; H&#x1ED8;I 
 
  Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
 
  (Chinhphu.vn) - Ch&#xED;nh ph&#x1EE7; giao B&#x1ED9; N&#x1ED9;i v&#x1EE5; ch&#x1EE7; tr&#xEC;, ph&#x1ED1;i h&#x1EE3;p v&#x1EDB;i c&#xE1;c c&#x1A1; quan, &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng t&#x1EAD;p trung ho&#xE0;n thi&#x1EC7;n h&#x1ED3; s&#x1A1; tr&#xEC;nh c&#x1EA5;p c&#xF3; th&#x1EA9;m quy&#x1EC1;n &#x110;&#x1EC1; &#xE1;n c&#x1EA3;i c&#xE1;ch ch&#xED;nh s&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng v&#xE0; b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i. 
 
- T&#x1EAD;p trung ho&#xE0;n thi&#x1EC7;n h&#x1ED3; s&#x1A1; tr&#xEC;nh c&#x1EA5;p c&#xF3; th&#x1EA9;m quy&#x1EC1;n &#x110;&#x1EC1; &#xE1;n c&#x1EA3;i c&#xE1;ch ch&#xED;nh s&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng v&#xE0; BHXH 
+ Quy &#x111;&#x1ECB;nh v&#x1EC1; giao d&#x1ECB;ch &#x111;i&#x1EC7;n t&#x1EED; thu&#x1ED9;c l&#x129;nh v&#x1EF1;c b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng 
+
+ Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
+
+ (Chinhphu.vn) - Ng&#xE0;y 29/10/2026, B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng ban h&#xE0;nh Th&#xF4;ng t&#x1B0; s&#x1ED1; 177/2026/TT-BQP quy &#x111;&#x1ECB;nh v&#x1EC1; giao d&#x1ECB;ch &#x111;i&#x1EC7;n t&#x1EED; thu&#x1ED9;c l&#x129;nh v&#x1EF1;c b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng.
+
+ &#x110;&#x1ECB;nh h&#x1B0;&#x1EDB;ng ho&#xE0;n thi&#x1EC7;n b&#x1ED9; m&#xE1;y qu&#x1EA3;n l&#xFD; nh&#xE0; n&#x1B0;&#x1EDB;c v&#x1EC1; an to&#xE0;n th&#x1EF1;c ph&#x1EA9;m 
 
  Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
 
- (Chinhphu.vn) - Ch&#xED;nh ph&#x1EE7; giao B&#x1ED9; N&#x1ED9;i v&#x1EE5; ch&#x1EE7; tr&#xEC;, ph&#x1ED1;i h&#x1EE3;p v&#x1EDB;i c&#xE1;c c&#x1A1; quan, &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng t&#x1EAD;p trung ho&#xE0;n thi&#x1EC7;n h&#x1ED3; s&#x1A1; tr&#xEC;nh c&#x1EA5;p c&#xF3; th&#x1EA9;m quy&#x1EC1;n &#x110;&#x1EC1; &#xE1;n c&#x1EA3;i c&#xE1;ch ch&#xED;nh s&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng v&#xE0; b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i. 
+ (Chinhphu.vn) - B&#x1ED9; Ch&#xED;nh tr&#x1ECB; &#x111;&#x1ED3;ng &#xFD; ch&#x1EE7; tr&#x1B0;&#x1A1;ng ho&#xE0;n thi&#x1EC7;n b&#x1ED9; m&#xE1;y qu&#x1EA3;n l&#xFD; nh&#xE0; n&#x1B0;&#x1EDB;c v&#x1EC1; an to&#xE0;n th&#x1EF1;c ph&#x1EA9;m theo h&#x1B0;&#x1EDB;ng th&#x1ED1;ng nh&#x1EA5;t m&#x1ED9;t &#x111;&#x1EA7;u m&#x1ED1;i t&#x1EEB; Trung &#x1B0;&#x1A1;ng &#x111;&#x1EBF;n &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng, b&#x1EA3;o &#x111;&#x1EA3;m r&#xF5; ch&#x1EE9;c n&#x103;ng, nhi&#x1EC7;m v&#x1EE5;, th&#x1EA9;m quy&#x1EC1;n v&#xE0; tr&#xE1;ch nhi&#x1EC7;m.
 
- TO&#xC0;N V&#x102;N: Quy &#x111;&#x1ECB;nh 228-Q&#x110;/TW v&#x1EC1; sinh ho&#x1EA1;t &#x111;&#x1EA3;ng tr&#x1EF1;c tuy&#x1EBF;n 
-
- Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Quy &#x111;&#x1ECB;nh s&#x1ED1; 228-Q&#x110;/TW ng&#xE0;y 03/11/2026 c&#x1EE7;a Ban B&#xED; th&#x1B0; v&#x1EC1; sinh ho&#x1EA1;t &#x111;&#x1EA3;ng tr&#x1EF1;c tuy&#x1EBF;n.
-
- Ngh&#x1ECB; quy&#x1EBF;t s&#x1ED1; 351/NQ-CP: Th&#xF4;ng qua &#x110;&#x1EC1; &#xE1;n &#x111;i&#x1EC1;u ch&#x1EC9;nh &#x111;&#x1ECB;a gi&#x1EDB;i &#x111;&#x1A1;n v&#x1ECB; h&#xE0;nh ch&#xED;nh gi&#x1EEF;a 2 t&#x1EC9;nh th&#xE0;nh 
+ Quy &#x111;&#x1ECB;nh qu&#x1EA3;n l&#xFD; nhi&#x1EC7;m v&#x1EE5; khoa h&#x1ECD;c, c&#xF4;ng ngh&#x1EC7; v&#xE0; &#x111;&#x1ED5;i m&#x1EDB;i s&#xE1;ng t&#x1EA1;o trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng 
 
  Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
 
- (Chinhphu.vn) - Ngh&#x1ECB; quy&#x1EBF;t s&#x1ED1; 351/NQ-CP c&#x1EE7;a Ch&#xED;nh ph&#x1EE7; quy&#x1EBF;t ngh&#x1ECB; th&#xF4;ng qua h&#x1ED3; s&#x1A1; &#x110;&#x1EC1; &#xE1;n &#x111;i&#x1EC1;u ch&#x1EC9;nh &#x111;&#x1ECB;a gi&#x1EDB;i &#x111;&#x1A1;n v&#x1ECB; h&#xE0;nh ch&#xED;nh gi&#x1EEF;a th&#xE0;nh ph&#x1ED1; H&#xE0; N&#x1ED9;i v&#xE0; t&#x1EC9;nh Ph&#xFA; Th&#x1ECD;.
+ (Chinhphu.vn) - Ng&#xE0;y 04/11/2026, B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng ban h&#xE0;nh Th&#xF4;ng t&#x1B0; s&#x1ED1; 181/2026/TT-BQP quy &#x111;&#x1ECB;nh qu&#x1EA3;n l&#xFD; nhi&#x1EC7;m v&#x1EE5; khoa h&#x1ECD;c, c&#xF4;ng ngh&#x1EC7; v&#xE0; &#x111;&#x1ED5;i m&#x1EDB;i s&#xE1;ng t&#x1EA1;o trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng.
 
- TO&#xC0;N V&#x102;N: Th&#xF4;ng t&#x1B0; 176/2026/TT-BQP s&#x1EED;a quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n khi th&#xF4;i ph&#x1EE5;c v&#x1EE5; trong Qu&#xE2;n &#x111;&#x1ED9;i 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Th&#xF4;ng t&#x1B0; s&#x1ED1; 176/2026/TT-BQP s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a Th&#xF4;ng t&#x1B0; s&#x1ED1; 25/2025/TT-BQP v&#xE0; Th&#xF4;ng t&#x1B0; s&#x1ED1; 162/2017/TT-BQP v&#x1EC1; ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n khi th&#xF4;i ph&#x1EE5;c v&#x1EE5; trong Qu&#xE2;n &#x111;&#x1ED9;i &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan, qu&#xE2;n nh&#xE2;n chuy&#xEA;n nghi&#x1EC7;p, c&#xF4;ng nh&#xE2;n v&#xE0; vi&#xEA;n ch&#x1EE9;c qu&#x1ED1;c ph&#xF2;ng.
-
- TO&#xC0;N V&#x102;N: C&#x1EA8;M NANG V&#x1ECA; TR&#xCD; VI&#x1EC6;C L&#xC0;M 
-
- Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n C&#x1EA9;m nang v&#x1ECB; tr&#xED; vi&#x1EC7;c l&#xE0;m do Ban T&#x1ED5; ch&#x1EE9;c Trung &#x1B0;&#x1A1;ng x&#xE2;y d&#x1EF1;ng.
-
- Ch&#xED;nh ph&#x1EE7; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; h&#x1ED7; tr&#x1EE3; tang l&#x1EC5; khi t&#x1EEB; tr&#x1EA7;n v&#x1EDB;i s&#x129; quan C&#xF4;ng an ngh&#x1EC9; h&#x1B0;u 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 400/2026/N&#x110;-CP ng&#xE0;y 03/11/2026 c&#x1EE7;a Ch&#xED;nh ph&#x1EE7; trong &#x111;&#xF3; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; h&#x1ED7; tr&#x1EE3; tang l&#x1EC5; khi t&#x1EEB; tr&#x1EA7;n v&#x1EDB;i s&#x129; quan C&#xF4;ng an ngh&#x1EC9; h&#x1B0;u.
-
- L&#x1ECA;CH NGH&#x1EC8; T&#x1EBE;T NGUY&#xCA;N &#x110;&#xC1;N &#x110;INH M&#xD9;I, NGH&#x1EC8; L&#x1EC4; QU&#x1ED0;C KH&#xC1;NH 2027 
-
- Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
-
- (Chinhphu.vn) - C&#xE1;n b&#x1ED9;, c&#xF4;ng ch&#x1EE9;c, vi&#xEA;n ch&#x1EE9;c v&#xE0; ng&#x1B0;&#x1EDD;i lao &#x111;&#x1ED9;ng c&#x1EE7;a c&#xE1;c c&#x1A1; quan h&#xE0;nh ch&#xED;nh nh&#xE0; n&#x1B0;&#x1EDB;c, &#x111;&#x1A1;n v&#x1ECB; s&#x1EF1; nghi&#x1EC7;p c&#xF4;ng l&#x1EAD;p, t&#x1ED5; ch&#x1EE9;c ch&#xED;nh tr&#x1ECB;, t&#x1ED5; ch&#x1EE9;c ch&#xED;nh tr&#x1ECB; - x&#xE3; h&#x1ED9;i s&#x1EBD; &#x111;&#x1B0;&#x1EE3;c ngh&#x1EC9; T&#x1EBF;t Nguy&#xEA;n &#x111;&#xE1;n &#x110;inh M&#xF9;i t&#x1EEB; 4/2-10/2/2027. Ngh&#x1EC9; l&#x1EC5; Qu&#x1ED1;c kh&#xE1;nh n&#x103;m 2027 g&#x1ED3;m 4 ng&#xE0;y li&#xEA;n t&#x1EE5;c.
-
- NG&#xC0;Y V&#x102;N H&#xD3;A VI&#x1EC6;T NAM - 24/11, ng&#x1B0;&#x1EDD;i lao &#x111;&#x1ED9;ng &#x111;&#x1B0;&#x1EE3;c ngh&#x1EC9;, h&#x1B0;&#x1EDF;ng nguy&#xEA;n l&#x1B0;&#x1A1;ng 
-
- Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
-
- (Chinhphu.vn) - Qu&#x1ED1;c h&#x1ED9;i quy &#x111;&#x1ECB;nh ng&#xE0;y 24/11 h&#x1EB1;ng n&#x103;m l&#xE0; &#x201C;Ng&#xE0;y V&#x103;n h&#xF3;a Vi&#x1EC7;t Nam&#x201D;, ng&#x1B0;&#x1EDD;i lao &#x111;&#x1ED9;ng &#x111;&#x1B0;&#x1EE3;c ngh&#x1EC9; l&#xE0;m vi&#x1EC7;c v&#xE0; h&#x1B0;&#x1EDF;ng nguy&#xEA;n l&#x1B0;&#x1A1;ng. Th&#x1EE7; t&#x1B0;&#x1EDB;ng Ch&#xED;nh ph&#x1EE7; &#x111;&#xE3; ban h&#xE0;nh K&#x1EBF; ho&#x1EA1;ch t&#x1ED5; ch&#x1EE9;c c&#xE1;c ho&#x1EA1;t &#x111;&#x1ED9;ng k&#x1EF7; ni&#x1EC7;m "Ng&#xE0;y V&#x103;n h&#xF3;a Vi&#x1EC7;t Nam" giai &#x111;o&#x1EA1;n 2026 - 2030
-
- TO&#xC0;N V&#x102;N: Th&#xF4;ng t&#x1B0; 93/2026/TT-BGD&#x110;T s&#x1EED;a quy &#x111;&#x1ECB;nh chu&#x1EA9;n ngh&#x1EC1; nghi&#x1EC7;p, b&#x1ED5; nhi&#x1EC7;m ch&#x1EE9;c danh v&#xE0; x&#x1EBF;p l&#x1B0;&#x1A1;ng v&#x1EDB;i nh&#xE0; gi&#xE1;o 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Th&#xF4;ng t&#x1B0; 93/2026/TT-BGD&#x110;T s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a c&#xE1;c Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh chu&#x1EA9;n ngh&#x1EC1; nghi&#x1EC7;p, b&#x1ED5; nhi&#x1EC7;m ch&#x1EE9;c danh v&#xE0; x&#x1EBF;p l&#x1B0;&#x1A1;ng v&#x1EDB;i nh&#xE0; gi&#xE1;o trong c&#x1A1; s&#x1EDF; gi&#xE1;o d&#x1EE5;c.
-
- H&#x1B0;&#x1EDB;ng d&#x1EAB;n s&#x1ED1; 07-HD/BTCTW r&#xE0; so&#xE1;t, ho&#xE0;n thi&#x1EC7;n v&#x1ECB; tr&#xED; vi&#x1EC7;c l&#xE0;m, x&#xE1;c &#x111;&#x1ECB;nh nhu c&#x1EA7;u nh&#xE2;n l&#x1EF1;c v&#xE0; x&#xE2;y d&#x1EF1;ng ph&#x1B0;&#x1A1;ng &#xE1;n bi&#xEA;n ch&#x1EBF; trong h&#x1EC7; th&#x1ED1;ng ch&#xED;nh tr&#x1ECB; 
-
- H&#x1B0;&#x1EDB;ng d&#x1EAB;n th&#x1EF1;c hi&#x1EC7;n ch&#xED;nh s&#xE1;ch 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n H&#x1B0;&#x1EDB;ng d&#x1EAB;n s&#x1ED1; 07-HD/BTCTW ng&#xE0;y 19/10/2026 c&#x1EE7;a Ban T&#x1ED5; ch&#x1EE9;c Trung &#x1B0;&#x1A1;ng r&#xE0; so&#xE1;t, ho&#xE0;n thi&#x1EC7;n v&#x1ECB; tr&#xED; vi&#x1EC7;c l&#xE0;m, x&#xE1;c &#x111;&#x1ECB;nh nhu c&#x1EA7;u nh&#xE2;n l&#x1EF1;c v&#xE0; x&#xE2;y d&#x1EF1;ng ph&#x1B0;&#x1A1;ng &#xE1;n bi&#xEA;n ch&#x1EBF; trong h&#x1EC7; th&#x1ED1;ng ch&#xED;nh tr&#x1ECB;.
-
- Quy &#x111;&#x1ECB;nh m&#x1EDB;i v&#x1EC1; ch&#x1EBF; &#x111;&#x1ED9; ch&#x103;m s&#xF3;c &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan C&#xF4;ng an ngh&#x1EC9; h&#x1B0;u m&#x1EAF;c b&#x1EC7;nh hi&#x1EC3;m ngh&#xE8;o 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - T&#x1EA1;i Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 400/2026/N&#x110;-CP, Ch&#xED;nh ph&#x1EE7; quy &#x111;&#x1ECB;nh chi ti&#x1EBF;t ch&#x1EBF; &#x111;&#x1ED9; ch&#x103;m s&#xF3;c &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan C&#xF4;ng an nh&#xE2;n d&#xE2;n ngh&#x1EC9; h&#x1B0;u m&#x1EAF;c b&#x1EC7;nh hi&#x1EC3;m ngh&#xE8;o.
-
- TO&#xC0;N V&#x102;N: Ngh&#x1ECB; &#x111;&#x1ECB;nh 400/2026/N&#x110;-CP quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; ch&#x103;m s&#xF3;c khi m&#x1EAF;c b&#x1EC7;nh hi&#x1EC3;m ngh&#xE8;o, h&#x1ED7; tr&#x1EE3; tang l&#x1EC5; khi t&#x1EEB; tr&#x1EA7;n v&#x1EDB;i s&#x129; quan C&#xF4;ng an ngh&#x1EC9; h&#x1B0;u 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 400/2026/N&#x110;-CP ng&#xE0;y 03/11/2026 quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; ngh&#x1EC9; d&#x1B0;&#x1EE1;ng, ch&#x103;m s&#xF3;c khi m&#x1EAF;c b&#x1EC7;nh hi&#x1EC3;m ngh&#xE8;o, ch&#x1EBF; &#x111;&#x1ED9; th&#xF4;ng tin, h&#x1ED7; tr&#x1EE3; tang l&#x1EC5; khi t&#x1EEB; tr&#x1EA7;n &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan C&#xF4;ng an nh&#xE2;n d&#xE2;n ngh&#x1EC9; h&#x1B0;u.
-
- TO&#xC0;N V&#x102;N: D&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; s&#x1EED;a &#x111;&#x1ED5;i quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan c&#xF4;ng an ngh&#x1EC9; h&#x1B0;u, th&#xF4;i vi&#x1EC7;c 
+ TO&#xC0;N V&#x102;N: D&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh ti&#xEA;u chu&#x1EA9;n, &#x111;i&#x1EC1;u ki&#x1EC7;n v&#xE0; quy tr&#xEC;nh b&#x1ED5; nhi&#x1EC7;m, mi&#x1EC5;n nhi&#x1EC7;m ch&#x1EE9;c danh gi&#xE1;o s&#x1B0;, ph&#xF3; gi&#xE1;o s&#x1B0; 
 
  Tham v&#x1EA5;n ch&#xED;nh s&#xE1;ch 
 
- (Chinhphu.vn) - To&#xE0;n v&#x103;n d&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a Th&#xF4;ng t&#x1B0; s&#x1ED1; 54/2019/TT-BCA ng&#xE0;y 11/11/2019 c&#x1EE7;a B&#x1ED9; tr&#x1B0;&#x1EDF;ng B&#x1ED9; C&#xF4;ng an quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan, h&#x1EA1; s&#x129; quan, chi&#x1EBF;n s&#x129; C&#xF4;ng an nh&#xE2;n d&#xE2;n, c&#xF4;ng nh&#xE2;n c&#xF4;ng an ngh&#x1EC9; h&#x1B0;u, chuy&#x1EC3;n ng&#xE0;nh, xu&#x1EA5;t ng&#x169;, th&#xF4;i vi&#x1EC7;c, hy sinh, t&#x1EEB; tr&#x1EA7;n &#x111;ang &#x111;&#x1B0;&#x1EE3;c B&#x1ED9; C&#xF4;ng an l&#x1EA5;y &#xFD; ki&#x1EBF;n g&#xF3;p &#xFD;.
+ (Chinhphu.vn) - B&#x1ED9; Gi&#xE1;o d&#x1EE5;c v&#xE0; &#x110;&#xE0;o t&#x1EA1;o (GD&#x110;T) &#x111;ang l&#x1EA5;y &#xFD; ki&#x1EBF;n g&#xF3;p &#xFD; d&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh ti&#xEA;u chu&#x1EA9;n, &#x111;i&#x1EC1;u ki&#x1EC7;n v&#xE0; quy tr&#xEC;nh b&#x1ED5; nhi&#x1EC7;m, mi&#x1EC5;n nhi&#x1EC7;m ch&#x1EE9;c danh gi&#xE1;o s&#x1B0;, ph&#xF3; gi&#xE1;o s&#x1B0;.
 
- Ngh&#x1ECB; &#x111;&#x1ECB;nh 232/2026/N&#x110;-CP quy &#x111;&#x1ECB;nh v&#x1ECB; tr&#xED; vi&#x1EC7;c l&#xE0;m c&#x1EE7;a vi&#xEA;n ch&#x1EE9;c 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 232/2026/N&#x110;-CP ng&#xE0;y 26/6/2026 c&#x1EE7;a Ch&#xED;nh ph&#x1EE7; quy &#x111;&#x1ECB;nh v&#x1EC1; v&#x1ECB; tr&#xED; vi&#x1EC7;c l&#xE0;m c&#x1EE7;a vi&#xEA;n ch&#x1EE9;c c&#xF3; hi&#x1EC7;u l&#x1EF1;c thi h&#xE0;nh t&#x1EEB; ng&#xE0;y 1/7/2026. 
-
- Ngh&#x1ECB; &#x111;&#x1ECB;nh quy &#x111;&#x1ECB;nh v&#x1EC1; ch&#x1EBF; &#x111;&#x1ED9;, ch&#xED;nh s&#xE1;ch &#x111;&#x1ED1;i v&#x1EDB;i thanh ni&#xEA;n xung phong 
-
- H&#x1B0;&#x1EDB;ng d&#x1EAB;n th&#x1EF1;c hi&#x1EC7;n ch&#xED;nh s&#xE1;ch 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n V&#x103;n b&#x1EA3;n h&#x1EE3;p nh&#x1EA5;t s&#x1ED1; 12/2026/VBHN-N&#x110;-BNV ng&#xE0;y 02/11/2026 c&#x1EE7;a B&#x1ED9; N&#x1ED9;i v&#x1EE5;: Ngh&#x1ECB; &#x111;&#x1ECB;nh Quy &#x111;&#x1ECB;nh v&#x1EC1; ch&#x1EBF; &#x111;&#x1ED9;, ch&#xED;nh s&#xE1;ch &#x111;&#x1ED1;i v&#x1EDB;i thanh ni&#xEA;n xung phong c&#x1A1; s&#x1EDF; &#x1EDF; mi&#x1EC1;n Nam tham gia kh&#xE1;ng chi&#x1EBF;n giai &#x111;o&#x1EA1;n 1965 - 1975.
-
- TO&#xC0;N V&#x102;N: Quy &#x111;&#x1ECB;nh 221-Q&#x110;/TW v&#x1EC1; tr&#xE1;ch nhi&#x1EC7;m c&#x1EE7;a &#x111;&#x1EA3;ng vi&#xEA;n &#x111;&#x1ED1;i v&#x1EDB;i t&#x1ED5; ch&#x1EE9;c &#x111;&#x1EA3;ng v&#xE0; nh&#xE2;n d&#xE2;n n&#x1A1;i c&#x1B0; tr&#xFA; 
+ Chi ti&#x1EBF;t gi&#xE1; b&#xE1;n l&#x1EBB; &#x111;i&#x1EC7;n cho sinh ho&#x1EA1;t, s&#x1EA3;n xu&#x1EA5;t, kinh doanh t&#x1EEB; 1/11 
 
  Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
 
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Quy &#x111;&#x1ECB;nh s&#x1ED1; 221-Q&#x110;/TW ng&#xE0;y 05/10/2026 c&#x1EE7;a B&#x1ED9; Ch&#xED;nh tr&#x1ECB; v&#x1EC1; tr&#xE1;ch nhi&#x1EC7;m c&#x1EE7;a &#x111;&#x1EA3;ng vi&#xEA;n &#x111;ang c&#xF4;ng t&#xE1;c &#x111;&#x1ED1;i v&#x1EDB;i t&#x1ED5; ch&#x1EE9;c &#x111;&#x1EA3;ng v&#xE0; Nh&#xE2;n d&#xE2;n n&#x1A1;i c&#x1B0; tr&#xFA;.
+ (Chinhphu.vn) - Gi&#xE1; b&#xE1;n l&#x1EBB; &#x111;i&#x1EC7;n cho s&#x1EA3;n xu&#x1EA5;t, cho kinh doanh v&#xE0; cho sinh ho&#x1EA1;t,... t&#x1EEB; 1/11 &#x111;&#x1B0;&#x1EE3;c quy &#x111;&#x1ECB;nh t&#x1EA1;i Quy&#x1EBF;t &#x111;&#x1ECB;nh 2892/Q&#x110;-BCT ng&#xE0;y 31/10/2026 c&#x1EE7;a B&#x1ED9; C&#xF4;ng Th&#x1B0;&#x1A1;ng.
+
+ Qu&#x1ED1;c h&#x1ED9;i ti&#x1EBF;n h&#xE0;nh ch&#x1EA5;t v&#x1EA5;n 2 B&#x1ED9; tr&#x1B0;&#x1EDF;ng; th&#x1EA3;o lu&#x1EAD;n v&#x1EC1; &#x111;i&#x1EC1;u ch&#x1EC9;nh &#x111;&#x1ECB;a gi&#x1EDB;i h&#xE0;nh ch&#xED;nh 
+
+ Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
+
+ (Chinhphu.vn) - Trong tu&#x1EA7;n l&#xE0;m vi&#x1EC7;c cu&#x1ED1;i c&#x1EE7;a &#x111;&#x1EE3;t 1 (t&#x1EEB; ng&#xE0;y 9 - 13/11), Qu&#x1ED1;c h&#x1ED9;i s&#x1EBD; d&#xE0;nh m&#x1ED9;t ng&#xE0;y l&#xE0;m vi&#x1EC7;c &#x111;&#x1EC3; ti&#x1EBF;n h&#xE0;nh ch&#x1EA5;t v&#x1EA5;n v&#xE0; tr&#x1EA3; l&#x1EDD;i ch&#x1EA5;t v&#x1EA5;n &#x111;&#x1ED1;i v&#x1EDB;i 2 B&#x1ED9; tr&#x1B0;&#x1EDF;ng. Qu&#x1ED1;c h&#x1ED9;i th&#x1EA3;o lu&#x1EAD;n v&#x1EC1; &#x111;i&#x1EC1;u ch&#x1EC9;nh &#x111;&#x1ECB;a gi&#x1EDB;i &#x111;&#x1A1;n v&#x1ECB; h&#xE0;nh ch&#xED;nh gi&#x1EEF;a th&#xE0;nh ph&#x1ED1; H&#xE0; N&#x1ED9;i v&#xE0; t&#x1EC9;nh Ph&#xFA; Th&#x1ECD;...
+
+ Qu&#x1ED1;c h&#x1ED9;i quy&#x1EBF;t ngh&#x1ECB; v&#x1EC1; ti&#x1EC1;n l&#x1B0;&#x1A1;ng, ph&#x1EE5; c&#x1EA5;p, l&#x1B0;&#x1A1;ng h&#x1B0;u, tr&#x1EE3; c&#x1EA5;p 
+
+ Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
+
+ (Chinhphu.vn) - Qu&#x1ED1;c h&#x1ED9;i quy&#x1EBF;t ngh&#x1ECB; b&#x1ED1; tr&#xED; d&#x1EF1; to&#xE1;n chi c&#x1EA3;i c&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng n&#x103;m 2027 theo &#x111;&#x1EC1; xu&#x1EA5;t c&#x1EE7;a Ch&#xED;nh ph&#x1EE7;. Ch&#xED;nh ph&#x1EE7; ch&#x1EC9; &#x111;&#x1EA1;o s&#x1EED; d&#x1EE5;ng ngu&#x1ED3;n t&#xED;ch l&#x169;y cho c&#x1EA3;i c&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng &#x111;&#x1EC3; &#x111;&#x1EA3;m b&#x1EA3;o th&#x1EF1;c hi&#x1EC7;n c&#xE1;c ch&#x1EBF; &#x111;&#x1ED9; ti&#x1EC1;n l&#x1B0;&#x1A1;ng, ph&#x1EE5; c&#x1EA5;p, thu nh&#x1EAD;p, &#x111;i&#x1EC1;u ch&#x1EC9;nh l&#x1B0;&#x1A1;ng h&#x1B0;u, tr&#x1EE3; c&#x1EA5;p b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i, tr&#x1EE3; c&#x1EA5;p h&#x1EB1;ng th&#xE1;ng, tr&#x1EE3; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ng&#x1B0;&#x1EDD;i c&#xF3; c&#xF4;ng v&#xE0; tinh gi&#x1EA3;n bi&#xEA;n ch&#x1EBF; theo quy &#x111;&#x1ECB;nh.
+
+ Th&#xF4;ng t&#x1B0; 89/2026/TT-BGD&#x110;T s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung quy &#x111;&#x1ECB;nh v&#x1EC1; &#x111;&#xE1;nh gi&#xE1; h&#x1ECD;c sinh 
+
+ Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
+
+ (Chinhphu.vn) - Th&#xF4;ng t&#x1B0; s&#x1ED1; 89/2026/TT-BGD&#x110;T s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a Quy &#x111;&#x1ECB;nh &#x111;&#xE1;nh gi&#xE1; h&#x1ECD;c sinh ti&#x1EC3;u h&#x1ECD;c v&#xE0; Quy &#x111;&#x1ECB;nh v&#x1EC1; &#x111;&#xE1;nh gi&#xE1; h&#x1ECD;c sinh trung h&#x1ECD;c c&#x1A1; s&#x1EDF; v&#xE0; h&#x1ECD;c sinh trung h&#x1ECD;c ph&#x1ED5; th&#xF4;ng.
+
+ Ch&#xED;nh ph&#x1EE7; ch&#x1EC9; &#x111;&#x1EA1;o t&#x1EAD;p trung ho&#xE0;n thi&#x1EC7;n h&#x1ED3; s&#x1A1; tr&#xEC;nh &#x110;&#x1EC1; &#xE1;n C&#x1EA2;I C&#xC1;CH TI&#x1EC0;N L&#x1AF;&#x1A0;NG v&#xE0; B&#x1EA2;O HI&#x1EC2;M X&#xC3; H&#x1ED8;I 
+
+ Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
+
+ (Chinhphu.vn) - Ch&#xED;nh ph&#x1EE7; giao B&#x1ED9; N&#x1ED9;i v&#x1EE5; ch&#x1EE7; tr&#xEC;, ph&#x1ED1;i h&#x1EE3;p v&#x1EDB;i c&#xE1;c c&#x1A1; quan, &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng t&#x1EAD;p trung ho&#xE0;n thi&#x1EC7;n h&#x1ED3; s&#x1A1; tr&#xEC;nh c&#x1EA5;p c&#xF3; th&#x1EA9;m quy&#x1EC1;n &#x110;&#x1EC1; &#xE1;n c&#x1EA3;i c&#xE1;ch ch&#xED;nh s&#xE1;ch ti&#x1EC1;n l&#x1B0;&#x1A1;ng v&#xE0; b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i. 
+
+ &#x110;&#x1EA1;i t&#x1B0;&#x1EDB;ng Phan V&#x103;n Giang l&#xE0;m vi&#x1EC7;c v&#x1EDB;i B&#x1ED9; T&#x1ED5;ng Tham m&#x1B0;u, T&#x1ED5;ng c&#x1EE5;c Ch&#xED;nh tr&#x1ECB; v&#x1EC1; t&#x1ED5; ch&#x1EE9;c, bi&#xEA;n ch&#x1EBF; Qu&#xE2;n &#x111;&#x1ED9;i 
+
+ Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
+
+ (Chinhphu.vn) - &#x110;&#x1EA1;i t&#x1B0;&#x1EDB;ng Phan V&#x103;n Giang nh&#x1EA5;n m&#x1EA1;nh, &#x111;i&#x1EC1;u ch&#x1EC9;nh t&#x1ED5; ch&#x1EE9;c, bi&#xEA;n ch&#x1EBF; Qu&#xE2;n &#x111;&#x1ED9;i l&#xE0; nhi&#x1EC7;m v&#x1EE5; quan tr&#x1ECD;ng, c&#xF3; t&#xE1;c &#x111;&#x1ED9;ng tr&#x1EF1;c ti&#x1EBF;p &#x111;&#x1EBF;n ch&#x1EA5;t l&#x1B0;&#x1EE3;ng t&#x1ED5;ng h&#x1EE3;p, s&#x1EE9;c m&#x1EA1;nh chi&#x1EBF;n &#x111;&#x1EA5;u v&#xE0; kh&#x1EA3; n&#x103;ng ho&#xE0;n th&#xE0;nh nhi&#x1EC7;m v&#x1EE5; c&#x1EE7;a to&#xE0;n qu&#xE2;n. V&#xEC; v&#x1EAD;y, qu&#xE1; tr&#xEC;nh nghi&#xEA;n c&#x1EE9;u, &#x111;&#x1EC1; xu&#x1EA5;t ph&#x1EA3;i &#x111;&#x1B0;&#x1EE3;c ti&#x1EBF;n h&#xE0;nh th&#x1EAD;n tr&#x1ECD;ng, khoa h&#x1ECD;c, to&#xE0;n di&#x1EC7;n. Vi&#x1EC7;c &#x111;i&#x1EC1;u ch&#x1EC9;nh ph&#x1EA3;i g&#x1EAF;n ch&#x1EB7;t v&#x1EDB;i y&#xEA;u c&#x1EA7;u x&#xE2;y d&#x1EF1;ng Qu&#xE2;n &#x111;&#x1ED9;i c&#xE1;ch m&#x1EA1;ng, ch&#xED;nh quy, tinh nhu&#x1EC7;, hi&#x1EC7;n &#x111;&#x1EA1;i...
+
+ TO&#xC0;N V&#x102;N: Ngh&#x1ECB; &#x111;&#x1ECB;nh 398/2026/N&#x110;-CP v&#x1EC1; gi&#x1EA3;m thu&#x1EBF; thu nh&#x1EAD;p c&#xE1; nh&#xE2;n, thu&#x1EBF; thu nh&#x1EAD;p doanh nghi&#x1EC7;p 
+
+ H&#x1AF;&#x1EDA;NG D&#x1EAA;N CH&#xCD;NH S&#xC1;CH THU&#x1EBE; M&#x1EDA;I 
+
+ (Chinhphu.vn) - To&#xE0;n v&#x103;n Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 398/2026/N&#x110;-CP ng&#xE0;y 29/10/2026 c&#x1EE7;a Ch&#xED;nh ph&#x1EE7; quy &#x111;&#x1ECB;nh chi ti&#x1EBF;t Ngh&#x1ECB; quy&#x1EBF;t s&#x1ED1; 43/2026/QH16 v&#x1EC1; gi&#x1EA3;m thu&#x1EBF; thu nh&#x1EAD;p c&#xE1; nh&#xE2;n, thu&#x1EBF; thu nh&#x1EAD;p doanh nghi&#x1EC7;p &#x111;&#x1ED1;i v&#x1EDB;i c&#xE1; nh&#xE2;n v&#xE0; doanh nghi&#x1EC7;p.
+
+ TO&#xC0;N V&#x102;N: Quy &#x111;&#x1ECB;nh s&#x1ED1; 225/Q&#x110;/TW v&#x1EC1; c&#xF4;ng t&#xE1;c ki&#x1EC3;m tra, gi&#xE1;m s&#xE1;t v&#xE0; k&#x1EF7; lu&#x1EAD;t c&#x1EE7;a &#x110;&#x1EA3;ng 
+
+ Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
+
+ (Chinhphu.vn) - Ng&#xE0;y 14/10/2026, thay m&#x1EB7;t Ban Ch&#x1EA5;p h&#xE0;nh Trung &#x1B0;&#x1A1;ng &#x110;&#x1EA3;ng, T&#x1ED5;ng B&#xED; th&#x1B0;, Ch&#x1EE7; t&#x1ECB;ch n&#x1B0;&#x1EDB;c T&#xF4; L&#xE2;m &#x111;&#xE3; k&#xFD; ban h&#xE0;nh Quy &#x111;&#x1ECB;nh s&#x1ED1; 225-Q&#x110;/TW v&#x1EC1; c&#xF4;ng t&#xE1;c ki&#x1EC3;m tra, gi&#xE1;m s&#xE1;t v&#xE0; k&#x1EF7; lu&#x1EAD;t c&#x1EE7;a &#x110;&#x1EA3;ng.
+
+ TO&#xC0;N V&#x102;N: K&#x1EBF;t lu&#x1EAD;n s&#x1ED1; 105-KL/TW v&#x1EC1; thu h&#xFA;t v&#xE0; tr&#x1ECD;ng d&#x1EE5;ng nh&#xE2;n t&#xE0;i trong c&#xE1;c ng&#xE0;nh, l&#x129;nh v&#x1EF1;c m&#x169;i nh&#x1ECD;n, ph&#x1EE5;c v&#x1EE5; &#x111;&#x1EA5;t n&#x1B0;&#x1EDB;c ph&#xE1;t tri&#x1EC3;n nhanh, b&#x1EC1;n v&#x1EEF;ng 
+
+ Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
+
+ (Chinhphu.vn) - Ng&#xE0;y 15/10/2026, thay m&#x1EB7;t Ban Ch&#x1EA5;p h&#xE0;nh Trung &#x1B0;&#x1A1;ng &#x110;&#x1EA3;ng, &#x111;&#x1ED3;ng ch&#xED; T&#x1ED5;ng B&#xED; th&#x1B0;, Ch&#x1EE7; t&#x1ECB;ch n&#x1B0;&#x1EDB;c T&#xF4; L&#xE2;m k&#xFD; ban h&#xE0;nh K&#x1EBF;t lu&#x1EAD;n s&#x1ED1; 105-KL/TW H&#x1ED9;i ngh&#x1ECB; l&#x1EA7;n th&#x1EE9; t&#x1B0; Ban Ch&#x1EA5;p h&#xE0;nh Trung &#x1B0;&#x1A1;ng &#x110;&#x1EA3;ng kh&#xF3;a XIV v&#x1EC1; thu h&#xFA;t v&#xE0; tr&#x1ECD;ng d&#x1EE5;ng nh&#xE2;n t&#xE0;i trong c&#xE1;c ng&#xE0;nh, l&#x129;nh v&#x1EF1;c m&#x169;i nh&#x1ECD;n, ph&#x1EE5;c v&#x1EE5; &#x111;&#x1EA5;t n&#x1B0;&#x1EDB;c ph&#xE1;t tri&#x1EC3;n nhanh, b&#x1EC1;n v&#x1EEF;ng.
+
+ TO&#xC0;N V&#x102;N: Quy &#x111;&#x1ECB;nh s&#x1ED1; 224-Q&#x110;/TW v&#x1EC1; &#x111;&#x1EA3;ng vi&#xEA;n tham gia ho&#x1EA1;t &#x111;&#x1ED9;ng &#x111;&#x1EA7;u t&#x1B0; kinh doanh 
+
+ Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
+
+ (Chinhphu.vn) - Ng&#xE0;y 14/10/2026, thay m&#x1EB7;t Ban Ch&#x1EA5;p h&#xE0;nh Trung &#x1B0;&#x1A1;ng &#x110;&#x1EA3;ng, &#x111;&#x1ED3;ng ch&#xED; T&#x1ED5;ng B&#xED; th&#x1B0;, Ch&#x1EE7; t&#x1ECB;ch n&#x1B0;&#x1EDB;c T&#xF4; L&#xE2;m k&#xFD; ban h&#xE0;nh Quy &#x111;&#x1ECB;nh s&#x1ED1; 224-Q&#x110;/TW v&#x1EC1; &#x111;&#x1EA3;ng vi&#xEA;n tham gia ho&#x1EA1;t &#x111;&#x1ED9;ng &#x111;&#x1EA7;u t&#x1B0; kinh doanh.
+
+ &#x110;&#x1EC1; xu&#x1EA5;t ch&#x1EBF; &#x111;&#x1ED9; ph&#x1EE5; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ngh&#x1EC1; &#x111;&#x1ED1;i v&#x1EDB;i ng&#x1B0;&#x1EDD;i l&#xE0;m chuy&#xEA;n m&#xF4;n y t&#x1EBF; trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng 
+
+ Tham v&#x1EA5;n ch&#xED;nh s&#xE1;ch 
+
+ (Chinhphu.vn) - B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng &#x111;ang l&#x1EA5;y &#xFD; ki&#x1EBF;n g&#xF3;p &#xFD; d&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; ph&#x1EE5; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ngh&#x1EC1; &#x111;&#x1ED1;i v&#x1EDB;i ng&#x1B0;&#x1EDD;i l&#xE0;m chuy&#xEA;n m&#xF4;n y t&#x1EBF; trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng.
+
+ TO&#xC0;N V&#x102;N: D&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; ph&#x1EE5; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ngh&#x1EC1; v&#x1EDB;i ng&#x1B0;&#x1EDD;i l&#xE0;m chuy&#xEA;n m&#xF4;n y t&#x1EBF; trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng 
+
+ Tham v&#x1EA5;n ch&#xED;nh s&#xE1;ch 
+
+ (Chinhphu.vn) - To&#xE0;n v&#x103;n d&#x1EF1; th&#x1EA3;o Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; ph&#x1EE5; c&#x1EA5;p &#x1B0;u &#x111;&#xE3;i ngh&#x1EC1; &#x111;&#x1ED1;i v&#x1EDB;i ng&#x1B0;&#x1EDD;i l&#xE0;m chuy&#xEA;n m&#xF4;n y t&#x1EBF; trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng &#x111;ang &#x111;&#x1B0;&#x1EE3;c B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng l&#x1EA5;y &#xFD; ki&#x1EBF;n g&#xF3;p &#xFD;.
 
  Xem thêm
 
@@ -211,13 +211,9 @@ Xây Dựng Chính Sách, Pháp Luật
 
  NG&#xC0;Y V&#x102;N H&#xD3;A VI&#x1EC6;T NAM - 24/11, ng&#x1B0;&#x1EDD;i lao &#x111;&#x1ED9;ng &#x111;&#x1B0;&#x1EE3;c ngh&#x1EC9;, h&#x1B0;&#x1EDF;ng nguy&#xEA;n l&#x1B0;&#x1A1;ng 
 
- Ch&#xED;nh s&#xE1;ch v&#xE0; cu&#x1ED9;c s&#x1ED1;ng 
-
  (Chinhphu.vn) - Qu&#x1ED1;c h&#x1ED9;i quy &#x111;&#x1ECB;nh ng&#xE0;y 24/11 h&#x1EB1;ng n&#x103;m l&#xE0; &#x201C;Ng&#xE0;y V&#x103;n h&#xF3;a Vi&#x1EC7;t Nam&#x201D;, ng&#x1B0;&#x1EDD;i lao &#x111;&#x1ED9;ng &#x111;&#x1B0;&#x1EE3;c ngh&#x1EC9; l&#xE0;m vi&#x1EC7;c v&#xE0; h&#x1B0;&#x1EDF;ng nguy&#xEA;n l&#x1B0;&#x1A1;ng. Th&#x1EE7; t&#x1B0;&#x1EDB;ng Ch&#xED;nh ph&#x1EE7; &#x111;&#xE3; ban h&#xE0;nh K&#x1EBF; ho&#x1EA1;ch t&#x1ED5; ch&#x1EE9;c c&#xE1;c ho&#x1EA1;t &#x111;&#x1ED9;ng k&#x1EF7; ni&#x1EC7;m "Ng&#xE0;y V&#x103;n h&#xF3;a Vi&#x1EC7;t Nam" giai &#x111;o&#x1EA1;n 2026 - 2030
 
  Danh m&#x1EE5;c 111 NG&#xC0;NH &#x111;&#x1B0;&#x1EE3;c nh&#x1EAD;n H&#x1ECC;C B&#x1ED4;NG h&#x1EB1;ng th&#xE1;ng 
-
- H&#x1B0;&#x1EDB;ng d&#x1EAB;n th&#x1EF1;c hi&#x1EC7;n ch&#xED;nh s&#xE1;ch 
 
  (Chinhphu.vn) - To&#xE0;n v&#x103;n Quy&#x1EBF;t &#x111;&#x1ECB;nh s&#x1ED1; 1826/Q&#x110;-BGD&#x110;T c&#x1EE7;a B&#x1ED9; GD&#x110;T ban h&#xE0;nh danh m&#x1EE5;c 111 &#x111;&#xE0;o t&#x1EA1;o (thu&#x1ED9;c 15 nh&#xF3;m ng&#xE0;nh) ng&#x1B0;&#x1EDD;i h&#x1ECD;c &#x111;&#x1B0;&#x1EE3;c nh&#x1EAD;n h&#x1ECD;c b&#x1ED5;ng theo Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 179/2026/N&#x110;-CP c&#x1EE7;a Ch&#xED;nh ph&#x1EE7;.
 
@@ -241,35 +237,35 @@ Xây Dựng Chính Sách, Pháp Luật
 
  Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
 
- Ngh&#x1ECB; quy&#x1EBF;t s&#x1ED1; 351/NQ-CP: Th&#xF4;ng qua &#x110;&#x1EC1; &#xE1;n &#x111;i&#x1EC1;u ch&#x1EC9;nh &#x111;&#x1ECB;a gi&#x1EDB;i &#x111;&#x1A1;n v&#x1ECB; h&#xE0;nh ch&#xED;nh gi&#x1EEF;a 2 t&#x1EC9;nh th&#xE0;nh 
+ Quy &#x111;&#x1ECB;nh v&#x1EC1; giao d&#x1ECB;ch &#x111;i&#x1EC7;n t&#x1EED; thu&#x1ED9;c l&#x129;nh v&#x1EF1;c b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng 
 
  Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
 
- (Chinhphu.vn) - Ngh&#x1ECB; quy&#x1EBF;t s&#x1ED1; 351/NQ-CP c&#x1EE7;a Ch&#xED;nh ph&#x1EE7; quy&#x1EBF;t ngh&#x1ECB; th&#xF4;ng qua h&#x1ED3; s&#x1A1; &#x110;&#x1EC1; &#xE1;n &#x111;i&#x1EC1;u ch&#x1EC9;nh &#x111;&#x1ECB;a gi&#x1EDB;i &#x111;&#x1A1;n v&#x1ECB; h&#xE0;nh ch&#xED;nh gi&#x1EEF;a th&#xE0;nh ph&#x1ED1; H&#xE0; N&#x1ED9;i v&#xE0; t&#x1EC9;nh Ph&#xFA; Th&#x1ECD;.
+ (Chinhphu.vn) - Ng&#xE0;y 29/10/2026, B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng ban h&#xE0;nh Th&#xF4;ng t&#x1B0; s&#x1ED1; 177/2026/TT-BQP quy &#x111;&#x1ECB;nh v&#x1EC1; giao d&#x1ECB;ch &#x111;i&#x1EC7;n t&#x1EED; thu&#x1ED9;c l&#x129;nh v&#x1EF1;c b&#x1EA3;o hi&#x1EC3;m x&#xE3; h&#x1ED9;i trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng.
 
- TO&#xC0;N V&#x102;N: Th&#xF4;ng t&#x1B0; 176/2026/TT-BQP s&#x1EED;a quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n khi th&#xF4;i ph&#x1EE5;c v&#x1EE5; trong Qu&#xE2;n &#x111;&#x1ED9;i 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Th&#xF4;ng t&#x1B0; s&#x1ED1; 176/2026/TT-BQP s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a Th&#xF4;ng t&#x1B0; s&#x1ED1; 25/2025/TT-BQP v&#xE0; Th&#xF4;ng t&#x1B0; s&#x1ED1; 162/2017/TT-BQP v&#x1EC1; ch&#x1EBF; &#x111;&#x1ED9; tr&#x1EE3; c&#x1EA5;p m&#x1ED9;t l&#x1EA7;n khi th&#xF4;i ph&#x1EE5;c v&#x1EE5; trong Qu&#xE2;n &#x111;&#x1ED9;i &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan, qu&#xE2;n nh&#xE2;n chuy&#xEA;n nghi&#x1EC7;p, c&#xF4;ng nh&#xE2;n v&#xE0; vi&#xEA;n ch&#x1EE9;c qu&#x1ED1;c ph&#xF2;ng.
-
- Ch&#xED;nh ph&#x1EE7; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; h&#x1ED7; tr&#x1EE3; tang l&#x1EC5; khi t&#x1EEB; tr&#x1EA7;n v&#x1EDB;i s&#x129; quan C&#xF4;ng an ngh&#x1EC9; h&#x1B0;u 
+ Quy &#x111;&#x1ECB;nh qu&#x1EA3;n l&#xFD; nhi&#x1EC7;m v&#x1EE5; khoa h&#x1ECD;c, c&#xF4;ng ngh&#x1EC7; v&#xE0; &#x111;&#x1ED5;i m&#x1EDB;i s&#xE1;ng t&#x1EA1;o trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng 
 
  Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
 
- (Chinhphu.vn) - Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 400/2026/N&#x110;-CP ng&#xE0;y 03/11/2026 c&#x1EE7;a Ch&#xED;nh ph&#x1EE7; trong &#x111;&#xF3; quy &#x111;&#x1ECB;nh ch&#x1EBF; &#x111;&#x1ED9; h&#x1ED7; tr&#x1EE3; tang l&#x1EC5; khi t&#x1EEB; tr&#x1EA7;n v&#x1EDB;i s&#x129; quan C&#xF4;ng an ngh&#x1EC9; h&#x1B0;u.
+ (Chinhphu.vn) - Ng&#xE0;y 04/11/2026, B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng ban h&#xE0;nh Th&#xF4;ng t&#x1B0; s&#x1ED1; 181/2026/TT-BQP quy &#x111;&#x1ECB;nh qu&#x1EA3;n l&#xFD; nhi&#x1EC7;m v&#x1EE5; khoa h&#x1ECD;c, c&#xF4;ng ngh&#x1EC7; v&#xE0; &#x111;&#x1ED5;i m&#x1EDB;i s&#xE1;ng t&#x1EA1;o trong B&#x1ED9; Qu&#x1ED1;c ph&#xF2;ng.
 
- TO&#xC0;N V&#x102;N: Th&#xF4;ng t&#x1B0; 93/2026/TT-BGD&#x110;T s&#x1EED;a quy &#x111;&#x1ECB;nh chu&#x1EA9;n ngh&#x1EC1; nghi&#x1EC7;p, b&#x1ED5; nhi&#x1EC7;m ch&#x1EE9;c danh v&#xE0; x&#x1EBF;p l&#x1B0;&#x1A1;ng v&#x1EDB;i nh&#xE0; gi&#xE1;o 
-
- Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
-
- (Chinhphu.vn) - To&#xE0;n v&#x103;n Th&#xF4;ng t&#x1B0; 93/2026/TT-BGD&#x110;T s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a c&#xE1;c Th&#xF4;ng t&#x1B0; quy &#x111;&#x1ECB;nh chu&#x1EA9;n ngh&#x1EC1; nghi&#x1EC7;p, b&#x1ED5; nhi&#x1EC7;m ch&#x1EE9;c danh v&#xE0; x&#x1EBF;p l&#x1B0;&#x1A1;ng v&#x1EDB;i nh&#xE0; gi&#xE1;o trong c&#x1A1; s&#x1EDF; gi&#xE1;o d&#x1EE5;c.
-
- Quy &#x111;&#x1ECB;nh m&#x1EDB;i v&#x1EC1; ch&#x1EBF; &#x111;&#x1ED9; ch&#x103;m s&#xF3;c &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan C&#xF4;ng an ngh&#x1EC9; h&#x1B0;u m&#x1EAF;c b&#x1EC7;nh hi&#x1EC3;m ngh&#xE8;o 
+ Th&#xF4;ng t&#x1B0; 89/2026/TT-BGD&#x110;T s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung quy &#x111;&#x1ECB;nh v&#x1EC1; &#x111;&#xE1;nh gi&#xE1; h&#x1ECD;c sinh 
 
  Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
 
- (Chinhphu.vn) - T&#x1EA1;i Ngh&#x1ECB; &#x111;&#x1ECB;nh s&#x1ED1; 400/2026/N&#x110;-CP, Ch&#xED;nh ph&#x1EE7; quy &#x111;&#x1ECB;nh chi ti&#x1EBF;t ch&#x1EBF; &#x111;&#x1ED9; ch&#x103;m s&#xF3;c &#x111;&#x1ED1;i v&#x1EDB;i s&#x129; quan C&#xF4;ng an nh&#xE2;n d&#xE2;n ngh&#x1EC9; h&#x1B0;u m&#x1EAF;c b&#x1EC7;nh hi&#x1EC3;m ngh&#xE8;o.
+ (Chinhphu.vn) - Th&#xF4;ng t&#x1B0; s&#x1ED1; 89/2026/TT-BGD&#x110;T s&#x1EED;a &#x111;&#x1ED5;i, b&#x1ED5; sung m&#x1ED9;t s&#x1ED1; &#x111;i&#x1EC1;u c&#x1EE7;a Quy &#x111;&#x1ECB;nh &#x111;&#xE1;nh gi&#xE1; h&#x1ECD;c sinh ti&#x1EC3;u h&#x1ECD;c v&#xE0; Quy &#x111;&#x1ECB;nh v&#x1EC1; &#x111;&#xE1;nh gi&#xE1; h&#x1ECD;c sinh trung h&#x1ECD;c c&#x1A1; s&#x1EDF; v&#xE0; h&#x1ECD;c sinh trung h&#x1ECD;c ph&#x1ED5; th&#xF4;ng.
+
+ TO&#xC0;N V&#x102;N: Quy &#x111;&#x1ECB;nh s&#x1ED1; 225/Q&#x110;/TW v&#x1EC1; c&#xF4;ng t&#xE1;c ki&#x1EC3;m tra, gi&#xE1;m s&#xE1;t v&#xE0; k&#x1EF7; lu&#x1EAD;t c&#x1EE7;a &#x110;&#x1EA3;ng 
+
+ Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
+
+ (Chinhphu.vn) - Ng&#xE0;y 14/10/2026, thay m&#x1EB7;t Ban Ch&#x1EA5;p h&#xE0;nh Trung &#x1B0;&#x1A1;ng &#x110;&#x1EA3;ng, T&#x1ED5;ng B&#xED; th&#x1B0;, Ch&#x1EE7; t&#x1ECB;ch n&#x1B0;&#x1EDB;c T&#xF4; L&#xE2;m &#x111;&#xE3; k&#xFD; ban h&#xE0;nh Quy &#x111;&#x1ECB;nh s&#x1ED1; 225-Q&#x110;/TW v&#x1EC1; c&#xF4;ng t&#xE1;c ki&#x1EC3;m tra, gi&#xE1;m s&#xE1;t v&#xE0; k&#x1EF7; lu&#x1EAD;t c&#x1EE7;a &#x110;&#x1EA3;ng.
+
+ TO&#xC0;N V&#x102;N: Quy &#x111;&#x1ECB;nh s&#x1ED1; 224-Q&#x110;/TW v&#x1EC1; &#x111;&#x1EA3;ng vi&#xEA;n tham gia ho&#x1EA1;t &#x111;&#x1ED9;ng &#x111;&#x1EA7;u t&#x1B0; kinh doanh 
+
+ Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
+
+ (Chinhphu.vn) - Ng&#xE0;y 14/10/2026, thay m&#x1EB7;t Ban Ch&#x1EA5;p h&#xE0;nh Trung &#x1B0;&#x1A1;ng &#x110;&#x1EA3;ng, &#x111;&#x1ED3;ng ch&#xED; T&#x1ED5;ng B&#xED; th&#x1B0;, Ch&#x1EE7; t&#x1ECB;ch n&#x1B0;&#x1EDB;c T&#xF4; L&#xE2;m k&#xFD; ban h&#xE0;nh Quy &#x111;&#x1ECB;nh s&#x1ED1; 224-Q&#x110;/TW v&#x1EC1; &#x111;&#x1EA3;ng vi&#xEA;n tham gia ho&#x1EA1;t &#x111;&#x1ED9;ng &#x111;&#x1EA7;u t&#x1B0; kinh doanh.
 
  Ch&#xED;nh s&#xE1;ch m&#x1EDB;i 
 

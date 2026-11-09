@@ -1,14 +1,106 @@
 {
-  "run_at": "2026-11-08T13:40:38.019Z",
+  "run_at": "2026-11-09T16:38:05.324Z",
   "new_items": [
+    {
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-22799",
+      "title": "Notice of Public Meetings of the Maryland Advisory Committee to the U.S. Commission on Civil Rights",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22799/notice-of-public-meetings-of-the-maryland-advisory-committee-to-the-us-commission-on-civil-rights",
+      "date": "2026-11-09",
+      "extra": "Notice"
+    },
+    {
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-22743",
+      "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
+      "date": "2026-11-09",
+      "extra": "Rule"
+    },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/residential-property-tribunal-decisions/14-moody-road-london-se15-5jb-lon-slash-00be-slash-hin-slash-2025-slash-0630",
-      "title": "14 Moody Road, London SE15 5JB : LON/00BE/HIN/2025/0630",
-      "url": "https://www.gov.uk/residential-property-tribunal-decisions/14-moody-road-london-se15-5jb-lon-slash-00be-slash-hin-slash-2025-slash-0630",
-      "date": "2026-11-07T16:52:08+00:00"
+      "id": "https://www.gov.uk/government/publications/rough-sleeping-actions-for-the-health-and-care-sector",
+      "title": "Rough sleeping: actions for the health and care sector",
+      "url": "https://www.gov.uk/government/publications/rough-sleeping-actions-for-the-health-and-care-sector",
+      "date": "2026-11-09T16:37:53+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/innovative-licensing-and-access-pathway-ilap",
+      "title": "Innovative Licensing and Access Pathway (ILAP)",
+      "url": "https://www.gov.uk/government/publications/innovative-licensing-and-access-pathway-ilap",
+      "date": "2026-11-09T16:30:04+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/organisations/cabinet-office/about/personal-information-charter",
+      "title": "Personal information charter - Cabinet Office",
+      "url": "https://www.gov.uk/government/organisations/cabinet-office/about/personal-information-charter",
+      "date": "2026-11-09T16:14:53+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/collections/defence-export-support",
+      "title": "Defence export support",
+      "url": "https://www.gov.uk/government/collections/defence-export-support",
+      "date": "2026-11-09T15:51:22+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/administrative-appeals-tribunal-decisions/z-and-z-v-norfolk-county-council-sen-2026-ukut-401-aac",
+      "title": "Z and Z v Norfolk County Council (SEN): [2026] UKUT 401 (AAC)",
+      "url": "https://www.gov.uk/administrative-appeals-tribunal-decisions/z-and-z-v-norfolk-county-council-sen-2026-ukut-401-aac",
+      "date": "2026-11-09T15:36:45+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
+      "title": "Check genuine HMRC contact that uses more than one communication method",
+      "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
+      "date": "2026-11-09T15:35:15+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/electro-optic-sensing-technologies",
+      "title": "Electro Optic Sensing Technologies",
+      "url": "https://www.gov.uk/government/publications/electro-optic-sensing-technologies",
+      "date": "2026-11-09T14:28:00+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/organisations/intellectual-property-office/about/complaints-procedure",
+      "title": "Complaints procedure - Intellectual Property Office",
+      "url": "https://www.gov.uk/government/organisations/intellectual-property-office/about/complaints-procedure",
+      "date": "2026-11-09T12:58:39+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/residential-property-tribunal-decisions/10-waldegrave-court-upminster-rm14-1uu-lon-slash-00ar-slash-mra-slash-2026-slash-0267",
+      "title": "10 Waldegrave Court, Upminster, RM14 1UU: LON/00AR/MRA/2026/0267",
+      "url": "https://www.gov.uk/residential-property-tribunal-decisions/10-waldegrave-court-upminster-rm14-1uu-lon-slash-00ar-slash-mra-slash-2026-slash-0267",
+      "date": "2026-11-09T12:58:06+00:00"
     }
   ],
   "page_changes": [

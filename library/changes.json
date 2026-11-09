@@ -1,14 +1,32 @@
 {
-  "run_at": "2026-11-08T13:29:27.984Z",
+  "run_at": "2026-11-09T16:27:08.245Z",
   "changed": [
+    {
+      "id": "uk-dua-act",
+      "title": "Data (Use and Access) Act 2025",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
+      "jurisdiction": "UK",
+      "priority": "high",
+      "chars_before": 32649,
+      "chars_after": 30244
+    },
+    {
+      "id": "cn-cac",
+      "title": "Cyberspace Administration of China (English site)",
+      "url": "https://www.cac.gov.cn/",
+      "jurisdiction": "CN",
+      "priority": "medium",
+      "chars_before": 5222,
+      "chars_after": 5135
+    },
     {
       "id": "vn-gov",
       "title": "Vietnam Government portal (legal documents)",
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26602,
-      "chars_after": 27802
+      "chars_before": 27802,
+      "chars_after": 28681
     },
     {
       "id": "br-pl2338",
@@ -20,22 +38,22 @@
       "chars_after": 230249
     },
     {
+      "id": "br-camara",
+      "title": "PL 2338/2023 Chamber of Deputies proceeding",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+      "jurisdiction": "BR",
+      "priority": "medium",
+      "chars_before": 224981,
+      "chars_after": 224879
+    },
+    {
       "id": "us-eo-14179",
       "title": "Executive Order 14179: Removing Barriers to American Leadership in AI",
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
       "chars_before": 13782,
-      "chars_after": 13782
-    },
-    {
-      "id": "cn-genai-measures",
-      "title": "Interim Measures for the Management of Generative AI Services (English translation)",
-      "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
-      "jurisdiction": "CN",
-      "priority": "high",
-      "chars_before": 18964,
-      "chars_after": 18944
+      "chars_after": 1239
     },
     {
       "id": "cn-labelling",
@@ -43,8 +61,17 @@
       "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
       "jurisdiction": "CN",
       "priority": "high",
-      "chars_before": 13591,
-      "chars_after": 14544
+      "chars_before": 14544,
+      "chars_after": 13591
+    },
+    {
+      "id": "kr-ai-basic-act",
+      "title": "AI Basic Act (English translation)",
+      "url": "https://elaw.klri.re.kr/eng_service/main.do",
+      "jurisdiction": "KR",
+      "priority": "high",
+      "chars_before": 2186,
+      "chars_after": 2163
     },
     {
       "id": "paris-statement",
@@ -52,11 +79,17 @@
       "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
       "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 7617,
-      "chars_after": 7625
+      "chars_before": 7625,
+      "chars_after": 7591
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "id": "us-ny-raise",
+      "title": "New York RAISE Act (frontier AI safety)",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953"
+    }
+  ],
   "failed": [
     {
       "id": "coe-treaty-page",
@@ -81,6 +114,18 @@
       "title": "Energy and AI (IEA report on data centre electricity demand)",
       "url": "https://www.iea.org/reports/energy-and-ai",
       "error": "HTTP 403"
+    },
+    {
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "error": "empty response"
+    },
+    {
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "error": "empty response"
     },
     {
       "id": "us-ca-sb53",
@@ -117,12 +162,6 @@
       "title": "Federal Council: AI regulatory approach",
       "url": "https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html",
       "error": "HTTP 404"
-    },
-    {
-      "id": "us-ny-raise",
-      "title": "New York RAISE Act (frontier AI safety)",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
-      "error": "empty response"
     },
     {
       "id": "jp-ai-promotion-act",

@@ -1,0 +1,174 @@
+DO YOU SUPPORT THIS BILL?
+AYE
+NAY
+GET STATUS ALERTS FOR 2025-S6953B
+EMAIL ADDRESS
+SUBSCRIBE
+Senate Bill S6953B
+SIGNED BY GOVERNOR
+2025-2026 Legislative Session
+
+Relates to the training and use of artificial intelligence frontier models
+
+ DOWNLOAD BILL TEXT PDF
+SHARE THIS BILL
+Share on Facebook
+ 
+Share on X (Twitter)
+ 
+Share via Email
+SPONSORED BY
+ 
+Andrew Gounardes
+
+(D) 26TH SENATE DISTRICT
+
+CURRENT BILL STATUS -
+Signed By Governor
+Introduced
+ 
+In Committee Assembly
+In Committee Senate
+ 
+On Floor Calendar Assembly
+On Floor Calendar Senate
+ 
+Passed Assembly
+Passed Senate
+ 
+Delivered To Governor
+ 
+Signed By Governor
+ 
+ACTIONS
+VIEW ACTIONS (17)
+VOTES
+VIEW VOTES
+BILL AMENDMENTS
+ORIGINAL
+A
+B (ACTIVE)
+CO-SPONSORS
+ 
+Jamaal T. Bailey
+
+(D) 36TH SENATE DISTRICT
+
+ 
+George M. Borrello
+
+(R, C) 57TH SENATE DISTRICT
+
+ 
+Jabari Brisport
+
+(D, WF) 25TH SENATE DISTRICT
+
+ 
+Patricia Fahy
+
+(D, WF) 46TH SENATE DISTRICT
+
+VIEW ADDITIONAL CO-SPONSORS
+2025-S6953B (ACTIVE) - DETAILS
+See Assembly Version of this Bill:
+A6453
+Law Section:
+General Business Law
+Laws Affected:
+Add Art 44-B §§1420 - 1425, Gen Bus L
+2025-S6953B (ACTIVE) - SUMMARY
+
+Relates to the training and use of artificial intelligence frontier models; defines terms; establishes remedies for violations.
+
+2025-S6953B (ACTIVE) - SPONSOR MEMO
+                                 
+BILL NUMBER: S6953B
+
+SPONSOR: GOUNARDES
+ 
+TITLE OF BILL:
+
+An act to amend the general business law, in relation to the training
+and use of artificial intelligence frontier models
+
+ 
+PURPOSE OR GENERAL IDEA OF BILL:
+
+To require safety reports for powerful frontier artificial intelligence
+models in order to limit critical harm
+
+ 
+SUMMARY OF PROVISIONS:
+
+Section 1421 details transparency requirements regarding frontier model
+training and deployment, including requiring safety plans and disclosing
+safety incidents.
+
+Section 1422 defines penalties.
+
+Section 1423 clarifies that this bill does not preclude other laws and
+              
+View More (136 Lines)
+2025-S6953B (ACTIVE) - BILL TEXT
+DOWNLOAD PDF
+                             
+                     S T A T E   O F   N E W   Y O R K
+ ________________________________________________________________________
+ 
+                                  6953--B
+ 
+                        2025-2026 Regular Sessions
+ 
+                             I N  S E N A T E
+ 
+                              March 27, 2025
+                                ___________
+ 
+ Introduced  by Sens. GOUNARDES, BAILEY, BORRELLO, BRISPORT, FAHY, HARCK-
+   HAM, HOYLMAN-SIGAL, JACKSON, KRUEGER, LIU, MAYER, PALUMBO, SALAZAR  --
+   read  twice  and  ordered printed, and when printed to be committed to
+   the Committee on Internet and Technology -- committee discharged, bill
+   amended, ordered reprinted as amended and recommitted to said  commit-
+   tee  --  committee  discharged,  bill  amended,  ordered  reprinted as
+   amended and recommitted to said committee
+ 
+ AN ACT to amend the general business law, in relation  to  the  training
+   and use of artificial intelligence frontier models
+ 
+   THE  PEOPLE OF THE STATE OF NEW YORK, REPRESENTED IN SENATE AND ASSEM-
+ BLY, DO ENACT AS FOLLOWS:
+ 
+   Section 1. Short title. This act shall be known and may  be  cited  as
+ the "Responsible AI safety and education act" or "RAISE act".
+   §  2. The general business law is amended by adding a new article 44-B
+ to read as follows:
+                                ARTICLE 44-B
+              RESPONSIBLE AI SAFETY AND EDUCATION (RAISE) ACT
+ SECTION 1420. DEFINITIONS.
+         1421. TRANSPARENCY REQUIREMENTS REGARDING FRONTIER MODEL  TRAIN-
+                 ING AND USE.
+         1422. VIOLATIONS.
+         1423. DUTIES AND OBLIGATIONS.
+         1424. SCOPE.
+         1425. SEVERABILITY.
+   §  1420.  DEFINITIONS.  AS  USED  IN THIS ARTICLE, THE FOLLOWING TERMS
+ SHALL HAVE THE FOLLOWING MEANINGS:
+   1. "APPROPRIATE REDACTIONS" MEANS REDACTIONS TO A SAFETY AND  SECURITY
+ PROTOCOL THAT A DEVELOPER MAY MAKE WHEN NECESSARY TO:
+   (A)  PROTECT  PUBLIC SAFETY TO THE EXTENT THE DEVELOPER CAN REASONABLY
+ PREDICT SUCH RISKS;
+   (B) PROTECT TRADE SECRETS;
+ 
+  EXPLANATION--Matter in ITALICS (underscored) is new; matter in brackets
+                       [ ] is old law to be omitted.
+                                                            LBD00047-15-5
+              
+View More (210 Lines)
+COMMENTS
+
+Open Legislation is a forum for New York State legislation. All comments are subject to review and community moderation is encouraged.
+
+Comments deemed off-topic, commercial, campaign-related, self-promotional; or that contain profanity, hate or toxic speech; or that link to sites outside of the nysenate.gov domain are not permitted, and will not be published. Attempts to intimidate and silence contributors or deliberately deceive the public, including excessive or extraneous posting/posts, or coordinated activity, are prohibited and may result in the temporary or permanent banning of the user. Comment moderation is generally performed Monday through Friday. By contributing or voting you agree to the Terms of Participation and verify you are over 13.
+
+Create an account. An account allows you to sign petitions with a single click, officially support or oppose key legislation, and follow issues, committees, and bills that matter to you. When you create an account, you agree to this platform's terms of participation.

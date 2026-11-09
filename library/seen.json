@@ -1,6 +1,8 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-22799",
+      "2026-22743",
       "2026-22739",
       "2026-22680",
       "2026-22615",
@@ -43,7 +45,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   },
   "uk-bills": {
     "ids": [
@@ -54,10 +56,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/rough-sleeping-actions-for-the-health-and-care-sector",
+      "https://www.gov.uk/government/publications/innovative-licensing-and-access-pathway-ilap",
+      "https://www.gov.uk/government/organisations/cabinet-office/about/personal-information-charter",
+      "https://www.gov.uk/government/collections/defence-export-support",
+      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
+      "https://www.gov.uk/administrative-appeals-tribunal-decisions/z-and-z-v-norfolk-county-council-sen-2026-ukut-401-aac",
+      "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
+      "https://www.gov.uk/government/publications/electro-optic-sensing-technologies",
+      "https://www.gov.uk/government/organisations/intellectual-property-office/about/complaints-procedure",
+      "https://www.gov.uk/residential-property-tribunal-decisions/10-waldegrave-court-upminster-rm14-1uu-lon-slash-00ar-slash-mra-slash-2026-slash-0267",
       "https://www.gov.uk/residential-property-tribunal-decisions/14-moody-road-london-se15-5jb-lon-slash-00be-slash-hin-slash-2025-slash-0630",
       "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
       "https://www.gov.uk/government/publications/updated-estimates-of-children-with-a-parent-in-prison",
@@ -122,7 +134,6 @@
       "https://www.gov.uk/government/publications/care-act-2014-supporting-implementation",
       "https://www.gov.uk/government/publications/bovine-tb-historical-compensation-value-tables",
       "https://www.gov.uk/government/publications/the-national-archives-framework-document-2026-to-2029",
-      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "https://www.gov.uk/government/publications/october-2026-economic-and-fiscal-outlook",
       "https://www.gov.uk/administrative-appeals-tribunal-decisions/john-robert-james-rawlings-v-secretary-of-state-for-work-and-pensions-ii-2026-ukut-389-aac",
       "https://www.gov.uk/employment-tribunal-decisions/mrs-m-a-hogg-v-outcomes-first-group-ltd-8000201-slash-2025",
@@ -182,7 +193,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -204,13 +215,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -221,18 +232,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "c4971f71d07feddee07ed7a64ba9fee1a585ded9b83e302c5c6102e54efbcb5f",
+    "page_hash": "57b0f54e8600973357927c6fc895e39a5ac7c6114d5483683240cfedb286447a",
     "initialised": true,
-    "last_checked": "2026-11-08T13:40:38.019Z"
+    "last_checked": "2026-11-09T16:38:05.324Z"
   }
 }
