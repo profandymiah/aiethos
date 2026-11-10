@@ -9,14 +9,14 @@ Interim Measures for the Management of Generative Artificial Intelligence Servic
 
  Edit Translations 
  Criminal
+ CPL 2026 Amendment (Draft for Solicitation of Public Comments) 
+ CPL 2026 Amendment (Draft for Solicitation of Public Comments) 
+
  Public Security Administration Punishments Law (2025) 
  Public Security Administration Punishments Law (2025) 
 
  Interpretation of Several Issues Concerning the Application of Law in Handling Criminal Cases of Attacks on Police Officers 
  Interpretation of Several Issues Concerning the Application of Law in Handling Criminal Cases of Attacks on Police Officers 
-
- Joint Discipline Measures for Telecommunications Network Fraud and Related Violations and Crimes 
- Joint Discipline Measures for Telecommunications Network Fraud and Related Violations and Crimes 
 
  Administration
  Regulations on Government Affairs Data Sharing 
@@ -121,7 +121,7 @@ Interim Measures for the Management of Generative Artificial Intelligence Servic
  State Administration of Radio and Television
  Cite this as: APA (7th ed.) MLA (9th ed.) Chicago (Author-Date) IEEE Harvard Vancouver ASA ACS ACM BibTeX Copy Citation 
 
- Translate, China Law. "生成式人工智能服务管理暂行办法." China Law Translate . 2023. Accessed on October 29, 2026 at 05:10. https://www.chinalawtranslate.com/generative-ai-interim/.
+ Translate, China Law. "生成式人工智能服务管理暂行办法." China Law Translate . 2023. Accessed on November 10, 2026 at 17:17. https://www.chinalawtranslate.com/generative-ai-interim/.
 
  Click to rate this post!
 
@@ -130,6 +130,11 @@ Interim Measures for the Management of Generative Artificial Intelligence Servic
  China Law Translate 
 
  CLT is a crowdsourced, crowdfunded legal translation project that enables English speaking people to better understand Chinese law.
+
+ China Law Translate
+
+ 2026/11/04
+ Notes for Anticipated CPL Reforms 
 
  China Law Translate
 
@@ -145,11 +150,6 @@ Interim Measures for the Management of Generative Artificial Intelligence Servic
 
  2026/09/24
  A few notes on the Ethnic Unity Law 
-
- China Law Translate
-
- 2026/09/17
- Breakdown of SPC Opinions on AI Related Disputes 
 
  Related posts:
  Provisions on the Administration of Deep Synthesis Internet Information Services 

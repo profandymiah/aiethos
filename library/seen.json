@@ -45,7 +45,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   },
   "uk-bills": {
     "ids": [
@@ -56,10 +56,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/organisations/companies-house/about/procurement",
+      "https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008",
+      "https://www.gov.uk/government/publications/dvla-privacy-policy",
+      "https://www.gov.uk/government/publications/national-anpr-standards",
+      "https://www.gov.uk/government/publications/rise-west-midlands",
+      "https://www.gov.uk/government/publications/local-authority-audit-summary-reports",
+      "https://www.gov.uk/government/publications/double-taxation-treaty-passport-scheme-register",
+      "https://www.gov.uk/employment-tribunal-decisions/mr-j-cogzell-v-oneill-and-brennan-construction-ltd-1311172-slash-2024",
+      "https://www.gov.uk/employment-tribunal-decisions/a-s-mohanakumary-v-betsi-cadwaladr-university-local-health-board-1601283-slash-2024-and-others",
+      "https://www.gov.uk/government/publications/dwp-procurement-security-policies-and-standards",
       "https://www.gov.uk/government/publications/rough-sleeping-actions-for-the-health-and-care-sector",
       "https://www.gov.uk/government/publications/innovative-licensing-and-access-pathway-ilap",
       "https://www.gov.uk/government/organisations/cabinet-office/about/personal-information-charter",
@@ -128,7 +138,6 @@
       "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
       "https://www.gov.uk/guidance/sparck-masters-scholarship",
       "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
-      "https://www.gov.uk/government/publications/dvla-privacy-policy",
       "https://www.gov.uk/guidance/about-foreign-commonwealth-development-office-travel-advice",
       "https://www.gov.uk/government/publications/enterprise-customer-relationship-management-programme-summary-business-case",
       "https://www.gov.uk/government/publications/care-act-2014-supporting-implementation",
@@ -154,7 +163,6 @@
       "https://www.gov.uk/government/publications/restart-provider-guidance",
       "https://www.gov.uk/government/calls-for-evidence/carers-allowance-call-for-evidence",
       "https://www.gov.uk/government/publications/further-education-initial-teacher-education",
-      "https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008",
       "https://www.gov.uk/employment-tribunal-decisions/x-v-y-2413027-slash-2023",
       "https://www.gov.uk/government/publications/methodology-for-estimating-the-scale-and-cost-of-ip-infringement",
       "https://www.gov.uk/government/case-studies/stakeholder-views-on-tumble-dryer-safety",
@@ -193,7 +201,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -215,13 +223,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -232,18 +240,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   },
   "regulations-ai": {
     "ids": [],
     "page_hash": "57b0f54e8600973357927c6fc895e39a5ac7c6114d5483683240cfedb286447a",
     "initialised": true,
-    "last_checked": "2026-11-09T16:38:05.324Z"
+    "last_checked": "2026-11-10T15:07:05.569Z"
   }
 }
