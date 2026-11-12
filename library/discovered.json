@@ -1,80 +1,88 @@
 {
-  "run_at": "2026-11-10T15:07:05.569Z",
+  "run_at": "2026-11-12T15:29:46.099Z",
   "new_items": [
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/organisations/companies-house/about/procurement",
-      "title": "Procurement at Companies House",
-      "url": "https://www.gov.uk/government/organisations/companies-house/about/procurement",
-      "date": "2026-11-10T14:53:14+00:00"
+      "id": "https://www.gov.uk/guidance/access-dstls-published-research",
+      "title": "Access Dstl's published research",
+      "url": "https://www.gov.uk/guidance/access-dstls-published-research",
+      "date": "2026-11-12T15:27:38+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/national-anpr-standards",
-      "title": "National ANPR standards",
-      "url": "https://www.gov.uk/government/publications/national-anpr-standards",
-      "date": "2026-11-10T14:14:56+00:00"
+      "id": "https://www.gov.uk/guidance/planning-appeals-procedural-guide-for-appeals-relating-to-applications-dated-on-or-after-1-april-2026",
+      "title": "Planning appeals: procedural guide - for appeals relating to applications dated on or after 1 April 2026",
+      "url": "https://www.gov.uk/guidance/planning-appeals-procedural-guide-for-appeals-relating-to-applications-dated-on-or-after-1-april-2026",
+      "date": "2026-11-12T14:50:52+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/rise-west-midlands",
-      "title": "RISE: West Midlands",
-      "url": "https://www.gov.uk/government/publications/rise-west-midlands",
-      "date": "2026-11-10T12:25:18+00:00"
+      "id": "https://www.gov.uk/government/news/foreign-secretary-speech-on-climate-security-at-cop31",
+      "title": "Foreign Secretary speech on climate security at COP31",
+      "url": "https://www.gov.uk/government/news/foreign-secretary-speech-on-climate-security-at-cop31",
+      "date": "2026-11-12T14:12:23+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/local-authority-audit-summary-reports",
-      "title": "Local Authority Audit Summary Reports",
-      "url": "https://www.gov.uk/government/publications/local-authority-audit-summary-reports",
-      "date": "2026-11-10T12:00:00+00:00"
+      "id": "https://www.gov.uk/government/groups/dft-science-advisory-council",
+      "title": "DfT Science Advisory Council",
+      "url": "https://www.gov.uk/government/groups/dft-science-advisory-council",
+      "date": "2026-11-12T14:10:06+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/double-taxation-treaty-passport-scheme-register",
-      "title": "Double Taxation Treaty Passport Scheme register",
-      "url": "https://www.gov.uk/government/publications/double-taxation-treaty-passport-scheme-register",
-      "date": "2026-11-10T11:56:55+00:00"
+      "id": "https://www.gov.uk/government/publications/tenant-fees-act-amended-by-the-renters-rights-act-2025",
+      "title": "Tenant Fees Act amended by the Renters' Rights Act 2025",
+      "url": "https://www.gov.uk/government/publications/tenant-fees-act-amended-by-the-renters-rights-act-2025",
+      "date": "2026-11-12T13:57:34+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/mr-j-cogzell-v-oneill-and-brennan-construction-ltd-1311172-slash-2024",
-      "title": "Mr J Cogzell v Oneill and Brennan Construction Ltd: 1311172/2024",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-cogzell-v-oneill-and-brennan-construction-ltd-1311172-slash-2024",
-      "date": "2026-11-10T10:29:17+00:00"
+      "id": "https://www.gov.uk/employment-tribunal-decisions/ms-sylvester-v-s-phillpson-and-others-2400241-slash-2024",
+      "title": "Ms Sylvester v S Phillpson and Others: 2400241/2024",
+      "url": "https://www.gov.uk/employment-tribunal-decisions/ms-sylvester-v-s-phillpson-and-others-2400241-slash-2024",
+      "date": "2026-11-12T13:10:10+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/a-s-mohanakumary-v-betsi-cadwaladr-university-local-health-board-1601283-slash-2024-and-others",
-      "title": "A S Mohanakumary v Betsi Cadwaladr University Local Health Board: 1601283/2024 and others",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/a-s-mohanakumary-v-betsi-cadwaladr-university-local-health-board-1601283-slash-2024-and-others",
-      "date": "2026-11-10T10:29:16+00:00"
+      "id": "https://www.gov.uk/government/consultations/consultation-on-the-designation-of-radio-selection-services",
+      "title": "Consultation on the designation of Radio Selection Services",
+      "url": "https://www.gov.uk/government/consultations/consultation-on-the-designation-of-radio-selection-services",
+      "date": "2026-11-12T12:15:08+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/dwp-procurement-security-policies-and-standards",
-      "title": "DWP procurement: security policies and standards",
-      "url": "https://www.gov.uk/government/publications/dwp-procurement-security-policies-and-standards",
-      "date": "2026-11-10T10:17:31+00:00"
+      "id": "https://www.gov.uk/government/publications/health-bill-patient-voice-fact-sheet",
+      "title": "Health Bill: patient voice - fact sheet",
+      "url": "https://www.gov.uk/government/publications/health-bill-patient-voice-fact-sheet",
+      "date": "2026-11-12T12:06:53+00:00"
     }
   ],
-  "page_changes": [],
+  "page_changes": [
+    {
+      "source": "regulations-ai",
+      "label": "regulations.ai global tracker (secondary signal)",
+      "jurisdiction": "INT",
+      "url": "https://regulations.ai/",
+      "signal": true
+    }
+  ],
   "errors": [
     {
       "source": "coe-ai-news",

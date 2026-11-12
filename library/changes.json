@@ -1,14 +1,32 @@
 {
-  "run_at": "2026-11-10T14:57:12.256Z",
+  "run_at": "2026-11-12T15:20:02.178Z",
   "changed": [
     {
-      "id": "uk-whitepaper",
-      "title": "A pro-innovation approach to AI regulation (White Paper)",
-      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
-      "jurisdiction": "UK",
+      "id": "coe-treaty-page",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 5355,
-      "chars_after": 5361
+      "chars_before": 5581,
+      "chars_after": 7006
+    },
+    {
+      "id": "un-dialogue-page",
+      "title": "UN Global Dialogue on AI Governance",
+      "url": "https://www.un.org/global-dialogue-ai-governance/en",
+      "jurisdiction": "INT",
+      "priority": "high",
+      "chars_before": 3884,
+      "chars_after": 4043
+    },
+    {
+      "id": "kr-msit",
+      "title": "AI Basic Act comes into force (MSIT announcement)",
+      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
+      "jurisdiction": "KR",
+      "priority": "high",
+      "chars_before": 13417,
+      "chars_after": 13435
     },
     {
       "id": "cn-cac",
@@ -16,8 +34,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5135,
-      "chars_after": 5191
+      "chars_before": 5191,
+      "chars_after": 5311
     },
     {
       "id": "vn-gov",
@@ -25,8 +43,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 28681,
-      "chars_after": 27907
+      "chars_before": 27907,
+      "chars_after": 24804
     },
     {
       "id": "br-pl2338",
@@ -38,13 +56,22 @@
       "chars_after": 230249
     },
     {
-      "id": "cn-genai-measures",
-      "title": "Interim Measures for the Management of Generative AI Services (English translation)",
-      "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
-      "jurisdiction": "CN",
+      "id": "br-camara",
+      "title": "PL 2338/2023 Chamber of Deputies proceeding",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+      "jurisdiction": "BR",
+      "priority": "medium",
+      "chars_before": 224879,
+      "chars_after": 225954
+    },
+    {
+      "id": "us-eo-14179",
+      "title": "Executive Order 14179: Removing Barriers to American Leadership in AI",
+      "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+      "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 18944,
-      "chars_after": 18862
+      "chars_before": 1239,
+      "chars_after": 13783
     },
     {
       "id": "cn-labelling",
@@ -52,8 +79,8 @@
       "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
       "jurisdiction": "CN",
       "priority": "high",
-      "chars_before": 13591,
-      "chars_after": 14351
+      "chars_before": 14351,
+      "chars_after": 13413
     },
     {
       "id": "kr-ai-basic-act",
@@ -61,24 +88,21 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2163,
-      "chars_after": 2178
-    }
-  ],
-  "new": [
-    {
-      "id": "oecd-dd-guidance",
-      "title": "OECD Due Diligence Guidance for Responsible AI",
-      "url": "https://www.oecd.org/en/publications.html"
-    }
-  ],
-  "failed": [
-    {
-      "id": "coe-treaty-page",
-      "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
-      "error": "HTTP 403"
+      "chars_before": 2178,
+      "chars_after": 2161
     },
+    {
+      "id": "paris-statement",
+      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+      "jurisdiction": "INT",
+      "priority": "high",
+      "chars_before": 7591,
+      "chars_after": 7540
+    }
+  ],
+  "new": [],
+  "failed": [
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -140,12 +164,6 @@
       "error": "HTTP 404"
     },
     {
-      "id": "us-tx-traiga",
-      "title": "Texas HB 149 (Responsible AI Governance Act)",
-      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
-      "error": "empty response"
-    },
-    {
       "id": "jp-ai-promotion-act",
       "title": "AI Promotion Act (English translation)",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4551",
@@ -164,9 +182,9 @@
       "error": "empty response"
     },
     {
-      "id": "paris-statement",
-      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
-      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
       "error": "empty response"
     }
   ]

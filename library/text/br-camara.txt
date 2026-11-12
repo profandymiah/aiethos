@@ -85,10 +85,10 @@ Portal da Câmara dos Deputados
  de Tramita&ccedil;&atilde;o 
 
  Forma de Aprecia&ccedil;&atilde;o 
- Proposição Sujeita à Apreciação do Plenário
+ Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II
 
  Regime de Tramita&ccedil;&atilde;o 
- Prioridade (Art. 151, II, RICD)
+ Ordinário (Art. 151, III, RICD)
 
  Despacho atual: 
 
@@ -103,6 +103,18 @@ Portal da Câmara dos Deputados
 
  Data 
  A&ccedil;&atilde;o 
+
+ 12/11/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 4692/2026 à proposição PL 4388/2026. 
+
+ 11/11/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 4388/2026 à proposição PL 728/2026. 
 
  27/10/2026 
 
@@ -276,7 +288,7 @@ Portal da Câmara dos Deputados
 
  Apensados ao 
  PL 2338/2023
- ( 40
+ ( 42
  )
 
  PL 1685/2025 
@@ -578,7 +590,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 4358/2025 
- (7) 
+ (9) 
 
  PL 4358/2025 
 
@@ -601,7 +613,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 728/2026 
- (1) 
+ (3) 
 
  PL 728/2026 
 
@@ -625,6 +637,29 @@ Portal da Câmara dos Deputados
 
  Ementa: 
  Institui a Auditoria Obrigatória de Transparência Algorítmica na Administração Pública Federal, estabelece normas de transparência, auditabilidade e explicabilidade para sistemas automatizados utilizados na tomada de decisões administrativas que afetem direitos dos cidadãos.
+
+ , 
+ PL 4388/2026 
+ (1) 
+
+ PL 4388/2026 
+
+ Autor: 
+ Duda Ramos
+
+ Ementa: 
+ Institui a Política Nacional de Transparência e Governança Algorítmica nos Serviços Públicos e nas Decisões Automatizadas de Alto Impacto e dá outras providências.
+
+ , 
+ PL 4692/2026 
+
+ PL 4692/2026 
+
+ Autor: 
+ Duda Ramos
+
+ Ementa: 
+ Estabelece garantias ao cidadão quanto ao uso de sistemas automatizados pela Administração Pública, assegurando o direito de contestar dados utilizados em decisões automatizadas e vedando bloqueios administrativos automáticos permanentes sem revisão humana.
 
  , 
  PL 904/2026 
@@ -2323,6 +2358,22 @@ Portal da Câmara dos Deputados
  Inteiro teor
 
  Apensação da proposição PL 3560/2026 à proposição PL 728/2026.
+
+ Inteiro teor
+
+ 11/11/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 4388/2026 à proposição PL 728/2026.
+
+ Inteiro teor
+
+ 12/11/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 4692/2026 à proposição PL 4388/2026.
 
  Inteiro teor
 

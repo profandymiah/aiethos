@@ -45,7 +45,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   },
   "uk-bills": {
     "ids": [
@@ -56,10 +56,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/guidance/access-dstls-published-research",
+      "https://www.gov.uk/guidance/planning-appeals-procedural-guide-for-appeals-relating-to-applications-dated-on-or-after-1-april-2026",
+      "https://www.gov.uk/government/news/foreign-secretary-speech-on-climate-security-at-cop31",
+      "https://www.gov.uk/government/groups/dft-science-advisory-council",
+      "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
+      "https://www.gov.uk/government/publications/tenant-fees-act-amended-by-the-renters-rights-act-2025",
+      "https://www.gov.uk/government/publications/named-tax-avoidance-schemes-promoters-enablers-and-suppliers",
+      "https://www.gov.uk/employment-tribunal-decisions/ms-sylvester-v-s-phillpson-and-others-2400241-slash-2024",
+      "https://www.gov.uk/government/consultations/consultation-on-the-designation-of-radio-selection-services",
+      "https://www.gov.uk/government/publications/health-bill-patient-voice-fact-sheet",
       "https://www.gov.uk/government/organisations/companies-house/about/procurement",
       "https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008",
       "https://www.gov.uk/government/publications/dvla-privacy-policy",
@@ -99,7 +109,6 @@
       "https://www.gov.uk/government/consultations/amending-licensing-restrictions-for-18-and-19-year-old-bus-and-coach-drivers",
       "https://www.gov.uk/residential-property-tribunal-decisions/secretary-of-state-for-housing-communities-and-local-government-v-urban-splash-ltd-and-ors-man-slash-00bn-slash-bsb-slash-2024-slash-0001-0007",
       "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026",
-      "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
       "https://www.gov.uk/business-finance-support/pathways-to-funding",
       "https://www.gov.uk/government/publications/quarterly-reports-on-the-pesticide-residues-monitoring-programme-background-and-methodology",
       "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
@@ -195,13 +204,12 @@
       "https://www.gov.uk/government/news/uk-oman-joint-statement-on-omani-state-visit",
       "https://www.gov.uk/government/publications/pathways-to-work-innovation-fund-applicant-bid-pack",
       "https://www.gov.uk/government/organisations/department-for-business-innovation-science-and-trade/about/personal-information-charter",
-      "https://www.gov.uk/government/publications/named-tax-avoidance-schemes-promoters-enablers-and-suppliers",
       "https://www.gov.uk/government/publications/import-trends-monitor",
       "https://www.gov.uk/government/consultations/improving-standards-for-industrial-fans"
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -223,13 +231,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -240,18 +248,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "57b0f54e8600973357927c6fc895e39a5ac7c6114d5483683240cfedb286447a",
+    "page_hash": "389a22a918c5f50cec13730c032c764549302e99a2a13539de565c0ad5e6c40d",
     "initialised": true,
-    "last_checked": "2026-11-10T15:07:05.569Z"
+    "last_checked": "2026-11-12T15:29:46.099Z"
   }
 }
