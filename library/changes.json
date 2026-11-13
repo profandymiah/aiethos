@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-12T15:20:02.178Z",
+  "run_at": "2026-11-13T14:39:03.133Z",
   "changed": [
     {
       "id": "coe-treaty-page",
@@ -7,26 +7,17 @@
       "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
       "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 5581,
-      "chars_after": 7006
+      "chars_before": 7006,
+      "chars_after": 5581
     },
     {
-      "id": "un-dialogue-page",
-      "title": "UN Global Dialogue on AI Governance",
-      "url": "https://www.un.org/global-dialogue-ai-governance/en",
-      "jurisdiction": "INT",
+      "id": "sg-model-framework",
+      "title": "Model AI Governance Framework",
+      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
+      "jurisdiction": "SG",
       "priority": "high",
-      "chars_before": 3884,
-      "chars_after": 4043
-    },
-    {
-      "id": "kr-msit",
-      "title": "AI Basic Act comes into force (MSIT announcement)",
-      "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
-      "jurisdiction": "KR",
-      "priority": "high",
-      "chars_before": 13417,
-      "chars_after": 13435
+      "chars_before": 12973,
+      "chars_after": 13561
     },
     {
       "id": "cn-cac",
@@ -34,8 +25,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5191,
-      "chars_after": 5311
+      "chars_before": 5311,
+      "chars_after": 5380
     },
     {
       "id": "vn-gov",
@@ -43,8 +34,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 27907,
-      "chars_after": 24804
+      "chars_before": 24804,
+      "chars_after": 26288
     },
     {
       "id": "br-pl2338",
@@ -56,13 +47,13 @@
       "chars_after": 230249
     },
     {
-      "id": "br-camara",
-      "title": "PL 2338/2023 Chamber of Deputies proceeding",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
-      "jurisdiction": "BR",
-      "priority": "medium",
-      "chars_before": 224879,
-      "chars_after": 225954
+      "id": "ae-uae-ai",
+      "title": "UAE Government portal: Artificial Intelligence",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
+      "jurisdiction": "AE",
+      "priority": "high",
+      "chars_before": 757,
+      "chars_after": 759
     },
     {
       "id": "us-eo-14179",
@@ -70,17 +61,8 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 1239,
-      "chars_after": 13783
-    },
-    {
-      "id": "cn-labelling",
-      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
-      "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
-      "jurisdiction": "CN",
-      "priority": "high",
-      "chars_before": 14351,
-      "chars_after": 13413
+      "chars_before": 13783,
+      "chars_after": 13782
     },
     {
       "id": "kr-ai-basic-act",
@@ -88,17 +70,17 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2178,
+      "chars_before": 2161,
       "chars_after": 2161
     },
     {
-      "id": "paris-statement",
-      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
-      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
       "jurisdiction": "INT",
-      "priority": "high",
-      "chars_before": 7591,
-      "chars_after": 7540
+      "priority": "medium",
+      "chars_before": 4498,
+      "chars_after": 4452
     }
   ],
   "new": [],
@@ -179,12 +161,6 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
-      "error": "empty response"
-    },
-    {
-      "id": "oecd-dd-guidance",
-      "title": "OECD Due Diligence Guidance for Responsible AI",
-      "url": "https://www.oecd.org/en/publications.html",
       "error": "empty response"
     }
   ]

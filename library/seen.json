@@ -1,6 +1,7 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-23155",
       "2026-22799",
       "2026-22743",
       "2026-22739",
@@ -45,7 +46,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   },
   "uk-bills": {
     "ids": [
@@ -56,10 +57,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2025",
+      "https://www.gov.uk/residential-property-tribunal-decisions/91-west-cliff-road-ramsgate-ct11-9ns-hav-slash-29un-slash-ldc-slash-2025-slash-0783",
+      "https://www.gov.uk/government/publications/national-youth-strategy-upper-tier-local-authority-analysis",
+      "https://www.gov.uk/government/publications/regulator-of-social-housing-annual-report-and-accounts-2025-26",
+      "https://www.gov.uk/government/news/more-than-80000-knives-taken-off-the-streets",
+      "https://www.gov.uk/guidance/bird-flu-avian-influenza-housing-your-birds-safely",
+      "https://www.gov.uk/government/news/joint-declaration-on-a-strategic-partnership-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-the-republic-of-azerbaijan",
+      "https://www.gov.uk/government/news/gads-annual-report-and-accounts-2025-to-2026",
+      "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+      "https://www.gov.uk/government/publications/better-futures-fund-delivery-partner-round-2",
       "https://www.gov.uk/guidance/access-dstls-published-research",
       "https://www.gov.uk/guidance/planning-appeals-procedural-guide-for-appeals-relating-to-applications-dated-on-or-after-1-april-2026",
       "https://www.gov.uk/government/news/foreign-secretary-speech-on-climate-security-at-cop31",
@@ -209,7 +220,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -231,13 +242,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -248,18 +259,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   },
   "regulations-ai": {
     "ids": [],
     "page_hash": "389a22a918c5f50cec13730c032c764549302e99a2a13539de565c0ad5e6c40d",
     "initialised": true,
-    "last_checked": "2026-11-12T15:29:46.099Z"
+    "last_checked": "2026-11-13T14:46:47.082Z"
   }
 }

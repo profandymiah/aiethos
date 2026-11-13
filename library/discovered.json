@@ -1,88 +1,108 @@
 {
-  "run_at": "2026-11-12T15:29:46.099Z",
+  "run_at": "2026-11-13T14:46:47.082Z",
   "new_items": [
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/access-dstls-published-research",
-      "title": "Access Dstl's published research",
-      "url": "https://www.gov.uk/guidance/access-dstls-published-research",
-      "date": "2026-11-12T15:27:38+00:00"
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-23155",
+      "title": "Request for Information",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23155/request-for-information",
+      "date": "2026-11-13",
+      "extra": "Notice"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/planning-appeals-procedural-guide-for-appeals-relating-to-applications-dated-on-or-after-1-april-2026",
-      "title": "Planning appeals: procedural guide - for appeals relating to applications dated on or after 1 April 2026",
-      "url": "https://www.gov.uk/guidance/planning-appeals-procedural-guide-for-appeals-relating-to-applications-dated-on-or-after-1-april-2026",
-      "date": "2026-11-12T14:50:52+00:00"
+      "id": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2025",
+      "title": "Water and sewerage companies in England: environmental performance report 2025",
+      "url": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2025",
+      "date": "2026-11-13T13:44:26+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/foreign-secretary-speech-on-climate-security-at-cop31",
-      "title": "Foreign Secretary speech on climate security at COP31",
-      "url": "https://www.gov.uk/government/news/foreign-secretary-speech-on-climate-security-at-cop31",
-      "date": "2026-11-12T14:12:23+00:00"
+      "id": "https://www.gov.uk/residential-property-tribunal-decisions/91-west-cliff-road-ramsgate-ct11-9ns-hav-slash-29un-slash-ldc-slash-2025-slash-0783",
+      "title": "91 West Cliff Road, Ramsgate, CT11 9NS : HAV/29UN/LDC/2025/0783",
+      "url": "https://www.gov.uk/residential-property-tribunal-decisions/91-west-cliff-road-ramsgate-ct11-9ns-hav-slash-29un-slash-ldc-slash-2025-slash-0783",
+      "date": "2026-11-13T11:58:29+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/groups/dft-science-advisory-council",
-      "title": "DfT Science Advisory Council",
-      "url": "https://www.gov.uk/government/groups/dft-science-advisory-council",
-      "date": "2026-11-12T14:10:06+00:00"
+      "id": "https://www.gov.uk/government/publications/national-youth-strategy-upper-tier-local-authority-analysis",
+      "title": "National Youth Strategy: Upper-Tier Local Authority Analysis",
+      "url": "https://www.gov.uk/government/publications/national-youth-strategy-upper-tier-local-authority-analysis",
+      "date": "2026-11-13T11:37:53+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/tenant-fees-act-amended-by-the-renters-rights-act-2025",
-      "title": "Tenant Fees Act amended by the Renters' Rights Act 2025",
-      "url": "https://www.gov.uk/government/publications/tenant-fees-act-amended-by-the-renters-rights-act-2025",
-      "date": "2026-11-12T13:57:34+00:00"
+      "id": "https://www.gov.uk/government/publications/regulator-of-social-housing-annual-report-and-accounts-2025-26",
+      "title": "Regulator of Social Housing - Annual Report and Accounts 2025-26",
+      "url": "https://www.gov.uk/government/publications/regulator-of-social-housing-annual-report-and-accounts-2025-26",
+      "date": "2026-11-13T09:30:07+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/ms-sylvester-v-s-phillpson-and-others-2400241-slash-2024",
-      "title": "Ms Sylvester v S Phillpson and Others: 2400241/2024",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/ms-sylvester-v-s-phillpson-and-others-2400241-slash-2024",
-      "date": "2026-11-12T13:10:10+00:00"
+      "id": "https://www.gov.uk/government/news/more-than-80000-knives-taken-off-the-streets",
+      "title": "More than 80,000 knives taken off the streets",
+      "url": "https://www.gov.uk/government/news/more-than-80000-knives-taken-off-the-streets",
+      "date": "2026-11-13T00:01:07+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/consultation-on-the-designation-of-radio-selection-services",
-      "title": "Consultation on the designation of Radio Selection Services",
-      "url": "https://www.gov.uk/government/consultations/consultation-on-the-designation-of-radio-selection-services",
-      "date": "2026-11-12T12:15:08+00:00"
+      "id": "https://www.gov.uk/guidance/bird-flu-avian-influenza-housing-your-birds-safely",
+      "title": "Bird flu (avian influenza): housing your birds safely",
+      "url": "https://www.gov.uk/guidance/bird-flu-avian-influenza-housing-your-birds-safely",
+      "date": "2026-11-13T00:01:07+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/health-bill-patient-voice-fact-sheet",
-      "title": "Health Bill: patient voice - fact sheet",
-      "url": "https://www.gov.uk/government/publications/health-bill-patient-voice-fact-sheet",
-      "date": "2026-11-12T12:06:53+00:00"
+      "id": "https://www.gov.uk/government/news/joint-declaration-on-a-strategic-partnership-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-the-republic-of-azerbaijan",
+      "title": "Joint Declaration on a Strategic Partnership between the United Kingdom of Great Britain and Northern Ireland and the Republic of Azerbaijan",
+      "url": "https://www.gov.uk/government/news/joint-declaration-on-a-strategic-partnership-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-the-republic-of-azerbaijan",
+      "date": "2026-11-12T18:00:11+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/gads-annual-report-and-accounts-2025-to-2026",
+      "title": "GAD’s Annual Report and Accounts 2025 to 2026",
+      "url": "https://www.gov.uk/government/news/gads-annual-report-and-accounts-2025-to-2026",
+      "date": "2026-11-12T17:09:57+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+      "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
+      "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+      "date": "2026-11-12T17:07:37+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/better-futures-fund-delivery-partner-round-2",
+      "title": "Better Futures Fund: Delivery Partner Round 2",
+      "url": "https://www.gov.uk/government/publications/better-futures-fund-delivery-partner-round-2",
+      "date": "2026-11-12T17:04:00+00:00"
     }
   ],
-  "page_changes": [
-    {
-      "source": "regulations-ai",
-      "label": "regulations.ai global tracker (secondary signal)",
-      "jurisdiction": "INT",
-      "url": "https://regulations.ai/",
-      "signal": true
-    }
-  ],
+  "page_changes": [],
   "errors": [
     {
       "source": "coe-ai-news",
