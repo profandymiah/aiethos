@@ -85,10 +85,10 @@ Portal da Câmara dos Deputados
  de Tramita&ccedil;&atilde;o 
 
  Forma de Aprecia&ccedil;&atilde;o 
- Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II
+ Proposição Sujeita à Apreciação do Plenário
 
  Regime de Tramita&ccedil;&atilde;o 
- Ordinário (Art. 151, III, RICD)
+ Prioridade (Art. 151, II, RICD)
 
  Despacho atual: 
 
@@ -103,6 +103,12 @@ Portal da Câmara dos Deputados
 
  Data 
  A&ccedil;&atilde;o 
+
+ 13/11/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 4302/2026 à proposição PL 1523/2026. 
 
  12/11/2026 
 
@@ -288,7 +294,7 @@ Portal da Câmara dos Deputados
 
  Apensados ao 
  PL 2338/2023
- ( 42
+ ( 45
  )
 
  PL 1685/2025 
@@ -590,7 +596,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 4358/2025 
- (9) 
+ (12) 
 
  PL 4358/2025 
 
@@ -701,6 +707,7 @@ Portal da Câmara dos Deputados
 
  , 
  PL 1523/2026 
+ (3) 
 
  PL 1523/2026 
 
@@ -709,6 +716,41 @@ Portal da Câmara dos Deputados
 
  Ementa: 
  Estabelece princípios, deveres e medidas de responsabilidade, transparência e equidade para sistemas de inteligência artificial; obriga classificação por risco e institui avaliação prévia pública de impacto de discriminação algorítmica; impõe requisitos de transparência de bases de dados e métricas por subgrupos, governança, diversidade técnica e de decisão, direito de revisão humana e mecanismos de contestação de decisões automatizadas; proíbe uso discriminatório de características protegidas salvo justificativa técnica e autorização regulatória; disciplina auditorias independentes periódicas, registro público de modelos de alto risco e sanções administrativas por descumprimento; e dá outras providências.
+
+ , 
+ PL 4302/2026 
+ (2) 
+
+ PL 4302/2026 
+
+ Autor: 
+ Amom Mandel
+
+ Ementa: 
+ Institui a Lei Nacional de Transparência, Governança Algorítmica, Prevenção à Discriminação e Proteção de Direitos em Sistemas Automatizados de Decisão, altera a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais), e dá outras providências.
+
+ , 
+ PL 4701/2026 
+ (1) 
+
+ PL 4701/2026 
+
+ Autor: 
+ Duda Ramos
+
+ Ementa: 
+ Assegura ao cidadão o direito à revisão humana e à explicação mínima de decisões administrativas tomadas por sistemas automatizados ou protocolos padronizados.
+
+ , 
+ PL 4734/2026 
+
+ PL 4734/2026 
+
+ Autor: 
+ Marreca Filho
+
+ Ementa: 
+ Assegura o direito à revisão humana, ao atendimento acessível e à explicação em linguagem simples nas decisões administrativas automatizadas que afetem pessoas em situação de vulnerabilidade.
 
  , 
  PL 6237/2025 
@@ -2374,6 +2416,14 @@ Portal da Câmara dos Deputados
  Mesa Diretora ( MESA )
 
  Apensação da proposição PL 4692/2026 à proposição PL 4388/2026.
+
+ Inteiro teor
+
+ 13/11/2026 
+
+ Mesa Diretora ( MESA )
+
+ Apensação da proposição PL 4302/2026 à proposição PL 1523/2026.
 
  Inteiro teor
 

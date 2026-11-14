@@ -1,105 +1,32 @@
 {
-  "run_at": "2026-11-13T14:46:47.082Z",
+  "run_at": "2026-11-14T13:47:05.439Z",
   "new_items": [
     {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-23155",
-      "title": "Request for Information",
-      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23155/request-for-information",
-      "date": "2026-11-13",
-      "extra": "Notice"
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/residential-property-tribunal-decisions/15-southvale-road-london-se3-0tp-lon-slash-00az-slash-mra-slash-2026-slash-0240",
+      "title": "15 Southvale Road, London, SE3 0TP: LON/00AZ/MRA/2026/0240",
+      "url": "https://www.gov.uk/residential-property-tribunal-decisions/15-southvale-road-london-se3-0tp-lon-slash-00az-slash-mra-slash-2026-slash-0240",
+      "date": "2026-11-13T16:41:19+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2025",
-      "title": "Water and sewerage companies in England: environmental performance report 2025",
-      "url": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2025",
-      "date": "2026-11-13T13:44:26+00:00"
+      "id": "https://www.gov.uk/government/publications/frauds-tricks-and-scams",
+      "title": "Fraud, tricks and scams",
+      "url": "https://www.gov.uk/government/publications/frauds-tricks-and-scams",
+      "date": "2026-11-13T15:00:29+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/residential-property-tribunal-decisions/91-west-cliff-road-ramsgate-ct11-9ns-hav-slash-29un-slash-ldc-slash-2025-slash-0783",
-      "title": "91 West Cliff Road, Ramsgate, CT11 9NS : HAV/29UN/LDC/2025/0783",
-      "url": "https://www.gov.uk/residential-property-tribunal-decisions/91-west-cliff-road-ramsgate-ct11-9ns-hav-slash-29un-slash-ldc-slash-2025-slash-0783",
-      "date": "2026-11-13T11:58:29+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/national-youth-strategy-upper-tier-local-authority-analysis",
-      "title": "National Youth Strategy: Upper-Tier Local Authority Analysis",
-      "url": "https://www.gov.uk/government/publications/national-youth-strategy-upper-tier-local-authority-analysis",
-      "date": "2026-11-13T11:37:53+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/regulator-of-social-housing-annual-report-and-accounts-2025-26",
-      "title": "Regulator of Social Housing - Annual Report and Accounts 2025-26",
-      "url": "https://www.gov.uk/government/publications/regulator-of-social-housing-annual-report-and-accounts-2025-26",
-      "date": "2026-11-13T09:30:07+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/more-than-80000-knives-taken-off-the-streets",
-      "title": "More than 80,000 knives taken off the streets",
-      "url": "https://www.gov.uk/government/news/more-than-80000-knives-taken-off-the-streets",
-      "date": "2026-11-13T00:01:07+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/bird-flu-avian-influenza-housing-your-birds-safely",
-      "title": "Bird flu (avian influenza): housing your birds safely",
-      "url": "https://www.gov.uk/guidance/bird-flu-avian-influenza-housing-your-birds-safely",
-      "date": "2026-11-13T00:01:07+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/joint-declaration-on-a-strategic-partnership-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-the-republic-of-azerbaijan",
-      "title": "Joint Declaration on a Strategic Partnership between the United Kingdom of Great Britain and Northern Ireland and the Republic of Azerbaijan",
-      "url": "https://www.gov.uk/government/news/joint-declaration-on-a-strategic-partnership-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-the-republic-of-azerbaijan",
-      "date": "2026-11-12T18:00:11+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/gads-annual-report-and-accounts-2025-to-2026",
-      "title": "GAD’s Annual Report and Accounts 2025 to 2026",
-      "url": "https://www.gov.uk/government/news/gads-annual-report-and-accounts-2025-to-2026",
-      "date": "2026-11-12T17:09:57+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
-      "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
-      "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
-      "date": "2026-11-12T17:07:37+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/better-futures-fund-delivery-partner-round-2",
-      "title": "Better Futures Fund: Delivery Partner Round 2",
-      "url": "https://www.gov.uk/government/publications/better-futures-fund-delivery-partner-round-2",
-      "date": "2026-11-12T17:04:00+00:00"
+      "id": "https://www.gov.uk/service-manual/communities/generative-ai-security-community",
+      "title": "Generative artificial intelligence (AI) security community",
+      "url": "https://www.gov.uk/service-manual/communities/generative-ai-security-community",
+      "date": "2026-11-13T14:59:25+00:00"
     }
   ],
   "page_changes": [],

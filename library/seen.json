@@ -46,7 +46,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   },
   "uk-bills": {
     "ids": [
@@ -57,10 +57,16 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/residential-property-tribunal-decisions/15-southvale-road-london-se3-0tp-lon-slash-00az-slash-mra-slash-2026-slash-0240",
+      "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
+      "https://www.gov.uk/government/publications/frauds-tricks-and-scams",
+      "https://www.gov.uk/service-manual/communities/generative-ai-security-community",
+      "https://www.gov.uk/government/publications/electro-optic-sensing-technologies",
+      "https://www.gov.uk/government/publications/seasonal-workers-pilot-review",
       "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2025",
       "https://www.gov.uk/residential-property-tribunal-decisions/91-west-cliff-road-ramsgate-ct11-9ns-hav-slash-29un-slash-ldc-slash-2025-slash-0783",
       "https://www.gov.uk/government/publications/national-youth-strategy-upper-tier-local-authority-analysis",
@@ -98,7 +104,6 @@
       "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "https://www.gov.uk/administrative-appeals-tribunal-decisions/z-and-z-v-norfolk-county-council-sen-2026-ukut-401-aac",
       "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-      "https://www.gov.uk/government/publications/electro-optic-sensing-technologies",
       "https://www.gov.uk/government/organisations/intellectual-property-office/about/complaints-procedure",
       "https://www.gov.uk/residential-property-tribunal-decisions/10-waldegrave-court-upminster-rm14-1uu-lon-slash-00ar-slash-mra-slash-2026-slash-0267",
       "https://www.gov.uk/residential-property-tribunal-decisions/14-moody-road-london-se15-5jb-lon-slash-00be-slash-hin-slash-2025-slash-0630",
@@ -150,7 +155,6 @@
       "https://www.gov.uk/government/consultations/earned-settlement",
       "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
       "https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment",
-      "https://www.gov.uk/government/publications/seasonal-workers-pilot-review",
       "https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots",
       "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245",
       "https://www.gov.uk/government/publications/intellectual-property-office-structure-chart",
@@ -172,7 +176,6 @@
       "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
       "https://www.gov.uk/government/organisations/intertrade-uk/about",
       "https://www.gov.uk/employment-tribunal-decisions/dr-a-miller-v-dr-h-kingston-and-others-6020095-slash-2024",
-      "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
       "https://www.gov.uk/government/publications/combined-discrimination-research-into-prevalence-and-experiences",
       "https://www.gov.uk/government/calls-for-evidence/equality-law-call-for-evidence",
       "https://www.gov.uk/government/publications/emerging-technologies-for-offender-rehabilitation",
@@ -220,7 +223,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -242,13 +245,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -259,18 +262,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   },
   "regulations-ai": {
     "ids": [],
     "page_hash": "389a22a918c5f50cec13730c032c764549302e99a2a13539de565c0ad5e6c40d",
     "initialised": true,
-    "last_checked": "2026-11-13T14:46:47.082Z"
+    "last_checked": "2026-11-14T13:47:05.439Z"
   }
 }

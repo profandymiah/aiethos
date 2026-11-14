@@ -1,14 +1,32 @@
 {
-  "run_at": "2026-11-13T14:39:03.133Z",
+  "run_at": "2026-11-14T13:35:41.940Z",
   "changed": [
     {
-      "id": "coe-treaty-page",
-      "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "id": "un-dialogue-page",
+      "title": "UN Global Dialogue on AI Governance",
+      "url": "https://www.un.org/global-dialogue-ai-governance/en",
       "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 7006,
-      "chars_after": 5581
+      "chars_before": 4043,
+      "chars_after": 4043
+    },
+    {
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 699833,
+      "chars_after": 1576
+    },
+    {
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "jurisdiction": "EU",
+      "priority": "medium",
+      "chars_before": 454699,
+      "chars_after": 1576
     },
     {
       "id": "sg-model-framework",
@@ -16,17 +34,8 @@
       "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
       "jurisdiction": "SG",
       "priority": "high",
-      "chars_before": 12973,
-      "chars_after": 13561
-    },
-    {
-      "id": "cn-cac",
-      "title": "Cyberspace Administration of China (English site)",
-      "url": "https://www.cac.gov.cn/",
-      "jurisdiction": "CN",
-      "priority": "medium",
-      "chars_before": 5311,
-      "chars_after": 5380
+      "chars_before": 13561,
+      "chars_after": 12973
     },
     {
       "id": "vn-gov",
@@ -34,8 +43,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 24804,
-      "chars_after": 26288
+      "chars_before": 26288,
+      "chars_after": 26641
     },
     {
       "id": "br-pl2338",
@@ -47,13 +56,31 @@
       "chars_after": 230249
     },
     {
+      "id": "br-camara",
+      "title": "PL 2338/2023 Chamber of Deputies proceeding",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+      "jurisdiction": "BR",
+      "priority": "medium",
+      "chars_before": 225954,
+      "chars_after": 227037
+    },
+    {
       "id": "ae-uae-ai",
       "title": "UAE Government portal: Artificial Intelligence",
       "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
       "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 757,
-      "chars_after": 759
+      "chars_before": 759,
+      "chars_after": 757
+    },
+    {
+      "id": "eu-ai-act-eli",
+      "title": "Regulation (EU) 2024/1689 via ELI link",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 592992,
+      "chars_after": 1576
     },
     {
       "id": "us-eo-14179",
@@ -61,8 +88,17 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 13783,
+      "chars_before": 13782,
       "chars_after": 13782
+    },
+    {
+      "id": "us-ca-ccpa-adm",
+      "title": "California CPPA automated decision-making technology regulations",
+      "url": "https://cppa.ca.gov/regulations/",
+      "jurisdiction": "US",
+      "priority": "high",
+      "chars_before": 2952,
+      "chars_after": 2951
     },
     {
       "id": "kr-ai-basic-act",
@@ -74,17 +110,23 @@
       "chars_after": 2161
     },
     {
-      "id": "oecd-dd-guidance",
-      "title": "OECD Due Diligence Guidance for Responsible AI",
-      "url": "https://www.oecd.org/en/publications.html",
+      "id": "paris-statement",
+      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
       "jurisdiction": "INT",
-      "priority": "medium",
-      "chars_before": 4498,
-      "chars_after": 4452
+      "priority": "high",
+      "chars_before": 7540,
+      "chars_after": 7501
     }
   ],
   "new": [],
   "failed": [
+    {
+      "id": "coe-treaty-page",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "error": "HTTP 403"
+    },
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -104,16 +146,10 @@
       "error": "HTTP 403"
     },
     {
-      "id": "eu-ai-act",
-      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
-      "error": "empty response"
-    },
-    {
-      "id": "eu-eed",
-      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
-      "error": "empty response"
+      "id": "us-ca-sb53",
+      "title": "California SB 53 (Transparency in Frontier AI Act)",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "error": "HTTP 403"
     },
     {
       "id": "au-industry-ai",
@@ -146,6 +182,12 @@
       "error": "HTTP 404"
     },
     {
+      "id": "us-ny-raise",
+      "title": "New York RAISE Act (frontier AI safety)",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
+      "error": "empty response"
+    },
+    {
       "id": "jp-ai-promotion-act",
       "title": "AI Promotion Act (English translation)",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4551",
@@ -161,6 +203,12 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
+      "error": "empty response"
+    },
+    {
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
       "error": "empty response"
     }
   ]
