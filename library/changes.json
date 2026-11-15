@@ -1,23 +1,14 @@
 {
-  "run_at": "2026-11-14T13:35:41.940Z",
+  "run_at": "2026-11-15T13:58:48.715Z",
   "changed": [
-    {
-      "id": "un-dialogue-page",
-      "title": "UN Global Dialogue on AI Governance",
-      "url": "https://www.un.org/global-dialogue-ai-governance/en",
-      "jurisdiction": "INT",
-      "priority": "high",
-      "chars_before": 4043,
-      "chars_after": 4043
-    },
     {
       "id": "eu-ai-act",
       "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 699833,
-      "chars_after": 1576
+      "chars_before": 1576,
+      "chars_after": 1561
     },
     {
       "id": "eu-eed",
@@ -25,17 +16,17 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
       "jurisdiction": "EU",
       "priority": "medium",
-      "chars_before": 454699,
-      "chars_after": 1576
+      "chars_before": 1576,
+      "chars_after": 1561
     },
     {
-      "id": "sg-model-framework",
-      "title": "Model AI Governance Framework",
-      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
-      "jurisdiction": "SG",
-      "priority": "high",
-      "chars_before": 13561,
-      "chars_after": 12973
+      "id": "cn-cac",
+      "title": "Cyberspace Administration of China (English site)",
+      "url": "https://www.cac.gov.cn/",
+      "jurisdiction": "CN",
+      "priority": "medium",
+      "chars_before": 5380,
+      "chars_after": 5408
     },
     {
       "id": "vn-gov",
@@ -43,8 +34,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26288,
-      "chars_after": 26641
+      "chars_before": 26641,
+      "chars_after": 27297
     },
     {
       "id": "br-pl2338",
@@ -56,31 +47,13 @@
       "chars_after": 230249
     },
     {
-      "id": "br-camara",
-      "title": "PL 2338/2023 Chamber of Deputies proceeding",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
-      "jurisdiction": "BR",
-      "priority": "medium",
-      "chars_before": 225954,
-      "chars_after": 227037
-    },
-    {
-      "id": "ae-uae-ai",
-      "title": "UAE Government portal: Artificial Intelligence",
-      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
-      "jurisdiction": "AE",
-      "priority": "high",
-      "chars_before": 759,
-      "chars_after": 757
-    },
-    {
       "id": "eu-ai-act-eli",
       "title": "Regulation (EU) 2024/1689 via ELI link",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 592992,
-      "chars_after": 1576
+      "chars_before": 1576,
+      "chars_after": 1561
     },
     {
       "id": "us-eo-14179",
@@ -92,22 +65,13 @@
       "chars_after": 13782
     },
     {
-      "id": "us-ca-ccpa-adm",
-      "title": "California CPPA automated decision-making technology regulations",
-      "url": "https://cppa.ca.gov/regulations/",
-      "jurisdiction": "US",
-      "priority": "high",
-      "chars_before": 2952,
-      "chars_after": 2951
-    },
-    {
       "id": "kr-ai-basic-act",
       "title": "AI Basic Act (English translation)",
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
       "chars_before": 2161,
-      "chars_after": 2161
+      "chars_after": 2166
     },
     {
       "id": "paris-statement",
@@ -115,8 +79,8 @@
       "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
       "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 7540,
-      "chars_after": 7501
+      "chars_before": 7501,
+      "chars_after": 7543
     }
   ],
   "new": [],
@@ -143,12 +107,6 @@
       "id": "iea-energy-ai",
       "title": "Energy and AI (IEA report on data centre electricity demand)",
       "url": "https://www.iea.org/reports/energy-and-ai",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "us-ca-sb53",
-      "title": "California SB 53 (Transparency in Frontier AI Act)",
-      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
       "error": "HTTP 403"
     },
     {
