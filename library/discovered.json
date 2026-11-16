@@ -1,7 +1,106 @@
 {
-  "run_at": "2026-11-15T14:09:10.296Z",
-  "new_items": [],
-  "page_changes": [],
+  "run_at": "2026-11-16T16:00:42.625Z",
+  "new_items": [
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/residential-property-tribunal-decisions/20-babington-close-milton-keynes-mk10-9he-cam-slash-00mg-slash-mra-slash-2026-slash-0094",
+      "title": "20 Babington Close, Milton Keynes, MK10 9HE: CAM/00MG/MRA/2026/0094",
+      "url": "https://www.gov.uk/residential-property-tribunal-decisions/20-babington-close-milton-keynes-mk10-9he-cam-slash-00mg-slash-mra-slash-2026-slash-0094",
+      "date": "2026-11-16T15:42:07+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
+      "title": "King opens new National Cyber Force HQ boosting North West growth",
+      "url": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
+      "date": "2026-11-16T15:33:56+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/dvsa-business-plan-2026-to-2027",
+      "title": "DVSA business plan, 2026 to 2027",
+      "url": "https://www.gov.uk/government/publications/dvsa-business-plan-2026-to-2027",
+      "date": "2026-11-16T13:44:17+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/strategic-public-engagement-group-meeting-june-2026",
+      "title": "Strategic Public Engagement Group Meeting – June 2026",
+      "url": "https://www.gov.uk/government/publications/strategic-public-engagement-group-meeting-june-2026",
+      "date": "2026-11-16T13:41:42+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/updates-to-the-illegal-content-and-protection-of-children-codes-of-practice",
+      "title": "Updates to the Illegal Content and Protection of Children Codes of Practice",
+      "url": "https://www.gov.uk/government/publications/updates-to-the-illegal-content-and-protection-of-children-codes-of-practice",
+      "date": "2026-11-16T12:55:00+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/employment-tribunal-decisions/mr-s-t-h-shah-v-manchester-airport-plc-2400509-slash-2024",
+      "title": "Mr S T H Shah v Manchester Airport plc: 2400509/2024",
+      "url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-t-h-shah-v-manchester-airport-plc-2400509-slash-2024",
+      "date": "2026-11-16T12:30:50+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/guidance/mot-testing-guide/d-requirements-for-authorisation",
+      "title": "D. Requirements for authorisation",
+      "url": "https://www.gov.uk/guidance/mot-testing-guide/d-requirements-for-authorisation",
+      "date": "2026-11-16T12:29:29+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/mhra-strategy-2030",
+      "title": "MHRA Strategy 2030",
+      "url": "https://www.gov.uk/government/publications/mhra-strategy-2030",
+      "date": "2026-11-16T12:19:09+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/international-development-funding/humanitarian-diplomacy-data-and-deployment-hd3-programme",
+      "title": "Humanitarian Diplomacy, Data and Deployment (HD3) Programme",
+      "url": "https://www.gov.uk/international-development-funding/humanitarian-diplomacy-data-and-deployment-hd3-programme",
+      "date": "2026-11-16T11:43:25+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/consultations/uk-maritime-fuel-regulation-reducing-shipping-sector-emissions",
+      "title": "UK maritime fuel regulation: reducing shipping sector emissions",
+      "url": "https://www.gov.uk/government/consultations/uk-maritime-fuel-regulation-reducing-shipping-sector-emissions",
+      "date": "2026-11-16T10:50:02+00:00"
+    }
+  ],
+  "page_changes": [
+    {
+      "source": "regulations-ai",
+      "label": "regulations.ai global tracker (secondary signal)",
+      "jurisdiction": "INT",
+      "url": "https://regulations.ai/",
+      "signal": true
+    }
+  ],
   "errors": [
     {
       "source": "coe-ai-news",

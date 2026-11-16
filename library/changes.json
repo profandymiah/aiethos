@@ -1,23 +1,14 @@
 {
-  "run_at": "2026-11-15T13:58:48.715Z",
+  "run_at": "2026-11-16T15:52:07.824Z",
   "changed": [
     {
-      "id": "eu-ai-act",
-      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "id": "eu-ai-act-consolidated",
+      "title": "AI Act: Commission regulatory framework page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 1576,
-      "chars_after": 1561
-    },
-    {
-      "id": "eu-eed",
-      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
-      "jurisdiction": "EU",
-      "priority": "medium",
-      "chars_before": 1576,
-      "chars_after": 1561
+      "chars_before": 17737,
+      "chars_after": 17717
     },
     {
       "id": "cn-cac",
@@ -25,8 +16,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5380,
-      "chars_after": 5408
+      "chars_before": 5408,
+      "chars_after": 5302
     },
     {
       "id": "vn-gov",
@@ -34,8 +25,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26641,
-      "chars_after": 27297
+      "chars_before": 27297,
+      "chars_after": 25045
     },
     {
       "id": "br-pl2338",
@@ -52,8 +43,17 @@
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 1576,
-      "chars_after": 1561
+      "chars_before": 1561,
+      "chars_after": 592992
+    },
+    {
+      "id": "eu-ai-office",
+      "title": "European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 9860,
+      "chars_after": 9852
     },
     {
       "id": "us-eo-14179",
@@ -62,7 +62,7 @@
       "jurisdiction": "US",
       "priority": "high",
       "chars_before": 13782,
-      "chars_after": 13782
+      "chars_after": 13783
     },
     {
       "id": "kr-ai-basic-act",
@@ -70,27 +70,21 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2161,
-      "chars_after": 2166
+      "chars_before": 2166,
+      "chars_after": 2183
     },
     {
-      "id": "paris-statement",
-      "title": "Statement on Inclusive and Sustainable AI (Paris AI Action Summit)",
-      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
       "jurisdiction": "INT",
-      "priority": "high",
-      "chars_before": 7501,
-      "chars_after": 7543
+      "priority": "medium",
+      "chars_before": 4452,
+      "chars_after": 4310
     }
   ],
   "new": [],
   "failed": [
-    {
-      "id": "coe-treaty-page",
-      "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
-      "error": "HTTP 403"
-    },
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -107,6 +101,24 @@
       "id": "iea-energy-ai",
       "title": "Energy and AI (IEA report on data centre electricity demand)",
       "url": "https://www.iea.org/reports/energy-and-ai",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "error": "empty response"
+    },
+    {
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "error": "empty response"
+    },
+    {
+      "id": "us-ca-sb53",
+      "title": "California SB 53 (Transparency in Frontier AI Act)",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
       "error": "HTTP 403"
     },
     {
@@ -140,12 +152,6 @@
       "error": "HTTP 404"
     },
     {
-      "id": "us-ny-raise",
-      "title": "New York RAISE Act (frontier AI safety)",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
-      "error": "empty response"
-    },
-    {
       "id": "jp-ai-promotion-act",
       "title": "AI Promotion Act (English translation)",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4551",
@@ -161,12 +167,6 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
-      "error": "empty response"
-    },
-    {
-      "id": "oecd-dd-guidance",
-      "title": "OECD Due Diligence Guidance for Responsible AI",
-      "url": "https://www.oecd.org/en/publications.html",
       "error": "empty response"
     }
   ]

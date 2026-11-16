@@ -46,7 +46,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   },
   "uk-bills": {
     "ids": [
@@ -57,10 +57,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/residential-property-tribunal-decisions/20-babington-close-milton-keynes-mk10-9he-cam-slash-00mg-slash-mra-slash-2026-slash-0094",
+      "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
+      "https://www.gov.uk/government/publications/dvsa-business-plan-2026-to-2027",
+      "https://www.gov.uk/government/publications/strategic-public-engagement-group-meeting-june-2026",
+      "https://www.gov.uk/government/publications/updates-to-the-illegal-content-and-protection-of-children-codes-of-practice",
+      "https://www.gov.uk/employment-tribunal-decisions/mr-s-t-h-shah-v-manchester-airport-plc-2400509-slash-2024",
+      "https://www.gov.uk/guidance/mot-testing-guide/d-requirements-for-authorisation",
+      "https://www.gov.uk/government/publications/mhra-strategy-2030",
+      "https://www.gov.uk/international-development-funding/humanitarian-diplomacy-data-and-deployment-hd3-programme",
+      "https://www.gov.uk/government/consultations/uk-maritime-fuel-regulation-reducing-shipping-sector-emissions",
       "https://www.gov.uk/residential-property-tribunal-decisions/15-southvale-road-london-se3-0tp-lon-slash-00az-slash-mra-slash-2026-slash-0240",
       "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
       "https://www.gov.uk/government/publications/frauds-tricks-and-scams",
@@ -223,7 +233,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -245,13 +255,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -262,18 +272,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "389a22a918c5f50cec13730c032c764549302e99a2a13539de565c0ad5e6c40d",
+    "page_hash": "5b6852e007204112fe3038b7683e1a5345fe4814de59866a8aa1da80f480e41d",
     "initialised": true,
-    "last_checked": "2026-11-15T14:09:10.296Z"
+    "last_checked": "2026-11-16T16:00:42.625Z"
   }
 }
