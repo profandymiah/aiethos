@@ -1,6 +1,7 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-23370",
       "2026-23155",
       "2026-22799",
       "2026-22743",
@@ -46,7 +47,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   },
   "uk-bills": {
     "ids": [
@@ -57,10 +58,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
+      "https://www.gov.uk/government/publications/live-facial-recognition-equality-impact-assessment-eia",
+      "https://www.gov.uk/government/publications/survey-of-seasonal-workers-scheme-privacy-notice",
+      "https://www.gov.uk/government/publications/immigration-enforcement-live-facial-recognition-legal-mandate",
+      "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
+      "https://www.gov.uk/government/publications/homelessness-applying-all-our-health",
+      "https://www.gov.uk/government/publications/what-works-in-supporting-people-to-retrain-at-the-local-level",
+      "https://www.gov.uk/government/news/35th-mod-sanctuary-awards-showcase-sustainability-in-defence",
+      "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/fire-stations",
+      "https://www.gov.uk/government/news/bridge-scanners-and-wearable-safety-alerts-among-23-rail-innovations-backed-with-48-million",
       "https://www.gov.uk/residential-property-tribunal-decisions/20-babington-close-milton-keynes-mk10-9he-cam-slash-00mg-slash-mra-slash-2026-slash-0094",
       "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
       "https://www.gov.uk/government/publications/dvsa-business-plan-2026-to-2027",
@@ -72,7 +83,6 @@
       "https://www.gov.uk/international-development-funding/humanitarian-diplomacy-data-and-deployment-hd3-programme",
       "https://www.gov.uk/government/consultations/uk-maritime-fuel-regulation-reducing-shipping-sector-emissions",
       "https://www.gov.uk/residential-property-tribunal-decisions/15-southvale-road-london-se3-0tp-lon-slash-00az-slash-mra-slash-2026-slash-0240",
-      "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
       "https://www.gov.uk/government/publications/frauds-tricks-and-scams",
       "https://www.gov.uk/service-manual/communities/generative-ai-security-community",
       "https://www.gov.uk/government/publications/electro-optic-sensing-technologies",
@@ -233,10 +243,12 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   },
   "ec-ai-news": {
     "ids": [
+      "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+      "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
       "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
       "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
       "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
@@ -255,13 +267,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -272,18 +284,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "5b6852e007204112fe3038b7683e1a5345fe4814de59866a8aa1da80f480e41d",
+    "page_hash": "1fc94d7cc5f4398a14f0d1487cfb993d8681795e3565ed90982ea970e87c7328",
     "initialised": true,
-    "last_checked": "2026-11-16T16:00:42.625Z"
+    "last_checked": "2026-11-17T16:16:45.683Z"
   }
 }

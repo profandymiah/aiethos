@@ -1,23 +1,14 @@
 {
-  "run_at": "2026-11-16T15:52:07.824Z",
+  "run_at": "2026-11-17T16:04:51.139Z",
   "changed": [
-    {
-      "id": "eu-ai-act-consolidated",
-      "title": "AI Act: Commission regulatory framework page",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 17737,
-      "chars_after": 17717
-    },
     {
       "id": "cn-cac",
       "title": "Cyberspace Administration of China (English site)",
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5408,
-      "chars_after": 5302
+      "chars_before": 5302,
+      "chars_after": 2959
     },
     {
       "id": "vn-gov",
@@ -25,8 +16,17 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 27297,
-      "chars_after": 25045
+      "chars_before": 25045,
+      "chars_after": 26235
+    },
+    {
+      "id": "ca-legisinfo",
+      "title": "LEGISinfo: Parliament of Canada bills",
+      "url": "https://www.parl.ca/legisinfo/en/bills",
+      "jurisdiction": "CA",
+      "priority": "medium",
+      "chars_before": 54599,
+      "chars_after": 54659
     },
     {
       "id": "br-pl2338",
@@ -35,25 +35,7 @@
       "jurisdiction": "BR",
       "priority": "high",
       "chars_before": 230249,
-      "chars_after": 230249
-    },
-    {
-      "id": "eu-ai-act-eli",
-      "title": "Regulation (EU) 2024/1689 via ELI link",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 1561,
-      "chars_after": 592992
-    },
-    {
-      "id": "eu-ai-office",
-      "title": "European AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 9860,
-      "chars_after": 9852
+      "chars_after": 230248
     },
     {
       "id": "us-eo-14179",
@@ -61,7 +43,7 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 13782,
+      "chars_before": 13783,
       "chars_after": 13783
     },
     {
@@ -70,21 +52,18 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2166,
-      "chars_after": 2183
-    },
-    {
-      "id": "oecd-dd-guidance",
-      "title": "OECD Due Diligence Guidance for Responsible AI",
-      "url": "https://www.oecd.org/en/publications.html",
-      "jurisdiction": "INT",
-      "priority": "medium",
-      "chars_before": 4452,
-      "chars_after": 4310
+      "chars_before": 2183,
+      "chars_after": 2182
     }
   ],
   "new": [],
   "failed": [
+    {
+      "id": "coe-treaty-page",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "error": "HTTP 403"
+    },
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -152,6 +131,12 @@
       "error": "HTTP 404"
     },
     {
+      "id": "us-ny-raise",
+      "title": "New York RAISE Act (frontier AI safety)",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
+      "error": "empty response"
+    },
+    {
       "id": "jp-ai-promotion-act",
       "title": "AI Promotion Act (English translation)",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4551",
@@ -167,6 +152,18 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
+      "error": "empty response"
+    },
+    {
+      "id": "g7-hiroshima",
+      "title": "Hiroshima Process International Code of Conduct for Advanced AI Systems",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems",
+      "error": "empty response"
+    },
+    {
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
       "error": "empty response"
     }
   ]

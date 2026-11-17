@@ -1,95 +1,114 @@
 {
-  "run_at": "2026-11-16T16:00:42.625Z",
+  "run_at": "2026-11-17T16:16:45.683Z",
   "new_items": [
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/residential-property-tribunal-decisions/20-babington-close-milton-keynes-mk10-9he-cam-slash-00mg-slash-mra-slash-2026-slash-0094",
-      "title": "20 Babington Close, Milton Keynes, MK10 9HE: CAM/00MG/MRA/2026/0094",
-      "url": "https://www.gov.uk/residential-property-tribunal-decisions/20-babington-close-milton-keynes-mk10-9he-cam-slash-00mg-slash-mra-slash-2026-slash-0094",
-      "date": "2026-11-16T15:42:07+00:00"
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-23370",
+      "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
+      "date": "2026-11-17",
+      "extra": "Proposed Rule"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
-      "title": "King opens new National Cyber Force HQ boosting North West growth",
-      "url": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
-      "date": "2026-11-16T15:33:56+00:00"
+      "id": "https://www.gov.uk/government/publications/live-facial-recognition-equality-impact-assessment-eia",
+      "title": "Live facial recognition: equality impact assessment (EIA)",
+      "url": "https://www.gov.uk/government/publications/live-facial-recognition-equality-impact-assessment-eia",
+      "date": "2026-11-17T16:03:46+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/dvsa-business-plan-2026-to-2027",
-      "title": "DVSA business plan, 2026 to 2027",
-      "url": "https://www.gov.uk/government/publications/dvsa-business-plan-2026-to-2027",
-      "date": "2026-11-16T13:44:17+00:00"
+      "id": "https://www.gov.uk/government/publications/survey-of-seasonal-workers-scheme-privacy-notice",
+      "title": "Survey of seasonal workers scheme privacy notice",
+      "url": "https://www.gov.uk/government/publications/survey-of-seasonal-workers-scheme-privacy-notice",
+      "date": "2026-11-17T15:53:37+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/strategic-public-engagement-group-meeting-june-2026",
-      "title": "Strategic Public Engagement Group Meeting – June 2026",
-      "url": "https://www.gov.uk/government/publications/strategic-public-engagement-group-meeting-june-2026",
-      "date": "2026-11-16T13:41:42+00:00"
+      "id": "https://www.gov.uk/government/publications/immigration-enforcement-live-facial-recognition-legal-mandate",
+      "title": "Immigration Enforcement: live facial recognition legal mandate",
+      "url": "https://www.gov.uk/government/publications/immigration-enforcement-live-facial-recognition-legal-mandate",
+      "date": "2026-11-17T15:52:12+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/updates-to-the-illegal-content-and-protection-of-children-codes-of-practice",
-      "title": "Updates to the Illegal Content and Protection of Children Codes of Practice",
-      "url": "https://www.gov.uk/government/publications/updates-to-the-illegal-content-and-protection-of-children-codes-of-practice",
-      "date": "2026-11-16T12:55:00+00:00"
+      "id": "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
+      "title": "Payroll Giving agencies approved by HMRC",
+      "url": "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
+      "date": "2026-11-17T14:45:52+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/mr-s-t-h-shah-v-manchester-airport-plc-2400509-slash-2024",
-      "title": "Mr S T H Shah v Manchester Airport plc: 2400509/2024",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-t-h-shah-v-manchester-airport-plc-2400509-slash-2024",
-      "date": "2026-11-16T12:30:50+00:00"
+      "id": "https://www.gov.uk/government/publications/homelessness-applying-all-our-health",
+      "title": "Homelessness: applying All Our Health",
+      "url": "https://www.gov.uk/government/publications/homelessness-applying-all-our-health",
+      "date": "2026-11-17T14:36:08+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/mot-testing-guide/d-requirements-for-authorisation",
-      "title": "D. Requirements for authorisation",
-      "url": "https://www.gov.uk/guidance/mot-testing-guide/d-requirements-for-authorisation",
-      "date": "2026-11-16T12:29:29+00:00"
+      "id": "https://www.gov.uk/government/publications/what-works-in-supporting-people-to-retrain-at-the-local-level",
+      "title": "What works in supporting people to retrain at the local level",
+      "url": "https://www.gov.uk/government/publications/what-works-in-supporting-people-to-retrain-at-the-local-level",
+      "date": "2026-11-17T13:56:41+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/mhra-strategy-2030",
-      "title": "MHRA Strategy 2030",
-      "url": "https://www.gov.uk/government/publications/mhra-strategy-2030",
-      "date": "2026-11-16T12:19:09+00:00"
+      "id": "https://www.gov.uk/government/news/35th-mod-sanctuary-awards-showcase-sustainability-in-defence",
+      "title": "35th MOD Sanctuary Awards showcase sustainability in Defence",
+      "url": "https://www.gov.uk/government/news/35th-mod-sanctuary-awards-showcase-sustainability-in-defence",
+      "date": "2026-11-17T13:30:00+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/international-development-funding/humanitarian-diplomacy-data-and-deployment-hd3-programme",
-      "title": "Humanitarian Diplomacy, Data and Deployment (HD3) Programme",
-      "url": "https://www.gov.uk/international-development-funding/humanitarian-diplomacy-data-and-deployment-hd3-programme",
-      "date": "2026-11-16T11:43:25+00:00"
+      "id": "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/fire-stations",
+      "title": "Fire stations",
+      "url": "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/fire-stations",
+      "date": "2026-11-17T13:15:20+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/uk-maritime-fuel-regulation-reducing-shipping-sector-emissions",
-      "title": "UK maritime fuel regulation: reducing shipping sector emissions",
-      "url": "https://www.gov.uk/government/consultations/uk-maritime-fuel-regulation-reducing-shipping-sector-emissions",
-      "date": "2026-11-16T10:50:02+00:00"
+      "id": "https://www.gov.uk/government/news/bridge-scanners-and-wearable-safety-alerts-among-23-rail-innovations-backed-with-48-million",
+      "title": "Bridge scanners and wearable safety alerts among 23 rail innovations backed with £4.8 million",
+      "url": "https://www.gov.uk/government/news/bridge-scanners-and-wearable-safety-alerts-among-23-rail-innovations-backed-with-48-million",
+      "date": "2026-11-17T12:59:20+00:00"
+    },
+    {
+      "source": "ec-ai-news",
+      "label": "European Commission digital strategy news",
+      "jurisdiction": "EU",
+      "id": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+      "title": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+      "date": "Tue, 17 Nov 2026 10:11:00 +0000"
+    },
+    {
+      "source": "ec-ai-news",
+      "label": "European Commission digital strategy news",
+      "jurisdiction": "EU",
+      "id": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
+      "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
+      "date": "Mon, 16 Nov 2026 12:43:38 +0000"
     }
   ],
   "page_changes": [

@@ -169,13 +169,13 @@ All
  1 result 
 
  At second reading in the House of Commons
- 20 results 
+ 21 results 
 
  At second reading in the Senate
  21 results 
 
  At third reading in the House of Commons
- 2 results 
+ 1 result 
 
  At third reading in the Senate
  5 results 
@@ -189,6 +189,9 @@ All
  Bill not proceeded with
  1 result 
 
+ House of Commons bill awaiting first reading in the Senate
+ 1 result 
+
  Introduced as pro forma bill
  2 results 
 
@@ -199,7 +202,7 @@ All
  32 results 
 
  Senate bill awaiting first reading in the House of Commons
- 6 results 
+ 5 results 
 
  From date 
 
@@ -1222,10 +1225,10 @@ All
  An Act to designate the month of March as Hellenic Heritage Month
 
  Current status 
- Senate bill awaiting first reading in the House of Commons 
+ At second reading in the House of Commons 
 
  Last major stage completed 
- Third reading in the Senate 
+ First reading in the House of Commons 
 
  S-221
 
@@ -2528,11 +2531,11 @@ All
 
  Current status
 
- Senate bill awaiting first reading in the House of Commons
+ At second reading in the House of Commons
 
  Latest activity
 
- Third reading on November 3, 2026 (Senate)
+ First reading on November 17, 2026 (House of Commons)
 
  S-221
 
