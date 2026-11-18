@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-17T16:04:51.139Z",
+  "run_at": "2026-11-18T15:44:02.611Z",
   "changed": [
     {
       "id": "cn-cac",
@@ -7,8 +7,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5302,
-      "chars_after": 2959
+      "chars_before": 2959,
+      "chars_after": 5306
     },
     {
       "id": "vn-gov",
@@ -16,8 +16,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 25045,
-      "chars_after": 26235
+      "chars_before": 26235,
+      "chars_after": 26535
     },
     {
       "id": "ca-legisinfo",
@@ -25,8 +25,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54599,
-      "chars_after": 54659
+      "chars_before": 54659,
+      "chars_after": 54610
     },
     {
       "id": "br-pl2338",
@@ -34,8 +34,17 @@
       "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
       "jurisdiction": "BR",
       "priority": "high",
-      "chars_before": 230249,
+      "chars_before": 230248,
       "chars_after": 230248
+    },
+    {
+      "id": "eu-ai-office",
+      "title": "European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 9852,
+      "chars_after": 9873
     },
     {
       "id": "us-eo-14179",
@@ -52,18 +61,12 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2183,
-      "chars_after": 2182
+      "chars_before": 2182,
+      "chars_after": 2176
     }
   ],
   "new": [],
   "failed": [
-    {
-      "id": "coe-treaty-page",
-      "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
-      "error": "HTTP 403"
-    },
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -131,12 +134,6 @@
       "error": "HTTP 404"
     },
     {
-      "id": "us-ny-raise",
-      "title": "New York RAISE Act (frontier AI safety)",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
-      "error": "empty response"
-    },
-    {
       "id": "jp-ai-promotion-act",
       "title": "AI Promotion Act (English translation)",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4551",
@@ -152,12 +149,6 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
-      "error": "empty response"
-    },
-    {
-      "id": "g7-hiroshima",
-      "title": "Hiroshima Process International Code of Conduct for Advanced AI Systems",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems",
       "error": "empty response"
     },
     {

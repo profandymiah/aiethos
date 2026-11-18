@@ -1,114 +1,125 @@
 {
-  "run_at": "2026-11-17T16:16:45.683Z",
+  "run_at": "2026-11-18T15:53:37.016Z",
   "new_items": [
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-23370",
-      "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
-      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
-      "date": "2026-11-17",
-      "extra": "Proposed Rule"
+      "id": "2026-23506",
+      "title": "Agency Information Collection Activities; Submission for OMB Review; American Time Use Survey (ATUS) Super Intelligence (SI) Questions",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23506/agency-information-collection-activities-submission-for-omb-review-american-time-use-survey-atus",
+      "date": "2026-11-18",
+      "extra": "Notice"
+    },
+    {
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-23427",
+      "title": "Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Its Rules its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23427/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed",
+      "date": "2026-11-18",
+      "extra": "Notice"
+    },
+    {
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-23425",
+      "title": "Self-Regulatory Organizations; NYSE American LLC; Notice of Filing and Immediate Effectiveness of Proposed Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23425/self-regulatory-organizations-nyse-american-llc-notice-of-filing-and-immediate-effectiveness-of",
+      "date": "2026-11-18",
+      "extra": "Notice"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/live-facial-recognition-equality-impact-assessment-eia",
-      "title": "Live facial recognition: equality impact assessment (EIA)",
-      "url": "https://www.gov.uk/government/publications/live-facial-recognition-equality-impact-assessment-eia",
-      "date": "2026-11-17T16:03:46+00:00"
+      "id": "https://www.gov.uk/guidance/leaving-the-armed-forces",
+      "title": "Leaving the armed forces",
+      "url": "https://www.gov.uk/guidance/leaving-the-armed-forces",
+      "date": "2026-11-18T15:19:12+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/survey-of-seasonal-workers-scheme-privacy-notice",
-      "title": "Survey of seasonal workers scheme privacy notice",
-      "url": "https://www.gov.uk/government/publications/survey-of-seasonal-workers-scheme-privacy-notice",
-      "date": "2026-11-17T15:53:37+00:00"
+      "id": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026",
+      "title": "Home Secretary's speech to NPCC/APCC Summit 2026",
+      "url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026",
+      "date": "2026-11-18T15:16:21+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/immigration-enforcement-live-facial-recognition-legal-mandate",
-      "title": "Immigration Enforcement: live facial recognition legal mandate",
-      "url": "https://www.gov.uk/government/publications/immigration-enforcement-live-facial-recognition-legal-mandate",
-      "date": "2026-11-17T15:52:12+00:00"
+      "id": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime",
+      "title": "Local Police Commands created to tackle everyday crime",
+      "url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime",
+      "date": "2026-11-18T15:08:16+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
-      "title": "Payroll Giving agencies approved by HMRC",
-      "url": "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
-      "date": "2026-11-17T14:45:52+00:00"
+      "id": "https://www.gov.uk/government/publications/acss-register-of-interests",
+      "title": "ACSS register of interests",
+      "url": "https://www.gov.uk/government/publications/acss-register-of-interests",
+      "date": "2026-11-18T14:03:22+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/homelessness-applying-all-our-health",
-      "title": "Homelessness: applying All Our Health",
-      "url": "https://www.gov.uk/government/publications/homelessness-applying-all-our-health",
-      "date": "2026-11-17T14:36:08+00:00"
+      "id": "https://www.gov.uk/government/publications/nigeria-country-policy-and-information-notes",
+      "title": "Nigeria: country policy and information notes",
+      "url": "https://www.gov.uk/government/publications/nigeria-country-policy-and-information-notes",
+      "date": "2026-11-18T13:28:31+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/what-works-in-supporting-people-to-retrain-at-the-local-level",
-      "title": "What works in supporting people to retrain at the local level",
-      "url": "https://www.gov.uk/government/publications/what-works-in-supporting-people-to-retrain-at-the-local-level",
-      "date": "2026-11-17T13:56:41+00:00"
+      "id": "https://www.gov.uk/government/publications/letter-to-awarding-organisations-about-misuse-of-ai-and-wearable-technology",
+      "title": "Letter to awarding organisations about misuse of AI and wearable technology",
+      "url": "https://www.gov.uk/government/publications/letter-to-awarding-organisations-about-misuse-of-ai-and-wearable-technology",
+      "date": "2026-11-18T13:06:46+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/35th-mod-sanctuary-awards-showcase-sustainability-in-defence",
-      "title": "35th MOD Sanctuary Awards showcase sustainability in Defence",
-      "url": "https://www.gov.uk/government/news/35th-mod-sanctuary-awards-showcase-sustainability-in-defence",
-      "date": "2026-11-17T13:30:00+00:00"
+      "id": "https://www.gov.uk/government/speeches/behind-the-grades-how-can-you-trust-your-outcomes",
+      "title": "Behind the grades: how can you trust your outcomes?",
+      "url": "https://www.gov.uk/government/speeches/behind-the-grades-how-can-you-trust-your-outcomes",
+      "date": "2026-11-18T13:05:56+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/fire-stations",
-      "title": "Fire stations",
-      "url": "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/fire-stations",
-      "date": "2026-11-17T13:15:20+00:00"
+      "id": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper",
+      "title": "Construction Products Reform White Paper",
+      "url": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper",
+      "date": "2026-11-18T13:00:04+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/bridge-scanners-and-wearable-safety-alerts-among-23-rail-innovations-backed-with-48-million",
-      "title": "Bridge scanners and wearable safety alerts among 23 rail innovations backed with £4.8 million",
-      "url": "https://www.gov.uk/government/news/bridge-scanners-and-wearable-safety-alerts-among-23-rail-innovations-backed-with-48-million",
-      "date": "2026-11-17T12:59:20+00:00"
+      "id": "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products",
+      "title": "General Safety Requirement for Construction Products",
+      "url": "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products",
+      "date": "2026-11-18T13:00:04+00:00"
     },
     {
-      "source": "ec-ai-news",
-      "label": "European Commission digital strategy news",
-      "jurisdiction": "EU",
-      "id": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
-      "title": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
-      "date": "Tue, 17 Nov 2026 10:11:00 +0000"
-    },
-    {
-      "source": "ec-ai-news",
-      "label": "European Commission digital strategy news",
-      "jurisdiction": "EU",
-      "id": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
-      "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
-      "date": "Mon, 16 Nov 2026 12:43:38 +0000"
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/live-facial-recognition",
+      "title": "Live facial recognition",
+      "url": "https://www.gov.uk/government/publications/live-facial-recognition",
+      "date": "2026-11-18T12:55:13+00:00"
     }
   ],
   "page_changes": [

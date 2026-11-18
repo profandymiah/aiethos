@@ -1,6 +1,9 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-23506",
+      "2026-23427",
+      "2026-23425",
       "2026-23370",
       "2026-23155",
       "2026-22799",
@@ -47,7 +50,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   },
   "uk-bills": {
     "ids": [
@@ -58,10 +61,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/guidance/leaving-the-armed-forces",
+      "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026",
+      "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime",
+      "https://www.gov.uk/government/publications/acss-register-of-interests",
+      "https://www.gov.uk/government/publications/nigeria-country-policy-and-information-notes",
+      "https://www.gov.uk/government/publications/letter-to-awarding-organisations-about-misuse-of-ai-and-wearable-technology",
+      "https://www.gov.uk/government/speeches/behind-the-grades-how-can-you-trust-your-outcomes",
+      "https://www.gov.uk/government/consultations/construction-products-reform-white-paper",
+      "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products",
+      "https://www.gov.uk/government/publications/live-facial-recognition",
       "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
       "https://www.gov.uk/government/publications/live-facial-recognition-equality-impact-assessment-eia",
       "https://www.gov.uk/government/publications/survey-of-seasonal-workers-scheme-privacy-notice",
@@ -243,7 +256,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -267,13 +280,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -284,18 +297,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "1fc94d7cc5f4398a14f0d1487cfb993d8681795e3565ed90982ea970e87c7328",
+    "page_hash": "6636595568dc533c89a4a8586f505b7cb738698bcc73a54e44eb54e4f4a78557",
     "initialised": true,
-    "last_checked": "2026-11-17T16:16:45.683Z"
+    "last_checked": "2026-11-18T15:53:37.016Z"
   }
 }

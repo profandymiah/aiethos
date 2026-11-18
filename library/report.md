@@ -1,26 +1,28 @@
 ## Tracked documents that changed
 
-- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 5302 to 2959 characters
-- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 25045 to 26235 characters
-- **ca-legisinfo** (CA, medium): [LEGISinfo: Parliament of Canada bills](https://www.parl.ca/legisinfo/en/bills), 54599 to 54659 characters
-- **br-pl2338** (BR, high): [PL 2338/2023 (AI Legal Framework): Senate bill page](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233), 230249 to 230248 characters
+- **cn-cac** (CN, medium): [Cyberspace Administration of China (English site)](https://www.cac.gov.cn/), 2959 to 5306 characters
+- **vn-gov** (VN, low): [Vietnam Government portal (legal documents)](https://xaydungchinhsach.chinhphu.vn/), 26235 to 26535 characters
+- **ca-legisinfo** (CA, medium): [LEGISinfo: Parliament of Canada bills](https://www.parl.ca/legisinfo/en/bills), 54659 to 54610 characters
+- **br-pl2338** (BR, high): [PL 2338/2023 (AI Legal Framework): Senate bill page](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233), 230248 to 230248 characters
+- **eu-ai-office** (EU, high): [European AI Office](https://digital-strategy.ec.europa.eu/en/policies/ai-office), 9852 to 9873 characters
 - **us-eo-14179** (US, high): [Executive Order 14179: Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), 13783 to 13783 characters
-- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2183 to 2182 characters
+- **kr-ai-basic-act** (KR, high): [AI Basic Act (English translation)](https://elaw.klri.re.kr/eng_service/main.do), 2182 to 2176 characters
 
 ## New items found
 
-- US: [Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program](https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant) (US Federal Register: artificial intelligence, 2026-11-17)
-- UK: [Live facial recognition: equality impact assessment (EIA)](https://www.gov.uk/government/publications/live-facial-recognition-equality-impact-assessment-eia) (GOV.UK updates on artificial intelligence, 2026-11-17T16:03:46+00:00)
-- UK: [Survey of seasonal workers scheme privacy notice](https://www.gov.uk/government/publications/survey-of-seasonal-workers-scheme-privacy-notice) (GOV.UK updates on artificial intelligence, 2026-11-17T15:53:37+00:00)
-- UK: [Immigration Enforcement: live facial recognition legal mandate](https://www.gov.uk/government/publications/immigration-enforcement-live-facial-recognition-legal-mandate) (GOV.UK updates on artificial intelligence, 2026-11-17T15:52:12+00:00)
-- UK: [Payroll Giving agencies approved by HMRC](https://www.gov.uk/government/publications/payroll-giving-approved-agencies) (GOV.UK updates on artificial intelligence, 2026-11-17T14:45:52+00:00)
-- UK: [Homelessness: applying All Our Health](https://www.gov.uk/government/publications/homelessness-applying-all-our-health) (GOV.UK updates on artificial intelligence, 2026-11-17T14:36:08+00:00)
-- UK: [What works in supporting people to retrain at the local level](https://www.gov.uk/government/publications/what-works-in-supporting-people-to-retrain-at-the-local-level) (GOV.UK updates on artificial intelligence, 2026-11-17T13:56:41+00:00)
-- UK: [35th MOD Sanctuary Awards showcase sustainability in Defence](https://www.gov.uk/government/news/35th-mod-sanctuary-awards-showcase-sustainability-in-defence) (GOV.UK updates on artificial intelligence, 2026-11-17T13:30:00+00:00)
-- UK: [Fire stations](https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/fire-stations) (GOV.UK updates on artificial intelligence, 2026-11-17T13:15:20+00:00)
-- UK: [Bridge scanners and wearable safety alerts among 23 rail innovations backed with £4.8 million](https://www.gov.uk/government/news/bridge-scanners-and-wearable-safety-alerts-among-23-rail-innovations-backed-with-48-million) (GOV.UK updates on artificial intelligence, 2026-11-17T12:59:20+00:00)
-- EU: [Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products](https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal) (European Commission digital strategy news, Tue, 17 Nov 2026 10:11:00 +0000)
-- EU: [Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake](https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake) (European Commission digital strategy news, Mon, 16 Nov 2026 12:43:38 +0000)
+- US: [Agency Information Collection Activities; Submission for OMB Review; American Time Use Survey (ATUS) Super Intelligence (SI) Questions](https://www.federalregister.gov/documents/2026/11/18/2026-23506/agency-information-collection-activities-submission-for-omb-review-american-time-use-survey-atus) (US Federal Register: artificial intelligence, 2026-11-18)
+- US: [Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Its Rules its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators](https://www.federalregister.gov/documents/2026/11/18/2026-23427/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed) (US Federal Register: artificial intelligence, 2026-11-18)
+- US: [Self-Regulatory Organizations; NYSE American LLC; Notice of Filing and Immediate Effectiveness of Proposed Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators](https://www.federalregister.gov/documents/2026/11/18/2026-23425/self-regulatory-organizations-nyse-american-llc-notice-of-filing-and-immediate-effectiveness-of) (US Federal Register: artificial intelligence, 2026-11-18)
+- UK: [Leaving the armed forces](https://www.gov.uk/guidance/leaving-the-armed-forces) (GOV.UK updates on artificial intelligence, 2026-11-18T15:19:12+00:00)
+- UK: [Home Secretary's speech to NPCC/APCC Summit 2026](https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026) (GOV.UK updates on artificial intelligence, 2026-11-18T15:16:21+00:00)
+- UK: [Local Police Commands created to tackle everyday crime](https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime) (GOV.UK updates on artificial intelligence, 2026-11-18T15:08:16+00:00)
+- UK: [ACSS register of interests](https://www.gov.uk/government/publications/acss-register-of-interests) (GOV.UK updates on artificial intelligence, 2026-11-18T14:03:22+00:00)
+- UK: [Nigeria: country policy and information notes](https://www.gov.uk/government/publications/nigeria-country-policy-and-information-notes) (GOV.UK updates on artificial intelligence, 2026-11-18T13:28:31+00:00)
+- UK: [Letter to awarding organisations about misuse of AI and wearable technology](https://www.gov.uk/government/publications/letter-to-awarding-organisations-about-misuse-of-ai-and-wearable-technology) (GOV.UK updates on artificial intelligence, 2026-11-18T13:06:46+00:00)
+- UK: [Behind the grades: how can you trust your outcomes?](https://www.gov.uk/government/speeches/behind-the-grades-how-can-you-trust-your-outcomes) (GOV.UK updates on artificial intelligence, 2026-11-18T13:05:56+00:00)
+- UK: [Construction Products Reform White Paper](https://www.gov.uk/government/consultations/construction-products-reform-white-paper) (GOV.UK updates on artificial intelligence, 2026-11-18T13:00:04+00:00)
+- UK: [General Safety Requirement for Construction Products](https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products) (GOV.UK updates on artificial intelligence, 2026-11-18T13:00:04+00:00)
+- UK: [Live facial recognition](https://www.gov.uk/government/publications/live-facial-recognition) (GOV.UK updates on artificial intelligence, 2026-11-18T12:55:13+00:00)
 
 ## Watched pages that changed
 
@@ -28,7 +30,6 @@
 
 ## Documents that could not be fetched
 
-- coe-treaty-page: HTTP 403 ([link](https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225))
 - unesco-rec: empty response ([link](https://unesdoc.unesco.org/ark:/48223/pf0000381137))
 - un-79-325: empty response ([link](https://docs.un.org/en/A/RES/79/325))
 - iea-energy-ai: HTTP 403 ([link](https://www.iea.org/reports/energy-and-ai))
@@ -40,9 +41,7 @@
 - in-pib: HTTP 403 ([link](https://pib.gov.in/allRel.aspx))
 - ke-ict: fetch failed ([link](https://www.ict.go.ke/))
 - ch-federal-council: HTTP 404 ([link](https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html))
-- us-ny-raise: empty response ([link](https://www.nysenate.gov/legislation/bills/2025/S6953))
 - jp-ai-promotion-act: empty response ([link](https://www.japaneselawtranslation.go.jp/en/laws/view/4551))
 - in-it-rules-2026: empty response ([link](https://www.meity.gov.in/documents/act-and-policies))
 - sg-agentic: empty response ([link](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches))
-- g7-hiroshima: empty response ([link](https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems))
 - oecd-dd-guidance: empty response ([link](https://www.oecd.org/en/publications.html))

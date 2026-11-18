@@ -157,22 +157,19 @@ All
 All 
 
  At consideration in committee in the House of Commons
- 18 results 
+ 20 results 
 
  At consideration in committee in the Senate
- 13 results 
+ 15 results 
 
  At report stage in the House of Commons
  9 results 
 
- At report stage in the Senate
- 1 result 
-
  At second reading in the House of Commons
- 21 results 
+ 19 results 
 
  At second reading in the Senate
- 21 results 
+ 20 results 
 
  At third reading in the House of Commons
  1 result 
@@ -189,9 +186,6 @@ All
  Bill not proceeded with
  1 result 
 
- House of Commons bill awaiting first reading in the Senate
- 1 result 
-
  Introduced as pro forma bill
  2 results 
 
@@ -202,7 +196,7 @@ All
  32 results 
 
  Senate bill awaiting first reading in the House of Commons
- 5 results 
+ 6 results 
 
  From date 
 
@@ -631,7 +625,7 @@ All
  5 results 
 
  Legal and Constitutional Affairs
- 10 results 
+ 11 results 
 
  National Finance
  5 results 
@@ -640,7 +634,7 @@ All
  6 results 
 
  Social Affairs, Science and Technology
- 14 results 
+ 15 results 
 
  Transport and Communications
  2 results 
@@ -675,7 +669,7 @@ All
  4 results 
 
  Human Resources, Skills and Social Development and the Status of Persons with Disabilities
- 4 results 
+ 5 results 
 
  Indigenous and Northern Affairs
  5 results 
@@ -687,7 +681,7 @@ All
  2 results 
 
  Justice and Human Rights
- 10 results 
+ 11 results 
 
  National Defence
  3 results 
@@ -1152,7 +1146,7 @@ All
  An Act to declare the Chignecto Isthmus Dykeland System and related works to be for the general advantage of Canada
 
  Current status 
- At report stage in the Senate 
+ At third reading in the Senate 
 
  Last major stage completed 
  Second reading in the Senate 
@@ -1187,10 +1181,10 @@ All
  An Act to amend the Constitution Act, 1982 (notwithstanding clause)
 
  Current status 
- At second reading in the Senate 
+ At consideration in committee in the Senate 
 
  Last major stage completed 
- First reading in the Senate 
+ Second reading in the Senate 
 
  S-219
 
@@ -1476,10 +1470,10 @@ All
  An Act respecting a national framework for fetal alcohol spectrum disorder
 
  Current status 
- At third reading in the Senate 
+ Senate bill awaiting first reading in the House of Commons 
 
  Last major stage completed 
- Second reading in the Senate 
+ Third reading in the Senate 
 
  S-235
 
@@ -1986,7 +1980,7 @@ All
 
  Latest activity
 
- Debate at second reading on November 5, 2026 (Senate)
+ Debate at second reading on November 17, 2026 (Senate)
 
  S-8
 
@@ -2013,7 +2007,7 @@ All
 
  Latest activity
 
- Introduction and first reading on November 3, 2026 (Senate)
+ Debate at second reading on November 17, 2026 (Senate)
 
  S-201
 
@@ -2426,11 +2420,11 @@ All
 
  Current status
 
- At report stage in the Senate
+ At third reading in the Senate
 
  Latest activity
 
- Committee report presented with an amendment on November 5, 2026 (Senate)
+ Committee report adopted on November 17, 2026 (Senate)
 
  S-217
 
@@ -2477,11 +2471,11 @@ All
 
  Current status
 
- At second reading in the Senate
+ At consideration in committee in the Senate
 
  Latest activity
 
- Debate at second reading on June 4, 2026 (Senate)
+ Referral to committee on November 17, 2026 (Senate)
 
  S-219
 
@@ -2535,7 +2529,7 @@ All
 
  Latest activity
 
- First reading on November 17, 2026 (House of Commons)
+ Placed in the Order of Precedence on November 17, 2026 (House of Commons)
 
  S-221
 
@@ -2894,11 +2888,11 @@ All
 
  Current status
 
- At third reading in the Senate
+ Senate bill awaiting first reading in the House of Commons
 
  Latest activity
 
- Committee report adopted on November 4, 2026 (Senate)
+ Third reading on November 17, 2026 (Senate)
 
  S-235
 
@@ -3294,7 +3288,7 @@ All
 
  Latest activity
 
- Introduction and first reading on June 9, 2026 (Senate)
+ Debate at second reading on November 17, 2026 (Senate)
 
  S-250
 
