@@ -1,14 +1,23 @@
 {
-  "run_at": "2026-11-18T15:44:02.611Z",
+  "run_at": "2026-11-19T15:48:51.100Z",
   "changed": [
+    {
+      "id": "coe-treaty-page",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "jurisdiction": "INT",
+      "priority": "high",
+      "chars_before": 5581,
+      "chars_after": 4603
+    },
     {
       "id": "cn-cac",
       "title": "Cyberspace Administration of China (English site)",
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 2959,
-      "chars_after": 5306
+      "chars_before": 5306,
+      "chars_after": 5357
     },
     {
       "id": "vn-gov",
@@ -16,8 +25,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26235,
-      "chars_after": 26535
+      "chars_before": 26535,
+      "chars_after": 28155
     },
     {
       "id": "ca-legisinfo",
@@ -25,8 +34,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54659,
-      "chars_after": 54610
+      "chars_before": 54610,
+      "chars_after": 54635
     },
     {
       "id": "br-pl2338",
@@ -38,13 +47,13 @@
       "chars_after": 230248
     },
     {
-      "id": "eu-ai-office",
-      "title": "European AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-      "jurisdiction": "EU",
+      "id": "ae-uae-ai",
+      "title": "UAE Government portal: Artificial Intelligence",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
+      "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 9852,
-      "chars_after": 9873
+      "chars_before": 757,
+      "chars_after": 759
     },
     {
       "id": "us-eo-14179",
@@ -61,8 +70,17 @@
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2182,
-      "chars_after": 2176
+      "chars_before": 2176,
+      "chars_after": 2164
+    },
+    {
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
+      "jurisdiction": "INT",
+      "priority": "medium",
+      "chars_before": 4310,
+      "chars_after": 4517
     }
   ],
   "new": [],
@@ -134,6 +152,12 @@
       "error": "HTTP 404"
     },
     {
+      "id": "us-ny-raise",
+      "title": "New York RAISE Act (frontier AI safety)",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
+      "error": "empty response"
+    },
+    {
       "id": "jp-ai-promotion-act",
       "title": "AI Promotion Act (English translation)",
       "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4551",
@@ -149,12 +173,6 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
-      "error": "empty response"
-    },
-    {
-      "id": "oecd-dd-guidance",
-      "title": "OECD Due Diligence Guidance for Responsible AI",
-      "url": "https://www.oecd.org/en/publications.html",
       "error": "empty response"
     }
   ]

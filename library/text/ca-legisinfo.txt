@@ -97,7 +97,7 @@ All
  62 results 
 
  House of Commons
- 136 results 
+ 138 results 
 
  Bill type 
  selected 
@@ -114,10 +114,10 @@ All
  1 result 
 
  House Government Bill
- 41 results 
+ 42 results 
 
  Private Member’s Bill
- 95 results 
+ 96 results 
 
  Political affiliation 
  selected 
@@ -125,7 +125,7 @@ All
 All 
 
  Bloc Québécois
- 8 results 
+ 9 results 
 
  Canadian Senators Group
  6 results 
@@ -140,7 +140,7 @@ All
  23 results 
 
  Liberal
- 58 results 
+ 59 results 
 
  NDP
  27 results 
@@ -157,19 +157,19 @@ All
 All 
 
  At consideration in committee in the House of Commons
- 20 results 
-
- At consideration in committee in the Senate
- 15 results 
-
- At report stage in the House of Commons
- 9 results 
-
- At second reading in the House of Commons
  19 results 
 
+ At consideration in committee in the Senate
+ 16 results 
+
+ At report stage in the House of Commons
+ 10 results 
+
+ At second reading in the House of Commons
+ 22 results 
+
  At second reading in the Senate
- 20 results 
+ 19 results 
 
  At third reading in the House of Commons
  1 result 
@@ -190,13 +190,13 @@ All
  2 results 
 
  Outside the Order of Precedence
- 53 results 
+ 54 results 
 
  Royal assent received
  32 results 
 
  Senate bill awaiting first reading in the House of Commons
- 6 results 
+ 4 results 
 
  From date 
 
@@ -208,7 +208,7 @@ All
 All 
 
  30th - Carney, Mark
- 198 results 
+ 200 results 
 
  (March 14, 2025 to present) 
 
@@ -401,6 +401,9 @@ All
  Block, Kelly
  1 result 
 
+ Bonin, Patrick
+ 1 result 
+
  Bonk, Steven
  1 result 
 
@@ -561,7 +564,7 @@ All
  1 result 
 
  Robertson, Gregor
- 1 result 
+ 2 results 
 
  Rowe, Jonathan
  1 result 
@@ -607,7 +610,7 @@ All
  1 result 
 
  Banking, Commerce and the Economy
- 6 results 
+ 7 results 
 
  Building Canada Strong Act (Special)
  1 result 
@@ -704,9 +707,9 @@ All
  Show more 
  Show less 
 
- Results 1-60 of 198 
+ Results 1-60 of 200 
 
- Results 1-60 of 198 
+ Results 1-60 of 200 
 
  Relevance
 
@@ -819,10 +822,10 @@ All
  A fourth Act to harmonize federal law with the civil law of Quebec and to amend certain Acts in order to ensure that each language version takes into account the common law and the civil law
 
  Current status 
- Senate bill awaiting first reading in the House of Commons 
+ At second reading in the House of Commons 
 
  Last major stage completed 
- Third reading in the Senate 
+ First reading in the House of Commons 
 
  S-7
 
@@ -838,10 +841,10 @@ All
  An Act to modernize certain regulatory and administrative processes
 
  Current status 
- At second reading in the Senate 
+ At consideration in committee in the Senate 
 
  Last major stage completed 
- First reading in the Senate 
+ Second reading in the Senate 
 
  S-8
 
@@ -1470,10 +1473,10 @@ All
  An Act respecting a national framework for fetal alcohol spectrum disorder
 
  Current status 
- Senate bill awaiting first reading in the House of Commons 
+ At second reading in the House of Commons 
 
  Last major stage completed 
- Third reading in the Senate 
+ First reading in the House of Commons 
 
  S-235
 
@@ -1949,11 +1952,11 @@ All
 
  Current status
 
- Senate bill awaiting first reading in the House of Commons
+ At second reading in the House of Commons
 
  Latest activity
 
- Third reading on June 17, 2026 (Senate)
+ First reading on November 19, 2026 (House of Commons)
 
  S-7
 
@@ -1976,11 +1979,11 @@ All
 
  Current status
 
- At second reading in the Senate
+ At consideration in committee in the Senate
 
  Latest activity
 
- Debate at second reading on November 17, 2026 (Senate)
+ Referral to committee on November 18, 2026 (Senate)
 
  S-8
 
@@ -2397,7 +2400,7 @@ All
 
  Latest activity
 
- Placed in the Order of Precedence on June 17, 2026 (House of Commons)
+ Debate at second reading on November 18, 2026 (House of Commons)
 
  S-216
 
@@ -2888,11 +2891,11 @@ All
 
  Current status
 
- Senate bill awaiting first reading in the House of Commons
+ At second reading in the House of Commons
 
  Latest activity
 
- Third reading on November 17, 2026 (Senate)
+ First reading on November 19, 2026 (House of Commons)
 
  S-235
 

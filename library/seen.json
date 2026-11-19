@@ -1,6 +1,9 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-23555",
+      "2026-23539",
+      "2026-23529",
       "2026-23506",
       "2026-23427",
       "2026-23425",
@@ -50,7 +53,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   },
   "uk-bills": {
     "ids": [
@@ -61,10 +64,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
+      "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
+      "https://www.gov.uk/government/publications/alerts-for-vets-emerging-and-endemic-disease-alert-system-eedas",
+      "https://www.gov.uk/government/publications/effective-governance-resources",
+      "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
+      "https://www.gov.uk/government/consultations/moving-to-commonhold-banning-leasehold-for-new-flats",
+      "https://www.gov.uk/government/consultations/strengthening-leaseholder-protections-over-charges-and-services-consultation",
+      "https://www.gov.uk/government/publications/east-midlands-place-delivery-agreement",
+      "https://www.gov.uk/government/news/uk-launches-new-platform-in-kenya-to-help-businesses-find-investors-and-create-jobs",
+      "https://www.gov.uk/government/publications/shamonda-virus-infection-in-animals",
       "https://www.gov.uk/guidance/leaving-the-armed-forces",
       "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026",
       "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime",
@@ -114,7 +127,6 @@
       "https://www.gov.uk/guidance/planning-appeals-procedural-guide-for-appeals-relating-to-applications-dated-on-or-after-1-april-2026",
       "https://www.gov.uk/government/news/foreign-secretary-speech-on-climate-security-at-cop31",
       "https://www.gov.uk/government/groups/dft-science-advisory-council",
-      "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
       "https://www.gov.uk/government/publications/tenant-fees-act-amended-by-the-renters-rights-act-2025",
       "https://www.gov.uk/government/publications/named-tax-avoidance-schemes-promoters-enablers-and-suppliers",
       "https://www.gov.uk/employment-tribunal-decisions/ms-sylvester-v-s-phillpson-and-others-2400241-slash-2024",
@@ -256,7 +268,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -280,13 +292,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   },
   "oecd-ai-news": {
     "ids": [],
-    "page_hash": "db2c233e0558dc67200bea6b96cc83d06e91dc23a9983a435c7d6c81b582ba2c",
+    "page_hash": "1f5ab43a10038d1a6b0b767aabdcda8bb99b1a285a824304012792b383be076b",
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -297,18 +309,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   },
   "regulations-ai": {
     "ids": [],
     "page_hash": "6636595568dc533c89a4a8586f505b7cb738698bcc73a54e44eb54e4f4a78557",
     "initialised": true,
-    "last_checked": "2026-11-18T15:53:37.016Z"
+    "last_checked": "2026-11-19T15:58:18.569Z"
   }
 }

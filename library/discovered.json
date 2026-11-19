@@ -1,134 +1,125 @@
 {
-  "run_at": "2026-11-18T15:53:37.016Z",
+  "run_at": "2026-11-19T15:58:18.569Z",
   "new_items": [
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-23506",
-      "title": "Agency Information Collection Activities; Submission for OMB Review; American Time Use Survey (ATUS) Super Intelligence (SI) Questions",
-      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23506/agency-information-collection-activities-submission-for-omb-review-american-time-use-survey-atus",
-      "date": "2026-11-18",
+      "id": "2026-23555",
+      "title": "Executive Compensation Disclosure Reform",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23555/executive-compensation-disclosure-reform",
+      "date": "2026-11-19",
+      "extra": "Proposed Rule"
+    },
+    {
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-23539",
+      "title": "Policies on the Use of Generative Super Intelligence in Agency Adjudication; Request for Comments",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23539/policies-on-the-use-of-generative-super-intelligence-in-agency-adjudication-request-for-comments",
+      "date": "2026-11-19",
       "extra": "Notice"
     },
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-23427",
-      "title": "Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Its Rules its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
-      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23427/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed",
-      "date": "2026-11-18",
-      "extra": "Notice"
-    },
-    {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-23425",
-      "title": "Self-Regulatory Organizations; NYSE American LLC; Notice of Filing and Immediate Effectiveness of Proposed Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
-      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23425/self-regulatory-organizations-nyse-american-llc-notice-of-filing-and-immediate-effectiveness-of",
-      "date": "2026-11-18",
-      "extra": "Notice"
+      "id": "2026-23529",
+      "title": "Addressing Remote Access to Advanced Semiconductors",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+      "date": "2026-11-19",
+      "extra": "Rule"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/leaving-the-armed-forces",
-      "title": "Leaving the armed forces",
-      "url": "https://www.gov.uk/guidance/leaving-the-armed-forces",
-      "date": "2026-11-18T15:19:12+00:00"
+      "id": "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
+      "title": "High Street Rental Auctions: grants for local authorities",
+      "url": "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
+      "date": "2026-11-19T15:47:43+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026",
-      "title": "Home Secretary's speech to NPCC/APCC Summit 2026",
-      "url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026",
-      "date": "2026-11-18T15:16:21+00:00"
+      "id": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
+      "title": "Outbreaks under monitoring in 2026",
+      "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
+      "date": "2026-11-19T15:30:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime",
-      "title": "Local Police Commands created to tackle everyday crime",
-      "url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime",
-      "date": "2026-11-18T15:08:16+00:00"
+      "id": "https://www.gov.uk/government/publications/alerts-for-vets-emerging-and-endemic-disease-alert-system-eedas",
+      "title": "Alerts for vets: emerging and endemic disease alert system (EEDAS)",
+      "url": "https://www.gov.uk/government/publications/alerts-for-vets-emerging-and-endemic-disease-alert-system-eedas",
+      "date": "2026-11-19T15:14:05+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/acss-register-of-interests",
-      "title": "ACSS register of interests",
-      "url": "https://www.gov.uk/government/publications/acss-register-of-interests",
-      "date": "2026-11-18T14:03:22+00:00"
+      "id": "https://www.gov.uk/government/publications/effective-governance-resources",
+      "title": "Effective governance resources",
+      "url": "https://www.gov.uk/government/publications/effective-governance-resources",
+      "date": "2026-11-19T14:00:02+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/nigeria-country-policy-and-information-notes",
-      "title": "Nigeria: country policy and information notes",
-      "url": "https://www.gov.uk/government/publications/nigeria-country-policy-and-information-notes",
-      "date": "2026-11-18T13:28:31+00:00"
+      "id": "https://www.gov.uk/government/consultations/moving-to-commonhold-banning-leasehold-for-new-flats",
+      "title": "Moving to commonhold: banning leasehold for new flats",
+      "url": "https://www.gov.uk/government/consultations/moving-to-commonhold-banning-leasehold-for-new-flats",
+      "date": "2026-11-19T13:40:16+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/letter-to-awarding-organisations-about-misuse-of-ai-and-wearable-technology",
-      "title": "Letter to awarding organisations about misuse of AI and wearable technology",
-      "url": "https://www.gov.uk/government/publications/letter-to-awarding-organisations-about-misuse-of-ai-and-wearable-technology",
-      "date": "2026-11-18T13:06:46+00:00"
+      "id": "https://www.gov.uk/government/consultations/strengthening-leaseholder-protections-over-charges-and-services-consultation",
+      "title": "Strengthening leaseholder protections over charges and services: consultation",
+      "url": "https://www.gov.uk/government/consultations/strengthening-leaseholder-protections-over-charges-and-services-consultation",
+      "date": "2026-11-19T13:39:55+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/speeches/behind-the-grades-how-can-you-trust-your-outcomes",
-      "title": "Behind the grades: how can you trust your outcomes?",
-      "url": "https://www.gov.uk/government/speeches/behind-the-grades-how-can-you-trust-your-outcomes",
-      "date": "2026-11-18T13:05:56+00:00"
+      "id": "https://www.gov.uk/government/publications/east-midlands-place-delivery-agreement",
+      "title": "East Midlands: Place Delivery Agreement",
+      "url": "https://www.gov.uk/government/publications/east-midlands-place-delivery-agreement",
+      "date": "2026-11-19T13:24:54+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper",
-      "title": "Construction Products Reform White Paper",
-      "url": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper",
-      "date": "2026-11-18T13:00:04+00:00"
+      "id": "https://www.gov.uk/government/news/uk-launches-new-platform-in-kenya-to-help-businesses-find-investors-and-create-jobs",
+      "title": "UK launches new platform in Kenya to help businesses find investors and create jobs",
+      "url": "https://www.gov.uk/government/news/uk-launches-new-platform-in-kenya-to-help-businesses-find-investors-and-create-jobs",
+      "date": "2026-11-19T12:50:37+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products",
-      "title": "General Safety Requirement for Construction Products",
-      "url": "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products",
-      "date": "2026-11-18T13:00:04+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/live-facial-recognition",
-      "title": "Live facial recognition",
-      "url": "https://www.gov.uk/government/publications/live-facial-recognition",
-      "date": "2026-11-18T12:55:13+00:00"
+      "id": "https://www.gov.uk/government/publications/shamonda-virus-infection-in-animals",
+      "title": "Shamonda virus infection in animals",
+      "url": "https://www.gov.uk/government/publications/shamonda-virus-infection-in-animals",
+      "date": "2026-11-19T12:41:49+00:00"
     }
   ],
   "page_changes": [
     {
-      "source": "regulations-ai",
-      "label": "regulations.ai global tracker (secondary signal)",
+      "source": "oecd-ai-news",
+      "label": "OECD.AI news",
       "jurisdiction": "INT",
-      "url": "https://regulations.ai/",
-      "signal": true
+      "url": "https://oecd.ai/en/wonk",
+      "signal": false
     }
   ],
   "errors": [
