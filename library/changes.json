@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-11-19T15:48:51.100Z",
+  "run_at": "2026-11-20T15:30:44.998Z",
   "changed": [
     {
-      "id": "coe-treaty-page",
-      "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "id": "un-panel-page",
+      "title": "UN Independent International Scientific Panel on AI",
+      "url": "https://www.un.org/independent-international-scientific-panel-ai/en",
       "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 5581,
-      "chars_after": 4603
+      "chars_before": 2355,
+      "chars_after": 2406
     },
     {
       "id": "cn-cac",
@@ -16,8 +16,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5306,
-      "chars_after": 5357
+      "chars_before": 5357,
+      "chars_after": 5398
     },
     {
       "id": "vn-gov",
@@ -25,8 +25,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26535,
-      "chars_after": 28155
+      "chars_before": 28155,
+      "chars_after": 27298
     },
     {
       "id": "ca-legisinfo",
@@ -34,8 +34,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54610,
-      "chars_after": 54635
+      "chars_before": 54635,
+      "chars_after": 54664
     },
     {
       "id": "br-pl2338",
@@ -52,8 +52,8 @@
       "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
       "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 757,
-      "chars_after": 759
+      "chars_before": 759,
+      "chars_after": 757
     },
     {
       "id": "us-eo-14179",
@@ -62,29 +62,17 @@
       "jurisdiction": "US",
       "priority": "high",
       "chars_before": 13783,
-      "chars_after": 13783
-    },
-    {
-      "id": "kr-ai-basic-act",
-      "title": "AI Basic Act (English translation)",
-      "url": "https://elaw.klri.re.kr/eng_service/main.do",
-      "jurisdiction": "KR",
-      "priority": "high",
-      "chars_before": 2176,
-      "chars_after": 2164
-    },
-    {
-      "id": "oecd-dd-guidance",
-      "title": "OECD Due Diligence Guidance for Responsible AI",
-      "url": "https://www.oecd.org/en/publications.html",
-      "jurisdiction": "INT",
-      "priority": "medium",
-      "chars_before": 4310,
-      "chars_after": 4517
+      "chars_after": 1239
     }
   ],
   "new": [],
   "failed": [
+    {
+      "id": "coe-treaty-page",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "error": "HTTP 403"
+    },
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -114,12 +102,6 @@
       "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
       "error": "empty response"
-    },
-    {
-      "id": "us-ca-sb53",
-      "title": "California SB 53 (Transparency in Frontier AI Act)",
-      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
-      "error": "HTTP 403"
     },
     {
       "id": "au-industry-ai",
@@ -173,6 +155,12 @@
       "id": "sg-agentic",
       "title": "Model AI Governance Framework for Agentic AI",
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches",
+      "error": "empty response"
+    },
+    {
+      "id": "oecd-dd-guidance",
+      "title": "OECD Due Diligence Guidance for Responsible AI",
+      "url": "https://www.oecd.org/en/publications.html",
       "error": "empty response"
     }
   ]

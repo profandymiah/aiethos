@@ -175,10 +175,7 @@ All
  1 result 
 
  At third reading in the Senate
- 5 results 
-
- Awaiting royal assent
- 1 result 
+ 3 results 
 
  Bill defeated
  14 results 
@@ -193,10 +190,10 @@ All
  54 results 
 
  Royal assent received
- 32 results 
+ 34 results 
 
  Senate bill awaiting first reading in the House of Commons
- 4 results 
+ 5 results 
 
  From date 
 
@@ -1565,10 +1562,10 @@ All
  An Act to amend the Competition Act
 
  Current status 
- At third reading in the Senate 
+ Senate bill awaiting first reading in the House of Commons 
 
  Last major stage completed 
- Second reading in the Senate 
+ Third reading in the Senate 
 
  S-240
 
@@ -2895,7 +2892,7 @@ All
 
  Latest activity
 
- First reading on November 19, 2026 (House of Commons)
+ Placed in the Order of Precedence on November 19, 2026 (House of Commons)
 
  S-235
 
@@ -3023,11 +3020,11 @@ All
 
  Current status
 
- At third reading in the Senate
+ Senate bill awaiting first reading in the House of Commons
 
  Latest activity
 
- Debate at third reading on November 3, 2026 (Senate)
+ Third reading on November 19, 2026 (Senate)
 
  S-240
 
@@ -3291,7 +3288,7 @@ All
 
  Latest activity
 
- Debate at second reading on November 17, 2026 (Senate)
+ Debate at second reading on November 19, 2026 (Senate)
 
  S-250
 

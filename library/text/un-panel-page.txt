@@ -43,6 +43,7 @@ Home | Independent International Scientific Panel on AI
  Home 
  Publications » Preliminary Report 
  Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control 
+ AI and the Environment 
 
  Panel Members 
  Timeline 
@@ -56,6 +57,8 @@ Home | Independent International Scientific Panel on AI
  Preliminary Report 
 
  Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control 
+
+ AI and the Environment 
 
  Panel Members 
 

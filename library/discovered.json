@@ -1,125 +1,106 @@
 {
-  "run_at": "2026-11-19T15:58:18.569Z",
+  "run_at": "2026-11-20T15:42:15.273Z",
   "new_items": [
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-23555",
-      "title": "Executive Compensation Disclosure Reform",
-      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23555/executive-compensation-disclosure-reform",
-      "date": "2026-11-19",
-      "extra": "Proposed Rule"
-    },
-    {
-      "source": "fr-ai",
-      "label": "US Federal Register: artificial intelligence",
-      "jurisdiction": "US",
-      "id": "2026-23539",
-      "title": "Policies on the Use of Generative Super Intelligence in Agency Adjudication; Request for Comments",
-      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23539/policies-on-the-use-of-generative-super-intelligence-in-agency-adjudication-request-for-comments",
-      "date": "2026-11-19",
+      "id": "2026-23650",
+      "title": "Self-Regulatory Organizations; MEMX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23650/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed",
+      "date": "2026-11-20",
       "extra": "Notice"
     },
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-23529",
-      "title": "Addressing Remote Access to Advanced Semiconductors",
-      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
-      "date": "2026-11-19",
-      "extra": "Rule"
+      "id": "2026-23649",
+      "title": "Self-Regulatory Organizations; Miami International Securities Exchange, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23649/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and",
+      "date": "2026-11-20",
+      "extra": "Notice"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
-      "title": "High Street Rental Auctions: grants for local authorities",
-      "url": "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
-      "date": "2026-11-19T15:47:43+00:00"
+      "id": "https://www.gov.uk/government/collections/digitising-adult-social-care",
+      "title": "Digitising adult social care",
+      "url": "https://www.gov.uk/government/collections/digitising-adult-social-care",
+      "date": "2026-11-20T15:40:05+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
-      "title": "Outbreaks under monitoring in 2026",
-      "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
-      "date": "2026-11-19T15:30:02+00:00"
+      "id": "https://www.gov.uk/government/news/costs-cut-prime-minister-secures-deal-with-eu-to-cut-costs-keep-prices-down-and-create-opportunities-for-young-people-worth-up-to-17-billion-per-year",
+      "title": "'Costs cut': Prime Minister secures deal with EU to cut costs, keep prices down and create opportunities for young people worth up to £17 billion per year",
+      "url": "https://www.gov.uk/government/news/costs-cut-prime-minister-secures-deal-with-eu-to-cut-costs-keep-prices-down-and-create-opportunities-for-young-people-worth-up-to-17-billion-per-year",
+      "date": "2026-11-20T14:36:25+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/alerts-for-vets-emerging-and-endemic-disease-alert-system-eedas",
-      "title": "Alerts for vets: emerging and endemic disease alert system (EEDAS)",
-      "url": "https://www.gov.uk/government/publications/alerts-for-vets-emerging-and-endemic-disease-alert-system-eedas",
-      "date": "2026-11-19T15:14:05+00:00"
+      "id": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents",
+      "title": "UK/EU Summit 2026: Key documents",
+      "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents",
+      "date": "2026-11-20T13:31:25+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/effective-governance-resources",
-      "title": "Effective governance resources",
-      "url": "https://www.gov.uk/government/publications/effective-governance-resources",
-      "date": "2026-11-19T14:00:02+00:00"
+      "id": "https://www.gov.uk/government/publications/returns-preparation",
+      "title": "Returns preparation: caseworker guidance",
+      "url": "https://www.gov.uk/government/publications/returns-preparation",
+      "date": "2026-11-20T13:20:29+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/moving-to-commonhold-banning-leasehold-for-new-flats",
-      "title": "Moving to commonhold: banning leasehold for new flats",
-      "url": "https://www.gov.uk/government/consultations/moving-to-commonhold-banning-leasehold-for-new-flats",
-      "date": "2026-11-19T13:40:16+00:00"
+      "id": "https://www.gov.uk/government/publications/million-hours-fund-evaluation-phase-two-final-evaluation-report",
+      "title": "Million Hours Fund evaluation: phase two final evaluation report",
+      "url": "https://www.gov.uk/government/publications/million-hours-fund-evaluation-phase-two-final-evaluation-report",
+      "date": "2026-11-20T12:54:40+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/consultations/strengthening-leaseholder-protections-over-charges-and-services-consultation",
-      "title": "Strengthening leaseholder protections over charges and services: consultation",
-      "url": "https://www.gov.uk/government/consultations/strengthening-leaseholder-protections-over-charges-and-services-consultation",
-      "date": "2026-11-19T13:39:55+00:00"
+      "id": "https://www.gov.uk/government/groups/intertrade-uk",
+      "title": "Intertrade UK",
+      "url": "https://www.gov.uk/government/groups/intertrade-uk",
+      "date": "2026-11-20T11:15:31+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/east-midlands-place-delivery-agreement",
-      "title": "East Midlands: Place Delivery Agreement",
-      "url": "https://www.gov.uk/government/publications/east-midlands-place-delivery-agreement",
-      "date": "2026-11-19T13:24:54+00:00"
+      "id": "https://www.gov.uk/government/case-studies/career-insight-aashna-trainee-solicitor-hmrc",
+      "title": "Career Insight: Aashna, Trainee Solicitor, HMRC",
+      "url": "https://www.gov.uk/government/case-studies/career-insight-aashna-trainee-solicitor-hmrc",
+      "date": "2026-11-20T11:05:11+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/uk-launches-new-platform-in-kenya-to-help-businesses-find-investors-and-create-jobs",
-      "title": "UK launches new platform in Kenya to help businesses find investors and create jobs",
-      "url": "https://www.gov.uk/government/news/uk-launches-new-platform-in-kenya-to-help-businesses-find-investors-and-create-jobs",
-      "date": "2026-11-19T12:50:37+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/shamonda-virus-infection-in-animals",
-      "title": "Shamonda virus infection in animals",
-      "url": "https://www.gov.uk/government/publications/shamonda-virus-infection-in-animals",
-      "date": "2026-11-19T12:41:49+00:00"
+      "id": "https://www.gov.uk/government/publications/safer-railway-scheme",
+      "title": "Safer Railway Scheme",
+      "url": "https://www.gov.uk/government/publications/safer-railway-scheme",
+      "date": "2026-11-20T10:37:28+00:00"
     }
   ],
   "page_changes": [
     {
-      "source": "oecd-ai-news",
-      "label": "OECD.AI news",
+      "source": "regulations-ai",
+      "label": "regulations.ai global tracker (secondary signal)",
       "jurisdiction": "INT",
-      "url": "https://oecd.ai/en/wonk",
-      "signal": false
+      "url": "https://regulations.ai/",
+      "signal": true
     }
   ],
   "errors": [
