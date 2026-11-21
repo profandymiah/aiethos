@@ -1,32 +1,14 @@
 {
-  "run_at": "2026-11-20T15:30:44.998Z",
+  "run_at": "2026-11-21T14:42:09.921Z",
   "changed": [
-    {
-      "id": "un-panel-page",
-      "title": "UN Independent International Scientific Panel on AI",
-      "url": "https://www.un.org/independent-international-scientific-panel-ai/en",
-      "jurisdiction": "INT",
-      "priority": "high",
-      "chars_before": 2355,
-      "chars_after": 2406
-    },
-    {
-      "id": "cn-cac",
-      "title": "Cyberspace Administration of China (English site)",
-      "url": "https://www.cac.gov.cn/",
-      "jurisdiction": "CN",
-      "priority": "medium",
-      "chars_before": 5357,
-      "chars_after": 5398
-    },
     {
       "id": "vn-gov",
       "title": "Vietnam Government portal (legal documents)",
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 28155,
-      "chars_after": 27298
+      "chars_before": 27298,
+      "chars_after": 26094
     },
     {
       "id": "ca-legisinfo",
@@ -34,7 +16,7 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54635,
+      "chars_before": 54664,
       "chars_after": 54664
     },
     {
@@ -52,8 +34,8 @@
       "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
       "jurisdiction": "AE",
       "priority": "high",
-      "chars_before": 759,
-      "chars_after": 757
+      "chars_before": 757,
+      "chars_after": 759
     },
     {
       "id": "us-eo-14179",
@@ -61,8 +43,8 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 13783,
-      "chars_after": 1239
+      "chars_before": 1239,
+      "chars_after": 13782
     }
   ],
   "new": [],
@@ -132,12 +114,6 @@
       "title": "Federal Council: AI regulatory approach",
       "url": "https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html",
       "error": "HTTP 404"
-    },
-    {
-      "id": "us-ny-raise",
-      "title": "New York RAISE Act (frontier AI safety)",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
-      "error": "empty response"
     },
     {
       "id": "jp-ai-promotion-act",

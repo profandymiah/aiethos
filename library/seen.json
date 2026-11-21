@@ -1,6 +1,8 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-23777",
+      "2026-23748",
       "2026-23650",
       "2026-23649",
       "2026-23555",
@@ -55,7 +57,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   },
   "uk-bills": {
     "ids": [
@@ -66,10 +68,18 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026",
+      "https://www.gov.uk/service-manual/communities/data-and-artificial-intelligence-ethics-community",
+      "https://www.gov.uk/guidance/food-and-drink-changes-preparing-your-businesses",
+      "https://www.gov.uk/guidance/food-labelling-changes-preparing-your-business",
+      "https://www.gov.uk/guidance/organics-changes-preparing-your-business",
+      "https://www.gov.uk/guidance/changes-to-importing-and-exporting-food-animals-and-plants",
+      "https://www.gov.uk/employment-tribunal-decisions/mr-powell-tait-v-m-power-ltd-2304361-slash-2024",
+      "https://www.gov.uk/government/publications/government-response-to-the-independent-review-of-the-criminal-courts",
       "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "https://www.gov.uk/government/collections/digitising-adult-social-care",
       "https://www.gov.uk/government/news/costs-cut-prime-minister-secures-deal-with-eu-to-cut-costs-keep-prices-down-and-create-opportunities-for-young-people-worth-up-to-17-billion-per-year",
@@ -278,10 +288,11 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   },
   "ec-ai-news": {
     "ids": [
+      "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
       "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
       "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
       "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
@@ -302,13 +313,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "1f5ab43a10038d1a6b0b767aabdcda8bb99b1a285a824304012792b383be076b",
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -319,18 +330,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "595739d62ba47151bca6679953ba21a984b812f3b86a2e9d9ab38e0150dc7316",
+    "page_hash": "5173df0fb6f4ae35d9cd9a9370a551fadc970cdda4a491aa698c5bbfa6e9d780",
     "initialised": true,
-    "last_checked": "2026-11-20T15:42:15.273Z"
+    "last_checked": "2026-11-21T14:52:52.049Z"
   }
 }

@@ -163,16 +163,16 @@ All
  16 results 
 
  At report stage in the House of Commons
- 10 results 
+ 9 results 
 
  At second reading in the House of Commons
- 22 results 
+ 21 results 
 
  At second reading in the Senate
  19 results 
 
  At third reading in the House of Commons
- 1 result 
+ 3 results 
 
  At third reading in the Senate
  3 results 
@@ -660,7 +660,7 @@ All
  2 results 
 
  Finance
- 7 results 
+ 8 results 
 
  Foreign Affairs and International Development
  1 result 
