@@ -42,13 +42,14 @@ Home | Independent International Scientific Panel on AI
 
  Home 
  Publications » Preliminary Report 
- Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control 
+ Thematic Briefs » Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control 
+ Thematic Brief on AI Capacity-Building 
  AI and the Environment 
 
  Panel Members 
  Timeline 
  FAQ 
- Resources 
+ Resources » Glossary 
 
  Home 
 
@@ -56,7 +57,11 @@ Home | Independent International Scientific Panel on AI
 
  Preliminary Report 
 
+ Thematic Briefs
+
  Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control 
+
+ Thematic Brief on AI Capacity-Building 
 
  AI and the Environment 
 
@@ -66,17 +71,27 @@ Home | Independent International Scientific Panel on AI
 
  FAQ 
 
- Resources 
+ Resources
+
+ Glossary 
 
  Independent International Scientific Panel on AI
 
  Independent International Scientific Panel on AI
+
+ Latest Releases
+
+ Thematic Brief on AI Capacity-Building (22 November) 
+
+ Press Release (November 2026) 
 
  Publications
 
  Preliminary Report (01 July) 
 
  Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control (21 September) 
+
+ Thematic Brief on AI Capacity-Building (22 November) 
 
  Established with Resolution A/RES/79/325 on 26 August 2025, the Independent International Scientific Panel on AI serves as the first global scientific body on Artificial Intelligence (AI), bringing together leading experts to assess how AI is transforming our lives.
 

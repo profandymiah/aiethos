@@ -57,7 +57,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   },
   "uk-bills": {
     "ids": [
@@ -68,10 +68,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/shellfish-classification",
+      "https://www.gov.uk/government/collections/digital-mental-health-technology",
+      "https://www.gov.uk/government/publications/legal-requirements-for-meat-establishments",
+      "https://www.gov.uk/government/publications/dairy-registration-and-inspections",
+      "https://www.gov.uk/government/publications/rapid-detection-of-toxic-gases-phase-2",
+      "https://www.gov.uk/guidance/bird-flu-avian-influenza-housing-your-birds-safely",
+      "https://www.gov.uk/government/publications/directory-of-academic-and-policy-exchange-schemes",
+      "https://www.gov.uk/employment-tribunal-decisions/mrs-s-noreen-v-polo-foods-ltd-8000793-slash-2026",
+      "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
+      "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
       "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026",
       "https://www.gov.uk/service-manual/communities/data-and-artificial-intelligence-ethics-community",
       "https://www.gov.uk/guidance/food-and-drink-changes-preparing-your-businesses",
@@ -140,7 +150,6 @@
       "https://www.gov.uk/government/publications/national-youth-strategy-upper-tier-local-authority-analysis",
       "https://www.gov.uk/government/publications/regulator-of-social-housing-annual-report-and-accounts-2025-26",
       "https://www.gov.uk/government/news/more-than-80000-knives-taken-off-the-streets",
-      "https://www.gov.uk/guidance/bird-flu-avian-influenza-housing-your-birds-safely",
       "https://www.gov.uk/government/news/joint-declaration-on-a-strategic-partnership-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-the-republic-of-azerbaijan",
       "https://www.gov.uk/government/news/gads-annual-report-and-accounts-2025-to-2026",
       "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
@@ -207,7 +216,6 @@
       "https://www.gov.uk/guidance/offshore-wind-development-library-of-strategic-compensatory-measures",
       "https://www.gov.uk/employment-tribunal-decisions/mr-d-boshle-v-mr-f-zeineddine-and-basita-ltd-in-voluntary-creditors-liquidation-6009009-slash-2024",
       "https://www.gov.uk/government/consultations/reform-of-the-crichel-down-rules",
-      "https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders",
       "https://www.gov.uk/government/groups/taxpayer-data-standards-forum",
       "https://www.gov.uk/government/publications/dcms-sectors-soft-power-evidence-review-and-theory-of-change",
       "https://www.gov.uk/government/publications/uk-national-screening-committee-register-of-interests",
@@ -218,7 +226,6 @@
       "https://www.gov.uk/government/publications/explanatory-memorandum-revised-guidance-issued-under-s-182-of-licensing-act-2003",
       "https://www.gov.uk/government/publications/the-agricultural-supply-chain-adjudicator-asca-making-a-complaint",
       "https://www.gov.uk/government/consultations/earned-settlement",
-      "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
       "https://www.gov.uk/government/publications/river-modelling-technical-standards-and-assessment",
       "https://www.gov.uk/government/news/no-place-for-knives-campaign-launches-in-london-hotspots",
       "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--245",
@@ -288,7 +295,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -313,13 +320,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   },
   "oecd-ai-news": {
     "ids": [],
-    "page_hash": "1f5ab43a10038d1a6b0b767aabdcda8bb99b1a285a824304012792b383be076b",
+    "page_hash": "6f983a61803f679fa3c3ea8a01649168412cf48991e8315fe1a02ad9e3e08715",
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -330,18 +337,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "e8f7e81610ca24e87e7028157b5d8e291968cb2b075b40d8f191797146e60c86",
+    "page_hash": "0aaf4d9a619050857064d0da97fe4c4815339b3cee126ddfa619cf95c19af27b",
     "initialised": true,
-    "last_checked": "2026-11-22T14:48:00.551Z"
+    "last_checked": "2026-11-23T18:25:07.105Z"
   }
 }

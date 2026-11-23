@@ -172,7 +172,7 @@ All
  19 results 
 
  At third reading in the House of Commons
- 3 results 
+ 2 results 
 
  At third reading in the Senate
  3 results 
@@ -181,6 +181,9 @@ All
  14 results 
 
  Bill not proceeded with
+ 1 result 
+
+ House of Commons bill awaiting first reading in the Senate
  1 result 
 
  Introduced as pro forma bill

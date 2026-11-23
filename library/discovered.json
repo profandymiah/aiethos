@@ -1,7 +1,78 @@
 {
-  "run_at": "2026-11-22T14:48:00.551Z",
-  "new_items": [],
+  "run_at": "2026-11-23T18:25:07.105Z",
+  "new_items": [
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/shellfish-classification",
+      "title": "Shellfish classification",
+      "url": "https://www.gov.uk/government/publications/shellfish-classification",
+      "date": "2026-11-23T17:37:52+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/collections/digital-mental-health-technology",
+      "title": "Digital Mental Health Technology",
+      "url": "https://www.gov.uk/government/collections/digital-mental-health-technology",
+      "date": "2026-11-23T16:39:26+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/legal-requirements-for-meat-establishments",
+      "title": "Legal requirements for meat establishments",
+      "url": "https://www.gov.uk/government/publications/legal-requirements-for-meat-establishments",
+      "date": "2026-11-23T16:17:37+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/dairy-registration-and-inspections",
+      "title": "Dairy registration and inspections",
+      "url": "https://www.gov.uk/government/publications/dairy-registration-and-inspections",
+      "date": "2026-11-23T16:10:08+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/rapid-detection-of-toxic-gases-phase-2",
+      "title": "Rapid Detection of Toxic Gases Phase 2",
+      "url": "https://www.gov.uk/government/publications/rapid-detection-of-toxic-gases-phase-2",
+      "date": "2026-11-23T15:27:05+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/government/publications/directory-of-academic-and-policy-exchange-schemes",
+      "title": "Directory of academic and policy exchange schemes",
+      "url": "https://www.gov.uk/government/publications/directory-of-academic-and-policy-exchange-schemes",
+      "date": "2026-11-23T15:00:55+00:00"
+    },
+    {
+      "source": "govuk-ai",
+      "label": "GOV.UK updates on artificial intelligence",
+      "jurisdiction": "UK",
+      "id": "https://www.gov.uk/employment-tribunal-decisions/mrs-s-noreen-v-polo-foods-ltd-8000793-slash-2026",
+      "title": "Mrs S Noreen v Polo Foods Ltd: 8000793/2026",
+      "url": "https://www.gov.uk/employment-tribunal-decisions/mrs-s-noreen-v-polo-foods-ltd-8000793-slash-2026",
+      "date": "2026-11-23T14:37:31+00:00"
+    }
+  ],
   "page_changes": [
+    {
+      "source": "oecd-ai-news",
+      "label": "OECD.AI news",
+      "jurisdiction": "INT",
+      "url": "https://oecd.ai/en/wonk",
+      "signal": false
+    },
     {
       "source": "regulations-ai",
       "label": "regulations.ai global tracker (secondary signal)",
