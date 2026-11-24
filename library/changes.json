@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-11-23T18:15:39.940Z",
+  "run_at": "2026-11-24T17:50:31.226Z",
   "changed": [
     {
-      "id": "un-panel-page",
-      "title": "UN Independent International Scientific Panel on AI",
-      "url": "https://www.un.org/independent-international-scientific-panel-ai/en",
-      "jurisdiction": "INT",
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 2406,
-      "chars_after": 2710
+      "chars_before": 1561,
+      "chars_after": 699833
     },
     {
       "id": "eu-ai-act-consolidated",
@@ -16,8 +16,17 @@
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 17717,
-      "chars_after": 17724
+      "chars_before": 17724,
+      "chars_after": 17694
+    },
+    {
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "jurisdiction": "EU",
+      "priority": "medium",
+      "chars_before": 1561,
+      "chars_after": 454699
     },
     {
       "id": "cn-cac",
@@ -25,8 +34,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5398,
-      "chars_after": 5368
+      "chars_before": 5368,
+      "chars_after": 5413
     },
     {
       "id": "vn-gov",
@@ -34,8 +43,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 26798,
-      "chars_after": 29336
+      "chars_before": 29336,
+      "chars_after": 31755
     },
     {
       "id": "ca-legisinfo",
@@ -43,8 +52,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54664,
-      "chars_after": 54738
+      "chars_before": 54738,
+      "chars_after": 54740
     },
     {
       "id": "br-pl2338",
@@ -56,22 +65,13 @@
       "chars_after": 230248
     },
     {
-      "id": "ae-uae-ai",
-      "title": "UAE Government portal: Artificial Intelligence",
-      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence",
-      "jurisdiction": "AE",
-      "priority": "high",
-      "chars_before": 757,
-      "chars_after": 759
-    },
-    {
       "id": "eu-ai-office",
       "title": "European AI Office",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 9873,
-      "chars_after": 9871
+      "chars_before": 9871,
+      "chars_after": 9853
     },
     {
       "id": "us-eo-14179",
@@ -79,27 +79,18 @@
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
       "jurisdiction": "US",
       "priority": "high",
-      "chars_before": 13782,
+      "chars_before": 13783,
       "chars_after": 13783
-    },
-    {
-      "id": "kr-ai-basic-act",
-      "title": "AI Basic Act (English translation)",
-      "url": "https://elaw.klri.re.kr/eng_service/main.do",
-      "jurisdiction": "KR",
-      "priority": "high",
-      "chars_before": 2146,
-      "chars_after": 2170
     }
   ],
-  "new": [],
-  "failed": [
+  "new": [
     {
-      "id": "coe-treaty-page",
-      "title": "CETS 225 treaty status page (signatures and ratifications)",
-      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
-      "error": "HTTP 403"
-    },
+      "id": "ke-ict",
+      "title": "Kenya Ministry of ICT",
+      "url": "https://www.ict.go.ke/"
+    }
+  ],
+  "failed": [
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -119,18 +110,6 @@
       "error": "HTTP 403"
     },
     {
-      "id": "eu-ai-act",
-      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
-      "error": "empty response"
-    },
-    {
-      "id": "eu-eed",
-      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
-      "error": "empty response"
-    },
-    {
       "id": "au-industry-ai",
       "title": "Australian Government: Safe and responsible AI",
       "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence",
@@ -147,12 +126,6 @@
       "title": "PIB press releases on AI (watch page)",
       "url": "https://pib.gov.in/allRel.aspx",
       "error": "HTTP 403"
-    },
-    {
-      "id": "ke-ict",
-      "title": "Kenya Ministry of ICT",
-      "url": "https://www.ict.go.ke/",
-      "error": "fetch failed"
     },
     {
       "id": "ch-federal-council",
