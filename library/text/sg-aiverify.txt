@@ -63,26 +63,24 @@ Assurance Sandbox
 
  What Our New Members Say
 
- At Kimi, we believe that trust in AI grows through openness, collaboration, and responsible innovation. We are pleased to join the AI Verify Foundation and to be part of a community that brings together diverse perspectives from across the AI ecosystem. We see this as a valuable opportunity to exchange experiences, learn from others, and engage in broader discussions on practical approaches to AI testing and assurance.
- Kimi
+ Capital for impact moves at the speed of trust, so testing the AI that AVPN uses to connect funders with impact organisations across Asia is how we show it is safe, reliable and worthy of that trust. Joining AI Verify Foundation lets us help advance trustworthy AI in the social sector, so charities and funders can adopt it with confidence.
+ AVPN
 
- At SmartOSC, we engineer AI solutions with trust built in from day one, embedding reliability, safety, and governance into the foundation &#8211; not as an afterthought. Through SmartOSC Tin AI, we make AI performance measurable, explainable and continuously verifiable, giving enterprises the evidence and control to confidently scale AI into mission-critical operations.
- By joining the AI Verify Foundation, we aim to contribute real-world insights from enterprise AI deployments, collaborate with the wider community and advance the adoption of robust, industry-aligned agentic AI testing and assurance practices.
+ PRVW works with regulated clients, including financial institutions, where AI has to be shown to be safe before it is trusted. Through AI Verify Foundation, we can have the safeguards on our AI coding agents tested independently, and share what we learn so others can deploy agentic AI with confidence.
+ PRVW
 
- SmartOSC
+ As AI becomes increasingly embedded in business and operational workflows, responsible adoption requires more than principles and guidelines. It requires practical testing and evidence that systems are safe, reliable and appropriately governed. Joining AI Verify Foundation gives BHP the opportunity to learn from and contribute to an international community advancing practical approaches to AI testing and ‘machine-speed’ continuous assurance, while bringing the perspective of a global, asset-intensive and safety-critical organisation.
 
- As AI agents increasingly take on financial transactions, establishing trust, accountability and clear standards for their safe deployment is more important than ever. By joining the AI Verify Foundation, MetaComp hopes to contribute our experience in regulated financial services to advancing common testing standards and good practices for responsible agentic AI deployment.
+ BHP
 
- MetaComp
+ As a leading employment background screening and MOM qualification verification firm, eeCheck is committed to high standards of compliance and governance. As we develop agentic AI initiatives, we recognise the importance of identifying and mitigating associated risks for our clients. By working closely with the AI Verify Foundation, we aim to strengthen our AI governance and align our practices with recognised industry standards. Maintaining high standards has always been central to our approach and continued success.
+ eeCheck
 
- AI is moving into the daily operations of SMEs, where it handles customer data, payments and decisions that affect real people. These businesses will scale it only when they can prove it is safe, and few can build that proof themselves. A shared, independent standard closes that gap. TenthNode joins the AI Verify Foundation to build to that standard from day one and make verified AI the default for the SMEs we serve.
- TenthNode
+ As we bring AI into everyday ERP and HR work for SMEs, our customers need to know that it is accurate, secure and always under human control. Joining AI Verify Foundation helps us build to that standard and share what we learn from running AI in production.
+ MUST Technology Pte. Ltd.
 
- Every claim about AI today rests on a company&#8217;s word. The new standard is a record anyone can verify: what the world said, what the agents did, who approved it, sealed each day and checkable without us. oddly builds that record and runs on it. We joined AI Verify Foundation so that when a regulator asks to see the record, the industry has one answer.
- oddly
-
- The value of AI lies in its potential to empower team members, enhance guest experiences and drive operational excellence, enabling a smarter, more responsive destination. Resorts World Sentosa is committed to adopting AI responsibly, prioritising accuracy, robustness, fairness and security to build trust among guests.
- Resorts World Sentosa
+ As AI agents begin to act and transact on people&#8217;s behalf, trust can&#8217;t be assumed; it has to be tested, verified and proven. Joining the AI Verify Foundation lets Affinidi help shape open, interoperable testing standards so responsible AI can be deployed with confidence across borders and industries.
+ Affinidi
 
  Initiatives and Tools that Benefit You
 

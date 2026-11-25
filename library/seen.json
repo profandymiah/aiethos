@@ -1,6 +1,7 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-23960",
       "2026-23777",
       "2026-23748",
       "2026-23650",
@@ -57,7 +58,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   },
   "uk-bills": {
     "ids": [
@@ -68,10 +69,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/project-panoptes-protecting-the-force-enabling-manoeuvre",
+      "https://www.gov.uk/government/publications/resources-for-promoting-apprenticeships-and-skills",
+      "https://www.gov.uk/residential-property-tribunal-decisions/flats-81-88-langbourne-mansions-langbourne-avenue-london-n6-6pu-lon-slash-00ag-slash-oce-slash-2025-slash-0002",
+      "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package",
+      "https://www.gov.uk/government/news/man-arrested-for-waste-dumping-at-notorious-kidlington-site",
+      "https://www.gov.uk/government/publications/meeting-minutes-august-2026",
+      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
+      "https://www.gov.uk/government/publications/dptac-main-committee-meeting-minutes",
+      "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
+      "https://www.gov.uk/government/publications/standards-for-official-statistics-published-by-desnz",
       "https://www.gov.uk/government/publications/updates-to-the-illegal-content-and-protection-of-children-codes-of-practice",
       "https://www.gov.uk/government/publications/pearson-investigation-into-supported-exempt-accommodation-in-birmingham-terms-of-reference",
       "https://www.gov.uk/guidance/called-in-planning-applications",
@@ -100,7 +111,6 @@
       "https://www.gov.uk/guidance/changes-to-importing-and-exporting-food-animals-and-plants",
       "https://www.gov.uk/employment-tribunal-decisions/mr-powell-tait-v-m-power-ltd-2304361-slash-2024",
       "https://www.gov.uk/government/publications/government-response-to-the-independent-review-of-the-criminal-courts",
-      "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "https://www.gov.uk/government/collections/digitising-adult-social-care",
       "https://www.gov.uk/government/news/costs-cut-prime-minister-secures-deal-with-eu-to-cut-costs-keep-prices-down-and-create-opportunities-for-young-people-worth-up-to-17-billion-per-year",
       "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents",
@@ -303,7 +313,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -328,13 +338,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   },
   "oecd-ai-news": {
     "ids": [],
-    "page_hash": "6f983a61803f679fa3c3ea8a01649168412cf48991e8315fe1a02ad9e3e08715",
+    "page_hash": "023ec3c5663d959e4420e80985be31873fc2a0ca6060b1b42d24bb56361fc0ff",
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -345,18 +355,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   },
   "nist-ai-news": {
     "ids": [],
-    "page_hash": "2d39a6e2959042530d7f3b90987c7824419b9f0b32e64b34e32615250b6ba77e",
+    "page_hash": "f28e2e14faeae98badc2eb06687cbe6a14958a0dbe3945047e828dc355ee2bfb",
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   },
   "regulations-ai": {
     "ids": [],
     "page_hash": "0aaf4d9a619050857064d0da97fe4c4815339b3cee126ddfa619cf95c19af27b",
     "initialised": true,
-    "last_checked": "2026-11-24T17:58:51.658Z"
+    "last_checked": "2026-11-25T17:27:45.297Z"
   }
 }

@@ -41,6 +41,15 @@ Q&A: Guidelines on obligations for General-Purpose AI providers
 Q&A: Template for GPAI model providers to summarise their training content
 The General-Purpose AI Code of Practice
 Template for the Public Summary of Training Content for GPAI models
+
+Follow us
+
+DigitalEU on Mastodon
+DigitalEU on LinkedIn
+DigitalEU on Facebook
+DigitalEU on YouTube
+DigitalEU on Instagram
+DigitalEU on X
 Related Content
 Big Picture
 European approach to artificial intelligence
@@ -49,6 +58,6 @@ The EU’s approach to artificial intelligence promotes excellence and trust, by
 
 Last update
 
-28 April 2026
+25 November 2026
 
 Print as PDF

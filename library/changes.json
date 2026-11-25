@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-11-24T17:50:31.226Z",
+  "run_at": "2026-11-25T17:17:02.014Z",
   "changed": [
     {
-      "id": "eu-ai-act",
-      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
-      "jurisdiction": "EU",
+      "id": "bletchley",
+      "title": "Bletchley Declaration (AI Safety Summit 2023)",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
+      "jurisdiction": "INT",
       "priority": "high",
-      "chars_before": 1561,
-      "chars_after": 699833
+      "chars_before": 10712,
+      "chars_after": 10700
     },
     {
       "id": "eu-ai-act-consolidated",
@@ -16,17 +16,26 @@
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 17724,
-      "chars_after": 17694
+      "chars_before": 17694,
+      "chars_after": 17844
     },
     {
-      "id": "eu-eed",
-      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "id": "eu-gpai-code",
+      "title": "General-Purpose AI Code of Practice",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
       "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 5262,
+      "chars_after": 5413
+    },
+    {
+      "id": "sg-aiverify",
+      "title": "AI Verify Foundation",
+      "url": "https://aiverifyfoundation.sg/",
+      "jurisdiction": "SG",
       "priority": "medium",
-      "chars_before": 1561,
-      "chars_after": 454699
+      "chars_before": 5211,
+      "chars_after": 4968
     },
     {
       "id": "cn-cac",
@@ -34,8 +43,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5368,
-      "chars_after": 5413
+      "chars_before": 5413,
+      "chars_after": 3102
     },
     {
       "id": "vn-gov",
@@ -43,8 +52,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 29336,
-      "chars_after": 31755
+      "chars_before": 31755,
+      "chars_after": 29384
     },
     {
       "id": "ca-legisinfo",
@@ -52,8 +61,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54738,
-      "chars_after": 54740
+      "chars_before": 54740,
+      "chars_after": 54640
     },
     {
       "id": "br-pl2338",
@@ -65,13 +74,22 @@
       "chars_after": 230248
     },
     {
+      "id": "eu-gpai-guidelines",
+      "title": "Guidelines on obligations for general-purpose AI model providers",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
+      "jurisdiction": "EU",
+      "priority": "high",
+      "chars_before": 4723,
+      "chars_after": 4863
+    },
+    {
       "id": "eu-ai-office",
       "title": "European AI Office",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
       "jurisdiction": "EU",
       "priority": "high",
-      "chars_before": 9871,
-      "chars_after": 9853
+      "chars_before": 9853,
+      "chars_after": 9991
     },
     {
       "id": "us-eo-14179",
@@ -81,16 +99,34 @@
       "priority": "high",
       "chars_before": 13783,
       "chars_after": 13783
-    }
-  ],
-  "new": [
+    },
     {
-      "id": "ke-ict",
-      "title": "Kenya Ministry of ICT",
-      "url": "https://www.ict.go.ke/"
+      "id": "cn-labelling",
+      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
+      "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
+      "jurisdiction": "CN",
+      "priority": "high",
+      "chars_before": 14351,
+      "chars_after": 13413
+    },
+    {
+      "id": "kr-ai-basic-act",
+      "title": "AI Basic Act (English translation)",
+      "url": "https://elaw.klri.re.kr/eng_service/main.do",
+      "jurisdiction": "KR",
+      "priority": "high",
+      "chars_before": 2170,
+      "chars_after": 2172
     }
   ],
+  "new": [],
   "failed": [
+    {
+      "id": "coe-treaty-page",
+      "title": "CETS 225 treaty status page (signatures and ratifications)",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "error": "HTTP 403"
+    },
     {
       "id": "unesco-rec",
       "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
@@ -108,6 +144,18 @@
       "title": "Energy and AI (IEA report on data centre electricity demand)",
       "url": "https://www.iea.org/reports/energy-and-ai",
       "error": "HTTP 403"
+    },
+    {
+      "id": "eu-ai-act",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "error": "empty response"
+    },
+    {
+      "id": "eu-eed",
+      "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
+      "error": "empty response"
     },
     {
       "id": "au-industry-ai",
@@ -132,6 +180,12 @@
       "title": "Federal Council: AI regulatory approach",
       "url": "https://www.bj.admin.ch/bj/en/home/aktuell/mm.msg-id-104110.html",
       "error": "HTTP 404"
+    },
+    {
+      "id": "us-ny-raise",
+      "title": "New York RAISE Act (frontier AI safety)",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953",
+      "error": "empty response"
     },
     {
       "id": "jp-ai-promotion-act",

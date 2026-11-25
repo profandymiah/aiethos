@@ -160,30 +160,27 @@ All
  19 results 
 
  At consideration in committee in the Senate
- 16 results 
+ 15 results 
 
  At report stage in the House of Commons
- 8 results 
+ 6 results 
 
  At second reading in the House of Commons
  21 results 
 
  At second reading in the Senate
- 19 results 
+ 20 results 
 
  At third reading in the House of Commons
- 3 results 
+ 5 results 
 
  At third reading in the Senate
  3 results 
 
  Bill defeated
- 14 results 
+ 15 results 
 
  Bill not proceeded with
- 1 result 
-
- House of Commons bill awaiting first reading in the Senate
  1 result 
 
  Introduced as pro forma bill
@@ -895,7 +892,7 @@ All
  An Act to amend the Food and Drugs Act (warning label on alcoholic beverages)
 
  Current status 
- At third reading in the Senate 
+ Bill defeated 
 
  Last major stage completed 
  Second reading in the Senate 
@@ -2057,11 +2054,11 @@ All
 
  Current status
 
- At third reading in the Senate
+ Bill defeated
 
  Latest activity
 
- Debate at third reading on October 7, 2026 (Senate)
+ Bill defeated at third reading on November 24, 2026 (Senate)
 
  S-203
 
@@ -2427,7 +2424,7 @@ All
 
  Latest activity
 
- Committee report adopted on November 17, 2026 (Senate)
+ Debate at third reading on November 24, 2026 (Senate)
 
  S-217
 
@@ -3291,7 +3288,7 @@ All
 
  Latest activity
 
- Debate at second reading on November 19, 2026 (Senate)
+ Debate at second reading on November 24, 2026 (Senate)
 
  S-250
 
