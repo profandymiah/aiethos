@@ -1,6 +1,7 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-24107",
       "2026-23960",
       "2026-23777",
       "2026-23748",
@@ -58,7 +59,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   },
   "uk-bills": {
     "ids": [
@@ -69,11 +70,20 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   },
   "govuk-ai": {
     "ids": [
+      "https://www.gov.uk/government/publications/uk-reach-recommendations-for-additions-to-the-authorisation-list",
+      "https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement",
+      "https://www.gov.uk/government/publications/unlocking-space-for-government",
+      "https://www.gov.uk/government/publications/usb-environmental-intelligence-and-emissions-grant-call",
+      "https://www.gov.uk/guidance/techfirst-undergraduate-scholarship",
       "https://www.gov.uk/government/publications/project-panoptes-protecting-the-force-enabling-manoeuvre",
+      "https://www.gov.uk/government/publications/national-survey-of-childrens-experiences-of-social-care-scoping-and-feasibility",
+      "https://www.gov.uk/government/publications/uk-ai-compute-benefits-realisation-report",
+      "https://www.gov.uk/government/publications/quantifying-artificial-intelligence-ai-compute-user-demand",
+      "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
       "https://www.gov.uk/government/publications/resources-for-promoting-apprenticeships-and-skills",
       "https://www.gov.uk/residential-property-tribunal-decisions/flats-81-88-langbourne-mansions-langbourne-avenue-london-n6-6pu-lon-slash-00ag-slash-oce-slash-2025-slash-0002",
       "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package",
@@ -121,7 +131,6 @@
       "https://www.gov.uk/government/case-studies/career-insight-aashna-trainee-solicitor-hmrc",
       "https://www.gov.uk/government/publications/safer-railway-scheme",
       "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
-      "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
       "https://www.gov.uk/government/publications/alerts-for-vets-emerging-and-endemic-disease-alert-system-eedas",
       "https://www.gov.uk/government/publications/effective-governance-resources",
       "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season",
@@ -229,7 +238,6 @@
       "https://www.gov.uk/employment-tribunal-decisions/ms-j-bassford-v-devon-county-council-6022874-slash-2024",
       "https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation",
       "https://www.gov.uk/government/consultations/consultation-on-changes-to-the-uk-designs-framework",
-      "https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement",
       "https://www.gov.uk/employment-tribunal-decisions/ms-k-king-v-secretary-of-state-for-justice-3310886-slash-2023",
       "https://www.gov.uk/guidance/offshore-wind-development-library-of-strategic-compensatory-measures",
       "https://www.gov.uk/employment-tribunal-decisions/mr-d-boshle-v-mr-f-zeineddine-and-basita-ltd-in-voluntary-creditors-liquidation-6009009-slash-2024",
@@ -313,10 +321,11 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   },
   "ec-ai-news": {
     "ids": [
+      "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
       "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
       "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
       "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
@@ -338,13 +347,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "023ec3c5663d959e4420e80985be31873fc2a0ca6060b1b42d24bb56361fc0ff",
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -355,18 +364,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "f28e2e14faeae98badc2eb06687cbe6a14958a0dbe3945047e828dc355ee2bfb",
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "0aaf4d9a619050857064d0da97fe4c4815339b3cee126ddfa619cf95c19af27b",
+    "page_hash": "b27adee95b36c884ce6597056fa37a4b6c5d25c273b6f9de2c1881d54ce96d8d",
     "initialised": true,
-    "last_checked": "2026-11-25T17:27:45.297Z"
+    "last_checked": "2026-11-26T17:09:12.133Z"
   }
 }

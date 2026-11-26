@@ -97,7 +97,7 @@ All
  62 results 
 
  House of Commons
- 139 results 
+ 141 results 
 
  Bill type 
  selected 
@@ -114,10 +114,10 @@ All
  1 result 
 
  House Government Bill
- 42 results 
+ 43 results 
 
  Private Member’s Bill
- 97 results 
+ 98 results 
 
  Political affiliation 
  selected 
@@ -140,7 +140,7 @@ All
  23 results 
 
  Liberal
- 59 results 
+ 61 results 
 
  NDP
  28 results 
@@ -157,25 +157,31 @@ All
 All 
 
  At consideration in committee in the House of Commons
- 19 results 
+ 18 results 
 
  At consideration in committee in the Senate
- 15 results 
+ 14 results 
 
  At report stage in the House of Commons
- 6 results 
+ 7 results 
+
+ At report stage in the Senate
+ 1 result 
 
  At second reading in the House of Commons
- 21 results 
+ 22 results 
 
  At second reading in the Senate
  20 results 
 
  At third reading in the House of Commons
- 5 results 
+ 4 results 
 
  At third reading in the Senate
- 3 results 
+ 2 results 
+
+ Awaiting royal assent
+ 1 result 
 
  Bill defeated
  15 results 
@@ -183,11 +189,14 @@ All
  Bill not proceeded with
  1 result 
 
+ House of Commons bill awaiting first reading in the Senate
+ 1 result 
+
  Introduced as pro forma bill
  2 results 
 
  Outside the Order of Precedence
- 55 results 
+ 56 results 
 
  Royal assent received
  34 results 
@@ -205,7 +214,7 @@ All
 All 
 
  30th - Carney, Mark
- 201 results 
+ 203 results 
 
  (March 14, 2025 to present) 
 
@@ -420,7 +429,7 @@ All
  1 result 
 
  Champagne, François-Philippe
- 8 results 
+ 9 results 
 
  Clark, Braedon
  1 result 
@@ -480,6 +489,9 @@ All
  1 result 
 
  Hepfner, Lisa
+ 1 result 
+
+ Iacono, Angelo
  1 result 
 
  Idlout, Lori
@@ -631,7 +643,7 @@ All
  5 results 
 
  National Security, Defence and Veterans Affairs
- 6 results 
+ 7 results 
 
  Social Affairs, Science and Technology
  15 results 
@@ -704,9 +716,9 @@ All
  Show more 
  Show less 
 
- Results 1-60 of 201 
+ Results 1-60 of 203 
 
- Results 1-60 of 201 
+ Results 1-60 of 203 
 
  Relevance
 
@@ -1489,7 +1501,7 @@ All
  An Act respecting the National Strategy to Combat Human Trafficking
 
  Current status 
- At consideration in committee in the Senate 
+ At report stage in the Senate 
 
  Last major stage completed 
  Second reading in the Senate 
@@ -2915,11 +2927,11 @@ All
 
  Current status
 
- At consideration in committee in the Senate
+ At report stage in the Senate
 
  Latest activity
 
- Referral to committee on May 26, 2026 (Senate)
+ Committee report presented with an amendment on November 25, 2026 (Senate)
 
  S-236
 

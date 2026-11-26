@@ -1,4 +1,4 @@
-AI Verify Foundation - Building Trustworthy AI Skip to content 
+AI Verify Foundation - Building Trustworthy AI Skip to content [announcement_bar]
 
  Contact Us 
 
@@ -115,7 +115,7 @@ Assurance Sandbox
 
  May
 
- past
+ [event_status]
 
  event
 
@@ -125,7 +125,7 @@ Assurance Sandbox
  Recap of AI Assurance Exchange @ ISE and ATxSummit 2026
 
  Read More 
- RSVP Now 
+ [rsvp_text] 
 
  Publications 
  Explore insights and real-world  use cases from the community.

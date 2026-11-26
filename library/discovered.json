@@ -1,112 +1,96 @@
 {
-  "run_at": "2026-11-25T17:27:45.297Z",
+  "run_at": "2026-11-26T17:09:12.133Z",
   "new_items": [
     {
       "source": "fr-ai",
       "label": "US Federal Register: artificial intelligence",
       "jurisdiction": "US",
-      "id": "2026-23960",
-      "title": "Medicare Program; Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Programs of All-Inclusive Care for the Elderly",
-      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23960/medicare-program-contract-year-2028-policy-and-technical-changes-to-the-medicare-advantage-program",
-      "date": "2026-11-25",
-      "extra": "Proposed Rule"
+      "id": "2026-24107",
+      "title": "American SI Exports Program; On-Demand Consortia for Specific Foreign Opportunities",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24107/american-si-exports-program-on-demand-consortia-for-specific-foreign-opportunities",
+      "date": "2026-11-27",
+      "extra": "Notice"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/project-panoptes-protecting-the-force-enabling-manoeuvre",
-      "title": "Project PANOPTES: Protecting the Force. Enabling Manoeuvre.",
-      "url": "https://www.gov.uk/government/publications/project-panoptes-protecting-the-force-enabling-manoeuvre",
-      "date": "2026-11-25T16:02:26+00:00"
+      "id": "https://www.gov.uk/government/publications/uk-reach-recommendations-for-additions-to-the-authorisation-list",
+      "title": "UK REACH: recommendations for additions to the authorisation list",
+      "url": "https://www.gov.uk/government/publications/uk-reach-recommendations-for-additions-to-the-authorisation-list",
+      "date": "2026-11-26T16:53:31+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/resources-for-promoting-apprenticeships-and-skills",
-      "title": "Resources for promoting apprenticeships and skills",
-      "url": "https://www.gov.uk/government/publications/resources-for-promoting-apprenticeships-and-skills",
-      "date": "2026-11-25T15:53:58+00:00"
+      "id": "https://www.gov.uk/government/publications/unlocking-space-for-government",
+      "title": "Unlocking Space for Government",
+      "url": "https://www.gov.uk/government/publications/unlocking-space-for-government",
+      "date": "2026-11-26T16:31:20+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/residential-property-tribunal-decisions/flats-81-88-langbourne-mansions-langbourne-avenue-london-n6-6pu-lon-slash-00ag-slash-oce-slash-2025-slash-0002",
-      "title": "Flats 81-88 Langbourne Mansions, Langbourne Avenue, London N6 6PU - LON/00AG/OCE/2025/0002",
-      "url": "https://www.gov.uk/residential-property-tribunal-decisions/flats-81-88-langbourne-mansions-langbourne-avenue-london-n6-6pu-lon-slash-00ag-slash-oce-slash-2025-slash-0002",
-      "date": "2026-11-25T15:39:58+00:00"
+      "id": "https://www.gov.uk/government/publications/usb-environmental-intelligence-and-emissions-grant-call",
+      "title": "USB Environmental Intelligence and Emissions Grant Call",
+      "url": "https://www.gov.uk/government/publications/usb-environmental-intelligence-and-emissions-grant-call",
+      "date": "2026-11-26T16:29:37+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package",
-      "title": "UK creative businesses to benefit from funding package",
-      "url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package",
-      "date": "2026-11-25T15:19:35+00:00"
+      "id": "https://www.gov.uk/guidance/techfirst-undergraduate-scholarship",
+      "title": "TechFirst Undergraduate Scholarship",
+      "url": "https://www.gov.uk/guidance/techfirst-undergraduate-scholarship",
+      "date": "2026-11-26T16:20:31+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/news/man-arrested-for-waste-dumping-at-notorious-kidlington-site",
-      "title": "Man arrested for waste dumping at notorious Kidlington site",
-      "url": "https://www.gov.uk/government/news/man-arrested-for-waste-dumping-at-notorious-kidlington-site",
-      "date": "2026-11-25T15:12:26+00:00"
+      "id": "https://www.gov.uk/government/publications/national-survey-of-childrens-experiences-of-social-care-scoping-and-feasibility",
+      "title": "National survey of children’s experiences of social care: scoping and feasibility",
+      "url": "https://www.gov.uk/government/publications/national-survey-of-childrens-experiences-of-social-care-scoping-and-feasibility",
+      "date": "2026-11-26T16:00:00+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/meeting-minutes-august-2026",
-      "title": "Meeting minutes - August 2026",
-      "url": "https://www.gov.uk/government/publications/meeting-minutes-august-2026",
-      "date": "2026-11-25T15:00:02+00:00"
+      "id": "https://www.gov.uk/government/publications/uk-ai-compute-benefits-realisation-report",
+      "title": "UK AI compute benefits realisation report",
+      "url": "https://www.gov.uk/government/publications/uk-ai-compute-benefits-realisation-report",
+      "date": "2026-11-26T15:44:58+00:00"
     },
     {
       "source": "govuk-ai",
       "label": "GOV.UK updates on artificial intelligence",
       "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/dptac-main-committee-meeting-minutes",
-      "title": "DPTAC Main Committee meeting minutes",
-      "url": "https://www.gov.uk/government/publications/dptac-main-committee-meeting-minutes",
-      "date": "2026-11-25T14:22:30+00:00"
+      "id": "https://www.gov.uk/government/publications/quantifying-artificial-intelligence-ai-compute-user-demand",
+      "title": "Quantifying artificial intelligence (AI) compute user demand",
+      "url": "https://www.gov.uk/government/publications/quantifying-artificial-intelligence-ai-compute-user-demand",
+      "date": "2026-11-26T15:37:38+00:00"
     },
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
-      "title": "Employment Rights Act 2025: factsheets",
-      "url": "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
-      "date": "2026-11-25T14:19:06+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/standards-for-official-statistics-published-by-desnz",
-      "title": "Standards for official statistics published by DESNZ",
-      "url": "https://www.gov.uk/government/publications/standards-for-official-statistics-published-by-desnz",
-      "date": "2026-11-25T13:44:33+00:00"
+      "source": "ec-ai-news",
+      "label": "European Commission digital strategy news",
+      "jurisdiction": "EU",
+      "id": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+      "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+      "date": "Wed, 25 Nov 2026 07:52:00 +0000"
     }
   ],
   "page_changes": [
     {
-      "source": "oecd-ai-news",
-      "label": "OECD.AI news",
+      "source": "regulations-ai",
+      "label": "regulations.ai global tracker (secondary signal)",
       "jurisdiction": "INT",
-      "url": "https://oecd.ai/en/wonk",
-      "signal": false
-    },
-    {
-      "source": "nist-ai-news",
-      "label": "NIST AI news",
-      "jurisdiction": "US",
-      "url": "https://www.nist.gov/artificial-intelligence",
-      "signal": false
+      "url": "https://regulations.ai/",
+      "signal": true
     }
   ],
   "errors": [

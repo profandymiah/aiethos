@@ -1,41 +1,14 @@
 {
-  "run_at": "2026-11-25T17:17:02.014Z",
+  "run_at": "2026-11-26T16:57:52.880Z",
   "changed": [
-    {
-      "id": "bletchley",
-      "title": "Bletchley Declaration (AI Safety Summit 2023)",
-      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
-      "jurisdiction": "INT",
-      "priority": "high",
-      "chars_before": 10712,
-      "chars_after": 10700
-    },
-    {
-      "id": "eu-ai-act-consolidated",
-      "title": "AI Act: Commission regulatory framework page",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 17694,
-      "chars_after": 17844
-    },
-    {
-      "id": "eu-gpai-code",
-      "title": "General-Purpose AI Code of Practice",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 5262,
-      "chars_after": 5413
-    },
     {
       "id": "sg-aiverify",
       "title": "AI Verify Foundation",
       "url": "https://aiverifyfoundation.sg/",
       "jurisdiction": "SG",
       "priority": "medium",
-      "chars_before": 5211,
-      "chars_after": 4968
+      "chars_before": 4968,
+      "chars_after": 4999
     },
     {
       "id": "cn-cac",
@@ -43,8 +16,8 @@
       "url": "https://www.cac.gov.cn/",
       "jurisdiction": "CN",
       "priority": "medium",
-      "chars_before": 5413,
-      "chars_after": 3102
+      "chars_before": 3102,
+      "chars_after": 5400
     },
     {
       "id": "vn-gov",
@@ -52,8 +25,8 @@
       "url": "https://xaydungchinhsach.chinhphu.vn/",
       "jurisdiction": "VN",
       "priority": "low",
-      "chars_before": 31755,
-      "chars_after": 29384
+      "chars_before": 29384,
+      "chars_after": 29616
     },
     {
       "id": "ca-legisinfo",
@@ -61,8 +34,8 @@
       "url": "https://www.parl.ca/legisinfo/en/bills",
       "jurisdiction": "CA",
       "priority": "medium",
-      "chars_before": 54740,
-      "chars_after": 54640
+      "chars_before": 54640,
+      "chars_after": 54826
     },
     {
       "id": "br-pl2338",
@@ -74,24 +47,6 @@
       "chars_after": 230248
     },
     {
-      "id": "eu-gpai-guidelines",
-      "title": "Guidelines on obligations for general-purpose AI model providers",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 4723,
-      "chars_after": 4863
-    },
-    {
-      "id": "eu-ai-office",
-      "title": "European AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-      "jurisdiction": "EU",
-      "priority": "high",
-      "chars_before": 9853,
-      "chars_after": 9991
-    },
-    {
       "id": "us-eo-14179",
       "title": "Executive Order 14179: Removing Barriers to American Leadership in AI",
       "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
@@ -101,22 +56,13 @@
       "chars_after": 13783
     },
     {
-      "id": "cn-labelling",
-      "title": "Measures for Labeling AI-Generated Synthetic Content (translation)",
-      "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
-      "jurisdiction": "CN",
-      "priority": "high",
-      "chars_before": 14351,
-      "chars_after": 13413
-    },
-    {
       "id": "kr-ai-basic-act",
       "title": "AI Basic Act (English translation)",
       "url": "https://elaw.klri.re.kr/eng_service/main.do",
       "jurisdiction": "KR",
       "priority": "high",
-      "chars_before": 2170,
-      "chars_after": 2172
+      "chars_before": 2172,
+      "chars_after": 2161
     }
   ],
   "new": [],
@@ -156,6 +102,12 @@
       "title": "Directive (EU) 2023/1791 Energy Efficiency Directive (data centre reporting)",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791",
       "error": "empty response"
+    },
+    {
+      "id": "us-ca-sb53",
+      "title": "California SB 53 (Transparency in Frontier AI Act)",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "error": "HTTP 403"
     },
     {
       "id": "au-industry-ai",
