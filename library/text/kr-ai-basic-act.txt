@@ -36,14 +36,14 @@ CRIMINAL ACT
 FRAMEWORK ACT ON THE DEVELOPMENT O...
 LABOR STANDARDS ACT
 Recently Viewed
-ACT ON ASSISTANCE TO KOREAN OFF-SH...
-ENFORCEMENT DECREE OF THE AVIATION...
-AVIATION BUSINESS ACT
-ENFORCEMENT DECREE OF THE EXPORT-I...
-EXPORT-IMPORT BANK OF KOREA ACT
-KOREA RURAL COMMUNITY CORPORATION ...
-ENFORCEMENT DECREE OF THE ACT ON R...
-ACT ON REPORTING AND USING SPECIFI...
+ACT ON THE SAFETY OF AND SUPPORT F...
+ENFORCEMENT DECREE OF THE ACT ON F...
+ENFORCEMENT DECREE OF ACT ON THE P...
+ENFORCEMENT DECREE OF THE NATURAL ...
+NATURAL PARKS ACT
+ENFORCEMENT DECREE OF THE MOTOR VE...
+ACT ON PROTECTION, SUPPORT AND COM...
+미입력
 By Legal Field By Ministry By Subject
 Constitution
 Administration
@@ -74,16 +74,16 @@ If you have any questions or comments about our servies, let us know. We will ge
 
 Go to
 Translation Statistics
-Current Laws 3,092
-Former Laws 21,353
+Current Laws 3,094
+Former Laws 21,373
 Current 1
 Former 0
 Constitution
-Current 1,599
-Former 12,443
+Current 1,600
+Former 12,457
 Statutes
-Current 1,406
-Former 8,837
+Current 1,407
+Former 8,843
 Enforcement Decrees
 Current 3
 Former 9

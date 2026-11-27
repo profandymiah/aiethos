@@ -157,22 +157,22 @@ All
 All 
 
  At consideration in committee in the House of Commons
- 18 results 
+ 19 results 
 
  At consideration in committee in the Senate
- 14 results 
+ 15 results 
 
  At report stage in the House of Commons
  7 results 
 
  At report stage in the Senate
- 1 result 
+ 2 results 
 
  At second reading in the House of Commons
- 22 results 
+ 21 results 
 
  At second reading in the Senate
- 20 results 
+ 19 results 
 
  At third reading in the House of Commons
  4 results 
@@ -187,9 +187,6 @@ All
  15 results 
 
  Bill not proceeded with
- 1 result 
-
- House of Commons bill awaiting first reading in the Senate
  1 result 
 
  Introduced as pro forma bill
@@ -619,7 +616,7 @@ All
  1 result 
 
  Banking, Commerce and the Economy
- 7 results 
+ 8 results 
 
  Building Canada Strong Act (Special)
  1 result 
@@ -631,7 +628,7 @@ All
  4 results 
 
  Human Rights
- 4 results 
+ 5 results 
 
  Indigenous Peoples
  5 results 
@@ -711,7 +708,7 @@ All
  1 result 
 
  Transport, Infrastructure and Communities
- 2 results 
+ 3 results 
 
  Show more 
  Show less 
@@ -869,10 +866,10 @@ All
  An Act respecting certain measures relating to proceeds of crime, terrorist financing, sanctions evasion and the detection of non-mailable matter transmitted by post
 
  Current status 
- At second reading in the Senate 
+ At consideration in committee in the Senate 
 
  Last major stage completed 
- First reading in the Senate 
+ Second reading in the Senate 
 
  S-201
 
@@ -1758,10 +1755,10 @@ All
  An Act respecting Christian Heritage Month
 
  Current status 
- At second reading in the Senate 
+ At consideration in committee in the Senate 
 
  Last major stage completed 
- First reading in the Senate 
+ Second reading in the Senate 
 
  S-250
 
@@ -2015,11 +2012,11 @@ All
 
  Current status
 
- At second reading in the Senate
+ At consideration in committee in the Senate
 
  Latest activity
 
- Debate at second reading on November 17, 2026 (Senate)
+ Referral to committee on November 26, 2026 (Senate)
 
  S-201
 
@@ -3296,11 +3293,11 @@ All
 
  Current status
 
- At second reading in the Senate
+ At consideration in committee in the Senate
 
  Latest activity
 
- Debate at second reading on November 24, 2026 (Senate)
+ Referral to committee on November 26, 2026 (Senate)
 
  S-250
 

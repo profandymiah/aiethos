@@ -84,7 +84,7 @@ AI Act | Shaping Europe’s digital future
 
  The guidelines on the AI system definition of the AI Act , to assist stakeholders in determining the scope of the AI Act
 
- Prohibition 9 comes into effect in December 2026 and was introduced as a part of the AI Omnibus.
+ Prohibition 9 was introduced as a part of the AI Omnibus and it is applicable from 02 December 2026.
 
  High risk
 
@@ -351,6 +351,6 @@ AI Act | Shaping Europe’s digital future
 
  Last update
 
- 25 November 2026
+ 27 November 2026
 
  Print as PDF
