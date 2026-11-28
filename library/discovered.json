@@ -1,86 +1,15 @@
 {
-  "run_at": "2026-11-27T16:55:48.338Z",
+  "run_at": "2026-11-28T15:46:21.067Z",
   "new_items": [
     {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/speeches/partnership-with-europe-not-separation-the-answer-for-britain",
-      "title": "PARTNERSHIP WITH EUROPE, NOT SEPARATION, THE ANSWER FOR BRITAIN",
-      "url": "https://www.gov.uk/government/speeches/partnership-with-europe-not-separation-the-answer-for-britain",
-      "date": "2026-11-27T16:31:40+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/guidance/case-management-guidance/how-to-work-with-children",
-      "title": "How to work with children",
-      "url": "https://www.gov.uk/guidance/case-management-guidance/how-to-work-with-children",
-      "date": "2026-11-27T16:19:03+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/slc-board-meeting-minutes-2026",
-      "title": "SLC Board meeting minutes 2026",
-      "url": "https://www.gov.uk/government/publications/slc-board-meeting-minutes-2026",
-      "date": "2026-11-27T15:40:18+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/revised-statutory-guidance-for-the-conduct-of-domestic-homicide-reviews",
-      "title": "Domestic abuse related death reviews: statutory guidance",
-      "url": "https://www.gov.uk/government/publications/revised-statutory-guidance-for-the-conduct-of-domestic-homicide-reviews",
-      "date": "2026-11-27T15:16:18+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/employment-tribunal-decisions/ms-b-hutchinson-and-others-v-county-durham-and-darlington-nhs-foundation-trust-2501192-slash-2024-and-others",
-      "title": "Ms B Hutchinson and Others v County Durham and Darlington NHS Foundation Trust: 2501192/2024 and Others",
-      "url": "https://www.gov.uk/employment-tribunal-decisions/ms-b-hutchinson-and-others-v-county-durham-and-darlington-nhs-foundation-trust-2501192-slash-2024-and-others",
-      "date": "2026-11-27T14:50:52+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy-one-year-on",
-      "title": "Replacing animals in science strategy: one year on",
-      "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy-one-year-on",
-      "date": "2026-11-27T14:30:00+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/ministry-of-justice-annual-report-and-accounts-2025-to-2026",
-      "title": "Ministry of Justice annual report and accounts: 2025 to 2026",
-      "url": "https://www.gov.uk/government/publications/ministry-of-justice-annual-report-and-accounts-2025-to-2026",
-      "date": "2026-11-27T14:03:27+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/evidence-and-the-marine-management-organisation-mmo",
-      "title": "Evidence and the Marine Management Organisation (MMO)",
-      "url": "https://www.gov.uk/government/publications/evidence-and-the-marine-management-organisation-mmo",
-      "date": "2026-11-27T14:02:47+00:00"
-    },
-    {
-      "source": "govuk-ai",
-      "label": "GOV.UK updates on artificial intelligence",
-      "jurisdiction": "UK",
-      "id": "https://www.gov.uk/government/publications/government-veterinary-profession-workforce-strategy",
-      "title": "Government veterinary profession workforce strategy",
-      "url": "https://www.gov.uk/government/publications/government-veterinary-profession-workforce-strategy",
-      "date": "2026-11-27T14:00:00+00:00"
+      "source": "fr-ai",
+      "label": "US Federal Register: artificial intelligence",
+      "jurisdiction": "US",
+      "id": "2026-24266",
+      "title": "Agency Information Collection Activities; Submission for OMB Review; Comment Request; Fraud.gov Tip Intake and Referral Form",
+      "url": "https://www.federalregister.gov/documents/2026/11/30/2026-24266/agency-information-collection-activities-submission-for-omb-review-comment-request-fraudgov-tip",
+      "date": "2026-11-30",
+      "extra": "Notice"
     }
   ],
   "page_changes": [

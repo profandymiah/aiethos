@@ -97,7 +97,7 @@ All
  62 results 
 
  House of Commons
- 141 results 
+ 142 results 
 
  Bill type 
  selected 
@@ -117,7 +117,7 @@ All
  43 results 
 
  Private Member’s Bill
- 98 results 
+ 99 results 
 
  Political affiliation 
  selected 
@@ -131,7 +131,7 @@ All
  6 results 
 
  Conservative
- 55 results 
+ 56 results 
 
  Green Party
  1 result 
@@ -157,13 +157,13 @@ All
 All 
 
  At consideration in committee in the House of Commons
- 19 results 
+ 18 results 
 
  At consideration in committee in the Senate
  15 results 
 
  At report stage in the House of Commons
- 7 results 
+ 8 results 
 
  At report stage in the Senate
  2 results 
@@ -193,7 +193,7 @@ All
  2 results 
 
  Outside the Order of Precedence
- 56 results 
+ 57 results 
 
  Royal assent received
  34 results 
@@ -211,7 +211,7 @@ All
 All 
 
  30th - Carney, Mark
- 203 results 
+ 204 results 
 
  (March 14, 2025 to present) 
 
@@ -342,7 +342,7 @@ All
  1 result 
 
  Albas, Dan
- 1 result 
+ 2 results 
 
  Ali, Shafqat
  7 results 
@@ -713,9 +713,9 @@ All
  Show more 
  Show less 
 
- Results 1-60 of 203 
+ Results 1-60 of 204 
 
- Results 1-60 of 203 
+ Results 1-60 of 204 
 
  Relevance
 
@@ -1698,7 +1698,7 @@ All
  An Act respecting the recognition of wartime service
 
  Current status 
- At consideration in committee in the House of Commons 
+ At report stage in the House of Commons 
 
  Last major stage completed 
  Second reading in the House of Commons 
@@ -3212,11 +3212,11 @@ All
 
  Current status
 
- At consideration in committee in the House of Commons
+ At report stage in the House of Commons
 
  Latest activity
 
- Second reading and referral to committee on November 4, 2026 (House of Commons)
+ Committee report presented with amendments on November 27, 2026 (House of Commons)
 
  S-247
 

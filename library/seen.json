@@ -1,6 +1,7 @@
 {
   "fr-ai": {
     "ids": [
+      "2026-24266",
       "2026-24107",
       "2026-23960",
       "2026-23777",
@@ -59,7 +60,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   },
   "uk-bills": {
     "ids": [
@@ -70,7 +71,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   },
   "govuk-ai": {
     "ids": [
@@ -330,7 +331,7 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   },
   "ec-ai-news": {
     "ids": [
@@ -356,13 +357,13 @@
     ],
     "page_hash": null,
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   },
   "oecd-ai-news": {
     "ids": [],
     "page_hash": "023ec3c5663d959e4420e80985be31873fc2a0ca6060b1b42d24bb56361fc0ff",
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   },
   "coe-ai-news": {
     "ids": [],
@@ -373,18 +374,18 @@
     "ids": [],
     "page_hash": "c232424ff1b625418fe33a867535c0fdabcbdee7a66fff76844bbbdfa8ac584a",
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   },
   "nist-ai-news": {
     "ids": [],
     "page_hash": "f28e2e14faeae98badc2eb06687cbe6a14958a0dbe3945047e828dc355ee2bfb",
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   },
   "regulations-ai": {
     "ids": [],
-    "page_hash": "f582b8cc230f23045cd174b1c57f4ab29ca8100cf323289d6ad33035a9a7beab",
+    "page_hash": "715b7549fe1c2a933b188452e7fbfc9b3e462d41eacac8a2656810454b8d5ff0",
     "initialised": true,
-    "last_checked": "2026-11-27T16:55:48.338Z"
+    "last_checked": "2026-11-28T15:46:21.067Z"
   }
 }
